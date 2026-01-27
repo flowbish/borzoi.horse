@@ -3,6 +3,9 @@ on:
   push:
     branches:
       - master
+      
+  # apparenty this is valid yaml and also this is how you allow this to be run manually??
+  workflow_dispatch:
 
 permissions:
   contents: read
