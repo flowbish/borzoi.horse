@@ -1,3 +1,15 @@
+$max-layout-width: 864px;
+
+:root {
+    --font-size: 1rem;
+    --line-height: 1.54em;
+    --radius: 0;
+
+    @media (max-width: 684px) {
+        --font-size: 0.95rem;
+    }
+}
+
 @mixin henny-penny-regular {
   font-family: "Henny Penny", system-ui;
   font-weight: 400;
@@ -16,14 +28,88 @@
   font-style: normal;
 }
 
-body {
-  @include ibm-plex-serif-regular;
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
 }
 
-h1, h2 {
+body {
+  @include ibm-plex-serif-regular;
+
+  &.layout-left,
+  &.layout-center,
+  &.layout-full-width {
+      display: flex;
+      flex-direction: column;
+      padding: 40px;
+      max-width: $max-layout-width;
+      min-height: 100vh;
+      border-right: 1px solid color-mix(in srgb, var(--accent-color) 10%, transparent);
+
+      @media (max-width: 684px) {
+          padding: 20px;
+      }
+  }
+
+  &.layout-center,
+  &.layout-full-width {
+      border: none;
+      margin: 0 auto;
+  }
+
+  &.layout-full-width {
+      max-width: 100%;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
   @include henny-penny-regular;
 }
 
 code {
   @include coral-pixels-regular;
+}
+
+main {
+    overflow-wrap: break-word;
+}
+
+h1 {
+    font-size: calc(var(--font-size) * 3);
+    letter-spacing: 0;
+}
+
+h2 {
+    font-size: calc(var(--font-size) * 2.4);
+    letter-spacing: 0;
+}
+
+h3 {
+    font-size: calc(var(--font-size) * 1.8);
+    letter-spacing: 0;
+}
+
+h4,
+h5,
+h6 {
+    font-size: calc(var(--font-size) * 1);
+    letter-spacing: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+img,
+figure,
+video,
+table {
+    margin: 25px 0;
 }
