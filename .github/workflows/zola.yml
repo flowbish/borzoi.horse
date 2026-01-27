@@ -2,7 +2,7 @@ name: Build and deploy Zola website
 on:
   push:
     branches:
-      - master
+      - main
       
   # apparenty this is valid yaml and also this is how you allow this to be run manually??
   workflow_dispatch:
