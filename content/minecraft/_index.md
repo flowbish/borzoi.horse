@@ -1,5 +1,6 @@
 +++
 title = "my minecraft photos"
+description = "my minecraft photos please enjoy!!"
 
 [extra]
 gallery_photos = [
