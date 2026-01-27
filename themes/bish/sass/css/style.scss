@@ -1,0 +1,29 @@
+@mixin henny-penny-regular {
+  font-family: "Henny Penny", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@mixin coral-pixels-regular {
+  font-family: "Coral Pixels", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@mixin ibm-plex-serif-regular {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  @include ibm-plex-serif-regular;
+}
+
+h1, h2 {
+  @include henny-penny-regular;
+}
+
+code {
+  @include coral-pixels-regular;
+}
