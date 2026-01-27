@@ -7,7 +7,10 @@ compile_sass = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 
-title = "My Site Title"
+title = "borzoi horse"
+author = "flowbish"
+description = "my webbed site for me and my friends"
+
 theme = "bish"
 
 [extra]
