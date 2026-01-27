@@ -8,8 +8,7 @@ compile_sass = true
 build_search_index = true
 
 title = "My Site Title"
-theme = "terminus"
-
+theme = "bish"
 
 [extra]
 # Put all your custom variables here
