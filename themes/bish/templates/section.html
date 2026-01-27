@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{%- block title -%}{{ section.title }}{%- endblock -%}
+
+{%- block main -%}
+{%- if section.content -%}
+{{ section.content | indent | safe }}
+{%- endif -%}
+{%- endblock -%}

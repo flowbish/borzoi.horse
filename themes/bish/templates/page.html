@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+
+{%- block title -%}{{ page.title }}{%- endblock -%}
+
+{%- block main -%}
+{%- if page.content -%}
+{{ page.content | indent | safe }}
+{%- endif -%}
+{%- endblock -%}
