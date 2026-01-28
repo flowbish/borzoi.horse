@@ -114,13 +114,30 @@ table {
     margin: 25px 0;
 }
 
-.logo {
-  size: 100px;
-}
-
-.logo-text {
+header h1 {
   @include henny-penny-regular;
   font-size: calc(var(--font-size) * 4);
-  margin-top: 0px;
-  margin-left: 40px;
+  width: 100%;
+  margin: 0;
+}
+
+header .nav {
+  display: flex;
+  align-items: flex-start;
+}
+
+header .nav .logo {
+  width: 240px;
+  padding: 0;
+}
+
+header .nav .logo img :hover {
+  transform: rotateY(180deg);
+}
+
+header .nav a {
+  @include coral-pixels-regular;
+  font-size: calc(var(--font-size) * 1.5);
+  align-self: center;
+  padding: 15px;
 }

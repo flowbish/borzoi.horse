@@ -15,3 +15,4 @@ theme = "bish"
 
 [extra]
 # Put all your custom variables here
+nav_sections = ["minecraft/_index.md", "blog/_index.md"]
