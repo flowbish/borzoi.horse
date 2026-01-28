@@ -1,7 +1,3 @@
-{%- block links -%}
-<link rel="stylesheet" href="{{ get_url(path="css/mystyle.css", cachebust=true) }}">
-{%- endblock -%}
-
 <div class="gallery">
 {% for asset in section.assets -%}
   {%- if asset is matching("[.](jpg|png)$") -%}
