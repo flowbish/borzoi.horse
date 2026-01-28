@@ -99,6 +99,15 @@
     {%- endif %}
   </head>
 <body class="layout-center">
+  <header>
+    <a class="logo" href="{{ get_url(path="/") }}">
+      {% set logo = resize_image(path="logo.png", width=240, height=200) %}
+      <img src="{{ logo.url }}" />
+    </a>
+      <span class="logo-text">
+        borzoi horse
+      </span>
+  </header>
   <main id="main">
   {% block main %}{% endblock %}
   </main>

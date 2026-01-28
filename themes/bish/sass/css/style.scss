@@ -113,3 +113,14 @@ video,
 table {
     margin: 25px 0;
 }
+
+.logo {
+  size: 100px;
+}
+
+.logo-text {
+  @include henny-penny-regular;
+  font-size: calc(var(--font-size) * 4);
+  margin-top: 0px;
+  margin-left: 40px;
+}
