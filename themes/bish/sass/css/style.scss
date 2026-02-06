@@ -126,11 +126,14 @@ header h1 {
 header .nav {
   display: flex;
   align-items: flex-start;
+  justify-content: flex-end;
+  flex-wrap: wrap;
 }
 
 header .nav .logo {
   width: 240px;
   padding: 0;
+  margin-right: auto;
 }
 
 header .nav .logo img:hover {
@@ -143,6 +146,7 @@ header .nav a {
   align-self: center;
   padding: 15px;
   text-decoration: none;
+  flex-basis: 100px;
 }
 
 header, main {
