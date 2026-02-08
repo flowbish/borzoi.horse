@@ -149,8 +149,20 @@ header .nav a {
   flex-basis: 100px;
 }
 
-header, main {
+header, main, footer {
   background: white;
   box-shadow: 0 0 20px 20px white;
-  padding: 20px;
+  padding: 10px;
+}
+
+footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+footer a {
+  @include coral-pixels-regular;
+  filter: blur(0.3px);
 }
