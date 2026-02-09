@@ -101,6 +101,10 @@ table {
     margin: 25px 0;
 }
 
+p, ul, ol {
+  line-height: var(--line-height);
+}
+
 header h1 {
   @include font.henny-penny-regular;
   font-size: calc(var(--font-size) * 4);
