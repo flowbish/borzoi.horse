@@ -2,8 +2,25 @@
 
 {%- block title -%}{{ section.title }}{%- endblock -%}
 
+{%- block description -%}
+    {%- if page.description %}
+    <meta name="description" content="{{ page.description | markdown(inline=true) | striptags }}">
+    {%- elif page.summary %}
+    <meta name="description" content="{{ page.summary | linebreaksbr | replace(from="<br>", to=" ") | striptags | trim_end_matches(pat=".") | safe }}…">
+    {%- endif %}
+{%- endblock -%}
+
+
 {%- block main -%}
+
 {%- if section.content -%}
-{{ section.content | indent | safe }}
+<header class="content {%- if section.extra.framed %} framed{%- endif -%}">
+    {{ section.content | indent | safe }}
+</header>
 {%- endif -%}
+
+{% for page in section.pages -%}
+{{ post_macros::excerpt(page=page) }}
+{% endfor -%}
+
 {%- endblock -%}

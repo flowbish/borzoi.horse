@@ -1,10 +1,21 @@
 {% extends "base.html" %}
 
-
 {%- block title -%}{{ page.title }}{%- endblock -%}
 
+{%- block description -%}
+    {%- if page.description %}
+    <meta name="description" content="{{ page.description | markdown(inline=true) | striptags }}">
+    {%- elif page.summary %}
+    <meta name="description" content="{{ page.summary | linebreaksbr | replace(from="<br>", to=" ") | striptags | trim_end_matches(pat=".") | safe }}…">
+    {%- endif %}
+{%- endblock -%}
+
 {%- block main -%}
-{%- if page.content -%}
-{{ page.content | indent | safe }}
-{%- endif -%}
+{%- filter indent -%}{%- filter indent -%}
+<article class="post content">
+    {{ post_macros::header(page=page, heading="h1") | indent | safe }}
+{%- endfilter %}{%- endfilter %}
+
+{{ page.content | safe }}
+
 {%- endblock -%}

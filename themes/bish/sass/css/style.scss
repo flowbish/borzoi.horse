@@ -1,3 +1,6 @@
+@use 'post';
+@use 'font';
+
 $max-layout-width: 864px;
 
 :root {
@@ -10,24 +13,6 @@ $max-layout-width: 864px;
     }
 }
 
-@mixin henny-penny-regular {
-  font-family: "Henny Penny", system-ui;
-  font-weight: 400;
-  font-style: normal;
-}
-
-@mixin coral-pixels-regular {
-  font-family: "Coral Pixels", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-@mixin ibm-plex-serif-regular {
-  font-family: "IBM Plex Serif", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
 
 *,
 *::before,
@@ -36,7 +21,7 @@ $max-layout-width: 864px;
 }
 
 body {
-  @include ibm-plex-serif-regular;
+  @include font.ibm-plex-serif-regular;
 
   &.layout-left,
   &.layout-center,
@@ -67,11 +52,11 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  @include henny-penny-regular;
+  @include font.henny-penny-regular;
 }
 
 code {
-  @include coral-pixels-regular;
+  @include font.coral-pixels-regular;
 }
 
 main {
@@ -117,7 +102,7 @@ table {
 }
 
 header h1 {
-  @include henny-penny-regular;
+  @include font.henny-penny-regular;
   font-size: calc(var(--font-size) * 4);
   width: 100%;
   margin: 0;
@@ -145,7 +130,7 @@ header .nav .logo img:hover {
 }
 
 header .nav a {
-  @include coral-pixels-regular;
+  @include font.coral-pixels-regular;
   font-size: calc(var(--font-size) * 1.5);
   align-self: center;
   padding: 15px;
@@ -172,7 +157,7 @@ footer {
 }
 
 footer a {
-  @include coral-pixels-regular;
+  @include font.coral-pixels-regular;
   font-size: 20px;
   text-decoration: none;
   filter: blur(0.3px);
