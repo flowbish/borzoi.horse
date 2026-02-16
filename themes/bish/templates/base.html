@@ -104,7 +104,7 @@
     {%- endif %}
   </head>
 <body class="layout-center">
-  <header>
+  <header class="nav">
     <h1>
       <a href="{{ get_url(path="/") }}">
         {{config.title}}
@@ -115,7 +115,7 @@
       <img onmouseenter="count()" src="{{ logo.url }}" />
       <span>flip count = </span><span id="count">0</span>
     </div>
-    <div class="nav"">
+    <div class="links"">
       {%- for section in config.extra.nav_sections -%}
         {%- set section = get_section(path=section, metadata_only=true) -%}
         <a href="{{section.path}}">{{section.extra.nav_title}}</a>
