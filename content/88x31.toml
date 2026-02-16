@@ -14,21 +14,21 @@ image = "/cobra-monster.webp"
 alt = "cobra.monster"
 
 [[buttons]]
-image = "88x31.webp"
+image = "/88x31.webp"
 alt = "88 x 31"
 
 [[buttons]]
-image = "free-palestine.webp"
+image = "/free-palestine.webp"
 alt = "free palestine"
 
 [[buttons]]
-image = "graphic-design-passion.webp"
+image = "/graphic-design-passion.webp"
 alt = "graphic design is my passion"
 
 [[buttons]]
-image = "puter-full-of-rats.webp"
+image = "/puter-full-of-rats.webp"
 alt = "'puter full of rats"
 
 [[buttons]]
-image = "queer-coded.webp"
+image = "/queer-coded.webp"
 alt = "queer coded"
