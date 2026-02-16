@@ -191,6 +191,10 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  h3 {
+    margin-bottom: 0;
+  }
 }
 
 footer .rff-webring {
