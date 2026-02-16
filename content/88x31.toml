@@ -14,6 +14,7 @@ image = "cobra-monster.webp"
 alt = "cobra.monster"
 
 [[buttons]]
+url = "https://88x31.nl/"
 image = "88x31.webp"
 alt = "88 x 31"
 
@@ -32,3 +33,78 @@ alt = "'puter full of rats"
 [[buttons]]
 image = "queer-coded.webp"
 alt = "queer coded"
+
+[[buttons]]
+url = "https://borzoi.horse"
+image = "borzoi-horse.gif"
+alt = "borzoi-horse.gif"
+
+# past here is random stuff from https://88x31.nl
+
+[[buttons]]
+image = "800x600a.gif"
+alt = "800x600a.gif"
+
+[[buttons]]
+image = "bobbutton.gif"
+alt = "bobbutton.gif"
+
+[[buttons]]
+image = "get_shockwave_20010813.gif"
+alt = "get_shockwave_20010813.gif"
+
+[[buttons]]
+image = "gimp.gif"
+alt = "gimp.gif"
+
+[[buttons]]
+image = "gnu-linux.gif"
+alt = "gnu-linux.gif"
+
+[[buttons]]
+image = "lolwut.png"
+alt = "lolwut.png"
+
+[[buttons]]
+image = "mysql5.gif"
+alt = "mysql5.gif"
+
+[[buttons]]
+image = "netscape_never.gif"
+alt = "netscape_never.gif"
+
+[[buttons]]
+image = "netscape_now01.gif"
+alt = "netscape_now01.gif"
+
+[[buttons]]
+image = "noframes3.gif"
+alt = "noframes3.gif"
+
+[[buttons]]
+image = "pokemonboosterpack.gif"
+alt = "pokemonboosterpack.gif"
+
+[[buttons]]
+image = "quicktime5_required_20010920.gif"
+alt = "quicktime5_required_20010920.gif"
+
+[[buttons]]
+image = "quicktime6_required_20040917.gif"
+alt = "quicktime6_required_20040917.gif"
+
+[[buttons]]
+image = "tran.png"
+alt = "tran.png"
+
+[[buttons]]
+image = "vim.vialle.love.anim.gif"
+alt = "vim.vialle.love.anim.gif"
+
+[[buttons]]
+image = "visitmini.gif"
+alt = "visitmini.gif"
+
+[[buttons]]
+image = "weedpizzatoebeans_now_edit.gif"
+alt = "weedpizzatoebeans_now_edit.gif"
