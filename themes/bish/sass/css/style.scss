@@ -105,6 +105,11 @@ p, ul, ol {
   line-height: var(--line-height);
 }
 
+
+img {
+    max-width: 100%;
+}
+
 header h1 {
   @include font.henny-penny-regular;
   font-size: calc(var(--font-size) * 4);
@@ -123,6 +128,10 @@ header .nav .logo {
   width: 240px;
   padding: 0;
   margin-right: auto;
+
+  img {
+    max-width: max-content;
+  }
 }
 
 header .nav .logo:hover {
