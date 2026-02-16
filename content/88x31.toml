@@ -1,0 +1,14 @@
+[[buttons]]
+url = "https://large.horse/"
+image = "/large-horse.gif"
+alt = "large.horse"
+
+[[buttons]]
+url = "https://transrats.neocities.org/"
+image = "/transrats.gif"
+alt = "trans rats"
+
+[[buttons]]
+url = "https://cobra.monster/"
+image = "/cobra-monster.webp"
+alt = "cobra.monster"

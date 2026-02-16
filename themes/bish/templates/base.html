@@ -139,9 +139,10 @@
   <footer>
     <h3>see more cool stuff</h2>
     <div>
-      <a href="http://large.horse"><img src="http://large.horse/button.gif" alt="large.horse" loading="lazy"></a>
-      <a href="https://transrats.neocities.org/"><img src="https://transrats.neocities.org/buttons/transrats.gif" alt="trans rats" loading="lazy"></a>
-      <a href="https://cobra.monster/"><img src="https://cobra.monster/_astro/cobra.monster.OCLY4hzR_26rqpc.webp" alt="cobra.monster" loading="lazy"></a>
+      {% set data = load_data(path="/88x31.toml") %}
+      {% for button in data.buttons | sort(attribute="alt") %}
+         <a href="{{button.url}}"><img src="{{button.image}}" alt="{{button.alt}}" loading="lazy" /></a>
+      {% endfor %}
     </div>
     <div class="rff-webring">
       <a href="https://cobra.monster/rff-webring/borzoi.horse/prev"><img src="/point-right.svg" width="50px" /></a>
