@@ -141,7 +141,9 @@
     <div>
       {% set data = load_data(path="/88x31.toml") %}
       {% for button in data.buttons | sort(attribute="alt") %}
-         <a href="{{button.url}}"><img src="{{button.image}}" alt="{{button.alt}}" loading="lazy" /></a>
+        {% if button.url %}<a href="{{button.url}}">{% endif %}
+          <img src="{{button.image}}" alt="{{button.alt}}" loading="lazy" />
+        {% if button.url %}</a>{% endif %}
       {% endfor %}
     </div>
     <div class="rff-webring">
