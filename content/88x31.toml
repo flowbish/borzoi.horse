@@ -59,10 +59,6 @@ image = "get_shockwave_20010813.gif"
 alt = "get_shockwave_20010813.gif"
 
 [[buttons]]
-image = "gimp.gif"
-alt = "gimp.gif"
-
-[[buttons]]
 image = "gnu-linux.gif"
 alt = "gnu-linux.gif"
 
