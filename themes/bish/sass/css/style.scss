@@ -187,12 +187,18 @@ header, main, footer {
   padding: 10px;
 }
 
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 footer .rff-webring {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  
+
   a {
     @include font.coral-pixels-regular;
     font-size: 20px;
