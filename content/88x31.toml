@@ -4,6 +4,11 @@ image = "large-horse.gif"
 alt = "large.horse"
 
 [[buttons]]
+url = "https://k.ink.horse/fics"
+image = "iris-tail.png"
+alt = "k.ink.horse"
+
+[[buttons]]
 url = "https://transrats.neocities.org/"
 image = "transrats.gif"
 alt = "trans rats"
