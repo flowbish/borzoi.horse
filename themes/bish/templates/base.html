@@ -105,21 +105,21 @@
   </head>
 <body class="layout-center">
   <header>
-    <div class="nav">
-      <h1>{{config.title}}</h1>
-      <div class="logo">
-        <a href="{{ get_url(path="/") }}">
-          {% set logo = resize_image(path="logo.png", width=240, height=200) %}
-          <img onmouseenter="count()" src="{{ logo.url }}" />
-        </a>
-        <span>count = </span><span id="count">0</span>
-      </div>
-      <div>
-        {%- for section in config.extra.nav_sections -%}
-          {%- set section = get_section(path=section, metadata_only=true) -%}
-          <a href="{{section.path}}">{{section.extra.nav_title}}</a>
-        {%- endfor -%}
-      </div>
+    <h1>
+      <a href="{{ get_url(path="/") }}">
+        {{config.title}}
+      </a>  
+    </h1>
+    <div class="logo">
+      {% set logo = resize_image(path="logo.png", width=240, height=200) %}
+      <img onmouseenter="count()" src="{{ logo.url }}" />
+      <span>flip count = </span><span id="count">0</span>
+    </div>
+    <div class="nav"">
+      {%- for section in config.extra.nav_sections -%}
+        {%- set section = get_section(path=section, metadata_only=true) -%}
+        <a href="{{section.path}}">{{section.extra.nav_title}}</a>
+      {%- endfor -%}
     </div>
     <script>
       function count() {
