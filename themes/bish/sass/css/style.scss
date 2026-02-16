@@ -120,7 +120,7 @@ header h1 {
   font-size: calc(var(--font-size) * 4);
   margin: 0;
   margin-right: 10px;
-  flex-basis: 150px;
+  flex-basis: 15%;
   
 
   a {
@@ -134,7 +134,7 @@ header .logo {
 
   display: flex;
   flex-direction:column;
-  flex-basis: 200px;
+  flex-basis: 25%;
   flex-wrap: wrap-reverse;
   margin-left: auto;
 
