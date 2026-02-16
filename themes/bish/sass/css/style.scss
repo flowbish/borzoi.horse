@@ -187,29 +187,29 @@ header, main, footer {
   padding: 10px;
 }
 
-footer {
+footer .rff-webring {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-}
+  
+  a {
+    @include font.coral-pixels-regular;
+    font-size: 20px;
+    text-decoration: none;
+    filter: blur(0.3px);
+  }
 
-footer a {
-  @include font.coral-pixels-regular;
-  font-size: 20px;
-  text-decoration: none;
-  filter: blur(0.3px);
-}
+  a:hover {
+    filter: invert(1);
+    filter: hue-rotate(180deg);
+  }
 
-footer a:hover {
-  filter: invert(1);
-  filter: hue-rotate(180deg);
-}
+  a img {
+    margin: 0px 10px;
+  }
 
-footer a img {
-  margin: 0px 10px;
-}
-
-footer a:first-child {
-  transform: scaleX(-1);
+  a:first-child {
+    transform: scaleX(-1);
+  }
 }
