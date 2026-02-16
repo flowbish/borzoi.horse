@@ -134,7 +134,30 @@
     </script>
   </header>
   <main id="main">
-  {% block main %}{% endblock %}
+    <div id="verification" class="verification-popover">
+      <div class="body">
+        <h1>You must be a horse to view and use this website</h1>
+        <form novalidate method="get">
+          <button onclick="user_is_a_horse()">I'm a horse</button>
+          <button onclick="user_is_not_a_horse()">I'm not a horse</button>
+        </form>
+      </div>
+    </div>
+    <script>
+      function user_is_a_horse() {
+        localStorage.setItem("horse_verification", true);
+      }
+
+      function user_is_not_a_horse() {
+        localStorage.removeItem("horse_verification");
+      }
+
+      let verified = localStorage.getItem("horse_verification");
+      if (!verified) {
+        document.getElementById("verification").style.animationPlayState = "running";
+      }
+    </script>
+    {% block main %}{% endblock %}
   </main>
   <footer>
     <h3>see more cool stuff</h2>

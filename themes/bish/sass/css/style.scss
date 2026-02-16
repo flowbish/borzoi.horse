@@ -1,5 +1,6 @@
 @use 'post';
 @use 'font';
+@use 'verification';
 
 $max-layout-width: 864px;
 
@@ -14,6 +15,10 @@ $max-layout-width: 864px;
 *::before,
 *::after {
     box-sizing: inherit;
+}
+
+.hidden {
+  display: none;
 }
 
 body {
