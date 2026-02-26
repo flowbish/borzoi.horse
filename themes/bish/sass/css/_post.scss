@@ -1,11 +1,5 @@
 @use 'font';
 
-
-:root {
-    --text-color: rgb(121, 89, 62);
-    --accent-color: rgb(139, 224, 89);
-}
-
 .content {
     ul:not(.post-meta) {
         list-style: none;
