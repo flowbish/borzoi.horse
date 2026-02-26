@@ -25,6 +25,7 @@ body {
   --background-color: white;
   --text-color: black;
   --accent-color: palevioletred;
+  --visited-accent-color: indianred;
 }
 
 body[theme="grass"] {
@@ -47,7 +48,8 @@ body[theme="sculk"] {
   background-repeat: repeat;
   --background-color: rgb(40, 41, 46);
   --text-color: azure;
-  --accent-color: darkcyan;
+  --accent-color: teal;
+  --visited-accent-color: darkcyan;
   font-palette: --dark-mode;
 }
 
@@ -134,6 +136,14 @@ p, ul, ol {
 
 img {
     max-width: 100%;
+}
+
+a {
+  color: var(--accent-color);
+}
+
+a:visited {
+  color: var(--visited-accent-color);
 }
 
 .nav {
