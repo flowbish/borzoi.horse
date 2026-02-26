@@ -43,6 +43,20 @@ body[theme="snow"] {
   background-repeat: repeat-x, repeat;
 }
 
+body[theme="nether"] {
+  background-image: url("/minecraft-netherrack.jpg");
+  background-repeat: repeat;
+  --background-color: rgb(68, 18, 18);
+  --text-color: oldlace;
+  --accent-color: palevioletred;
+  --visited-accent-color: indianred;
+  font-palette: --dark-mode;
+  
+  .rff-webring img {
+    filter: invert(1);
+  }
+}
+
 body[theme="sculk"] {
   background-image: url("/minecraft-sculk.jpg");
   background-repeat: repeat;
