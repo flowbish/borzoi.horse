@@ -51,6 +51,10 @@ body[theme="sculk"] {
   --accent-color: teal;
   --visited-accent-color: darkcyan;
   font-palette: --dark-mode;
+
+  .rff-webring img {
+    filter: invert(1);
+  }
 }
 
 body {
@@ -305,8 +309,4 @@ footer .rff-webring {
     background-image: url("/minecraft-grass.jpg")
   }
 
-}
-
-body[theme="sculk"] .rff-webring img {
-    filter: invert(1);
 }
