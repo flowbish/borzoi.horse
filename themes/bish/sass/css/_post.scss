@@ -92,10 +92,11 @@
 
     a {
         text-decoration: none;
+        color: var(--accent-color);
     }
 
     a:hover {
-        filter: invert(1) hue-rotate(180deg);
+        filter: invert(0.8) hue-rotate(180deg);
     }
 }
 
