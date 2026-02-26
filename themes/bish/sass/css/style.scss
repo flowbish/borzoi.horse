@@ -21,6 +21,21 @@ $max-layout-width: 864px;
   display: none;
 }
 
+body[theme="grass"] {
+  background-image: url("/minecraft-grass.jpg"), url("/minecraft-dirt.jpg");
+  background-repeat: repeat-x, repeat;
+}
+
+body[theme="dirt"] {
+  background-image: url("/minecraft-dirt.jpg");
+  background-repeat: repeat;
+}
+
+body[theme="snow"] {
+  background-image: url("/minecraft-snow.jpg"), url("/minecraft-dirt.jpg");
+  background-repeat: repeat-x, repeat;
+}
+
 body {
   @include font.ibm-plex-serif-regular;
 
@@ -44,9 +59,6 @@ body {
   &.layout-full-width {
       max-width: 100%;
   }
-
-  background-image: url("/minecraft-grass.jpg"), url("/minecraft-dirt.jpg");
-  background-repeat: repeat-x, repeat;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -234,5 +246,23 @@ footer .rff-webring {
 
   a:first-child {
     transform: scaleX(-1);
+  }
+}
+
+.theme-selector {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+
+  img {
+    margin: 5px;
+    height: 40px;
+    border-radius: 0;
+    border: black 1px solid;
+    background-image: url("/minecraft-grass.jpg")
+  }
+
+  img:hover {
+    cursor: pointer;
   }
 }

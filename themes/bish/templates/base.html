@@ -177,6 +177,24 @@
       <a href="https://cobra.monster/rff-webring">RFF Webring</a>
       <a href="https://cobra.monster/rff-webring/borzoi.horse/next"><img src="/point-right.svg" width="50px" /></a>
     </div>
+    <div class="theme-selector">
+      <img src="/minecraft-grass.jpg" onclick="set_theme('grass')"></button>
+      <img src="/minecraft-dirt.jpg" onclick="set_theme('dirt')"></button>
+      <img src="/minecraft-snow.jpg" onclick="set_theme('snow')"></button>
+    </div>
+    <script>
+      // inline javascript for the girlies
+      function set_theme(theme) {
+          localStorage.setItem("theme", theme);
+          document.body.setAttribute('theme', theme);
+      }
+
+      let theme = localStorage.getItem("theme");
+      if (theme == null) {
+        theme = "grass";
+      }
+      document.body.setAttribute('theme', theme);
+    </script>
   </footer>
 </body>
 </html>
