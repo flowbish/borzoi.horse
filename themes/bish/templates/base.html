@@ -107,20 +107,22 @@
   </head>
 <body class="layout-center">
   <header class="nav">
-    <h1>
+    <h1 class="flaming">
       <a href="{{ get_url(path="/") }}">
         {{config.title}}
       </a>  
     </h1>
-    <div class="logo">
+    <div class="logo flaming">
       {% set logo = resize_image(path="logo.png", width=240, height=200) %}
       <img onmouseenter="count()" src="{{ logo.url }}" />
       <span>flip count = </span><span id="count">0</span>
     </div>
-    <div class="links"">
+    <div class="links flaming">
       {%- for section in config.extra.nav_sections -%}
         {%- set section = get_section(path=section, metadata_only=true) -%}
-        <a href="{{section.path}}">{{section.extra.nav_title}}</a>
+        <div class="link" >
+          <a href="{{section.path}}">{{section.extra.nav_title}}</a>
+        </div>
       {%- endfor -%}
     </div>
     <script>

@@ -55,6 +55,25 @@ body[theme="nether"] {
   .rff-webring img {
     filter: invert(1);
   }
+
+  .flaming, footer, main {
+    position: relative;
+  }
+  
+  .flaming::before, footer::before, main::before {
+    content: '';
+    display: block;
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+  
+    background-image: url("/fire.gif"),;
+    background-position-y: 100%;
+    background-repeat: no-repeat; 
+    background-size: 100% 100%;
+    image-rendering: pixelated;
+    opacity: 20%;
+  }
 }
 
 body[theme="sculk"] {
@@ -224,23 +243,16 @@ a:visited {
   display: flex;
   align-self: flex-end;
   justify-content: flex-end;
+  height: 100%;
   flex-grow: 1;
 
-  a {
+  .link {
     @include font.coral-pixels-regular;
     font-size: calc(var(--font-size) * 1.3);
     align-self: flex-end;
     padding: 15px;
     flex-basis: 80px;
     min-width: 80px;
-
-    
-    override-colors: 
-      0 white,
-      1 white,
-      2 white,
-      3 white,
-      4 white;
   }
 
   a:hover {
