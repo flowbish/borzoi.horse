@@ -1,87 +1,89 @@
 @use 'font';
 
-.verification-popover {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    left: 0;
-    contain: content;
-    z-index: 2147483636;
-    overflow-x: hidden;
-    overflow-y: scroll;
-
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 100%;
+.verification-popover[open]::backdrop { 
     background: #aaaaaabb;
-
-    .body {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        max-width: 400px;
-        padding: 80px;
-        outline-color: var(--text-color);
-        outline-width: 3px;
-        outline-offset: -15px;
-        outline-style: solid;
-
-        background: var(--background-color);
-
-        h1 {
-            font-size: calc(var(--font-size) * 2);
-            text-align: center;
-        }
-
-        form {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-
-            button, a {
-                @include font.ibm-plex-serif-regular;
-                color: var(--text-color);
-
-                // Set properties so that the <a> and <button> styles look identical
-                text-decoration: none;
-                text-align: center;
-                padding-block: 1px;
-                padding-inline: 6px;
-                font-size: var(--font-size);
-                display: flex;
-                justify-content: center;
-                align-items: center;
-
-
-                margin-top: 10px;
-                height: 40px;
-                border-radius: 0;
-                border: 3px solid var(--text-color);
-                background: transparent;
-            }
-        }
-    }
-    
-    animation-name: fadein;
+        
+    animation-name: backdrop-fade-in;
     animation-duration: 2s;
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
-    animation-play-state: paused;
 
 }
 
-@keyframes fadein {
+.verification-popover[open] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    padding: 80px;
+    outline-color: var(--text-color);
+    outline-width: 3px;
+    outline-offset: -15px;
+    outline-style: solid;
+
+    background: var(--background-color);
+
+    h1 {
+        font-size: calc(var(--font-size) * 2);
+        text-align: center;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        button, a {
+            @include font.ibm-plex-serif-regular;
+            color: var(--text-color);
+
+            // Set properties so that the <a> and <button> styles look identical
+            text-decoration: none;
+            text-align: center;
+            padding-block: 1px;
+            padding-inline: 6px;
+            font-size: var(--font-size);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+            margin-top: 10px;
+            height: 40px;
+            border-radius: 0;
+            border: 3px solid var(--text-color);
+            background: transparent;
+        }
+    }
+    
+    animation-name: fade-in;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+}
+
+@keyframes fade-in {
     0% {
-        display: none;
+        opacity: 0%;
     }
     75% {
         opacity: 0%;
-        display: none;
     }
     100% {
         display: flex;
         opacity: 100%;
+    }
+}
+
+
+@keyframes backdrop-fade-in {
+    0% {
+        background: #00000000;
+    }
+    75% {
+        background: #00000000
+    }
+    100% {
+        background: #aaaaaabb;
     }
 }

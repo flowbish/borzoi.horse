@@ -138,18 +138,18 @@
     </script>
   </header>
   <main id="main">
-    <div id="verification" class="verification-popover">
-      <div class="body">
-        <h1>You must be a horse to view and use this website</h1>
-        <form novalidate method="get">
-          <button onclick="user_is_a_horse()">I'm a horse</button>
-          <a href="https://www.youtube.com/watch?v=IfRJb5b9LUg">I'm not a horse</a>
-        </form>
-      </div>
-    </div>
+    <dialog id="verification" class="verification-popover">
+      <h1>You must be a horse to view and use this website</h1>
+      <div>
+        <button onclick="user_is_a_horse()">I'm a horse</button>
+        <a href="https://www.youtube.com/watch?v=IfRJb5b9LUg">I'm not a horse</a>
+        </div>
+    </dialog>
     <script>
+      let verification_dialog = document.getElementById("verification");
       function user_is_a_horse() {
         localStorage.setItem("horse_verification", true);
+        verification_dialog.close();
       }
 
       function user_is_not_a_horse() {
@@ -158,7 +158,7 @@
 
       let verified = localStorage.getItem("horse_verification");
       if (!verified) {
-        document.getElementById("verification").style.animationPlayState = "running";
+        verification_dialog.showModal();
       }
     </script>
     {% block main %}{% endblock %}
