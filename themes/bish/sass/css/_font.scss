@@ -13,6 +13,39 @@
 @font-palette-values --dark-mode {
   font-family: "Coral Pixels";
   base-palette: 1;
+  override-colors: 
+    0 #1485f726,
+    1 #b7d0fa3d,
+    2 #fc7e274f,
+    3 #f3882b24,
+    4 #1209ff1c,
+    5 #56d4fdf0,
+    6 #fd7111f0,
+    7 #1383fdfc,
+    8 #bbe9f726,
+    9 #fdb444f5,
+    10 #f8eecf4a,
+    11 #fc3f0599,
+    12 #0554fdcf,
+    13 #c2fd92f0,
+    14 #df1efa4d,
+    15 #fa08081f,
+    16 #beeafc80,
+    17 #f9fedc59,
+    18 #7761ff9e,
+    19 #f813064f,
+    20 #0417fa42,
+    21 #1286fd61,
+    22 #7af6fb69,
+    23 #0543fc99,
+    24 #57bffdc4,
+    25 #fea095a6,
+    26 #071cfe75,
+    27 #ffb83c8c,
+    28 #239afca6,
+    29 #fc39789c,
+    30 #d6fea2a1,
+    31 #ffffffff;
 }
 
 @mixin ibm-plex-serif-regular {
