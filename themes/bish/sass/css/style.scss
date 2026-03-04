@@ -248,9 +248,10 @@ a:visited {
 
   .link {
     @include font.coral-pixels-regular;
-    font-size: calc(var(--font-size) * 1.3);
+    font-size: calc(var(--font-size) * 1.5);
     align-self: flex-end;
     padding: 15px;
+    padding-bottom: calc((sibling-count() - sibling-index() + 1) * 50px);
     flex-basis: 80px;
     min-width: 80px;
   }
