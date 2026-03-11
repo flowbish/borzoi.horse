@@ -1,0 +1,66 @@
+@use 'font';
+
+#about {
+    --font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+
+    h1, h2 {
+        text-shadow: var(--accent-color) 5px 5px;
+        animation-name: header-pulse;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+    @keyframes header-pulse {
+        0% {
+            text-shadow: var(--accent-color) 5px 5px;
+        }
+
+        50% {
+            text-shadow: var(--accent-color) 20px 20px;
+        }
+
+        100% {
+            text-shadow: var(--accent-color) 5px 5px;
+        }
+    }
+
+    p:nth-of-type(even) {
+        align-self: self-end;
+        width: 70%;
+    }
+
+    p {
+        background: var(--accent-color);
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    em, del {
+        text-decoration: none;
+        font-style: normal;
+        font-weight: bold;
+        font-size: calc(var(--font-size) * 1.25);
+        color: var(--background-color)
+    }
+
+    del {
+        background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+        background-clip: text;
+        color: transparent;
+        background-size: 400px 100%;
+        animation: rainbow_animation 3s linear infinite;
+    }
+
+    @keyframes rainbow_animation {
+        0% {
+            background-position: 0 0;
+        }
+
+        100% {
+            background-position: 400px 0;
+        }
+    }
+}

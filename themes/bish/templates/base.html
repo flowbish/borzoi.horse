@@ -105,39 +105,7 @@
     <meta name="fediverse:creator" content="{{ config.extra.fediverse_creator }}">
     {%- endif %}
   </head>
-<body class="layout-center">
-  <header class="nav">
-    <h1 class="flaming">
-      <a href="{{ get_url(path="/") }}">
-        {{config.title}}
-      </a>  
-    </h1>
-    <div class="logo flaming">
-      {% set logo = resize_image(path="logo.png", width=240, height=200) %}
-      <img onmouseenter="count()" src="{{ logo.url }}" />
-      <span>flip count = </span><span id="count">0</span>
-    </div>
-    <div class="links flaming">
-      {%- for section in config.extra.nav_sections -%}
-        {%- set section = get_section(path=section, metadata_only=true) -%}
-        <div class="link" >
-          <a href="{{section.path}}">{{section.extra.nav_title}}</a>
-        </div>
-      {%- endfor -%}
-    </div>
-    <script>
-      function count() {
-        let my_count = Number(localStorage.getItem("horseCount"));
-        my_count += 1
-        Number(localStorage.setItem("horseCount", my_count));
-        document.getElementById("count").textContent = my_count;
-      }
-
-      let global_count = Number(localStorage.getItem("horseCount"));
-      document.getElementById("count").textContent = global_count;
-    </script>
-  </header>
-  <main id="main">
+  <body class="layout-center">
     <dialog id="verification" class="verification-popover">
       <h1>You must be a horse to view and use this website</h1>
       <div>
@@ -161,44 +129,78 @@
         verification_dialog.showModal();
       }
     </script>
-    {% block main %}{% endblock %}
-  </main>
-  <footer>
-    <h3>see more cool stuff</h2>
-    <div>
-      {% set data = load_data(path="/88x31.toml") %}
-      {% for button in data.buttons | sort(attribute="alt") %}
-        {% if button.url %}<a href="{{button.url}}">{% endif %}
-          {% set image_url = get_url(path="/88x31/" ~ button.image) %}
-          <img src="{{image_url}}" alt="{{button.alt}}" loading="lazy" />
-        {% if button.url %}</a>{% endif %}
-      {% endfor %}
-    </div>
-    <div class="rff-webring">
-      <a href="https://cobra.monster/rff-webring/borzoi.horse/prev"><img src="/point-right.svg" width="50px" /></a>
-      <a href="https://cobra.monster/rff-webring">RFF Webring</a>
-      <a href="https://cobra.monster/rff-webring/borzoi.horse/next"><img src="/point-right.svg" width="50px" /></a>
-    </div>
-    <div class="theme-selector">
-      <button onclick="set_theme('grass')"><img src="/minecraft-grass.jpg"></button>
-      <button onclick="set_theme('dirt')"><img src="/minecraft-dirt.jpg"></button>
-      <button onclick="set_theme('snow')"><img src="/minecraft-snow.jpg"></button>
-      <button onclick="set_theme('nether')"><img src="/minecraft-netherrack.jpg"></button>
-      <button onclick="set_theme('sculk')"><img src="/minecraft-sculk.jpg"></button>
-    </div>
-    <script>
-      // inline javascript for the girlies
-      function set_theme(theme) {
-          localStorage.setItem("theme", theme);
-          document.body.setAttribute('theme', theme);
-      }
+    <header class="nav">
+      {% block header %}
+      <h1 class="flaming">
+        <a href="{{ get_url(path="/") }}">
+          {{config.title}}
+        </a>  
+      </h1>
+      <div class="logo flaming">
+        {% set logo = resize_image(path="logo.png", width=240, height=200) %}
+        <img onmouseenter="count()" src="{{ logo.url }}" />
+        <span>flip count = </span><span id="count">0</span>
+      </div>
+      <div class="links flaming">
+        {%- for section in config.extra.nav_sections -%}
+          {%- set section = get_section(path=section, metadata_only=true) -%}
+          <div class="link" >
+            <a href="{{section.path}}">{{section.extra.nav_title}}</a>
+          </div>
+        {%- endfor -%}
+      </div>
+      <script>
+        function count() {
+          let my_count = Number(localStorage.getItem("horseCount"));
+          my_count += 1
+          Number(localStorage.setItem("horseCount", my_count));
+          document.getElementById("count").textContent = my_count;
+        }
 
-      let theme = localStorage.getItem("theme");
-      if (theme == null) {
-        theme = "grass";
-      }
+        let global_count = Number(localStorage.getItem("horseCount"));
+        document.getElementById("count").textContent = global_count;
+      </script>
+      {% endblock %}
+    </header>
+    <main id="main">
+      {% block main %}{% endblock %}
+    </main>
+    <footer>
+      <h3>see more cool stuff</h2>
+      <div>
+        {% set data = load_data(path="/88x31.toml") %}
+        {% for button in data.buttons | sort(attribute="alt") %}
+          {% if button.url %}<a href="{{button.url}}">{% endif %}
+            {% set image_url = get_url(path="/88x31/" ~ button.image) %}
+            <img src="{{image_url}}" alt="{{button.alt}}" loading="lazy" />
+          {% if button.url %}</a>{% endif %}
+        {% endfor %}
+      </div>
+      <div class="rff-webring">
+        <a href="https://cobra.monster/rff-webring/borzoi.horse/prev"><img src="/point-right.svg" width="50px" /></a>
+        <a href="https://cobra.monster/rff-webring">RFF Webring</a>
+        <a href="https://cobra.monster/rff-webring/borzoi.horse/next"><img src="/point-right.svg" width="50px" /></a>
+      </div>
+      <div class="theme-selector">
+        <button onclick="set_theme('grass')"><img src="/minecraft-grass.jpg"></button>
+        <button onclick="set_theme('dirt')"><img src="/minecraft-dirt.jpg"></button>
+        <button onclick="set_theme('snow')"><img src="/minecraft-snow.jpg"></button>
+        <button onclick="set_theme('nether')"><img src="/minecraft-netherrack.jpg"></button>
+        <button onclick="set_theme('sculk')"><img src="/minecraft-sculk.jpg"></button>
+      </div>
+    </footer>
+  </body>
+  <script>
+  // inline javascript for the girlies
+  function set_theme(theme) {
+      localStorage.setItem("theme", theme);
       document.body.setAttribute('theme', theme);
-    </script>
-  </footer>
-</body>
+  }
+
+  let theme = localStorage.getItem("theme");
+  if (theme == null) {
+    theme = "grass";
+  }
+  document.body.setAttribute('theme', theme);
+</script>
 </html>
