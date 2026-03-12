@@ -3,7 +3,12 @@
 #about {
     --font-size: 1.5rem;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    a {
+        color: var(--background-color);
+    }
 
     h1, h2 {
         text-shadow: var(--accent-color) 5px 5px;
@@ -11,31 +16,33 @@
         animation-duration: 3s;
         animation-iteration-count: infinite;
         animation-timing-function: linear;
+        width: 100%;
     }
 
     @keyframes header-pulse {
-        0% {
+        0%, 100% {
             text-shadow: var(--accent-color) 5px 5px;
         }
-
         50% {
             text-shadow: var(--accent-color) 20px 20px;
         }
-
-        100% {
-            text-shadow: var(--accent-color) 5px 5px;
-        }
-    }
-
-    p:nth-of-type(even) {
-        align-self: self-end;
-        width: 70%;
     }
 
     p {
         background: var(--accent-color);
         padding: 10px;
         border-radius: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    p:nth-of-type(even) {
+        align-self: self-end;
+    }
+
+    blockquote {
+        width: 100%;
+        margin: 0;
     }
 
     em, del {
@@ -43,11 +50,27 @@
         font-style: normal;
         font-weight: bold;
         font-size: calc(var(--font-size) * 1.25);
-        color: var(--background-color)
+        color: var(--background-color);
+    }
+
+    @keyframes embiggen {
+        0% {
+            font-size: calc(var(--font-size) * 1.25);
+        }
+
+        100% {
+            font-size: calc(var(--font-size) * 1.75);
+        }
+    }
+
+    em:hover, a:hover {
+        animation-name: embiggen;
+        animation-duration: 0.3s;
+        animation-fill-mode:forwards;
     }
 
     del {
-        background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+        background: linear-gradient(to right, #6666ff, #bae3ff , #00ff00, #ff3399, #6666ff);
         background-clip: text;
         color: transparent;
         background-size: 400px 100%;

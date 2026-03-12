@@ -7,16 +7,28 @@ template = "about.html"
 
 # HELLO, I AM HORSE
 
-this is _flowbish_, speaking to you through the medium of ~hypertext~. 
+my name is _flowbish_ and I am speaking to you through the medium of ~hypertext~. i am a _borzoi_, a russian breed of _sight hound_ with beautiful, flowing fur. i also like _horses_ because they're basically the same thing :3
 
-## ABOUT ME
+![minecraft horse](/minecraft-horse.gif)
 
-I am a _dog on the internet_, a _crafter_
+check out my [blog](/blog)
 
-a _coffee lover_ and _music enjoyer_
+look at my [minecraft photos](/gallery)
 
-a _brazilian jiu-jitsu_ practicioner
+![minecraft pig](/minecraft-pig.gif)
 
-a _fiber artist_
+ponder my [stuff](/stuff)
 
-_making things_ is what I do
+## my hobbies
+
+_knitting_
+
+_sewing_
+
+_brazilian jiu-jitsu_
+
+_cooking_ 
+
+_making this website I guess lol_
+
+> but that's not all :3
