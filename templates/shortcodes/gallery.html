@@ -1,9 +1,51 @@
 <div class="gallery">
 {% for asset in section.assets -%}
   {%- if asset is matching("[.](jpg|png)$") -%}
-    <a href="{{ get_url(path=asset) }}" target="_blank">
+  {% set frag = "image-" ~ loop.index %}
+    <a href="#{{ frag }}" class="thumbnail">
       <img src="{{ asset }}" />
     </a>
+    <div class="viewer" id="{{ frag }}" >
+      {%- if loop.index > 1 -%}
+        {% set prev_index = loop.index - 1 %}
+        {% set prev = "image-" ~ prev_index %}
+        <a class="prev" href="#{{ prev }}">&larr;</a>
+      {% else %}
+        <a class="prev"></a>
+      {% endif %}
+      <a class="close" href="#_">
+        <img src="{{ asset }}" />
+      </a>
+      {%- if loop.index < section.assets | length -%}
+        {% set next_index = loop.index + 1 %}
+        {% set next = "image-" ~ next_index %}
+        <a class="next" href="#{{ next }}">&rarr;</a>
+      {% else %}
+        <a class="next"></a>
+      {% endif %}
+    </div>
   {%- endif %}
 {%- endfor %}
+<script>
+  let max_index = {{ section.assets | length }};
+  addEventListener("keydown", (event) => {
+    let hash = window.location.hash;
+    if (hash.substring(0, 7) == "#image-") {
+      let index = parseInt(hash.substring(7), 10);
+      if (event.key == "ArrowRight") {
+        if (index < max_index) {
+          let next = "#image-" + (index + 1);
+          window.location.assign(next);
+        }
+      } else if (event.key == "ArrowLeft") {
+        if (index > 1) {
+          let next = "#image-" + (index - 1);
+          window.location.assign(next);
+        }
+      } else if (event.key == "Escape") {
+        window.location.assign("#_");
+      }
+    }
+  })
+</script>
 </div>
