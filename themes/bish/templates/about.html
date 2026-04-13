@@ -5,6 +5,16 @@
 
 {% block main %}
 <main id="about">
-{{ section.content | indent | safe }}
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+    <model-viewer 
+        src="/horse-black-spotted.gltf" 
+        disable-zoom 
+        rotation-per-second="360deg" 
+        interaction-prompt="none"
+        field-of-view="30deg"
+        camera-orbit="calc(env(window-scroll-y) * 720deg) 90deg 105%"
+    >
+    </model-viewer>
+    {{ section.content | indent | safe }}
 </main>
 {% endblock %}

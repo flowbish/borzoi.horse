@@ -13,7 +13,7 @@ my name is _flowbish_ and I am speaking to you through the medium of ~hypertext~
 
 check out my [blog](/blog)
 
-look at my [minecraft photos](/gallery)
+look at my [minecraft photos](/minecraft)
 
 ![minecraft pig](/minecraft-pig.gif)
 
