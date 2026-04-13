@@ -25,8 +25,13 @@
         
         .next, .prev {
             flex-basis: 150px;
+
+            max-height: 150px;
             max-width: 150px;
+
+            min-height: 150px;
             min-width: 150px;
+            
             height: 100%;
             align-content: center;
             text-decoration: none;
@@ -52,7 +57,7 @@
 
     .viewer:target {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         overflow: hidden;
     }
@@ -61,5 +66,9 @@
 @media (min-width: 700px) {
     .gallery {
         grid-template-columns: 1fr 1fr 1fr;
+        
+        .viewer:target {
+            flex-direction: row;
+        }
     }
 }
