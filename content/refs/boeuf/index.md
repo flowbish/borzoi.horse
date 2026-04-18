@@ -9,6 +9,7 @@ template = "fursona_page.html"
 icon = "PridePalette_Bish.png"
 hide_reading_time = true
 +++
+ℹ️ pronouns: it/its
 
 🐕 bœuf is a borzoi (russian sighthound), a breed of dog similar to a greyhound but with long, flowing fur on the top of its body to protect it in the harsh cold
 
