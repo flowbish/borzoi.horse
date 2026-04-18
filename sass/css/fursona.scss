@@ -1,0 +1,63 @@
+@use '../../themes/bish/sass/css/font';
+
+.post {
+    background-color: var(--light-accent-color);
+    
+    border-radius: 20px;
+    border-color: var(--text-color);
+    border-width: 2px;
+    border-style: solid;
+    
+    .gallery {
+        margin: 20px;
+
+        background-color: color-mix(in srgb, var(--text-color) 10%, transparent);
+        border-radius: 20px;
+        border-color: var(--text-color);
+        border-width: 2px;
+        border-style: solid;
+    }
+
+    p {
+        margin: 5px 30px 0 30px;
+        font-size: calc(1.25 * var(--font-size));
+
+        @include font.coral-pixels-regular;
+    }
+
+    header {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+
+        flex-shrink: 1;
+
+        img {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+
+            border-radius: 10px;
+            overflow: clip;
+        }
+
+        h2 {
+            border: none;
+            padding: 0;
+            margin-right: auto;
+            margin-left: 20px;
+
+            align-content: center;
+
+            font-size: calc(3 * var(--font-size));
+
+            a {
+                color: var(--accent-color);
+            }
+        }
+
+        h2::after {
+            display: none;
+        }
+    }
+}

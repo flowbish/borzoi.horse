@@ -26,6 +26,7 @@ body {
   --background-color: white;
   --text-color: black;
   --accent-color: palevioletred;
+  --light-accent-color: rgb(247, 213, 224);
   --visited-accent-color: indianred;
 }
 
@@ -50,6 +51,7 @@ body[theme="nether"] {
   --background-color: rgb(68, 18, 18);
   --text-color: oldlace;
   --accent-color: palevioletred;
+  --light-accent-color: rgb(247, 213, 224);
   --visited-accent-color: indianred;
   font-palette: --dark-mode;
   
@@ -83,6 +85,7 @@ body[theme="sculk"] {
   --background-color: rgb(40, 41, 46);
   --text-color: azure;
   --accent-color: teal;
+  --light-accent-color: rgb(2, 41, 41);
   --visited-accent-color: darkcyan;
   font-palette: --dark-mode;
 
@@ -263,9 +266,20 @@ a:visited {
   }
 }
 
-header, main, footer {
+body > header {
   background: var(--background-color);
   box-shadow: 0 0 20px 20px var(--background-color);
+  padding: 10px;
+}
+body > main {
+  background: var(--background-color);
+  box-shadow: 0 0 20px 20px var(--background-color);
+  padding: 10px;
+}
+
+body > footer {
+  background: var(--background-color);
+  box-shadow: 0 20px 20px 20px var(--background-color);
   padding: 10px;
 }
 

@@ -11,11 +11,12 @@
 {%- endblock -%}
 
 {%- block main -%}
-{%- filter indent -%}{%- filter indent -%}
 <article class="post content">
-    {{ post_macros::header(page=page, heading="h1") | indent | safe }}
+{%- filter indent -%}{%- filter indent -%}
+    {{ post_macros::header(page=page, heading="h1", hide_reading_time=page.extra.hide_reading_time | default(value=false)) | indent | safe }}
 {%- endfilter %}{%- endfilter %}
 
 {{ page.content | safe }}
+</article>
 
 {%- endblock -%}

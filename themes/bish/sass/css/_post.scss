@@ -71,20 +71,11 @@
     position: relative;
     margin-block: 0 15px;
     padding-bottom: 15px;
-    border-bottom: 3px dotted var(--accent-color);
     color: var(--accent-color);
     margin-right: auto;
 
-    &::after {
-        content: '';
-        position: absolute;
-        bottom: 2px;
-        display: block;
-        width: 100%;
-        border-bottom: 3px dotted var(--accent-color);
-    }
-
     a {
+        padding: 10px;
         text-decoration: none;
         color: var(--accent-color);
     }

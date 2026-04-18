@@ -20,7 +20,7 @@
 {%- endif -%}
 
 {% for page in section.pages -%}
-{{ post_macros::excerpt(page=page) }}
+{{ post_macros::excerpt(page=page, hide_reading_time=section.extra.hide_reading_time | default(value=false)) }}
 {% endfor -%}
 
 {%- endblock -%}

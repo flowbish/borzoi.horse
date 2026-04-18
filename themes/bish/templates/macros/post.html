@@ -1,8 +1,13 @@
-{%- macro excerpt(page) -%}
+{%- macro excerpt(page, hide_reading_time) -%}
 <article class="post">
-    {{ post_macros::header(page=page, heading="h2", is_excerpt=true) | indent | safe }}
-
-    {%- set permalink = page.permalink -%}
+    {{ 
+        post_macros::header(
+            page=page, 
+            heading="h2", 
+            is_excerpt=true, 
+            hide_reading_time=hide_reading_time
+        ) | indent | safe 
+    }}
 
     {%- if page.description %}
     <p>{{ page.description | markdown(inline=true) | safe }}</p>
@@ -10,20 +15,27 @@
 </article>
 {%- endmacro -%}
 
-{%- macro header(page, heading, is_excerpt=false) -%}
+{%- macro header(page, heading, is_excerpt=false, hide_reading_time=false) -%}
 <header>
     <{{ heading }} class="post-title">
         <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
     </{{ heading }}>
+
+    {% if page.extra.icon %}
+    <img src="{{ get_url(path=page.path ~ page.extra.icon) }}" >
+    {% endif %}
+
     <ul class="post-meta hidden">
         {% if page.draft -%}
         <li class="draft-label">DRAFT</li>
         {% endif -%}
 
+        {% if page.date %}
         <li title="Published on {{ page.date }}{%- if page.updated %}, last updated {{ page.updated }}{%- endif -%}">
             {{- post_macros::date(value=page.date) }}
             {%- if page.updated %}&nbsp;[Updated: {{ post_macros::date(value=page.updated) }}]{%- endif -%}
         </li>
+        {% endif %}
 
         {%- if page.authors %}
         <li role="separator" aria-hidden="true">::</li>
@@ -37,10 +49,12 @@
         <li title="Author">{{ config.author }}</li>
         {%- endif %}
 
+        {% if not hide_reading_time %}
         <li role="separator" aria-hidden="true">::</li>
         {%- set reading_time = page.reading_time ~ " min" | replace(from="0 min", to="<1 min") -%}
         {%- set word_count = [page.word_count ~ " word", page.word_count | pluralize] | join %}
         <li title="{{ word_count }}"><time datetime="PT{{ page.reading_time }}M">{{ reading_time }}</time> read</li>
+        {% endif %}
     </ul>
 </header>
 {%- endmacro -%}

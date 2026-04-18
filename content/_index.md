@@ -13,6 +13,10 @@ description = "the welcoming page"
 i"m writing a book about it
 ```
 
+## Look at my sonas
+
+Over here at [my refsheets](/refs)!
+
 ## Pictures of my minecraft horses!!!
 
 See them over [in my gallery!!](minecraft)!!

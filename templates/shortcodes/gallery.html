@@ -1,5 +1,11 @@
+{% if page %}
+{% set assets = page.assets %}
+{% elif section %}
+{% set assets = section.assets %}
+{% endif %}
+
 <div class="gallery">
-{% for asset in section.assets -%}
+{% for asset in assets -%}
   {%- if asset is matching("[.](jpg|png)$") -%}
   {% set frag = "image-" ~ loop.index %}
     <a href="#{{ frag }}" class="thumbnail">
@@ -16,7 +22,7 @@
       <a class="close" href="#_">
         <img src="{{ asset }}" />
       </a>
-      {%- if loop.index < section.assets | length -%}
+      {%- if loop.index < assets | length -%}
         {% set next_index = loop.index + 1 %}
         {% set next = "image-" ~ next_index %}
         <a class="next" href="#{{ next }}">&rarr;</a>
@@ -27,7 +33,7 @@
   {%- endif %}
 {%- endfor %}
 <script>
-  let max_index = {{ section.assets | length }};
+  let max_index = {{ assets | length }};
   addEventListener("keydown", (event) => {
     let hash = window.location.hash;
     if (hash.substring(0, 7) == "#image-") {
