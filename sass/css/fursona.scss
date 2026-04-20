@@ -21,6 +21,8 @@
     .gallery {
         margin: 20px;
 
+        padding: 20px;
+
         background-color: color-mix(in srgb, var(--text-color) 10%, transparent);
         border-radius: 20px;
         border-color: var(--text-color);
@@ -68,6 +70,50 @@
 
         h2::after {
             display: none;
+        }
+    }
+}
+
+.palette {
+    margin: 20px;
+    display: flex;
+
+    padding: 20px;
+
+    background-color: color-mix(in srgb, var(--text-color) 10%, transparent);
+    border-radius: 20px;
+    border-color: var(--text-color);
+    border-width: 2px;
+    border-style: solid;
+
+    .color {
+        display: inline-block;
+        flex-grow: 1;
+        flex-shrink: 1;
+        margin: 2px;
+        width: 200px;
+        height: 150px;
+
+        display: flex;
+        flex-direction: column;
+
+        border-radius: 5px;
+
+        p {
+            margin: 0;
+            padding: 2px;
+            line-height: 120%;
+            border-radius: 5px;
+
+            text-align: center;
+
+            background: #00000080;
+            color: var(--light-accent-color);
+            @include font.ibm-plex-serif-regular;
+        }
+
+        .description {
+            margin-bottom: auto;
         }
     }
 }
