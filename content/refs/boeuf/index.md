@@ -17,4 +17,4 @@ hide_reading_time = true
 
 check out some pictures of THIS DOG below. feel free to save them if you like!!
 
-{{ gallery() }}
+{{ gallery(manifest="/refs/boeuf/gallery.toml") }}
