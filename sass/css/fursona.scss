@@ -7,6 +7,16 @@
     border-color: var(--text-color);
     border-width: 2px;
     border-style: solid;
+
+    h1, h2, h3, h4, h5, h6 {
+        border: none;
+        padding: 0;
+        margin-left: 40px;
+
+        align-content: center;
+
+        color: var(--accent-color);
+    }
     
     .gallery {
         margin: 20px;
@@ -33,8 +43,8 @@
         flex-shrink: 1;
 
         img {
-            width: 100px;
-            height: 100px;
+            width: 150px;
+            height: 150px;
             margin: 10px;
 
             border-radius: 10px;

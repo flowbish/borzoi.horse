@@ -6,9 +6,12 @@ hewwo :3 i'm a soft and fluffy borzoi (russian sighthound)
 template = "fursona_page.html"
 
 [extra]
-icon = "../PridePalette_Bish.png"
+icon = "../boeuf-nb-pride.png"
 hide_reading_time = true
 +++
+
+## About the dog
+
 ℹ️ pronouns: it/its
 
 🍆 genitalia: usually a dog pussy and t-dick, but sometimes a mottled horse cock
@@ -18,5 +21,7 @@ hide_reading_time = true
 check out some lewd pictures of THIS DOG below. feel free to save them if you like!!
 
 you can also [go back to normal bœuf page](/refs/boeuf)
+
+## Gallery
 
 {{ gallery(manifest="/refs/boeuf/nsfw/gallery.toml") }}
