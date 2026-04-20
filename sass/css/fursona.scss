@@ -17,6 +17,10 @@
 
         color: var(--accent-color);
     }
+
+    strong {
+        filter: brightness(50%) saturate(200%) contrast(200%);
+    }
     
     .gallery {
         margin: 20px;
