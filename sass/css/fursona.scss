@@ -57,7 +57,7 @@
             overflow: clip;
         }
 
-        h2 {
+        h1 {
             border: none;
             padding: 0;
             margin-right: auto;
@@ -72,7 +72,7 @@
             }
         }
 
-        h2::after {
+        h1::after {
             display: none;
         }
     }
@@ -92,10 +92,11 @@
 
     .color {
         display: inline-block;
+        flex-basis: 200px;
         flex-grow: 1;
         flex-shrink: 1;
+
         margin: 2px;
-        width: 200px;
         height: 150px;
 
         display: flex;
@@ -119,5 +120,13 @@
         .description {
             margin-bottom: auto;
         }
+    }
+}
+
+
+@media (max-width: 700px) {
+    .palette {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
