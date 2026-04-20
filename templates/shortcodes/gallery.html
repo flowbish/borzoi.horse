@@ -1,36 +1,56 @@
-{% if page %}
+{# 
+  Images can be explicitly passed in, or derived from the colocated assets.
+  Prefer using the passed in list, and fall back to the page or section assets
+  where appropriate.
+#}
+{% if manifest %}
+  {% set manifest = load_data(path=manifest, format="toml") %}
+  {% set_global assets = [] %}
+  {% for image in manifest.images %}
+    {% set_global assets = assets | concat(with=image.url) %}
+  {% endfor %}
+{% elif page %}
 {% set assets = page.assets %}
+  {% set_global assets = [] %}
+  {% for asset in page.assets %}
+    {%- if asset is matching("[.](jpg|jpeg|png)$") -%}
+      {% set_global assets = assets | concat(with=asset) %}
+    {% endif %}
+  {% endfor %}
 {% elif section %}
-{% set assets = section.assets %}
+  {% set_global assets = [] %}
+  {% for asset in section.assets %}
+    {%- if asset is matching("[.](jpg|jpeg|png)$") -%}
+      {% set_global assets = assets | concat(with=asset) %}
+    {% endif %}
+  {% endfor %}
 {% endif %}
 
 <div class="gallery">
 {% for asset in assets -%}
-  {%- if asset is matching("[.](jpg|png)$") -%}
   {% set frag = "image-" ~ loop.index %}
-    <a href="#{{ frag }}" class="thumbnail">
+  <a href="#{{ frag }}" class="thumbnail">
+    <img src="{{ asset }}" />
+  </a>
+  <div class="viewer" id="{{ frag }}" >
+    {%- if loop.index > 1 -%}
+      {% set prev_index = loop.index - 1 %}
+      {% set prev = "image-" ~ prev_index %}
+      <a class="prev" href="#{{ prev }}">&larr;</a>
+    {% else %}
+      <a class="prev"></a>
+    {% endif %}
+    <a class="close" href="#_">
       <img src="{{ asset }}" />
     </a>
-    <div class="viewer" id="{{ frag }}" >
-      {%- if loop.index > 1 -%}
-        {% set prev_index = loop.index - 1 %}
-        {% set prev = "image-" ~ prev_index %}
-        <a class="prev" href="#{{ prev }}">&larr;</a>
-      {% else %}
-        <a class="prev"></a>
-      {% endif %}
-      <a class="close" href="#_">
-        <img src="{{ asset }}" />
-      </a>
-      {%- if loop.index < assets | length -%}
-        {% set next_index = loop.index + 1 %}
-        {% set next = "image-" ~ next_index %}
-        <a class="next" href="#{{ next }}">&rarr;</a>
-      {% else %}
-        <a class="next"></a>
-      {% endif %}
-    </div>
-  {%- endif %}
+    {%- if loop.index < assets | length -%}
+      {% set next_index = loop.index + 1 %}
+      {% set next = "image-" ~ next_index %}
+      <a class="next" href="#{{ next }}">&rarr;</a>
+    {% else %}
+      <a class="next"></a>
+    {% endif %}
+  </div>
 {%- endfor %}
 <script>
   let max_index = {{ assets | length }};
