@@ -17,6 +17,6 @@ hide_reading_time = true
 
 check out some lewd pictures of THIS DOG below. feel free to save them if you like!!
 
-you can also [go back to normal bœuf page](/..)
+you can also [go back to normal bœuf page](/refs/boeuf)
 
 {{ gallery(manifest="/refs/boeuf/nsfw/gallery.toml") }}
