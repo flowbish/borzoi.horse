@@ -47,6 +47,10 @@ description = "artist: cloverhare"
 url = "https://assets.borzoi.horse/refs/boeuf/boeuf-scrungly-posca.jpg"
 
 [[images]]
+url = "https://assets.borzoi.horse/refs/boeuf/aspeneyes-boeuf-headshot.png"
+description = "artist: aspeneyes"
+
+[[images]]
 url = "https://assets.borzoi.horse/refs/boeuf/kikidoodles-boeuf.jpg"
 
 [[images]]
