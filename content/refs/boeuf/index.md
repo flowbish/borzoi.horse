@@ -14,13 +14,13 @@ hide_reading_time = true
 
 {{ palette(path="refs/boeuf/palette.toml") }}
 
-ℹ️ **pronouns**: it/its
+> ℹ️ **pronouns**: it/its
 
-🐕 **bœuf** is a **borzoi** (russian sighthound), a breed of dog similar to a **greyhound** but with long, flowing fur on the top of its body to protect it in the harsh cold
+> 🐕 **bœuf** is a **borzoi** (russian sighthound), a breed of dog similar to a **greyhound** but with long, flowing fur on the top of its body to protect it in the harsh cold
 
-🥩 the name is french for **"beef"**, and pronounced somewhere between "beef" and "buff"
+> 🥩 the name is french for **"beef"**, and pronounced somewhere between "beef" and "buff"
 
-check out some pictures of **THIS DOG** below. feel free to save them if you like!!
+> check out some pictures of **THIS DOG** below. feel free to save them if you like!!
 
 ## Gallery
 

@@ -17,10 +17,6 @@
 
         color: var(--accent-color);
     }
-
-    strong {
-        filter: brightness(50%) saturate(200%) contrast(200%);
-    }
     
     .gallery {
         margin: 20px;
@@ -34,11 +30,15 @@
         border-style: solid;
     }
 
-    p {
+    blockquote {
         margin: 5px 30px 0 30px;
         font-size: calc(1.25 * var(--font-size));
 
         @include font.coral-pixels-regular;
+
+        strong {
+            filter: brightness(50%) saturate(200%) contrast(200%);
+        }
     }
 
     header {
