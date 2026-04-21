@@ -52,7 +52,9 @@
     <a class="close" href="#_">
       <img src="{{ asset }}" />
     </a>
-    <p>{{description}}</p>
+    {% if description != "" %}
+      <p>{{description}}</p>
+    {% endif %}
     {%- if loop.index < assets | length -%}
       {% set next_index = loop.index + 1 %}
       {% set next = "image-" ~ next_index %}
