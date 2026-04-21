@@ -24,6 +24,25 @@
         left: 0;
         background: black;
         background: rgba(0,0,0,0.8);
+
+        img {
+            margin: 0;
+            max-height: 100%;
+        }
+
+        p {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            text-align: center;
+
+            padding: 10px;
+
+            background: rgba(0,0,0,0.8);
+
+            font-palette: --dark-mode;
+        }
         
         .next, .prev {
             flex-basis: 150px;

@@ -1,5 +1,10 @@
-{% set colors = load_data(literal=colors, format="toml") %}
+{% if path %}
+    {% set colors = load_data(path=path, formatl="toml") %}
+{% else %}
+    {% set colors = load_data(literal=colors, format="toml") %}
+{% endif %}
 {% set colors = colors.colors %}
+
 <div class="palette">
     {% for color in colors %}
         <div class="color" style="background-color: {{color.hexcode}}">

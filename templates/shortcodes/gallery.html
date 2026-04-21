@@ -3,11 +3,16 @@
   Prefer using the passed in list, and fall back to the page or section assets
   where appropriate.
 #}
+
+{% set assets = [] %}
+{% set descriptions = [] %}
+
 {% if manifest %}
   {% set manifest = load_data(path=manifest, format="toml") %}
   {% set_global assets = [] %}
   {% for image in manifest.images %}
     {% set_global assets = assets | concat(with=image.url) %}
+    {% set_global descriptions = descriptions | concat(with=image.description | default(value="")) %}
   {% endfor %}
 {% elif page %}
 {% set assets = page.assets %}
@@ -15,6 +20,7 @@
   {% for asset in page.assets %}
     {%- if asset is matching("[.](jpg|jpeg|png)$") -%}
       {% set_global assets = assets | concat(with=asset) %}
+      {% set_global descriptions = descriptions | concat(with="") %}
     {% endif %}
   {% endfor %}
 {% elif section %}
@@ -22,12 +28,15 @@
   {% for asset in section.assets %}
     {%- if asset is matching("[.](jpg|jpeg|png)$") -%}
       {% set_global assets = assets | concat(with=asset) %}
+      {% set_global descriptions = descriptions | concat(with="") %}
     {% endif %}
   {% endfor %}
 {% endif %}
 
 <div class="gallery">
-{% for asset in assets -%}
+{% for i in range(end=assets | length) -%}
+  {% set asset = assets[i] %}
+  {% set description = descriptions[i] %}
   {% set frag = "image-" ~ loop.index %}
   <a href="#{{ frag }}" class="thumbnail">
     <img src="{{ asset }}" />
@@ -43,6 +52,7 @@
     <a class="close" href="#_">
       <img src="{{ asset }}" />
     </a>
+    <p>{{description}}</p>
     {%- if loop.index < assets | length -%}
       {% set next_index = loop.index + 1 %}
       {% set next = "image-" ~ next_index %}
