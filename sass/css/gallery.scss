@@ -31,9 +31,6 @@
         }
 
         p {
-            position: fixed;
-            bottom: 0;
-            left: 0;
             width: 100%;
             text-align: center;
 
@@ -90,6 +87,12 @@
         
         .viewer:target {
             flex-direction: row;
+            
+            p {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+            }
         }
     }
 }
