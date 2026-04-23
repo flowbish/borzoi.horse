@@ -39,6 +39,9 @@
   {% set description = descriptions[i] %}
   {% set frag = "image-" ~ loop.index %}
   <a href="#{{ frag }}" class="thumbnail">
+    <span class="zoom material-symbols-outlined">
+      pan_zoom
+    </span>
     <img src="{{ asset }}" />
   </a>
   <div class="viewer" id="{{ frag }}" >

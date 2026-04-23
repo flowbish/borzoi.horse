@@ -7,9 +7,54 @@
     row-gap: 10px;
 
     .thumbnail {
+        position: relative;
+
         padding: 0;
         margin: 0;
         width: 100%;
+
+        overflow: clip;
+
+        img {
+            display: block;
+            margin: 0;
+            z-index: 1;
+
+            aspect-ratio: 1/1;
+
+            object-fit: cover;
+            width: 100%;
+
+            transition:
+                transform 0.1s ease-in-out,
+        }
+
+        .zoom {
+            position: absolute;
+            font-size: calc(1.5 * var(--font-size));
+
+            z-index: 2;
+
+            text-align: end;
+            bottom: 0;
+            right: 0;
+
+            color: white;
+            background: #00000080;
+
+            transition:
+                font-size 0.1s ease-in-out;
+        }
+    }
+
+    .thumbnail:hover {
+        img {
+            transform: scale(1.1);
+        }
+        
+        .zoom {
+            font-size: calc(3 * var(--font-size));
+        }
     }
 
     .viewer { 
