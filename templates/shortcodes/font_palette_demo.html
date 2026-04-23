@@ -1,0 +1,80 @@
+<link rel="stylesheet" href="{{ get_url(path="css/font-palette-demo.css", cachebust=true) }}">
+
+<style id="custom-style"></style>
+
+<label id="dropzone" class="customFont no-dragover">
+    Upload font
+    <input id="file-input" type="file" />
+</label>
+
+<button id="clear-button">Clear</button>
+
+<script>
+    let dropzone;
+
+    dropzone = document.getElementById("dropzone");
+    dropzone.addEventListener("dragenter", (e) => {
+        e.stopPropagation();
+        e.preventDefault();
+    });
+    dropzone.addEventListener("dragover", (e) => {
+        e.stopPropagation();
+        e.preventDefault();
+        dropzone.className = "customFont dragover";
+    });
+    dropzone.addEventListener("dragleave", (e) => {
+        e.stopPropagation();
+        e.preventDefault();
+        dropzone.className = "customFont no-dragover";
+    });
+    dropzone.addEventListener("drop", (e) => {
+        if ([...e.dataTransfer.items].some((item) => item.kind === "file")) {
+            e.preventDefault();
+            dropzone.className = "customFont no-dragover";
+
+            const files = [...e.dataTransfer.items]
+                .map((item) => item.getAsFile())
+                .filter((file) => file);
+            let file = files[0];
+            if (file.type.startsWith("font/")) {
+
+                previewFont(files[0]);
+            }
+        }
+    });
+    
+    const fileInput = document.getElementById("file-input");
+    fileInput.addEventListener("change", (e) => {
+        previewFont(e.target.files);
+    });
+
+
+    const preview = document.getElementById("preview");
+    const customStyle = document.getElementById("custom-style");
+    let fontUrls = [];
+
+    function previewFont(file) {
+        const fontUrl = URL.createObjectURL(file);
+        fontUrls.push(fontUrl);
+        
+        customStyle.innerHTML = `
+        @font-face {
+            font-family: "customFont";
+            src: url("${fontUrl}");
+        }
+    
+        .customFont {
+            font-family: "customFont"
+        }
+        `;
+    }
+
+    const clearButton = document.getElementById("clear-button");
+    clearButton.addEventListener("click", () => {
+        for (const url of fontUrls) {
+            URL.revokeObjectURL(url);
+        }
+        fontUrls = [];
+        customStyle.innerHTML = "";
+    });
+</script>
