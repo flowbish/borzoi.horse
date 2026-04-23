@@ -1,7 +1,7 @@
 +++
 title = "Bœuf"
 description = """
-hewwo :3 i'm a soft and fluffy borzoi (russian sighthound)
+> hewwo :3 i'm a soft and fluffy borzoi (russian sighthound)
 """
 template = "fursona_page.html"
 

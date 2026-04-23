@@ -1,7 +1,7 @@
 +++
 title = "Bœuf (HORNY)"
 description = """
-hewwo :3 i'm a soft and fluffy borzoi (russian sighthound)
+> hewwo :3 i'm a soft and fluffy borzoi (russian sighthound)
 """
 template = "fursona_page.html"
 
@@ -14,15 +14,15 @@ hide_reading_time = true
 
 {{ palette(path="refs/boeuf/palette.toml") }}
 
-ℹ️ **pronouns**: it/its
+> ℹ️ **pronouns**: it/its
 
-🍆 **genitalia**: usually a dog pussy and t-dick, but sometimes a mottled horse cock
+> 🍆 **genitalia**: usually a dog pussy and t-dick, but sometimes a mottled horse cock
 
-🥩 the name is french for **"beef"**, and pronounced somewhere between "beef" and "buff"
+> 🥩 the name is french for **"beef"**, and pronounced somewhere between "beef" and "buff"
 
-check out some lewd pictures of **THIS DOG** below. feel free to save them if you like!!
+> check out some lewd pictures of **THIS DOG** below. feel free to save them if you like!!
 
-you can also [go back to **normal bœuf page**](/refs/boeuf)
+> you can also [go back to **normal bœuf page**](/refs/boeuf)
 
 ## Gallery
 
