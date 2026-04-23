@@ -35,11 +35,7 @@
             const files = [...e.dataTransfer.items]
                 .map((item) => item.getAsFile())
                 .filter((file) => file);
-            let file = files[0];
-            if (file.type.startsWith("font/")) {
-
-                previewFont(files[0]);
-            }
+            previewFont(files);
         }
     });
     
@@ -53,20 +49,23 @@
     const customStyle = document.getElementById("custom-style");
     let fontUrls = [];
 
-    function previewFont(file) {
-        const fontUrl = URL.createObjectURL(file);
-        fontUrls.push(fontUrl);
+    function previewFont(files) {
+        let file = files[0];
+        if (file.type.startsWith("font/")) {
+            const fontUrl = URL.createObjectURL(file);
+            fontUrls.push(fontUrl);
+            
+            customStyle.innerHTML = `
+            @font-face {
+                font-family: "customFont";
+                src: url("${fontUrl}");
+            }
         
-        customStyle.innerHTML = `
-        @font-face {
-            font-family: "customFont";
-            src: url("${fontUrl}");
+            .customFont {
+                font-family: "customFont"
+            }
+            `;
         }
-    
-        .customFont {
-            font-family: "customFont"
-        }
-        `;
     }
 
     const clearButton = document.getElementById("clear-button");
