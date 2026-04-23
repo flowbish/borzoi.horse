@@ -51,9 +51,13 @@ body[theme="nether"] {
   --background-color: rgb(68, 18, 18);
   --text-color: oldlace;
   --accent-color: palevioletred;
-  --light-accent-color: rgb(247, 213, 224);
+  --light-accent-color: rgb(109, 38, 60);
   --visited-accent-color: indianred;
   font-palette: --dark-mode;
+  
+  strong {
+    font-palette: --dark-mode-strong;
+  }
   
   .rff-webring img {
     filter: invert(1);
@@ -88,7 +92,6 @@ body[theme="sculk"] {
   --light-accent-color: rgb(2, 41, 41);
   --visited-accent-color: darkcyan;
   font-palette: --dark-mode;
-
 
   strong {
     font-palette: --dark-mode-strong;
