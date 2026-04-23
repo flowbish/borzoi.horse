@@ -35,10 +35,6 @@
         font-size: calc(1.25 * var(--font-size));
 
         @include font.coral-pixels-regular;
-
-        strong {
-            filter: brightness(50%) saturate(200%) contrast(200%);
-        }
     }
 
     header {

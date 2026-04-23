@@ -48,6 +48,81 @@
     31 #ffffffff;
 }
 
+
+@font-palette-values --strong {
+  font-family: "Coral Pixels";
+  override-colors:
+    0 #ca000026,
+    1 #0000003d,
+    2 #0014c44f,
+    3 #0004c024,
+    4 #7488001c,
+    5 #8e0000f0,
+    6 #0024e4f0,
+    7 #cc0000fc,
+    8 #00000026,
+    9 #0000b0f5,
+    10 #0000004a,
+    11 #0064d899,
+    12 #c42400cf,
+    13 #000042f0,
+    14 #0098004d,
+    15 #00a8a81f,
+    16 #00000080,
+    17 #00000059,
+    18 #022e009e,
+    19 #009cb44f,
+    20 #98740042,
+    21 #ce000061,
+    22 #64000069,
+    23 #b83c0099,
+    24 #7e0000c4,
+    25 #000008a6,
+    26 #986c0075,
+    27 #0000c28c,
+    28 #c00000a6,
+    29 #0074009c,
+    30 #000028a1,
+    31 #000000ff;
+}
+
+@font-palette-values --dark-mode-strong {
+  font-family: "Coral Pixels";
+  override-colors:
+    0 #34fefe26,
+    1 #fefefe3d,
+    2 #feea3a4f,
+    3 #fefa3e24,
+    4 #8a76fe1c,
+    5 #70fefef0,
+    6 #feda1af0,
+    7 #32fefefc,
+    8 #fefefe26,
+    9 #fefe4ef5,
+    10 #fefefe4a,
+    11 #fe9a2699,
+    12 #3adafecf,
+    13 #fefebcf0,
+    14 #fe66fe4d,
+    15 #fe56561f,
+    16 #fefefe80,
+    17 #fefefe59,
+    18 #fcd0fe9e,
+    19 #fe624a4f,
+    20 #668afe42,
+    21 #30fefe61,
+    22 #9afefe69,
+    23 #46c2fe99,
+    24 #80fefec4,
+    25 #fefef6a6,
+    26 #6692fe75,
+    27 #fefe3c8c,
+    28 #3efefea6,
+    29 #fe8afe9c,
+    30 #fefed6a1,
+    31 #fefefeff;
+}
+
 @mixin ibm-plex-serif-regular {
   font-family: "IBM Plex Serif", serif;
   font-weight: 400;

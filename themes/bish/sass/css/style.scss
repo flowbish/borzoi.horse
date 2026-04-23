@@ -89,9 +89,18 @@ body[theme="sculk"] {
   --visited-accent-color: darkcyan;
   font-palette: --dark-mode;
 
+
+  strong {
+    font-palette: --dark-mode-strong;
+  }
+
   .rff-webring img {
     filter: invert(1);
   }
+}
+
+strong {
+  font-palette: --strong;
 }
 
 body {
