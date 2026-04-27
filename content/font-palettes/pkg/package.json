@@ -1,0 +1,15 @@
+{
+  "name": "fonting",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "fonting_bg.wasm",
+    "fonting.js",
+    "fonting.d.ts"
+  ],
+  "main": "fonting.js",
+  "types": "fonting.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}

@@ -7,24 +7,34 @@
 
 <button id="clear-button">Clear</button>
 
-<script>
-    let dropzone;
+<label>
+    Filter
+    <input id="filter-input" type="text" />
+</label>
 
-    dropzone = document.getElementById("dropzone");
-    dropzone.addEventListener("dragenter", (e) => {
-        e.stopPropagation();
-        e.preventDefault();
-    });
-    dropzone.addEventListener("dragover", (e) => {
-        e.stopPropagation();
-        e.preventDefault();
-        dropzone.className = "customFont dragover";
-    });
-    dropzone.addEventListener("dragleave", (e) => {
-        e.stopPropagation();
-        e.preventDefault();
-        dropzone.className = "customFont no-dragover";
-    });
+<script type="module">
+import init, { FontFilter } from "./pkg/fonting.js";
+
+let dropzone;
+
+dropzone = document.getElementById("dropzone");
+dropzone.addEventListener("dragenter", (e) => {
+    e.stopPropagation();
+    e.preventDefault();
+});
+dropzone.addEventListener("dragover", (e) => {
+    e.stopPropagation();
+    e.preventDefault();
+    dropzone.className = "customFont dragover";
+});
+dropzone.addEventListener("dragleave", (e) => {
+    e.stopPropagation();
+    e.preventDefault();
+    dropzone.className = "customFont no-dragover";
+});
+
+
+init().then(() => {
     dropzone.addEventListener("drop", (e) => {
         if ([...e.dataTransfer.items].some((item) => item.kind === "file")) {
             e.preventDefault();
@@ -38,8 +48,12 @@
     });
     
     const fileInput = document.getElementById("file-input");
+    const filterInput = document.getElementById("filter-input");
     fileInput.addEventListener("change", (e) => {
-        previewFont(e.target.files);
+        previewFont(filterInput.value, e.target.files);
+    });
+    filterInput.addEventListener("input", (e) => {
+        previewFont(e.target.value, fileInput.files);
     });
 
 
@@ -47,23 +61,46 @@
     const customStyle = document.getElementById("custom-style");
     let fontUrls = [];
 
-    function previewFont(files) {
-        let file = files[0];
-        if (file.type.startsWith("font/")) {
-            const fontUrl = URL.createObjectURL(file);
-            fontUrls.push(fontUrl);
-            
-            customStyle.innerHTML = `
-            @font-face {
-                font-family: "customFont";
-                src: url("${fontUrl}");
-            }
-        
-            .customFont {
-                font-family: "customFont"
-            }
-            `;
+    function previewFont(filter_str, files) {
+        if (files.length < 1) {
+            return;
         }
+
+        if (filter_str == "") {
+            filter_str = "invert(0.0)";
+        }
+
+        let file = files[0];
+        const fontUrl = URL.createObjectURL(file);
+        fontUrls.push(fontUrl);
+
+        let filter = new FontFilter(filter_str);
+
+        if (!filter.parse_successful()) {
+            return;
+        }
+
+        file.arrayBuffer().then((buf) => {
+        let arr = new Uint8Array(buf);
+        const overrideColors = filter.generate_palette(arr);
+        
+        customStyle.innerHTML = `
+        @font-face {
+            font-family: "customFont";
+            src: url("${fontUrl}");
+        }
+            
+        @font-palette-values --custom {
+            font-family: "customFont";
+            ${overrideColors};
+        }
+    
+        .customFont {
+            font-family: "customFont";
+            font-palette: --custom;
+        }
+        `;
+        });
     }
 
     const clearButton = document.getElementById("clear-button");
@@ -74,4 +111,5 @@
         fontUrls = [];
         customStyle.innerHTML = "";
     });
+});
 </script>
