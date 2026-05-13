@@ -1,0 +1,233 @@
+<style>
+    .container {
+        width: 600px;
+        height: 600px;
+
+        background: #FF00FF;
+        overflow: hidden;
+    }
+
+    .scene {
+        transform-style: preserve-3d;
+        translate: 0 0 var(--perspective);
+        transform:
+            /* this doesn't quite work... figure it out?
+            matrix3d(
+                calc(cos(var(--cam-yaw) * 1deg) * cos(var(--cam-pitch) * 1deg)), calc(sin(var(--cam-yaw) * 1deg) * cos(var(--cam-pitch) * 1deg)), calc(-1 * sin(var(--cam-pitch) * 1deg)), 0,
+                calc(-1 * sin(var(--cam-yaw) * 1deg)), calc(cos(var(--cam-yaw) * 1deg)), 0, 0,
+                calc(cos(var(--cam-yaw) * 1deg) * sin(var(--cam-pitch) * 1deg)), calc(sin(var(--cam-yaw) * 1deg) * sin(var(--cam-pitch) * 1deg)), calc(cos(var(--cam-pitch) * 1deg)), 0,
+                calc(var(--cam-x) + 300), calc(var(--cam-y) + 300), var(--cam-z), 1
+            )
+            */
+            rotateX(calc(var(--cam-pitch) * 1deg))
+            rotateY(calc(var(--cam-yaw) * -1deg))
+            translate3d(
+                calc(var(--cam-x) * -1px),
+                calc(var(--cam-y) * 1px),
+                calc(var(--cam-z) * 1px)
+            )
+            translate3d(
+                50%,
+                300px,
+                0
+            );
+    }
+
+    .tri {
+        /* clip rectangle to just the upper-left triangle */
+        clip-path: polygon(0 0, 0 100%, 100% 0);
+    }
+
+    .tri, .rect {
+        /* use ab and ac vectors to determine the height and width of the containing rectangle */
+        --delta-ab-x: calc(var(--b-x) - var(--a-x));
+        --delta-ab-y: calc(var(--b-y) - var(--a-y));
+        --delta-ab-z: calc(var(--b-z) - var(--a-z));
+
+        --delta-ac-x: calc(var(--c-x) - var(--a-x));
+        --delta-ac-y: calc(var(--c-y) - var(--a-y));
+        --delta-ac-z: calc(var(--c-z) - var(--a-z));
+
+        --hypot-ab: calc(hypot(var(--delta-ab-x), var(--delta-ab-y), var(--delta-ab-z)));
+        --hypot-ac: calc(hypot(var(--delta-ac-x), var(--delta-ac-y), var(--delta-ac-z)));
+
+        /* projection of AC into Y */
+        --ac-dot-ab: calc(
+            (var(--delta-ac-x) * var(--delta-ab-x)) +
+            (var(--delta-ac-y) * var(--delta-ab-y)) +
+            (var(--delta-ac-z) * var(--delta-ab-z))
+        );
+        --ac-project-ab: calc(var(--ac-dot-ab) / pow(var(--hypot-ab), 2));
+        --tri-ac-x: calc(var(--delta-ac-x) - (var(--ac-project-ab) * var(--delta-ab-x)));
+        --tri-ac-y: calc(var(--delta-ac-y) - (var(--ac-project-ab) * var(--delta-ab-y)));
+        --tri-ac-z: calc(var(--delta-ac-z) - (var(--ac-project-ab) * var(--delta-ab-z)));
+        --tri-height: calc(hypot(var(--tri-ac-x), var(--tri-ac-y), var(--tri-ac-z)));
+
+        /* width and height of the initial right triangle */
+        width: calc(var(--hypot-ab) * 1px);
+        height: calc(var(--tri-height) * 1px);
+
+        /* calculate the skew matrix coefficient */
+        --skew-x: calc(sqrt(pow(var(--hypot-ac), 2) - pow(var(--tri-height), 2)));
+        --skew-coefficient: calc(0 - var(--skew-x) / var(--tri-height));
+
+        /* calculate ortho-normal basis */
+        /* X basis vector, aka what the standard X vector maps to */
+        --basis-x-x: calc(var(--delta-ab-x) / var(--hypot-ab));
+        --basis-x-y: calc(var(--delta-ab-y) / var(--hypot-ab));
+        --basis-x-z: calc(var(--delta-ab-z) / var(--hypot-ab));
+
+        /* Y basis vector, aka what the standard Y vector maps to */
+        /* this is the part of AC orthogonal to basis x above, normalized */
+        --ac-dot-basis-x: calc(
+            (var(--delta-ac-x) * var(--basis-x-x)) +
+            (var(--delta-ac-y) * var(--basis-x-y)) +
+            (var(--delta-ac-z) * var(--basis-x-z))
+        );
+        --basis-y-x-non-normalized: calc(var(--delta-ac-x) - (var(--ac-dot-basis-x) * var(--basis-x-x)));
+        --basis-y-y-non-normalized: calc(var(--delta-ac-y) - (var(--ac-dot-basis-x) * var(--basis-x-y)));
+        --basis-y-z-non-normalized: calc(var(--delta-ac-z) - (var(--ac-dot-basis-x) * var(--basis-x-z)));
+        --basis-y-length: calc(hypot(
+            var(--basis-y-x-non-normalized), 
+            var(--basis-y-y-non-normalized), 
+            var(--basis-y-z-non-normalized)
+        ));
+        --basis-y-x: calc(var(--basis-y-x-non-normalized) / var(--basis-y-length));
+        --basis-y-y: calc(var(--basis-y-y-non-normalized) / var(--basis-y-length));
+        --basis-y-z: calc(var(--basis-y-z-non-normalized) / var(--basis-y-length));
+
+        --basis-z-x: calc(var(--basis-x-y) * var(--basis-y-z) - var(--basis-x-z) * var(--basis-y-y));
+        --basis-z-y: calc(var(--basis-x-z) * var(--basis-y-x) - var(--basis-x-x) * var(--basis-y-z));
+        --basis-z-z: calc(var(--basis-x-x) * var(--basis-y-y) - var(--basis-x-y) * var(--basis-y-x));
+
+        /* Z basis vector, formed from the normalized cross product of the X and Y basis vectors */
+
+        position: absolute;
+        transform-origin: 0% 0%;
+        transform:
+            matrix3d(
+                var(--basis-x-x), var(--basis-x-y), var(--basis-x-z), 0,
+                calc(var(--skew-coefficient) * var(--basis-y-x)), var(--basis-y-y), var(--basis-y-z), 0,
+                var(--basis-z-x), var(--basis-z-y), var(--basis-z-z), 0,
+                var(--a-x), var(--a-y), var(--a-z), 1
+            );
+    }
+</style>
+
+<label>yaw</label>
+<input type="range" id="yaw" name="yaw" min="0" max="360" />
+<label>pitch</label>
+<input type="range" id="pitch" name="pitch" min="0" max="90" />
+
+<div class="container">
+    <div class="scene" style="
+        --perspective: 400px;
+        --cam-yaw: 0;
+        --cam-pitch: 0;
+        --cam-x: 0;
+        --cam-y: 0;
+        --cam-z: 0;
+    ">
+        <div class="rect" style="
+        --a-x: -100;
+        --a-y: -100;
+        --a-z: 100;
+        --b-x: 100;
+        --b-y: -100;
+        --b-z: 100;
+        --c-x: -100;
+        --c-y: 100;
+        --c-z: 100;
+        background: url(/minecraft-grass.jpg);
+        background-size: 100%;
+        ">1</div>
+        <div class="rect" style="
+        --a-x: 100;
+        --a-y: 100;
+        --a-z: 100;
+        --b-x: 100;
+        --b-y: -100;
+        --b-z: 100;
+        --c-x: 100;
+        --c-y: 100;
+        --c-z: -100;
+        background: url(/minecraft-grass.jpg);
+        background-size: 100%;
+        ">2</div>        
+        <div class="rect" style="
+        --a-x: -100;
+        --a-y: -100;
+        --a-z: 100;
+        --b-x: 100;
+        --b-y: -100;
+        --b-z: 100;
+        --c-x: -100;
+        --c-y: -100;
+        --c-z: -100;
+        background: url(/minecraft-grass.jpg);
+        background-size: 100%;
+        ">3</div>
+        <div class="rect" style="
+        --a-x: 100;
+        --a-y: -100;
+        --a-z: -100;
+        --b-x: -100;
+        --b-y: -100;
+        --b-z: -100;
+        --c-x: 100;
+        --c-y: 100;
+        --c-z: -100;
+        background: url(/minecraft-grass.jpg);
+        background-size: 100%;
+        ">4</div>
+                <div class="rect" style="
+        --a-x: -100;
+        --a-y: -100;
+        --a-z: 100;
+        --b-x: -100;
+        --b-y: 100;
+        --b-z: 100;
+        --c-x: -100;
+        --c-y: -100;
+        --c-z: -100;
+        background: url(/minecraft-grass.jpg);
+        background-size: 100%;
+        ">5</div>
+        <div class="rect" style="
+        --a-x: -100;
+        --a-y: 100;
+        --a-z: 100;
+        --b-x: 100;
+        --b-y: 100;
+        --b-z: 100;
+        --c-x: -100;
+        --c-y: 100;
+        --c-z: -100;
+        background: url(/minecraft-grass.jpg);
+        background-size: 100%;
+        ">6</div>
+    </div>
+</div>
+
+<script>
+    let yaw = document.getElementById("yaw");
+    yaw.value = 0;
+    let pitch = document.getElementById("pitch");
+    pitch.value = 0;
+
+    let scene = document.getElementsByClassName("scene")[0];
+    let update_scene = () => {
+        scene.setAttribute("style", `
+            --perspective: 40px;
+            --cam-yaw: ${yaw.value};
+            --cam-pitch: ${pitch.value};
+            --cam-x: 0;
+            --cam-y: 0;
+            --cam-z: 0;
+        `);
+    };
+
+    yaw.addEventListener("input", update_scene)
+    pitch.addEventListener("input", update_scene)
+    update_scene()
+</script>
