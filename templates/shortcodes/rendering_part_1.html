@@ -3,9 +3,20 @@
         width: 100%;
         height: 600px;
 
-        background: #FF00FF;
         display: block;
         overflow: hidden;
+    }
+    .camera {
+        transform-style: preserve-3d;
+        transform-origin: 0% 150px;
+        translate: 50% 50%;
+        transform:
+            matrix3d(
+                1, 0, 0, 0,
+                0, 1, 0, 0, 
+                0, 0, 1, -0.002,
+                0, 0, 0, 1
+            );
     }
 
     .scene {
@@ -16,10 +27,9 @@
          * implementing the extrensic rotation matrix
          */
         --a: calc(var(--cam-pitch) * -1deg);
-        --b: calc(var(--cam-yaw) * 1deg);
+        --b: calc(var(--cam-yaw) * -1deg);
         --g: calc(var(--cam-roll) * 1deg);
         transform-origin: 0% 0%;
-        translate: 50% 50%;
         transform:
             matrix3d(
                 calc(cos(var(--b)) * cos(var(--g))), calc(cos(var(--b)) * sin(var(--g))), calc(-1 * sin(var(--b))), 0,
@@ -27,10 +37,6 @@
                 calc(cos(var(--a)) * sin(var(--b)) * cos(var(--g)) + sin(var(--a)) * sin(var(--g))), calc(cos(var(--a)) * sin(var(--b)) * sin(var(--g)) - sin(var(--a)) * cos(var(--g))), calc(cos(var(--a)) * cos(var(--b))), 0,
                 var(--cam-x), var(--cam-y), var(--cam-z), 1
             );
-        animation: 
-            spinnies 10s infinite linear,
-            uppies 3s infinite ease-in-out,
-            rollies 7s infinite ease-in-out;
     }
 
     @property --cam-yaw {
@@ -170,22 +176,23 @@
     }
 </style>
 
-<label>yaw</label>
-<input type="range" id="yaw" name="yaw" min="0" max="360" />
-<label>pitch</label>
-<input type="range" id="pitch" name="pitch" min="0" max="90" />
-<label>roll</label>
-<input type="range" id="roll" name="roll" min="0" max="90" />
+<label for="yaw">yaw</label>
+<input type="range" id="yaw" name="yaw" min="-180" max="180" />
+<label for="pitch">pitch</label>
+<input type="range" id="pitch" name="pitch" min="-90" max="90" />
+<label for="roll">roll</label>
+<input type="range" id="roll" name="roll" min="-90" max="90" />
 
 <div class="container">
+    <div class="camera">
     <div class="scene" style="
-        --perspective: 400px;
         --cam-yaw: 0;
         --cam-pitch: 0;
         --cam-roll: 0;
         --cam-x: 0;
         --cam-y: 300;
         --cam-z: 0;
+        animation-play-state: paused;
     ">
         <div class="rect" style="
         --a-x: -100;
@@ -197,9 +204,11 @@
         --c-x: -100;
         --c-y: 100;
         --c-z: 100;
-        background: url(/minecraft-grass.jpg);
-        background-size: 100%;
-        ">1</div>
+        background: radial-gradient(cyan 0%, magenta 100%);
+        ">
+            <h5>WELCOME TO MY HORSE</h5>
+            <p>SLIDE THE SLIDERS ABOVE TO SPIN THIS CUBE AND SEE ITS DELIGHTS</p>
+        </div>
         <div class="rect" style="
         --a-x: 100;
         --a-y: 100;
@@ -212,7 +221,15 @@
         --c-z: -100;
         background: url(/minecraft-grass.jpg);
         background-size: 100%;
-        ">2</div>        
+        ">
+        <iframe 
+            src="/" 
+            title="description" 
+            width="800" 
+            height="800"
+            style="transform-origin: 0% 0%; transform: scale(25%, 25%);"
+        ></iframe>
+        </div>        
         <div class="rect" style="
         --a-x: -100;
         --a-y: -100;
@@ -223,9 +240,10 @@
         --c-x: -100;
         --c-y: -100;
         --c-z: -100;
-        background: url(/minecraft-grass.jpg);
-        background-size: 100%;
-        ">3</div>
+        background: white;
+        ">
+        <img src="/blog/horse-spin.gif" width="200" height="200"/>
+        </div>
         <div class="rect" style="
         --a-x: 100;
         --a-y: -100;
@@ -236,9 +254,14 @@
         --c-x: 100;
         --c-y: 100;
         --c-z: -100;
-        background: url(/minecraft-grass.jpg);
-        background-size: 100%;
-        ">4</div>
+        background: linear-gradient(
+            #5BCEFA 0%, #5BCEFA 20%, 
+            #F5A9B8 20%, #F5A9B8 40%, 
+            #FFFFFF 40%, #FFFFFF 60%, 
+            #F5A9B8 60%, #F5A9B8 80%, 
+            #5BCEFA 80%, #5BCEFA 100%
+        );
+        "></div>
                 <div class="rect" style="
         --a-x: -100;
         --a-y: -100;
@@ -249,9 +272,11 @@
         --c-x: -100;
         --c-y: -100;
         --c-z: -100;
-        background: url(/minecraft-grass.jpg);
-        background-size: 100%;
-        ">5</div>
+        background: var(--background-color);
+        ">
+            <label for="animate" style="font-size: calc(2.5 * var(--font-size))">animate?</label>    
+            <input type="checkbox" id="animate" name="animate" style="scale: 2.5;" />
+        </div>
         <div class="rect" style="
         --a-x: -100;
         --a-y: 100;
@@ -262,9 +287,14 @@
         --c-x: -100;
         --c-y: 100;
         --c-z: -100;
-        background: url(/minecraft-grass.jpg);
-        background-size: 100%;
-        ">6</div>
+        background: linear-gradient(
+            #FFF433 25%, 
+            #FFFFFF 25% 50%, 
+            #9B59D0 50% 75%, 
+            #2D2D2D 75%
+        );
+        "></div>
+    </div>
     </div>
 </div>
 
@@ -279,22 +309,29 @@
     pitch.value = 0;
     let roll = document.getElementById("roll");
     roll.value = 0;
+    let animate = document.getElementById("animate");
+    animate.checked = false;
 
     let scene = document.getElementsByClassName("scene")[0];
     let update_scene = () => {
+        const animation = !animate.checked ? "none" : `
+            spinnies 10s infinite linear,
+            uppies 3s infinite ease-in-out,
+            rollies 7s infinite ease-in-out;`;
         scene.setAttribute("style", `
-            --perspective: 40px;
             --cam-yaw: ${yaw.value};
             --cam-pitch: ${pitch.value};
             --cam-roll: ${roll.value};
             --cam-x: ${cam_x};
             --cam-y: ${cam_y};
             --cam-z: ${cam_z};
+            animation: ${animation};
         `);
     };
 
     yaw.addEventListener("input", update_scene)
     pitch.addEventListener("input", update_scene)
     roll.addEventListener("input", update_scene)
+    animate.addEventListener("input", update_scene)
     update_scene()
 </script>
