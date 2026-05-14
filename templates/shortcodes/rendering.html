@@ -1,36 +1,92 @@
 <style>
     .container {
-        width: 600px;
+        width: 100%;
         height: 600px;
 
         background: #FF00FF;
+        display: block;
         overflow: hidden;
     }
 
     .scene {
         transform-style: preserve-3d;
-        translate: 0 0 var(--perspective);
+
+        /* 
+         * from https://en.wikipedia.org/wiki/Rotation_matrix#General_3D_rotations
+         * implementing the extrensic rotation matrix
+         */
+        --a: calc(var(--cam-pitch) * -1deg);
+        --b: calc(var(--cam-yaw) * 1deg);
+        --g: calc(var(--cam-roll) * 1deg);
+        transform-origin: 0% 0%;
+        translate: 50% 50%;
         transform:
-            /* this doesn't quite work... figure it out?
             matrix3d(
-                calc(cos(var(--cam-yaw) * 1deg) * cos(var(--cam-pitch) * 1deg)), calc(sin(var(--cam-yaw) * 1deg) * cos(var(--cam-pitch) * 1deg)), calc(-1 * sin(var(--cam-pitch) * 1deg)), 0,
-                calc(-1 * sin(var(--cam-yaw) * 1deg)), calc(cos(var(--cam-yaw) * 1deg)), 0, 0,
-                calc(cos(var(--cam-yaw) * 1deg) * sin(var(--cam-pitch) * 1deg)), calc(sin(var(--cam-yaw) * 1deg) * sin(var(--cam-pitch) * 1deg)), calc(cos(var(--cam-pitch) * 1deg)), 0,
-                calc(var(--cam-x) + 300), calc(var(--cam-y) + 300), var(--cam-z), 1
-            )
-            */
-            rotateX(calc(var(--cam-pitch) * 1deg))
-            rotateY(calc(var(--cam-yaw) * -1deg))
-            translate3d(
-                calc(var(--cam-x) * -1px),
-                calc(var(--cam-y) * 1px),
-                calc(var(--cam-z) * 1px)
-            )
-            translate3d(
-                50%,
-                300px,
-                0
+                calc(cos(var(--b)) * cos(var(--g))), calc(cos(var(--b)) * sin(var(--g))), calc(-1 * sin(var(--b))), 0,
+                calc(sin(var(--a)) * sin(var(--b)) * cos(var(--g)) - cos(var(--a)) * sin(var(--g))), calc(sin(var(--a)) * sin(var(--b)) * sin(var(--g)) + cos(var(--a)) * cos(var(--g))), calc(sin(var(--a)) * cos(var(--b))), 0,
+                calc(cos(var(--a)) * sin(var(--b)) * cos(var(--g)) + sin(var(--a)) * sin(var(--g))), calc(cos(var(--a)) * sin(var(--b)) * sin(var(--g)) - sin(var(--a)) * cos(var(--g))), calc(cos(var(--a)) * cos(var(--b))), 0,
+                var(--cam-x), var(--cam-y), var(--cam-z), 1
             );
+        animation: 
+            spinnies 10s infinite linear,
+            uppies 3s infinite ease-in-out,
+            rollies 7s infinite ease-in-out;
+    }
+
+    @property --cam-yaw {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: false;
+    }
+
+    @property --cam-pitch {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: false;
+    }
+
+    @property --cam-roll {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: false;
+    }
+
+    @keyframes spinnies {
+        0% {
+            --cam-yaw: 0;
+        }
+        25% {
+            --cam-yaw: 90;
+        }
+        50% {
+            --cam-yaw: 180;
+        }
+        75% {
+            --cam-yaw: 270;
+        }
+        100% {
+            --cam-yaw: 360;
+        }
+    }
+
+
+    @keyframes uppies {
+        0%, 100%{
+            --cam-pitch: 0;
+        }
+        50% {
+            --cam-pitch: 45;
+        }
+    }
+
+
+    @keyframes rollies {
+        0%, 100%{
+            --cam-roll: -45;
+        }
+        50% {
+            --cam-roll: 45;
+        }
     }
 
     .tri {
@@ -118,14 +174,17 @@
 <input type="range" id="yaw" name="yaw" min="0" max="360" />
 <label>pitch</label>
 <input type="range" id="pitch" name="pitch" min="0" max="90" />
+<label>roll</label>
+<input type="range" id="roll" name="roll" min="0" max="90" />
 
 <div class="container">
     <div class="scene" style="
         --perspective: 400px;
         --cam-yaw: 0;
         --cam-pitch: 0;
+        --cam-roll: 0;
         --cam-x: 0;
-        --cam-y: 0;
+        --cam-y: 300;
         --cam-z: 0;
     ">
         <div class="rect" style="
@@ -210,10 +269,16 @@
 </div>
 
 <script>
+    let cam_x = 0;
+    let cam_y = 300;
+    let cam_z = 0;
+
     let yaw = document.getElementById("yaw");
     yaw.value = 0;
     let pitch = document.getElementById("pitch");
     pitch.value = 0;
+    let roll = document.getElementById("roll");
+    roll.value = 0;
 
     let scene = document.getElementsByClassName("scene")[0];
     let update_scene = () => {
@@ -221,13 +286,15 @@
             --perspective: 40px;
             --cam-yaw: ${yaw.value};
             --cam-pitch: ${pitch.value};
-            --cam-x: 0;
-            --cam-y: 0;
-            --cam-z: 0;
+            --cam-roll: ${roll.value};
+            --cam-x: ${cam_x};
+            --cam-y: ${cam_y};
+            --cam-z: ${cam_z};
         `);
     };
 
     yaw.addEventListener("input", update_scene)
     pitch.addEventListener("input", update_scene)
+    roll.addEventListener("input", update_scene)
     update_scene()
 </script>
