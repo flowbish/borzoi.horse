@@ -1,5 +1,7 @@
 {%- import "macros/post.html" as post_macros -%}
 
+<!DOCTYPE html>
+
 <html>
   <head>
     <meta charset="utf-8">
@@ -20,6 +22,16 @@
     <link rel="stylesheet" href="{{ get_url(path="css/gallery.css", cachebust=true) }}">
     <link rel="stylesheet" href="{{ get_url(path="css/font-palette-demo.css", cachebust=true) }}">
 
+    {#- katex -#}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.46/dist/katex.min.css" integrity="sha384-hW6ZmmePRD2f/9cuxGE6C9faGprtIBOme5OLUiEjtRKMTN67tY23ur9eAi21H8De" crossorigin="anonymous">
+
+    <!-- The loading of KaTeX is deferred to speed up page rendering -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.46/dist/katex.min.js" integrity="sha384-FVvsvR4UzyIP8Y5hVvHjOfjVh+LWV78ll63SYx1t+nuuMPGMAihB8dJ2YsYyg1Wb" crossorigin="anonymous"></script>
+    <!-- Recognize <script type="math/tex"> tags -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.46/dist/contrib/mathtex-script-type.min.js" integrity="sha384-W8gaN87yMtPe/iAcxlyIDA8OVOzZvVD4c/HEE6QHhIyo8yHnVSXLzzy+eNWwpivm" crossorigin="anonymous"></script>
+    <!-- To automatically render math in text elements, include the auto-render extension: -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.46/dist/contrib/auto-render.min.js" integrity="sha384-bjyGPfbij8/NDKJhSGZNP/khQVgtHUE5exjm4Ydllo42FwIgYsdLO2lXGmRBf5Mz" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
 
     {%- block stylesheets -%}{%- endblock -%}
     
