@@ -1,0 +1,48 @@
+<!--
+    This is a silly little implementation of an hyml playground sort of thing that
+    replaces <code data-lang="html playground">...</code> with an "interactive"
+    playground iframe experience. It is certainly not ready yet, and should probably
+    be included as a script/css file in base.html instead of a shortcode if still
+    want to do this dynamic element scanning thing, but I'm not sure I do.
+-->
+
+<script>
+    const create_playgrounds = () => {
+        for (element of document.getElementsByTagName("code")) {
+            if (element.getAttribute("data-lang") == "html playground") {
+                const textarea = document.createElement("textarea");
+                textarea.name = "code";
+                textarea.innerHTML = element.innerHTML;
+
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(element.innerHTML, "text/html");
+                const frame = document.createElement("iframe");
+                frame.srcdoc = doc.documentElement.textContent;
+
+                const parent = element.parentElement;
+                parent.appendChild(textarea);
+                parent.appendChild(frame);
+                parent.removeChild(element);
+                parent.className = "playground";
+            }
+        }
+    };
+
+    if (document.readyState == "loading") {
+        document.addEventListener('DOMContentLoaded', create_playgrounds);
+    } else {
+        create_playgrounds();
+    }
+</script>
+
+<style>
+    .playground {
+        height: 300px;
+        width: 100%;
+
+        display: flex;
+        * {
+            flex-basis: 50%;
+        }
+    }
+</style>
