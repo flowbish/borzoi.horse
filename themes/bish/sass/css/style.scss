@@ -53,6 +53,11 @@ body[theme="nether"] {
   --accent-color: palevioletred;
   --light-accent-color: rgb(109, 38, 60);
   --visited-accent-color: indianred;
+
+  pre {
+    color-scheme: dark !important;
+  }
+
   font-palette: --dark-mode;
   
   strong {
@@ -91,6 +96,11 @@ body[theme="sculk"] {
   --accent-color: teal;
   --light-accent-color: rgb(2, 41, 41);
   --visited-accent-color: darkcyan;
+
+  pre {
+    color-scheme: dark !important;
+  }
+
   font-palette: --dark-mode;
 
   strong {
@@ -134,10 +144,6 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   @include font.henny-penny-regular;
-}
-
-code {
-  @include font.coral-pixels-regular;
 }
 
 main {
@@ -188,6 +194,9 @@ p, ul, ol {
   line-height: var(--line-height);
 }
 
+pre {
+  padding: 15px;
+}
 
 img {
   max-width: 100%;

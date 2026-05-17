@@ -1,15 +1,204 @@
+<div id="container-{{nth}}" class="container">
+    <div class="camera">
+        <div class="scene" style="
+            --cam-yaw: 0;
+            --cam-pitch: 0;
+            --cam-roll: 0;
+            --cam-x: 0;
+            --cam-y: 300;
+            --cam-z: 0;
+        ">
+            <div class="rect" style="
+                --a-x: -800;
+                --a-y: 1;
+                --a-z: 0;
+                --b-x: 800;
+                --b-y: 1;
+                --b-z: 0;
+                --c-x: -800;
+                --c-y: -1;
+                --c-z: 0;
+                background: red;
+                opacity: 50%;
+            "></div>
+            <div class="rect" style="
+                --a-x: 200;
+                --a-y: -25;
+                --a-z: 0;
+                --b-x: 250;
+                --b-y: -25;
+                --b-z: 0;
+                --c-x: 200;
+                --c-y: 0;
+                --c-z: 0;
+                color: red;
+                opacity: 50%;
+            ">X</div>
+            <div class="rect" style="
+                --a-x: -1;
+                --a-y: -200;
+                --a-z: 0;
+                --b-x: 1;
+                --b-y: -200;
+                --b-z: 0;
+                --c-x: -1;
+                --c-y: 200;
+                --c-z: 0;
+                background: green;
+                opacity: 50%;
+            "></div>
+            <div class="rect" style="
+                --a-x: 5;
+                --a-y: -200;
+                --a-z: 0;
+                --b-x: 30;
+                --b-y: -200;
+                --b-z: 0;
+                --c-x: 5;
+                --c-y: -150;
+                --c-z: 0;
+                color: green;
+                opacity: 50%;
+            ">Y</div>
+            <div class="rect" style="
+                --a-x: 0;
+                --a-y: 1;
+                --a-z: -200;
+                --b-x: 0;
+                --b-y: 1;
+                --b-z: 200;
+                --c-x: 0;
+                --c-y: -1;
+                --c-z: -200;
+                background: blue;
+                opacity: 50%;
+            "></div>
+            <div class="rect" style="
+                --a-x: 0;
+                --a-y: -25;
+                --a-z: 200;
+                --b-x: 0;
+                --b-y: -25;
+                --b-z: 250;
+                --c-x: 0;
+                --c-y: 0;
+                --c-z: 200;
+                color: blue;
+                opacity: 50%;
+            ">Z</div>
+            {{ body | safe }}
+        </div>
+    </div>
+    <div class="controls">
+        <label>yaw</label>
+        <input type="range" class="yaw" name="yaw" min="-180" max="180" />
+        <label>pitch</label>
+        <input type="range" class="pitch" name="pitch" min="-90" max="90" />
+        <label>roll</label>
+        <input type="range" class="roll" name="roll" min="-90" max="90" />
+        <label>reset</label>
+        <input type="button" value="reset" class="reset" name="reset" />
+    </div>
+</div>
+
+<script>
+(() => {
+    const container = document.getElementById("container-{{nth}}");
+
+    let yaw = container.getElementsByClassName("yaw")[0];
+    yaw.value = 0;
+    let pitch = container.getElementsByClassName("pitch")[0];
+    pitch.value = 0;
+    let roll = container.getElementsByClassName("roll")[0];
+    roll.value = 0;
+
+    let scene = container.getElementsByClassName("scene")[0];
+    let update_scene = () => {
+        let cam_x = 0;
+        let cam_y = 300;
+        let cam_z = 0;
+
+        scene.setAttribute("style", `
+            --cam-yaw: ${yaw.value};
+            --cam-pitch: ${pitch.value};
+            --cam-roll: ${roll.value};
+            --cam-x: ${cam_x};
+            --cam-y: ${cam_y};
+            --cam-z: ${cam_z};
+        `);
+    };
+
+    yaw.addEventListener("input", update_scene);
+    pitch.addEventListener("input", update_scene);
+    roll.addEventListener("input", update_scene);
+    update_scene();
+
+    let reset = container.getElementsByClassName("reset")[0];
+    reset.addEventListener("click", () => {
+        yaw.value = 0;
+        pitch.value = 0;
+        roll.value = 0;
+        update_scene();
+    });
+})();
+</script>
+
+{% if nth == 1 %}
 <style>
+
     .container {
         width: 100%;
         height: 600px;
 
         display: block;
         overflow: hidden;
+
+        display: grid;
+        grid-template-rows: 1fr 150px;
+
+        .controls {
+            display: grid;
+            grid-template-columns: 100px 1fr;
+
+            z-index: 2;
+
+            margin: 20px;
+        }
+
+        box-shadow: 0 0 10px 2px var(--accent-color);
     }
+
+    @media (min-width: 700px) {
+        .container {
+            display: grid;
+            grid-template-rows: 1fr;
+            grid-template-columns: 1fr 200px;
+
+            .controls {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+            }
+        }
+    }
+
+    .yaw {
+        accent-color: green;
+    }
+
+    .pitch {
+        accent-color: red;
+    }
+
+    .roll {
+        accent-color: blue;
+    }
+
     .camera {
+        display: block;
         transform-style: preserve-3d;
         transform-origin: 0% 150px;
-        translate: 50% 50%;
+        translate: 50% 0;
         transform:
             matrix3d(
                 1, 0, 0, 0,
@@ -17,6 +206,8 @@
                 0, 0, 1, -0.002,
                 0, 0, 0, 1
             );
+
+        z-index: 1;
     }
 
     .scene {
@@ -130,8 +321,11 @@
         height: calc(var(--tri-height) * 1px);
 
         /* calculate the skew matrix coefficient */
-        --skew-x: calc(sqrt(pow(var(--hypot-ac), 2) - pow(var(--tri-height), 2)));
-        --skew-coefficient: calc(0 - var(--skew-x) / var(--tri-height));
+        --skew-ac-x: calc(var(--ac-project-ab) * var(--delta-ab-x));
+        --skew-ac-y: calc(var(--ac-project-ab) * var(--delta-ab-y));
+        --skew-ac-z: calc(var(--ac-project-ab) * var(--delta-ab-z));
+        --skew-length: calc(hypot(var(--skew-ac-x), var(--skew-ac-y), var(--skew-ac-z)));
+        --skew-coefficient: calc(var(--skew-length) / var(--tri-height));
 
         /* calculate ortho-normal basis */
         /* X basis vector, aka what the standard X vector maps to */
@@ -169,169 +363,13 @@
         transform:
             matrix3d(
                 var(--basis-x-x), var(--basis-x-y), var(--basis-x-z), 0,
-                calc(var(--skew-coefficient) * var(--basis-y-x)), var(--basis-y-y), var(--basis-y-z), 0,
+                calc(var(--basis-y-x) - var(--skew-coefficient) * var(--basis-x-x)),
+                    calc(var(--basis-y-y) - var(--skew-coefficient) * var(--basis-x-y)), 
+                    calc(var(--basis-y-z) - var(--skew-coefficient) * var(--basis-x-z)), 
+                    0,
                 var(--basis-z-x), var(--basis-z-y), var(--basis-z-z), 0,
                 var(--a-x), var(--a-y), var(--a-z), 1
             );
     }
 </style>
-
-<label for="yaw">yaw</label>
-<input type="range" id="yaw" name="yaw" min="-180" max="180" />
-<label for="pitch">pitch</label>
-<input type="range" id="pitch" name="pitch" min="-90" max="90" />
-<label for="roll">roll</label>
-<input type="range" id="roll" name="roll" min="-90" max="90" />
-
-<div class="container">
-    <div class="camera">
-    <div class="scene" style="
-        --cam-yaw: 0;
-        --cam-pitch: 0;
-        --cam-roll: 0;
-        --cam-x: 0;
-        --cam-y: 300;
-        --cam-z: 0;
-        animation-play-state: paused;
-    ">
-        <div class="rect" style="
-        --a-x: -100;
-        --a-y: -100;
-        --a-z: 100;
-        --b-x: 100;
-        --b-y: -100;
-        --b-z: 100;
-        --c-x: -100;
-        --c-y: 100;
-        --c-z: 100;
-        background: radial-gradient(cyan 0%, magenta 100%);
-        ">
-            <h5>WELCOME TO MY HORSE</h5>
-            <p>SLIDE THE SLIDERS ABOVE TO SPIN THIS CUBE AND SEE ITS DELIGHTS</p>
-        </div>
-        <div class="rect" style="
-        --a-x: 100;
-        --a-y: 100;
-        --a-z: 100;
-        --b-x: 100;
-        --b-y: -100;
-        --b-z: 100;
-        --c-x: 100;
-        --c-y: 100;
-        --c-z: -100;
-        background: url(/minecraft-grass.jpg);
-        background-size: 100%;
-        ">
-        <iframe 
-            src="/" 
-            title="description" 
-            width="800" 
-            height="800"
-            style="transform-origin: 0% 0%; transform: scale(25%, 25%);"
-        ></iframe>
-        </div>        
-        <div class="rect" style="
-        --a-x: -100;
-        --a-y: -100;
-        --a-z: 100;
-        --b-x: 100;
-        --b-y: -100;
-        --b-z: 100;
-        --c-x: -100;
-        --c-y: -100;
-        --c-z: -100;
-        background: white;
-        ">
-        <img src="/blog/horse-spin.gif" width="200" height="200"/>
-        </div>
-        <div class="rect" style="
-        --a-x: 100;
-        --a-y: -100;
-        --a-z: -100;
-        --b-x: -100;
-        --b-y: -100;
-        --b-z: -100;
-        --c-x: 100;
-        --c-y: 100;
-        --c-z: -100;
-        background: linear-gradient(
-            #5BCEFA 0%, #5BCEFA 20%, 
-            #F5A9B8 20%, #F5A9B8 40%, 
-            #FFFFFF 40%, #FFFFFF 60%, 
-            #F5A9B8 60%, #F5A9B8 80%, 
-            #5BCEFA 80%, #5BCEFA 100%
-        );
-        "></div>
-                <div class="rect" style="
-        --a-x: -100;
-        --a-y: -100;
-        --a-z: 100;
-        --b-x: -100;
-        --b-y: 100;
-        --b-z: 100;
-        --c-x: -100;
-        --c-y: -100;
-        --c-z: -100;
-        background: var(--background-color);
-        ">
-            <label for="animate" style="font-size: calc(2.5 * var(--font-size))">animate?</label>    
-            <input type="checkbox" id="animate" name="animate" style="scale: 2.5;" />
-        </div>
-        <div class="rect" style="
-        --a-x: -100;
-        --a-y: 100;
-        --a-z: 100;
-        --b-x: 100;
-        --b-y: 100;
-        --b-z: 100;
-        --c-x: -100;
-        --c-y: 100;
-        --c-z: -100;
-        background: linear-gradient(
-            #FFF433 25%, 
-            #FFFFFF 25% 50%, 
-            #9B59D0 50% 75%, 
-            #2D2D2D 75%
-        );
-        "></div>
-    </div>
-    </div>
-</div>
-
-<script>
-    let cam_x = 0;
-    let cam_y = 300;
-    let cam_z = 0;
-
-    let yaw = document.getElementById("yaw");
-    yaw.value = 0;
-    let pitch = document.getElementById("pitch");
-    pitch.value = 0;
-    let roll = document.getElementById("roll");
-    roll.value = 0;
-    let animate = document.getElementById("animate");
-    animate.checked = false;
-
-    let scene = document.getElementsByClassName("scene")[0];
-    let update_scene = () => {
-        const animation = !animate.checked ? "none" : `
-            spinnies 10s infinite linear,
-            uppies 3s infinite ease-in-out,
-            rollies 7s infinite ease-in-out;`;
-        scene.setAttribute("style", `
-            --cam-yaw: ${yaw.value};
-            --cam-pitch: ${pitch.value};
-            --cam-roll: ${roll.value};
-            --cam-x: ${cam_x};
-            --cam-y: ${cam_y};
-            --cam-z: ${cam_z};
-            animation: ${animation};
-        `);
-    };
-
-    yaw.addEventListener("input", update_scene)
-    pitch.addEventListener("input", update_scene)
-    roll.addEventListener("input", update_scene)
-    animate.addEventListener("input", update_scene)
-    update_scene()
-</script>
+{% endif %}

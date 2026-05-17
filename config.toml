@@ -13,6 +13,13 @@ description = "my webbed site for me and my friends"
 
 theme = "bish"
 
+[markdown.highlighting]
+error_on_missing_language = false
+style = "inline"
+light_theme = "github-light"
+dark_theme = "github-dark"
+
+
 [extra]
 # Put all your custom variables here
 nav_sections = ["minecraft/_index.md", "blog/_index.md", "stuff/_index.md"]
