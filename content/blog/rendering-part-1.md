@@ -17,7 +17,9 @@ also, working within the framework of html and css gives you access to the rich 
 
 I am not an expert on graphics, and this represents the result a lot of research I've done relearning linear algebra and the basics of graphics programming. jump down to the [references](#references) section to check out some of the resources I used for making this.
 
-look at this demo, and if you want to figure out how this works, read the rest of this blog post.
+okay I've said enough. look at this demo, and if this doesn't scare you away, please read the rest of the post to learn how I did it.
+
+## demo
 
 {% rendering_part_1() %}
 <div class="rect" style="
@@ -32,8 +34,10 @@ look at this demo, and if you want to figure out how this works, read the rest o
 --c-z: 100;
 background: radial-gradient(cyan 0%, magenta 100%);
 ">
-    <h5>WELCOME TO MY HORSE</h5>
-    <p>SLIDE THE SLIDERS ABOVE TO SPIN THIS CUBE AND SEE ITS DELIGHTS</p>
+    <div style="margin: 10px;">
+        <h5>WELCOME TO MY HORSE</h5>
+        <p>SLIDE THE SLIDERS TO SPIN THIS CUBE AND SEE ITS DELIGHTS</p>
+    </div>
 </div>
 <div class="rect" style="
 --a-x: 100;
@@ -148,12 +152,12 @@ background: linear-gradient(
 {% end %}
 
 ## how it works
-to render a complex piece of geometry, we must render smaller polygons of that geometry, often triangles. in typical graphics programming, as I understand it, you compile lists of coordinates representing the polygons to be rendered, plus information about how those interact with lighting, how textures map to those triangles, shaders that run arbitrary transformations against those polygons, and a lot of other fancy stuff that graphics libraries do.
+to render a complex piece of geometry, we must render smaller polygons of that geometry, often triangles. in typical graphics programming, you compile lists of coordinates representing the polygons to be rendered, plus information about how those interact with lighting, how textures map to those triangles, shaders that run arbitrary transformations against those polygons, and a lot of other fancy stuff that graphics libraries do.
 
-for this html/css-based rendering, it's a lot simpler but also a little more complicated. this means creating a physical manifestation of that triangle, in my case the humble div, and manipulating the shit out of it with css transforms until it looks just about right. I had to re-learn a bunch of linear algebra for this (and a bunch of $\LaTeX$ to take notes) so y'all better LISTEN UP.
+for this html/css-based rendering, it's a lot simpler but also a little more complicated. the browser is not set up to render arbitrary polygons in a 3d scene, so we have to implement some part of the graphics library ourselves in the language that the browser speaks. this means creating a physical manifestation of that triangle, in this case the humble div, and manipulating the shit out of it with css transforms until it looks just about right. I had to re-learn a bunch of linear algebra for this (and a bunch of $\LaTeX$ to take notes) so y'all better LISTEN UP.
 
 there are three principal parts to this:
-1. creating a triangle
+1. creating a triangle (this post)
 2. transforming the triangle into 3d space
 3. adding camera movement and perspective to the scene
 
@@ -191,9 +195,9 @@ the following css clips a rectangular div into a right triangle, with the upper-
 }
 ```
 
-so now the div is a right triangle, but what about other triangle shapes? in order to achieve that, we'll have to skew the triangle until the angle matches. math time.
+so now the div is a right triangle, but what about other triangle shapes? in order to achieve that, we'll have to skew the triangle until the angle matches. it's math time, little buddy, so lock in. look at this triangle:
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="15.057 199.487 327.579 166.422" xmlns:bx="https://boxy-svg.com" style="max-width: 300px;">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="15.057 199.487 327.579 166.422" xmlns:bx="https://boxy-svg.com" style="max-width: 300px; background: white;">
   <defs>
     <bx:export>
       <bx:file format="svg" path="triangle.svg"></bx:file>
@@ -206,9 +210,9 @@ so now the div is a right triangle, but what about other triangle shapes? in ord
   <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 28px;" x="29.509" y="340.817">C</text>
 </svg>
 
-the triangles rendered here have conventional points $ABC$, from which the vectors $\overrightarrow{AB}$ and $\overrightarrow{AC}$ roughly orient it right-hand rule style. we will set point $A$ is at the origin (0, 0, 0), and set $\overrightarrow{AB}$, the top leg, along the x axis. the side leg, $\overrightarrow{AC}$, stretches out somewhere into the positive Y direction, which is down. this is what the triangle above looks like aligned in this standardized way:
+the triangles rendered here have conventional points $ABC$, from which the vectors $\overrightarrow{AB}$ and $\overrightarrow{AC}$ roughly orient it right-hand rule style. we will set point $A$ is at the origin (0, 0, 0), and set $\overrightarrow{AB}$, the top leg, along the x axis. the side leg, $\overrightarrow{AC}$, stretches out somewhere into the positive Y direction (which is down by the way!!). this is what the triangle above looks like aligned in this standardized way:
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="-20.146 74.853 377.077 348.298" xmlns:bx="https://boxy-svg.com" style="max-width: 300px;">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-20.146 74.853 377.077 348.298" xmlns:bx="https://boxy-svg.com" style="max-width: 300px; background: white;">
   <defs>
     <bx:export>
       <bx:file format="svg" path="triangle.svg"></bx:file>
@@ -225,7 +229,7 @@ the triangles rendered here have conventional points $ABC$, from which the vecto
 
 and the initial triangle we will need to create, in order to transform it to that shape:
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="-20.146 74.853 377.077 348.298" xmlns:bx="https://boxy-svg.com" style="max-width: 300px;">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-20.146 74.853 377.077 348.298" xmlns:bx="https://boxy-svg.com" style="max-width: 300px; background: white;">
   <defs>
     <bx:export>
       <bx:file format="svg" path="triangle.svg"></bx:file>
@@ -310,11 +314,11 @@ style="
     --a-x: 0;
     --a-y: 0;
     --a-z: 0;
-    --b-x: 100;
+    --b-x: 75;
     --b-y: 0;
     --b-z: 0;
     --c-x: 0;
-    --c-y: 100;
+    --c-y: 150;
     --c-z: 0;
     background: orange;
 "></div>
@@ -360,7 +364,7 @@ with this math, we can begin writing the basic css to give us a triangle-shaped 
 
 ```
 
-you might notice that the skew coefficient swapped around in the transformation matrix from how it was defined above: that's because the matrices in css are column-major, which from what I can understand is common in graphics programming. the more you know...
+you might notice that the skew coefficient swapped around in the transformation matrix from how it was defined above: that's because the matrices in css are column-major, which from what I can understand is common in graphics programming. this just means that the visual representation ends up looking like the matrix is transposed. the more you know...
 
 
 {% rendering_part_1() %}
@@ -370,17 +374,21 @@ style="
     --a-x: 0;
     --a-y: 0;
     --a-z: 0;
-    --b-x: 100;
+    --b-x: 75;
     --b-y: 0;
     --b-z: 0;
     --c-x: -50;
-    --c-y: 100;
+    --c-y: 150;
     --c-z: 0;
     background: orange;
 "></div>
 {% end %}
 
 with that all set up, we have step one done! there is a triangle, and it looks like the triange we want. the only problem is that it's stuck in the XY plane, staring at us, taunting us.
+
+and that's part 1! there will be more coming in the future, covering the transformation of our triangles into three-dimensional space, camera rotation, perspective transformation, texturing (still figuring this one out), and animation.
+
+those will be linked here when they're out!
 
 ## references
 [scratchapixel - The Perspective and Orthographic Projection Matrix](https://www.scratchapixel.com/lessons/3d-basic-rendering/perspective-and-orthographic-projection-matrix/projection-matrix-introduction.html) - a great introduction to the concepts behind perspective transformation. I still don't fully _get it_ but this got me a little closer. it looks like there are a bunch of other great posts here about graphics programming basics, so I'm excited to dive deeper here as I work more on this project
