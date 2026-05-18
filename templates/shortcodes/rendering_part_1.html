@@ -9,13 +9,13 @@
             --cam-z: 0;
         ">
             <div class="rect" style="
-                --a-x: -800;
+                --a-x: -200;
                 --a-y: 1;
                 --a-z: 0;
-                --b-x: 800;
+                --b-x: 200;
                 --b-y: 1;
                 --b-z: 0;
-                --c-x: -800;
+                --c-x: -200;
                 --c-y: -1;
                 --c-z: 0;
                 background: red;
@@ -379,7 +379,7 @@
         --skew-ac-y: calc(var(--ac-project-ab) * var(--delta-ab-y));
         --skew-ac-z: calc(var(--ac-project-ab) * var(--delta-ab-z));
         --skew-length: calc(hypot(var(--skew-ac-x), var(--skew-ac-y), var(--skew-ac-z)));
-        --skew-coefficient: calc(var(--skew-length) / var(--tri-height));
+        --skew-coefficient: calc(var(--skew-length) / var(--tri-height) * -1 * sign(var(--ac-dot-ab)));
 
         /*
          * calculate orthonormal basis

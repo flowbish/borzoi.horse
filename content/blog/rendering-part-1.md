@@ -1,7 +1,7 @@
 +++
 title = "rendering in pure css (part 1)"
 date = "2026-05-14"
-description = "more linear algebra than you ever thought possible"
+description = "let's render geometry in pure css: part 1: creating a triangle"
 
 [extra]
 hidden = true
@@ -152,7 +152,7 @@ background: linear-gradient(
 {% end %}
 
 ## how it works
-to render a complex piece of geometry, we must render smaller polygons of that geometry, often triangles. in typical graphics programming, you compile lists of coordinates representing the polygons to be rendered, plus information about how those interact with lighting, how textures map to those triangles, shaders that run arbitrary transformations against those polygons, and a lot of other fancy stuff that graphics libraries do.
+to render a complex piece of geometry, it's gotta be broken up into a bunch of triangles, and a graphics library draws those triangles to the screen. in typical graphics programming, you compile lists of coordinates representing the polygons to be rendered, plus information about how those interact with lighting, how textures map to those triangles, shaders that run arbitrary transformations against those polygons, and a lot of other fancy stuff that graphics libraries do.
 
 for this html/css-based rendering, it's a lot simpler but also a little more complicated. the browser is not set up to render arbitrary polygons in a 3d scene, so we have to implement some part of the graphics library ourselves in the language that the browser speaks. this means creating a physical manifestation of that triangle, in this case the humble div, and manipulating the shit out of it with css transforms until it looks just about right. I had to re-learn a bunch of linear algebra for this (and a bunch of $\LaTeX$ to take notes) so y'all better LISTEN UP.
 
@@ -162,6 +162,9 @@ there are three principal parts to this:
 3. adding camera movement and perspective to the scene
 
 ### creating a triangle
+
+this is what it looks like to define a triangle:
+
 ```html
 <div 
   class="tri" 
