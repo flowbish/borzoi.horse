@@ -1,0 +1,547 @@
+<div id="container-{{nth}}" class="container">
+    <div class="camera">
+        <div class="scene" style="
+            --cam-yaw: 0;
+            --cam-pitch: 0;
+            --cam-roll: 0;
+            --cam-x: 0;
+            --cam-y: 300;
+            --cam-z: 0;
+        ">
+            <div class="rect" style="
+                --a-x: -200;
+                --a-y: 1;
+                --a-z: 0;
+                --b-x: 200;
+                --b-y: 1;
+                --b-z: 0;
+                --c-x: -200;
+                --c-y: -1;
+                --c-z: 0;
+                background: red;
+                opacity: 50%;
+            "></div>
+            <div class="rect" style="
+                --a-x: 200;
+                --a-y: -25;
+                --a-z: 0;
+                --b-x: 250;
+                --b-y: -25;
+                --b-z: 0;
+                --c-x: 200;
+                --c-y: 0;
+                --c-z: 0;
+                color: red;
+                opacity: 50%;
+            ">X</div>
+            <div class="rect" style="
+                --a-x: -1;
+                --a-y: -200;
+                --a-z: 0;
+                --b-x: 1;
+                --b-y: -200;
+                --b-z: 0;
+                --c-x: -1;
+                --c-y: 200;
+                --c-z: 0;
+                background: green;
+                opacity: 50%;
+            "></div>
+            <div class="rect" style="
+                --a-x: 5;
+                --a-y: -200;
+                --a-z: 0;
+                --b-x: 30;
+                --b-y: -200;
+                --b-z: 0;
+                --c-x: 5;
+                --c-y: -150;
+                --c-z: 0;
+                color: green;
+                opacity: 50%;
+            ">Y</div>
+            <div class="rect" style="
+                --a-x: 0;
+                --a-y: 1;
+                --a-z: -200;
+                --b-x: 0;
+                --b-y: 1;
+                --b-z: 200;
+                --c-x: 0;
+                --c-y: -1;
+                --c-z: -200;
+                background: blue;
+                opacity: 50%;
+            "></div>
+            <div class="rect" style="
+                --a-x: 0;
+                --a-y: -25;
+                --a-z: 200;
+                --b-x: 0;
+                --b-y: -25;
+                --b-z: 250;
+                --c-x: 0;
+                --c-y: 0;
+                --c-z: 200;
+                color: blue;
+                opacity: 50%;
+            ">Z</div>
+            {{ body | safe }}
+        </div>
+    </div>
+    <div class="controls">
+        <label>yaw</label>
+        <input type="range" class="yaw" name="yaw" min="-180" max="180" />
+        <label>pitch</label>
+        <input type="range" class="pitch" name="pitch" min="-90" max="90" />
+        <label>roll</label>
+        <input type="range" class="roll" name="roll" min="-90" max="90" />
+        <label>reset</label>
+        <input type="button" value="reset" class="reset" name="reset" />
+    </div>
+</div>
+
+<script>
+(() => {
+    const container = document.getElementById("container-{{nth}}");
+
+    let yaw = container.getElementsByClassName("yaw")[0];
+    yaw.value = 0;
+    let pitch = container.getElementsByClassName("pitch")[0];
+    pitch.value = 0;
+    let roll = container.getElementsByClassName("roll")[0];
+    roll.value = 0;
+
+    let scene = container.getElementsByClassName("scene")[0];
+    let update_scene = () => {
+        let cam_x = 0;
+        let cam_y = 300;
+        let cam_z = 0;
+
+        scene.setAttribute("style", `
+            --cam-yaw: ${yaw.value};
+            --cam-pitch: ${pitch.value};
+            --cam-roll: ${roll.value};
+            --cam-x: ${cam_x};
+            --cam-y: ${cam_y};
+            --cam-z: ${cam_z};
+        `);
+    };
+
+    yaw.addEventListener("input", update_scene);
+    pitch.addEventListener("input", update_scene);
+    roll.addEventListener("input", update_scene);
+    update_scene();
+
+    let reset = container.getElementsByClassName("reset")[0];
+    reset.addEventListener("click", () => {
+        yaw.value = 0;
+        pitch.value = 0;
+        roll.value = 0;
+        update_scene();
+    });
+})();
+</script>
+
+{% if nth == 1 %}
+<style>
+
+    .container {
+        width: 100%;
+        height: 600px;
+
+        display: block;
+        overflow: hidden;
+
+        display: grid;
+        grid-template-rows: 1fr 150px;
+
+        .controls {
+            display: grid;
+            grid-template-columns: 100px 1fr;
+
+            z-index: 2;
+
+            margin: 20px;
+        }
+
+        box-shadow: 0 0 10px 2px var(--accent-color);
+    }
+
+    @media (min-width: 700px) {
+        .container {
+            display: grid;
+            grid-template-rows: 1fr;
+            grid-template-columns: 1fr 200px;
+
+            .controls {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+            }
+        }
+    }
+
+    .yaw {
+        accent-color: green;
+    }
+
+    .pitch {
+        accent-color: red;
+    }
+
+    .roll {
+        accent-color: blue;
+    }
+
+    .camera {
+        display: block;
+        transform-style: preserve-3d;
+        transform-origin: 0% 150px;
+        translate: 50% 0;
+        transform:
+            matrix3d(
+                1, 0, 0, 0,
+                0, 1, 0, 0, 
+                0, 0, 1, -0.002,
+                0, 0, 0, 1
+            );
+
+        z-index: 1;
+    }
+
+    .scene {
+        transform-style: preserve-3d;
+
+        /* 
+         * from https://en.wikipedia.org/wiki/Rotation_matrix#General_3D_rotations
+         * implementing the extrensic rotation matrix
+         */
+        --a: calc(var(--cam-pitch) * -1deg);
+        --b: calc(var(--cam-yaw) * -1deg);
+        --g: calc(var(--cam-roll) * 1deg);
+        transform-origin: 0% 0%;
+        transform:
+            matrix3d(
+                calc(cos(var(--b)) * cos(var(--g))), calc(cos(var(--b)) * sin(var(--g))), calc(-1 * sin(var(--b))), 0,
+                calc(sin(var(--a)) * sin(var(--b)) * cos(var(--g)) - cos(var(--a)) * sin(var(--g))), calc(sin(var(--a)) * sin(var(--b)) * sin(var(--g)) + cos(var(--a)) * cos(var(--g))), calc(sin(var(--a)) * cos(var(--b))), 0,
+                calc(cos(var(--a)) * sin(var(--b)) * cos(var(--g)) + sin(var(--a)) * sin(var(--g))), calc(cos(var(--a)) * sin(var(--b)) * sin(var(--g)) - sin(var(--a)) * cos(var(--g))), calc(cos(var(--a)) * cos(var(--b))), 0,
+                var(--cam-x), var(--cam-y), var(--cam-z), 1
+            );
+    }
+
+    @property --cam-yaw {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: false;
+    }
+
+    @property --cam-pitch {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: false;
+    }
+
+    @property --cam-roll {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: false;
+    }
+
+    @keyframes spinnies {
+        0% {
+            --cam-yaw: 0;
+        }
+        25% {
+            --cam-yaw: 90;
+        }
+        50% {
+            --cam-yaw: 180;
+        }
+        75% {
+            --cam-yaw: 270;
+        }
+        100% {
+            --cam-yaw: 360;
+        }
+    }
+
+
+    @keyframes uppies {
+        0%, 100%{
+            --cam-pitch: 0;
+        }
+        50% {
+            --cam-pitch: 45;
+        }
+    }
+
+
+    @keyframes rollies {
+        0%, 100%{
+            --cam-roll: -45;
+        }
+        50% {
+            --cam-roll: 45;
+        }
+    }
+
+    @property --a-x {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --a-y {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --a-z {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --b-x {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --b-y {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --b-z {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --c-x {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --c-y {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --c-z {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    .tri {
+        /* clip rectangle to just the upper-left triangle */
+        clip-path: polygon(0 0, 0 100%, 100% 0);
+    }
+
+    .tri, .rect {
+        /* use ab and ac vectors to determine the height and width of the containing rectangle */
+        --delta-ab-x: calc(var(--b-x) - var(--a-x));
+        --delta-ab-y: calc(var(--b-y) - var(--a-y));
+        --delta-ab-z: calc(var(--b-z) - var(--a-z));
+
+        --delta-ac-x: calc(var(--c-x) - var(--a-x));
+        --delta-ac-y: calc(var(--c-y) - var(--a-y));
+        --delta-ac-z: calc(var(--c-z) - var(--a-z));
+
+        --hypot-ab: calc(hypot(var(--delta-ab-x), var(--delta-ab-y), var(--delta-ab-z)));
+        --hypot-ac: calc(hypot(var(--delta-ac-x), var(--delta-ac-y), var(--delta-ac-z)));
+
+        /* projection of AC into Y */
+        --ac-dot-ab: calc(
+            (var(--delta-ac-x) * var(--delta-ab-x)) +
+            (var(--delta-ac-y) * var(--delta-ab-y)) +
+            (var(--delta-ac-z) * var(--delta-ab-z))
+        );
+        --ac-project-ab: calc(var(--ac-dot-ab) / pow(var(--hypot-ab), 2));
+        --tri-ac-x: calc(var(--delta-ac-x) - (var(--ac-project-ab) * var(--delta-ab-x)));
+        --tri-ac-y: calc(var(--delta-ac-y) - (var(--ac-project-ab) * var(--delta-ab-y)));
+        --tri-ac-z: calc(var(--delta-ac-z) - (var(--ac-project-ab) * var(--delta-ab-z)));
+        --tri-height: calc(hypot(var(--tri-ac-x), var(--tri-ac-y), var(--tri-ac-z)));
+
+        /* width and height of the initial right triangle */
+        width: calc(var(--hypot-ab) * 1px);
+        height: calc(var(--tri-height) * 1px);
+
+        /* calculate the skew matrix coefficient */
+        --skew-ac-x: calc(var(--ac-project-ab) * var(--delta-ab-x));
+        --skew-ac-y: calc(var(--ac-project-ab) * var(--delta-ab-y));
+        --skew-ac-z: calc(var(--ac-project-ab) * var(--delta-ab-z));
+        --skew-length: calc(hypot(var(--skew-ac-x), var(--skew-ac-y), var(--skew-ac-z)));
+        --skew-coefficient: calc(var(--skew-length) / var(--tri-height) * -1 * sign(var(--ac-dot-ab)));
+
+        /*
+         * calculate orthonormal basis
+         * X basis vector, aka what the standard X vector maps to 
+         */
+        --basis-x-x: calc(var(--delta-ab-x) / var(--hypot-ab));
+        --basis-x-y: calc(var(--delta-ab-y) / var(--hypot-ab));
+        --basis-x-z: calc(var(--delta-ab-z) / var(--hypot-ab));
+
+        /* 
+         * Y basis vector, aka what the standard Y vector maps to
+         * this is the part of AC orthogonal to basis X above, normalized
+         */
+        --ac-dot-basis-x: calc(
+            (var(--delta-ac-x) * var(--basis-x-x)) +
+            (var(--delta-ac-y) * var(--basis-x-y)) +
+            (var(--delta-ac-z) * var(--basis-x-z))
+        );
+        --basis-y-x-non-normalized: calc(var(--delta-ac-x) - (var(--ac-dot-basis-x) * var(--basis-x-x)));
+        --basis-y-y-non-normalized: calc(var(--delta-ac-y) - (var(--ac-dot-basis-x) * var(--basis-x-y)));
+        --basis-y-z-non-normalized: calc(var(--delta-ac-z) - (var(--ac-dot-basis-x) * var(--basis-x-z)));
+        --basis-y-length: calc(hypot(
+            var(--basis-y-x-non-normalized), 
+            var(--basis-y-y-non-normalized), 
+            var(--basis-y-z-non-normalized)
+        ));
+        --basis-y-x: calc(var(--basis-y-x-non-normalized) / var(--basis-y-length));
+        --basis-y-y: calc(var(--basis-y-y-non-normalized) / var(--basis-y-length));
+        --basis-y-z: calc(var(--basis-y-z-non-normalized) / var(--basis-y-length));
+
+        /*
+         * Z basis vector, formed from the cross product of the X and Y basis vectors.
+         * Since X and Y basis vectors are unit vectors, Z is also normalized.
+         */
+
+        --basis-z-x: calc(var(--basis-x-y) * var(--basis-y-z) - var(--basis-x-z) * var(--basis-y-y));
+        --basis-z-y: calc(var(--basis-x-z) * var(--basis-y-x) - var(--basis-x-x) * var(--basis-y-z));
+        --basis-z-z: calc(var(--basis-x-x) * var(--basis-y-y) - var(--basis-x-y) * var(--basis-y-x));
+
+        position: absolute;
+        transform-origin: 0% 0%;
+        transform:
+            matrix3d(
+                var(--basis-x-x), var(--basis-x-y), var(--basis-x-z), 0,
+                calc(var(--basis-y-x) - var(--skew-coefficient) * var(--basis-x-x)),
+                    calc(var(--basis-y-y) - var(--skew-coefficient) * var(--basis-x-y)), 
+                    calc(var(--basis-y-z) - var(--skew-coefficient) * var(--basis-x-z)), 
+                    0,
+                var(--basis-z-x), var(--basis-z-y), var(--basis-z-z), 0,
+                var(--a-x), var(--a-y), var(--a-z), 1
+            );
+
+
+        /*
+         * Texturing
+         * custom properties: 
+         * --texture-image: <image>;
+         * --texture-a-s: <percentage>;
+         * --texture-a-t: <percentage>;
+         * --texture-b-s: <percentage>;
+         * --texture-b-t: <percentage>;
+         * --texture-c-s: <percentage>;
+         * --texture-c-t: <percentage>;
+         */
+
+         overflow: hidden;
+    }
+
+    .rect::after, .tri::after {
+        content: "";
+        display: block;
+        position: absolute;
+
+        width: 1000px;
+        height: 1000px;
+
+        background-repeat: no-repeat;
+        background-image: var(--texture-image);
+
+        --delta-ab-s: calc(var(--texture-b-s) - var(--texture-a-s));
+        --delta-ab-t: calc(var(--texture-b-t) - var(--texture-a-t));
+        --delta-ac-s: calc(var(--texture-c-s) - var(--texture-a-s));
+        --delta-ac-t: calc(var(--texture-c-t) - var(--texture-a-t));
+
+        /* 
+         * this calculates the scalar cross product
+         * postive if ac is clockwise from ab, which is good
+         * negative if ac is counter-clockwise from ab, which is bad
+         * (for this texturing purpose)
+         * 
+         * --ab-cross-ac: calc(
+         *     var(--delta-ab-s) * var(--delta-ac-t) -
+         *     var(--delta-ab-t) * var(--delta-ac-s)
+         * );
+         */
+
+        --texture-ab-length: calc(
+            hypot(
+                var(--delta-ab-s),
+                var(--delta-ab-t)
+            )
+        );
+        --texture-ac-length: calc(
+            hypot(
+                var(--delta-ac-s),
+                var(--delta-ac-t)
+            )
+        );
+
+        --texture-size-x: calc(var(--hypot-ab) / var(--texture-ab-length));
+        --texture-size-y: calc(var(--tri-height) / var(--texture-ac-length));
+        --texture-size: max(var(--texture-size-x), var(--texture-size-y));
+
+        background-size: 
+            calc(var(--texture-size) * 1px) 
+            calc(var(--texture-size) * 1px);
+
+        --texture-rotation: calc(-1 * atan2(
+            calc(var(--texture-b-t) - var(--texture-a-t)),
+            calc(var(--texture-b-s) - var(--texture-a-s))
+        ));
+
+        /* not quite right... this is the angle between AB and AC */
+        --texture-skew-angle: calc(
+            -90deg + acos(
+                calc(
+                    (var(--delta-ab-s) * var(--delta-ac-s) + var(--delta-ab-t) * var(--delta-ac-t)) / 
+                    (var(--texture-ab-length) * var(--texture-ac-length))
+                )
+            )
+        );
+
+        --base-skew-angle: calc(
+            acos(
+                calc(
+                    var(--ac-dot-ab) / 
+                    (var(--hypot-ab) * var(--hypot-ac))
+                )
+            )
+        );
+
+        --texture-translation-s: calc(var(--texture-size) * var(--texture-a-s) * -1);
+        --texture-translation-t: calc(var(--texture-size) * var(--texture-a-t) * -1);
+
+        transform-origin: 0% 0%;
+        transform: 
+            matrix(
+                calc(tan(var(--texture-skew-angle)) * sin(var(--texture-rotation)) + cos(var(--texture-rotation))), 
+                sin(var(--texture-rotation)), 
+                calc(tan(var(--texture-skew-angle)) * cos(var(--texture-rotation)) - sin(var(--texture-rotation))),
+                cos(var(--texture-rotation)), 
+                calc(
+                    var(--texture-translation-s) * 
+                        (tan(var(--texture-skew-angle)) * sin(var(--texture-rotation)) + cos(var(--texture-rotation)))
+                    + var(--texture-translation-t) * 
+                        (tan(var(--texture-skew-angle)) * cos(var(--texture-rotation)) - sin(var(--texture-rotation)))
+                ),
+                calc(
+                    var(--texture-translation-s) * sin(var(--texture-rotation)) +
+                    var(--texture-translation-t) * cos(var(--texture-rotation))
+                )
+            );
+    }
+</style>
+{% endif %}
