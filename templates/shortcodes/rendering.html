@@ -13,54 +13,12 @@
     </div>
 </div>
 
-<script>
-(() => {
-    const container = document.getElementById("container-{{nth}}");
-
-    let yaw = container.getElementsByClassName("yaw")[0];
-    yaw.value = 0;
-    let pitch = container.getElementsByClassName("pitch")[0];
-    pitch.value = 0;
-    let roll = container.getElementsByClassName("roll")[0];
-    roll.value = 0;
-
-    let scene = container.getElementsByClassName("scene")[0];
-    let update_scene = () => {
-        let cam_x = 0;
-        let cam_y = 300;
-        let cam_z = 0;
-
-        scene.setAttribute("style", `
-            --cam-yaw: ${yaw.value};
-            --cam-pitch: ${pitch.value};
-            --cam-roll: ${roll.value};
-            --cam-x: ${cam_x};
-            --cam-y: ${cam_y};
-            --cam-z: ${cam_z};
-        `);
-    };
-
-    yaw.addEventListener("input", update_scene);
-    pitch.addEventListener("input", update_scene);
-    roll.addEventListener("input", update_scene);
-    update_scene();
-
-    let reset = container.getElementsByClassName("reset")[0];
-    reset.addEventListener("click", () => {
-        yaw.value = 0;
-        pitch.value = 0;
-        roll.value = 0;
-        update_scene();
-    });
-})();
-</script>
-
 {% if nth == 1 %}
 <style>
 
     .container {
-        width: 150%;
-        height: 100px;
+        width: 100%;
+        height: 500px;
 
         display: block;
     }
@@ -139,6 +97,24 @@
         initial-value: 0;
         inherits: false;
     }
+
+    @property --a {
+        syntax: "<angle>";
+        initial-value: 0;
+        inherits: false;
+    }
+
+    @property --b {
+        syntax: "<angle>";
+        initial-value: 0;
+        inherits: false;
+    }
+
+    @property --g {
+        syntax: "<angle>";
+        initial-value: 0;
+        inherits: false;
+    }   
 
     @keyframes spinnies {
         0% {
@@ -231,7 +207,207 @@
         initial-value: 0;
         inherits: true;
     }
-cam-pitch --cam-roll --cam-yaw
+
+
+    @property --delta-ab-x {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: false;
+    }
+
+    @property --delta-ab-y {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: false;
+    }
+
+    @property --delta-ab-z {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: false;
+    }
+
+
+    @property --delta-ac-x {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: false;
+    }
+
+    @property --delta-ac-y {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: false;
+    }
+
+    @property --delta-ac-z {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: false;
+    }
+
+    @property --hypot-ab {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --hypot-ac {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --ac-dot-ab {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --ac-project-ab {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --tri-ac-x {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --tri-ac-y {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --tri-ac-z {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --tri-height {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --skew-ac-x {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --skew-ac-y {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --skew-ac-z {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --skew-length {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --skew-coefficient {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --basis-x-x {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --basis-x-y {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --basis-x-z {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --basis-y-x-non-normalized {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --basis-y-y-non-normalized {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --basis-y-z-non-normalized {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --basis-y-length {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --basis-y-x {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --basis-y-y {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --basis-y-z {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --basis-z-x {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --basis-z-y {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --basis-z-z {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --ac-dot-basis-x {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
     .tri {
         /* clip rectangle to just the upper-left triangle */
         clip-path: polygon(0 0, 0 100%, 100% 0);
@@ -332,6 +508,121 @@ cam-pitch --cam-roll --cam-yaw
         overflow: visible;
     }
 
+
+    @property --texture-a-s {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --texture-a-t {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --texture-b-s {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --texture-b-t {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --texture-c-s {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --texture-c-t {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --delta-ab-s {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --delta-ab-t {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --delta-ac-s {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --delta-ac-t {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --ab-cross-ac {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --texture-ab-length {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --texture-ac-length {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --texture-size-x {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --texture-size-y {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --texture-rotation {
+        syntax: "<angle>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --texture-skew-angle {
+        syntax: "<angle>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --texture-translation-s {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
+    @property --texture-translation-t {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: true;
+    }
+
     .rect::after, .tri::after {
         content: "";
         display: block;
@@ -388,7 +679,6 @@ cam-pitch --cam-roll --cam-yaw
         /* I think these are wrong, currently this only works if AB x Y is 0 and AC x X is zero. */
         --texture-size-x: calc(var(--hypot-ab) / var(--texture-ab-length));
         --texture-size-y: calc(var(--hypot-ac) / var(--texture-ac-length));
-        --texture-size: max(var(--texture-size-x), var(--texture-size-y));
 
         background-size: 
             calc(var(--texture-size-x) * 1px) 
@@ -401,15 +691,6 @@ cam-pitch --cam-roll --cam-yaw
                 calc(
                     (var(--delta-ab-s) * var(--delta-ac-s) + var(--delta-ab-t) * var(--delta-ac-t)) / 
                     (var(--texture-ab-length) * var(--texture-ac-length))
-                )
-            )
-        );
-
-        --base-skew-angle: calc(
-            acos(
-                calc(
-                    var(--ac-dot-ab) / 
-                    (var(--hypot-ab) * var(--hypot-ac))
                 )
             )
         );
@@ -439,10 +720,6 @@ cam-pitch --cam-roll --cam-yaw
                 )
             );
         will-change: transform;
-    }
-
-    .Bridle, .Saddle {
-        display: none;
     }
 </style>
 {% endif %}
