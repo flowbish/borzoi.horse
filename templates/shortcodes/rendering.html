@@ -21,20 +21,7 @@
         height: 500px;
 
         display: block;
-    }
-
-    @media (min-width: 700px) {
-        .container {
-            display: grid;
-            grid-template-rows: 1fr;
-            grid-template-columns: 1fr 200px;
-
-            .controls {
-                display: flex;
-                flex-direction: column;
-                justify-content: flex-end;
-            }
-        }
+        overflow: hidden;
     }
 
     .camera {
@@ -93,6 +80,24 @@
     }
 
     @property --cam-roll {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: false;
+    }
+
+    @property --cam-x {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: false;
+    }
+
+    @property --cam-y {
+        syntax: "<number>";
+        initial-value: 0;
+        inherits: false;
+    }
+
+    @property --cam-z {
         syntax: "<number>";
         initial-value: 0;
         inherits: false;
