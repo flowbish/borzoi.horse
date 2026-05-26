@@ -59,16 +59,10 @@
 <style>
 
     .container {
-        width: 100%;
-        height: 600px;
+        width: 150%;
+        height: 100px;
 
         display: block;
-        overflow: hidden;
-
-        display: grid;
-        grid-template-rows: 1fr 150px;
-
-        box-shadow: 0 0 10px 2px var(--accent-color);
     }
 
     @media (min-width: 700px) {
@@ -445,6 +439,10 @@ cam-pitch --cam-roll --cam-yaw
                 )
             );
         will-change: transform;
+    }
+
+    .Bridle, .Saddle {
+        display: none;
     }
 </style>
 {% endif %}
