@@ -1,14 +1,20 @@
 <div id="container-{{nth}}" class="container">
-    <div class="camera">
-        <div class="scene" style="
-            --cam-yaw: 0;
-            --cam-pitch: 0;
-            --cam-roll: 0;
-            --cam-x: 0;
-            --cam-y: 300;
-            --cam-z: 0;
-        ">
-            {{ body | safe }}
+    <div class="camera-projection"  style="
+        --cam-yaw: 0;
+        --cam-pitch: 0;
+        --cam-roll: 0;
+        --cam-x: 0;
+        --cam-y: 300;
+        --cam-z: 0;
+    ">
+        <div class="camera camera-roll">
+            <div class="camera camera-pitch">
+                <div class="camera camera-yaw">
+                    <div class="scene">
+                        {{ body | safe }}
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -24,12 +30,13 @@
         overflow: hidden;
     }
 
-    .camera {
+    .camera-projection {
         display: block;
         transform-style: preserve-3d;
-        transform-origin: 0% 150px;
+        transform-origin: 0% 0%;
         translate: 50% 0;
         transform:
+            translateY(calc(var(--cam-y) * 1px))
             matrix3d(
                 1, 0, 0, 0,
                 0, 1, 0, 0, 
@@ -40,31 +47,32 @@
         z-index: 1;
     }
 
+    .camera {
+        display: block;
+        transform-style: preserve-3d;
+        will-change: transform;
+        transform-origin: 0% 0%;
+    }
+
+    .camera-roll {
+        animation: rollies 13s infinite ease-in-out;
+        transform: rotateZ(calc(1deg * var(--cam-roll)));
+    }
+
+
+    .camera-pitch {
+        animation: uppies 7s infinite ease-in-out;
+        transform: rotateX(calc(1deg * var(--cam-pitch)));
+    }
+
+    .camera-yaw {
+        --cam-yaw: 90deg;
+        animation: spinnies 10s infinite linear;
+        transform: rotateY(calc(1deg * var(--cam-yaw)));
+    }
+
     .scene {
         transform-style: preserve-3d;
-
-        /* 
-         * from https://en.wikipedia.org/wiki/Rotation_matrix#General_3D_rotations
-         * implementing the extrensic rotation matrix
-         */
-        --a: calc(var(--cam-pitch) * -1deg);
-        --b: calc(var(--cam-yaw) * -1deg);
-        --g: calc(var(--cam-roll) * 1deg);
-        transform-origin: 0% 0%;
-        transform:
-            matrix3d(
-                calc(cos(var(--b)) * cos(var(--g))), calc(cos(var(--b)) * sin(var(--g))), calc(-1 * sin(var(--b))), 0,
-                calc(sin(var(--a)) * sin(var(--b)) * cos(var(--g)) - cos(var(--a)) * sin(var(--g))), calc(sin(var(--a)) * sin(var(--b)) * sin(var(--g)) + cos(var(--a)) * cos(var(--g))), calc(sin(var(--a)) * cos(var(--b))), 0,
-                calc(cos(var(--a)) * sin(var(--b)) * cos(var(--g)) + sin(var(--a)) * sin(var(--g))), calc(cos(var(--a)) * sin(var(--b)) * sin(var(--g)) - sin(var(--a)) * cos(var(--g))), calc(cos(var(--a)) * cos(var(--b))), 0,
-                var(--cam-x), var(--cam-y), var(--cam-z), 1
-            );
-
-        animation: 
-            spinnies 10s infinite linear,
-            uppies 13s infinite ease-in-out,
-            rollies 7s infinite ease-in-out;
-
-        will-change: transform;
     }
 
     @property --cam-yaw {
@@ -506,7 +514,6 @@
             );
 
         overflow: hidden;
-        will-change: transform;
     }
 
     .rect.full-texture {
