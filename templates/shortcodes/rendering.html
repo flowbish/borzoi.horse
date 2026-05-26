@@ -1,5 +1,5 @@
 <div id="container-{{nth}}" class="container">
-    <div class="camera-projection"  style="
+    <div class="camera camera-projection"  style="
         --cam-yaw: 0;
         --cam-pitch: 0;
         --cam-roll: 0;
@@ -36,15 +36,14 @@
         transform-origin: 0% 0%;
         translate: 50% 0;
         transform:
+            scale(calc(300 / var(--cam-z)))
+            translateX(calc(var(--cam-x) * 1px))
             translateY(calc(var(--cam-y) * 1px))
-            matrix3d(
-                1, 0, 0, 0,
-                0, 1, 0, 0, 
-                0, 0, 1, -0.002,
-                0, 0, 0, 1
-            );
+            translateZ(calc(var(--cam-z) * 1px))
+            perspective(calc(var(--cam-z) * 1px));
 
         z-index: 1;
+        animation: zoomies 20s infinite ease-in-out;
     }
 
     .camera {
@@ -56,19 +55,19 @@
 
     .camera-roll {
         animation: rollies 13s infinite ease-in-out;
-        transform: rotateZ(calc(1deg * var(--cam-roll)));
+        transform: rotateZ(calc(-1deg * var(--cam-roll)));
     }
 
 
     .camera-pitch {
         animation: uppies 7s infinite ease-in-out;
-        transform: rotateX(calc(1deg * var(--cam-pitch)));
+        transform: rotateX(calc(-1deg * var(--cam-pitch)));
     }
 
     .camera-yaw {
         --cam-yaw: 90deg;
         animation: spinnies 10s infinite linear;
-        transform: rotateY(calc(1deg * var(--cam-yaw)));
+        transform: rotateY(calc(-1deg * var(--cam-yaw)));
     }
 
     .scene {
@@ -160,10 +159,19 @@
 
     @keyframes rollies {
         0%, 100%{
-            --cam-roll: -45;
+            --cam-roll: -15;
         }
         50% {
-            --cam-roll: 45;
+            --cam-roll: 15;
+        }
+    }
+
+    @keyframes zoomies {
+        0%, 100%{
+            --cam-z: 300;
+        }
+        50% {
+            --cam-z: 600;
         }
     }
 
