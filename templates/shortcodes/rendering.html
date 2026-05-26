@@ -124,6 +124,8 @@
             spinnies 10s infinite linear,
             uppies 13s infinite ease-in-out,
             rollies 7s infinite ease-in-out;
+
+        will-change: transform;
     }
 
     @property --cam-yaw {
@@ -235,7 +237,7 @@
         initial-value: 0;
         inherits: true;
     }
-
+cam-pitch --cam-roll --cam-yaw
     .tri {
         /* clip rectangle to just the upper-left triangle */
         clip-path: polygon(0 0, 0 100%, 100% 0);
@@ -329,10 +331,11 @@
             );
 
         overflow: hidden;
+        will-change: transform;
     }
 
     .rect.full-texture {
-            overflow: visible;
+        overflow: visible;
     }
 
     .rect::after, .tri::after {
@@ -441,6 +444,7 @@
                     var(--texture-translation-t) * cos(var(--texture-rotation))
                 )
             );
+        will-change: transform;
     }
 </style>
 {% endif %}
