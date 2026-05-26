@@ -432,6 +432,21 @@
                 var(--a-x), var(--a-y), var(--a-z), 1
             );
 
+        overflow: hidden;
+    }
+
+    .rect.full-texture {
+            overflow: visible;
+    }
+
+    .rect::after, .tri::after {
+        content: "";
+        display: block;
+        position: absolute;
+        backface-visibility: visible;
+
+        width: 1000px;
+        height: 1000px;
 
         /*
          * Texturing
@@ -444,17 +459,6 @@
          * --texture-c-s: <percentage>;
          * --texture-c-t: <percentage>;
          */
-
-         overflow: hidden;
-    }
-
-    .rect::after, .tri::after {
-        content: "";
-        display: block;
-        position: absolute;
-
-        width: 1000px;
-        height: 1000px;
 
         background-repeat: no-repeat;
         background-image: var(--texture-image);
@@ -469,13 +473,12 @@
          * postive if ac is clockwise from ab, which is good
          * negative if ac is counter-clockwise from ab, which is bad
          * (for this texturing purpose)
-         * 
-         * --ab-cross-ac: calc(
-         *     var(--delta-ab-s) * var(--delta-ac-t) -
-         *     var(--delta-ab-t) * var(--delta-ac-s)
-         * );
          */
-
+        --ab-cross-ac: calc(
+            var(--delta-ab-s) * var(--delta-ac-t) -
+            var(--delta-ab-t) * var(--delta-ac-s)
+        );
+        
         --texture-ab-length: calc(
             hypot(
                 var(--delta-ab-s),
@@ -489,20 +492,17 @@
             )
         );
 
+        /* I think these are wrong, currently this only works if AB x Y is 0 and AC x X is zero. */
         --texture-size-x: calc(var(--hypot-ab) / var(--texture-ab-length));
-        --texture-size-y: calc(var(--tri-height) / var(--texture-ac-length));
+        --texture-size-y: calc(var(--hypot-ac) / var(--texture-ac-length));
         --texture-size: max(var(--texture-size-x), var(--texture-size-y));
 
         background-size: 
-            calc(var(--texture-size) * 1px) 
-            calc(var(--texture-size) * 1px);
+            calc(var(--texture-size-x) * 1px) 
+            calc(var(--texture-size-y) * 1px);
 
-        --texture-rotation: calc(-1 * atan2(
-            calc(var(--texture-b-t) - var(--texture-a-t)),
-            calc(var(--texture-b-s) - var(--texture-a-s))
-        ));
+        --texture-rotation: calc(-1 * atan2(var(--delta-ab-t), var(--delta-ab-s)));
 
-        /* not quite right... this is the angle between AB and AC */
         --texture-skew-angle: calc(
             -90deg + acos(
                 calc(
@@ -521,11 +521,14 @@
             )
         );
 
-        --texture-translation-s: calc(var(--texture-size) * var(--texture-a-s) * -1);
-        --texture-translation-t: calc(var(--texture-size) * var(--texture-a-t) * -1);
-
+        /* the "- var(--hypot-ab)" is needed, but not generalized */
+        --texture-translation-s: calc(var(--texture-size-x) * var(--texture-a-s) * -1);
+        --texture-translation-t: calc(var(--texture-size-y) * var(--texture-a-t) * -1);
+        
+        image-rendering: pixelated;
         transform-origin: 0% 0%;
         transform: 
+            scaleY(sign(var(--ab-cross-ac)))
             matrix(
                 calc(tan(var(--texture-skew-angle)) * sin(var(--texture-rotation)) + cos(var(--texture-rotation))), 
                 sin(var(--texture-rotation)), 
