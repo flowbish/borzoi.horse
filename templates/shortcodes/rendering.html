@@ -60,7 +60,7 @@
 
 
     .camera-pitch {
-        animation: uppies 7s infinite ease-in-out;
+        animation: uppies 14s infinite ease-in-out;
         transform: rotateX(calc(-1deg * var(--cam-pitch)));
     }
 
@@ -149,7 +149,7 @@
 
     @keyframes uppies {
         0%, 100%{
-            --cam-pitch: 0;
+            --cam-pitch: -45;
         }
         50% {
             --cam-pitch: 45;
@@ -697,8 +697,8 @@
         );
 
         /* I think these are wrong, currently this only works if AB x Y is 0 and AC x X is zero. */
-        --texture-size-x: calc(var(--hypot-ab) / var(--texture-ab-length));
-        --texture-size-y: calc(var(--hypot-ac) / var(--texture-ac-length));
+        --texture-size-y: calc(var(--hypot-ab) / var(--texture-ab-length));
+        --texture-size-x: calc(var(--hypot-ac) / var(--texture-ac-length));
 
         background-size: 
             calc(var(--texture-size-x) * 1px) 
