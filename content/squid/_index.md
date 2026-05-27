@@ -1,6 +1,6 @@
 +++
-title = "minecraft horse"
-description = "this is a minecraft horse"
+title = "minecraft squid"
+description = "this is a minecraft squid"
 
 [extra]
 hide_reading_time = true
