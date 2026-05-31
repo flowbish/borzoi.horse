@@ -11,7 +11,11 @@
             <div class="camera camera-pitch">
                 <div class="camera camera-yaw">
                     <div class="scene">
+                        {% if body %}
                         {{ body | safe }}
+                        {% else %}
+                        {{ load_data(path=path) | safe }}
+                        {% endif %}
                     </div>
                 </div>
             </div>
