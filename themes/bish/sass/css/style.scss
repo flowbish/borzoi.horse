@@ -349,7 +349,7 @@ footer .rff-webring {
   }
 }
 
-.theme-selector {
+.theme-selector, .mob-spawners {
   display: flex;
   flex-direction: row;
   justify-content:space-around;
@@ -370,7 +370,7 @@ footer .rff-webring {
     height: 40px;
     border-radius: 0;
     border: var(--text-color) 1px solid;
-    background-image: url("/minecraft-grass.jpg")
+    background-color: white;
   }
 
 }
