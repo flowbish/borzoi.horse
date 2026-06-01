@@ -7,6 +7,28 @@ nav_title = "stuff ?"
 
 # My Stuff
 
-# the octogon
+## the octogon
 
-{{ rotate(path="the-octogon.png") }}
+<style>
+.rotatable {
+    animation-name: rotate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: paused;
+}
+
+.rotatable:hover {
+    animation-play-state: running;
+}
+
+@keyframes rotate {
+0% {
+    transform: rotate(0);
+}
+100% {
+    transform: rotate(360deg);
+}
+}
+</style>
+<img class="rotatable" src="the-octogon.png" alt="a octagonal cat" />
