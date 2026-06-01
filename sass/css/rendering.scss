@@ -31,7 +31,7 @@
         translateX(calc(var(--cam-x) * 1px))
         translateY(calc(var(--cam-y) * 1px))
         translateZ(calc(var(--cam-z) * 1px))
-        perspective(calc(var(--cam-z) * 1px));
+        perspective(calc(var(--cam-z) * var(--cam-projection) * 1px));
 
     z-index: 1;
 }
@@ -73,6 +73,12 @@
 @property --cam-roll {
     syntax: "<number>";
     initial-value: 0;
+    inherits: false;
+}
+
+@property --cam-projection {
+    syntax: "<number>";
+    initial-value: 1;
     inherits: false;
 }
 
