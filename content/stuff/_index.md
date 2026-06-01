@@ -12,25 +12,27 @@ nav_title = "stuff ?"
 `click to visit their page and learn more (maybe)`
 
 <style>
-.guys {
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-}
-
-.container {
-    width: 200px;
-    height: 200px;
-
-    .camera {
-        transition: --cam-yaw 0.1s;
+.content {
+    .guys {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
     }
 
-    display: flow-start;
-}
+    .container {
+        width: 200px;
+        height: 200px;
 
-.container:hover .camera {
-    --cam-yaw: 45 !important;
+        .camera {
+            transition: --cam-yaw 0.1s;
+        }
+
+        display: flow-start;
+    }
+
+    .container:hover .camera {
+        --cam-yaw: 45 !important;
+    }
 }
 </style>
 
