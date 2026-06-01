@@ -244,7 +244,7 @@
   }
 
   async function spawn_mob(mob) {
-    const response = await fetch(`https://borzoi.horse/${mob}/model.divs`);
+    const response = await fetch(`/${mob}/model.divs`);
     if (!response.ok) throw new Error('Network response error');
     const text = await response.text();
 
@@ -262,8 +262,8 @@
             --cam-pitch: 0;
             --cam-roll: 0;
             --cam-x: 0;
-            --cam-y: 300;
-            --cam-z: 300;
+            --cam-y: 150;
+            --cam-z: 500;
         ">
           <div class="camera camera-roll">
             <div class="camera camera-pitch">
