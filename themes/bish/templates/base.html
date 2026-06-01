@@ -168,18 +168,10 @@
       <div class="logo flaming">
         {% set logo = resize_image(path="logo.png", width=240, height=200) %}
         <div onmouseenter="count()" class="container">
-          <div class="camera camera-projection"  style="
-              --cam-yaw: 0;
-              --cam-pitch: 0;
-              --cam-roll: 0;
-              --cam-projection: 100;
-              --cam-x: 0;
-              --cam-y: 250;
-              --cam-z: 450;
-          ">
+          <div class="camera camera-projection">
             <div class="camera camera-roll">
               <div class="camera camera-pitch">
-                <div class="camera camera-yaw" style="--cam-yaw: -90;">
+                <div class="camera camera-yaw">
                   <div class="scene">
                     {{ load_data(path="content/horse/model.divs") | safe }}
                   </div>
