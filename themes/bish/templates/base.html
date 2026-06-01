@@ -167,7 +167,7 @@
       </h1>
       <div class="logo flaming">
         {% set logo = resize_image(path="logo.png", width=240, height=200) %}
-        <img onmouseenter="count()" src="{{ logo.url }}" />
+        <img onmouseenter="count()" src="{{ logo.url }}" alt="minecraft horse in diamon armor"/>
         <span>flip count = </span><span id="count">0</span>
       </div>
       <div class="links flaming">
@@ -206,23 +206,47 @@
         {% endfor %}
       </div>
       <div class="rff-webring">
-        <a href="https://cobra.monster/rff-webring/borzoi.horse/prev"><img src="/point-right.svg" width="50px" /></a>
+        <a href="https://cobra.monster/rff-webring/borzoi.horse/prev">
+          <img src="/point-right.svg" width="50px" alt="previous" />
+        </a>
         <a href="https://cobra.monster/rff-webring">RFF Webring</a>
-        <a href="https://cobra.monster/rff-webring/borzoi.horse/next"><img src="/point-right.svg" width="50px" /></a>
+        <a href="https://cobra.monster/rff-webring/borzoi.horse/next">
+          <img src="/point-right.svg" width="50px" alt="next" />
+        </a>
       </div>
       <div class="theme-selector">
-        <button onclick="set_theme('grass')"><img src="/minecraft-grass.jpg"></button>
-        <button onclick="set_theme('dirt')"><img src="/minecraft-dirt.jpg"></button>
-        <button onclick="set_theme('snow')"><img src="/minecraft-snow.jpg"></button>
-        <button onclick="set_theme('nether')"><img src="/minecraft-netherrack.jpg"></button>
-        <button onclick="set_theme('sculk')"><img src="/minecraft-sculk.jpg"></button>
+        <button onclick="set_theme('grass')">
+          <img src="/minecraft-grass.jpg" alt="select grass theme">
+        </button>
+        <button onclick="set_theme('dirt')">
+          <img src="/minecraft-dirt.jpg" alt="select dirt theme">
+        </button>
+        <button onclick="set_theme('snow')">
+          <img src="/minecraft-snow.jpg" alt="select snow theme">
+        </button>
+        <button onclick="set_theme('nether')">
+          <img src="/minecraft-netherrack.jpg" alt="select netherrack theme">
+        </button>
+        <button onclick="set_theme('sculk')">
+          <img src="/minecraft-sculk.jpg" alt="select sculk theme">
+        </button>
       </div>
       <div class="mob-spawners">
-        <button onclick="spawn_mob('squid')"><img src="/minecraft-squid-face.png"></button>
-        <button onclick="spawn_mob('fox')"><img src="/minecraft-fox-face.png"></button>
-        <button onclick="spawn_mob('horse')"><img src="/minecraft-horse-face.png"></button>
-        <button onclick="spawn_mob('skeleton-horse')"><img src="/minecraft-skeleton-horse-face.png"></button>
-        <button onclick="spawn_mob('salmon')"><img src="/minecraft-salmon-body.png"></button>
+        <button onclick="spawn_mob('squid')">
+          <img src="/minecraft-squid-face.png" alt="spawn one squid">
+        </button>
+        <button onclick="spawn_mob('fox')">
+          <img src="/minecraft-fox-face.png" alt="spawn one fox">
+        </button>
+        <button onclick="spawn_mob('horse')">
+          <img src="/minecraft-horse-face.png" alt="spawn one horse">
+        </button>
+        <button onclick="spawn_mob('skeleton-horse')">
+          <img src="/minecraft-skeleton-horse-face.png" alt="spawn one skeleton horse">
+        </button>
+        <button onclick="spawn_mob('salmon')">
+          <img src="/minecraft-salmon-body.png" alt="spawn one salmon">
+        </button>
       </div>
     </footer>
   </body>
