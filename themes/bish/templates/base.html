@@ -20,6 +20,7 @@
 
     <link rel="stylesheet" href="{{ get_url(path="css/style.css", cachebust=true) }}">
     <link rel="stylesheet" href="{{ get_url(path="css/gallery.css", cachebust=true) }}">
+    <link rel="stylesheet" href="{{ get_url(path="css/rendering.css", cachebust=true) }}">
     <link rel="stylesheet" href="{{ get_url(path="css/font-palette-demo.css", cachebust=true) }}">
 
     {#- katex -#}
@@ -237,5 +238,49 @@
     theme = "grass";
   }
   document.body.setAttribute('theme', theme);
+
+  function getRandomArbitrary(min, max) {
+    return Math.random() * (max - min) + min;
+  }
+
+  async function spawn_mob(mob) {
+    const response = await fetch(`https://borzoi.horse/${mob}/model.divs`);
+    if (!response.ok) throw new Error('Network response error');
+    const text = await response.text();
+
+    const top = getRandomArbitrary(10, 90);
+    const left = getRandomArbitrary(10, 90);
+
+    const dp = new DOMParser();
+    const new_doc = dp.parseFromString(`
+      <div class="absolute container" style="
+        left: ${left}%;
+        top: ${top}%;
+      " inert>
+        <div class="camera camera-projection"  style="
+            --cam-yaw: 0;
+            --cam-pitch: 0;
+            --cam-roll: 0;
+            --cam-x: 0;
+            --cam-y: 300;
+            --cam-z: 300;
+        ">
+          <div class="camera camera-roll">
+            <div class="camera camera-pitch">
+              <div class="camera camera-yaw" style="
+                animation: spinnies 3s infinite linear;
+              ">
+                <div class="scene">
+                  ${text}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    `, "text/html");
+    const element = new_doc.getElementsByClassName("container")[0];
+    document.getElementsByTagName("body")[0].appendChild(element);
+  }
 </script>
 </html>
