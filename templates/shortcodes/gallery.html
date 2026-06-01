@@ -42,7 +42,7 @@
     <span class="zoom material-symbols-outlined">
       pan_zoom
     </span>
-    <img src="{{ asset }}" />
+    <img src="{{ asset }}" alt="{description}" />
   </a>
   <div class="viewer" id="{{ frag }}" >
     {%- if loop.index > 1 -%}
@@ -53,7 +53,7 @@
       <a class="prev"></a>
     {% endif %}
     <a class="close" href="#_">
-      <img src="{{ asset }}" />
+      <img src="{{ asset }}" alt="{description}" />
     </a>
     {% if description != "" %}
       <p>{{description}}</p>
