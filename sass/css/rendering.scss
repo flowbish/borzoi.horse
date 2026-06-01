@@ -100,24 +100,6 @@
     inherits: false;
 }
 
-@property --a {
-    syntax: "<angle>";
-    initial-value: 0;
-    inherits: false;
-}
-
-@property --b {
-    syntax: "<angle>";
-    initial-value: 0;
-    inherits: false;
-}
-
-@property --g {
-    syntax: "<angle>";
-    initial-value: 0;
-    inherits: false;
-}   
-
 @keyframes spinnies {
     0% {
         --cam-yaw: 0;

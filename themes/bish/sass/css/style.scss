@@ -245,20 +245,6 @@ a:visited {
 
     align-items: flex-end;
 
-    img {
-      max-width: max-content;
-      margin: 0;
-      width: 200px;
-    }
-
-    a {
-      padding-bottom: 0;
-    }
-
-    a:hover {
-      filter: none;
-    }
-
     .container:hover {
       transform: rotateY(180deg);
     }
