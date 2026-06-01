@@ -167,7 +167,26 @@
       </h1>
       <div class="logo flaming">
         {% set logo = resize_image(path="logo.png", width=240, height=200) %}
-        <img onmouseenter="count()" src="{{ logo.url }}" alt="minecraft horse in diamon armor"/>
+        <div onmouseenter="count()" class="container" style="width: 240px; height: 200px;">
+          <div class="camera camera-projection"  style="
+              --cam-yaw: 0;
+              --cam-pitch: 0;
+              --cam-roll: 0;
+              --cam-x: 0;
+              --cam-y: 250;
+              --cam-z: 400;
+          ">
+            <div class="camera camera-roll">
+              <div class="camera camera-pitch">
+                <div class="camera camera-yaw" style="--cam-yaw: -90;">
+                  <div class="scene">
+                    {{ load_data(path="content/horse/model.divs") | safe }}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <span>flip count = </span><span id="count">0</span>
       </div>
       <div class="links flaming">

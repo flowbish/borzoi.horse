@@ -39,7 +39,6 @@
     transform: rotateZ(calc(-1deg * var(--cam-roll)));
 }
 
-
 .camera-pitch {
     transform: rotateX(calc(-1deg * var(--cam-pitch)));
 }
