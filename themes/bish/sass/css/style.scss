@@ -245,6 +245,11 @@ a:visited {
 
     align-items: flex-end;
 
+    .container {
+      width: 200px;
+      height: 180px;
+    }
+    
     .container:hover {
       transform: rotateY(180deg);
     }
