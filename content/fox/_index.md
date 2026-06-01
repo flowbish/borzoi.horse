@@ -9,7 +9,7 @@ hide_reading_time = true
 path = "icon.png"
 +++
 
-{{ rendering(path="content/fox/model.divs") }}
+{{ rendering(path="content/fox/model.divs", animated=true) }}
 
 <style>
 .node.N\/A > .node.leg0, .node.N\/A > .node.leg3 {

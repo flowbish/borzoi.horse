@@ -1,15 +1,19 @@
-<div id="container-{{nth}}" class="container">
-    <div class="camera camera-projection animated"  style="
-        --cam-yaw: 0;
-        --cam-pitch: 0;
-        --cam-roll: 0;
-        --cam-x: 0;
-        --cam-y: 300;
-        --cam-z: 300;
+{% if animated %}
+    {% set container_classes = "container animated" %}
+{% else %}
+    {% set container_classes = "container" %}
+{% endif %}
+
+<div id="container-{{nth}}" class="{{ container_classes }}">
+    <div class="camera camera-projection"  style="
+        --cam-x: {{ x | default(value=0) }};
+        --cam-y: {{ y | default(value=300) }};
+        --cam-z: {{ z | default(value=300) }};
+        --cam-projection: {{ projection | default(value=1) }};
     ">
-        <div class="camera camera-roll animated">
-            <div class="camera camera-pitch animated">
-                <div class="camera camera-yaw animated">
+        <div class="camera camera-roll" style="--cam-roll: {{ roll | default(value=0) }};">
+            <div class="camera camera-pitch" style="--cam-pitch: {{ pitch | default(value=0) }};">
+                <div class="camera camera-yaw" style="--cam-yaw: {{ yaw | default(value=0) }};">
                     <div class="scene">
                         {% if body %}
                         {{ body | safe }}
@@ -24,20 +28,20 @@
 </div>
 
 <style> 
-.camera-projection.animated {
+.container.animated .camera-projection {
     animation: zoomies 20s infinite ease-in-out;
 }
 
-.camera-roll.animated {
+.container.animated .camera-roll {
     animation: rollies 13s infinite ease-in-out;
 }
 
 
-.camera-pitch.animated {
+.container.animated .camera-pitch {
     animation: uppies 14s infinite ease-in-out;
 }
 
-.camera-yaw.animated {
+.container.animated .camera-yaw {
     animation: spinnies 10s infinite linear;
 }
 </style>

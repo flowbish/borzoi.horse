@@ -9,4 +9,4 @@ hide_reading_time = true
 path = "horse-icon.png"
 +++
 
-{{ rendering(path="content/horse/model.divs") }}
+{{ rendering(path="content/horse/model.divs", animated=true) }}
