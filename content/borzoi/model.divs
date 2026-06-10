@@ -5,7 +5,7 @@
       calc(0 * 200 * -1px + var(--node-translate-y)),
       calc(0 * 200 * 1px + var(--node-translate-z))
     )
-    rotate3d(0, 0, 0, calc(-2 * acos(1)))
+    rotate3d(0, -0, 0, calc(-2 * acos(1)))
     rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
     scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
 ">
@@ -16,7 +16,7 @@
         calc(0.6875 * 200 * -1px + var(--node-translate-y)),
         calc(0.0625 * 200 * 1px + var(--node-translate-z))
       )
-      rotate3d(0, 0, 0, calc(-2 * acos(1)))
+      rotate3d(0, -0, 0, calc(-2 * acos(1)))
       rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
       scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
   ">
@@ -27,7 +27,7 @@
           calc(0 * 200 * -1px + var(--node-translate-y)),
           calc(0 * 200 * 1px + var(--node-translate-z))
         )
-        rotate3d(-0.70710677, 0, 0, calc(-2 * acos(0.70710677)))
+        rotate3d(-0.70710677, -0, 0, calc(-2 * acos(0.70710677)))
         rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
         scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
     ">
@@ -38,7 +38,7 @@
             calc(-0.1875 * 200 * -1px + var(--node-translate-y)),
             calc(-0.25 * 200 * 1px + var(--node-translate-z))
           )
-          rotate3d(0, 0, 0, calc(-2 * acos(1)))
+          rotate3d(0, -0, 0, calc(-2 * acos(1)))
           rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
           scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
       ">
@@ -49,7 +49,7 @@
               calc(0.1875 * 200 * -1px + var(--node-translate-y)),
               calc(0.25 * 200 * 1px + var(--node-translate-z))
             )
-            rotate3d(0, 0, 0, calc(-2 * acos(1)))
+            rotate3d(0, -0, 0, calc(-2 * acos(1)))
             rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
             scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
         ">
@@ -175,7 +175,7 @@
               calc(0.21875 * 200 * -1px + var(--node-translate-y)),
               calc(0.0625 * 200 * 1px + var(--node-translate-z))
             )
-            rotate3d(0, 0, 0, calc(-2 * acos(1)))
+            rotate3d(0, -0, 0, calc(-2 * acos(1)))
             rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
             scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
         ">
@@ -206,7 +206,7 @@
               calc(0.21875 * 200 * -1px + var(--node-translate-y)),
               calc(0.0625 * 200 * 1px + var(--node-translate-z))
             )
-            rotate3d(0, 0, 0, calc(-2 * acos(1)))
+            rotate3d(0, -0, 0, calc(-2 * acos(1)))
             rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
             scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
         ">
@@ -238,7 +238,7 @@
             calc(-0.3125 * 200 * -1px + var(--node-translate-y)),
             calc(-0.125 * 200 * 1px + var(--node-translate-z))
           )
-          rotate3d(0.70710677, 0, 0, calc(-2 * acos(0.70710677)))
+          rotate3d(0.70710677, -0, 0, calc(-2 * acos(0.70710677)))
           rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
           scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
       ">
@@ -249,7 +249,7 @@
               calc(0 * 200 * -1px + var(--node-translate-y)),
               calc(0 * 200 * 1px + var(--node-translate-z))
             )
-            rotate3d(0, 0, 0, calc(-2 * acos(1)))
+            rotate3d(0, -0, 0, calc(-2 * acos(1)))
             rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
             scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
         ">
@@ -376,7 +376,7 @@
             calc(-0.125 * 200 * -1px + var(--node-translate-y)),
             calc(0.375 * 200 * 1px + var(--node-translate-z))
           )
-          rotate3d(0.70710677, 0, 0, calc(-2 * acos(0.70710677)))
+          rotate3d(0.70710677, -0, 0, calc(-2 * acos(0.70710677)))
           rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
           scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
       ">
@@ -387,7 +387,7 @@
               calc(-0.5 * 200 * -1px + var(--node-translate-y)),
               calc(0.1875 * 200 * 1px + var(--node-translate-z))
             )
-            rotate3d(0, 0, 0, calc(-2 * acos(1)))
+            rotate3d(0, -0, 0, calc(-2 * acos(1)))
             rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
             scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
         ">
@@ -514,7 +514,7 @@
             calc(0.3125 * 200 * -1px + var(--node-translate-y)),
             calc(-0.125 * 200 * 1px + var(--node-translate-z))
           )
-          rotate3d(0.70710677, 0, 0, calc(-2 * acos(0.70710677)))
+          rotate3d(0.70710677, -0, 0, calc(-2 * acos(0.70710677)))
           rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
           scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
       ">
@@ -525,7 +525,7 @@
               calc(0 * 200 * -1px + var(--node-translate-y)),
               calc(0 * 200 * 1px + var(--node-translate-z))
             )
-            rotate3d(0, 0, 0, calc(-2 * acos(1)))
+            rotate3d(0, -0, 0, calc(-2 * acos(1)))
             rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
             scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
         ">
@@ -652,7 +652,7 @@
             calc(0.3125 * 200 * -1px + var(--node-translate-y)),
             calc(-0.125 * 200 * 1px + var(--node-translate-z))
           )
-          rotate3d(0.70710677, 0, 0, calc(-2 * acos(0.70710677)))
+          rotate3d(0.70710677, -0, 0, calc(-2 * acos(0.70710677)))
           rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
           scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
       ">
@@ -663,7 +663,7 @@
               calc(0 * 200 * -1px + var(--node-translate-y)),
               calc(0 * 200 * 1px + var(--node-translate-z))
             )
-            rotate3d(0, 0, 0, calc(-2 * acos(1)))
+            rotate3d(0, -0, 0, calc(-2 * acos(1)))
             rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
             scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
         ">
@@ -790,7 +790,7 @@
             calc(0.4375 * 200 * -1px + var(--node-translate-y)),
             calc(-0.03125 * 200 * 1px + var(--node-translate-z))
           )
-          rotate3d(0.6593458, 0, 0, calc(-2 * acos(0.7518398)))
+          rotate3d(0.6593458, -0, 0, calc(-2 * acos(0.7518398)))
           rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
           scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
       ">
@@ -801,7 +801,7 @@
               calc(0.40625 * 200 * -1px + var(--node-translate-y)),
               calc(0 * 200 * 1px + var(--node-translate-z))
             )
-            rotate3d(-0.70710677, 0, 0, calc(-2 * acos(0.70710677)))
+            rotate3d(-0.70710677, -0, 0, calc(-2 * acos(0.70710677)))
             rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
             scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
         ">
@@ -812,7 +812,7 @@
                 calc(-0.03125 * 200 * -1px + var(--node-translate-y)),
                 calc(0.09375 * 200 * 1px + var(--node-translate-z))
               )
-              rotate3d(0.12975039, -0.1079355, 0.014209978, calc(-2 * acos(0.9855521)))
+              rotate3d(0.12975039, 0.1079355, 0.014209978, calc(-2 * acos(0.9855521)))
               rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
               scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
           ">
@@ -823,7 +823,7 @@
                   calc(0 * 200 * -1px + var(--node-translate-y)),
                   calc(0 * 200 * 1px + var(--node-translate-z))
                 )
-                rotate3d(0, 0, 0, calc(-2 * acos(1)))
+                rotate3d(0, -0, 0, calc(-2 * acos(1)))
                 rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
                 scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
             ">
@@ -950,7 +950,7 @@
                 calc(-0.03125 * 200 * -1px + var(--node-translate-y)),
                 calc(0.09375 * 200 * 1px + var(--node-translate-z))
               )
-              rotate3d(0.12975039, 0.1079355, -0.014209978, calc(-2 * acos(0.9855521)))
+              rotate3d(0.12975039, -0.1079355, -0.014209978, calc(-2 * acos(0.9855521)))
               rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
               scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
           ">
@@ -961,7 +961,7 @@
                   calc(0 * 200 * -1px + var(--node-translate-y)),
                   calc(0 * 200 * 1px + var(--node-translate-z))
                 )
-                rotate3d(0, 0, 0, calc(-2 * acos(1)))
+                rotate3d(0, -0, 0, calc(-2 * acos(1)))
                 rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
                 scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
             ">
@@ -1088,7 +1088,7 @@
                 calc(-0.09375 * 200 * -1px + var(--node-translate-y)),
                 calc(-0.03125 * 200 * 1px + var(--node-translate-z))
               )
-              rotate3d(0, 0, 0, calc(-2 * acos(1)))
+              rotate3d(0, -0, 0, calc(-2 * acos(1)))
               rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
               scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
           ">
@@ -1214,7 +1214,7 @@
                 calc(0.40625 * 200 * -1px + var(--node-translate-y)),
                 calc(-0.078125 * 200 * 1px + var(--node-translate-z))
               )
-              rotate3d(0, 0.6087614, 0, calc(-2 * acos(0.7933533)))
+              rotate3d(0, -0.6087614, 0, calc(-2 * acos(0.7933533)))
               rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
               scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
           ">
@@ -1246,7 +1246,7 @@
               calc(0.1875 * 200 * -1px + var(--node-translate-y)),
               calc(0 * 200 * 1px + var(--node-translate-z))
             )
-            rotate3d(0, 0, 0, calc(-2 * acos(1)))
+            rotate3d(0, -0, 0, calc(-2 * acos(1)))
             rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
             scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
         ">
@@ -1373,7 +1373,7 @@
             calc(-0.375 * 200 * -1px + var(--node-translate-y)),
             calc(0.09375 * 200 * 1px + var(--node-translate-z))
           )
-          rotate3d(0.3007058, 0, 0, calc(-2 * acos(0.95371693)))
+          rotate3d(0.3007058, -0, 0, calc(-2 * acos(0.95371693)))
           rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
           scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
       ">
@@ -1384,7 +1384,7 @@
               calc(-0.25 * 200 * -1px + var(--node-translate-y)),
               calc(0 * 200 * 1px + var(--node-translate-z))
             )
-            rotate3d(0, 0, 0, calc(-2 * acos(1)))
+            rotate3d(0, -0, 0, calc(-2 * acos(1)))
             rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
             scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
         ">
@@ -1510,7 +1510,7 @@
               calc(-0.25 * 200 * -1px + var(--node-translate-y)),
               calc(-0.09375 * 200 * 1px + var(--node-translate-z))
             )
-            rotate3d(0, 0, 0, calc(-2 * acos(1)))
+            rotate3d(0, -0, 0, calc(-2 * acos(1)))
             rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
             scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
         ">
@@ -1541,7 +1541,7 @@
               calc(-0.25 * 200 * -1px + var(--node-translate-y)),
               calc(-0.09375 * 200 * 1px + var(--node-translate-z))
             )
-            rotate3d(0, 0, 0, calc(-2 * acos(1)))
+            rotate3d(0, -0, 0, calc(-2 * acos(1)))
             rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
             scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
         ">
@@ -1572,7 +1572,7 @@
               calc(-0.5 * 200 * -1px + var(--node-translate-y)),
               calc(-0.09375 * 200 * 1px + var(--node-translate-z))
             )
-            rotate3d(0, 0, 0, calc(-2 * acos(1)))
+            rotate3d(0, -0, 0, calc(-2 * acos(1)))
             rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
             scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
         ">
