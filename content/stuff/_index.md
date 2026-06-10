@@ -52,6 +52,9 @@ nav_title = "stuff ?"
 <a href="/salmon/">
 {{ rendering(path="/salmon/model.divs", projection=100, yaw=-135, y=250, pitch=16, z=500) }}
 </a>
+<a href="/borzoi/">
+{{ rendering(path="/borzoi/model.divs", projection=100, yaw=-135, y=250, pitch=16, z=500) }}
+</a>
 </div>
 
 ## the octogon
