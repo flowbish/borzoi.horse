@@ -1,5 +1,7 @@
 {% if animated %}
     {% set container_classes = "container animated" %}
+{% elif animated_spin %}
+    {% set container_classes = "container animated-spin" %}
 {% else %}
     {% set container_classes = "container" %}
 {% endif %}
@@ -41,7 +43,7 @@
     animation: uppies 14s infinite ease-in-out;
 }
 
-.container.animated .camera-yaw {
+.container.animated .camera-yaw, .container.animated-spin .camera-yaw {
     animation: spinnies 10s infinite linear;
 }
 </style>
