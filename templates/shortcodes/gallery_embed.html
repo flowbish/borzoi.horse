@@ -6,7 +6,7 @@
   
 {% set manifest = load_data(path=manifest, format="toml") %}
 {% for image in manifest.images %}
-  {% if image.fragment == fragment %}
+  {% if image.fragment and image.fragment == fragment %}
     {% set_global asset = image.url %}
   {% endif %}
 {% endfor %}
