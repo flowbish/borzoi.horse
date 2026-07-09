@@ -7,7 +7,7 @@ $max-layout-width: 864px;
 
 :root {
   --font-size: 1rem;
-  --line-height: 1.54em;
+  --line-height: 1.6em;
   --radius: 0;
 }
 
@@ -117,7 +117,7 @@ strong {
 }
 
 body {
-  @include font.ibm-plex-serif-regular;
+  @include font.ibm-plex-sans-regular;
   color: var(--text-color);
 
   &.layout-left,
