@@ -2,6 +2,9 @@
 title = "bikepacking to ainsworth state park"
 date = "2026-07-08"
 description = "the columbia river gorge and hanging a hammock off your bike"
+
+[extra.social_media_image]
+path = "vista-house.jpg"
 +++
 
 {{ gallery_embed(manifest="/blog/bikepacking-ainsworth-state-park/gallery.toml", fragment="vista-house")}}
