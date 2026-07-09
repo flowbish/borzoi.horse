@@ -1,0 +1,16 @@
+{# 
+  For use alongside the gallery shortcode. Embeds an image in a markdown document and
+  links to the gallery view of that image. Requires using a manifest for the gallery,
+  and specifying an explicit url fragment for the embedded image.
+#}  
+  
+{% set manifest = load_data(path=manifest, format="toml") %}
+{% for image in manifest.images %}
+  {% if image.fragment == fragment %}
+    {% set_global asset = image.url %}
+  {% endif %}
+{% endfor %}
+
+<a href="#{{ fragment }}">
+    <img src="{{ asset }}" />
+</a>
