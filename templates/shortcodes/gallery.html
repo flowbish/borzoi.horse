@@ -6,6 +6,7 @@
 
 {% set assets = [] %}
 {% set descriptions = [] %}
+{% set fragments = [] %}
 
 {% if manifest %}
   {% set manifest = load_data(path=manifest, format="toml") %}
@@ -13,6 +14,7 @@
   {% for image in manifest.images %}
     {% set_global assets = assets | concat(with=image.url) %}
     {% set_global descriptions = descriptions | concat(with=image.description | default(value="")) %}
+    {% set_global fragments = fragments | concat(with=image.fragment | default(value="")) %}
   {% endfor %}
 {% elif page %}
 {% set assets = page.assets %}
@@ -21,6 +23,7 @@
     {%- if asset is matching("[.](jpg|jpeg|png)$") -%}
       {% set_global assets = assets | concat(with=asset) %}
       {% set_global descriptions = descriptions | concat(with="") %}
+      {% set_global fragments = fragments | concat(with="") %}
     {% endif %}
   {% endfor %}
 {% elif section %}
@@ -29,6 +32,7 @@
     {%- if asset is matching("[.](jpg|jpeg|png)$") -%}
       {% set_global assets = assets | concat(with=asset) %}
       {% set_global descriptions = descriptions | concat(with="") %}
+      {% set_global fragments = fragments | concat(with="") %}
     {% endif %}
   {% endfor %}
 {% endif %}
@@ -37,30 +41,57 @@
 {% for i in range(end=assets | length) -%}
   {% set asset = assets[i] %}
   {% set description = descriptions[i] %}
-  {% set frag = "image-" ~ loop.index %}
+  {% if fragments[i] != "" %}
+      {% set frag = fragments[i] %}
+  {% else %}
+    {% set frag = "image-" ~ loop.index %}
+  {% endif %}
   <a href="#{{ frag }}" class="thumbnail">
     <span class="zoom material-symbols-outlined">
       pan_zoom
     </span>
     <img loading="lazy" src="{{ asset }}" alt="{description}" />
   </a>
-  <div class="viewer" id="{{ frag }}" >
-    {%- if loop.index > 1 -%}
-      {% set prev_index = loop.index - 1 %}
+  {%- if loop.index > 1 -%}
+    {% set prev_index = loop.index - 1 %}
+    {% set fragment_index = loop.index - 2 %}
+    {% if fragments[fragment_index] != "" %}
+      {% set prev = fragments[fragment_index] %}
+    {% else %}
       {% set prev = "image-" ~ prev_index %}
+    {% endif %}
+  {% else %}
+    {% set prev = "" %}
+  {% endif %}
+
+  {%- if loop.index < assets | length -%}
+    {% set next_index = loop.index + 1 %}
+    {% set fragment_index = loop.index %}
+    {% if fragments[fragment_index] != "" %}
+      {% set next = fragments[fragment_index] %}
+    {% else %}
+      {% set next = "image-" ~ next_index %}
+    {% endif %}
+  {% else %}
+    {% set next = "" %}
+  {% endif %}
+
+  <div class="viewer" id="{{ frag }}" previous="{{ prev }}" next="{{ next }}">
+    {% if prev != "" %}
       <a class="prev" href="#{{ prev }}">&larr;</a>
     {% else %}
       <a class="prev"></a>
     {% endif %}
+
     <a class="close" href="#_">
       <img loading="lazy" src="{{ asset }}" alt="{description}" />
     </a>
+
     {% if description != "" %}
       <p>{{description}}</p>
     {% endif %}
-    {%- if loop.index < assets | length -%}
-      {% set next_index = loop.index + 1 %}
-      {% set next = "image-" ~ next_index %}
+
+    {% if next != "" %}
       <a class="next" href="#{{ next }}">&rarr;</a>
     {% else %}
       <a class="next"></a>
@@ -70,22 +101,19 @@
 <script>
   let max_index = {{ assets | length }};
   addEventListener("keydown", (event) => {
-    let hash = window.location.hash;
-    if (hash.substring(0, 7) == "#image-") {
-      let index = parseInt(hash.substring(7), 10);
-      if (event.key == "ArrowRight") {
-        if (index < max_index) {
-          let next = "#image-" + (index + 1);
-          window.location.assign(next);
-        }
-      } else if (event.key == "ArrowLeft") {
-        if (index > 1) {
-          let next = "#image-" + (index - 1);
-          window.location.assign(next);
-        }
-      } else if (event.key == "Escape") {
-        window.location.assign("#_");
-      }
+    let fragment = window.location.hash.substring(1);
+    let current_viewer = document.getElementById(fragment);
+    if (current_viewer == null) {
+      return;
+    }
+    
+    if (event.key == "ArrowRight") {
+      let next = current_viewer.attributes.next;
+      window.location.assign("#" + current_viewer.attributes.next.value);
+    } else if (event.key == "ArrowLeft") {
+      window.location.assign("#" + current_viewer.attributes.previous.value);
+    } else if (event.key == "Escape") {
+      window.location.assign("#_");
     }
   })
 </script>
