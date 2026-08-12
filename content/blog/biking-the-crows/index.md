@@ -21,7 +21,7 @@ Getting up to Pittock Mansion was quite the climb, which I am weirdly well adapt
 
 ## The Crows
 
-It was so fun seeing all the colorful crows! I love the horror-adjacent [A Murder Huddle](#a-murder-huddle) at OMSI, and the detailed map on [The World of Wildwood](#the-world-of-wildwood-detail). Another favorite is [As the Crow Flies](#as-the-crow-flies) with its topographical map. I met several people who were out following the crows, and a few who were biking them, though none of them seemed to be doing them all that day. I also ran into someone with the most incredible [rainbow troute painted bike](#rainbow-trout-bike).
+It was so fun seeing all the colorful crows! I love the horror-adjacent [A Murder Huddle](#a-murder-huddle) at OMSI, and the detailed map on [The World of Wildwood](#the-world-of-wildwood-detail). Another favorite is [As the Crow Flies](#as-the-crow-flies) with its topographical map. I met several people who were out following the crows, and a few who were biking them, though none of them seemed to be doing them all that day. I also ran into someone with the most incredible [rainbow trout bike](#rainbow-trout-bike).
 
 
 {{ gallery_embed(manifest="/blog/biking-the-crows/gallery.toml", fragment="do-nuts-for-portland-with-bike")}}
