@@ -15,9 +15,9 @@ path = "do-nuts for portland with bike.jpg"
 
 This is the full route I followed, starting from home in NE Portland in the morning following the red route before coming home for lunch, then heading out with my partner on the green route for some afternoon waterfront crows, and finally going back out myself on the blue route to hit the rest of the crows downtown.
 
-I started at 9am and finished at 5pm so it was a full eight hour shift at the crow-spotting factory, including a lunch break and watching an episode of House, M.D. in the middle there. The total route was 45 miles with 2500 ft elevation.
+I started at 9am and finished at 5pm so it was a full eight hour shift at the crow-spotting factory, including a lunch break and watching an episode of House, M.D. in the middle there. The total route was 45 miles with 2500 ft elevation. I'm sure it can be lowered to 35 if you don't head back home a few times, but I'm not here for optimization.
 
-Getting up to Pittock Mansion was quite the climb, which I am weirdly well adapted to as that's been my evening ride destination recently for some reason. I find the climb challenging but fun, and that area is usually pretty quiet since vehicles can't access the mansion from that direction.
+Getting up to Pittock Mansion was quite the climb, which I am weirdly well adapted to as that's been my evening ride destination recently for some reason. I find the climb challenging but fun, and that area is usually pretty quiet since vehicles can't access the mansion from that direction. The viewpoint is also an amazing place to watch the sun set.
 
 ## The Crows
 
