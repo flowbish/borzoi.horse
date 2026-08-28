@@ -3,8 +3,8 @@ title = "biking the crows"
 date = "2026-08-11"
 description = "biking to all of the wildwood crows in portland"
 
-[extra.social_media_image]
-path = "do-nuts for portland with bike.jpg"
+[extra]
+icon = "do-nuts for portland with bike.jpg"
 +++
 
 [Colorful crows have been popping up all over Portland](https://downtownportland.org/wildwood-follow-the-crows-portlands-new-free-art-trail/) and I wanted to see them all by bike! Specifically, I wanted to see them all by bike in a single day, because I thought it sounded fun and it would be good training for the upcoming [Plaid Pantry Century](https://anomalily.world/plaid100/). I had no idea how long it would take but since the majority of them are downtown, most of the effort would be getting the annoying crows around the edges.

@@ -3,8 +3,8 @@ title = "oui oui frame bag"
 date = "2026-07-27"
 description = "I made a neat little frame bag for my bike to hold my friends"
 
-[extra.social_media_image]
-path = "bike-and-sky.jpg"
+[extra]
+icon = "bike-and-sky.jpg"
 +++
 
 {{ gallery_embed(manifest="/blog/oui-oui-frame-bag/gallery.toml", fragment="bike-and-sky")}}
