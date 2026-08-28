@@ -44,6 +44,11 @@ url = "https://borzoi.horse"
 image = "borzoi-horse.gif"
 alt = "borzoi-horse.gif"
 
+[[buttons]]
+url = "https://hayl.in/"
+image = "haylin.png"
+alt = "haylin"
+
 # past here is random stuff from https://88x31.nl
 
 [[buttons]]
