@@ -50,6 +50,7 @@ body[theme="nether"] {
   background-image: url("/minecraft-netherrack.jpg");
   background-repeat: repeat;
   --background-color: rgb(68, 18, 18);
+  --alternate-background-color: rgb(59, 41, 30);
   --text-color: oldlace;
   --accent-color: palevioletred;
   --light-accent-color: rgb(109, 38, 60);
@@ -93,6 +94,7 @@ body[theme="sculk"] {
   background-image: url("/minecraft-sculk.jpg");
   background-repeat: repeat;
   --background-color: rgb(40, 41, 46);
+  --alternate-background-color: rgb(49, 33, 54);
   --text-color: azure;
   --accent-color: teal;
   --light-accent-color: rgb(2, 41, 41);
