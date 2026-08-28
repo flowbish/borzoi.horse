@@ -2,6 +2,9 @@
 title = "blog about the blog"
 date = "2026-02-08"
 description = "this post describes how I used zola to create this webby site"
+
+[extra]
+icon = "shrek_2.png"
 +++
 
 hey so I made this website and whenever someone makes a website using an obscure technology, especially an obscure static site generate, it's all but required to make a post about it and why they chose to use it and why they would recommend everyone else use it. unfortunately, in my case, I'm not sure I can actually do that.
