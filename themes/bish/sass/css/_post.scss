@@ -69,14 +69,16 @@
 }
 
 .post {
-    padding: 30px 0;
+    padding: 30px 20px;
+    box-sizing: border-box;
     width: 100%;
     text-align: left;
+        
+    border-radius: 20px;
+    border-color: var(--text-color);
+    border-width: 2px;
+    border-style: solid;
 
-    &:not(:last-of-type) {
-        border-bottom: 1px solid color-mix(in srgb, var(--text-color) 10%, transparent);
-    }
-    
     header {
         display: flex;
         flex-direction: column;

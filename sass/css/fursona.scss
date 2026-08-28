@@ -2,11 +2,6 @@
 
 .post {
     background-color: var(--light-accent-color);
-    
-    border-radius: 20px;
-    border-color: var(--text-color);
-    border-width: 2px;
-    border-style: solid;
 
     h1, h2, h3, h4, h5, h6 {
         border: none;
@@ -19,8 +14,6 @@
     }
     
     .gallery {
-        margin: 20px;
-
         padding: 20px;
 
         background-color: color-mix(in srgb, var(--text-color) 10%, transparent);
