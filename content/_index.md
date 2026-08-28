@@ -5,17 +5,15 @@ description = "the welcoming page"
 
 # WELCOME TO MY HORSE !!!!!!!!
 
-```
-(it is real)
-```
+## Look at my blog
 
-```
-i"m writing a book about it
-```
+wow, a blog is a real thing! this one is written by a real people: [blog](/blog)
+
+contains: posts about horses, and biking (basically horses), and sometimes eating grass
 
 ## Look at my sonas
 
-Over here at [my refsheets](/refs)!
+Over here at [my refsheets](/refs)! mostly about a dog that's mostly a horse
 
 ## Pictures of my minecraft horses!!!
 
