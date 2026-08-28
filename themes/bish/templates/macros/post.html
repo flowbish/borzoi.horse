@@ -1,5 +1,5 @@
 {%- macro excerpt(page, hide_reading_time) -%}
-<article class="post">
+<article class="post excerpt">
     {{ 
         post_macros::header(
             page=page, 
@@ -17,13 +17,14 @@
 
 {%- macro header(page, heading, is_excerpt=false, hide_reading_time=false) -%}
 <header>
+    
+    {% if page.extra.icon %}
+    <a href="{{ page.permalink | safe }}"><img src="{{ get_url(path=page.path ~ page.extra.icon) }}" alt="{{page.title}}" ></a>
+    {% endif %}
+
     <{{ heading }} class="post-title">
         <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
     </{{ heading }}>
-
-    {% if page.extra.icon %}
-    <img src="{{ get_url(path=page.path ~ page.extra.icon) }}" alt="{{page.title}}" >
-    {% endif %}
 
     <ul class="post-meta hidden">
         {% if page.draft -%}

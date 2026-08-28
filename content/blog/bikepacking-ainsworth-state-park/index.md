@@ -7,8 +7,6 @@ description = "the columbia river gorge and hanging a hammock off your bike"
 icon = "vista-house.jpg"
 +++
 
-{{ gallery_embed(manifest="/blog/bikepacking-ainsworth-state-park/gallery.toml", fragment="vista-house")}}
-
 This past weekend I bikepacked out to the Columbia River Gorge in Oregon, one of the most beautiful places on earth. I started in Portland and rode out along the Historic Columbia River Highway to [Ainsworth State Park](https://stateparks.oregon.gov/index.cfm?do=park.profile&parkId=105). Total distance out was about 40 miles, with a total of about 1200 feet elevation. See this neat map of the highway and the waterfalls along the way. I did end up stopping at most of them, especially because they're either visible from the road or a short walk away.
 
 {{ gallery_embed(manifest="/blog/bikepacking-ainsworth-state-park/gallery.toml", fragment="waterfall-corridor-map")}}

@@ -7,8 +7,6 @@ description = "I made a neat little frame bag for my bike to hold my friends"
 icon = "bike-and-sky.jpg"
 +++
 
-{{ gallery_embed(manifest="/blog/oui-oui-frame-bag/gallery.toml", fragment="bike-and-sky")}}
-
 I love bike bags. I love bags dedicated to a specific purpose, and nothing has more specific purpose than a bag custom-fit to a bike's geometry. I also love bags that serve a specific, silly purpose, like holding [itemlabel dot com](https://itemlabel.com/) creatures.
 
 {{ gallery_embed(manifest="/blog/oui-oui-frame-bag/gallery.toml", fragment="frame-bag-template-folded")}}

@@ -19,10 +19,12 @@
 </header>
 {%- endif -%}
 
+<div class="excerpts">
 {% for page in section.pages -%}
 {% if not page.extra.hidden %}
 {{ post_macros::excerpt(page=page, hide_reading_time=section.extra.hide_reading_time | default(value=false)) }}
 {% endif %}
 {% endfor -%}
+</div>
 
 {%- endblock -%}
