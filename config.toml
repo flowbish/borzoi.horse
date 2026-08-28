@@ -22,4 +22,4 @@ dark_theme = "github-dark"
 
 [extra]
 # Put all your custom variables here
-nav_sections = ["minecraft/_index.md", "blog/_index.md", "stuff/_index.md"]
+nav_sections = ["minecraft/_index.md", "blog/_index.md", "refs/_index.md", "stuff/_index.md"]

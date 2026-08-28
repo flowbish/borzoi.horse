@@ -281,12 +281,12 @@ a:visited {
 
   .link {
     @include font.coral-pixels-regular;
-    font-size: calc(var(--font-size) * 1.5);
+    font-size: calc(var(--font-size) * 1.2);
     align-self: flex-end;
     padding: 15px;
     padding-bottom: calc((sibling-count() - sibling-index() + 1) * 50px);
-    flex-basis: 80px;
-    min-width: 80px;
+    flex-basis: 65px;
+    min-width: 65px;
   }
 
   a:hover {
