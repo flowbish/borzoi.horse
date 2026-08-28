@@ -101,7 +101,7 @@
 
             text-align: center;
 
-            background: #000000A0;
+            background: color-mix(in srgb, var(--text-color) 40%, transparent);
             color: var(--light-accent-color);
             @include font.ibm-plex-serif-regular;
         }
