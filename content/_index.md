@@ -1,6 +1,9 @@
 +++
 title = "welcome to my horse... ?"
 description = "the welcoming page"
+
+[extra]
+icon = "icon.png"
 +++
 
 # WELCOME TO MY HORSE !!!!!!!!
