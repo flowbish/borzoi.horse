@@ -152,7 +152,6 @@ h1, h2, h3, h4, h5, h6 {
 main {
   overflow-wrap: break-word;
   font-size: var(--font-size);
-
 }
 
 h1 {
@@ -195,6 +194,7 @@ table {
 
 p, ul, ol {
   line-height: var(--line-height);
+  font-size: calc(1.2 * var(--font-size));
 }
 
 pre {
