@@ -13,6 +13,9 @@ description = "my webbed site for me and my friends"
 
 theme = "bish"
 
+generate_feeds = true
+feed_filenames = ["atom.xml", "rss.xml"]
+
 [markdown.highlighting]
 error_on_missing_language = false
 style = "inline"
