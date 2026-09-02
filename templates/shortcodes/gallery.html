@@ -46,12 +46,7 @@
   {% else %}
     {% set frag = "image-" ~ loop.index %}
   {% endif %}
-  <a href="#{{ frag }}" class="thumbnail">
-    <span class="zoom material-symbols-outlined">
-      pan_zoom
-    </span>
-    <img loading="lazy" src="{{ asset }}" alt="{{ description }}" />
-  </a>
+
   {%- if loop.index > 1 -%}
     {% set prev_index = loop.index - 1 %}
     {% set fragment_index = loop.index - 2 %}
@@ -78,21 +73,23 @@
 
   <div class="viewer" id="{{ frag }}" previous="{{ prev }}" next="{{ next }}">
     {% if prev != "" %}
-      <a class="prev" href="#{{ prev }}">&larr;</a>
+      <a class="prev arrow" href="#{{ prev }}"></a>
     {% else %}
       <a class="prev"></a>
     {% endif %}
 
+    <a class="open" href="#{{ frag }}"></a>
     <a class="close" href="#_">
+      <span class="zoom material-symbols-outlined"></span>
       <img loading="lazy" src="{{ asset }}" alt="{{ description }}" />
     </a>
 
     {% if description != "" %}
-      <p>{{description}}</p>
+      <p class="description">{{description}}</p>
     {% endif %}
 
     {% if next != "" %}
-      <a class="next" href="#{{ next }}">&rarr;</a>
+      <a class="next arrow" href="#{{ next }}"></a>
     {% else %}
       <a class="next"></a>
     {% endif %}
