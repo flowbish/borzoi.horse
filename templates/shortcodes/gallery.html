@@ -50,7 +50,7 @@
     <span class="zoom material-symbols-outlined">
       pan_zoom
     </span>
-    <img loading="lazy" src="{{ asset }}" alt="{description}" />
+    <img loading="lazy" src="{{ asset }}" alt="{{ description }}" />
   </a>
   {%- if loop.index > 1 -%}
     {% set prev_index = loop.index - 1 %}
@@ -84,7 +84,7 @@
     {% endif %}
 
     <a class="close" href="#_">
-      <img loading="lazy" src="{{ asset }}" alt="{description}" />
+      <img loading="lazy" src="{{ asset }}" alt="{{ description }}" />
     </a>
 
     {% if description != "" %}

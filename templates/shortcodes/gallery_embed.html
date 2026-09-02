@@ -8,9 +8,10 @@
 {% for image in manifest.images %}
   {% if image.fragment and image.fragment == fragment %}
     {% set_global asset = image.url %}
+    {% set_global description = image.description %}
   {% endif %}
 {% endfor %}
 
 <a href="#{{ fragment }}">
-    <img src="{{ asset }}" />
+    <img src="{{ asset }}" alt="{{ description }}" />
 </a>
