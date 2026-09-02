@@ -2,6 +2,7 @@
 title = "rendering in pure css (part 1)"
 date = "2026-05-14"
 description = "let's render geometry in pure css: part 1: creating a triangle"
+include_in_feeds = false
 
 [extra]
 hidden = true
