@@ -31,16 +31,20 @@ bucket_name = 'assets-borzoi-horse'
 prefix = sys.argv[1]
 
 for key in client.list_objects(bucket_name, prefix):
-    if key == '':
+    if key.endswith('/'):
         # explicit directory object, skip
         continue
 
     basename = key.split('/')[-1]
-    fragment = basename.split('.')[0]
+    derived_fragment = basename.split('.')[0]
+
+    user_metadata = client.get_user_metadata(bucket_name, key)
+    fragment = user_metadata.get('fragment', derived_fragment)
+    description = user_metadata.get('description', '')
 
     print(f"""\
 [[images]]
 url = "https://assets.borzoi.horse/{key}"
 fragment = "{fragment}"
-description = ""
+description = "{description}"
 """)
