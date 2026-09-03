@@ -6,15 +6,6 @@
 {{ <gallery.inner assets descriptions fragments /> }}
 {%- endcomponent gallery -%}
 
-
-{%- component gallery.colocated_assets(page) -%}
-{%- set assets = [asset for asset in page.assets] -%}
-{%- set descriptions = ["" for asset in page.assets] -%}
-{%- set fragments = ["" for asset in page.assets] -%}
-{{ <gallery.inner assets descriptions fragments /> }}
-{%- endcomponent gallery.colocated_assets -%}
-
-
 {%- component gallery.inner(assets, descriptions, fragments) -%}
 <div class="gallery">
 {%- for i in range(end=assets | length) -%}
