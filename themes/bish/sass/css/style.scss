@@ -358,28 +358,36 @@ footer .rff-webring {
   }
 }
 
-.theme-selector, .mob-spawners {
+.theme-selector, .mob-spawners, .media-links {
   display: flex;
   flex-direction: row;
   justify-content:space-around;
 
   button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    height: 40px;
+    width: 40px;
+
     margin: 5px;
     padding: 0;
     border: 0;
     background: none;
+
+    border-radius: 0;
+    border: var(--text-color) 1px solid;
+    background-color: white;
   }
 
   button:hover {
     cursor: pointer;
   }
 
-  img {
+  img, span {
     margin: 0px;
-    height: 40px;
-    border-radius: 0;
-    border: var(--text-color) 1px solid;
-    background-color: white;
   }
 
 }
