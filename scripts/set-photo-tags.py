@@ -3,12 +3,14 @@
 import json
 import os
 import sys
+import tomllib
 
 from r2 import R2Client
 
 
 if len(sys.argv) < 2:
-    print(f'Usage: {sys.argv[0]} <prefix>')
+    print('Update objects in r2 with tags contaings the description and fragment from a gallery toml.')
+    print(f'Usage: {sys.argv[0]} <gallery_toml>')
     sys.exit(1)
 
 # Load credentials from "credentials.json" in the form
@@ -27,19 +29,32 @@ endpoint = credentials['R2_ENDPOINT']
 # Initialize the R2Client
 client = R2Client(access_key=access_key, secret_key=secret_key, endpoint=endpoint)
 
+url_prefix = 'https://assets.borzoi.horse/'
 bucket_name = 'assets-borzoi-horse'
-prefix = sys.argv[1]
+gallery_toml = sys.argv[1]
 
-for key in client.list_objects(bucket_name, prefix):
-    if not (key.endswith('.jpg') or key.endswith('.png')):
-        continue
+with open(gallery_toml, 'rb') as toml_file:
+    toml = tomllib.load(toml_file)
 
-    print(f'replacing {key}')
+for image in toml['images']:
+    url = image['url']
+    fragment = image['fragment']
+    description = image['description']
 
-    tmp_key = f'{key}.tmp'
-    client.copy_object(bucket_name, tmp_key, key, user_metadata={'horse': 'true'})
-    client.copy_object(bucket_name, key, tmp_key, user_metadata={'horse': 'true'})
-    client.delete_object(bucket_name, tmp_key)
+    local_metadata = {}
+    if fragment:
+        local_metadata['fragment'] = fragment
 
-    tags = client.get_user_metadata(bucket_name, key)
-    print(f'{key}: {tags}')
+    if description:
+        local_metadata['description'] = description
+
+    if url.startswith(url_prefix):
+        object_key = url[len(url_prefix):]
+
+        user_metadata = client.get_user_metadata(bucket_name, object_key)
+        if user_metadata != local_metadata:
+            print(f'Updating {object_key}: remote metadata {user_metadata} does not match {local_metadata}')
+            tmp_key = f'{object_key}.tmp'
+            client.copy_object(bucket_name, tmp_key, object_key, local_metadata)
+            client.copy_object(bucket_name, object_key, tmp_key, local_metadata)
+            client.delete_object(bucket_name, tmp_key)
