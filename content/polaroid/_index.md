@@ -11,5 +11,5 @@ the divs for this model were generated with triangles instead of rectangles so i
 this causes occasional screen tearing, probably from too many divs.
 
 <div style="background-color: red">
-{{ rendering(path="content/polaroid/model.divs", y=400, animated=true) }}
+{{ <rendering path="content/polaroid/model.divs" y={400} animate={true} /> }}
 </div>

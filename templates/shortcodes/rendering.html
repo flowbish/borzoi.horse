@@ -1,4 +1,6 @@
-{% if animated %}
+{% component rendering(path, x=0, y=300, z=300, pitch=0, yaw=0, roll=0, projection=1, animate=false, animated_spin=false) %}
+
+{% if animate %}
     {% set container_classes = "container animated" %}
 {% elif animated_spin %}
     {% set container_classes = "container animated-spin" %}
@@ -6,22 +8,22 @@
     {% set container_classes = "container" %}
 {% endif %}
 
-<div id="container-{{nth}}" class="{{ container_classes }}">
+<div id="container-xxx" class="{{ container_classes }}">
     <div class="camera camera-projection"  style="
-        --cam-x: {{ x | default(value=0) }};
-        --cam-y: {{ y | default(value=300) }};
-        --cam-z: {{ z | default(value=300) }};
-        --cam-projection: {{ projection | default(value=1) }};
+        --cam-x: {{ x }};
+        --cam-y: {{ y }};
+        --cam-z: {{ z }};
+        --cam-projection: {{ projection }};
     ">
-        <div class="camera camera-roll" style="--cam-roll: {{ roll | default(value=0) }};">
-            <div class="camera camera-pitch" style="--cam-pitch: {{ pitch | default(value=0) }};">
-                <div class="camera camera-yaw" style="--cam-yaw: {{ yaw | default(value=0) }};">
+        <div class="camera camera-roll" style="--cam-roll: {{ roll }};">
+            <div class="camera camera-pitch" style="--cam-pitch: {{ pitch }};">
+                <div class="camera camera-yaw" style="--cam-yaw: {{ yaw }};">
                     <div class="scene">
-                        {% if body %}
+                        {%- if body -%}
                         {{ body | safe }}
-                        {% else %}
+                        {%- else -%}
                         {{ load_data(path=path) | safe }}
-                        {% endif %}
+                        {%- endif -%}
                     </div>
                 </div>
             </div>
@@ -47,3 +49,5 @@
     animation: spinnies 10s infinite linear;
 }
 </style>
+
+{% endcomponent rendering %}

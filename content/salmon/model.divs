@@ -31,7 +31,6 @@
         rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
         scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
     ">
-      
       <div class="rect" style="
           --a-x: 18.75;
           --a-y: -106.25;
@@ -50,7 +49,6 @@
           --texture-c-s: 0.24951172;
           --texture-c-t: 0.25048828;
       "></div>
-      
       <div class="rect" style="
           --a-x: -18.75;
           --a-y: -106.25;
@@ -69,7 +67,6 @@
           --texture-c-s: 0.5932617;
           --texture-c-t: 0.25048828;
       "></div>
-      
       <div class="rect" style="
           --a-x: -18.75;
           --a-y: -106.25;
@@ -88,7 +85,6 @@
           --texture-c-s: 0.25048828;
           --texture-c-t: 0.24951172;
       "></div>
-      
       <div class="rect" style="
           --a-x: -18.75;
           --a-y: -43.75;
@@ -107,7 +103,6 @@
           --texture-c-s: 0.34423828;
           --texture-c-t: 0.00048828125;
       "></div>
-      
       <div class="rect" style="
           --a-x: -18.75;
           --a-y: -106.25;
@@ -126,7 +121,6 @@
           --texture-c-s: 0.6870117;
           --texture-c-t: 0.25048828;
       "></div>
-      
       <div class="rect" style="
           --a-x: 18.75;
           --a-y: -106.25;
@@ -168,7 +162,6 @@
           rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
           scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
       ">
-        
         <div class="rect" style="
             --a-x: 18.75;
             --a-y: -106.25;
@@ -187,7 +180,6 @@
             --texture-c-s: 0.24951172;
             --texture-c-t: 0.6567383;
         "></div>
-        
         <div class="rect" style="
             --a-x: -18.75;
             --a-y: -106.25;
@@ -206,7 +198,6 @@
             --texture-c-s: 0.5932617;
             --texture-c-t: 0.6567383;
         "></div>
-        
         <div class="rect" style="
             --a-x: -18.75;
             --a-y: -106.25;
@@ -225,7 +216,6 @@
             --texture-c-s: 0.25048828;
             --texture-c-t: 0.6557617;
         "></div>
-        
         <div class="rect" style="
             --a-x: -18.75;
             --a-y: -43.75;
@@ -244,7 +234,6 @@
             --texture-c-s: 0.34423828;
             --texture-c-t: 0.40673828;
         "></div>
-        
         <div class="rect" style="
             --a-x: -18.75;
             --a-y: -106.25;
@@ -263,7 +252,6 @@
             --texture-c-s: 0.6870117;
             --texture-c-t: 0.6567383;
         "></div>
-        
         <div class="rect" style="
             --a-x: 18.75;
             --a-y: -106.25;
@@ -305,7 +293,6 @@
             rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
             scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
         ">
-          
           <div class="rect" style="
               --a-x: 0.0125;
               --a-y: -131.25;
@@ -324,7 +311,6 @@
               --texture-c-s: 0.15576172;
               --texture-c-t: 0.18798828;
           "></div>
-          
           <div class="rect" style="
               --a-x: 0;
               --a-y: -131.25;
@@ -343,7 +329,6 @@
               --texture-c-s: 0.24951172;
               --texture-c-t: 0.18798828;
           "></div>
-          
           <div class="rect" style="
               --a-x: 0;
               --a-y: -131.25;
@@ -362,7 +347,6 @@
               --texture-c-s: 0.15576172;
               --texture-c-t: 0.18701172;
           "></div>
-          
           <div class="rect" style="
               --a-x: 0;
               --a-y: -106.25;
@@ -381,7 +365,6 @@
               --texture-c-s: 0.15576172;
               --texture-c-t: 0.09423828;
           "></div>
-          
           <div class="rect" style="
               --a-x: 0;
               --a-y: -131.25;
@@ -400,7 +383,6 @@
               --texture-c-s: 0.24951172;
               --texture-c-t: 0.18798828;
           "></div>
-          
           <div class="rect" style="
               --a-x: 0.0125;
               --a-y: -131.25;
@@ -443,7 +425,6 @@
             rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
             scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
         ">
-          
           <div class="rect" style="
               --a-x: 0.0125;
               --a-y: -106.25;
@@ -462,7 +443,6 @@
               --texture-c-s: 0.8120117;
               --texture-c-t: 0.5004883;
           "></div>
-          
           <div class="rect" style="
               --a-x: 0;
               --a-y: -106.25;
@@ -481,7 +461,6 @@
               --texture-c-s: 0.9995117;
               --texture-c-t: 0.5004883;
           "></div>
-          
           <div class="rect" style="
               --a-x: 0;
               --a-y: -106.25;
@@ -500,7 +479,6 @@
               --texture-c-s: 0.8120117;
               --texture-c-t: 0.49951172;
           "></div>
-          
           <div class="rect" style="
               --a-x: 0;
               --a-y: -43.75;
@@ -519,7 +497,6 @@
               --texture-c-s: 0.8120117;
               --texture-c-t: 0.31298828;
           "></div>
-          
           <div class="rect" style="
               --a-x: 0;
               --a-y: -106.25;
@@ -538,7 +515,6 @@
               --texture-c-s: 0.9995117;
               --texture-c-t: 0.5004883;
           "></div>
-          
           <div class="rect" style="
               --a-x: 0.0125;
               --a-y: -106.25;
@@ -582,7 +558,6 @@
           rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
           scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
       ">
-        
         <div class="rect" style="
             --a-x: 0.0125;
             --a-y: -131.25;
@@ -601,7 +576,6 @@
             --texture-c-s: 0.18701172;
             --texture-c-t: 0.12548828;
         "></div>
-        
         <div class="rect" style="
             --a-x: 0;
             --a-y: -131.25;
@@ -620,7 +594,6 @@
             --texture-c-s: 0.24951172;
             --texture-c-t: 0.12548828;
         "></div>
-        
         <div class="rect" style="
             --a-x: 0;
             --a-y: -131.25;
@@ -639,7 +612,6 @@
             --texture-c-s: 0.18701172;
             --texture-c-t: 0.12451172;
         "></div>
-        
         <div class="rect" style="
             --a-x: 0;
             --a-y: -106.25;
@@ -658,7 +630,6 @@
             --texture-c-s: 0.18701172;
             --texture-c-t: 0.06298828;
         "></div>
-        
         <div class="rect" style="
             --a-x: 0;
             --a-y: -131.25;
@@ -677,7 +648,6 @@
             --texture-c-s: 0.24951172;
             --texture-c-t: 0.12548828;
         "></div>
-        
         <div class="rect" style="
             --a-x: 0.0125;
             --a-y: -131.25;
@@ -720,7 +690,6 @@
           rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
           scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
       ">
-        
         <div class="rect" style="
             --a-x: 12.5;
             --a-y: -106.25;
@@ -739,7 +708,6 @@
             --texture-c-s: 0.7807617;
             --texture-c-t: 0.09423828;
         "></div>
-        
         <div class="rect" style="
             --a-x: -12.5;
             --a-y: -106.25;
@@ -758,7 +726,6 @@
             --texture-c-s: 0.9370117;
             --texture-c-t: 0.09423828;
         "></div>
-        
         <div class="rect" style="
             --a-x: -12.5;
             --a-y: -106.25;
@@ -777,7 +744,6 @@
             --texture-c-s: 0.7817383;
             --texture-c-t: 0.09326172;
         "></div>
-        
         <div class="rect" style="
             --a-x: -12.5;
             --a-y: -56.25;
@@ -796,7 +762,6 @@
             --texture-c-s: 0.8442383;
             --texture-c-t: 0.00048828125;
         "></div>
-        
         <div class="rect" style="
             --a-x: -12.5;
             --a-y: -106.25;
@@ -815,7 +780,6 @@
             --texture-c-s: 0.9995117;
             --texture-c-t: 0.09423828;
         "></div>
-        
         <div class="rect" style="
             --a-x: 12.5;
             --a-y: -106.25;
@@ -882,7 +846,6 @@
           rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
           scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
       ">
-        
         <div class="rect" style="
             --a-x: 6.3440003;
             --a-y: -48.350376;
@@ -901,7 +864,6 @@
             --texture-c-s: 0.12451172;
             --texture-c-t: 0.06298828;
         "></div>
-        
         <div class="rect" style="
             --a-x: -18.656;
             --a-y: -48.350376;
@@ -920,7 +882,6 @@
             --texture-c-s: 0.24951172;
             --texture-c-t: 0.06298828;
         "></div>
-        
         <div class="rect" style="
             --a-x: -18.656;
             --a-y: -48.350376;
@@ -939,7 +900,6 @@
             --texture-c-s: 0.12548828;
             --texture-c-t: 0.06201172;
         "></div>
-        
         <div class="rect" style="
             --a-x: -18.656;
             --a-y: -48.337875;
@@ -958,7 +918,6 @@
             --texture-c-s: 0.18798828;
             --texture-c-t: 0.00048828125;
         "></div>
-        
         <div class="rect" style="
             --a-x: -18.656;
             --a-y: -48.350376;
@@ -977,7 +936,6 @@
             --texture-c-s: 0.31201172;
             --texture-c-t: 0.06298828;
         "></div>
-        
         <div class="rect" style="
             --a-x: 6.3440003;
             --a-y: -48.350376;
@@ -1020,7 +978,6 @@
           rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
           scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
       ">
-        
         <div class="rect" style="
             --a-x: 18.657251;
             --a-y: -48.350376;
@@ -1039,7 +996,6 @@
             --texture-c-s: -0.00048828125;
             --texture-c-t: 0.06298828;
         "></div>
-        
         <div class="rect" style="
             --a-x: -6.34275;
             --a-y: -48.350376;
@@ -1058,7 +1014,6 @@
             --texture-c-s: 0.12451172;
             --texture-c-t: 0.06298828;
         "></div>
-        
         <div class="rect" style="
             --a-x: -6.34275;
             --a-y: -48.350376;
@@ -1077,7 +1032,6 @@
             --texture-c-s: 0.00048828125;
             --texture-c-t: 0.06201172;
         "></div>
-        
         <div class="rect" style="
             --a-x: -6.34275;
             --a-y: -48.337875;
@@ -1096,7 +1050,6 @@
             --texture-c-s: 0.06298828;
             --texture-c-t: 0.00048828125;
         "></div>
-        
         <div class="rect" style="
             --a-x: -6.34275;
             --a-y: -48.350376;
@@ -1115,7 +1068,6 @@
             --texture-c-s: 0.18701172;
             --texture-c-t: 0.06298828;
         "></div>
-        
         <div class="rect" style="
             --a-x: 18.657251;
             --a-y: -48.350376;

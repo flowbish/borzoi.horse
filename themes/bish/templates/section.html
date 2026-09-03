@@ -3,10 +3,10 @@
 {%- block title -%}{{ section.title }}{%- endblock -%}
 
 {%- block description -%}
-    {%- if page.description %}
-    <meta name="description" content="{{ page.description | markdown(inline=true) | striptags }}">
-    {%- elif page.summary %}
-    <meta name="description" content="{{ page.summary | linebreaksbr | replace(from="<br>", to=" ") | striptags | trim_end_matches(pat=".") | safe }}…">
+    {%- if section.description %}
+    <meta name="description" content="{{ section.description | markdown(inline=true) | striptags }}">
+    {%- elif section.summary %}
+    <meta name="description" content="{{ section.summary | newlines_to_br | replace(from="<br>", to=" ") | striptags | trim_end(pat=".") | safe }}…">
     {%- endif %}
 {%- endblock -%}
 
@@ -19,12 +19,14 @@
 </header>
 {%- endif -%}
 
-<div class="excerpts">
-{% for page in section.pages -%}
-{% if not page.extra.hidden %}
-{{ post_macros::excerpt(page=page, hide_reading_time=section.extra.hide_reading_time | default(value=false)) }}
-{% endif %}
-{% endfor -%}
-</div>
+{%- if section.pages -%}
+    <div class="excerpts">
+    {% for page in section.pages -%}
+        {% if not page.extra.hidden %}
+            {{ <post.excerpt config page hide_reading_time={page.extra.hide_reading_time | default(value=false)} />}}
+        {% endif %}
+    {% endfor -%}
+    </div>
+{%- endif -%}
 
 {%- endblock -%}

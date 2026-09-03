@@ -22,7 +22,7 @@ okay I've said enough. look at this demo, and if this doesn't scare you away, pl
 
 ## demo
 
-{% rendering_part_1() %}
+{% <demo.rendering_part_1> %}
 <div class="rect" style="
 --a-x: -100;
 --a-y: -100;
@@ -150,7 +150,7 @@ background: linear-gradient(
     });
 })();
 </script>
-{% end %}
+{% </demo.rendering_part_1> %}
 
 ## how it works
 to render a complex piece of geometry, it's gotta be broken up into a bunch of triangles, and a graphics library draws those triangles to the screen. in typical graphics programming, you compile lists of coordinates representing the polygons to be rendered, plus information about how those interact with lighting, how textures map to those triangles, shaders that run arbitrary transformations against those polygons, and a lot of other fancy stuff that graphics libraries do.
@@ -254,22 +254,22 @@ the first problem to solve is: what size should the initial div be? the triangle
 
 to calculate "figure out how much of $\overrightarrow{AC}$ will be in the Y direction", we can use the the [orthogonal projection](https://en.wikipedia.org/wiki/Vector_projection) of $\overrightarrow{AC}$ from $\overrightarrow{AB}$. this works because we have defined $\overrightarrow{AB}$ to lie along the x axis, and $\overrightarrow{AC}$ to lie in the XY plane, so this orthogonal projection must lie along the Y axis. the formula for orthogonal projection is as follows:
 
-{% katex() %}
+{% <katex>%}
 \begin{align}
 \operatorname{proj}_{\mathbf{b}} \mathbf{a} &= \bigg(\frac {\mathbf{a} \cdot \mathbf{b}} {\left\|\mathbf{b}\right\|^2}\bigg) \mathbf{b} \\
 \operatorname{oproj}_{\mathbf{b}} \mathbf{a} &= \mathbf{a} - \operatorname{proj}_{\mathbf{b}} \mathbf{a} 
 \end{align}
-{% end %}
+{% </katex> %}
 
 plugging in our vectors gives us our starting dimensions and a skew amount:
 
-{% katex() %}
+{% <katex> %}
 \begin{align}
 \operatorname{width} &= \|\overrightarrow{AB}\| \\
 \operatorname{height} &= \|\operatorname{oproj}_{\overrightarrow{AB}} \overrightarrow{AC}\| \\
 &= \|\overrightarrow{AC} -\bigg(\frac{\overrightarrow{AC} \cdot \overrightarrow{AB}}{\|\overrightarrow{AB}\|^2}\bigg) \overrightarrow{AB}\| \\
 \end{align}
-{% end %}
+{% </katex> %}
 
 and the css to do this:
 
@@ -311,7 +311,7 @@ and the css to do this:
 
 and how that looks rendered:
 
-{% rendering_part_1() %}
+{% <demo.rendering_part_1> %}
 <div 
 class="tri" 
 style="
@@ -326,11 +326,11 @@ style="
     --c-z: 0;
     background: orange;
 "></div>
-{% end %}
+{% </demo.rendering_part_1> %}
 
 the next thing we need is how much to skew the div along the x axis. the skew value is the amount that the $\overrightarrow{AC}$ must shift in the x axis, that is, in the direction of $\overrightarrow{AB}$, over the course of its height. see the [shear affine transformation](https://en.wikipedia.org/wiki/Affine_transformation#Image_transformation) here for more details. the transformation to do the skewing is thus:
 
-{% katex() %}
+{% <katex> %}
 \begin{align}
 \operatorname{skew} &= \|\operatorname{proj}_{\overrightarrow{AB}} \overrightarrow{AC}\| \\
 &= \|\bigg(\frac{\overrightarrow{AC} \cdot \overrightarrow{AB}}{\|\overrightarrow{AB}\|^2}\bigg) \overrightarrow{AB}\| \\
@@ -340,7 +340,7 @@ M_{skew} &= \begin{bmatrix}
 0 & 0 & 1 \\
 \end{bmatrix}
 \end{align}
-{% end %}
+{% </katex> %}
 
 this ensures that at the full height of the div, it is fully skewed to the point it should be.
 
@@ -371,7 +371,7 @@ with this math, we can begin writing the basic css to give us a triangle-shaped 
 you might notice that the skew coefficient swapped around in the transformation matrix from how it was defined above: that's because the matrices in css are column-major, which from what I can understand is common in graphics programming. this just means that the visual representation ends up looking like the matrix is transposed. the more you know...
 
 
-{% rendering_part_1() %}
+{% <demo.rendering_part_1> %}
 <div 
 class="tri" 
 style="
@@ -386,7 +386,7 @@ style="
     --c-z: 0;
     background: orange;
 "></div>
-{% end %}
+{% </demo.rendering_part_1> %}
 
 with that all set up, we have step one done! there is a triangle, and it looks like the triange we want. the only problem is that it's stuck in the XY plane, staring at us, taunting us.
 

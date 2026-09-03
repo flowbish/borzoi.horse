@@ -11,7 +11,7 @@ icon = "do-nuts for portland with bike.jpg"
 
 ## Route 
 
-{{ gallery_embed(manifest="/blog/biking-the-crows/gallery.toml", fragment="route-full")}}
+{{ <gallery.embed manifest="/blog/biking-the-crows/gallery.toml" fragment="route-full" /> }}
 
 This is the full route I followed, starting from home in NE Portland in the morning following the red route before coming home for lunch, then heading out with my partner on the green route for some afternoon waterfront crows, and finally going back out myself on the blue route to hit the rest of the crows downtown.
 
@@ -24,10 +24,10 @@ Getting up to Pittock Mansion was quite the climb, which I am weirdly well adapt
 It was so fun seeing all the colorful crows! I love the horror-adjacent [A Murder Huddle](#a-murder-huddle) at OMSI, and the detailed map on [The World of Wildwood](#the-world-of-wildwood-detail). Another favorite is [As the Crow Flies](#as-the-crow-flies) with its topographical map. I met several people who were out following the crows, and a few who were biking them, though none of them seemed to be doing them all that day. I also ran into someone with the most incredible [rainbow trout bike](#rainbow-trout-bike).
 
 
-{{ gallery_embed(manifest="/blog/biking-the-crows/gallery.toml", fragment="do-nuts-for-portland-with-bike")}}
+{{ <gallery.embed manifest="/blog/biking-the-crows/gallery.toml" fragment="do-nuts-for-portland-with-bike" /> }}
 
 Overall it was an awesome ride and a I recommend it if the distance and the Pittock Mansion climb don't scare you away!
 
 ## Photo Gallery
 
-{{ gallery(manifest="/blog/biking-the-crows/gallery.toml") }}
+{{ <gallery manifest="/blog/biking-the-crows/gallery.toml" /> }}

@@ -9,11 +9,11 @@ icon = "shrek_2.png"
 
 hey so I made this website and whenever someone makes a website using an obscure technology, especially an obscure static site generate, it's all but required to make a post about it and why they chose to use it and why they would recommend everyone else use it. unfortunately, in my case, I'm not sure I can actually do that.
 
-![the zola logo](/blog/Zola-logo-black.svg)
+![the zola logo](Zola-logo-black.svg)
 
 I made this website using [zola](https://www.getzola.org/), a static site generator not unlike the myriad other options available for generating a presentable pile of html and css from a series of markdown files and assets. in theory, these things should be pretty easy to pick up, download a theme, type words into your keyboard, and spit out a website. in practice, getting your interpreter versions and package versions and whatever other versions to line up and actually work and run inside of a github action (because of course you're hosting your site on github because who wants to maintain shit) is a nightmare.
 
-![minecraft sheep head](/blog/SuckyBlowfish_21490068.png)
+![minecraft sheep head](SuckyBlowfish_21490068.png)
 
 that's kinda where zola comes in. it's written in rust and is a single, statically-linked binary that just does the thing it does. you can't plugins, it just does it. and it kinda does it well. it's fast and lightweight and just worked when I set it up to run in github actions. it supports themes and has a somewhat usable scripting language built into the templating language and mostly acts like a hackathon project that had a couple weeks cleaning it up and that's all I really needed.
 

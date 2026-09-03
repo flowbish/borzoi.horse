@@ -7,4 +7,4 @@ include_in_feeds = false
 
 # Demo
 
-{{ font_palette_demo() }}
+{{ <demo.font_palette /> }}

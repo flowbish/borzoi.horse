@@ -31,7 +31,6 @@
         rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
         scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
     ">
-      
       <div class="tri" style="
           --a-x: 95.57331;
           --a-y: 154.58041;
@@ -50,7 +49,6 @@
           --texture-c-s: 0.7188927;
           --texture-c-t: 0.18018705;
       "></div>
-      
       <div class="tri" style="
           --a-x: 95.57331;
           --a-y: 154.58041;
@@ -69,7 +67,6 @@
           --texture-c-s: 0.7061352;
           --texture-c-t: 0.18831646;
       "></div>
-      
       <div class="tri" style="
           --a-x: 90.60163;
           --a-y: 169.18199;
@@ -88,7 +85,6 @@
           --texture-c-s: 0.70086116;
           --texture-c-t: 0.22441518;
       "></div>
-      
       <div class="tri" style="
           --a-x: 90.60163;
           --a-y: 169.18199;
@@ -107,7 +103,6 @@
           --texture-c-s: 0.69688296;
           --texture-c-t: 0.23207778;
       "></div>
-      
       <div class="tri" style="
           --a-x: 91.33281;
           --a-y: 168.933;
@@ -126,7 +121,6 @@
           --texture-c-s: 0.7067936;
           --texture-c-t: 0.2274831;
       "></div>
-      
       <div class="tri" style="
           --a-x: 91.33281;
           --a-y: 168.933;
@@ -145,7 +139,6 @@
           --texture-c-s: 0.7106094;
           --texture-c-t: 0.23255825;
       "></div>
-      
       <div class="tri" style="
           --a-x: 92.398575;
           --a-y: 114.04288;
@@ -164,7 +157,6 @@
           --texture-c-s: 0.73879135;
           --texture-c-t: 0.1784426;
       "></div>
-      
       <div class="tri" style="
           --a-x: 92.398575;
           --a-y: 114.04288;
@@ -183,7 +175,6 @@
           --texture-c-s: 0.73480314;
           --texture-c-t: 0.18241197;
       "></div>
-      
       <div class="tri" style="
           --a-x: 67.6908;
           --a-y: 115.90119;
@@ -202,7 +193,6 @@
           --texture-c-s: 0.73879135;
           --texture-c-t: 0.1784426;
       "></div>
-      
       <div class="tri" style="
           --a-x: 67.6908;
           --a-y: 115.90119;
@@ -221,7 +211,6 @@
           --texture-c-s: 0.74524575;
           --texture-c-t: 0.16943872;
       "></div>
-      
       <div class="tri" style="
           --a-x: 97.184586;
           --a-y: 114.04288;
@@ -240,7 +229,6 @@
           --texture-c-s: 0.74614644;
           --texture-c-t: 0.2010163;
       "></div>
-      
       <div class="tri" style="
           --a-x: 97.184586;
           --a-y: 114.04288;
@@ -259,7 +247,6 @@
           --texture-c-s: 0.7348462;
           --texture-c-t: 0.19773865;
       "></div>
-      
       <div class="tri" style="
           --a-x: 54.129242;
           --a-y: 155.22588;
@@ -278,7 +265,6 @@
           --texture-c-s: 0.536284;
           --texture-c-t: 0.27076918;
       "></div>
-      
       <div class="tri" style="
           --a-x: 54.129242;
           --a-y: 155.22588;
@@ -297,7 +283,6 @@
           --texture-c-s: 0.53147453;
           --texture-c-t: 0.24817586;
       "></div>
-      
       <div class="tri" style="
           --a-x: 68.199295;
           --a-y: 168.97476;
@@ -316,7 +301,6 @@
           --texture-c-s: 0.8495227;
           --texture-c-t: 0.06582385;
       "></div>
-      
       <div class="tri" style="
           --a-x: 68.199295;
           --a-y: 168.97476;
@@ -335,7 +319,6 @@
           --texture-c-s: 0.8460644;
           --texture-c-t: 0.067916214;
       "></div>
-      
       <div class="tri" style="
           --a-x: 68.199295;
           --a-y: 155.22588;
@@ -354,7 +337,6 @@
           --texture-c-s: 0.8993459;
           --texture-c-t: 0.2414974;
       "></div>
-      
       <div class="tri" style="
           --a-x: 68.199295;
           --a-y: 155.22588;
@@ -373,7 +355,6 @@
           --texture-c-s: 0.88979024;
           --texture-c-t: 0.24044013;
       "></div>
-      
       <div class="tri" style="
           --a-x: 68.199295;
           --a-y: 139.60735;
@@ -392,7 +373,6 @@
           --texture-c-s: 0.59116906;
           --texture-c-t: 0.16960704;
       "></div>
-      
       <div class="tri" style="
           --a-x: 68.199295;
           --a-y: 139.60735;
@@ -411,7 +391,6 @@
           --texture-c-s: 0.57321304;
           --texture-c-t: 0.17367232;
       "></div>
-      
       <div class="tri" style="
           --a-x: 68.199295;
           --a-y: 139.60735;
@@ -430,7 +409,6 @@
           --texture-c-s: 0.5996057;
           --texture-c-t: 0.18900949;
       "></div>
-      
       <div class="tri" style="
           --a-x: 68.199295;
           --a-y: 139.60735;
@@ -449,7 +427,6 @@
           --texture-c-s: 0.59729826;
           --texture-c-t: 0.18326926;
       "></div>
-      
       <div class="tri" style="
           --a-x: 49.595535;
           --a-y: 169.72984;
@@ -468,7 +445,6 @@
           --texture-c-s: 0.836014;
           --texture-c-t: 0.06411761;
       "></div>
-      
       <div class="tri" style="
           --a-x: 49.595535;
           --a-y: 169.72984;
@@ -487,7 +463,6 @@
           --texture-c-s: 0.8318114;
           --texture-c-t: 0.06281811;
       "></div>
-      
       <div class="tri" style="
           --a-x: 54.129242;
           --a-y: 155.22588;
@@ -506,7 +481,6 @@
           --texture-c-s: 0.08032011;
           --texture-c-t: 0.029585302;
       "></div>
-      
       <div class="tri" style="
           --a-x: 54.129242;
           --a-y: 155.22588;
@@ -525,7 +499,6 @@
           --texture-c-s: 0.066662535;
           --texture-c-t: 0.025751472;
       "></div>
-      
       <div class="tri" style="
           --a-x: 53.57704;
           --a-y: 132.93382;
@@ -544,7 +517,6 @@
           --texture-c-s: 0.9750579;
           --texture-c-t: 0.022231221;
       "></div>
-      
       <div class="tri" style="
           --a-x: 53.57704;
           --a-y: 132.93382;
@@ -563,7 +535,6 @@
           --texture-c-s: 0.9621205;
           --texture-c-t: 0.028917193;
       "></div>
-      
       <div class="tri" style="
           --a-x: 53.57704;
           --a-y: 132.93382;
@@ -582,7 +553,6 @@
           --texture-c-s: 0.58794355;
           --texture-c-t: 0.19667506;
       "></div>
-      
       <div class="tri" style="
           --a-x: 53.57704;
           --a-y: 132.93382;
@@ -601,7 +571,6 @@
           --texture-c-s: 0.58587575;
           --texture-c-t: 0.18385327;
       "></div>
-      
       <div class="tri" style="
           --a-x: 53.751423;
           --a-y: 154.25998;
@@ -620,7 +589,6 @@
           --texture-c-s: 0.9693134;
           --texture-c-t: 0.046229422;
       "></div>
-      
       <div class="tri" style="
           --a-x: 53.751423;
           --a-y: 154.25998;
@@ -639,7 +607,6 @@
           --texture-c-s: 0.9621205;
           --texture-c-t: 0.028917193;
       "></div>
-      
       <div class="tri" style="
           --a-x: 68.199295;
           --a-y: 160.19562;
@@ -658,7 +625,6 @@
           --texture-c-s: 0.9882002;
           --texture-c-t: 0.014818907;
       "></div>
-      
       <div class="tri" style="
           --a-x: 68.199295;
           --a-y: 160.19562;
@@ -677,7 +643,6 @@
           --texture-c-s: 0.9721069;
           --texture-c-t: 0.012145281;
       "></div>
-      
       <div class="tri" style="
           --a-x: 49.595535;
           --a-y: 169.72984;
@@ -696,7 +661,6 @@
           --texture-c-s: 0.825655;
           --texture-c-t: 0.07512987;
       "></div>
-      
       <div class="tri" style="
           --a-x: 49.595535;
           --a-y: 169.72984;
@@ -715,7 +679,6 @@
           --texture-c-s: 0.81880116;
           --texture-c-t: 0.057935476;
       "></div>
-      
       <div class="tri" style="
           --a-x: 88.14891;
           --a-y: 168.298;
@@ -734,7 +697,6 @@
           --texture-c-s: 0.9873863;
           --texture-c-t: 0.31480217;
       "></div>
-      
       <div class="tri" style="
           --a-x: 88.14891;
           --a-y: 168.298;
@@ -753,7 +715,6 @@
           --texture-c-s: 0.99274325;
           --texture-c-t: 0.30863678;
       "></div>
-      
       <div class="tri" style="
           --a-x: 68.199295;
           --a-y: 168.97476;
@@ -772,7 +733,6 @@
           --texture-c-s: 0.8973014;
           --texture-c-t: 0.24505043;
       "></div>
-      
       <div class="tri" style="
           --a-x: 68.199295;
           --a-y: 168.97476;
@@ -791,7 +751,6 @@
           --texture-c-s: 0.8899648;
           --texture-c-t: 0.24533099;
       "></div>
-      
       <div class="tri" style="
           --a-x: 68.199295;
           --a-y: 160.19562;
@@ -810,7 +769,6 @@
           --texture-c-s: 0.8495227;
           --texture-c-t: 0.06582385;
       "></div>
-      
       <div class="tri" style="
           --a-x: 68.199295;
           --a-y: 160.19562;
@@ -829,7 +787,6 @@
           --texture-c-s: 0.836014;
           --texture-c-t: 0.06411761;
       "></div>
-      
       <div class="tri" style="
           --a-x: 90.487495;
           --a-y: 169.68121;
@@ -848,7 +805,6 @@
           --texture-c-s: 0.602974;
           --texture-c-t: 0.16477227;
       "></div>
-      
       <div class="tri" style="
           --a-x: 90.487495;
           --a-y: 169.68121;
@@ -867,7 +823,6 @@
           --texture-c-s: 0.596473;
           --texture-c-t: 0.15748948;
       "></div>
-      
       <div class="tri" style="
           --a-x: 88.14891;
           --a-y: 168.298;
@@ -886,7 +841,6 @@
           --texture-c-s: 0.9882002;
           --texture-c-t: 0.014818907;
       "></div>
-      
       <div class="tri" style="
           --a-x: 88.14891;
           --a-y: 168.298;
@@ -905,7 +859,6 @@
           --texture-c-s: 0.98442525;
           --texture-c-t: 0.00392735;
       "></div>
-      
       <div class="tri" style="
           --a-x: 49.595535;
           --a-y: 169.72984;
@@ -924,7 +877,6 @@
           --texture-c-s: 0.07647278;
           --texture-c-t: 0.038116872;
       "></div>
-      
       <div class="tri" style="
           --a-x: 49.595535;
           --a-y: 169.72984;
@@ -943,7 +895,6 @@
           --texture-c-s: 0.06399219;
           --texture-c-t: 0.03983617;
       "></div>
-      
       <div class="tri" style="
           --a-x: 53.751423;
           --a-y: 154.25998;
@@ -962,7 +913,6 @@
           --texture-c-s: 0.836014;
           --texture-c-t: 0.06411761;
       "></div>
-      
       <div class="tri" style="
           --a-x: 53.751423;
           --a-y: 154.25998;
@@ -981,7 +931,6 @@
           --texture-c-s: 0.81880116;
           --texture-c-t: 0.057935476;
       "></div>
-      
       <div class="tri" style="
           --a-x: 53.751423;
           --a-y: 154.25998;
@@ -1000,7 +949,6 @@
           --texture-c-s: 0.9750579;
           --texture-c-t: 0.022231221;
       "></div>
-      
       <div class="tri" style="
           --a-x: 53.751423;
           --a-y: 154.25998;
@@ -1019,7 +967,6 @@
           --texture-c-s: 0.9571466;
           --texture-c-t: 0.012373626;
       "></div>
-      
       <div class="tri" style="
           --a-x: 52.849716;
           --a-y: 115.90119;
@@ -1038,7 +985,6 @@
           --texture-c-s: 0.57686234;
           --texture-c-t: 0.3055001;
       "></div>
-      
       <div class="tri" style="
           --a-x: 52.849716;
           --a-y: 115.90119;
@@ -1057,7 +1003,6 @@
           --texture-c-s: 0.58190626;
           --texture-c-t: 0.31974304;
       "></div>
-      
       <div class="tri" style="
           --a-x: 88.790794;
           --a-y: 95.56074;
@@ -1076,7 +1021,6 @@
           --texture-c-s: 0.23050225;
           --texture-c-t: 0.24776804;
       "></div>
-      
       <div class="tri" style="
           --a-x: 88.790794;
           --a-y: 95.56074;
@@ -1095,7 +1039,6 @@
           --texture-c-s: 0.21494593;
           --texture-c-t: 0.26284122;
       "></div>
-      
       <div class="tri" style="
           --a-x: 63.892475;
           --a-y: 108.15437;
@@ -1114,7 +1057,6 @@
           --texture-c-s: 0.7880498;
           --texture-c-t: 0.12135315;
       "></div>
-      
       <div class="tri" style="
           --a-x: 63.892475;
           --a-y: 108.15437;
@@ -1133,7 +1075,6 @@
           --texture-c-s: 0.7818359;
           --texture-c-t: 0.14080173;
       "></div>
-      
       <div class="tri" style="
           --a-x: 88.39769;
           --a-y: 113.33833;
@@ -1152,7 +1093,6 @@
           --texture-c-s: 0.51622343;
           --texture-c-t: 0.1639471;
       "></div>
-      
       <div class="tri" style="
           --a-x: 88.39769;
           --a-y: 113.33833;
@@ -1171,7 +1111,6 @@
           --texture-c-s: 0.5094293;
           --texture-c-t: 0.17673624;
       "></div>
-      
       <div class="tri" style="
           --a-x: 69.05471;
           --a-y: 95.64914;
@@ -1190,7 +1129,6 @@
           --texture-c-s: 0.51395303;
           --texture-c-t: 0.18766081;
       "></div>
-      
       <div class="tri" style="
           --a-x: 69.05471;
           --a-y: 95.64914;
@@ -1209,7 +1147,6 @@
           --texture-c-s: 0.5275755;
           --texture-c-t: 0.18485284;
       "></div>
-      
       <div class="tri" style="
           --a-x: 88.39769;
           --a-y: 98.244576;
@@ -1228,7 +1165,6 @@
           --texture-c-s: 0.5394796;
           --texture-c-t: 0.16523337;
       "></div>
-      
       <div class="tri" style="
           --a-x: 88.39769;
           --a-y: 98.244576;
@@ -1247,7 +1183,6 @@
           --texture-c-s: 0.5376534;
           --texture-c-t: 0.16173583;
       "></div>
-      
       <div class="tri" style="
           --a-x: 52.849716;
           --a-y: 115.90119;
@@ -1266,7 +1201,6 @@
           --texture-c-s: 0.6030311;
           --texture-c-t: 0.31029975;
       "></div>
-      
       <div class="tri" style="
           --a-x: 52.849716;
           --a-y: 115.90119;
@@ -1285,7 +1219,6 @@
           --texture-c-s: 0.5894474;
           --texture-c-t: 0.3154555;
       "></div>
-      
       <div class="tri" style="
           --a-x: 67.6908;
           --a-y: 97.39879;
@@ -1304,7 +1237,6 @@
           --texture-c-s: 0.57686234;
           --texture-c-t: 0.3055001;
       "></div>
-      
       <div class="tri" style="
           --a-x: 67.6908;
           --a-y: 97.39879;
@@ -1323,7 +1255,6 @@
           --texture-c-s: 0.5894474;
           --texture-c-t: 0.3154555;
       "></div>
-      
       <div class="tri" style="
           --a-x: 54.73408;
           --a-y: 93.57116;
@@ -1342,7 +1273,6 @@
           --texture-c-s: 0.78885424;
           --texture-c-t: 0.13369417;
       "></div>
-      
       <div class="tri" style="
           --a-x: 54.73408;
           --a-y: 93.57116;
@@ -1361,7 +1291,6 @@
           --texture-c-s: 0.8039171;
           --texture-c-t: 0.13515109;
       "></div>
-      
       <div class="tri" style="
           --a-x: 63.892475;
           --a-y: 108.15437;
@@ -1380,7 +1309,6 @@
           --texture-c-s: 0.57807505;
           --texture-c-t: 0.20630252;
       "></div>
-      
       <div class="tri" style="
           --a-x: 63.892475;
           --a-y: 108.15437;
@@ -1399,7 +1327,6 @@
           --texture-c-s: 0.56731534;
           --texture-c-t: 0.21922904;
       "></div>
-      
       <div class="tri" style="
           --a-x: 54.73408;
           --a-y: 93.57116;
@@ -1418,7 +1345,6 @@
           --texture-c-s: 0.65603226;
           --texture-c-t: 0.22465408;
       "></div>
-      
       <div class="tri" style="
           --a-x: 54.73408;
           --a-y: 93.57116;
@@ -1437,7 +1363,6 @@
           --texture-c-s: 0.65603226;
           --texture-c-t: 0.22465408;
       "></div>
-      
       <div class="tri" style="
           --a-x: 60.489273;
           --a-y: 80.57478;
@@ -1456,7 +1381,6 @@
           --texture-c-s: 0.19908519;
           --texture-c-t: 0.13754964;
       "></div>
-      
       <div class="tri" style="
           --a-x: 60.489273;
           --a-y: 80.57478;
@@ -1475,7 +1399,6 @@
           --texture-c-s: 0.19811901;
           --texture-c-t: 0.14417362;
       "></div>
-      
       <div class="tri" style="
           --a-x: 45.227726;
           --a-y: 114.04288;
@@ -1494,7 +1417,6 @@
           --texture-c-s: 0.78626406;
           --texture-c-t: 0.282618;
       "></div>
-      
       <div class="tri" style="
           --a-x: 45.227726;
           --a-y: 114.04288;
@@ -1513,7 +1435,6 @@
           --texture-c-s: 0.7846664;
           --texture-c-t: 0.29458833;
       "></div>
-      
       <div class="tri" style="
           --a-x: 88.790794;
           --a-y: 90.320885;
@@ -1532,7 +1453,6 @@
           --texture-c-s: 0.7883612;
           --texture-c-t: 0.25254697;
       "></div>
-      
       <div class="tri" style="
           --a-x: 88.790794;
           --a-y: 90.320885;
@@ -1551,7 +1471,6 @@
           --texture-c-s: 0.7800902;
           --texture-c-t: 0.24463612;
       "></div>
-      
       <div class="tri" style="
           --a-x: 54.73408;
           --a-y: 93.57116;
@@ -1570,7 +1489,6 @@
           --texture-c-s: 0.5505631;
           --texture-c-t: 0.2911995;
       "></div>
-      
       <div class="tri" style="
           --a-x: 54.73408;
           --a-y: 93.57116;
@@ -1589,7 +1507,6 @@
           --texture-c-s: 0.5502496;
           --texture-c-t: 0.29414558;
       "></div>
-      
       <div class="tri" style="
           --a-x: 69.05471;
           --a-y: 95.64914;
@@ -1608,7 +1525,6 @@
           --texture-c-s: 0.7959775;
           --texture-c-t: 0.24222279;
       "></div>
-      
       <div class="tri" style="
           --a-x: 69.05471;
           --a-y: 95.64914;
@@ -1627,7 +1543,6 @@
           --texture-c-s: 0.7883612;
           --texture-c-t: 0.25254697;
       "></div>
-      
       <div class="tri" style="
           --a-x: 54.73408;
           --a-y: 93.57116;
@@ -1646,7 +1561,6 @@
           --texture-c-s: 0.5591434;
           --texture-c-t: 0.2875651;
       "></div>
-      
       <div class="tri" style="
           --a-x: 54.73408;
           --a-y: 93.57116;
@@ -1665,7 +1579,6 @@
           --texture-c-s: 0.5574249;
           --texture-c-t: 0.28897238;
       "></div>
-      
       <div class="tri" style="
           --a-x: 54.864155;
           --a-y: 80.57478;
@@ -1684,7 +1597,6 @@
           --texture-c-s: 0.10014246;
           --texture-c-t: 0.42204237;
       "></div>
-      
       <div class="tri" style="
           --a-x: 54.864155;
           --a-y: 80.57478;
@@ -1703,7 +1615,6 @@
           --texture-c-s: 0.108966805;
           --texture-c-t: 0.41723716;
       "></div>
-      
       <div class="tri" style="
           --a-x: 68.199295;
           --a-y: 89.547775;
@@ -1722,7 +1633,6 @@
           --texture-c-s: 0.78626406;
           --texture-c-t: 0.282618;
       "></div>
-      
       <div class="tri" style="
           --a-x: 68.199295;
           --a-y: 89.547775;
@@ -1741,7 +1651,6 @@
           --texture-c-s: 0.8063736;
           --texture-c-t: 0.28280604;
       "></div>
-      
       <div class="tri" style="
           --a-x: 108.16006;
           --a-y: 154.18726;
@@ -1760,7 +1669,6 @@
           --texture-c-s: 0.16132951;
           --texture-c-t: 0.27951384;
       "></div>
-      
       <div class="tri" style="
           --a-x: 108.16006;
           --a-y: 154.18726;
@@ -1779,7 +1687,6 @@
           --texture-c-s: 0.15853173;
           --texture-c-t: 0.25183886;
       "></div>
-      
       <div class="tri" style="
           --a-x: 111.27604;
           --a-y: 168.51805;
@@ -1798,7 +1705,6 @@
           --texture-c-s: 0.88754314;
           --texture-c-t: 0.3035183;
       "></div>
-      
       <div class="tri" style="
           --a-x: 111.27604;
           --a-y: 168.51805;
@@ -1817,7 +1723,6 @@
           --texture-c-s: 0.8829323;
           --texture-c-t: 0.29357767;
       "></div>
-      
       <div class="tri" style="
           --a-x: 146.54729;
           --a-y: 155.05415;
@@ -1836,7 +1741,6 @@
           --texture-c-s: 0.40338963;
           --texture-c-t: 0.26624256;
       "></div>
-      
       <div class="tri" style="
           --a-x: 146.54729;
           --a-y: 155.05415;
@@ -1855,7 +1759,6 @@
           --texture-c-s: 0.39889157;
           --texture-c-t: 0.26810175;
       "></div>
-      
       <div class="tri" style="
           --a-x: 130.32544;
           --a-y: 154.58203;
@@ -1874,7 +1777,6 @@
           --texture-c-s: 0.90003335;
           --texture-c-t: 0.30069023;
       "></div>
-      
       <div class="tri" style="
           --a-x: 130.32544;
           --a-y: 154.58203;
@@ -1893,7 +1795,6 @@
           --texture-c-s: 0.89626366;
           --texture-c-t: 0.2920221;
       "></div>
-      
       <div class="tri" style="
           --a-x: 130.32544;
           --a-y: 154.58203;
@@ -1912,7 +1813,6 @@
           --texture-c-s: 0.8933491;
           --texture-c-t: 0.3110206;
       "></div>
-      
       <div class="tri" style="
           --a-x: 130.32544;
           --a-y: 154.58203;
@@ -1931,7 +1831,6 @@
           --texture-c-s: 0.8965978;
           --texture-c-t: 0.3015241;
       "></div>
-      
       <div class="tri" style="
           --a-x: 108.16006;
           --a-y: 154.18726;
@@ -1950,7 +1849,6 @@
           --texture-c-s: 0.15575662;
           --texture-c-t: 0.24289513;
       "></div>
-      
       <div class="tri" style="
           --a-x: 108.16006;
           --a-y: 154.18726;
@@ -1969,7 +1867,6 @@
           --texture-c-s: 0.14748445;
           --texture-c-t: 0.25193185;
       "></div>
-      
       <div class="tri" style="
           --a-x: 130.32544;
           --a-y: 154.58203;
@@ -1988,7 +1885,6 @@
           --texture-c-s: 0.90022;
           --texture-c-t: 0.28328025;
       "></div>
-      
       <div class="tri" style="
           --a-x: 130.32544;
           --a-y: 154.58203;
@@ -2007,7 +1903,6 @@
           --texture-c-s: 0.8961698;
           --texture-c-t: 0.28349775;
       "></div>
-      
       <div class="tri" style="
           --a-x: 108.16006;
           --a-y: 154.18726;
@@ -2026,7 +1921,6 @@
           --texture-c-s: 0.89249927;
           --texture-c-t: 0.29261684;
       "></div>
-      
       <div class="tri" style="
           --a-x: 108.16006;
           --a-y: 154.18726;
@@ -2045,7 +1939,6 @@
           --texture-c-s: 0.8961698;
           --texture-c-t: 0.28349775;
       "></div>
-      
       <div class="tri" style="
           --a-x: 130.71684;
           --a-y: 168.08421;
@@ -2064,7 +1957,6 @@
           --texture-c-s: 0.89249927;
           --texture-c-t: 0.29261684;
       "></div>
-      
       <div class="tri" style="
           --a-x: 130.71684;
           --a-y: 168.08421;
@@ -2083,7 +1975,6 @@
           --texture-c-s: 0.8829323;
           --texture-c-t: 0.29357767;
       "></div>
-      
       <div class="tri" style="
           --a-x: 111.27604;
           --a-y: 168.51805;
@@ -2102,7 +1993,6 @@
           --texture-c-s: 0.89249927;
           --texture-c-t: 0.29261684;
       "></div>
-      
       <div class="tri" style="
           --a-x: 111.27604;
           --a-y: 168.51805;
@@ -2121,7 +2011,6 @@
           --texture-c-s: 0.8924873;
           --texture-c-t: 0.2784065;
       "></div>
-      
       <div class="tri" style="
           --a-x: 111.27604;
           --a-y: 168.51805;
@@ -2140,7 +2029,6 @@
           --texture-c-s: 0.4360095;
           --texture-c-t: 0.15714782;
       "></div>
-      
       <div class="tri" style="
           --a-x: 111.27604;
           --a-y: 168.51805;
@@ -2159,7 +2047,6 @@
           --texture-c-s: 0.43451816;
           --texture-c-t: 0.16427696;
       "></div>
-      
       <div class="tri" style="
           --a-x: 130.71684;
           --a-y: 168.08421;
@@ -2178,7 +2065,6 @@
           --texture-c-s: 0.8933491;
           --texture-c-t: 0.3110206;
       "></div>
-      
       <div class="tri" style="
           --a-x: 130.71684;
           --a-y: 168.08421;
@@ -2197,7 +2083,6 @@
           --texture-c-s: 0.8907402;
           --texture-c-t: 0.30284607;
       "></div>
-      
       <div class="tri" style="
           --a-x: 133.71178;
           --a-y: 133.54799;
@@ -2216,7 +2101,6 @@
           --texture-c-s: 0.90003335;
           --texture-c-t: 0.30069023;
       "></div>
-      
       <div class="tri" style="
           --a-x: 133.71178;
           --a-y: 133.54799;
@@ -2235,7 +2119,6 @@
           --texture-c-s: 0.89954096;
           --texture-c-t: 0.28920484;
       "></div>
-      
       <div class="tri" style="
           --a-x: 109.38229;
           --a-y: 114.04288;
@@ -2254,7 +2137,6 @@
           --texture-c-s: 0.19674382;
           --texture-c-t: 0.27349097;
       "></div>
-      
       <div class="tri" style="
           --a-x: 109.38229;
           --a-y: 114.04288;
@@ -2273,7 +2155,6 @@
           --texture-c-s: 0.19499078;
           --texture-c-t: 0.2547233;
       "></div>
-      
       <div class="tri" style="
           --a-x: 129.9738;
           --a-y: 93.457794;
@@ -2292,7 +2173,6 @@
           --texture-c-s: 0.23074044;
           --texture-c-t: 0.2978701;
       "></div>
-      
       <div class="tri" style="
           --a-x: 129.9738;
           --a-y: 93.457794;
@@ -2311,7 +2191,6 @@
           --texture-c-s: 0.22045895;
           --texture-c-t: 0.31045288;
       "></div>
-      
       <div class="tri" style="
           --a-x: 156.39659;
           --a-y: 114.04288;
@@ -2330,7 +2209,6 @@
           --texture-c-s: 0.43946996;
           --texture-c-t: 0.26706362;
       "></div>
-      
       <div class="tri" style="
           --a-x: 156.39659;
           --a-y: 114.04288;
@@ -2349,7 +2227,6 @@
           --texture-c-s: 0.4249124;
           --texture-c-t: 0.2658944;
       "></div>
-      
       <div class="tri" style="
           --a-x: 131.55838;
           --a-y: 116.10203;
@@ -2368,7 +2245,6 @@
           --texture-c-s: 0.57354265;
           --texture-c-t: 0.27884978;
       "></div>
-      
       <div class="tri" style="
           --a-x: 131.55838;
           --a-y: 116.10203;
@@ -2387,7 +2263,6 @@
           --texture-c-s: 0.56574994;
           --texture-c-t: 0.27140033;
       "></div>
-      
       <div class="tri" style="
           --a-x: 145.70724;
           --a-y: 98.996864;
@@ -2406,7 +2281,6 @@
           --texture-c-s: 0.5889426;
           --texture-c-t: 0.2549652;
       "></div>
-      
       <div class="tri" style="
           --a-x: 145.70724;
           --a-y: 98.996864;
@@ -2425,7 +2299,6 @@
           --texture-c-s: 0.5734776;
           --texture-c-t: 0.26281404;
       "></div>
-      
       <div class="tri" style="
           --a-x: 129.9738;
           --a-y: 99.72635;
@@ -2444,7 +2317,6 @@
           --texture-c-s: 0.19928291;
           --texture-c-t: 0.255449;
       "></div>
-      
       <div class="tri" style="
           --a-x: 129.9738;
           --a-y: 99.72635;
@@ -2463,7 +2335,6 @@
           --texture-c-s: 0.19499078;
           --texture-c-t: 0.2547233;
       "></div>
-      
       <div class="tri" style="
           --a-x: 155.15845;
           --a-y: 114.04288;
@@ -2482,7 +2353,6 @@
           --texture-c-s: 0.43408245;
           --texture-c-t: 0.2528925;
       "></div>
-      
       <div class="tri" style="
           --a-x: 155.15845;
           --a-y: 114.04288;
@@ -2501,7 +2371,6 @@
           --texture-c-s: 0.42432028;
           --texture-c-t: 0.25044894;
       "></div>
-      
       <div class="tri" style="
           --a-x: 142.90623;
           --a-y: 101.26733;
@@ -2520,7 +2389,6 @@
           --texture-c-s: 0.5734776;
           --texture-c-t: 0.26281404;
       "></div>
-      
       <div class="tri" style="
           --a-x: 142.90623;
           --a-y: 101.26733;
@@ -2539,7 +2407,6 @@
           --texture-c-s: 0.56574994;
           --texture-c-t: 0.27140033;
       "></div>
-      
       <div class="tri" style="
           --a-x: 120.363174;
           --a-y: 145.35138;
@@ -2558,7 +2425,6 @@
           --texture-c-s: 0.35716704;
           --texture-c-t: 0.27043152;
       "></div>
-      
       <div class="tri" style="
           --a-x: 120.363174;
           --a-y: 145.35138;
@@ -2577,7 +2443,6 @@
           --texture-c-s: 0.3546069;
           --texture-c-t: 0.27408516;
       "></div>
-      
       <div class="tri" style="
           --a-x: 117.68262;
           --a-y: 134.63437;
@@ -2596,7 +2461,6 @@
           --texture-c-s: 0.36533177;
           --texture-c-t: 0.26968783;
       "></div>
-      
       <div class="tri" style="
           --a-x: 117.68262;
           --a-y: 134.63437;
@@ -2615,7 +2479,6 @@
           --texture-c-s: 0.36884087;
           --texture-c-t: 0.2697404;
       "></div>
-      
       <div class="tri" style="
           --a-x: 110.21608;
           --a-y: 157.04466;
@@ -2634,7 +2497,6 @@
           --texture-c-s: 0.3457449;
           --texture-c-t: 0.30297053;
       "></div>
-      
       <div class="tri" style="
           --a-x: 110.21608;
           --a-y: 157.04466;
@@ -2653,7 +2515,6 @@
           --texture-c-s: 0.34216186;
           --texture-c-t: 0.29896653;
       "></div>
-      
       <div class="tri" style="
           --a-x: 131.70612;
           --a-y: 134.63437;
@@ -2672,7 +2533,6 @@
           --texture-c-s: 0.3467043;
           --texture-c-t: 0.28151107;
       "></div>
-      
       <div class="tri" style="
           --a-x: 131.70612;
           --a-y: 134.63437;
@@ -2691,7 +2551,6 @@
           --texture-c-s: 0.3546069;
           --texture-c-t: 0.27408516;
       "></div>
-      
       <div class="tri" style="
           --a-x: 104.2866;
           --a-y: 153.95518;
@@ -2710,7 +2569,6 @@
           --texture-c-s: 0.35280335;
           --texture-c-t: 0.3102451;
       "></div>
-      
       <div class="tri" style="
           --a-x: 104.2866;
           --a-y: 153.95518;
@@ -2729,7 +2587,6 @@
           --texture-c-s: 0.34261307;
           --texture-c-t: 0.30434036;
       "></div>
-      
       <div class="tri" style="
           --a-x: 110.21608;
           --a-y: 157.04466;
@@ -2748,7 +2605,6 @@
           --texture-c-s: 0.79409295;
           --texture-c-t: 0.22709179;
       "></div>
-      
       <div class="tri" style="
           --a-x: 110.21608;
           --a-y: 157.04466;
@@ -2767,7 +2623,6 @@
           --texture-c-s: 0.80743927;
           --texture-c-t: 0.22840136;
       "></div>
-      
       <div class="tri" style="
           --a-x: 106.091385;
           --a-y: 169.05882;
@@ -2786,7 +2641,6 @@
           --texture-c-s: 0.5781842;
           --texture-c-t: 0.008210719;
       "></div>
-      
       <div class="tri" style="
           --a-x: 106.091385;
           --a-y: 169.05882;
@@ -2805,7 +2659,6 @@
           --texture-c-s: 0.5759261;
           --texture-c-t: 0.011687994;
       "></div>
-      
       <div class="tri" style="
           --a-x: 107.9478;
           --a-y: 169.80815;
@@ -2824,7 +2677,6 @@
           --texture-c-s: 0.34261307;
           --texture-c-t: 0.30434036;
       "></div>
-      
       <div class="tri" style="
           --a-x: 107.9478;
           --a-y: 169.80815;
@@ -2843,7 +2695,6 @@
           --texture-c-s: 0.33371502;
           --texture-c-t: 0.30726928;
       "></div>
-      
       <div class="tri" style="
           --a-x: 128.32571;
           --a-y: 153.41948;
@@ -2862,7 +2713,6 @@
           --texture-c-s: 0.34523797;
           --texture-c-t: 0.28924203;
       "></div>
-      
       <div class="tri" style="
           --a-x: 128.32571;
           --a-y: 153.41948;
@@ -2881,7 +2731,6 @@
           --texture-c-s: 0.35212836;
           --texture-c-t: 0.27949834;
       "></div>
-      
       <div class="tri" style="
           --a-x: 115.99921;
           --a-y: 114.0171;
@@ -2900,7 +2749,6 @@
           --texture-c-s: 0.36320013;
           --texture-c-t: 0.2426331;
       "></div>
-      
       <div class="tri" style="
           --a-x: 115.99921;
           --a-y: 114.0171;
@@ -2919,7 +2767,6 @@
           --texture-c-s: 0.36479902;
           --texture-c-t: 0.25101835;
       "></div>
-      
       <div class="tri" style="
           --a-x: 109.841545;
           --a-y: 99.549614;
@@ -2938,7 +2785,6 @@
           --texture-c-s: 0.35996494;
           --texture-c-t: 0.25747895;
       "></div>
-      
       <div class="tri" style="
           --a-x: 109.841545;
           --a-y: 99.549614;
@@ -2957,7 +2803,6 @@
           --texture-c-s: 0.36479902;
           --texture-c-t: 0.25101835;
       "></div>
-      
       <div class="tri" style="
           --a-x: 128.88942;
           --a-y: 114.0171;
@@ -2976,7 +2821,6 @@
           --texture-c-s: 0.37451446;
           --texture-c-t: 0.2587989;
       "></div>
-      
       <div class="tri" style="
           --a-x: 128.88942;
           --a-y: 114.0171;
@@ -2995,7 +2839,6 @@
           --texture-c-s: 0.36479902;
           --texture-c-t: 0.25101835;
       "></div>
-      
       <div class="tri" style="
           --a-x: 110.97838;
           --a-y: 111.22251;
@@ -3014,7 +2857,6 @@
           --texture-c-s: 0.48240972;
           --texture-c-t: 0.17277932;
       "></div>
-      
       <div class="tri" style="
           --a-x: 110.97838;
           --a-y: 111.22251;
@@ -3033,7 +2875,6 @@
           --texture-c-s: 0.49023134;
           --texture-c-t: 0.184874;
       "></div>
-      
       <div class="tri" style="
           --a-x: 121.09625;
           --a-y: 107.69614;
@@ -3052,7 +2893,6 @@
           --texture-c-s: 0.37367547;
           --texture-c-t: 0.32551122;
       "></div>
-      
       <div class="tri" style="
           --a-x: 121.09625;
           --a-y: 107.69614;
@@ -3071,7 +2911,6 @@
           --texture-c-s: 0.37105894;
           --texture-c-t: 0.32592964;
       "></div>
-      
       <div class="tri" style="
           --a-x: 110.97838;
           --a-y: 111.22251;
@@ -3090,7 +2929,6 @@
           --texture-c-s: 0.37367547;
           --texture-c-t: 0.32551122;
       "></div>
-      
       <div class="tri" style="
           --a-x: 110.97838;
           --a-y: 111.22251;
@@ -3109,7 +2947,6 @@
           --texture-c-s: 0.37570745;
           --texture-c-t: 0.3187011;
       "></div>
-      
       <div class="tri" style="
           --a-x: 119.24788;
           --a-y: 103.289764;
@@ -3128,7 +2965,6 @@
           --texture-c-s: 0.47917518;
           --texture-c-t: 0.17656171;
       "></div>
-      
       <div class="tri" style="
           --a-x: 119.24788;
           --a-y: 103.289764;
@@ -3147,7 +2983,6 @@
           --texture-c-s: 0.49023134;
           --texture-c-t: 0.184874;
       "></div>
-      
       <div class="tri" style="
           --a-x: 110.97838;
           --a-y: 111.22251;
@@ -3166,7 +3001,6 @@
           --texture-c-s: 0.37105894;
           --texture-c-t: 0.32592964;
       "></div>
-      
       <div class="tri" style="
           --a-x: 110.97838;
           --a-y: 111.22251;
@@ -3185,7 +3019,6 @@
           --texture-c-s: 0.37105894;
           --texture-c-t: 0.32592964;
       "></div>
-      
       <div class="tri" style="
           --a-x: 121.09625;
           --a-y: 103.289764;
@@ -3204,7 +3037,6 @@
           --texture-c-s: 0.48240972;
           --texture-c-t: 0.17277932;
       "></div>
-      
       <div class="tri" style="
           --a-x: 121.09625;
           --a-y: 103.289764;
@@ -3223,7 +3055,6 @@
           --texture-c-s: 0.4932425;
           --texture-c-t: 0.16764617;
       "></div>
-      
       <div class="tri" style="
           --a-x: 129.9738;
           --a-y: 100.58631;
@@ -3242,7 +3073,6 @@
           --texture-c-s: 0.3458427;
           --texture-c-t: 0.26622593;
       "></div>
-      
       <div class="tri" style="
           --a-x: 129.9738;
           --a-y: 100.58631;
@@ -3261,7 +3091,6 @@
           --texture-c-s: 0.35996494;
           --texture-c-t: 0.25747895;
       "></div>
-      
       <div class="tri" style="
           --a-x: 110.97838;
           --a-y: 111.22251;
@@ -3280,7 +3109,6 @@
           --texture-c-s: 0.37315494;
           --texture-c-t: 0.3152449;
       "></div>
-      
       <div class="tri" style="
           --a-x: 110.97838;
           --a-y: 111.22251;
@@ -3299,7 +3127,6 @@
           --texture-c-s: 0.36183345;
           --texture-c-t: 0.31004608;
       "></div>
-      
       <div class="tri" style="
           --a-x: 90.60163;
           --a-y: 169.18199;
@@ -3318,7 +3145,6 @@
           --texture-c-s: 0.69561934;
           --texture-c-t: 0.22262394;
       "></div>
-      
       <div class="tri" style="
           --a-x: 90.60163;
           --a-y: 169.18199;
@@ -3337,7 +3163,6 @@
           --texture-c-s: 0.706887;
           --texture-c-t: 0.22952211;
       "></div>
-      
       <div class="tri" style="
           --a-x: 95.57331;
           --a-y: 154.58041;
@@ -3356,7 +3181,6 @@
           --texture-c-s: 0.15575662;
           --texture-c-t: 0.24289513;
       "></div>
-      
       <div class="tri" style="
           --a-x: 95.57331;
           --a-y: 154.58041;
@@ -3375,7 +3199,6 @@
           --texture-c-s: 0.15616718;
           --texture-c-t: 0.24129415;
       "></div>
-      
       <div class="tri" style="
           --a-x: 91.33281;
           --a-y: 168.933;
@@ -3394,7 +3217,6 @@
           --texture-c-s: 0.4360095;
           --texture-c-t: 0.15714782;
       "></div>
-      
       <div class="tri" style="
           --a-x: 91.33281;
           --a-y: 168.933;
@@ -3413,7 +3235,6 @@
           --texture-c-s: 0.42776388;
           --texture-c-t: 0.15833157;
       "></div>
-      
       <div class="tri" style="
           --a-x: 95.100525;
           --a-y: 154.4571;
@@ -3432,7 +3253,6 @@
           --texture-c-s: 0.69561934;
           --texture-c-t: 0.22262394;
       "></div>
-      
       <div class="tri" style="
           --a-x: 95.100525;
           --a-y: 154.4571;
@@ -3451,7 +3271,6 @@
           --texture-c-s: 0.69688296;
           --texture-c-t: 0.23207778;
       "></div>
-      
       <div class="tri" style="
           --a-x: 91.33281;
           --a-y: 168.933;
@@ -3470,7 +3289,6 @@
           --texture-c-s: 0.6933713;
           --texture-c-t: 0.19290227;
       "></div>
-      
       <div class="tri" style="
           --a-x: 91.33281;
           --a-y: 168.933;
@@ -3489,7 +3307,6 @@
           --texture-c-s: 0.69409895;
           --texture-c-t: 0.20679897;
       "></div>
-      
       <div class="tri" style="
           --a-x: 108.16006;
           --a-y: 154.18726;
@@ -3508,7 +3325,6 @@
           --texture-c-s: 0.14897196;
           --texture-c-t: 0.24080825;
       "></div>
-      
       <div class="tri" style="
           --a-x: 108.16006;
           --a-y: 154.18726;
@@ -3527,7 +3343,6 @@
           --texture-c-s: 0.14070773;
           --texture-c-t: 0.24127674;
       "></div>
-      
       <div class="tri" style="
           --a-x: 97.2221;
           --a-y: 130.20377;
@@ -3546,7 +3361,6 @@
           --texture-c-s: 0.15575662;
           --texture-c-t: 0.24289513;
       "></div>
-      
       <div class="tri" style="
           --a-x: 97.2221;
           --a-y: 130.20377;
@@ -3565,7 +3379,6 @@
           --texture-c-s: 0.15853173;
           --texture-c-t: 0.25183886;
       "></div>
-      
       <div class="tri" style="
           --a-x: 97.184586;
           --a-y: 114.04288;
@@ -3584,7 +3397,6 @@
           --texture-c-s: 0.93858105;
           --texture-c-t: 0.32532585;
       "></div>
-      
       <div class="tri" style="
           --a-x: 97.184586;
           --a-y: 114.04288;
@@ -3603,7 +3415,6 @@
           --texture-c-s: 0.9369619;
           --texture-c-t: 0.31558943;
       "></div>
-      
       <div class="tri" style="
           --a-x: 109.38229;
           --a-y: 94.00042;
@@ -3622,7 +3433,6 @@
           --texture-c-s: 0.22083727;
           --texture-c-t: 0.28828245;
       "></div>
-      
       <div class="tri" style="
           --a-x: 109.38229;
           --a-y: 94.00042;
@@ -3641,7 +3451,6 @@
           --texture-c-s: 0.21308732;
           --texture-c-t: 0.30519146;
       "></div>
-      
       <div class="tri" style="
           --a-x: 109.38229;
           --a-y: 98.62507;
@@ -3660,7 +3469,6 @@
           --texture-c-s: 0.9424025;
           --texture-c-t: 0.31011796;
       "></div>
-      
       <div class="tri" style="
           --a-x: 109.38229;
           --a-y: 98.62507;
@@ -3679,7 +3487,6 @@
           --texture-c-s: 0.9369619;
           --texture-c-t: 0.31558943;
       "></div>
-      
       <div class="tri" style="
           --a-x: 88.19753;
           --a-y: 154.81494;
@@ -3698,7 +3505,6 @@
           --texture-c-s: 0.9761362;
           --texture-c-t: 0.31567293;
       "></div>
-      
       <div class="tri" style="
           --a-x: 88.19753;
           --a-y: 154.81494;
@@ -3717,7 +3523,6 @@
           --texture-c-s: 0.9749975;
           --texture-c-t: 0.31510526;
       "></div>
-      
       <div class="tri" style="
           --a-x: 90.487495;
           --a-y: 169.68121;
@@ -3736,7 +3541,6 @@
           --texture-c-s: 0.48943514;
           --texture-c-t: 0.22811127;
       "></div>
-      
       <div class="tri" style="
           --a-x: 90.487495;
           --a-y: 169.68121;
@@ -3755,7 +3559,6 @@
           --texture-c-s: 0.4887805;
           --texture-c-t: 0.22688901;
       "></div>
-      
       <div class="tri" style="
           --a-x: 88.790794;
           --a-y: 142.41159;
@@ -3774,7 +3577,6 @@
           --texture-c-s: 0.6028169;
           --texture-c-t: 0.17266667;
       "></div>
-      
       <div class="tri" style="
           --a-x: 88.790794;
           --a-y: 142.41159;
@@ -3793,7 +3595,6 @@
           --texture-c-s: 0.59116906;
           --texture-c-t: 0.16960704;
       "></div>
-      
       <div class="tri" style="
           --a-x: 104.2866;
           --a-y: 153.95518;
@@ -3812,7 +3613,6 @@
           --texture-c-s: 0.49652916;
           --texture-c-t: 0.22334158;
       "></div>
-      
       <div class="tri" style="
           --a-x: 104.2866;
           --a-y: 153.95518;
@@ -3831,7 +3631,6 @@
           --texture-c-s: 0.5001126;
           --texture-c-t: 0.21629363;
       "></div>
-      
       <div class="tri" style="
           --a-x: 88.790794;
           --a-y: 142.41159;
@@ -3850,7 +3649,6 @@
           --texture-c-s: 0.4987101;
           --texture-c-t: 0.19731069;
       "></div>
-      
       <div class="tri" style="
           --a-x: 88.790794;
           --a-y: 142.41159;
@@ -3869,7 +3667,6 @@
           --texture-c-s: 0.48899025;
           --texture-c-t: 0.20013809;
       "></div>
-      
       <div class="tri" style="
           --a-x: 88.14891;
           --a-y: 168.298;
@@ -3888,7 +3685,6 @@
           --texture-c-s: 0.34261307;
           --texture-c-t: 0.30434036;
       "></div>
-      
       <div class="tri" style="
           --a-x: 88.14891;
           --a-y: 168.298;
@@ -3907,7 +3703,6 @@
           --texture-c-s: 0.34026617;
           --texture-c-t: 0.29885012;
       "></div>
-      
       <div class="tri" style="
           --a-x: 98.70905;
           --a-y: 159.9719;
@@ -3926,7 +3721,6 @@
           --texture-c-s: 0.48943514;
           --texture-c-t: 0.22811127;
       "></div>
-      
       <div class="tri" style="
           --a-x: 98.70905;
           --a-y: 159.9719;
@@ -3945,7 +3739,6 @@
           --texture-c-s: 0.49795917;
           --texture-c-t: 0.22890043;
       "></div>
-      
       <div class="tri" style="
           --a-x: 88.14891;
           --a-y: 168.298;
@@ -3964,7 +3757,6 @@
           --texture-c-s: 0.91408664;
           --texture-c-t: 0.27198547;
       "></div>
-      
       <div class="tri" style="
           --a-x: 88.14891;
           --a-y: 168.298;
@@ -3983,7 +3775,6 @@
           --texture-c-s: 0.91408664;
           --texture-c-t: 0.27198547;
       "></div>
-      
       <div class="tri" style="
           --a-x: 109.841545;
           --a-y: 99.549614;
@@ -4002,7 +3793,6 @@
           --texture-c-s: 0.24011034;
           --texture-c-t: 0.25916708;
       "></div>
-      
       <div class="tri" style="
           --a-x: 109.841545;
           --a-y: 99.549614;
@@ -4021,7 +3811,6 @@
           --texture-c-s: 0.23174882;
           --texture-c-t: 0.27429795;
       "></div>
-      
       <div class="tri" style="
           --a-x: 88.39769;
           --a-y: 98.244576;
@@ -4040,7 +3829,6 @@
           --texture-c-s: 0.48933274;
           --texture-c-t: 0.18064511;
       "></div>
-      
       <div class="tri" style="
           --a-x: 88.39769;
           --a-y: 98.244576;
@@ -4059,7 +3847,6 @@
           --texture-c-s: 0.5094293;
           --texture-c-t: 0.17673624;
       "></div>
-      
       <div class="tri" style="
           --a-x: 110.97838;
           --a-y: 111.22251;
@@ -4078,7 +3865,6 @@
           --texture-c-s: 0.51395303;
           --texture-c-t: 0.18766081;
       "></div>
-      
       <div class="tri" style="
           --a-x: 110.97838;
           --a-y: 111.22251;
@@ -4097,7 +3883,6 @@
           --texture-c-s: 0.5094293;
           --texture-c-t: 0.17673624;
       "></div>
-      
       <div class="tri" style="
           --a-x: 105.135216;
           --a-y: 98.39107;
@@ -4116,7 +3901,6 @@
           --texture-c-s: 0.7765099;
           --texture-c-t: 0.26054704;
       "></div>
-      
       <div class="tri" style="
           --a-x: 105.135216;
           --a-y: 98.39107;
@@ -4135,7 +3919,6 @@
           --texture-c-s: 0.7687051;
           --texture-c-t: 0.25195116;
       "></div>
-      
       <div class="tri" style="
           --a-x: 95.100525;
           --a-y: 154.4571;
@@ -4154,7 +3937,6 @@
           --texture-c-s: 0.9912121;
           --texture-c-t: 0.3216349;
       "></div>
-      
       <div class="tri" style="
           --a-x: 95.100525;
           --a-y: 154.4571;
@@ -4173,7 +3955,6 @@
           --texture-c-s: 0.9873863;
           --texture-c-t: 0.31480217;
       "></div>
-      
       <div class="tri" style="
           --a-x: 68.199295;
           --a-y: 129.43459;
@@ -4192,7 +3973,6 @@
           --texture-c-s: 0.71247876;
           --texture-c-t: 0.17179525;
       "></div>
-      
       <div class="tri" style="
           --a-x: 68.199295;
           --a-y: 129.43459;
@@ -4211,7 +3991,6 @@
           --texture-c-s: 0.7188927;
           --texture-c-t: 0.18018705;
       "></div>
-      
       <div class="tri" style="
           --a-x: 57.89552;
           --a-y: 124.41625;
@@ -4230,7 +4009,6 @@
           --texture-c-s: 0.7144289;
           --texture-c-t: 0.16256142;
       "></div>
-      
       <div class="tri" style="
           --a-x: 57.89552;
           --a-y: 124.41625;
@@ -4249,7 +4027,6 @@
           --texture-c-s: 0.7210811;
           --texture-c-t: 0.16634017;
       "></div>
-      
       <div class="tri" style="
           --a-x: 108.36115;
           --a-y: 168.43393;
@@ -4268,7 +4045,6 @@
           --texture-c-s: 0.88707525;
           --texture-c-t: 0.30418336;
       "></div>
-      
       <div class="tri" style="
           --a-x: 108.36115;
           --a-y: 168.43393;
@@ -4287,7 +4063,6 @@
           --texture-c-s: 0.88754314;
           --texture-c-t: 0.3035183;
       "></div>
-      
       <div class="tri" style="
           --a-x: 145.72852;
           --a-y: 155.22588;
@@ -4306,7 +4081,6 @@
           --texture-c-s: 0.34407812;
           --texture-c-t: 0.27626526;
       "></div>
-      
       <div class="tri" style="
           --a-x: 145.72852;
           --a-y: 155.22588;
@@ -4325,7 +4099,6 @@
           --texture-c-s: 0.3385427;
           --texture-c-t: 0.28215444;
       "></div>
-      
       <div class="tri" style="
           --a-x: 108.36115;
           --a-y: 168.43393;
@@ -4344,7 +4117,6 @@
           --texture-c-s: 0.6904688;
           --texture-c-t: 0.21619964;
       "></div>
-      
       <div class="tri" style="
           --a-x: 108.36115;
           --a-y: 168.43393;
@@ -4363,7 +4135,6 @@
           --texture-c-s: 0.68743527;
           --texture-c-t: 0.2220285;
       "></div>
-      
       <div class="tri" style="
           --a-x: 149.42673;
           --a-y: 168.81496;
@@ -4382,7 +4153,6 @@
           --texture-c-s: 0.3385427;
           --texture-c-t: 0.28215444;
       "></div>
-      
       <div class="tri" style="
           --a-x: 149.42673;
           --a-y: 168.81496;
@@ -4401,7 +4171,6 @@
           --texture-c-s: 0.33668852;
           --texture-c-t: 0.28598297;
       "></div>
-      
       <div class="tri" style="
           --a-x: 130.71684;
           --a-y: 168.08421;
@@ -4420,7 +4189,6 @@
           --texture-c-s: 0.8874452;
           --texture-c-t: 0.32019573;
       "></div>
-      
       <div class="tri" style="
           --a-x: 130.71684;
           --a-y: 168.08421;
@@ -4439,7 +4207,6 @@
           --texture-c-s: 0.8849342;
           --texture-c-t: 0.3152929;
       "></div>
-      
       <div class="tri" style="
           --a-x: 67.6908;
           --a-y: 115.90119;
@@ -4458,7 +4225,6 @@
           --texture-c-s: 0.750759;
           --texture-c-t: 0.16001427;
       "></div>
-      
       <div class="tri" style="
           --a-x: 67.6908;
           --a-y: 115.90119;
@@ -4477,7 +4243,6 @@
           --texture-c-s: 0.7376075;
           --texture-c-t: 0.15644872;
       "></div>
-      
       <div class="tri" style="
           --a-x: 89.79178;
           --a-y: 101.49676;
@@ -4496,7 +4261,6 @@
           --texture-c-s: 0.750759;
           --texture-c-t: 0.16001427;
       "></div>
-      
       <div class="tri" style="
           --a-x: 89.79178;
           --a-y: 101.49676;
@@ -4515,7 +4279,6 @@
           --texture-c-s: 0.74524575;
           --texture-c-t: 0.16943872;
       "></div>
-      
       <div class="tri" style="
           --a-x: 67.6908;
           --a-y: 115.90119;
@@ -4534,7 +4297,6 @@
           --texture-c-s: 0.7313374;
           --texture-c-t: 0.15527713;
       "></div>
-      
       <div class="tri" style="
           --a-x: 67.6908;
           --a-y: 115.90119;
@@ -4553,7 +4315,6 @@
           --texture-c-s: 0.72640705;
           --texture-c-t: 0.15906024;
       "></div>
-      
       <div class="tri" style="
           --a-x: 129.9738;
           --a-y: 94.317764;
@@ -4572,7 +4333,6 @@
           --texture-c-s: 0.2417391;
           --texture-c-t: 0.2856025;
       "></div>
-      
       <div class="tri" style="
           --a-x: 129.9738;
           --a-y: 94.317764;
@@ -4591,7 +4351,6 @@
           --texture-c-s: 0.23074044;
           --texture-c-t: 0.2978701;
       "></div>
-      
       <div class="tri" style="
           --a-x: 148.13101;
           --a-y: 114.04288;
@@ -4610,7 +4369,6 @@
           --texture-c-s: 0.34067377;
           --texture-c-t: 0.25176656;
       "></div>
-      
       <div class="tri" style="
           --a-x: 148.13101;
           --a-y: 114.04288;
@@ -4629,7 +4387,6 @@
           --texture-c-s: 0.34073555;
           --texture-c-t: 0.26333654;
       "></div>
-      
       <div class="tri" style="
           --a-x: 150.5439;
           --a-y: 98.40754;
@@ -4648,7 +4405,6 @@
           --texture-c-s: 0.3518357;
           --texture-c-t: 0.24822599;
       "></div>
-      
       <div class="tri" style="
           --a-x: 150.5439;
           --a-y: 98.40754;
@@ -4667,7 +4423,6 @@
           --texture-c-s: 0.34449628;
           --texture-c-t: 0.24242365;
       "></div>
-      
       <div class="tri" style="
           --a-x: 93.6293;
           --a-y: 136.09431;
@@ -4686,7 +4441,6 @@
           --texture-c-s: 0.73480314;
           --texture-c-t: 0.18241197;
       "></div>
-      
       <div class="tri" style="
           --a-x: 93.6293;
           --a-y: 136.09431;
@@ -4705,7 +4459,6 @@
           --texture-c-s: 0.7188927;
           --texture-c-t: 0.18018705;
       "></div>
-      
       <div class="tri" style="
           --a-x: 68.199295;
           --a-y: 129.43459;
@@ -4724,7 +4477,6 @@
           --texture-c-s: 0.73480314;
           --texture-c-t: 0.18241197;
       "></div>
-      
       <div class="tri" style="
           --a-x: 68.199295;
           --a-y: 129.43459;
@@ -4743,7 +4495,6 @@
           --texture-c-s: 0.7335143;
           --texture-c-t: 0.16566724;
       "></div>
-      
       <div class="tri" style="
           --a-x: 97.2221;
           --a-y: 130.20377;
@@ -4762,7 +4513,6 @@
           --texture-c-s: 0.7348462;
           --texture-c-t: 0.19773865;
       "></div>
-      
       <div class="tri" style="
           --a-x: 97.2221;
           --a-y: 130.20377;
@@ -4781,7 +4531,6 @@
           --texture-c-s: 0.7163102;
           --texture-c-t: 0.19746834;
       "></div>
-      
       <div class="tri" style="
           --a-x: 57.89552;
           --a-y: 124.41625;
@@ -4800,7 +4549,6 @@
           --texture-c-s: 0.7335143;
           --texture-c-t: 0.16566724;
       "></div>
-      
       <div class="tri" style="
           --a-x: 57.89552;
           --a-y: 124.41625;
@@ -4819,7 +4567,6 @@
           --texture-c-s: 0.72640705;
           --texture-c-t: 0.15906024;
       "></div>
-      
       <div class="tri" style="
           --a-x: 53.611763;
           --a-y: 132.62181;
@@ -4838,7 +4585,6 @@
           --texture-c-s: 0.5377016;
           --texture-c-t: 0.29675794;
       "></div>
-      
       <div class="tri" style="
           --a-x: 53.611763;
           --a-y: 132.62181;
@@ -4857,7 +4603,6 @@
           --texture-c-s: 0.536284;
           --texture-c-t: 0.27076918;
       "></div>
-      
       <div class="tri" style="
           --a-x: 53.57704;
           --a-y: 132.93382;
@@ -4876,7 +4621,6 @@
           --texture-c-s: 0.57807505;
           --texture-c-t: 0.20630252;
       "></div>
-      
       <div class="tri" style="
           --a-x: 53.57704;
           --a-y: 132.93382;
@@ -4895,7 +4639,6 @@
           --texture-c-s: 0.57807505;
           --texture-c-t: 0.20630252;
       "></div>
-      
       <div class="tri" style="
           --a-x: 69.733505;
           --a-y: 114.628075;
@@ -4914,7 +4657,6 @@
           --texture-c-s: 0.507711;
           --texture-c-t: 0.20454657;
       "></div>
-      
       <div class="tri" style="
           --a-x: 69.733505;
           --a-y: 114.628075;
@@ -4933,7 +4675,6 @@
           --texture-c-s: 0.5194732;
           --texture-c-t: 0.2019276;
       "></div>
-      
       <div class="tri" style="
           --a-x: 47.239086;
           --a-y: 134.63437;
@@ -4952,7 +4693,6 @@
           --texture-c-s: 0.96609044;
           --texture-c-t: 0.058590174;
       "></div>
-      
       <div class="tri" style="
           --a-x: 47.239086;
           --a-y: 134.63437;
@@ -4971,7 +4711,6 @@
           --texture-c-s: 0.9693134;
           --texture-c-t: 0.046229422;
       "></div>
-      
       <div class="tri" style="
           --a-x: 57.767048;
           --a-y: 121.882034;
@@ -4990,7 +4729,6 @@
           --texture-c-s: 0.58794355;
           --texture-c-t: 0.19667506;
       "></div>
-      
       <div class="tri" style="
           --a-x: 57.767048;
           --a-y: 121.882034;
@@ -5009,7 +4747,6 @@
           --texture-c-s: 0.57807505;
           --texture-c-t: 0.20630252;
       "></div>
-      
       <div class="tri" style="
           --a-x: 107.70225;
           --a-y: 136.09431;
@@ -5028,7 +4765,6 @@
           --texture-c-s: 0.18178412;
           --texture-c-t: 0.27465397;
       "></div>
-      
       <div class="tri" style="
           --a-x: 107.70225;
           --a-y: 136.09431;
@@ -5047,7 +4783,6 @@
           --texture-c-s: 0.18234032;
           --texture-c-t: 0.2548663;
       "></div>
-      
       <div class="tri" style="
           --a-x: 153.1087;
           --a-y: 134.63437;
@@ -5066,7 +4801,6 @@
           --texture-c-s: 0.4249124;
           --texture-c-t: 0.2658944;
       "></div>
-      
       <div class="tri" style="
           --a-x: 153.1087;
           --a-y: 134.63437;
@@ -5085,7 +4819,6 @@
           --texture-c-s: 0.40338963;
           --texture-c-t: 0.26624256;
       "></div>
-      
       <div class="tri" style="
           --a-x: 149.74109;
           --a-y: 136.43233;
@@ -5104,7 +4837,6 @@
           --texture-c-s: 0.42432028;
           --texture-c-t: 0.25044894;
       "></div>
-      
       <div class="tri" style="
           --a-x: 149.74109;
           --a-y: 136.43233;
@@ -5123,7 +4855,6 @@
           --texture-c-s: 0.40359858;
           --texture-c-t: 0.25122696;
       "></div>
-      
       <div class="tri" style="
           --a-x: 133.71178;
           --a-y: 133.54799;
@@ -5142,7 +4873,6 @@
           --texture-c-s: 0.08183287;
           --texture-c-t: 0.40789813;
       "></div>
-      
       <div class="tri" style="
           --a-x: 133.71178;
           --a-y: 133.54799;
@@ -5161,7 +4891,6 @@
           --texture-c-s: 0.081460446;
           --texture-c-t: 0.40116882;
       "></div>
-      
       <div class="tri" style="
           --a-x: 121.41038;
           --a-y: 134.63437;
@@ -5180,7 +4909,6 @@
           --texture-c-s: 0.35996494;
           --texture-c-t: 0.25747895;
       "></div>
-      
       <div class="tri" style="
           --a-x: 121.41038;
           --a-y: 134.63437;
@@ -5199,7 +4927,6 @@
           --texture-c-s: 0.35716704;
           --texture-c-t: 0.27043152;
       "></div>
-      
       <div class="tri" style="
           --a-x: 115.99921;
           --a-y: 114.0171;
@@ -5218,7 +4945,6 @@
           --texture-c-s: 0.36490214;
           --texture-c-t: 0.2666114;
       "></div>
-      
       <div class="tri" style="
           --a-x: 115.99921;
           --a-y: 114.0171;
@@ -5237,7 +4963,6 @@
           --texture-c-s: 0.37133148;
           --texture-c-t: 0.2682966;
       "></div>
-      
       <div class="tri" style="
           --a-x: 100.374016;
           --a-y: 128.67528;
@@ -5256,7 +4981,6 @@
           --texture-c-s: 0.48933274;
           --texture-c-t: 0.18064511;
       "></div>
-      
       <div class="tri" style="
           --a-x: 100.374016;
           --a-y: 128.67528;
@@ -5275,7 +4999,6 @@
           --texture-c-s: 0.48899025;
           --texture-c-t: 0.20013809;
       "></div>
-      
       <div class="tri" style="
           --a-x: 106.49928;
           --a-y: 135.17723;
@@ -5294,7 +5017,6 @@
           --texture-c-s: 0.36183345;
           --texture-c-t: 0.31004608;
       "></div>
-      
       <div class="tri" style="
           --a-x: 106.49928;
           --a-y: 135.17723;
@@ -5313,7 +5035,6 @@
           --texture-c-s: 0.35280335;
           --texture-c-t: 0.3102451;
       "></div>
-      
       <div class="tri" style="
           --a-x: 128.88942;
           --a-y: 114.0171;
@@ -5332,7 +5053,6 @@
           --texture-c-s: 0.34748343;
           --texture-c-t: 0.2734425;
       "></div>
-      
       <div class="tri" style="
           --a-x: 128.88942;
           --a-y: 114.0171;
@@ -5351,7 +5071,6 @@
           --texture-c-s: 0.35716704;
           --texture-c-t: 0.27043152;
       "></div>
-      
       <div class="tri" style="
           --a-x: 57.89552;
           --a-y: 124.41625;
@@ -5370,7 +5089,6 @@
           --texture-c-s: 0.06465626;
           --texture-c-t: 0.012815833;
       "></div>
-      
       <div class="tri" style="
           --a-x: 57.89552;
           --a-y: 124.41625;
@@ -5389,7 +5107,6 @@
           --texture-c-s: 0.066662535;
           --texture-c-t: 0.025751472;
       "></div>
-      
       <div class="tri" style="
           --a-x: 145.9151;
           --a-y: 134.63437;
@@ -5408,7 +5125,6 @@
           --texture-c-s: 0.42632636;
           --texture-c-t: 0.28418732;
       "></div>
-      
       <div class="tri" style="
           --a-x: 145.9151;
           --a-y: 134.63437;
@@ -5427,7 +5143,6 @@
           --texture-c-s: 0.40829074;
           --texture-c-t: 0.28567767;
       "></div>
-      
       <div class="tri" style="
           --a-x: 97.2221;
           --a-y: 130.20377;
@@ -5446,7 +5161,6 @@
           --texture-c-s: 0.7332969;
           --texture-c-t: 0.21180862;
       "></div>
-      
       <div class="tri" style="
           --a-x: 97.2221;
           --a-y: 130.20377;
@@ -5465,7 +5179,6 @@
           --texture-c-s: 0.73642504;
           --texture-c-t: 0.2081421;
       "></div>
-      
       <div class="tri" style="
           --a-x: 88.39769;
           --a-y: 113.33833;
@@ -5484,7 +5197,6 @@
           --texture-c-s: 0.4987101;
           --texture-c-t: 0.19731069;
       "></div>
-      
       <div class="tri" style="
           --a-x: 88.39769;
           --a-y: 113.33833;
@@ -5503,7 +5215,6 @@
           --texture-c-s: 0.507711;
           --texture-c-t: 0.20454657;
       "></div>
-      
       <div class="tri" style="
           --a-x: 95.100525;
           --a-y: 154.4571;
@@ -5522,7 +5233,6 @@
           --texture-c-s: 0.9749975;
           --texture-c-t: 0.31510526;
       "></div>
-      
       <div class="tri" style="
           --a-x: 95.100525;
           --a-y: 154.4571;
@@ -5541,7 +5251,6 @@
           --texture-c-s: 0.9756991;
           --texture-c-t: 0.31631547;
       "></div>
-      
       <div class="tri" style="
           --a-x: 109.38229;
           --a-y: 96.50351;
@@ -5560,7 +5269,6 @@
           --texture-c-s: 0.23174882;
           --texture-c-t: 0.27429795;
       "></div>
-      
       <div class="tri" style="
           --a-x: 109.38229;
           --a-y: 96.50351;

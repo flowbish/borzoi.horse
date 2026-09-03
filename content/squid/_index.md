@@ -7,4 +7,4 @@ hide_reading_time = true
 icon = "squid-icon.png"
 +++
 
-{{ rendering(path="content/squid/model.divs", animated=true) }}
+{{ <rendering path="content/squid/model.divs" animate={true} /> }}

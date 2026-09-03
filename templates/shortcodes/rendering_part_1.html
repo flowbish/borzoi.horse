@@ -1,4 +1,6 @@
-<div id="container-{{nth}}" class="container">
+{% component demo.rendering_part_1() %}
+
+<div id="container-xxx" class="container">
     <div class="camera">
         <div class="scene" style="
             --cam-yaw: 0;
@@ -103,7 +105,7 @@
 
 <script>
 (() => {
-    const container = document.getElementById("container-{{nth}}");
+    const container = document.getElementById("container-xxx}");
 
     let yaw = container.getElementsByClassName("yaw")[0];
     yaw.value = 0;
@@ -434,3 +436,5 @@
     }
 </style>
 {% endif %}
+
+{% endcomponent demo.rendering_part_1 %}

@@ -1,0 +1,27 @@
+{% component test.paragraph() %}
+<div class="parent">
+
+X
+
+<span class="child" href="#_">this should not be wrapped in a p tag</span>
+
+<style>
+.parent {
+    color: green;
+}
+
+.parent p {
+    color: red;
+}
+</style>
+</div>
+{% endcomponent test.paragraph %}
+
+{% component test.blockquotes() %}
+<div>
+    <div>
+        <p>this should not be block quotes</p>
+        <a href="#_">testing</a>
+    </div>
+</div>
+{% endcomponent test.blockquotes %}

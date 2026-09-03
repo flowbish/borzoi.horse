@@ -1,15 +1,19 @@
-{% if path %}
-    {% set colors = load_data(path=path, formatl="toml") %}
+{% component palette(...rest) %}
+
+{% if rest.path %}
+    {% set colors = load_data(path=rest.path, formatl="toml") %}
 {% else %}
-    {% set colors = load_data(literal=colors, format="toml") %}
+    {% set colors = load_data(literal=rest.colors, format="toml") %}
 {% endif %}
 {% set colors = colors.colors %}
 
 <div class="palette">
-    {% for color in colors %}
-        <div class="color" style="background-color: {{color.hexcode}}">
-            <p class="description">{{color.name}}</p>
-            <p class="hexcode">{{color.hexcode}}</p>
-        </div>
-    {% endfor %}
+{%- for color in colors -%}
+<div class="color" style="background-color: {{color.hexcode}}">
+<p class="description">{{color.name}}</p>
+<p class="hexcode">{{color.hexcode}}</p>
 </div>
+{%- endfor -%}
+</div>
+
+{% endcomponent palette %}

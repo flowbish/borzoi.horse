@@ -1,44 +1,23 @@
-{# 
-  Images can be explicitly passed in, or derived from the colocated assets.
-  Prefer using the passed in list, and fall back to the page or section assets
-  where appropriate.
-#}
+{%- component gallery(manifest) -%}
+{%- set manifest = load_data(path=manifest, format="toml") -%}
+{%- set assets = [image.url for image in manifest.images] -%}
+{%- set descriptions = [image.description | default(value="") for image in manifest.images] -%}
+{%- set fragments = [image.fragment | default(value="") for image in manifest.images] -%}
+{{ <gallery.inner assets descriptions fragments /> }}
+{%- endcomponent gallery -%}
 
-{% set assets = [] %}
-{% set descriptions = [] %}
-{% set fragments = [] %}
 
-{% if manifest %}
-  {% set manifest = load_data(path=manifest, format="toml") %}
-  {% set_global assets = [] %}
-  {% for image in manifest.images %}
-    {% set_global assets = assets | concat(with=image.url) %}
-    {% set_global descriptions = descriptions | concat(with=image.description | default(value="")) %}
-    {% set_global fragments = fragments | concat(with=image.fragment | default(value="")) %}
-  {% endfor %}
-{% elif page %}
-{% set assets = page.assets %}
-  {% set_global assets = [] %}
-  {% for asset in page.assets %}
-    {%- if asset is matching("[.](jpg|jpeg|png)$") -%}
-      {% set_global assets = assets | concat(with=asset) %}
-      {% set_global descriptions = descriptions | concat(with="") %}
-      {% set_global fragments = fragments | concat(with="") %}
-    {% endif %}
-  {% endfor %}
-{% elif section %}
-  {% set_global assets = [] %}
-  {% for asset in section.assets %}
-    {%- if asset is matching("[.](jpg|jpeg|png)$") -%}
-      {% set_global assets = assets | concat(with=asset) %}
-      {% set_global descriptions = descriptions | concat(with="") %}
-      {% set_global fragments = fragments | concat(with="") %}
-    {% endif %}
-  {% endfor %}
-{% endif %}
+{%- component gallery.colocated_assets(page) -%}
+{%- set assets = [asset for asset in page.assets] -%}
+{%- set descriptions = ["" for asset in page.assets] -%}
+{%- set fragments = ["" for asset in page.assets] -%}
+{{ <gallery.inner assets descriptions fragments /> }}
+{%- endcomponent gallery.colocated_assets -%}
 
+
+{%- component gallery.inner(assets, descriptions, fragments) -%}
 <div class="gallery">
-{% for i in range(end=assets | length) -%}
+{%- for i in range(end=assets | length) -%}
   {% set asset = assets[i] %}
   {% set description = descriptions[i] %}
   {% if fragments[i] != "" %}
@@ -69,41 +48,42 @@
     {% endif %}
   {% else %}
     {% set next = "" %}
-  {% endif %}
+  {% endif -%}
+<div class="viewer" id="{{ frag }}" previous="{{ prev }}" next="{{ next }}">
 
-  <div class="viewer" id="{{ frag }}" previous="{{ prev }}" next="{{ next }}">
-    {% if prev != "" %}
-      <a class="prev arrow" href="#{{ prev }}"></a>
-    {% else %}
-      <a class="prev"></a>
-    {% endif %}
+{%- if prev != "" -%}
+<a class="prev arrow" href="#{{ prev }}"></a>
+{%- else -%}
+<a class="prev"></a>
+{%- endif -%}
 
-    <a class="open" href="#{{ frag }}"></a>
-    <a class="close" href="#_">
-      <span class="zoom material-symbols-outlined"></span>
-      <img loading="lazy" src="{{ asset }}" alt="{{ description }}" />
-    </a>
+<a class="open" href="#{{ frag }}"></a>
+<a class="close" href="#_">
+<span class="zoom material-symbols-outlined"></span>
+<img loading="lazy" src="{{ asset }}" alt="{{ description }}" />
+</a>
 
-    {% if description != "" %}
-      <p class="description">{{description}}</p>
-    {% endif %}
+{%- if description != "" -%}
+<p class="description">{{description}}</p>
+{%- endif -%}
 
-    {% if next != "" %}
-      <a class="next arrow" href="#{{ next }}"></a>
-    {% else %}
-      <a class="next"></a>
-    {% endif %}
-  </div>
+{%- if next != "" -%}
+<a class="next arrow" href="#{{ next }}"></a>
+{%- else -%}
+<a class="next"></a>
+{%- endif -%}
+
+</div>
 {%- endfor %}
+
 <script>
-  let max_index = {{ assets | length }};
   addEventListener("keydown", (event) => {
     let fragment = window.location.hash.substring(1);
     let current_viewer = document.getElementById(fragment);
     if (current_viewer == null) {
       return;
     }
-    
+
     if (event.key == "ArrowRight") {
       let next = current_viewer.attributes.next;
       window.location.assign("#" + current_viewer.attributes.next.value);
@@ -115,3 +95,21 @@
   })
 </script>
 </div>
+
+{%- endcomponent gallery.inner -%}
+
+{% component gallery.embed(...rest) %}
+  
+{% set manifest = load_data(path=rest.manifest, format="toml") %}
+{% for image in manifest.images %}
+  {% if image.fragment and image.fragment == rest.fragment %}
+    {% set_global asset = image.url %}
+    {% set_global description = image.description %}
+  {% endif %}
+{% endfor %}
+
+<a href="#{{ rest.fragment }}">
+    <img src="{{ asset }}" alt="{{ description }}" />
+</a>
+
+{% endcomponent gallery.embed %}

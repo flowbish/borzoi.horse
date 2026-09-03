@@ -13,7 +13,7 @@ Two weeks ago, I participated in, rode, and finished the [Plaid Century](https:/
 
 It was so much fun. There is no way I would have done a century before this. I never had any sort of distance biking on my radar as a fun activity, as I mostly just ride for commuting, for Portland social rides, and for light backpacking. Only something as silly as the Plaid Century could get me to get excited about getting up early, riding 100 miles in a day, spending 11.5 hours on my bike, bruising my butt, pulling my calf muscle, and nearly getting run over on highway 30.
 
-{{ gallery_embed(manifest="/blog/plaid-century/gallery.toml", fragment="bag-setup")}}
+{{ <gallery.embed manifest="/blog/plaid-century/gallery.toml" fragment="bag-setup" /> }}
 
 I think this is the most fun bike event I've done so far, and it will take a lot to dethrone it. On my ride I ended up naturally finding a group to ride with, especially after I had pulled my calf muscle and had to really slow down my pace. I loved seeing so many people riding around, know that they were all heading toward the same goal as you. 
 
@@ -25,4 +25,4 @@ See the [BikePortland article](https://bikeportland.org/2026/08/17/a-rad-plaid-c
 
 ## Photo Gallery
 
-{{ gallery(manifest="/blog/plaid-century/gallery.toml") }}
+{{ <gallery manifest="/blog/plaid-century/gallery.toml" /> }}

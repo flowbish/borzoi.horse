@@ -10,7 +10,7 @@ hidden = true
 
 # Demo 1
 
-{% rendering_part_2() %}
+{% <demo.rendering_part_2 > %}
 <div class="rect" style="
 --a-x: -100;
 --a-y: -100;
@@ -134,11 +134,12 @@ hidden = true
 --texture-c-s: 0.25;
 --texture-c-t: 1;
 "></div>
-{% end %}
+{% </demo.rendering_part_2 > %}
+
 
 # Demo 2
-a
-{% rendering_part_2() %}    
+
+{% <demo.rendering_part_2 > %}
 
 <div class="tri" style="
   --a-x: 0;
@@ -459,11 +460,11 @@ a
   --texture-c-t: 1.0;
 "></div>
 
-{% end %}
+{% </demo.rendering_part_2 > %}
 
 # Demo 3
 
-{% rendering_part_2() %}
+{% <demo.rendering_part_2 > %}
 
 <div class="rect" style="
     --a-x: 31.25;
@@ -2176,4 +2177,4 @@ a
     --texture-c-t: 0.14086914;
 "></div>
 
-{% end %}
+{% </demo.rendering_part_2 > %}

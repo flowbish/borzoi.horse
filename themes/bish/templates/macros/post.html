@@ -1,24 +1,20 @@
-{%- macro excerpt(page, hide_reading_time) -%}
+{% component post.excerpt(config, page, hide_reading_time=false) %}
 <article class="post excerpt">
-    {{ 
-        post_macros::header(
-            page=page, 
-            heading="h2", 
-            is_excerpt=true, 
-            hide_reading_time=hide_reading_time
-        ) | indent | safe 
-    }}
-
+    {{ <post.header
+            config
+            page
+            hide_reading_time
+        /> }}
     {%- if page.description %}
     <p>{{ page.description | markdown(inline=true) | safe }}</p>
     {%- endif %}
 </article>
-{%- endmacro -%}
+{% endcomponent post.excerpt %}
 
-{%- macro header(page, heading, is_excerpt=false, hide_reading_time=false) -%}
+{% component post.header(config, page, heading: string = "h2", hide_reading_time=false) %}
 <header>
     
-    {% if page.extra.icon %}
+    {% if page?.extra.icon %}
     <a href="{{ page.permalink | safe }}"><img src="{{ get_url(path=page.path ~ page.extra.icon) }}" alt="{{page.title}}" ></a>
     {% endif %}
 
@@ -33,8 +29,8 @@
 
         {% if page.date %}
         <li title="Published on {{ page.date }}{%- if page.updated %}, last updated {{ page.updated }}{%- endif -%}">
-            {{- post_macros::date(value=page.date) }}
-            {%- if page.updated %}&nbsp;[Updated: {{ post_macros::date(value=page.updated) }}]{%- endif -%}
+            {{ <post.date value={page.date} /> }}
+            {%- if page.updated %}&nbsp;[Updated: {{ <post.date value={page.updated} /> }}]{%- endif -%}
         </li>
         {% endif %}
 
@@ -58,8 +54,8 @@
         {% endif %}
     </ul>
 </header>
-{%- endmacro -%}
+{% endcomponent post.header %}
 
-{%- macro date(value) -%}
+{% component post.date(value: string) %}
 <time datetime="{{ value }}">{{ value | date(format="%Y.%m.%d") }}</time>
-{%- endmacro -%}
+{% endcomponent post.date %}
