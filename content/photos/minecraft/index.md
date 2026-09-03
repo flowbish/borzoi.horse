@@ -8,4 +8,4 @@ include_in_feeds = false
 icon = "SuckyBlowfish_28965933.png"
 +++
 
-{{ <gallery.colocated_assets page={page} /> }}
+{{ <gallery manifest="photos/minecraft/gallery.toml" /> }}
