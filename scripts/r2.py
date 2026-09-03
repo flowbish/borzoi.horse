@@ -6,6 +6,9 @@ import xml.etree.ElementTree as ET
 import mimetypes
 import urllib.parse
 
+class R2Error(Exception):
+    pass
+
 class R2Client:
     """
     A client class for interacting with Cloudflare R2 storage with Python native packages.
@@ -46,7 +49,7 @@ class R2Client:
         k_signing = self.sign(k_service, 'aws4_request')
         return k_signing
 
-    def create_request_headers_upload(self, bucket_name, file_key=None, payload_hash=None, method='PUT', content_type=None):
+    def create_request_headers_upload(self, bucket_name, file_key=None, extra_headers=None, payload_hash=None, method='PUT', content_type=None):
         service = 's3'
         region = 'auto'
         host = self.endpoint.split("://")[-1]
@@ -57,10 +60,27 @@ class R2Client:
 
         canonical_uri = f'/{bucket_name}/{file_key}'
         canonical_querystring = ''
-        canonical_headers = f"content-type:{content_type}\nhost:{host}\nx-amz-content-sha256:{payload_hash}\nx-amz-date:{amz_date}\n"
-        signed_headers = 'content-type;host;x-amz-content-sha256;x-amz-date'
+        
 
-        canonical_request = f"{method}\n{canonical_uri}\n{canonical_querystring}\n{canonical_headers}\n{signed_headers}\n{payload_hash}"
+        amz_canonical_headers = {'x-amz-content-sha256': payload_hash, 'x-amz-date': amz_date,}
+
+        if content_type:
+            amz_canonical_headers['content-type'] = content_type
+
+        for key, value in extra_headers.items():
+            amz_canonical_headers[key] = value
+
+        amz_canonical_headers_sorted = sorted([
+            (key, value) for key, value in amz_canonical_headers.items()
+        ])
+        canonical_headers = [
+            ('host', host),
+            *amz_canonical_headers_sorted,
+        ]
+        canonical_headers_string = '\n'.join(f'{key}:{value}' for key, value in canonical_headers) + '\n'
+        signed_headers_string = ';'.join(key for key, _ in canonical_headers)
+
+        canonical_request = f"{method}\n{canonical_uri}\n{canonical_querystring}\n{canonical_headers_string}\n{signed_headers_string}\n{payload_hash}"
 
         algorithm = 'AWS4-HMAC-SHA256'
         credential_scope = f"{date_stamp}/{region}/{service}/aws4_request"
@@ -69,18 +89,21 @@ class R2Client:
         signing_key = self.get_signature_key(self.secret_key, date_stamp, region, service)
         signature = hmac.new(signing_key, string_to_sign.encode('utf-8'), hashlib.sha256).hexdigest()
 
-        authorization_header = f"{algorithm} Credential={self.access_key}/{credential_scope}, SignedHeaders={signed_headers}, Signature={signature}"
+        authorization_header = f"{algorithm} Credential={self.access_key}/{credential_scope}, SignedHeaders={signed_headers_string}, Signature={signature}"
 
         headers = {
-            'x-amz-date': amz_date,
-            'x-amz-content-sha256': payload_hash,
-            'Authorization': authorization_header,
-            'Content-Type': content_type
+            'Authorization': authorization_header
         }
+
+        if content_type:
+            headers['Content-Type'] = content_type
+
+        for key, value in amz_canonical_headers.items():
+            headers[key] = value
 
         return headers
 
-    def create_request_headers(self, bucket_name, query_string=None, file_key=None, payload_hash=None, method='GET', content_type=None):
+    def create_request_headers(self, method, bucket_name, copy_source=None, query_string=None, file_key=None, payload_hash=None, content_type=None):
         service = 's3'
         region = 'auto'
         host = self.endpoint.split("://")[-1]
@@ -97,6 +120,9 @@ class R2Client:
         if content_type:
             canonical_headers += f"content-type:{content_type}\n"
             signed_headers += ';content-type'
+
+        if copy_source:
+            signed_headers += ';x-amz-copy-source'
 
         payload_hash = payload_hash or hashlib.sha256(''.encode('utf-8')).hexdigest()
         canonical_request = f"{method}\n{canonical_uri}\n{canonical_querystring}\n{canonical_headers}\n{signed_headers}\n{payload_hash}"
@@ -119,6 +145,9 @@ class R2Client:
         if content_type:
             headers['Content-Type'] = content_type
 
+        if copy_source:
+            headers['x-amz-copy-source'] = copy_source
+
         return headers
 
     def get_content_type(self, path):
@@ -138,11 +167,56 @@ class R2Client:
 
         response = requests.put(file_url, headers=headers, data=file_data)
 
-        if response.status_code == 200:
+        if response.ok:
             print(f"File {local_file_path} uploaded successfully as {r2_file_key}.")
         else:
             print(f"Failed to upload file {local_file_path}. Status code: {response.status_code}")
             print("Response Content:", response.text)
+
+
+    def get_user_metadata(self, bucket, key):
+        tags_url = f"{self.endpoint}/{bucket}/{key}"
+        headers = self.create_request_headers('HEAD', bucket, file_key=key)
+
+        response = requests.head(tags_url, headers=headers)
+
+        if response.status_code != 200:
+            raise R2Error(f'Failed to get tags for {bucket}/{key}: {response}')
+
+        user_metadata = {}
+        for header, value in response.headers.items():
+            if header.startswith('x-amz-meta'):
+                user_metadata[header.lstrip('x-amz-meta')] = value
+        return user_metadata
+
+    def copy_object(self, bucket, key, source, user_metadata=None):
+
+        extra_headers = {}
+        if user_metadata:
+            for k, v in user_metadata.items():
+                extra_headers[f'x-amz-meta-{k}'] = v
+
+        extra_headers['x-amz-copy-source'] = f'{bucket}/{source}'
+        extra_headers['x-amz-metadata-directive'] = 'MERGE'
+
+        copy_url = f"{self.endpoint}/{bucket}/{key}"
+        payload_hash = hashlib.sha256(b'').hexdigest()
+        headers = self.create_request_headers_upload(bucket, file_key=key, extra_headers=extra_headers, payload_hash=payload_hash)
+
+        response = requests.put(copy_url, headers=headers)
+
+        if not response.ok:
+            raise R2Error(f'Failed to copy to {bucket}/{key}: {response.text}')
+
+
+    def delete_object(self, bucket, key):
+        delete_url = f"{self.endpoint}/{bucket}/{key}"
+        headers = self.create_request_headers('DELETE', bucket, file_key=key)
+
+        response = requests.delete(delete_url, headers=headers)
+
+        if not response.ok:
+            raise R2Error(f'Failed to delete {bucket}/{key}: {response.text}')
         
     def download_file(self, bucket_name, file_key, local_file_name):
         """
@@ -153,8 +227,7 @@ class R2Client:
         :param local_file_name: The local file name to save the downloaded file.
         """
         file_url = f"{self.endpoint}/{bucket_name}/{file_key}"
-        mimetype = self.get_content_type(file_url)
-        headers = self.create_request_headers(bucket_name, file_key)
+        headers = self.create_request_headers('GET', bucket_name, file_key=file_key)
 
         response = requests.get(file_url, headers=headers)
 
@@ -180,7 +253,7 @@ class R2Client:
             quoted_prefix = urllib.parse.quote(prefix, safe='~')
             quoted_query_string = f"list-type=2&prefix={quoted_prefix}"
 
-        headers = self.create_request_headers(bucket_name, query_string=quoted_query_string)
+        headers = self.create_request_headers('GET', bucket_name, query_string=quoted_query_string)
 
         uri = f"{self.endpoint}/{bucket_name}/"
         if query_string is not None:
