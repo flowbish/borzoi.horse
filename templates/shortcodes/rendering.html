@@ -1,4 +1,4 @@
-{% component rendering(path, x=0, y=300, z=300, pitch=0, yaw=0, roll=0, projection=1, animate=false, animated_spin=false) %}
+{% component rendering(x=0, y=300, z=300, pitch=0, yaw=0, roll=0, projection=1, animate=false, animated_spin=false, ...rest) %}
 
 {% if animate %}
     {% set container_classes = "container animated" %}
@@ -22,7 +22,7 @@
                         {%- if body -%}
                         {{ body | safe }}
                         {%- else -%}
-                        {{ load_data(path=path) | safe }}
+                        {{ load_data(path=rest.path) | safe }}
                         {%- endif -%}
                     </div>
                 </div>
