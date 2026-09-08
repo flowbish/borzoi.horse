@@ -1,0 +1,112 @@
+{% extends "base.html" %}
+
+{%- block main -%}
+
+<div class="four-oh-four">
+    {% <rendering y={300} z={200} animated_spin={true} > %}
+    <div class="rect" style="
+    --a-x: -100;
+    --a-y: -100;
+    --a-z: 100;
+    --b-x: 100;
+    --b-y: -100;
+    --b-z: 100;
+    --c-x: -100;
+    --c-y: 100;
+    --c-z: 100;
+    background: linear-gradient(
+        #5BCEFA 0%, #5BCEFA 20%, 
+        #F5A9B8 20%, #F5A9B8 40%, 
+        #FFFFFF 40%, #FFFFFF 60%, 
+        #F5A9B8 60%, #F5A9B8 80%, 
+        #5BCEFA 80%, #5BCEFA 100%
+    );
+    ">
+        <h2>404</h2><h3>PAGE NOT FOUND</h3>
+    </div>
+    <div class="rect" style="
+    --a-x: 100;
+    --a-y: 100;
+    --a-z: 100;
+    --b-x: 100;
+    --b-y: -100;
+    --b-z: 100;
+    --c-x: 100;
+    --c-y: 100;
+    --c-z: -100;
+    background: url(/minecraft-grass.jpg);
+    background-size: 100%;
+    ">
+        <h2>404</h2><h3>PAGE NOT FOUND</h3>
+    </div>        
+    <div class="rect" style="
+    --a-x: -100;
+    --a-y: -100;
+    --a-z: 100;
+    --b-x: 100;
+    --b-y: -100;
+    --b-z: 100;
+    --c-x: -100;
+    --c-y: -100;
+    --c-z: -100;
+    background: white;
+    ">
+        <h2>404</h2><h3>PAGE NOT FOUND</h3>
+    </div>
+    <div class="rect" style="
+    --a-x: 100;
+    --a-y: -100;
+    --a-z: -100;
+    --b-x: -100;
+    --b-y: -100;
+    --b-z: -100;
+    --c-x: 100;
+    --c-y: 100;
+    --c-z: -100;
+    background: linear-gradient(
+        #5BCEFA 0%, #5BCEFA 20%, 
+        #F5A9B8 20%, #F5A9B8 40%, 
+        #FFFFFF 40%, #FFFFFF 60%, 
+        #F5A9B8 60%, #F5A9B8 80%, 
+        #5BCEFA 80%, #5BCEFA 100%
+    );
+    ">
+        {{ <rendering path="content/borzoi/model.divs" y={200} animate={true} /> }}
+    </div>
+    <div class="rect" style="
+    --a-x: -100;
+    --a-y: -100;
+    --a-z: 100;
+    --b-x: -100;
+    --b-y: 100;
+    --b-z: 100;
+    --c-x: -100;
+    --c-y: -100;
+    --c-z: -100;
+    background: var(--background-color);
+    ">
+        <h2>OH SHIT</h2><h3>A BORZOI</h3>
+    </div>
+    <div class="rect" style="
+    --a-x: -100;
+    --a-y: 100;
+    --a-z: 100;
+    --b-x: 100;
+    --b-y: 100;
+    --b-z: 100;
+    --c-x: -100;
+    --c-y: 100;
+    --c-z: -100;
+    background: linear-gradient(
+        #FFF433 25%, 
+        #FFFFFF 25% 50%, 
+        #9B59D0 50% 75%, 
+        #2D2D2D 75%
+    );
+    ">
+        <p>unused, but nice find!</p>
+    </div>
+    {% </rendering> %}
+</div>
+
+{%- endblock -%}
