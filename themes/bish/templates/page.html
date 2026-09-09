@@ -16,32 +16,8 @@
 {{ <post.header config page heading="h1" />}}
 {{ page.content | safe }}
 
-{% set guestbook_data = load_data(path=page.path ~ "/comments.json", format="json", required=false) %}
-{% if guestbook_data %}
-    <h2>Comments</h2>
-    {% for entry in guestbook_data.entries %}
-    <div class="comments">
-        <h3>{{ entry.name }}</h2>
-        <time datetime="{{ entry.date }}">{{ entry.date | date(format="%Y-%m-%d %H:%m") }}</time>
-        <p>{{ entry.message }}</p>
-    </div>
-    {% endfor %}
+{% if not page.extra.hide_comments %}
+{{ <comments page />}}
 {% endif %}
-
-<h2>Leave a comment</h2>
-<form class="comment-form" action="https://comments.borzoi.horse" method="POST" enctype="application/x-www-form-urlencoded">
-    <label for="name">name</label>
-    <input type="text" id="name" name="name" />
-    <label for="email">email (will not be published)</label>
-    <input type="text" id="email" name="email" />
-    <label for="message">message</label>
-    <textarea id="message" name="message" rows=4></textarea>
-    <input type="text" value="true" name="legit" hidden="true" />
-    <input type="text" value="{{ page.path }}" name="path" hidden="true" />
-    <input type="text" value="{{ get_url(path=page.path ~ "#success") }}" name="success" hidden="true" />
-    <input type="text" value="{{ get_url(path=page.path ~ "#failure") }}" name="failure" hidden="true" />
-    <label for="submit">submit</label> <input type="submit" id="submit" />
-</form>
-</article>
 
 {%- endblock -%}

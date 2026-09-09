@@ -1,6 +1,9 @@
 +++
 title = "sign my guestbook (failure!)"
 description = "let the world know you came"
+
+[extra]
+hide_comments = true
 +++
 
 # Guestbook

@@ -1,0 +1,16 @@
+{
+    "entries": [
+        {
+            "date": "2026-09-09T00:33:12.962Z",
+            "name": "iris",
+            "email": "iris@ink.horse",
+            "message": "very cool webbed site by a very cool dog!! "
+        },
+        {
+            "date": "2026-09-09T00:33:24.576Z",
+            "name": "bish",
+            "email": "flowbish@gmail.com",
+            "message": "testing out the guestbook!"
+        }
+    ]
+}
