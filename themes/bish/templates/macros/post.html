@@ -1,17 +1,13 @@
-{% component post.excerpt(config, page, hide_reading_time=false) %}
+{% component post.excerpt(config, page) %}
 <article class="post excerpt">
-    {{ <post.header
-            config
-            page
-            hide_reading_time
-        /> }}
+    {{ <post.header config page /> }}
     {%- if page.description %}
-    <p>{{ page.description | markdown(inline=true) | safe }}</p>
+        <p>{{ page.description | markdown(inline=true) | safe }}</p>
     {%- endif %}
 </article>
 {% endcomponent post.excerpt %}
 
-{% component post.header(config, page, heading: string = "h2", hide_reading_time=false) %}
+{% component post.header(config, page, heading: string = "h2") %}
 <header>
     
     {% if page?.extra.icon %}
@@ -46,7 +42,7 @@
         <li title="Author">{{ config.author }}</li>
         {%- endif %}
 
-        {% if not hide_reading_time %}
+        {% if not page.extra.hide_reading_time | default(value=false) %}
         <li role="separator" aria-hidden="true">::</li>
         {%- set reading_time = page.reading_time ~ " min" | replace(from="0 min", to="<1 min") -%}
         {%- set word_count = [page.word_count ~ " word", page.word_count | pluralize] | join %}

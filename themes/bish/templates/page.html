@@ -13,7 +13,7 @@
 {%- block main -%}
 <article class="post content">
 
-{{ <post.header config page heading="h1" hide_reading_time={page.extra.hide_reading_time | default(value=false)} />}}
+{{ <post.header config page heading="h1" />}}
 {{ page.content | safe }}
 
 </article>

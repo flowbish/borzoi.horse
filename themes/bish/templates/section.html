@@ -23,7 +23,7 @@
     <div class="excerpts">
     {% for page in section.pages -%}
         {% if not page.extra.hidden %}
-            {{ <post.excerpt config page hide_reading_time={page.extra.hide_reading_time | default(value=false)} />}}
+            {{ <post.excerpt config page />}}
         {% endif %}
     {% endfor -%}
     </div>
