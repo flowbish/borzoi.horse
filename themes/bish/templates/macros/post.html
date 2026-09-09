@@ -56,6 +56,6 @@
 </header>
 {% endcomponent post.header %}
 
-{% component post.date(value: string) %}
+{%- component post.date(value: string) -%}
 <time datetime="{{ value }}">{{ value | date(format="%Y.%m.%d") }}</time>
-{% endcomponent post.date %}
+{%- endcomponent post.date -%}

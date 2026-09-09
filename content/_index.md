@@ -18,6 +18,10 @@ contains: posts about horses, and biking (basically horses), and sometimes eatin
 
 Over here at [my refsheets](/refs)! mostly about a dog that's mostly a horse
 
+## Sign my guestbook
+
+go to [THE GUESTBOOK](/guestbook) and SIGN IT!!!
+
 ## Pictures of my minecraft horses!!!
 
 See them over [in my gallery!!](minecraft)!!
