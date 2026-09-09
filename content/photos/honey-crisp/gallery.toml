@@ -9,9 +9,19 @@ fragment = "crisp-and-slug"
 description = "Honey Crisp enjoying her slug"
 
 [[images]]
+url = "https://assets.borzoi.horse/photos/honey-crisp/crisp-mega-blep.jpg"
+fragment = "crisp-mega-blep"
+description = "Mega blep"
+
+[[images]]
 url = "https://assets.borzoi.horse/photos/honey-crisp/crisp-paw.jpg"
 fragment = "crisp-paw"
 description = "paws :3"
+
+[[images]]
+url = "https://assets.borzoi.horse/photos/honey-crisp/crisp-sunbeam.jpg"
+fragment = "crisp-sunbeam"
+description = "Stretching out in the sun beam"
 
 [[images]]
 url = "https://assets.borzoi.horse/photos/honey-crisp/crisp-surprise.jpg"
