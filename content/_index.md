@@ -24,4 +24,4 @@ go to [THE GUESTBOOK](/guestbook) and SIGN IT!!!
 
 ## Pictures of my minecraft horses!!!
 
-See them over [in my gallery!!](minecraft)!!
+See them over [in my gallery!!](/photos/minecraft)!!
