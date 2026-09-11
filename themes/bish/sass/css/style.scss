@@ -213,6 +213,17 @@ a:visited {
   color: var(--visited-accent-color);
 }
 
+// cursor
+
+body {
+  cursor: url("/sword.cur"), auto;
+}
+
+a, button {
+  cursor: url("/axe.cur"), auto;
+}
+
+
 .nav {
   display: flex;
   align-items: flex-start;
@@ -380,10 +391,6 @@ footer .rff-webring {
     border-radius: 0;
     border: var(--text-color) 1px solid;
     background-color: white;
-  }
-
-  button:hover {
-    cursor: pointer;
   }
 
   img, span {
