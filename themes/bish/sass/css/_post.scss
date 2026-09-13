@@ -74,7 +74,27 @@
     gap: 10px;
 }
 
-.post, .comments, .comment-form {
+.comment {
+    display: grid;
+    grid-template:
+        "name    date" auto
+        "comment comment" auto / 1fr 150px;
+    margin-bottom: 10px;
+
+    & > h3 {
+        margin: 0;
+        display: inline;
+        grid-area: name;
+    }
+    & > time {
+        grid-area: date;
+    }
+    & > p {
+        grid-area: comment;
+    }
+}
+
+.post, .comment, .comment-form {
     padding: 30px 20px;
     box-sizing: border-box;
     width: 100%;

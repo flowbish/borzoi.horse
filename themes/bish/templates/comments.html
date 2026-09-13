@@ -6,15 +6,17 @@
 {% component comments.display(page) %}
 {% set guestbook_data = load_data(path="/comments.json", format="json",) %}
 <h2>Comments</h2>
+<div class="comments">
 {%- for entry in guestbook_data.entries -%}
 {%- if entry.path == page.path or entry.path ~ "/" == page.path -%}
-<div class="comments">
+<div class="comment">
     <h3>{{ entry.name }}</h3>
     <time datetime="{{ entry.date }}">{{ entry.date | date(format="%Y-%m-%d %H:%M") }} UTC</time>
     <p>{{ entry.message }}</p>
 </div>
 {% endif %}
 {% endfor %}
+</div>
 {% endcomponent comments.display %}
 
 {% component comments.form(page, success="#success", failure="#failure") %}
