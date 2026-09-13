@@ -49,7 +49,21 @@ url = "https://hayl.in/"
 image = "haylin.png"
 alt = "haylin"
 
+[[buttons]]
+url = "https://lyra.horse/css-clicker"
+image = "css_is_awesome.png"
+alt = "css is awesome"
+
 # past here is random stuff from https://88x31.nl
+
+[[buttons]]
+url = "https://store.steampowered.com/app/17410/Mirrors_Edge"
+image = "mirrorsedge.png"
+alt = "I <3 edging"
+
+[[buttons]]
+image = "free-sex.gif"
+alt = "free sex"
 
 [[buttons]]
 image = "800x600a.gif"
