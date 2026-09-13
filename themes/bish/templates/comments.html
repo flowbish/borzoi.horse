@@ -1,5 +1,9 @@
 {% component comments(page, success="#success", failure="#failure") %}
+{{ <comments.display page /> }}
+{{ <comments.form page success failure /> }}
+{% endcomponent comments %}
 
+{% component comments.display(page) %}
 {% set guestbook_data = load_data(path=page.path ~ "/comments.json", format="json", required=false) %}
 {% if guestbook_data %}
 <h2>Comments</h2>
@@ -11,7 +15,9 @@
 </div>
 {% endfor %}
 {% endif %}
+{% endcomponent comments.display %}
 
+{% component comments.form(page, success="#success", failure="#failure") %}
 <h2>Leave a comment</h2>
 <form class="comment-form" action="https://comments.borzoi.horse" method="POST" enctype="application/x-www-form-urlencoded">
     <label for="name">name</label>
@@ -27,4 +33,4 @@
     <label for="submit">submit</label> <input type="submit" id="submit" />
 </form>
 </article>
-{% endcomponent comments %}
+{% endcomponent comments.form %}
