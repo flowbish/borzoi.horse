@@ -9,8 +9,8 @@
 {%- for entry in guestbook_data.entries -%}
 {%- if entry.path == page.path or entry.path ~ "/" == page.path -%}
 <div class="comments">
-    <h3>{{ entry.name }}</h2>
-    <time datetime="{{ entry.date }}">{{ entry.date | date(format="%Y-%m-%d %H:%m") }}</time>
+    <h3>{{ entry.name }}</h3>
+    <time datetime="{{ entry.date }}">{{ entry.date | date(format="%Y-%m-%d %H:%M") }} UTC</time>
     <p>{{ entry.message }}</p>
 </div>
 {% endif %}
