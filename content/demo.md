@@ -34,7 +34,7 @@ hide_comments = true
         }
 
         .camera {
-            transition: all 0.1s;
+            transition: all 0.2s;
         }
     }
 }
