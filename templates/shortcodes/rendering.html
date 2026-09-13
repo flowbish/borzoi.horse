@@ -8,16 +8,16 @@
     {% set container_classes = "container" %}
 {% endif %}
 
-<div id="container-xxx" class="{{ container_classes }}">
+<div class="{{ container_classes }}">
     <div class="camera camera-projection"  style="
         --cam-x: {{ x }};
         --cam-y: {{ y }};
         --cam-z: {{ z }};
         --cam-projection: {{ projection }};
     ">
-        <div class="camera camera-roll" style="--cam-roll: {{ roll }};">
-            <div class="camera camera-pitch" style="--cam-pitch: {{ pitch }};">
-                <div class="camera camera-yaw" style="--cam-yaw: {{ yaw }};">
+        <div class="camera camera-roll">
+            <div class="camera camera-pitch">
+                <div class="camera camera-yaw">
                     <div class="scene">
                         {%- if body -%}
                         {{ body | safe }}
@@ -32,6 +32,17 @@
 </div>
 
 <style> 
+.container {
+    .camera-roll {
+        --cam-roll: {{ roll }};
+    }
+    .camera-pitch {
+        --cam-pitch: {{ pitch }};
+    }
+    .camera-yaw {
+        --cam-yaw: {{ yaw }};
+    }
+}
 .container.animated .camera-projection {
     animation: zoomies 20s infinite ease-in-out;
 }
