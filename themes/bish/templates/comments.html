@@ -4,17 +4,17 @@
 {% endcomponent comments %}
 
 {% component comments.display(page) %}
-{% set guestbook_data = load_data(path=page.path ~ "/comments.json", format="json", required=false) %}
-{% if guestbook_data %}
+{% set guestbook_data = load_data(path="/comments.json", format="json",) %}
 <h2>Comments</h2>
 {%- for entry in guestbook_data.entries -%}
+{%- if entry.path == page.path or entry.path ~ "/" == page.path -%}
 <div class="comments">
     <h3>{{ entry.name }}</h2>
     <time datetime="{{ entry.date }}">{{ entry.date | date(format="%Y-%m-%d %H:%m") }}</time>
     <p>{{ entry.message }}</p>
 </div>
-{% endfor %}
 {% endif %}
+{% endfor %}
 {% endcomponent comments.display %}
 
 {% component comments.form(page, success="#success", failure="#failure") %}
