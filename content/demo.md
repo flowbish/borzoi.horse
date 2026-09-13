@@ -6,8 +6,8 @@ hide_comments = true
 +++
 
 <div class="inner">
-{% for i in range(end=21) %}
-{% for j in range(end=21) %}
+{% for i in range(end=11) %}
+{% for j in range(end=11) %}
 <div id="box-{{ i }}-{{ j }}"></div>
 {% endfor %}
 {% endfor %}
@@ -18,7 +18,7 @@ hide_comments = true
 .inner {
     position: relative;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     height: 500px;
 
     .container {
@@ -32,22 +32,26 @@ hide_comments = true
         .camera-yaw {
             --cam-yaw: 180;
         }
+
+        .camera {
+            transition: all 0.1s;
+        }
     }
 }
 
-{% for i in range(end=21) %}
-{% for j in range(end=21) %}
+{% for i in range(end=11) %}
+{% for j in range(end=11) %}
 #box-{{ i }}-{{ j }} {
     // background-color: rgb(calc(25 * {{ i }}), calc(25 * {{ j }}), 256);
 }
 
 #box-{{ i }}-{{ j }}:hover ~ .container {
     .camera-pitch {
-        --cam-pitch: calc(-3 * 11 + 3 * {{ i }});
+        --cam-pitch: calc(-6 * 6 + 6 * {{ i }});
     }
 
     .camera-yaw {
-        --cam-yaw: calc(180 + 3 * 11 - 3* {{ j }});
+        --cam-yaw: calc(180 + 6 * 6 - 6* {{ j }});
     }
 }
 {% endfor %}
