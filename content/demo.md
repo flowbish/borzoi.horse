@@ -13,7 +13,7 @@ unfortunately the the grid I need to cover the screen to make the looking work i
 <div id="box-{{ i }}-{{ j }}"></div>
 {% endfor %}
 {% endfor %}
-{{ <rendering path="content/borzoi/model.divs" y={500} projection={4} /> }}
+{{ <rendering path="content/borzoi/model.divs" y={250} z={150} projection={1} /> }}
 </div>
 
 <style>
@@ -34,13 +34,18 @@ unfortunately the the grid I need to cover the screen to make the looking work i
         width: 600px;
         height: 600px;
         right: -200px;
-        bottom: -200px;
+        bottom: 0px;
 
         pointer-events: none;
 
         .camera {
             transition: all 0.2s;
         }
+    }
+
+    .node.base {
+        --node-translate-y: 200px;
+        --node-translate-z: 100px;
     }
 }
 
@@ -57,7 +62,7 @@ unfortunately the the grid I need to cover the screen to make the looking work i
     }
 
     .camera-yaw {
-        --cam-yaw: calc(-60 + 6 * {{ j }});
+        --cam-yaw: calc(-90 + 9 * {{ j }});
     }
 }
 {% endfor %}
