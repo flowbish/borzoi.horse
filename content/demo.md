@@ -5,33 +5,38 @@ title = "Borzoi Looking Demo"
 hide_comments = true
 +++
 
+unfortunately the the grid I need to cover the screen to make the looking work interferes with clicking links. there's some cool javascript you can use to block specific pointer events but it's quite seamless enough to work for me, I think.
+
 <div class="inner">
 {% for i in range(end=11) %}
 {% for j in range(end=11) %}
 <div id="box-{{ i }}-{{ j }}"></div>
 {% endfor %}
 {% endfor %}
-{{ <rendering path="content/borzoi/model.divs" y={400} projection={3} /> }}
+{{ <rendering path="content/borzoi/model.divs" y={500} projection={4} /> }}
 </div>
 
 <style>
 .inner {
-    position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    height: 500px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+
+    overflow: hidden;
 
     .container {
         position: absolute;
-        height: 800px;
-        left: 0;
-        top: 0;
+        width: 600px;
+        height: 600px;
+        right: -200px;
+        bottom: -200px;
 
         pointer-events: none;
-
-        .camera-yaw {
-            --cam-yaw: 180;
-        }
 
         .camera {
             transition: all 0.2s;
@@ -42,16 +47,17 @@ hide_comments = true
 {% for i in range(end=11) %}
 {% for j in range(end=11) %}
 #box-{{ i }}-{{ j }} {
+    opacity: 0;
     // background-color: rgb(calc(25 * {{ i }}), calc(25 * {{ j }}), 256);
 }
 
 #box-{{ i }}-{{ j }}:hover ~ .container {
     .camera-pitch {
-        --cam-pitch: calc(-6 * 6 + 6 * {{ i }});
+        --cam-pitch: calc(12 * 6 - 6 * {{ i }});
     }
 
     .camera-yaw {
-        --cam-yaw: calc(180 + 6 * 6 - 6* {{ j }});
+        --cam-yaw: calc(-60 + 6 * {{ j }});
     }
 }
 {% endfor %}
