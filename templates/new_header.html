@@ -1,0 +1,127 @@
+{% extends "base.html" %}
+
+{%- block header -%}
+{{ <rendering path="content/borzoi/model.divs" /> }}
+{{ <rendering path="content/horse/model.divs" /> }}
+{%- for section in config.extra.nav_sections -%}
+    {%- set section = get_section(path=section, metadata_only=true) -%}
+    <div class="link" >
+        <p><a href="{{section.path}}">{{section.extra.nav_title}}</a></p>
+    </div>
+{%- endfor -%}
+<div class="link"><a href="/"><h3>borzoi</h3></a></div>
+<div class="link"><a href="/"><h3>horse</h3></a></div>
+
+
+
+<style>
+@keyframes figure-8-vertical {
+    from {
+        top: 0;
+    }
+    to   { 
+        top: 100%;
+        transform: translateY(-100%);
+    }
+}
+
+@keyframes figure-8-horizontal {
+    from {
+        left: 0; 
+    }
+    to  {
+        left: 100%;
+        transform: translateX(-100%);
+    }
+}
+
+.nav {
+    position: relative;
+
+    .link {
+        position: absolute;
+        width: 100%;
+
+        --delay: calc(0s - var(--individual-delay));
+
+        animation: 10s ease-in-out var(--delay) alternate infinite figure-8-vertical;
+
+        p, h3 {
+            position: relative;
+            display: inline-block;
+            margin: 0;
+
+            --delay: calc(-5s - var(--individual-delay));
+            animation: 20s ease-in-out var(--delay) alternate infinite figure-8-horizontal;
+        }
+
+        p {
+            background: var(--alternate-background-color);
+            padding: 5px;
+            border-radius: 10px;
+        }
+    }
+
+    .link:nth-last-of-type(1) {
+        --individual-delay: 4s;
+    }
+
+    .link:nth-last-of-type(2) {
+        --individual-delay: 8s;
+    }
+
+
+    .link:nth-last-of-type(3) {
+        --individual-delay: 12s;
+    }
+
+    .link:nth-last-of-type(4) {
+        --individual-delay: 16s;
+    }
+
+    .link:nth-last-of-type(5) {
+        --individual-delay: 20s;
+    }
+
+    .link:nth-last-of-type(6) {
+        --individual-delay: 24s;
+    }
+
+
+    & > .container {
+        width: 50%;
+        height: 300px;
+        
+        .camera {
+            --cam-y: 300;
+            --cam-z: 400;
+            --cam-yaw: 180;
+            --cam-projection: 10;
+        }
+
+        .node.neck, .node.Neck {
+            --node-rotation-x: 1;
+            --node-rotation-angle: 25deg;
+        }
+    }
+
+    & > .container:nth-of-type(1) .camera {
+        --cam-yaw: 160; 
+
+        .node.base {
+            --node-scale: 0.8;
+        }
+    }
+
+    & > .container:nth-of-type(2) .camera {
+        --cam-yaw: 200; 
+    }
+}
+</style>
+{%- endblock header -%}
+
+{%- block main -%}
+{%- if page.content -%}
+{{ page.content | indent | safe }}
+{%- endif -%}
+{%- endblock -%}
