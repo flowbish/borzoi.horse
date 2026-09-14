@@ -35,6 +35,33 @@
     }
 }
 
+@keyframes borzoi-rotate {
+    from {
+        --node-rotation-angle: 25deg;
+    }
+    to   { 
+        --node-rotation-angle: -60deg;
+    }
+}
+
+@keyframes horse-rotate {
+    from {
+        --node-rotation-angle: -25deg;
+    }
+    to   { 
+        --node-rotation-angle: 60deg;
+    }
+}
+
+@keyframes neck-rotate {
+    from {
+        --node-rotation-angle: 0deg;
+    }
+    to   { 
+        --node-rotation-angle: 50deg;
+    }
+}
+
 .nav {
     position: relative;
 
@@ -63,7 +90,7 @@
     }
 
     .link:nth-last-of-type(1) {
-        --individual-delay: 4s;
+        --individual-delay: 32s;
     }
 
     .link:nth-last-of-type(2) {
@@ -98,11 +125,6 @@
             --cam-yaw: 180;
             --cam-projection: 10;
         }
-
-        .node.neck, .node.Neck {
-            --node-rotation-x: 1;
-            --node-rotation-angle: 25deg;
-        }
     }
 
     & > .container:nth-of-type(1) .camera {
@@ -110,11 +132,29 @@
 
         .node.base {
             --node-scale: 0.8;
+
+            --node-rotation-y: 1;
+            animation: 20s cubic-bezier(1.0, 0, 0.35, 1) -32s alternate infinite borzoi-rotate;
+        }
+
+        .node.neck {
+            --node-rotation-x: 1;
+            animation: 10s ease-in-out -8s alternate infinite neck-rotate;
         }
     }
 
     & > .container:nth-of-type(2) .camera {
         --cam-yaw: 200; 
+
+        .node.base {
+            --node-rotation-y: 1;
+            animation: 20s cubic-bezier(1.0, 0, 0.35, 1) -36s alternate infinite horse-rotate;
+        }
+
+        .node.Body > .node.Neck {
+            --node-rotation-x: 1;
+            animation: 10s ease-in-out -10s alternate infinite neck-rotate;
+        }
     }
 }
 </style>
