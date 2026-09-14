@@ -69,6 +69,8 @@
         position: absolute;
         width: 100%;
 
+        pointer-events: none;
+
         --delay: calc(0s - var(--individual-delay));
 
         animation: 10s ease-in-out var(--delay) alternate infinite figure-8-vertical;
@@ -77,6 +79,8 @@
             position: relative;
             display: inline-block;
             margin: 0;
+
+            pointer-events: auto;
 
             --delay: calc(-5s - var(--individual-delay));
             animation: 20s ease-in-out var(--delay) alternate infinite figure-8-horizontal;
