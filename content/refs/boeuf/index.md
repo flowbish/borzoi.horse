@@ -20,6 +20,13 @@ hide_reading_time = true
 
 > 🥩 the name is french for **"beef"**, and pronounced somewhere between "beef" and "buff"
 
+> STATS:
+- _STRENGTH: LENGTH_
+- _WISDOM: SPEED_
+- _PSYCHIC: CAFFEINE_
+- _WEAKNESS: HORSE_
+- _BIRTHDAY: JAN 01_
+
 > here is what it looks like, in three dimensions!
 
 {{ <rendering path="/borzoi/model.divs" projection={100} yaw={-135} y={250} pitch={16} z={500} animated_spin={true} /> }}
