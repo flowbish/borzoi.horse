@@ -1,7 +1,7 @@
 [[images]]
 url = "https://assets.borzoi.horse/refs/candy-floss/candy-floss-batshaped.png"
 fragment = "candy-floss-batshaped"
-description = ""
+description = "Artist: Batshaped"
 
 [[images]]
 url = "https://assets.borzoi.horse/refs/candy-floss/candy-floss-candy.png"
@@ -16,27 +16,27 @@ description = ""
 [[images]]
 url = "https://assets.borzoi.horse/refs/candy-floss/candy-floss-dark.png"
 fragment = "candy-floss-dark"
-description = ""
+description = "Artist: strflr"
 
 [[images]]
 url = "https://assets.borzoi.horse/refs/candy-floss/candy-floss-lollipop.png"
 fragment = "candy-floss-lollipop"
-description = ""
+description = "Artist: lil_gai"
 
 [[images]]
 url = "https://assets.borzoi.horse/refs/candy-floss/candy-floss-posca.jpg"
 fragment = "candy-floss-posca"
-description = ""
+description = "Artist: Dawnf1re"
 
 [[images]]
 url = "https://assets.borzoi.horse/refs/candy-floss/candy-floss-taco-horse.png"
 fragment = "candy-floss-taco-horse"
-description = ""
+description = "Artist: glacierclear"
 
 [[images]]
 url = "https://assets.borzoi.horse/refs/candy-floss/candy-floss-verulence.png"
 fragment = "candy-floss-verulence"
-description = ""
+description = "Artist: verulence"
 
 [[images]]
 url = "https://assets.borzoi.horse/refs/candy-floss/candy-lost-leg.jpg"
@@ -46,5 +46,5 @@ description = ""
 [[images]]
 url = "https://assets.borzoi.horse/refs/candy-floss/candy-taco-thinking-about-tacos.png"
 fragment = "candy-taco-thinking-about-tacos"
-description = ""
+description = "Artist: strflr"
 
