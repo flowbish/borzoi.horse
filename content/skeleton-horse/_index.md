@@ -7,4 +7,4 @@ hide_reading_time = true
 
 +++
 
-{{ <rendering path="content/skeleton-horse/model.divs" animate={true} /> }}
+{{ <rendering path="/models/skeleton-horse.divs" animate={true} /> }}

@@ -13,7 +13,7 @@ unfortunately the the grid I need to cover the screen to make the looking work i
 <div id="box-{{ i }}-{{ j }}"></div>
 {% endfor %}
 {% endfor %}
-{{ <rendering path="content/borzoi/model.divs" y={250} z={150} projection={1} /> }}
+{{ <rendering path="/models/borzoi.divs" y={250} z={150} projection={1} /> }}
 </div>
 
 <style>

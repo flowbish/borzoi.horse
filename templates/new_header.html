@@ -1,8 +1,8 @@
 {% extends "base.html" %}
 
 {%- block header -%}
-{{ <rendering path="content/borzoi/model.divs" /> }}
-{{ <rendering path="content/horse/model.divs" /> }}
+{{ <rendering path="/models/borzoi.divs" /> }}
+{{ <rendering path="/models/horse.divs" /> }}
 {%- for section in config.extra.nav_sections -%}
     {%- set section = get_section(path=section, metadata_only=true) -%}
     <div class="link" >

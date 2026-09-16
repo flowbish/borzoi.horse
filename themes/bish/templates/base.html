@@ -185,7 +185,7 @@
               <div class="camera camera-pitch">
                 <div class="camera camera-yaw">
                   <div class="scene">
-                    {{ load_data(path="content/horse/model.divs") | safe }}
+                    {{ load_data(path="content/models/horse.divs") | safe }}
                   </div>
                 </div>
               </div>
@@ -303,7 +303,7 @@
   }
 
   async function spawn_mob(mob) {
-    const response = await fetch(`/${mob}/model.divs`);
+    const response = await fetch(`/models/${mob}.divs`);
     if (!response.ok) throw new Error('Network response error');
     const text = await response.text();
 

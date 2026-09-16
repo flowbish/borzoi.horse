@@ -7,4 +7,4 @@ hide_reading_time = true
 
 +++
 
-{{ <rendering path="content/salmon/model.divs" animate={true} /> }}
+{{ <rendering path="/models/salmon.divs" animate={true} /> }}
