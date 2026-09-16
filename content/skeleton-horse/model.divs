@@ -30,21 +30,7 @@
         rotate3d(0, 0, 0, calc(-2 * acos(1)))
         rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
         scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
-    "><a href="/fox/">
-{{ <rendering path="/fox/model.divs" projection={100} yaw={-135} y={250} pitch={16} z={500} /> }}
-</a>
-<a href="/horse/">
-{{ <rendering path="/horse/model.divs" projection={100} yaw={-135} y={250} pitch={16} z={500} /> }}
-</a>
-<a href="/skeleton-horse/">
-{{ <rendering path="/skeleton-horse/model.divs" projection={100} yaw={-135} y={250} pitch={16} z={500} /> }}
-</a>
-<a href="/salmon/">
-{{ <rendering path="/salmon/model.divs" projection={100} yaw={-135} y={250} pitch={16} z={500} /> }}
-</a>
-<a href="/borzoi/">
-{{ <rendering path="/borzoi/model.divs" projection={100} yaw={-135} y={250} pitch={16} z={500} /> }}
-</a>
+    ">
       <div class="rect" style="
           --a-x: 31.25;
           --a-y: -131.25;
