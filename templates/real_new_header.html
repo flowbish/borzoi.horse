@@ -77,7 +77,7 @@
                 rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
                 scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
             ">
-            {%- for section in config.extra.nav_sections -%}
+            {%- for section in config.extra.nav_sections | reverse -%}
                 {%- set section = get_section(path=section, metadata_only=true) -%}
                 <div class="node section" style="
                     transform:
@@ -111,7 +111,7 @@
 <div class="right"></div>
 
 <style>
-
+    
 .nav {
     position: relative;
     height: auto;
@@ -146,7 +146,7 @@
 
     &:hover > .container {
         .camera {
-            --cam-projection: 0.3;
+            --cam-projection: 0.4;
 
                     
             /* borzoi */
@@ -180,7 +180,7 @@
     }
 
     .node.scene {
-        --node-translate-y: -30px;
+        --node-translate-y: -50px;
     }
 
     .node.borzoi, .node.horse {
@@ -238,7 +238,7 @@
 
     .node.sections {
         --node-translate-z: 40px;
-        --node-translate-y: 160px;
+        --node-translate-y: 200px;
         --node-scale: 2;
 
         .node.section {
@@ -257,7 +257,7 @@
         .node.section:nth-last-of-type({{ i + 1 }}) {
             --node-translate-x: calc(-200px + (400px / {{ num_sections - 1 }}) * {{ i }});
             --node-rotation-z: 1;
-            --node-rotation-angle: calc(-15deg + (30deg / {{ num_sections - 1 }}) * {{ i }});
+            --node-rotation-angle: calc(-10deg + (20deg / {{ num_sections - 1 }}) * {{ i }});
         }
         {% endfor %}
     }
