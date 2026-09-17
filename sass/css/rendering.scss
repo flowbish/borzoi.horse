@@ -129,10 +129,10 @@
 
 @keyframes zoomies {
     0%, 100%{
-        --cam-z: 300;
+        --cam-z: 1000;
     }
     50% {
-        --cam-z: 600;
+        --cam-z: 2000;
     }
 }
 
