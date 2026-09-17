@@ -29,7 +29,7 @@ hide_reading_time = true
 
 > here is what it looks like, in three dimensions!
 
-{{ <rendering path="/models/borzoi.divs" projection={100} yaw={-135} y={250} pitch={16} z={500} animated_spin={true} /> }}
+{{ <rendering path="/models/borzoi.divs" projection={100} yaw={-135} y={300} pitch={16} z={700} animated_spin={true} /> }}
 
 > check out some pictures of **THIS DOG** below. feel free to save them if you like!!
 

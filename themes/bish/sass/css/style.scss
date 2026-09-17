@@ -272,6 +272,7 @@ a, button {
       --cam-x: 0;
       --cam-y: 250;
       --cam-z: 450;
+      --cam-scale: 0.33;
 
       transition: --cam-yaw 0.1s;
     }

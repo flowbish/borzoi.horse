@@ -8,9 +8,9 @@
     <div class="node borzoi" style="
         transform:
             translate3d(
-            calc(0 * 100 * 1px + var(--node-translate-x)),
-            calc(0 * 100 * -1px + var(--node-translate-y)),
-            calc(0 * 100 * 1px + var(--node-translate-z))
+            calc(0 * 100 * 1cqw + var(--node-translate-x)),
+            calc(0 * 100 * -1cqw + var(--node-translate-y)),
+            calc(0 * 100 * 1cqw + var(--node-translate-z))
             )
             rotate3d(0, -0, 0, calc(-2 * acos(1)))
             rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
@@ -19,13 +19,13 @@
         <div class="rect" style="
             --a-x: -200;
             --a-y: -100;
-            --a-z: 100;
+            --a-z: 50;
             --b-x: 200;
             --b-y: -100;
-            --b-z: 100;
+            --b-z: 50;
             --c-x: -200;
             --c-y: 100;
-            --c-z: 100;
+            --c-z: 50;
             ">
             <a href="/"><h1>BORZOI</h1></a>
         </div>
@@ -33,9 +33,9 @@
     <div class="node horse" style="
         transform:
             translate3d(
-            calc(0 * 100 * 1px + var(--node-translate-x)),
-            calc(0 * 100 * -1px + var(--node-translate-y)),
-            calc(0 * 100 * 1px + var(--node-translate-z))
+            calc(0 * 100 * 1cqw + var(--node-translate-x)),
+            calc(0 * 100 * -1cqw + var(--node-translate-y)),
+            calc(0 * 100 * 1cqw + var(--node-translate-z))
             )
             rotate3d(0, -0, 0, calc(-2 * acos(1)))
             rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
@@ -44,13 +44,13 @@
         <div class="rect" style="
             --a-x: -200;
             --a-y: -100;
-            --a-z: 100;
+            --a-z: 50;
             --b-x: 200;
             --b-y: -100;
-            --b-z: 100;
+            --b-z: 50;
             --c-x: -200;
             --c-y: 100;
-            --c-z: 100;
+            --c-z: 50;
             ">
             <a href="/"><h1>HORSE</h1></a>
         </div>
@@ -60,9 +60,9 @@
         <div class="node section" style="
             transform:
                 translate3d(
-                calc(0 * 100 * 1px + var(--node-translate-x)),
-                calc(0 * 100 * -1px + var(--node-translate-y)),
-                calc(0 * 100 * 1px + var(--node-translate-z))
+                calc(0 * 100 * 1cqw + var(--node-translate-x)),
+                calc(0 * 100 * -1cqw + var(--node-translate-y)),
+                calc(0 * 100 * 1cqw + var(--node-translate-z))
                 )
                 rotate3d(0, -0, 0, calc(-2 * acos(1)))
                 rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
@@ -71,13 +71,13 @@
             <div class="rect" style="
             --a-x: -100;
             --a-y: -100;
-            --a-z: 50;
+            --a-z: 25;
             --b-x: 100;
             --b-y: -100;
-            --b-z: 50;
+            --b-z: 25;
             --c-x: -100;
             --c-y: 100;
-            --c-z: 50;
+            --c-z: 25;
             ">
                 <p><a href="{{section.path}}">{{section.extra.nav_title}}</a></p>
             </div>
@@ -90,7 +90,8 @@
 
 .nav {
     position: relative;
-    height: 300px;
+    height: auto;
+    container-type: inline-size;
 
     .rect {
         pointer-events: none;
@@ -101,7 +102,7 @@
 
     & > .left, & > .right {
         width: 10%;
-        height: 300px;
+        height: 40cqw;
     }
 
     & > .left:hover ~ .container {
@@ -118,17 +119,33 @@
 
     &:hover > .container {
         .camera {
-            --cam-projection: 0.8;
+            --cam-projection: 0.3;
+
+                    
+            /* borzoi */
+            .node.base:nth-of-type(1) {
+                .node.neck {
+                    --node-rotation-angle: -60deg;
+                }
+            }
+
+            /* horse */
+            .node.base:nth-of-type(2) {
+                .node.Body > .node.Neck {
+                    --node-rotation-angle: 60deg;
+                }
+            }
         }
     }
 
     & > .container {
         width: 80%;
-        height: 300px;
+        height: 40cqw;
+        overflow: visible;
         
         .camera {
             --cam-y: 300;
-            --cam-z: 600;
+            --cam-z: 1500;
             --cam-projection: 1;
             transition: --cam-yaw 1s, --cam-projection 0.5s;
         }
@@ -153,14 +170,26 @@
         --node-translate-x: -300px;
         --node-translate-y: 150px;
 
+        .node.neck {
+            --node-rotation-y: 1;
+            --node-rotation-angle: 0;
+            transition: --node-rotation-angle 0.5s;
+        }
+
     }
 
     /* horse */
     .node.base:nth-of-type(2) {
         --node-rotation-y: 1;
         --node-rotation-angle: 110deg;
-        --node-translate-x: 350px;
-        --node-translate-y: -50px;
+        --node-translate-x: 300px;
+        --node-translate-y: -25px;
+
+        .node.Body > .node.Neck {
+            --node-rotation-y: 1;
+            --node-rotation-angle: 0;
+            transition: --node-rotation-angle 0.5s;
+        }
     }
 
     .node.section {
