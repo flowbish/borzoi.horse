@@ -3,9 +3,7 @@
 {%- block header -%}
 <div class="left"></div>
 {% <rendering> %}
-    {{ load_data(path="models/borzoi.divs") | safe }}
-    {{ load_data(path="models/horse.divs") | safe }}
-    <div class="node borzoi" style="
+    <div class="node scene" style="
         transform:
             translate3d(
             calc(0 * 100 * 1cqw + var(--node-translate-x)),
@@ -16,48 +14,9 @@
             rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
             scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
         ">
-        <div class="rect" style="
-            --a-x: -200;
-            --a-y: -100;
-            --a-z: 50;
-            --b-x: 80;
-            --b-y: -100;
-            --b-z: 50;
-            --c-x: -200;
-            --c-y: 0;
-            --c-z: 50;
-            ">
-            <a href="/"><h1>BORZOI</h1></a>
-        </div>
-    </div>
-    <div class="node horse" style="
-        transform:
-            translate3d(
-            calc(0 * 100 * 1cqw + var(--node-translate-x)),
-            calc(0 * 100 * -1cqw + var(--node-translate-y)),
-            calc(0 * 100 * 1cqw + var(--node-translate-z))
-            )
-            rotate3d(0, -0, 0, calc(-2 * acos(1)))
-            rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-            scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
-        ">
-        <div class="rect" style="
-            --a-x: -200;
-            --a-y: -100;
-            --a-z: 50;
-            --b-x: 40;
-            --b-y: -100;
-            --b-z: 50;
-            --c-x: -200;
-            --c-y: 0;
-            --c-z: 50;
-            ">
-            <a href="/"><h1>HORSE</h1></a>
-        </div>
-    </div>
-    {%- for section in config.extra.nav_sections -%}
-        {%- set section = get_section(path=section, metadata_only=true) -%}
-        <div class="node section" style="
+        {{ load_data(path="models/borzoi.divs") | safe }}
+        {{ load_data(path="models/horse.divs") | safe }}
+        <div class="node borzoi" style="
             transform:
                 translate3d(
                 calc(0 * 100 * 1cqw + var(--node-translate-x)),
@@ -69,20 +28,85 @@
                 scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
             ">
             <div class="rect" style="
-            --a-x: -100;
-            --a-y: -100;
-            --a-z: 25;
-            --b-x: 100;
-            --b-y: -100;
-            --b-z: 25;
-            --c-x: -100;
-            --c-y: 100;
-            --c-z: 25;
-            ">
-                <p><a href="{{section.path}}">{{section.extra.nav_title}}</a></p>
+                --a-x: -200;
+                --a-y: -100;
+                --a-z: 50;
+                --b-x: 80;
+                --b-y: -100;
+                --b-z: 50;
+                --c-x: -200;
+                --c-y: 0;
+                --c-z: 50;
+                ">
+                <a href="/"><h1>BORZOI</h1></a>
             </div>
         </div>
-    {%- endfor -%}
+        <div class="node horse" style="
+            transform:
+                translate3d(
+                calc(0 * 100 * 1cqw + var(--node-translate-x)),
+                calc(0 * 100 * -1cqw + var(--node-translate-y)),
+                calc(0 * 100 * 1cqw + var(--node-translate-z))
+                )
+                rotate3d(0, -0, 0, calc(-2 * acos(1)))
+                rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
+                scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
+            ">
+            <div class="rect" style="
+                --a-x: -200;
+                --a-y: -100;
+                --a-z: 50;
+                --b-x: 40;
+                --b-y: -100;
+                --b-z: 50;
+                --c-x: -200;
+                --c-y: -50;
+                --c-z: 50;
+                ">
+                <a href="/"><h1>HORSE</h1></a>
+            </div>
+        </div>
+        <div class="node sections" style="
+            transform:
+                translate3d(
+                calc(0 * 100 * 1cqw + var(--node-translate-x)),
+                calc(0 * 100 * -1cqw + var(--node-translate-y)),
+                calc(0 * 100 * 1cqw + var(--node-translate-z))
+                )
+                rotate3d(0, -0, 0, calc(-2 * acos(1)))
+                rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
+                scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
+            ">
+            {%- for section in config.extra.nav_sections -%}
+                {%- set section = get_section(path=section, metadata_only=true) -%}
+                <div class="node section" style="
+                    transform:
+                        translate3d(
+                        calc(0 * 100 * 1cqw + var(--node-translate-x)),
+                        calc(0 * 100 * -1cqw + var(--node-translate-y)),
+                        calc(0 * 100 * 1cqw + var(--node-translate-z))
+                        )
+                        rotate3d(0, -0, 0, calc(-2 * acos(1)))
+                        rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
+                        scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
+                    ">
+                    <div class="rect" style="
+                    --a-x: -100;
+                    --a-y: -100;
+                    --a-z: 0;
+                    --b-x: 100;
+                    --b-y: -100;
+                    --b-z: 0;
+                    --c-x: -100;
+                    --c-y: 100;
+                    --c-z: 0;
+                    ">
+                        <p><a href="{{section.path}}">{{section.extra.nav_title}}</a></p>
+                    </div>
+                </div>
+            {%- endfor -%}
+        </div>
+    </div>
 {% </rendering> %}
 <div class="right"></div>
 
@@ -93,6 +117,7 @@
     height: auto;
     container-type: inline-size;
     overflow: hidden;
+    padding: 0;
 
     .rect {
         pointer-events: none;
@@ -149,28 +174,44 @@
             --cam-y: 300;
             --cam-z: 1500;
             --cam-projection: 1;
-            transition: --cam-yaw 1s, --cam-projection 0.5s;
+            --cam-pitch: 5;
+            transition: --cam-yaw 1s, --cam-pitch 1s, --cam-projection 0.5s;
+        }
+    }
+
+    .node.scene {
+        --node-translate-y: -30px;
+    }
+
+    .node.borzoi, .node.horse {
+        --node-scale: 2;
+
+        .rect {
+            overflow: visible;
+
+            h1 {
+                line-height: 1;
+            }
         }
     }
 
     .node.borzoi {
-        --node-scale: 2;
+        --node-translate-y: 20px;
         --node-translate-x: 40px;
     }
 
     .node.horse {
-        --node-scale: 2;
-        --node-translate-y: 150px;
-        --node-translate-x: 300px;
+        --node-translate-y: 180px;
+        --node-translate-x: 270px;
     }
 
     /* borzoi */
     .node.base:nth-of-type(1) {
-        --node-scale: 0.75;
+        --node-scale: 0.70;
         --node-rotation-y: 1;
         --node-rotation-angle: -110deg;
         --node-translate-x: -300px;
-        --node-translate-y: 150px;
+        --node-translate-y: 90px;
 
         .node.neck {
             --node-rotation-y: 1;
@@ -183,9 +224,10 @@
     /* horse */
     .node.base:nth-of-type(2) {
         --node-rotation-y: 1;
+        --node-scale: 0.90;
         --node-rotation-angle: 110deg;
         --node-translate-x: 320px;
-        --node-translate-y: -25px;
+        --node-translate-y: -40px;
 
         .node.Body > .node.Neck {
             --node-rotation-y: 1;
@@ -194,13 +236,30 @@
         }
     }
 
-    .node.section {
+    .node.sections {
+        --node-translate-z: 40px;
+        --node-translate-y: 160px;
         --node-scale: 2;
-    }
 
-    .node.section:nth-last-of-type(1) {
-        --node-translate-x: 350px;
-        --node-translate-y: -50px;
+        .node.section {
+            z-index: 10;
+        
+            .rect {
+                display: flex;
+                flex-direction: right;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+
+        {% set num_sections = config.extra.nav_sections | length %}
+        {% for i in range(end=num_sections) %}
+        .node.section:nth-last-of-type({{ i + 1 }}) {
+            --node-translate-x: calc(-200px + (400px / {{ num_sections - 1 }}) * {{ i }});
+            --node-rotation-z: 1;
+            --node-rotation-angle: calc(-15deg + (30deg / {{ num_sections - 1 }}) * {{ i }});
+        }
+        {% endfor %}
     }
 }
 </style>
