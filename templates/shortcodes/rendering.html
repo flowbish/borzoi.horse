@@ -8,7 +8,11 @@
     {% set container_classes = "container" %}
 {% endif %}
 
-<div class="{{ container_classes }}">
+{% if rest.class %}
+{% set container_classes = container_classes ~ " " ~ rest.class %}
+{% endif %}
+
+<div {% if rest.id %}id="{{ rest.id }}" {% endif %}class="{{ container_classes }}">
     <div class="camera camera-projection">
         <div class="camera camera-roll">
             <div class="camera camera-pitch">

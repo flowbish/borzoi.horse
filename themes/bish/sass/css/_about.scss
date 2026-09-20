@@ -28,13 +28,11 @@
         }
     }
 
-    p {
+    p, .inline {
         background: var(--accent-color);
         padding: 10px;
         border-radius: 10px;
-        margin-right: 10px;
-        margin-left: 10px;
-        z-index: 3;
+        margin: 25px 10px;
     }
 
     p:nth-of-type(even) {
@@ -86,13 +84,5 @@
         100% {
             background-position: 400px 0;
         }
-    }
-
-    model-viewer {
-        position: fixed;
-        pointer-events: none;
-        z-index: 1;
-        height: 700px;
-        width: 700px;
     }
 }
