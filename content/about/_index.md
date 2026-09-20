@@ -21,6 +21,8 @@ check out my [blog](/blog) where I write about stuff that I've done or where I'v
 
 look at my [character references](/refs) to see my little animals. they're cool and cute and I have a lot of art of them!
 
+look at my [cat](/photos/honey-crisp) and my [itemlabel plushies](/photos/item-label) and my cool [minecraft photos](/photos/minecraft)
+
 {% <rendering class="inline"> %}
 {{ load_data(path="models/salmon.divs") }}
 {% </rendering> %}
@@ -28,8 +30,6 @@ look at my [character references](/refs) to see my little animals. they're cool 
 {% <rendering class="inline"> %}
 {{ load_data(path="models/skeleton-horse.divs") }}
 {% </rendering> %}
-
-look at my [cat](/photos/honey-crisp) and my [itemlabel plushies](/photos/item-label) and my cool [minecraft photos](/photos/minecraft)
 
 ponder my [stuff](/stuff) including some 3d models rendered using only html and css!!! just like the horse that's rotating here, wow
 
@@ -83,7 +83,7 @@ thanks for all your hard work, little guy
     height: 100cqh;
 
 
-    mix-blend-mode: darken; 
+    mix-blend-mode: darken;
     pointer-events: none;
     
     .camera {
