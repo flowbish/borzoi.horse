@@ -732,6 +732,24 @@
     inherits: false;
 }
 
+@property --node-scale-x {
+    syntax: "<number>";
+    initial-value: 1;
+    inherits: false;
+}
+
+@property --node-scale-y {
+    syntax: "<number>";
+    initial-value: 1;
+    inherits: false;
+}
+
+@property --node-scale-z {
+    syntax: "<number>";
+    initial-value: 1;
+    inherits: false;
+}
+
 @property --node-translate-x {
     syntax: "<length>";
     initial-value: 0px;
@@ -753,4 +771,17 @@
 .node {
     transform-origin: 0;
     transform-style: preserve-3d;
+
+    transform:
+        translate3d(
+            calc(0 * 100 * 1cqw + var(--node-translate-x)),
+            calc(0 * 100 * -1cqw + var(--node-translate-y)),
+            calc(0 * 100 * 1cqw + var(--node-translate-z))
+        )
+        rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
+        scale3d(
+            calc(1 * var(--node-scale) * var(--node-scale-x)), 
+            calc(1 * var(--node-scale) * var(--node-scale-y)), 
+            calc(1 * var(--node-scale) * var(--node-scale-z))
+        );
 }
