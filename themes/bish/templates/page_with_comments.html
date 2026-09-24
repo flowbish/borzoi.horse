@@ -16,5 +16,9 @@
 {{ <post.header config page heading="h1" />}}
 {{ page.content | safe }}
 
+{% if not page.extra.hide_comments %}
+{{ <comments page />}}
+{% endif %}
+
 </article>
 {%- endblock -%}
