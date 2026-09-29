@@ -30,6 +30,8 @@ client = R2Client(access_key=access_key, secret_key=secret_key, endpoint=endpoin
 bucket_name = 'assets-borzoi-horse'
 prefix = sys.argv[1]
 
+images = []
+
 for key in client.list_objects(bucket_name, prefix):
     if key.endswith('/'):
         # explicit directory object, skip
@@ -39,9 +41,14 @@ for key in client.list_objects(bucket_name, prefix):
     derived_fragment = basename.split('.')[0]
 
     user_metadata = client.get_user_metadata(bucket_name, key)
+    index = user_metadata.get('index', 99999999)
     fragment = user_metadata.get('fragment', derived_fragment)
     description = user_metadata.get('description', '')
 
+    images.append((index, key, fragment, description))
+
+for image in sorted(images):
+    (index, key, fragment, description) = image
     print(f"""\
 [[images]]
 url = "https://assets.borzoi.horse/{key}"

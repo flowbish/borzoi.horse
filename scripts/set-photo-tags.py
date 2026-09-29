@@ -36,12 +36,15 @@ gallery_toml = sys.argv[1]
 with open(gallery_toml, 'rb') as toml_file:
     toml = tomllib.load(toml_file)
 
-for image in toml['images']:
+for i, image in enumerate(toml['images']):
     url = image['url']
     fragment = image['fragment']
     description = image['description']
 
-    local_metadata = {}
+    local_metadata = {
+        'index': str(i)
+    }
+    
     if fragment:
         local_metadata['fragment'] = fragment
 
