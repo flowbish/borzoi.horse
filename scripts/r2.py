@@ -6,6 +6,17 @@ import xml.etree.ElementTree as ET
 import mimetypes
 import urllib.parse
 
+from dataclasses import dataclass
+
+@dataclass
+class HeadObject:
+    bucket: str
+    key: str
+    headers: dict
+
+    def content_type(self) -> str:
+        return self.headers.get('Content-Type')
+
 class R2Error(Exception):
     pass
 
@@ -49,7 +60,7 @@ class R2Client:
         k_signing = self.sign(k_service, 'aws4_request')
         return k_signing
 
-    def create_request_headers_upload(self, bucket_name, file_key=None, extra_headers=None, payload_hash=None, method='PUT', content_type=None):
+    def create_request_headers_upload(self, bucket_name, key=None, extra_headers=None, payload_hash=None, method='PUT', content_type=None):
         service = 's3'
         region = 'auto'
         host = self.endpoint.split("://")[-1]
@@ -58,23 +69,23 @@ class R2Client:
         amz_date = t.strftime('%Y%m%dT%H%M%SZ')
         date_stamp = t.strftime('%Y%m%d')
 
-        canonical_uri = f'/{bucket_name}/{file_key}'
+        canonical_uri = f'/{bucket_name}/{key}'
         canonical_querystring = ''
         
 
-        amz_canonical_headers = {'x-amz-content-sha256': payload_hash, 'x-amz-date': amz_date,}
+        amz_canonical_headers = {'x-amz-content-sha256': payload_hash, 'x-amz-date': amz_date, 'host': host}
 
         if content_type:
             amz_canonical_headers['content-type'] = content_type
 
-        for key, value in extra_headers.items():
-            amz_canonical_headers[key] = value
+        if extra_headers is not None:
+            for key, value in extra_headers.items():
+                amz_canonical_headers[key] = value
 
         amz_canonical_headers_sorted = sorted([
             (key, value) for key, value in amz_canonical_headers.items()
         ])
         canonical_headers = [
-            ('host', host),
             *amz_canonical_headers_sorted,
         ]
         canonical_headers_string = '\n'.join(f'{key}:{value}' for key, value in canonical_headers) + '\n'
@@ -92,18 +103,15 @@ class R2Client:
         authorization_header = f"{algorithm} Credential={self.access_key}/{credential_scope}, SignedHeaders={signed_headers_string}, Signature={signature}"
 
         headers = {
-            'Authorization': authorization_header
+            'Authorization': authorization_header,
         }
-
-        if content_type:
-            headers['Content-Type'] = content_type
 
         for key, value in amz_canonical_headers.items():
             headers[key] = value
 
         return headers
 
-    def create_request_headers(self, method, bucket_name, copy_source=None, query_string=None, file_key=None, payload_hash=None, content_type=None):
+    def create_request_headers(self, method, bucket_name, copy_source=None, query_string=None, key=None, payload_hash=None, content_type=None):
         service = 's3'
         region = 'auto'
         host = self.endpoint.split("://")[-1]
@@ -112,7 +120,7 @@ class R2Client:
         amz_date = t.strftime('%Y%m%dT%H%M%SZ')
         date_stamp = t.strftime('%Y%m%d')
 
-        canonical_uri = f'/{bucket_name}/' if file_key is None else f'/{bucket_name}/{file_key}'
+        canonical_uri = f'/{bucket_name}/' if key is None else f'/{bucket_name}/{key}'
         canonical_querystring = '' if query_string is None else query_string
         canonical_headers = f"host:{host}\nx-amz-date:{amz_date}\n"
 
@@ -155,28 +163,38 @@ class R2Client:
         return mime_type if mime_type is not None else 'application/octet-stream'
 
 
-    def upload_file(self, bucket_name, local_file_path, r2_file_key):
-        file_url = f"{self.endpoint}/{bucket_name}/{r2_file_key}"
+    def put_object(self, bucket_name, key, contents, user_metadata=None):
+        file_url = f"{self.endpoint}/{bucket_name}/{key}"
 
-        with open(local_file_path, 'rb') as file:
-            file_data = file.read()
+        extra_headers = {}
+        if user_metadata:
+            for k, v in user_metadata.items():
+                extra_headers[f'x-amz-meta-{k}'] = v
 
-        payload_hash = hashlib.sha256(file_data).hexdigest()
-        mimetype = self.get_content_type(local_file_path)
-        headers = self.create_request_headers_upload(bucket_name, r2_file_key, payload_hash, 'PUT', mimetype)
+        payload_hash = hashlib.sha256(contents).hexdigest()
+        mimetype = self.get_content_type(key)
+        headers = self.create_request_headers_upload(bucket_name, key, payload_hash=payload_hash, method='PUT', content_type=mimetype, extra_headers=extra_headers)
 
-        response = requests.put(file_url, headers=headers, data=file_data)
+        response = requests.put(file_url, headers=headers, data=contents)
 
-        if response.ok:
-            print(f"File {local_file_path} uploaded successfully as {r2_file_key}.")
-        else:
-            print(f"Failed to upload file {local_file_path}. Status code: {response.status_code}")
-            print("Response Content:", response.text)
+        if not response.ok:
+            raise R2Error(f"Failed to PUT {key}. Status code: {response.status_code}:\n{response.text}")
+
+    def head_object(self, bucket, key):
+        url = f"{self.endpoint}/{bucket}/{key}"
+        headers = self.create_request_headers('HEAD', bucket, key=key)
+
+        response = requests.head(url, headers=headers)
+
+        if response.status_code != 200:
+            raise R2Error(f'Failed to HEAD {bucket}/{key}: {response}')
+
+        return HeadObject(bucket, key, response.headers)
 
 
     def get_user_metadata(self, bucket, key):
         tags_url = f"{self.endpoint}/{bucket}/{key}"
-        headers = self.create_request_headers('HEAD', bucket, file_key=key)
+        headers = self.create_request_headers('HEAD', bucket, key=key)
 
         response = requests.head(tags_url, headers=headers)
 
@@ -190,7 +208,6 @@ class R2Client:
         return user_metadata
 
     def copy_object(self, bucket, key, source, user_metadata=None):
-
         extra_headers = {}
         if user_metadata:
             for k, v in user_metadata.items():
@@ -201,7 +218,7 @@ class R2Client:
 
         copy_url = f"{self.endpoint}/{bucket}/{key}"
         payload_hash = hashlib.sha256(b'').hexdigest()
-        headers = self.create_request_headers_upload(bucket, file_key=key, extra_headers=extra_headers, payload_hash=payload_hash)
+        headers = self.create_request_headers_upload(bucket, key=key, extra_headers=extra_headers, payload_hash=payload_hash)
 
         response = requests.put(copy_url, headers=headers)
 
@@ -211,32 +228,23 @@ class R2Client:
 
     def delete_object(self, bucket, key):
         delete_url = f"{self.endpoint}/{bucket}/{key}"
-        headers = self.create_request_headers('DELETE', bucket, file_key=key)
+        headers = self.create_request_headers('DELETE', bucket, key=key)
 
         response = requests.delete(delete_url, headers=headers)
 
         if not response.ok:
             raise R2Error(f'Failed to delete {bucket}/{key}: {response.text}')
         
-    def download_file(self, bucket_name, file_key, local_file_name):
-        """
-        Download a file from the specified bucket.
-
-        :param bucket_name: The name of the bucket.
-        :param file_key: The key of the file to download.
-        :param local_file_name: The local file name to save the downloaded file.
-        """
-        file_url = f"{self.endpoint}/{bucket_name}/{file_key}"
-        headers = self.create_request_headers('GET', bucket_name, file_key=file_key)
+    def get_object(self, bucket_name, key):
+        file_url = f"{self.endpoint}/{bucket_name}/{key}"
+        headers = self.create_request_headers('GET', bucket_name, key=key)
 
         response = requests.get(file_url, headers=headers)
 
-        if response.status_code == 200:
-            with open(local_file_name, "wb") as file:
-                file.write(response.content)
-            print(f"File {file_key} downloaded successfully.")
-        else:
-            print(f"Failed to download file {file_key}. Status code: {response.status_code}")
+        if response.status_code != 200:
+            raise R2Error(f"Failed to GET {key}. Status code: {response.status_code}")
+        
+        return response.content
 
     def list_objects(self, bucket_name, prefix=None):
         """
@@ -270,5 +278,4 @@ class R2Client:
 
             return objects
         else:
-            print(f"Failed to retrieve file list. Status code: {response.status_code}")
-            return []
+            raise R2Error(f"Failed to retrieve file list. Status code: {response.status_code}")

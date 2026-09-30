@@ -41,6 +41,9 @@ for key in client.list_objects(bucket_name, prefix):
     derived_fragment = basename.split('.')[0]
 
     user_metadata = client.get_user_metadata(bucket_name, key)
+    if user_metadata.get('exclude-from-gallery'):
+        continue
+        
     index = user_metadata.get('index', 99999999)
     fragment = user_metadata.get('fragment', derived_fragment)
     description = user_metadata.get('description', '')
