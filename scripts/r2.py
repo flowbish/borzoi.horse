@@ -20,6 +20,8 @@ class HeadObject:
 class R2Error(Exception):
     pass
 
+USER_METADATA_PREFIX = 'x-amz-meta-'
+
 class R2Client:
     """
     A client class for interacting with Cloudflare R2 storage with Python native packages.
@@ -191,7 +193,6 @@ class R2Client:
 
         return HeadObject(bucket, key, response.headers)
 
-
     def get_user_metadata(self, bucket, key):
         tags_url = f"{self.endpoint}/{bucket}/{key}"
         headers = self.create_request_headers('HEAD', bucket, key=key)
@@ -203,15 +204,16 @@ class R2Client:
 
         user_metadata = {}
         for header, value in response.headers.items():
-            if header.startswith('x-amz-meta'):
-                user_metadata[header.lstrip('x-amz-meta')] = value
+            if header.startswith(USER_METADATA_PREFIX):
+                meta_key = header[len(USER_METADATA_PREFIX):]
+                user_metadata[meta_key] = value
         return user_metadata
 
     def copy_object(self, bucket, key, source, user_metadata=None):
         extra_headers = {}
         if user_metadata:
             for k, v in user_metadata.items():
-                extra_headers[f'x-amz-meta-{k}'] = v
+                extra_headers[f'{USER_METADATA_PREFIX}{k}'] = v
 
         extra_headers['x-amz-copy-source'] = f'{bucket}/{source}'
         extra_headers['x-amz-metadata-directive'] = 'MERGE'
