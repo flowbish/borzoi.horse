@@ -7,13 +7,10 @@
     display: block;
     overflow: hidden;
     
-    --canvas-scale: calc(1cqw / 1px); 
+    --canvas-scale: tan(atan2(1cqw, 1px));
 }
 
 .camera-projection {
-    display: block;
-    transform-style: preserve-3d;
-    transform-origin: 0% 0%;
     translate: 50% 0;
     transform:
         scale(calc((150 / var(--cam-z)) * var(--canvas-scale)))
