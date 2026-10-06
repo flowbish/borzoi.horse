@@ -399,6 +399,22 @@ footer .rff-webring {
 
 }
 
+/* for mob spawners */
+.container.absolute {
+  width: 500px;
+  height: 500px;
+
+  display: block;
+  position: fixed;
+  overflow: visible;
+
+  .camera-projection {
+    position: relative;
+    left: -250px;
+    top: -250px;
+  }
+}
+
 .four-oh-four {
   .container {
     height: 1000px;
