@@ -4,6 +4,7 @@ import json
 import os
 import sys
 import tomllib
+import concurrent.futures
 
 from typing import List
 from io import BytesIO
@@ -24,9 +25,6 @@ access_key = credentials['R2_ACCESS_KEY_ID']
 secret_key = credentials['R2_SECRET_ACCESS_KEY']
 endpoint = credentials['R2_ENDPOINT']
 
-# Initialize the R2Client
-client = R2Client(access_key=access_key, secret_key=secret_key, endpoint=endpoint)
-
 url_prefix = 'https://assets.borzoi.horse/'
 bucket = 'assets-borzoi-horse'
 
@@ -41,20 +39,22 @@ def is_image(head_object: HeadObject) -> bool:
 def has_already_been_processed(head_object: HeadObject, all_objects: List[str]) -> bool:
     # this object is already small
     if head_object.key.endswith(f'{small_suffix}'):
-        print(f'{head_object.key} is already small')
         return True
 
     # a small version of this object already exists
     small_key = f'{head_object.key}{small_suffix}'
     if small_key in all_objects:
-        print(f'{small_key} already exists')
         return True
 
     return False
 
+client = R2Client(access_key=access_key, secret_key=secret_key, endpoint=endpoint)
 all_objects = client.list_objects(bucket)
 
-for key in all_objects:
+
+def maybe_downscale(key):
+    client = R2Client(access_key=access_key, secret_key=secret_key, endpoint=endpoint)
+
     head_object = client.head_object(bucket, key)
     if is_image(head_object) and not has_already_been_processed(head_object, set(all_objects)):
         contents = client.get_object(bucket, key)
@@ -62,11 +62,21 @@ for key in all_objects:
         img = Image.open(io)
 
         small_img = ImageOps.contain(img, small_size)
+        small_img = small_img.convert("RGB")
+
         small_io = BytesIO()
         small_img.save(small_io, 'jpeg')
 
         small_key = f'{head_object.key}{small_suffix}'
 
-        print(f'Putting downscaled object {small_key}')
         user_metadata = {'exclude-from-gallery': 'true'}
         client.put_object(bucket, small_key, small_io.getvalue(), user_metadata=user_metadata)
+
+        return key
+
+with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
+    results = executor.map(maybe_downscale, all_objects)
+
+for key in results:
+    if key is not None:
+        print(f'downscaled {key}')

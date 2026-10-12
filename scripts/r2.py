@@ -71,6 +71,9 @@ class R2Client:
         amz_date = t.strftime('%Y%m%dT%H%M%SZ')
         date_stamp = t.strftime('%Y%m%d')
 
+        if key is not None:
+            key = '/'.join(urllib.parse.quote(part) for part in key.split('/'))
+
         canonical_uri = f'/{bucket_name}/{key}'
         canonical_querystring = ''
         
@@ -122,6 +125,9 @@ class R2Client:
         amz_date = t.strftime('%Y%m%dT%H%M%SZ')
         date_stamp = t.strftime('%Y%m%d')
 
+        if key is not None:
+            key = '/'.join(urllib.parse.quote(part) for part in key.split('/'))
+
         canonical_uri = f'/{bucket_name}/' if key is None else f'/{bucket_name}/{key}'
         canonical_querystring = '' if query_string is None else query_string
         canonical_headers = f"host:{host}\nx-amz-date:{amz_date}\n"
@@ -166,7 +172,7 @@ class R2Client:
 
 
     def put_object(self, bucket_name, key, contents, user_metadata=None):
-        file_url = f"{self.endpoint}/{bucket_name}/{key}"
+        file_url = f"{self.endpoint}/{bucket_name}/{urllib.parse.quote(key)}"
 
         extra_headers = {}
         if user_metadata:
@@ -183,7 +189,7 @@ class R2Client:
             raise R2Error(f"Failed to PUT {key}. Status code: {response.status_code}:\n{response.text}")
 
     def head_object(self, bucket, key):
-        url = f"{self.endpoint}/{bucket}/{key}"
+        url = f"{self.endpoint}/{bucket}/{urllib.parse.quote(key)}"
         headers = self.create_request_headers('HEAD', bucket, key=key)
 
         response = requests.head(url, headers=headers)
@@ -194,7 +200,7 @@ class R2Client:
         return HeadObject(bucket, key, response.headers)
 
     def get_user_metadata(self, bucket, key):
-        tags_url = f"{self.endpoint}/{bucket}/{key}"
+        tags_url = f"{self.endpoint}/{bucket}/{urllib.parse.quote(key)}"
         headers = self.create_request_headers('HEAD', bucket, key=key)
 
         response = requests.head(tags_url, headers=headers)
@@ -218,7 +224,7 @@ class R2Client:
         extra_headers['x-amz-copy-source'] = f'{bucket}/{source}'
         extra_headers['x-amz-metadata-directive'] = 'MERGE'
 
-        copy_url = f"{self.endpoint}/{bucket}/{key}"
+        copy_url = f"{self.endpoint}/{bucket}/{urllib.parse.quote(key)}"
         payload_hash = hashlib.sha256(b'').hexdigest()
         headers = self.create_request_headers_upload(bucket, key=key, extra_headers=extra_headers, payload_hash=payload_hash)
 
@@ -229,7 +235,7 @@ class R2Client:
 
 
     def delete_object(self, bucket, key):
-        delete_url = f"{self.endpoint}/{bucket}/{key}"
+        delete_url = f"{self.endpoint}/{bucket}/{urllib.parse.quote(key)}"
         headers = self.create_request_headers('DELETE', bucket, key=key)
 
         response = requests.delete(delete_url, headers=headers)
@@ -238,7 +244,7 @@ class R2Client:
             raise R2Error(f'Failed to delete {bucket}/{key}: {response.text}')
         
     def get_object(self, bucket_name, key):
-        file_url = f"{self.endpoint}/{bucket_name}/{key}"
+        file_url = f"{self.endpoint}/{bucket_name}/{urllib.parse.quote(key)}"
         headers = self.create_request_headers('GET', bucket_name, key=key)
 
         response = requests.get(file_url, headers=headers)

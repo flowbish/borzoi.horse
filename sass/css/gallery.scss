@@ -15,20 +15,6 @@
 
         overflow: clip;
 
-        img {
-            display: block;
-            margin: 0;
-            z-index: 1;
-
-            aspect-ratio: 1/1;
-
-            object-fit: cover;
-            width: 100%;
-
-            transition:
-                transform 0.1s ease-in-out,
-        }
-
         .open {
             &::after {
                 content: "";
@@ -36,6 +22,24 @@
                 inset: 0;
                 z-index: 1;
             }
+
+            img {
+                display: block !important;
+                margin: 0;
+                z-index: 1;
+
+                aspect-ratio: 1/1;
+
+                object-fit: cover;
+                width: 100%;
+
+                transition:
+                    transform 0.1s ease-in-out,
+            }
+        }
+
+        .close img {
+            display: none;
         }
 
         // this makes the zoom render as the icon on the website, but not render in the rss/atom feeds.
@@ -66,7 +70,7 @@
     }
 
     .viewer:not(:target):hover {
-        img {
+        .open img {
             transform: scale(1.1);
         }
         
@@ -91,7 +95,11 @@
         align-items: center;
         overflow: hidden;
 
-        img {
+        .open img {
+            display: none;
+        }
+
+        .close img {
             margin: 0;
             max-height: 100%;
         }

@@ -42,16 +42,19 @@
   {% endif -%}
 <div class="viewer" id="{{ frag }}" previous="{{ prev }}" next="{{ next }}">
 
+<a class="open" href="#{{ frag }}">
+<img class="thumbnail" style="display: none" loading="lazy" src="{{ asset }}-thumbnail" alt="{{ description }}" />
+</a>
+
 {%- if prev != "" -%}
 <a class="prev arrow" href="#{{ prev }}"></a>
 {%- else -%}
 <a class="prev"></a>
 {%- endif -%}
 
-<a class="open" href="#{{ frag }}"></a>
 <a class="close" href="#_">
 <span class="zoom material-symbols-outlined"></span>
-<img loading="lazy" src="{{ asset }}" alt="{{ description }}" />
+<img class="full" loading="lazy" src="{{ asset }}" alt="{{ description }}" />
 </a>
 
 {%- if description != "" -%}
