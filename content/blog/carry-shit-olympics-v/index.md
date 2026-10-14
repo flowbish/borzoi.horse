@@ -3,8 +3,8 @@ title = "Carry Shit Olympics V"
 date = "2026-09-29"
 description = "The most cargo bike event in all of Portland"
 
-# [extra]
-# icon = ""
+[extra]
+icon = "cso.jpg"
 +++
 
 {% set manifest="/blog/carry-shit-olympics-v/gallery.toml" %}
