@@ -6,6 +6,9 @@
 {{ <gallery.inner assets descriptions fragments /> }}
 {%- endcomponent gallery -%}
 
+
+
+
 {%- component gallery.inner(assets, descriptions, fragments) -%}
 <div class="gallery">
 {%- for i in range(end=assets | length) -%}
@@ -92,8 +95,11 @@
 
 {%- endcomponent gallery.inner -%}
 
+
+
+
+
 {% component gallery.embed(...rest) %}
-  
 {% set manifest = load_data(path=rest.manifest, format="toml") %}
 {% for image in manifest.images %}
   {% if image.fragment and image.fragment == rest.fragment %}
@@ -101,9 +107,10 @@
     {% set_global description = image.description %}
   {% endif %}
 {% endfor %}
-
-<a href="#{{ rest.fragment }}">
-    <img src="{{ asset }}" alt="{{ description }}" />
-</a>
-
+<div class="gallery-embed">
+  <a href="#{{ rest.fragment }}">
+      <img src="{{ asset }}" alt="{{ description }}" />
+  </a>
+  <p>{{ description | safe }}</p>
+</div>
 {% endcomponent gallery.embed %}

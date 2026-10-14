@@ -178,3 +178,35 @@
         }
     }
 }
+
+.gallery-embed {
+    background: rgba(0,0,0,0.8);
+
+    margin: 0 10px;
+    border-radius: 10px;
+    overflow: clip;
+
+    img {
+        display: block;
+        
+        max-height: 40vh;
+        margin: 0;
+
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+     p {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+
+        padding: 10px;
+
+        background: rgba(0,0,0,0.8);
+
+        font-palette: --dark-mode;
+        color: white;
+    }
+}
