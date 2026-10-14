@@ -55,7 +55,7 @@ I did a few smaller tasks, found some statues, worked my way up to Council Crest
 
 New up was cargo bike polo, a novel game requiring two players per bike, closer to the polo roots than many of its other spin-offs. I didn't end up competing in this one, but I got to get in some photography practice, and got a lot of experience with my new film camera!
 
-{{ <gallery.embed manifest fragment="cargo-polo" /> }}
+{{ <gallery.embed manifest fragment="cargo-polo-battle" /> }}
 
 {{ <gallery.embed manifest fragment="polo-film-2" /> }}
 
