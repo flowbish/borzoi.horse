@@ -226,9 +226,10 @@ a, button {
 
 .nav {
   display: flex;
-  align-items: flex-start;
+  align-items: flex-end;
   justify-content: flex-start;
   flex-wrap: wrap;
+
   a {
     text-decoration: none;
     overflow-wrap: break-word;
@@ -236,10 +237,13 @@ a, button {
 
   h1 {
     @include font.henny-penny-regular;
-    font-size: calc(var(--font-size) * 4);
+    font-size: calc(var(--font-size) * 3.5);
     margin: 0;
     margin-right: 10px;
-    flex-basis: 15%;
+    flex-basis: 35%;
+    flex-grow: 1;
+
+    word-break: keep-all;
     
 
     a {
@@ -253,14 +257,14 @@ a, button {
 
     display: flex;
     flex-direction:column;
-    flex-basis: 25%;
+    flex-basis: 15%;
     flex-wrap: wrap-reverse;
 
     align-items: flex-end;
 
     .container {
-      width: 200px;
-      height: 180px;
+      width: 100px;
+      height: 90px;
     }
 
     .camera {
@@ -290,14 +294,12 @@ a, button {
   display: flex;
   align-self: flex-end;
   justify-content: flex-end;
-  flex-grow: 1;
 
   .link {
     @include font.coral-pixels-regular;
     font-size: calc(var(--font-size) * 1.2);
     align-self: flex-end;
     padding: 15px;
-    padding-bottom: calc((sibling-count() - sibling-index() + 1) * 50px);
     flex-basis: 65px;
     min-width: 65px;
   }
