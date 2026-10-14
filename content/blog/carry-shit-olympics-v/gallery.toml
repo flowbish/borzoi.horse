@@ -36,7 +36,7 @@ description = ""
 [[images]]
 url = "https://assets.borzoi.horse/blog/carry-shit-olympics-v/PXL_20260926_084301056.jpg"
 fragment = "seismic-piknic"
-description = "\"seismic piknic\" art installation on Saltzman Rd."
+description = "'seismic piknic' art installation on Saltzman Rd."
 
 [[images]]
 url = "https://assets.borzoi.horse/blog/carry-shit-olympics-v/DSC02117.JPG"
@@ -104,6 +104,31 @@ fragment = "cargo-polo"
 description = "A few cargo bikes in a heated polo exchange."
 
 [[images]]
+url = "https://assets.borzoi.horse/blog/carry-shit-olympics-v/000062670019.jpg"
+fragment = "polo-film-1"
+description = "Shot on film."
+
+[[images]]
+url = "https://assets.borzoi.horse/blog/carry-shit-olympics-v/000062670020.jpg"
+fragment = "polo-film-2"
+description = "Shot on film."
+
+[[images]]
+url = "https://assets.borzoi.horse/blog/carry-shit-olympics-v/000062670021.jpg"
+fragment = "polo-film-3"
+description = "Shot on film."
+
+[[images]]
+url = "https://assets.borzoi.horse/blog/carry-shit-olympics-v/000062670022.jpg"
+fragment = "polo-film-4"
+description = "Shot on film."
+
+[[images]]
+url = "https://assets.borzoi.horse/blog/carry-shit-olympics-v/000062670024.jpg"
+fragment = "polo-film-5"
+description = "Shot on film."
+
+[[images]]
 url = "https://assets.borzoi.horse/blog/carry-shit-olympics-v/PXL_20260927_213729934.jpg"
 fragment = "recovered-headphones"
 description = "The headphones I recovered after wandering around Gresham for an hour."
@@ -150,8 +175,28 @@ description = ""
 
 [[images]]
 url = "https://assets.borzoi.horse/blog/carry-shit-olympics-v/DSC02397.JPG"
-fragment = "DSC02397"
-description = ""
+fragment = "zack-raw-bullitt"
+description = "Zack the ref on the raw Bullitt"
+
+[[images]]
+url = "https://assets.borzoi.horse/blog/carry-shit-olympics-v/000062670027.jpg"
+fragment = "racing-film-1"
+description = "Shot on film. This spot under the freeway was awesome for contrast."
+
+[[images]]
+url = "https://assets.borzoi.horse/blog/carry-shit-olympics-v/000062670028.jpg"
+fragment = "racing-film-2"
+description = "Shot on film."
+
+[[images]]
+url = "https://assets.borzoi.horse/blog/carry-shit-olympics-v/000062670031.jpg"
+fragment = "racing-film-3"
+description = "Shot on film."
+
+[[images]]
+url = "https://assets.borzoi.horse/blog/carry-shit-olympics-v/000062670037.jpg"
+fragment = "racing-film-4"
+description = "Shot on film."
 
 [[images]]
 url = "https://assets.borzoi.horse/blog/carry-shit-olympics-v/PXL_20260928_003016640.jpg"
@@ -160,13 +205,8 @@ description = ""
 
 [[images]]
 url = "https://assets.borzoi.horse/blog/carry-shit-olympics-v/PXL_20260928_004751149.jpg"
-fragment = "PXL_20260928_004751149"
-description = ""
-
-[[images]]
-url = "https://assets.borzoi.horse/blog/carry-shit-olympics-v/PXL_20260928_233529295.jpg"
-fragment = "PXL_20260928_233529295"
-description = ""
+fragment = "third-place-trophy"
+description = "The overall weekend third place trophy."
 
 [[images]]
 url = "https://assets.borzoi.horse/blog/carry-shit-olympics-v/friday-night.png"
@@ -197,4 +237,3 @@ description = "Finishing off the last few miles of the century by riding around 
 url = "https://assets.borzoi.horse/blog/carry-shit-olympics-v/headphones-hunt.png"
 fragment = "headphones-hunt"
 description = "My mid-Sunday scavenger hunt for my headphones."
-
