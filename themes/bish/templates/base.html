@@ -179,17 +179,9 @@
       </h1>
       <div class="logo flaming">
         <div onmouseenter="count()" class="container">
-          <div class="camera camera-projection">
-            <div class="camera camera-roll">
-              <div class="camera camera-pitch">
-                <div class="camera camera-yaw">
-                  <div class="scene">
-                    {{ load_data(path="content/models/horse.divs") | safe }}
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          {% <rendering> %}
+          {{ load_data(path="content/models/horse.divs") | safe }}
+          {% </rendering> %}
         </div>
         <span>flip count = </span><span id="count">0</span>
       </div>
