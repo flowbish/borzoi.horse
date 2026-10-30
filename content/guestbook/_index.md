@@ -12,4 +12,4 @@ since it's not SOCIAL media, I can't really know who's coming by and reading thi
 these messages are hand-approved by me before they are published, so it make take some time before you see them appear here.
 
 {{ <comments.form page={section} success="/success" failure="/failure" /> }}
-{{ <comments.display page={section} /> }}
+{{ <comments.display page={section} reverse={true} /> }}

@@ -3,11 +3,18 @@
 {{ <comments.form page success failure /> }}
 {% endcomponent comments %}
 
-{% component comments.display(page) %}
-{% set guestbook_data = load_data(path="/comments.json", format="json",) %}
+{% component comments.display(page, reverse=false) %}
+{% set comments_data = load_data(path="/comments.json", format="json",) %}
 <h2>Comments</h2>
 <div class="comments">
-{%- for entry in guestbook_data.entries -%}
+
+{% if reverse %}
+    {% set entries = comments_data.entries | reverse %}
+{% else %}
+    {% set entries = comments_data.entries %}
+{% endif %}
+
+{%- for entry in entries -%}
 {%- if entry.path == page.path or entry.path ~ "/" == page.path -%}
 <div class="comment">
     <h3>{{ entry.name }}</h3>
