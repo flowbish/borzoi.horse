@@ -77,6 +77,8 @@ From watching the races, the front-loader cargo bikes had a huge disadvantage on
 
 {{ <gallery.embed manifest fragment="racing-film-1" /> }}
 
+{{ <gallery.embed manifest fragment="racing-color-film-6" /> }}
+
 I raced in the e-bike category and ended up getting third place! I don't think this was particularly impressive, as there were only five racers total in the division, but it was fun to get something. I also ended up winning third place overall for the weekend, based on vibes and probably for showing up to all of the events.
 
 {{ <gallery.embed manifest fragment="third-place-trophy" /> }}
