@@ -37,3 +37,23 @@ description = "Sleepy and friends"
 url = "https://assets.borzoi.horse/photos/item-label/tomato-surprise.jpg"
 fragment = "tomato-surprise"
 description = "Surprise tomato oui oui!!"
+
+[[images]]
+url = "https://assets.borzoi.horse/photos/item-label/000057620004_01.jpg"
+fragment = "000057620004_01"
+description = "Zomboui hanging out at the graveyard"
+
+[[images]]
+url = "https://assets.borzoi.horse/photos/item-label/000057620008_01.jpg"
+fragment = "000057620008_01"
+description = "Zomboui vising an old friend"
+
+[[images]]
+url = "https://assets.borzoi.horse/photos/item-label/DSC02806_01.jpg"
+fragment = "DSC02806_01"
+description = "Sneaking proboscis stealing a delicious brain"
+
+[[images]]
+url = "https://assets.borzoi.horse/photos/item-label/DSC02879.jpg"
+fragment = "DSC02879"
+description = "Moley and a skeleton hanging out"
