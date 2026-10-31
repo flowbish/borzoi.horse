@@ -54,6 +54,11 @@ url = "https://lyra.horse/css-clicker"
 image = "css_is_awesome.png"
 alt = "css is awesome"
 
+[[buttons]]
+url = "https://mousegirl.net/"
+image = "gadget-button.gif"
+alt = "I'm gay for gadget"
+
 # past here is random stuff from https://88x31.nl
 
 [[buttons]]
