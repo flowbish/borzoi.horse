@@ -1,0 +1,76 @@
+<div class="node base" style="
+  transform:
+    translate3d(
+      calc(0 * 100 * 1px + var(--node-translate-x)),
+      calc(1 * 100 * -1px + var(--node-translate-y)),
+      calc(0 * 100 * 1px + var(--node-translate-z))
+    )
+    rotate3d(0, -0, 0, calc(-2 * acos(1)))
+    rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
+    scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
+">
+    <div class="node front" style="
+    transform:
+        translate3d(
+        calc(-1.75 * 100 * 1px + var(--node-translate-x)),
+        calc(1 * 100 * -1px + var(--node-translate-y)),
+        calc(0 * 100 * 1px + var(--node-translate-z))
+        )
+        rotate3d(0, -0, 0, calc(-2 * acos(1)))
+        rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
+        scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
+    ">
+        <div class="rect" style="
+            --a-x: 0;
+            --a-y: 0;
+            --a-z: 0;
+            --b-x: 350;
+            --b-y: 0;
+            --b-z: 0;
+            --c-x: 0;
+            --c-y: 200;
+            --c-z: 0;
+            background-image: url('/iris-business-front.jpg');
+            background-size: contain;
+            background-position: center;
+        "></div>
+    </div>
+    <div class="node back" style="
+    transform:
+        translate3d(
+        calc(0 * 100 * 1px + var(--node-translate-x)),
+        calc(0 * 100 * -1px + var(--node-translate-y)),
+        calc(0 * 100 * 1px + var(--node-translate-z))
+        )
+        rotate3d(0, -1, 0, 180deg)
+        rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
+        scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
+    ">
+        <div class="node back" style="
+        transform:
+            translate3d(
+            calc(-1.75 * 100 * 1px + var(--node-translate-x)),
+            calc(1 * 100 * -1px + var(--node-translate-y)),
+            calc(0.01 * 100 * 1px + var(--node-translate-z))
+            )
+            rotate3d(0, -0, 0, calc(-2 * acos(1)))
+            rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
+            scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
+        ">
+            <div class="rect" style="
+                --a-x: 0;
+                --a-y: 0;
+                --a-z: 0;
+                --b-x: 350;
+                --b-y: 0;
+                --b-z: 0;
+                --c-x: 0;
+                --c-y: 200;
+                --c-z: 0;
+                background-image: url('/iris-business-back.jpg');
+                background-size: contain;
+                background-position: center;
+            "></div>
+        </div>
+    </div>
+</div>
