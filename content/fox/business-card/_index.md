@@ -12,11 +12,13 @@ icon = "fox-business-card.png"
 {% </rendering> %}
 
 <style>
-.container {
-    height: 800px;
-}
-.node.base {
-    --node-scale: 2;
-    --node-translate-y: 200px;
+main {
+    .container {
+        height: 800px;
+    }
+    .node.base {
+        --node-scale: 2;
+        --node-translate-y: 200px;
+    }
 }
 </style>
