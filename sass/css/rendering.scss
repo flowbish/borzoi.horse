@@ -579,13 +579,13 @@
 
 @property --texture-rotation {
     syntax: "<angle>";
-    initial-value: 0;
+    initial-value: 0deg;
     inherits: true;
 }
 
 @property --texture-skew-angle {
     syntax: "<angle>";
-    initial-value: 0;
+    initial-value: 0deg;
     inherits: true;
 }
 
