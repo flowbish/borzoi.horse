@@ -61,3 +61,55 @@
 </style>
 
 {% endcomponent rendering %}
+
+{% component rendering.controls(id) %}
+<div class="controls" id="{{ id }}-controls">
+    <label>yaw</label>
+    <input type="range" class="yaw" name="yaw" min="-180" max="180" />
+    <label>pitch</label>
+    <input type="range" class="pitch" name="pitch" min="-90" max="90" />
+    <label>roll</label>
+    <input type="range" class="roll" name="roll" min="-90" max="90" />
+    <label>reset</label>
+    <input type="button" value="reset" class="reset" name="reset" />
+</div>
+
+<script>
+(() => {
+    const controls = document.getElementById("{{ id }}-controls");
+
+    let yaw = controls.getElementsByClassName("yaw")[0];
+    yaw.value = 0;
+    let pitch = controls.getElementsByClassName("pitch")[0];
+    pitch.value = 0;
+    let roll = controls.getElementsByClassName("roll")[0];
+    roll.value = 0;
+
+    const container = document.getElementById("{{ id }}");
+    let scene = container.getElementsByClassName("scene")[0];
+    let update_scene = () => {
+        let camera_yaw = container.getElementsByClassName("camera-yaw")[0];
+        camera_yaw.setAttribute("style", `--cam-yaw: ${yaw.value}`);
+
+        let camera_pitch = container.getElementsByClassName("camera-pitch")[0];
+        camera_pitch.setAttribute("style", `--cam-pitch: ${pitch.value}`);
+
+        let camera_roll = container.getElementsByClassName("camera-roll")[0];
+        camera_roll.setAttribute("style", `--cam-roll: ${roll.value}`);
+    };
+
+    yaw.addEventListener("input", update_scene);
+    pitch.addEventListener("input", update_scene);
+    roll.addEventListener("input", update_scene);
+    update_scene();
+
+    let reset = controls.getElementsByClassName("reset")[0];
+    reset.addEventListener("click", () => {
+        yaw.value = 0;
+        pitch.value = 0;
+        roll.value = 0;
+        update_scene();
+    });
+})();
+</script>
+{% endcomponent rendering.controls %}
