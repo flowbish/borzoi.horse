@@ -565,6 +565,18 @@
     inherits: true;
 }
 
+@property --texture-normal {
+    syntax: "<number>";
+    initial-value: 0;
+    inherits: true;
+}
+
+@property --texture-reversed {
+    syntax: "<number>";
+    initial-value: 0;
+    inherits: true;
+}
+
 @property --texture-size-x {
     syntax: "<number>";
     initial-value: 0;
@@ -611,6 +623,21 @@
     height: 1000px;
 
     /*
+     * Copied from above to make the devtools make more sense.
+     */
+    --delta-ab-x: calc(var(--b-x) - var(--a-x));
+    --delta-ab-y: calc(var(--b-y) - var(--a-y));
+    --delta-ab-z: calc(var(--b-z) - var(--a-z));
+
+    --delta-ac-x: calc(var(--c-x) - var(--a-x));
+    --delta-ac-y: calc(var(--c-y) - var(--a-y));
+    --delta-ac-z: calc(var(--c-z) - var(--a-z));
+
+    --hypot-ab: calc(hypot(var(--delta-ab-x), var(--delta-ab-y), var(--delta-ab-z)));
+    --hypot-ac: calc(hypot(var(--delta-ac-x), var(--delta-ac-y), var(--delta-ac-z)));
+
+
+    /*
         * Texturing
         * custom properties: 
         * --texture-image: <image>;
@@ -641,6 +668,9 @@
         var(--delta-ab-t) * var(--delta-ac-s)
     );
     
+    --texture-normal: calc((sign(var(--ab-cross-ac)) + 1) / 2);
+    --texture-reversed: calc((sign(var(--ab-cross-ac)) - 1) / -2);
+
     --texture-ab-length: calc(
         hypot(
             var(--delta-ab-s),
@@ -655,8 +685,15 @@
     );
 
     /* I think these are wrong, currently this only works if AB x Y is 0 and AC x X is zero. */
-    --texture-size-y: calc(var(--hypot-ab) / var(--texture-ab-length));
-    --texture-size-x: calc(var(--hypot-ac) / var(--texture-ac-length));
+    /* the "- var(--hypot-ab)" is needed, but not generalized */
+    --texture-size-x: calc(
+        var(--texture-normal) * var(--hypot-ab) / var(--texture-ab-length) + 
+        var(--texture-reversed) * var(--hypot-ac) / var(--texture-ac-length)
+    );
+    --texture-size-y: calc(
+        var(--texture-normal) * var(--hypot-ac) / var(--texture-ac-length) +
+        var(--texture-reversed) * var(--hypot-ab) / var(--texture-ab-length)
+    );
 
     background-size: 
         calc(var(--texture-size-x) * 1px) 
@@ -673,7 +710,6 @@
         )
     );
 
-    /* the "- var(--hypot-ab)" is needed, but not generalized */
     --texture-translation-s: calc(var(--texture-size-x) * var(--texture-a-s) * -1);
     --texture-translation-t: calc(var(--texture-size-y) * var(--texture-a-t) * -1);
     
