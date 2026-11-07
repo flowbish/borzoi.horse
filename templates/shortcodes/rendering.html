@@ -70,6 +70,8 @@
     <input type="range" class="pitch" name="pitch" min="-90" max="90" />
     <label>roll</label>
     <input type="range" class="roll" name="roll" min="-90" max="90" />
+    <label>zoom</label>
+    <input type="range" class="zoom" name="zoom" min="150" max="1500" />
     <label>reset</label>
     <input type="button" value="reset" class="reset" name="reset" />
 </div>
@@ -84,6 +86,8 @@
     pitch.value = 0;
     let roll = controls.getElementsByClassName("roll")[0];
     roll.value = 0;
+    let zoom = controls.getElementsByClassName("zoom")[0];
+    zoom.value = 300;
 
     const container = document.getElementById("{{ id }}");
     let scene = container.getElementsByClassName("scene")[0];
@@ -96,11 +100,15 @@
 
         let camera_roll = container.getElementsByClassName("camera-roll")[0];
         camera_roll.setAttribute("style", `--cam-roll: ${roll.value}`);
+
+        let camera_projection = container.getElementsByClassName("camera-projection")[0];
+        camera_projection.setAttribute("style", `--cam-z: ${zoom.value}`);
     };
 
     yaw.addEventListener("input", update_scene);
     pitch.addEventListener("input", update_scene);
     roll.addEventListener("input", update_scene);
+    zoom.addEventListener("input", update_scene);
     update_scene();
 
     let reset = controls.getElementsByClassName("reset")[0];
@@ -108,6 +116,7 @@
         yaw.value = 0;
         pitch.value = 0;
         roll.value = 0;
+        zoom.value = 300;
         update_scene();
     });
 })();
