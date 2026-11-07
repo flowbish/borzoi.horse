@@ -31,7 +31,7 @@
 </div>
 
 <style> 
-.container {
+.container{% if rest.id %}#{{ rest.id }}{% endif %} {
     .camera {
         --cam-roll: {{ roll }};
         --cam-pitch: {{ pitch }};

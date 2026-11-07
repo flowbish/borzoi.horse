@@ -38,22 +38,22 @@ nav_title = "stuff ?"
 
 <div class="guys">
 <a href="/squid/">
-{{ <rendering path="/models/squid.divs" projection={100} yaw={-135} pitch={16} y={100} z={500} /> }}
+{{ <rendering id="squid" path="/models/squid.divs" projection={100} yaw={-135} pitch={16} y={100} z={500} /> }}
 </a>
 <a href="/fox/">
-{{ <rendering path="/models/fox.divs" projection={100} yaw={-135} y={250} pitch={16} z={500} /> }}
+{{ <rendering id="fox" path="/models/fox.divs" projection={100} yaw={-135} y={250} pitch={16} z={500} /> }}
 </a>
 <a href="/horse/">
-{{ <rendering path="/models/horse.divs" projection={100} yaw={-135} y={250} pitch={16} z={500} /> }}
+{{ <rendering id="horse" path="/models/horse.divs" projection={100} yaw={-135} y={250} pitch={16} z={500} /> }}
 </a>
 <a href="/skeleton-horse/">
-{{ <rendering path="/models/skeleton-horse.divs" projection={100} yaw={-135} y={250} pitch={16} z={500} /> }}
+{{ <rendering id="skeleton-horse" path="/models/skeleton-horse.divs" projection={100} yaw={-135} y={250} pitch={16} z={500} /> }}
 </a>
 <a href="/salmon/">
-{{ <rendering path="/models/salmon.divs" projection={100} yaw={-135} y={250} pitch={16} z={500} /> }}
+{{ <rendering id="salmon" path="/models/salmon.divs" projection={100} yaw={-135} y={250} pitch={16} z={500} /> }}
 </a>
 <a href="/borzoi/">
-{{ <rendering path="/models/borzoi.divs" projection={100} yaw={-135} y={250} pitch={16} z={500} /> }}
+{{ <rendering id="borzoi" path="/models/borzoi.divs" projection={100} yaw={-135} y={250} pitch={16} z={500} /> }}
 </a>
 </div>
 
