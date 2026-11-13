@@ -1,6 +1,7 @@
 +++
 title = "fox business card"
 description = "fox business card"
+aliases = ["/fox/business-card"]
 
 [extra]
 hide_reading_time = true

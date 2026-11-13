@@ -1,6 +1,7 @@
 +++
 title = "minecraft fox"
 description = "this is a minecraft fox"
+aliases = ["/fox"]
 
 [extra]
 hide_reading_time = true

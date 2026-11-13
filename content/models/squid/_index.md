@@ -1,6 +1,7 @@
 +++
 title = "minecraft squid"
 description = "this is a minecraft squid"
+aliases = ["/squid"]
 
 [extra]
 hide_reading_time = true

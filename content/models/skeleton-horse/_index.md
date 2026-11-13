@@ -1,6 +1,7 @@
 +++
 title = "minecraft skeleton horse"
 description = "this is a minecraft skeleton horse"
+aliases = ["/skeleton-horse"]
 
 [extra]
 hide_reading_time = true

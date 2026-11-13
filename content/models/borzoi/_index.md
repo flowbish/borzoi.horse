@@ -1,6 +1,7 @@
 +++
 title = "borzoi"
 description = "this is a minecraft-style borzoi"
+aliases = ["/borzoi"]
 
 [extra]
 hide_reading_time = true
