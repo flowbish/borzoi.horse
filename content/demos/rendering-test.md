@@ -32,7 +32,7 @@ title = "rendering test"
 <div class="controls" id="rotate-controls">
     <label>angle</label>
     <input type="range" class="angle" name="angle" min="-180" max="180" />
-    <label>texture width</label>
+    <label>texture c t</label>
     <input type="range" class="texture-width" name="texture-width" min="0" max="100" />
     <label>texture height</label>
     <input type="range" class="texture-height" name="texture-height" min="0" max="100" />
@@ -68,6 +68,9 @@ title = "rendering test"
 
         div.style.setProperty('--c-x', `${-len * Math.cos(radians_c)}`);
         div.style.setProperty('--c-y', `${-len * Math.sin(radians_c) * 0}`);
+
+        div.style.setProperty('--texture-c-s', `${1.0 - parseFloat(texture_width.value)/100}`);
+
     };
 
     angle.addEventListener("input", update_div);
