@@ -62,7 +62,7 @@
 
 {% endcomponent rendering %}
 
-{% component rendering.controls(id) %}
+{% component rendering.controls(id, z=1000, pitch=0) %}
 <div class="controls" id="{{ id }}-controls">
     <label>yaw</label>
     <input type="range" class="yaw" name="yaw" min="-180" max="180" />
@@ -83,11 +83,11 @@
     let yaw = controls.getElementsByClassName("yaw")[0];
     yaw.value = 0;
     let pitch = controls.getElementsByClassName("pitch")[0];
-    pitch.value = 0;
+    pitch.value = {{ pitch }}
     let roll = controls.getElementsByClassName("roll")[0];
     roll.value = 0;
     let zoom = controls.getElementsByClassName("zoom")[0];
-    zoom.value = 300;
+    zoom.value = {{ z }};
 
     const container = document.getElementById("{{ id }}");
     let scene = container.getElementsByClassName("scene")[0];
@@ -114,9 +114,9 @@
     let reset = controls.getElementsByClassName("reset")[0];
     reset.addEventListener("click", () => {
         yaw.value = 0;
-        pitch.value = 0;
+        pitch.value = {{ pitch }};
         roll.value = 0;
-        zoom.value = 300;
+        zoom.value = {{ z }};
         update_scene();
     });
 })();

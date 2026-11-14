@@ -13,15 +13,15 @@ title = "rendering test"
 --c-x: 0;
 --c-y: 0;
 --c-z: 0;
---texture-image: url(/wide-texture.jpg);
+--texture-image: url(/alignment-texture.png);
 --texture-width: 500;
 --texture-height: 500;
---texture-a-s: 0;
---texture-a-t: 0;
---texture-b-s: 1;
---texture-b-t: 0;
---texture-c-s: 0;
---texture-c-t: 1;
+--texture-a-s: 0.75;
+--texture-a-t: 0.25;
+--texture-b-s: 0.25;
+--texture-b-t: 0.25;
+--texture-c-s: 1.0;
+--texture-c-t: 0.75;
 ">
 </div>
 {{ load_data(path="/models/axes.divs") }}
@@ -63,18 +63,11 @@ title = "rendering test"
         div.style.setProperty('--a-x', `${-len * Math.cos(radians_a)}`);
         div.style.setProperty('--a-y', `${-len * Math.sin(radians_a)}`);
 
-        div.style.setProperty('--c-x', `${-len * Math.cos(radians_b)}`);
-        div.style.setProperty('--c-y', `${-len * Math.sin(radians_b)}`);
+        div.style.setProperty('--b-x', `${-len * Math.cos(radians_b)}`);
+        div.style.setProperty('--b-y', `${-len * Math.sin(radians_b)}`);
 
-        div.style.setProperty('--b-x', `${-len * Math.cos(radians_c)}`);
-        div.style.setProperty('--b-y', `${-len * Math.sin(radians_c)}`);
-
-        const width = parseFloat(texture_width.value) / 100;
-        div.style.setProperty('--texture-a-t', `${width}`);
-        div.style.setProperty('--texture-b-t', `${width}`);
-
-        const height = parseFloat(texture_height.value) / 100;
-        div.style.setProperty('--texture-c-t', `${height}`);
+        div.style.setProperty('--c-x', `${-len * Math.cos(radians_c)}`);
+        div.style.setProperty('--c-y', `${-len * Math.sin(radians_c) * 0}`);
     };
 
     angle.addEventListener("input", update_div);

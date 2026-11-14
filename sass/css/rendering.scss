@@ -472,9 +472,9 @@
         matrix3d(
             var(--basis-x-x), var(--basis-x-y), var(--basis-x-z), 0,
             calc(var(--basis-y-x) - var(--skew-coefficient) * var(--basis-x-x)),
-                calc(var(--basis-y-y) - var(--skew-coefficient) * var(--basis-x-y)), 
-                calc(var(--basis-y-z) - var(--skew-coefficient) * var(--basis-x-z)), 
-                0,
+            calc(var(--basis-y-y) - var(--skew-coefficient) * var(--basis-x-y)), 
+            calc(var(--basis-y-z) - var(--skew-coefficient) * var(--basis-x-z)), 
+            0,
             var(--basis-z-x), var(--basis-z-y), var(--basis-z-z), 0,
             var(--a-x), var(--a-y), var(--a-z), 1
         );
@@ -523,25 +523,25 @@
     inherits: true;
 }
 
-@property --delta-ab-s {
+@property --texture-delta-ab-s {
     syntax: "<number>";
     initial-value: 0;
     inherits: true;
 }
 
-@property --delta-ab-t {
+@property --texture-delta-ab-t {
     syntax: "<number>";
     initial-value: 0;
     inherits: true;
 }
 
-@property --delta-ac-s {
+@property --texture-delta-ac-s {
     syntax: "<number>";
     initial-value: 0;
     inherits: true;
 }
 
-@property --delta-ac-t {
+@property --texture-delta-ac-t {
     syntax: "<number>";
     initial-value: 0;
     inherits: true;
@@ -614,14 +614,6 @@
 }
 
 .rect::after, .tri::after {
-    content: "";
-    display: block;
-    position: absolute;
-    backface-visibility: visible;
-
-    width: 1000px;
-    height: 1000px;
-
     /*
      * Copied from above to make the devtools make more sense.
      */
@@ -636,6 +628,17 @@
     --hypot-ab: calc(hypot(var(--delta-ab-x), var(--delta-ab-y), var(--delta-ab-z)));
     --hypot-ac: calc(hypot(var(--delta-ac-x), var(--delta-ac-y), var(--delta-ac-z)));
 
+    /* projection of AC into Y */
+    --ac-dot-ab: calc(
+        (var(--delta-ac-x) * var(--delta-ab-x)) +
+        (var(--delta-ac-y) * var(--delta-ab-y)) +
+        (var(--delta-ac-z) * var(--delta-ab-z))
+    );
+    --ac-project-ab: calc(var(--ac-dot-ab) / pow(var(--hypot-ab), 2));
+    --tri-ac-x: calc(var(--delta-ac-x) - (var(--ac-project-ab) * var(--delta-ab-x)));
+    --tri-ac-y: calc(var(--delta-ac-y) - (var(--ac-project-ab) * var(--delta-ab-y)));
+    --tri-ac-z: calc(var(--delta-ac-z) - (var(--ac-project-ab) * var(--delta-ab-z)));
+    --tri-height: calc(hypot(var(--tri-ac-x), var(--tri-ac-y), var(--tri-ac-z)));
 
     /*
         * Texturing
@@ -649,90 +652,131 @@
         * --texture-c-t: <percentage>;
         */
 
+    /* required to make this pseudo-element render */
+    content: "";
+    display: block;
+    position: absolute;
+    backface-visibility: visible;
+
+    /*
+     * This is the initial texture size that we start doing manipulation on. It can be any size.
+     */
+    --texture-starting-size: 1;
+    width: calc(var(--texture-starting-size) * 1px);
+    height: calc(var(--texture-starting-size) * 1px);
+
     background-repeat: no-repeat;
     background-image: var(--texture-image);
 
-    --delta-ab-s: calc(var(--texture-b-s) - var(--texture-a-s));
-    --delta-ab-t: calc(var(--texture-b-t) - var(--texture-a-t));
-    --delta-ac-s: calc(var(--texture-c-s) - var(--texture-a-s));
-    --delta-ac-t: calc(var(--texture-c-t) - var(--texture-a-t));
+    /*
+     * Calculate the basics about the ABC triangle on the ST plane.
+     */
+    --texture-delta-ab-s: calc(var(--texture-b-s) - var(--texture-a-s));
+    --texture-delta-ab-t: calc(var(--texture-b-t) - var(--texture-a-t));
+    --texture-delta-ac-s: calc(var(--texture-c-s) - var(--texture-a-s));
+    --texture-delta-ac-t: calc(var(--texture-c-t) - var(--texture-a-t));
+
+    --texture-hypot-ab: calc(hypot(var(--texture-delta-ab-s), var(--texture-delta-ab-t)));
+    --texture-hypot-ac: calc(hypot(var(--texture-delta-ac-s), var(--texture-delta-ac-t)));
 
     /* 
-        * this calculates the scalar cross product
-        * postive if ac is clockwise from ab, which is good
-        * negative if ac is counter-clockwise from ab, which is bad
-        * (for this texturing purpose)
-        */
-    --ab-cross-ac: calc(
-        var(--delta-ab-s) * var(--delta-ac-t) -
-        var(--delta-ab-t) * var(--delta-ac-s)
+     * Calculate the cross product: positive means the texture is fine as-is, negative means it must be flipped
+     */
+    --texture-ab-cross-ac: calc(
+        var(--texture-delta-ab-s) * var(--texture-delta-ac-t) -
+        var(--texture-delta-ab-t) * var(--texture-delta-ac-s)
     );
+    --texture-flip: calc(sign(var(--texture-ab-cross-ac)));
     
-    --texture-normal: calc((sign(var(--ab-cross-ac)) + 1) / 2);
-    --texture-reversed: calc((sign(var(--ab-cross-ac)) - 1) / -2);
+    /* These are boolean, 1 for true, 0 for false */
+    --texture-normal: calc((var(--texture-flip) + 1) / 2);
+    --texture-reversed: calc(1 - var(--texture-normal));
+
+    /*
+     * Set to 1 to enable a debug color overlay for textures.
+     * Normal textures are magenta, and reversed texture are teal
+     */
+    --texture-debug-color-overlay: 0;
+    background-color: rgba(calc(255 * var(--texture-normal)), calc(255 * var(--texture-reversed)), 255, calc(var(--texture-debug-color-overlay) * 255));
+    background-blend-mode: multiply;
+
 
     --texture-ab-length: calc(
         hypot(
-            var(--delta-ab-s),
-            var(--delta-ab-t)
-        )
-    );
-    --texture-ac-length: calc(
-        hypot(
-            var(--delta-ac-s),
-            var(--delta-ac-t)
+            var(--texture-delta-ab-s),
+            var(--texture-delta-ab-t)
         )
     );
 
-    /* I think these are wrong, currently this only works if AB x Y is 0 and AC x X is zero. */
-    /* the "- var(--hypot-ab)" is needed, but not generalized */
-    --texture-size-x: calc(
-        var(--texture-normal) * var(--hypot-ab) / var(--texture-ab-length) + 
-        var(--texture-reversed) * var(--hypot-ac) / var(--texture-ac-length)
-    );
-    --texture-size-y: calc(
-        var(--texture-normal) * var(--hypot-ac) / var(--texture-ac-length) +
-        var(--texture-reversed) * var(--hypot-ab) / var(--texture-ab-length)
-    );
+    --texture-ac-dot-ab: calc(var(--texture-delta-ab-s) * var(--texture-delta-ac-s) + var(--texture-delta-ab-t) * var(--texture-delta-ac-t));
+    --texture-ac-project-ab: calc(var(--texture-ac-dot-ab) / pow(var(--texture-hypot-ab), 2));
+
+    --texture-height-s: calc(var(--texture-delta-ac-s) - (var(--texture-ac-project-ab) * var(--texture-delta-ab-s)));
+    --texture-height-t: calc(var(--texture-delta-ac-t) - (var(--texture-ac-project-ab) * var(--texture-delta-ab-t)));
+    --texture-height: calc(hypot(var(--texture-height-s), var(--texture-height-t)));
 
     background-size: 
-        calc(var(--texture-size-x) * 1px) 
-        calc(var(--texture-size-y) * 1px);
+        calc(var(--texture-starting-size) * 1px) 
+        calc(var(--texture-starting-size) * 1px);
 
-    --texture-rotation: calc(-1 * atan2(var(--delta-ab-t), var(--delta-ab-s)));
+    /* Calculate the skew matrix coefficient */
+    --texture-skew-ac-s: calc(var(--texture-ac-project-ab) * var(--texture-delta-ab-s));
+    --texture-skew-ac-t: calc(var(--texture-ac-project-ab) * var(--texture-delta-ab-t));
+    --texture-skew-length: calc(hypot(var(--texture-skew-ac-s), var(--texture-skew-ac-t)));
+    --texture-skew-coefficient: calc(var(--texture-skew-length) / var(--texture-height) * -1 * sign(var(--texture-ac-dot-ab)));
 
-    --texture-skew-angle: calc(
-        -90deg + acos(
-            calc(
-                (var(--delta-ab-s) * var(--delta-ac-s) + var(--delta-ab-t) * var(--delta-ac-t)) / 
-                (var(--texture-ab-length) * var(--texture-ac-length))
-            )
-        )
+    /*
+     * Change of bases, as above. Map AB to the X axis, and the orthogonal portion of AC to the Y axis
+     */
+
+    --basis-s-s: calc(var(--texture-delta-ab-s) / var(--texture-hypot-ab));
+    --basis-s-t: calc(var(--texture-delta-ab-t) / var(--texture-hypot-ab));
+
+    --ac-dot-basis-s: calc(
+        (var(--texture-delta-ac-s) * var(--basis-s-s)) +
+        (var(--texture-delta-ac-t) * var(--basis-s-t))
+    );
+    --basis-t-s-non-normalized: calc(var(--texture-delta-ac-s) - (var(--ac-dot-basis-s) * var(--basis-s-s)));
+    --basis-t-t-non-normalized: calc(var(--texture-delta-ac-t) - (var(--ac-dot-basis-s) * var(--basis-s-t)));
+    --basis-t-length: calc(hypot(
+        var(--basis-t-s-non-normalized), 
+        var(--basis-t-t-non-normalized)
+    ));
+    --basis-t-s: calc(var(--basis-t-s-non-normalized) / var(--basis-t-length));
+    --basis-t-t: calc(var(--basis-t-t-non-normalized) / var(--basis-t-length));
+
+    /*
+     * Scale the bases to match the final size of the texture.
+     */
+    --width-scale: calc(var(--hypot-ab) / var(--texture-starting-size) / var(--texture-ab-length));
+    --height-scale: calc(var(--tri-height) / var(--texture-starting-size) / var(--texture-height));
+    --scaled-basis-s-s: calc(var(--basis-s-s) * var(--width-scale));
+    --scaled-basis-s-t: calc(var(--basis-s-t) * var(--width-scale));
+    --scaled-basis-t-s: calc(var(--basis-t-s) * var(--height-scale));
+    --scaled-basis-t-t: calc(var(--basis-t-t) * var(--height-scale));
+
+    --texture-translation-s: calc(var(--texture-a-s) * var(--texture-starting-size) * -1 * var(--texture-flip));
+    --texture-translation-t: calc(var(--texture-a-t) * var(--texture-starting-size) * -1 * var(--texture-flip));
+    --matrix-translate-x: calc(
+        -1 * var(--texture-translation-s) * (var(--height-scale) * var(--skew-coefficient) * var(--basis-t-s) + var(--width-scale) * var(--basis-s-s)) +
+        -1 * var(--texture-translation-t) * (var(--height-scale) * var(--skew-coefficient) * var(--basis-t-t) + var(--width-scale) * var(--basis-s-t))
+    );
+    --matrix-translate-y: calc(
+        -1 * var(--texture-translation-s) * var(--height-scale) * var(--basis-t-s) +
+        -1 * var(--texture-translation-t) * var(--height-scale) * var(--basis-t-t)
     );
 
-    --texture-translation-s: calc(var(--texture-size-x) * var(--texture-a-s) * -1);
-    --texture-translation-t: calc(var(--texture-size-y) * var(--texture-a-t) * -1);
-    
+    /*
+     * Matrix transformation: [Scale to Size] * [Change Bases] * [Translate to Origin] (last applied first)
+     */
+    transform:
+        matrix(
+            calc(var(--texture-skew-coefficient) * var(--scaled-basis-t-s) + var(--scaled-basis-s-s)), var(--scaled-basis-t-s),
+            calc(var(--texture-skew-coefficient) * var(--scaled-basis-t-t) + var(--scaled-basis-s-t)), var(--scaled-basis-t-t),
+            var(--matrix-translate-x), var(--matrix-translate-y)
+        );
     image-rendering: pixelated;
     transform-origin: 0% 0%;
-    transform: 
-        scaleY(sign(var(--ab-cross-ac)))
-        matrix(
-            calc(tan(var(--texture-skew-angle)) * sin(var(--texture-rotation)) + cos(var(--texture-rotation))), 
-            sin(var(--texture-rotation)), 
-            calc(tan(var(--texture-skew-angle)) * cos(var(--texture-rotation)) - sin(var(--texture-rotation))),
-            cos(var(--texture-rotation)), 
-            calc(
-                var(--texture-translation-s) * 
-                    (tan(var(--texture-skew-angle)) * sin(var(--texture-rotation)) + cos(var(--texture-rotation)))
-                + var(--texture-translation-t) * 
-                    (tan(var(--texture-skew-angle)) * cos(var(--texture-rotation)) - sin(var(--texture-rotation)))
-            ),
-            calc(
-                var(--texture-translation-s) * sin(var(--texture-rotation)) +
-                var(--texture-translation-t) * cos(var(--texture-rotation))
-            )
-        );
 }
 
 @property --node-rotation-x {
