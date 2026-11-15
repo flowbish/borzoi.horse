@@ -660,6 +660,8 @@
 
     /*
      * This is the initial texture size that we start doing manipulation on. It can be any size.
+     * There is a bug on mobile chrome where if this is too low (e.g. 1px) the texture calculation become off by some amount.
+     * Keep an eye out for that if there are issues with large textures that can't be explained by anything else.
      */
     --texture-starting-size: 100;
     width: calc(var(--texture-starting-size) * 1px);
