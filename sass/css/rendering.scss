@@ -650,12 +650,12 @@
         * Texturing
         * custom properties: 
         * --texture-image: <image>;
-        * --texture-a-s: <percentage>;
-        * --texture-a-t: <percentage>;
-        * --texture-b-s: <percentage>;
-        * --texture-b-t: <percentage>;
-        * --texture-c-s: <percentage>;
-        * --texture-c-t: <percentage>;
+        * --texture-a-s: <decimal>;
+        * --texture-a-t: <decimal>;
+        * --texture-b-s: <decimal>;
+        * --texture-b-t: <decimal>;
+        * --texture-c-s: <decimal>;
+        * --texture-c-t: <decimal>;
         */
 
     /* required to make this pseudo-element render */
@@ -759,23 +759,27 @@
     --width-scale: calc(var(--hypot-ab) / var(--texture-starting-size) / var(--texture-ab-length));
     --height-scale: calc(var(--tri-height) / var(--texture-starting-size) / var(--texture-height));
 
-    --texture-translation-s: calc(var(--texture-a-s) * var(--texture-starting-size) * -1 * var(--texture-flip));
-    --texture-translation-t: calc(var(--texture-a-t) * var(--texture-starting-size) * -1 * var(--texture-flip));
-    --matrix-translate-x: calc(
-        -1 * var(--texture-translation-s) * (var(--width-scale) * var(--basis-s-s) + var(--texture-skew-coefficient) * var(--height-scale) * var(--basis-s-t)) +
-        -1 * var(--texture-translation-t) * (var(--width-scale) * var(--basis-t-s) + var(--texture-skew-coefficient) * var(--height-scale) * var(--basis-t-t))
-    );
-    --matrix-translate-y: calc(-1 * var(--texture-translation-s) * var(--height-scale) * var(--basis-s-t) - var(--texture-translation-t) * var(--height-scale) * var(--basis-t-t));
+    --texture-matrix-a: calc(var(--width-scale) * (var(--basis-s-s) + var(--texture-skew-coefficient) * var(--basis-t-s)));
+    --texture-matrix-b: calc(var(--height-scale) * var(--basis-t-s));
+    --texture-matrix-c: calc(var(--width-scale) * (var(--basis-s-t) + var(--texture-skew-coefficient) * var(--basis-t-t)));
+    --texture-matrix-d: calc(var(--height-scale) * var(--basis-t-t));
 
-    /*
-     * Matrix transformation: [Scale to Size] * [Change Bases] * [Translate to Origin] (last applied first)
-     */
-    transform:
-        matrix(
-            calc(var(--width-scale) * var(--basis-s-s) + var(--texture-skew-coefficient) * var(--height-scale) * var(--basis-s-t)), calc(var(--height-scale) * var(--basis-s-t)),
-            calc(var(--width-scale) * var(--basis-t-s) + var(--texture-skew-coefficient) * var(--height-scale) * var(--basis-t-t)), calc(var(--height-scale) * var(--basis-t-t)),
-            var(--matrix-translate-x), var(--matrix-translate-y)
-        );
+    --texture-translation-s: calc(var(--texture-a-s) * var(--texture-starting-size) * -1);
+    --texture-translation-t: calc(var(--texture-a-t) * var(--texture-starting-size) * -1);
+    --matrix-translate-x: calc(
+        var(--texture-matrix-a) * var(--texture-translation-s) +
+        var(--texture-matrix-c) * var(--texture-translation-t)
+    );
+    --matrix-translate-y: calc(
+        var(--texture-matrix-b) * var(--texture-translation-s) +
+        var(--texture-matrix-d) * var(--texture-translation-t)
+    );
+
+    transform: matrix(
+        var(--texture-matrix-a), var(--texture-matrix-b),
+        var(--texture-matrix-c), var(--texture-matrix-d),
+        var(--matrix-translate-x), var(--matrix-translate-y)
+    );
     image-rendering: pixelated;
     transform-origin: 0% 0%;
 }
