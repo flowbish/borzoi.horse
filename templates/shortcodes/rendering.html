@@ -62,6 +62,27 @@
 
 {% endcomponent rendering %}
 
+{% component rendering.control(id, name, class, style, start=0, min=0, max=100) %}
+<label>{{ name }}</label>
+<input type="range" id="{{ id }}-{{ name }}" class="{{ name }}" name="{{ name }}" min="{{ min }}" max="{{ max }}" />
+<script>
+(() => {
+    const control = document.getElementById("{{ id }}-{{ name }}");
+    control.value = {{ start }};
+
+    const container = document.getElementById("{{ id }}");
+    let scene = container.getElementsByClassName("scene")[0];
+    let update_scene = () => {
+        let obj = container.getElementsByClassName("{{ class }}")[0];
+        obj.setAttribute("style", `{{ style }}: ${control.value}`);
+    };
+
+    control.addEventListener("input", update_scene);
+    update_scene();
+})();
+</script>
+{% endcomponent rendering.control %}
+
 {% component rendering.controls(id, z=1000, pitch=0) %}
 <div class="controls" id="{{ id }}-controls">
     <label>yaw</label>
