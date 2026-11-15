@@ -42,7 +42,6 @@
           rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
           scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
       ">
-        
         <div class="tri" style="
             --a-x: 109.375;
             --a-y: -0;
@@ -61,7 +60,6 @@
             --texture-c-s: 0.09375;
             --texture-c-t: 0.3828125;
         "></div>
-        
         <div class="tri" style="
             --a-x: -109.375;
             --a-y: -0;
@@ -92,7 +90,6 @@
           rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
           scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
       ">
-        
         <div class="tri" style="
             --a-x: 109.375;
             --a-y: -0;
@@ -111,7 +108,6 @@
             --texture-c-s: 0.375;
             --texture-c-t: 0.3828125;
         "></div>
-        
         <div class="tri" style="
             --a-x: -109.375;
             --a-y: -0;
@@ -142,7 +138,6 @@
           rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
           scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
       ">
-        
         <div class="tri" style="
             --a-x: 131.25;
             --a-y: -0;
@@ -161,7 +156,6 @@
             --texture-c-s: 0.09375;
             --texture-c-t: 0.3515625;
         "></div>
-        
         <div class="tri" style="
             --a-x: -131.25;
             --a-y: -0;
@@ -192,7 +186,6 @@
           rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
           scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
       ">
-        
         <div class="tri" style="
             --a-x: 131.25;
             --a-y: -0;
@@ -211,7 +204,6 @@
             --texture-c-s: 0.09375;
             --texture-c-t: 0.3671875;
         "></div>
-        
         <div class="tri" style="
             --a-x: -131.25;
             --a-y: -0;
@@ -254,7 +246,6 @@
           rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
           scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
       ">
-        
         <div class="tri" style="
             --a-x: 109.375;
             --a-y: -0;
@@ -273,7 +264,6 @@
             --texture-c-s: 0.28125;
             --texture-c-t: 0.3046875;
         "></div>
-        
         <div class="tri" style="
             --a-x: -109.375;
             --a-y: -0;
@@ -304,7 +294,6 @@
           rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
           scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
       ">
-        
         <div class="tri" style="
             --a-x: 109.375;
             --a-y: -0;
@@ -323,7 +312,6 @@
             --texture-c-s: 0.28125;
             --texture-c-t: 0.203125;
         "></div>
-        
         <div class="tri" style="
             --a-x: -109.375;
             --a-y: -0;
@@ -354,7 +342,6 @@
           rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
           scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
       ">
-        
         <div class="tri" style="
             --a-x: 9.375;
             --a-y: -0;
@@ -373,7 +360,6 @@
             --texture-c-s: 0.046875;
             --texture-c-t: 0.3359375;
         "></div>
-        
         <div class="tri" style="
             --a-x: -9.375;
             --a-y: -0;
@@ -404,7 +390,6 @@
           rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
           scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
       ">
-        
         <div class="tri" style="
             --a-x: 9.375;
             --a-y: -0;
@@ -423,7 +408,6 @@
             --texture-c-s: 0;
             --texture-c-t: 0.3359375;
         "></div>
-        
         <div class="tri" style="
             --a-x: -9.375;
             --a-y: -0;
@@ -466,7 +450,6 @@
           rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
           scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
       ">
-        
         <div class="tri" style="
             --a-x: 90.625;
             --a-y: -0;
@@ -485,7 +468,6 @@
             --texture-c-s: 0.296875;
             --texture-c-t: 0.3984375;
         "></div>
-        
         <div class="tri" style="
             --a-x: -90.625;
             --a-y: -0;
@@ -516,7 +498,6 @@
           rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
           scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
       ">
-        
         <div class="tri" style="
             --a-x: 90.625;
             --a-y: -0;
@@ -535,7 +516,6 @@
             --texture-c-s: 0.09375;
             --texture-c-t: 0.4140625;
         "></div>
-        
         <div class="tri" style="
             --a-x: -90.625;
             --a-y: -0;
@@ -566,7 +546,6 @@
           rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
           scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
       ">
-        
         <div class="tri" style="
             --a-x: 90.625;
             --a-y: -0;
@@ -585,7 +564,6 @@
             --texture-c-s: 0.296875;
             --texture-c-t: 0.4140625;
         "></div>
-        
         <div class="tri" style="
             --a-x: -90.625;
             --a-y: -0;
@@ -616,7 +594,6 @@
           rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
           scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
       ">
-        
         <div class="tri" style="
             --a-x: 90.625;
             --a-y: -0;
@@ -635,7 +612,6 @@
             --texture-c-s: 0.09375;
             --texture-c-t: 0.3984375;
         "></div>
-        
         <div class="tri" style="
             --a-x: -90.625;
             --a-y: -0;
@@ -667,7 +643,6 @@
         rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
         scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
     ">
-      
       <div class="tri" style="
           --a-x: 109.375;
           --a-y: -0;
@@ -686,7 +661,6 @@
           --texture-c-s: 0;
           --texture-c-t: 0;
       "></div>
-      
       <div class="tri" style="
           --a-x: -109.375;
           --a-y: -0;
@@ -717,7 +691,6 @@
         rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
         scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
     ">
-      
       <div class="tri" style="
           --a-x: 90.625;
           --a-y: -0;
@@ -736,7 +709,6 @@
           --texture-c-s: 0.28125;
           --texture-c-t: 0;
       "></div>
-      
       <div class="tri" style="
           --a-x: -90.625;
           --a-y: -0;
@@ -758,7 +730,6 @@
     </div>
   </div>
 </div>
-
 <div class="node base" style="
   transform:
     translate3d(
@@ -803,7 +774,6 @@
           rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
           scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
       ">
-        
         <div class="tri" style="
             --a-x: 109.375;
             --a-y: -0;
@@ -822,7 +792,6 @@
             --texture-c-s: 0.09375;
             --texture-c-t: 0.3828125;
         "></div>
-        
         <div class="tri" style="
             --a-x: -109.375;
             --a-y: -0;
@@ -853,7 +822,6 @@
           rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
           scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
       ">
-        
         <div class="tri" style="
             --a-x: 109.375;
             --a-y: -0;
@@ -872,7 +840,6 @@
             --texture-c-s: 0.375;
             --texture-c-t: 0.3828125;
         "></div>
-        
         <div class="tri" style="
             --a-x: -109.375;
             --a-y: -0;
@@ -903,7 +870,6 @@
           rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
           scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
       ">
-        
         <div class="tri" style="
             --a-x: 131.25;
             --a-y: -0;
@@ -922,7 +888,6 @@
             --texture-c-s: 0.09375;
             --texture-c-t: 0.3515625;
         "></div>
-        
         <div class="tri" style="
             --a-x: -131.25;
             --a-y: -0;
@@ -953,7 +918,6 @@
           rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
           scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
       ">
-        
         <div class="tri" style="
             --a-x: 131.25;
             --a-y: -0;
@@ -972,7 +936,6 @@
             --texture-c-s: 0.09375;
             --texture-c-t: 0.3671875;
         "></div>
-        
         <div class="tri" style="
             --a-x: -131.25;
             --a-y: -0;
@@ -1015,7 +978,6 @@
           rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
           scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
       ">
-        
         <div class="tri" style="
             --a-x: 109.375;
             --a-y: -0;
@@ -1034,7 +996,6 @@
             --texture-c-s: 0.28125;
             --texture-c-t: 0.3046875;
         "></div>
-        
         <div class="tri" style="
             --a-x: -109.375;
             --a-y: -0;
@@ -1065,7 +1026,6 @@
           rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
           scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
       ">
-        
         <div class="tri" style="
             --a-x: 109.375;
             --a-y: -0;
@@ -1084,7 +1044,6 @@
             --texture-c-s: 0.28125;
             --texture-c-t: 0.203125;
         "></div>
-        
         <div class="tri" style="
             --a-x: -109.375;
             --a-y: -0;
@@ -1115,7 +1074,6 @@
           rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
           scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
       ">
-        
         <div class="tri" style="
             --a-x: 9.375;
             --a-y: -0;
@@ -1134,7 +1092,6 @@
             --texture-c-s: 0.046875;
             --texture-c-t: 0.3359375;
         "></div>
-        
         <div class="tri" style="
             --a-x: -9.375;
             --a-y: -0;
@@ -1165,7 +1122,6 @@
           rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
           scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
       ">
-        
         <div class="tri" style="
             --a-x: 9.375;
             --a-y: -0;
@@ -1184,7 +1140,6 @@
             --texture-c-s: 0;
             --texture-c-t: 0.3359375;
         "></div>
-        
         <div class="tri" style="
             --a-x: -9.375;
             --a-y: -0;
@@ -1227,7 +1182,6 @@
           rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
           scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
       ">
-        
         <div class="tri" style="
             --a-x: 90.625;
             --a-y: -0;
@@ -1246,7 +1200,6 @@
             --texture-c-s: 0.296875;
             --texture-c-t: 0.3984375;
         "></div>
-        
         <div class="tri" style="
             --a-x: -90.625;
             --a-y: -0;
@@ -1277,7 +1230,6 @@
           rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
           scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
       ">
-        
         <div class="tri" style="
             --a-x: 90.625;
             --a-y: -0;
@@ -1296,7 +1248,6 @@
             --texture-c-s: 0.09375;
             --texture-c-t: 0.4140625;
         "></div>
-        
         <div class="tri" style="
             --a-x: -90.625;
             --a-y: -0;
@@ -1327,7 +1278,6 @@
           rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
           scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
       ">
-        
         <div class="tri" style="
             --a-x: 90.625;
             --a-y: -0;
@@ -1346,7 +1296,6 @@
             --texture-c-s: 0.296875;
             --texture-c-t: 0.4140625;
         "></div>
-        
         <div class="tri" style="
             --a-x: -90.625;
             --a-y: -0;
@@ -1377,7 +1326,6 @@
           rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
           scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
       ">
-        
         <div class="tri" style="
             --a-x: 90.625;
             --a-y: -0;
@@ -1396,7 +1344,6 @@
             --texture-c-s: 0.09375;
             --texture-c-t: 0.3984375;
         "></div>
-        
         <div class="tri" style="
             --a-x: -90.625;
             --a-y: -0;
@@ -1428,7 +1375,6 @@
         rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
         scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
     ">
-      
       <div class="tri" style="
           --a-x: 109.375;
           --a-y: -0;
@@ -1447,7 +1393,6 @@
           --texture-c-s: 0;
           --texture-c-t: 0;
       "></div>
-      
       <div class="tri" style="
           --a-x: -109.375;
           --a-y: -0;
@@ -1478,7 +1423,6 @@
         rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
         scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
     ">
-      
       <div class="tri" style="
           --a-x: 90.625;
           --a-y: -0;
@@ -1497,7 +1441,6 @@
           --texture-c-s: 0.28125;
           --texture-c-t: 0;
       "></div>
-      
       <div class="tri" style="
           --a-x: -90.625;
           --a-y: -0;
@@ -1519,4 +1462,3 @@
     </div>
   </div>
 </div>
-
