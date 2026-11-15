@@ -661,7 +661,7 @@
     /*
      * This is the initial texture size that we start doing manipulation on. It can be any size.
      */
-    --texture-starting-size: 1;
+    --texture-starting-size: 100;
     width: calc(var(--texture-starting-size) * 1px);
     height: calc(var(--texture-starting-size) * 1px);
 
