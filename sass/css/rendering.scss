@@ -757,8 +757,8 @@
 
     --texture-translation-s: calc(var(--texture-a-s) * var(--texture-starting-size) * -1 * var(--texture-flip));
     --texture-translation-t: calc(var(--texture-a-t) * var(--texture-starting-size) * -1 * var(--texture-flip));
-    --matrix-translate-x: calc(var(--width-scale) * (-1 * var(--texture-translation-s) * var(--basis-s-s) - var(--texture-translation-t) * var(--basis-t-s)));
-    --matrix-translate-y: calc(var(--height-scale) * (-1 * var(--texture-translation-s) * var(--basis-s-t) - var(--texture-translation-t) * var(--basis-t-t)));
+    --matrix-translate-x: calc(var(--width-scale) * (-1 * var(--texture-translation-s) * var(--basis-s-s) - var(--texture-translation-t) * var(--basis-s-t)));
+    --matrix-translate-y: calc(var(--height-scale) * (-1 * var(--texture-translation-s) * var(--basis-t-s) - var(--texture-translation-t) * var(--basis-t-t)));
 
     /*
      * Matrix transformation: [Scale to Size] * [Change Bases] * [Translate to Origin] (last applied first)
