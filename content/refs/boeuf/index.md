@@ -18,6 +18,8 @@ hide_reading_time = true
 
 > 🐕 **bœuf** is a **borzoi** (russian sighthound), a breed of dog similar to a **greyhound** but with long, flowing fur on the top of its body to protect it in the harsh cold
 
+> 🐴 a **borzoi** is basically a **horse** if you think about it. isn't that **cool**?
+
 > 🥩 the name is french for **"beef"**, and pronounced somewhere between "beef" and "buff"
 
 > STATS:
