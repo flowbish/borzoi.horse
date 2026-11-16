@@ -388,8 +388,11 @@
 }
 
 .tri {
-    /* clip rectangle to just the upper-left triangle */
-    clip-path: polygon(0 0, 0 100%, 100% 0);
+    /* 
+     * mask rectangle to just the upper-left triangle.
+     * N.B. this used to clip-path but that causes massive performance issues because clipping causes the number of rendering layers to explode.
+     */
+    mask-image: linear-gradient(to bottom right, #000 50%, transparent 50%);
 }
 
 .tri, .rect {
