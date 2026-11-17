@@ -387,6 +387,12 @@
     inherits: true;
 }
 
+@property --texture-background-color {
+    syntax: "<color>";
+    initial-value: transparent;
+    inherits: false;
+}
+
 .tri {
     /* 
      * mask rectangle to just the upper-left triangle.
@@ -482,7 +488,7 @@
             var(--a-x), var(--a-y), var(--a-z), 1
         );
 
-    background-color: var(--background-color);
+    background-color: var(--texture-background-color);
     overflow: hidden;
 }
 

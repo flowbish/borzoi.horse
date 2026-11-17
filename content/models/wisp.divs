@@ -30,7 +30,7 @@
         --c-x: 38.932533;
         --c-y: -61.41683;
         --c-z: 136.24852;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.25;
@@ -49,7 +49,7 @@
         --c-x: 19.301859;
         --c-y: -237.82095;
         --c-z: -88.999725;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.5;
@@ -68,7 +68,7 @@
         --c-x: 17.55785;
         --c-y: -252.29688;
         --c-z: -43.57761;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.5;
@@ -87,7 +87,7 @@
         --c-x: 13.517031;
         --c-y: -74.788216;
         --c-z: 111.75702;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.33333337;
@@ -106,7 +106,7 @@
         --c-x: 11.722165;
         --c-y: -62.45979;
         --c-z: 136.24852;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.33333337;
@@ -125,7 +125,7 @@
         --c-x: 0;
         --c-y: -174.81343;
         --c-z: 459.99783;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.25;
@@ -144,7 +144,7 @@
         --c-x: 6.278099;
         --c-y: -143.78978;
         --c-z: 113.12311;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.33333337;
@@ -163,7 +163,7 @@
         --c-x: -6.278099;
         --c-y: -143.78978;
         --c-z: 113.12311;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.25;
@@ -182,7 +182,7 @@
         --c-x: -31.219217;
         --c-y: -209.38658;
         --c-z: 108.22655;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.83205044;
         --texture-a-t: 0.33333337;
@@ -201,7 +201,7 @@
         --c-x: 31.219217;
         --c-y: -209.38658;
         --c-z: 108.22655;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.875;
         --texture-a-t: 0.25;
@@ -220,7 +220,7 @@
         --c-x: 17.55785;
         --c-y: -252.29688;
         --c-z: -43.57761;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.4166667;
@@ -239,7 +239,7 @@
         --c-x: -17.55785;
         --c-y: -252.29688;
         --c-z: -43.57761;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.4166667;
@@ -258,7 +258,7 @@
         --c-x: -28.559912;
         --c-y: -219.61575;
         --c-z: 78.74689;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.875;
         --texture-a-t: 0.4166667;
@@ -277,7 +277,7 @@
         --c-x: 28.559912;
         --c-y: -219.61575;
         --c-z: 78.74689;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.83205044;
         --texture-a-t: 0.33333337;
@@ -296,7 +296,7 @@
         --c-x: 14.965041;
         --c-y: -143.74503;
         --c-z: -29.147995;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.5;
@@ -315,7 +315,7 @@
         --c-x: -14.965041;
         --c-y: -143.74503;
         --c-z: -29.147995;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.4166667;
@@ -334,7 +334,7 @@
         --c-x: 9.4061;
         --c-y: -143.74503;
         --c-z: 72.03443;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.4166667;
@@ -353,7 +353,7 @@
         --c-x: -9.4061;
         --c-y: -143.74503;
         --c-z: 72.03443;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.33333337;
@@ -372,7 +372,7 @@
         --c-x: 9.030368;
         --c-y: -14.797802;
         --c-z: 84.42429;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.33333337;
@@ -391,7 +391,7 @@
         --c-x: 9.030368;
         --c-y: 2.198258;
         --c-z: 89.58967;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.33333337;
@@ -410,7 +410,7 @@
         --c-x: 35.590958;
         --c-y: -157.86946;
         --c-z: 43.60662;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.66794956;
         --texture-a-t: 0.33333337;
@@ -429,7 +429,7 @@
         --c-x: -51.189793;
         --c-y: -13.75484;
         --c-z: 84.66954;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.9166667;
@@ -448,7 +448,7 @@
         --c-x: -51.189793;
         --c-y: 3.24122;
         --c-z: 89.58967;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.9166667;
@@ -467,7 +467,7 @@
         --c-x: -31.357924;
         --c-y: -219.61575;
         --c-z: -29.30833;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.618516;
         --texture-a-t: 0.9220628;
@@ -486,7 +486,7 @@
         --c-x: 8.8527155;
         --c-y: -15.325841;
         --c-z: -94.27259;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.5;
@@ -505,7 +505,7 @@
         --c-x: 8.8527155;
         --c-y: -0.57018995;
         --c-z: -96.34024;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.5;
@@ -524,7 +524,7 @@
         --c-x: -8.8527155;
         --c-y: -0.57018995;
         --c-z: -58.89829;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.8333333;
@@ -543,7 +543,7 @@
         --c-x: -13.155913;
         --c-y: -95.86596;
         --c-z: -45.173347;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.8333334;
@@ -562,7 +562,7 @@
         --c-x: -46.997475;
         --c-y: 0.47277212;
         --c-z: -58.8983;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -581,7 +581,7 @@
         --c-x: -39.916058;
         --c-y: -93.67879;
         --c-z: -49.934868;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.8333333;
@@ -600,7 +600,7 @@
         --c-x: -46.997475;
         --c-y: -18.143007;
         --c-z: -79.97582;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.75;
@@ -619,7 +619,7 @@
         --c-x: -41.372906;
         --c-y: -94.288414;
         --c-z: -79.97582;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -638,7 +638,7 @@
         --c-x: -8.8527155;
         --c-y: -19.185968;
         --c-z: -79.97582;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.8333334;
@@ -657,7 +657,7 @@
         --c-x: -9.629895;
         --c-y: -90.306244;
         --c-z: -79.97582;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.75;
@@ -676,7 +676,7 @@
         --c-x: -11.722165;
         --c-y: -62.45979;
         --c-z: 136.24852;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 1;
@@ -695,7 +695,7 @@
         --c-x: 9.4061;
         --c-y: -143.74503;
         --c-z: 72.03443;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.33333337;
@@ -714,7 +714,7 @@
         --c-x: 35.590958;
         --c-y: -157.86946;
         --c-z: 43.60662;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.33333337;
@@ -733,7 +733,7 @@
         --c-x: 28.559912;
         --c-y: -219.61575;
         --c-z: 78.74689;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.33333337;
@@ -752,7 +752,7 @@
         --c-x: 47.40077;
         --c-y: -127.45535;
         --c-z: 109.48241;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.25;
@@ -771,7 +771,7 @@
         --c-x: 31.219217;
         --c-y: -209.38658;
         --c-z: 108.22655;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.25;
@@ -790,7 +790,7 @@
         --c-x: 3.0775826;
         --c-y: -128.11996;
         --c-z: 109.48241;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.33333337;
@@ -809,7 +809,7 @@
         --c-x: 6.278099;
         --c-y: -143.78978;
         --c-z: 113.12311;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.25;
@@ -828,7 +828,7 @@
         --c-x: -46.997475;
         --c-y: -14.282879;
         --c-z: -94.27259;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -847,7 +847,7 @@
         --c-x: -46.997475;
         --c-y: 0.47277212;
         --c-z: -96.34026;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -866,7 +866,7 @@
         --c-x: 8.8527155;
         --c-y: -19.185968;
         --c-z: -79.97582;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.5;
@@ -885,7 +885,7 @@
         --c-x: 9.629895;
         --c-y: -90.306244;
         --c-z: -79.97582;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.5;
@@ -904,7 +904,7 @@
         --c-x: 46.997475;
         --c-y: -18.143007;
         --c-z: -79.97582;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.4166667;
@@ -923,7 +923,7 @@
         --c-x: 41.372906;
         --c-y: -94.288414;
         --c-z: -79.97582;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.5;
@@ -942,7 +942,7 @@
         --c-x: 46.997475;
         --c-y: 0.47277212;
         --c-z: -58.8983;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.4166667;
@@ -961,7 +961,7 @@
         --c-x: 39.916058;
         --c-y: -93.67879;
         --c-z: -49.934868;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.4166667;
@@ -980,7 +980,7 @@
         --c-x: 8.8527155;
         --c-y: -0.57018995;
         --c-z: -58.89829;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.5;
@@ -999,7 +999,7 @@
         --c-x: 13.155913;
         --c-y: -95.86596;
         --c-z: -45.173347;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.4166667;
@@ -1018,7 +1018,7 @@
         --c-x: -13.517031;
         --c-y: -74.788216;
         --c-z: 111.75702;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.9166667;
@@ -1037,7 +1037,7 @@
         --c-x: -37.13767;
         --c-y: -75.68263;
         --c-z: 111.60994;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.9166667;
@@ -1056,7 +1056,7 @@
         --c-x: -3.0775826;
         --c-y: -128.11996;
         --c-z: 109.48241;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 1;
@@ -1075,7 +1075,7 @@
         --c-x: -6.278099;
         --c-y: -143.78978;
         --c-z: 113.12311;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 1;
@@ -1094,7 +1094,7 @@
         --c-x: -47.40077;
         --c-y: -127.45535;
         --c-z: 109.48241;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.9166667;
@@ -1113,7 +1113,7 @@
         --c-x: -28.559912;
         --c-y: -219.61575;
         --c-z: 78.74689;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.9166667;
@@ -1132,7 +1132,7 @@
         --c-x: -7.3314085;
         --c-y: -122.39474;
         --c-z: 53.47348;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 1;
@@ -1151,7 +1151,7 @@
         --c-x: -9.4061;
         --c-y: -143.74503;
         --c-z: 72.03443;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.9166667;
@@ -1170,7 +1170,7 @@
         --c-x: -11.722165;
         --c-y: -62.45979;
         --c-z: 136.24852;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 1;
@@ -1189,7 +1189,7 @@
         --c-x: -37.13767;
         --c-y: -75.68263;
         --c-z: 111.60994;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.9166667;
@@ -1208,7 +1208,7 @@
         --c-x: -38.932533;
         --c-y: -61.41683;
         --c-z: 136.24852;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.9166667;
@@ -1227,7 +1227,7 @@
         --c-x: 38.932533;
         --c-y: -61.41683;
         --c-z: 136.24852;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.25;
@@ -1246,7 +1246,7 @@
         --c-x: 37.13767;
         --c-y: -75.68263;
         --c-z: 111.60994;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.33333337;
@@ -1265,7 +1265,7 @@
         --c-x: 13.517031;
         --c-y: -74.788216;
         --c-z: 111.75702;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.33333337;
@@ -1284,7 +1284,7 @@
         --c-x: -9.030368;
         --c-y: 2.198258;
         --c-z: 59.37125;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 1;
@@ -1303,7 +1303,7 @@
         --c-x: -9.030368;
         --c-y: -12.264278;
         --c-z: 63.166874;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 1;
@@ -1322,7 +1322,7 @@
         --c-x: 51.189793;
         --c-y: -11.221316;
         --c-z: 63.412117;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.33333337;
@@ -1341,7 +1341,7 @@
         --c-x: 9.030368;
         --c-y: -12.264278;
         --c-z: 63.166874;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.33333337;
@@ -1360,7 +1360,7 @@
         --c-x: 51.189793;
         --c-y: 3.24122;
         --c-z: 89.58967;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.25;
@@ -1379,7 +1379,7 @@
         --c-x: 51.189793;
         --c-y: -13.75484;
         --c-z: 84.66954;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.25;
@@ -1398,7 +1398,7 @@
         --c-x: -9.030368;
         --c-y: -14.797802;
         --c-z: 84.42429;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.9166667;
@@ -1417,7 +1417,7 @@
         --c-x: -51.189793;
         --c-y: -13.75484;
         --c-z: 84.66954;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.9166667;
@@ -1436,7 +1436,7 @@
         --c-x: -51.189793;
         --c-y: 3.24122;
         --c-z: 89.58967;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 1;
@@ -1455,7 +1455,7 @@
         --c-x: -9.030368;
         --c-y: 2.198258;
         --c-z: 89.58967;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 1;
@@ -1474,7 +1474,7 @@
         --c-x: 9.030368;
         --c-y: 2.198258;
         --c-z: 89.58967;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.25;
@@ -1493,7 +1493,7 @@
         --c-x: 51.189793;
         --c-y: 3.24122;
         --c-z: 89.58967;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.25;
@@ -1512,7 +1512,7 @@
         --c-x: 51.189793;
         --c-y: -13.75484;
         --c-z: 84.66954;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.33333337;
@@ -1531,7 +1531,7 @@
         --c-x: 9.030368;
         --c-y: -14.797802;
         --c-z: 84.42429;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.33333337;
@@ -1550,7 +1550,7 @@
         --c-x: -9.030368;
         --c-y: 2.198258;
         --c-z: 89.58967;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 1;
@@ -1569,7 +1569,7 @@
         --c-x: -9.030368;
         --c-y: -14.797802;
         --c-z: 84.42429;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 1;
@@ -1588,7 +1588,7 @@
         --c-x: -51.189793;
         --c-y: -11.221316;
         --c-z: 63.412117;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 1;
@@ -1607,7 +1607,7 @@
         --c-x: -9.030368;
         --c-y: -12.264278;
         --c-z: 63.166874;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.9166667;
@@ -1626,7 +1626,7 @@
         --c-x: 51.189793;
         --c-y: 3.24122;
         --c-z: 59.37125;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.33333337;
@@ -1645,7 +1645,7 @@
         --c-x: 9.030368;
         --c-y: 2.198258;
         --c-z: 59.37125;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.25;
@@ -1664,7 +1664,7 @@
         --c-x: -51.189793;
         --c-y: -11.221316;
         --c-z: 63.412117;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.9166667;
@@ -1683,7 +1683,7 @@
         --c-x: -51.189793;
         --c-y: 3.24122;
         --c-z: 59.37125;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.9166667;
@@ -1702,7 +1702,7 @@
         --c-x: 9.030368;
         --c-y: -12.264278;
         --c-z: 63.166874;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.33333337;
@@ -1721,7 +1721,7 @@
         --c-x: 9.030368;
         --c-y: 2.198258;
         --c-z: 59.37125;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.33333337;
@@ -1740,7 +1740,7 @@
         --c-x: 51.189793;
         --c-y: 3.24122;
         --c-z: 59.37125;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.25;
@@ -1759,7 +1759,7 @@
         --c-x: 51.189793;
         --c-y: -11.221316;
         --c-z: 63.412117;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.25;
@@ -1778,7 +1778,7 @@
         --c-x: -9.030368;
         --c-y: -12.264278;
         --c-z: 63.166874;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.9166667;
@@ -1797,7 +1797,7 @@
         --c-x: -51.189793;
         --c-y: -11.221316;
         --c-z: 63.412117;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.9166667;
@@ -1816,7 +1816,7 @@
         --c-x: -51.189793;
         --c-y: 3.24122;
         --c-z: 59.37125;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 1;
@@ -1835,7 +1835,7 @@
         --c-x: -9.030368;
         --c-y: 2.198258;
         --c-z: 59.37125;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 1;
@@ -1854,7 +1854,7 @@
         --c-x: 9.030368;
         --c-y: 2.198258;
         --c-z: 59.37125;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.25;
@@ -1873,7 +1873,7 @@
         --c-x: 51.189793;
         --c-y: 3.24122;
         --c-z: 59.37125;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.25;
@@ -1892,7 +1892,7 @@
         --c-x: 30.83528;
         --c-y: -115.806496;
         --c-z: 127.008865;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.25;
@@ -1911,7 +1911,7 @@
         --c-x: -30.83528;
         --c-y: -115.806496;
         --c-z: 127.008865;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 1;
@@ -1930,7 +1930,7 @@
         --c-x: -38.932533;
         --c-y: -61.41683;
         --c-z: 136.24852;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 1;
@@ -1949,7 +1949,7 @@
         --c-x: -11.722165;
         --c-y: -62.45979;
         --c-z: 136.24852;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 1;
@@ -1968,7 +1968,7 @@
         --c-x: -13.517031;
         --c-y: -74.788216;
         --c-z: 111.75702;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 1;
@@ -1987,7 +1987,7 @@
         --c-x: 11.722165;
         --c-y: -62.45979;
         --c-z: 136.24852;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.25;
@@ -2006,7 +2006,7 @@
         --c-x: 38.932533;
         --c-y: -61.41683;
         --c-z: 136.24852;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.25;
@@ -2025,7 +2025,7 @@
         --c-x: 37.13767;
         --c-y: -75.68263;
         --c-z: 111.60994;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.25;
@@ -2044,7 +2044,7 @@
         --c-x: -43.146942;
         --c-y: -122.93841;
         --c-z: 53.38409;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.9166667;
@@ -2063,7 +2063,7 @@
         --c-x: -35.590958;
         --c-y: -157.86946;
         --c-z: 43.60662;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.9166667;
@@ -2082,7 +2082,7 @@
         --c-x: 35.590958;
         --c-y: -157.86946;
         --c-z: 43.60662;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.33333337;
@@ -2101,7 +2101,7 @@
         --c-x: 35.590958;
         --c-y: -157.86946;
         --c-z: 43.60662;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.4166667;
@@ -2120,7 +2120,7 @@
         --c-x: -14.965041;
         --c-y: -143.74503;
         --c-z: -29.147995;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.5;
         --texture-a-t: 0.9166667;
@@ -2139,7 +2139,7 @@
         --c-x: -46.997475;
         --c-y: -14.282879;
         --c-z: -94.27259;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.8333333;
@@ -2158,7 +2158,7 @@
         --c-x: -8.8527155;
         --c-y: -15.325841;
         --c-z: -94.27259;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -2177,7 +2177,7 @@
         --c-x: 46.997475;
         --c-y: 0.47277212;
         --c-z: -96.34026;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.5;
@@ -2196,7 +2196,7 @@
         --c-x: 8.8527155;
         --c-y: -0.57018995;
         --c-z: -96.34024;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.4166667;
@@ -2215,7 +2215,7 @@
         --c-x: 46.997475;
         --c-y: 0.47277212;
         --c-z: -96.34026;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.4166667;
@@ -2234,7 +2234,7 @@
         --c-x: 46.997475;
         --c-y: -14.282879;
         --c-z: -94.27259;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.4166667;
@@ -2253,7 +2253,7 @@
         --c-x: -8.8527155;
         --c-y: -15.325841;
         --c-z: -94.27259;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.75;
@@ -2272,7 +2272,7 @@
         --c-x: -46.997475;
         --c-y: -14.282879;
         --c-z: -94.27259;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.75;
@@ -2291,7 +2291,7 @@
         --c-x: -46.997475;
         --c-y: 0.47277212;
         --c-z: -96.34026;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.8333333;
@@ -2310,7 +2310,7 @@
         --c-x: -8.8527155;
         --c-y: -0.57018995;
         --c-z: -96.34024;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.8333333;
@@ -2329,7 +2329,7 @@
         --c-x: 8.8527155;
         --c-y: -0.57018995;
         --c-z: -96.34024;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.4166667;
@@ -2348,7 +2348,7 @@
         --c-x: 46.997475;
         --c-y: 0.47277212;
         --c-z: -96.34026;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.4166667;
@@ -2367,7 +2367,7 @@
         --c-x: 46.997475;
         --c-y: -14.282879;
         --c-z: -94.27259;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.5;
@@ -2386,7 +2386,7 @@
         --c-x: 8.8527155;
         --c-y: -15.325841;
         --c-z: -94.27259;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.5;
@@ -2405,7 +2405,7 @@
         --c-x: -8.8527155;
         --c-y: -0.57018995;
         --c-z: -96.34024;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.8333334;
@@ -2424,7 +2424,7 @@
         --c-x: -8.8527155;
         --c-y: -15.325841;
         --c-z: -94.27259;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.8333334;
@@ -2443,7 +2443,7 @@
         --c-x: 35.590958;
         --c-y: -157.86946;
         --c-z: 43.60662;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.4166667;
@@ -2462,7 +2462,7 @@
         --c-x: -31.357924;
         --c-y: -219.61575;
         --c-z: -29.30833;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.5;
         --texture-a-t: 0.9166667;
@@ -2481,7 +2481,7 @@
         --c-x: 28.559912;
         --c-y: -219.61575;
         --c-z: 78.74689;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.25;
@@ -2500,7 +2500,7 @@
         --c-x: -47.40077;
         --c-y: -127.45535;
         --c-z: 109.48241;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.618516;
         --texture-a-t: 0.9220628;
@@ -2519,7 +2519,7 @@
         --c-x: 16.023346;
         --c-y: -320.8637;
         --c-z: -60.43946;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.4166667;
@@ -2538,7 +2538,7 @@
         --c-x: -16.023346;
         --c-y: -320.8637;
         --c-z: -60.43946;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.4166667;
@@ -2557,7 +2557,7 @@
         --c-x: 0;
         --c-y: -174.81343;
         --c-z: 459.99783;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 1;
@@ -2576,7 +2576,7 @@
         --c-x: 0;
         --c-y: -174.81343;
         --c-z: 459.99783;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.25;
@@ -2595,7 +2595,7 @@
         --c-x: 0;
         --c-y: -174.81343;
         --c-z: 459.99783;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.875;
         --texture-a-t: 0.25;
@@ -2614,7 +2614,7 @@
         --c-x: -16.023346;
         --c-y: -320.8637;
         --c-z: -60.43946;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.875;
         --texture-a-t: 0.5;
@@ -2633,7 +2633,7 @@
         --c-x: 16.023346;
         --c-y: -320.8637;
         --c-z: -60.43946;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.875;
         --texture-a-t: 0.4166667;
@@ -2652,7 +2652,7 @@
         --c-x: -19.301859;
         --c-y: -237.82095;
         --c-z: -88.999725;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -2671,7 +2671,7 @@
         --c-x: 19.301859;
         --c-y: -237.82095;
         --c-z: -88.999725;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.5;
@@ -2690,7 +2690,7 @@
         --c-x: 49.26898;
         --c-y: -317.37985;
         --c-z: -74.66765;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -2709,7 +2709,7 @@
         --c-x: -17.55785;
         --c-y: -252.29688;
         --c-z: -43.57761;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.8333333;
@@ -2728,7 +2728,7 @@
         --c-x: -19.301859;
         --c-y: -237.82095;
         --c-z: -88.999725;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.8333333;
@@ -2747,7 +2747,7 @@
         --c-x: -19.301859;
         --c-y: -237.82095;
         --c-z: -88.999725;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.125;
         --texture-a-t: 0.5;
@@ -2766,7 +2766,7 @@
         --c-x: 19.301859;
         --c-y: -237.82095;
         --c-z: -88.999725;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -2785,7 +2785,7 @@
         --c-x: -22.001318;
         --c-y: -315.29117;
         --c-z: -114.64104;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -2804,7 +2804,7 @@
         --c-x: 22.001318;
         --c-y: -315.29117;
         --c-z: -114.64104;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -2823,7 +2823,7 @@
         --c-x: -75.86603;
         --c-y: -318.42447;
         --c-z: -60.552578;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -2842,7 +2842,7 @@
         --c-x: -15.042998;
         --c-y: -237.88745;
         --c-z: -137.70575;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -2861,7 +2861,7 @@
         --c-x: 15.042998;
         --c-y: -237.88745;
         --c-z: -137.70575;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -2880,7 +2880,7 @@
         --c-x: -15.042998;
         --c-y: -258.6908;
         --c-z: -147.3466;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -2899,7 +2899,7 @@
         --c-x: 15.042998;
         --c-y: -258.6908;
         --c-z: -147.3466;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -2918,7 +2918,7 @@
         --c-x: -8.292645;
         --c-y: -269.63916;
         --c-z: -130.01677;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -2937,7 +2937,7 @@
         --c-x: 8.292645;
         --c-y: -269.63916;
         --c-z: -130.01677;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -2956,7 +2956,7 @@
         --c-x: -75.86603;
         --c-y: -318.42447;
         --c-z: -60.552578;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -2975,7 +2975,7 @@
         --c-x: -19.301859;
         --c-y: -237.82095;
         --c-z: -88.999725;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -2994,7 +2994,7 @@
         --c-x: -17.55785;
         --c-y: -252.29688;
         --c-z: -43.57761;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.8333333;
@@ -3013,7 +3013,7 @@
         --c-x: -44.01472;
         --c-y: -288.24387;
         --c-z: -73.88439;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -3032,7 +3032,7 @@
         --c-x: -22.001318;
         --c-y: -315.29117;
         --c-z: -114.64104;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -3051,7 +3051,7 @@
         --c-x: -8.292645;
         --c-y: -269.63916;
         --c-z: -130.01677;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -3070,7 +3070,7 @@
         --c-x: -15.042998;
         --c-y: -258.6908;
         --c-z: -147.3466;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -3089,7 +3089,7 @@
         --c-x: -15.042998;
         --c-y: -237.88745;
         --c-z: -137.70575;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -3108,7 +3108,7 @@
         --c-x: -58.22705;
         --c-y: -279.4685;
         --c-z: -66.61792;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -3127,7 +3127,7 @@
         --c-x: -49.26898;
         --c-y: -317.37985;
         --c-z: -74.66765;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -3146,7 +3146,7 @@
         --c-x: 17.55785;
         --c-y: -252.29688;
         --c-z: -43.57761;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.4166667;
@@ -3165,7 +3165,7 @@
         --c-x: 19.301859;
         --c-y: -237.82095;
         --c-z: -88.999725;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.5;
@@ -3184,7 +3184,7 @@
         --c-x: 15.042998;
         --c-y: -237.88745;
         --c-z: -137.70575;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.5;
@@ -3203,7 +3203,7 @@
         --c-x: 15.042998;
         --c-y: -258.6908;
         --c-z: -147.3466;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.5;
@@ -3222,7 +3222,7 @@
         --c-x: 8.292645;
         --c-y: -269.63916;
         --c-z: -130.01677;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.5;
@@ -3241,7 +3241,7 @@
         --c-x: 22.001318;
         --c-y: -315.29117;
         --c-z: -114.64104;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.5;
@@ -3260,7 +3260,7 @@
         --c-x: 44.01472;
         --c-y: -288.24387;
         --c-z: -73.88439;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.4166667;
@@ -3279,7 +3279,7 @@
         --c-x: -49.26898;
         --c-y: -317.37985;
         --c-z: -74.66765;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -3298,7 +3298,7 @@
         --c-x: -58.65129;
         --c-y: -310.60934;
         --c-z: -93.01236;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -3317,7 +3317,7 @@
         --c-x: -17.55785;
         --c-y: -252.29688;
         --c-z: -43.57761;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.8333333;
@@ -3336,7 +3336,7 @@
         --c-x: 44.01472;
         --c-y: -288.24387;
         --c-z: -73.88439;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.4166667;
@@ -3355,7 +3355,7 @@
         --c-x: 22.001318;
         --c-y: -315.29117;
         --c-z: -114.64104;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.4166667;
@@ -3374,7 +3374,7 @@
         --c-x: -44.01472;
         --c-y: -288.24387;
         --c-z: -73.88439;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -3393,7 +3393,7 @@
         --c-x: 58.22705;
         --c-y: -279.4685;
         --c-z: -66.61792;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -3412,7 +3412,7 @@
         --c-x: 58.22705;
         --c-y: -279.4685;
         --c-z: -66.61792;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -3431,7 +3431,7 @@
         --c-x: 22.84966;
         --c-y: -279.26196;
         --c-z: -72.43358;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -3450,7 +3450,7 @@
         --c-x: 49.26898;
         --c-y: -317.37985;
         --c-z: -74.66765;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -3469,7 +3469,7 @@
         --c-x: 23.452366;
         --c-y: -308.58295;
         --c-z: -70.494484;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -3488,7 +3488,7 @@
         --c-x: -22.451925;
         --c-y: -293.31223;
         --c-z: -110.05487;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -3507,7 +3507,7 @@
         --c-x: -28.448278;
         --c-y: -303.83368;
         --c-z: -103.9185;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -3526,7 +3526,7 @@
         --c-x: -28.448278;
         --c-y: -303.83368;
         --c-z: -103.9185;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -3545,7 +3545,7 @@
         --c-x: -22.451925;
         --c-y: -293.31223;
         --c-z: -110.05487;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -3564,7 +3564,7 @@
         --c-x: -22.451925;
         --c-y: -293.31223;
         --c-z: -110.05487;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -3583,7 +3583,7 @@
         --c-x: -10.265691;
         --c-y: -307.26328;
         --c-z: -116.26866;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -3602,7 +3602,7 @@
         --c-x: -10.265691;
         --c-y: -307.26328;
         --c-z: -116.26866;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -3621,7 +3621,7 @@
         --c-x: -20.868504;
         --c-y: -314.9627;
         --c-z: -111.75847;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -3640,7 +3640,7 @@
         --c-x: -20.868504;
         --c-y: -314.9627;
         --c-z: -111.75847;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -3659,7 +3659,7 @@
         --c-x: -28.448278;
         --c-y: -303.83368;
         --c-z: -103.9185;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -3678,7 +3678,7 @@
         --c-x: 22.451925;
         --c-y: -293.31223;
         --c-z: -110.05487;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -3697,7 +3697,7 @@
         --c-x: 10.265691;
         --c-y: -307.26328;
         --c-z: -116.26866;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -3716,7 +3716,7 @@
         --c-x: 28.448278;
         --c-y: -303.83368;
         --c-z: -103.9185;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -3735,7 +3735,7 @@
         --c-x: 37.310276;
         --c-y: -314.89413;
         --c-z: -86.48274;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -3754,7 +3754,7 @@
         --c-x: 22.451925;
         --c-y: -293.31223;
         --c-z: -110.05487;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -3773,7 +3773,7 @@
         --c-x: 22.078308;
         --c-y: -310.2827;
         --c-z: -64.58116;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -3792,7 +3792,7 @@
         --c-x: 10.265691;
         --c-y: -307.26328;
         --c-z: -116.26866;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -3811,7 +3811,7 @@
         --c-x: 12.214656;
         --c-y: -323.6175;
         --c-z: -75.503006;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -3830,7 +3830,7 @@
         --c-x: 20.868504;
         --c-y: -314.9627;
         --c-z: -111.75847;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -3849,7 +3849,7 @@
         --c-x: 27.198502;
         --c-y: -332.56503;
         --c-z: -73.0392;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -3868,7 +3868,7 @@
         --c-x: 13.155913;
         --c-y: -95.86596;
         --c-z: -45.173347;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.5;
@@ -3887,7 +3887,7 @@
         --c-x: 14.965041;
         --c-y: -143.74503;
         --c-z: -29.147995;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.37499994;
         --texture-a-t: 0.41666675;
@@ -3906,7 +3906,7 @@
         --c-x: 39.916058;
         --c-y: -93.67879;
         --c-z: -49.934868;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.37499994;
         --texture-a-t: 0.41666675;
@@ -3925,7 +3925,7 @@
         --c-x: 31.357924;
         --c-y: -219.61575;
         --c-z: -29.30833;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.41666675;
@@ -3944,7 +3944,7 @@
         --c-x: 41.372906;
         --c-y: -94.288414;
         --c-z: -79.97582;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.41666675;
@@ -3963,7 +3963,7 @@
         --c-x: 40.934788;
         --c-y: -181.43806;
         --c-z: -79.97582;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.5;
@@ -3982,7 +3982,7 @@
         --c-x: 9.629895;
         --c-y: -90.306244;
         --c-z: -79.97582;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.5;
@@ -4001,7 +4001,7 @@
         --c-x: 10.116118;
         --c-y: -143.74503;
         --c-z: -79.97582;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.5;
@@ -4020,7 +4020,7 @@
         --c-x: -9.629895;
         --c-y: -90.306244;
         --c-z: -79.97582;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.8333334;
@@ -4039,7 +4039,7 @@
         --c-x: -10.116118;
         --c-y: -143.74503;
         --c-z: -79.97582;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.75;
@@ -4058,7 +4058,7 @@
         --c-x: -41.372906;
         --c-y: -94.288414;
         --c-z: -79.97582;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.75;
@@ -4077,7 +4077,7 @@
         --c-x: -40.934788;
         --c-y: -181.43806;
         --c-z: -79.97582;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -4096,7 +4096,7 @@
         --c-x: -39.916058;
         --c-y: -93.67879;
         --c-z: -49.934868;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -4115,7 +4115,7 @@
         --c-x: -31.357924;
         --c-y: -219.61575;
         --c-z: -29.30833;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.8333333;
@@ -4134,7 +4134,7 @@
         --c-x: -13.155913;
         --c-y: -95.86596;
         --c-z: -45.173347;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.8333333;
@@ -4153,7 +4153,7 @@
         --c-x: -14.965041;
         --c-y: -143.74503;
         --c-z: -29.147995;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.8333334;
@@ -4172,7 +4172,7 @@
         --c-x: -0.7661566;
         --c-y: -238.31998;
         --c-z: -40.29882;
-        --background-color: rgba(51, 43, 25, 255);
+        --texture-background-color: rgba(51, 43, 25, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -4191,7 +4191,7 @@
         --c-x: -23.601004;
         --c-y: -359.79984;
         --c-z: -72.1737;
-        --background-color: rgba(51, 43, 25, 255);
+        --texture-background-color: rgba(51, 43, 25, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -4210,7 +4210,7 @@
         --c-x: -30.80233;
         --c-y: -326.23047;
         --c-z: -32.843147;
-        --background-color: rgba(51, 43, 25, 255);
+        --texture-background-color: rgba(51, 43, 25, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -4229,7 +4229,7 @@
         --c-x: -23.601004;
         --c-y: -338.1833;
         --c-z: -137.61523;
-        --background-color: rgba(51, 43, 25, 255);
+        --texture-background-color: rgba(51, 43, 25, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -4248,7 +4248,7 @@
         --c-x: -23.601004;
         --c-y: -359.79984;
         --c-z: -72.1737;
-        --background-color: rgba(51, 43, 25, 255);
+        --texture-background-color: rgba(51, 43, 25, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -4267,7 +4267,7 @@
         --c-x: -56.718266;
         --c-y: -311.98715;
         --c-z: -85.137665;
-        --background-color: rgba(51, 43, 25, 255);
+        --texture-background-color: rgba(51, 43, 25, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -4286,7 +4286,7 @@
         --c-x: -44.835567;
         --c-y: -294.69626;
         --c-z: -141.9486;
-        --background-color: rgba(51, 43, 25, 255);
+        --texture-background-color: rgba(51, 43, 25, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -4305,7 +4305,7 @@
         --c-x: -56.718266;
         --c-y: -311.98715;
         --c-z: -85.137665;
-        --background-color: rgba(51, 43, 25, 255);
+        --texture-background-color: rgba(51, 43, 25, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -4324,7 +4324,7 @@
         --c-x: 15.758197;
         --c-y: -307.12177;
         --c-z: -77.74457;
-        --background-color: rgba(51, 43, 25, 255);
+        --texture-background-color: rgba(51, 43, 25, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -4343,7 +4343,7 @@
         --c-x: 15.758197;
         --c-y: -307.12177;
         --c-z: -77.74457;
-        --background-color: rgba(51, 43, 25, 255);
+        --texture-background-color: rgba(51, 43, 25, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -4362,7 +4362,7 @@
         --c-x: 15.758197;
         --c-y: -307.12177;
         --c-z: -77.74457;
-        --background-color: rgba(51, 43, 25, 255);
+        --texture-background-color: rgba(51, 43, 25, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -4381,7 +4381,7 @@
         --c-x: -0.7661566;
         --c-y: -238.31998;
         --c-z: -40.29882;
-        --background-color: rgba(51, 43, 25, 255);
+        --texture-background-color: rgba(51, 43, 25, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -4400,7 +4400,7 @@
         --c-x: -28.568092;
         --c-y: -296.11685;
         --c-z: -114.968575;
-        --background-color: rgba(51, 43, 25, 255);
+        --texture-background-color: rgba(51, 43, 25, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -4419,7 +4419,7 @@
         --c-x: 9.989782;
         --c-y: -295.2319;
         --c-z: -126.3085;
-        --background-color: rgba(51, 43, 25, 255);
+        --texture-background-color: rgba(51, 43, 25, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -4438,7 +4438,7 @@
         --c-x: -58.22705;
         --c-y: -279.4685;
         --c-z: -66.61792;
-        --background-color: rgba(255, 147, 176, 255);
+        --texture-background-color: rgba(255, 147, 176, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -4457,7 +4457,7 @@
         --c-x: 22.84966;
         --c-y: -279.26196;
         --c-z: -72.43358;
-        --background-color: rgba(255, 147, 176, 255);
+        --texture-background-color: rgba(255, 147, 176, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -4476,7 +4476,7 @@
         --c-x: 58.22705;
         --c-y: -279.4685;
         --c-z: -66.61792;
-        --background-color: rgba(255, 147, 176, 255);
+        --texture-background-color: rgba(255, 147, 176, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -4495,7 +4495,7 @@
         --c-x: -58.22705;
         --c-y: -279.4685;
         --c-z: -66.61792;
-        --background-color: rgba(255, 147, 176, 255);
+        --texture-background-color: rgba(255, 147, 176, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -4514,7 +4514,7 @@
         --c-x: -22.84966;
         --c-y: -279.26196;
         --c-z: -72.43358;
-        --background-color: rgba(255, 147, 176, 255);
+        --texture-background-color: rgba(255, 147, 176, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -4533,7 +4533,7 @@
         --c-x: 58.22705;
         --c-y: -279.4685;
         --c-z: -66.61792;
-        --background-color: rgba(255, 147, 176, 255);
+        --texture-background-color: rgba(255, 147, 176, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -4552,7 +4552,7 @@
         --c-x: -29.499382;
         --c-y: -329.1662;
         --c-z: -44.315975;
-        --background-color: rgba(235, 222, 175, 255);
+        --texture-background-color: rgba(235, 222, 175, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -4571,7 +4571,7 @@
         --c-x: -29.499382;
         --c-y: -329.1662;
         --c-z: -44.315975;
-        --background-color: rgba(235, 222, 175, 255);
+        --texture-background-color: rgba(235, 222, 175, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -4590,7 +4590,7 @@
         --c-x: -29.499382;
         --c-y: -329.1662;
         --c-z: -44.315975;
-        --background-color: rgba(235, 222, 175, 255);
+        --texture-background-color: rgba(235, 222, 175, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -4609,7 +4609,7 @@
         --c-x: -29.499382;
         --c-y: -329.1662;
         --c-z: -44.315975;
-        --background-color: rgba(235, 222, 175, 255);
+        --texture-background-color: rgba(235, 222, 175, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -4628,7 +4628,7 @@
         --c-x: 22.078308;
         --c-y: -310.2827;
         --c-z: -64.58116;
-        --background-color: rgba(235, 222, 175, 255);
+        --texture-background-color: rgba(235, 222, 175, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -4647,7 +4647,7 @@
         --c-x: 12.214656;
         --c-y: -323.6175;
         --c-z: -75.503006;
-        --background-color: rgba(235, 222, 175, 255);
+        --texture-background-color: rgba(235, 222, 175, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -4666,7 +4666,7 @@
         --c-x: 27.198502;
         --c-y: -332.56503;
         --c-z: -73.0392;
-        --background-color: rgba(235, 222, 175, 255);
+        --texture-background-color: rgba(235, 222, 175, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -4685,7 +4685,7 @@
         --c-x: 37.310276;
         --c-y: -314.89413;
         --c-z: -86.48274;
-        --background-color: rgba(235, 222, 175, 255);
+        --texture-background-color: rgba(235, 222, 175, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -4704,7 +4704,7 @@
         --c-x: -30.152317;
         --c-y: -272.46765;
         --c-z: -113.26934;
-        --background-color: rgba(255, 255, 255, 255);
+        --texture-background-color: rgba(255, 255, 255, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -4723,7 +4723,7 @@
         --c-x: -31.841887;
         --c-y: -293.58096;
         --c-z: -109.839806;
-        --background-color: rgba(255, 255, 255, 255);
+        --texture-background-color: rgba(255, 255, 255, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -4742,7 +4742,7 @@
         --c-x: 30.152317;
         --c-y: -272.46765;
         --c-z: -113.26934;
-        --background-color: rgba(255, 255, 255, 255);
+        --texture-background-color: rgba(255, 255, 255, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -4761,7 +4761,7 @@
         --c-x: 15.35035;
         --c-y: -268.3363;
         --c-z: -125.396515;
-        --background-color: rgba(255, 255, 255, 255);
+        --texture-background-color: rgba(255, 255, 255, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -4780,7 +4780,7 @@
         --c-x: -30.312363;
         --c-y: -281.60507;
         --c-z: -112.703156;
-        --background-color: rgba(10, 43, 62, 255);
+        --texture-background-color: rgba(10, 43, 62, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.62499994;
         --texture-a-t: 0.75;
@@ -4799,7 +4799,7 @@
         --c-x: -20.425308;
         --c-y: -292.5474;
         --c-z: -119.44593;
-        --background-color: rgba(10, 43, 62, 255);
+        --texture-background-color: rgba(10, 43, 62, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -4818,7 +4818,7 @@
         --c-x: -20.425308;
         --c-y: -292.5474;
         --c-z: -119.44593;
-        --background-color: rgba(10, 43, 62, 255);
+        --texture-background-color: rgba(10, 43, 62, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.62500006;
         --texture-a-t: 0.75;
@@ -4837,7 +4837,7 @@
         --c-x: -14.543208;
         --c-y: -280.4322;
         --c-z: -125.30285;
-        --background-color: rgba(10, 43, 62, 255);
+        --texture-background-color: rgba(10, 43, 62, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -4856,7 +4856,7 @@
         --c-x: -14.543208;
         --c-y: -280.4322;
         --c-z: -125.30285;
-        --background-color: rgba(10, 43, 62, 255);
+        --texture-background-color: rgba(10, 43, 62, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -4875,7 +4875,7 @@
         --c-x: -23.523256;
         --c-y: -269.73267;
         --c-z: -119.25404;
-        --background-color: rgba(10, 43, 62, 255);
+        --texture-background-color: rgba(10, 43, 62, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -4894,7 +4894,7 @@
         --c-x: -23.523256;
         --c-y: -269.73267;
         --c-z: -119.25404;
-        --background-color: rgba(10, 43, 62, 255);
+        --texture-background-color: rgba(10, 43, 62, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.62500006;
         --texture-a-t: 0.75;
@@ -4913,7 +4913,7 @@
         --c-x: -30.312363;
         --c-y: -281.60507;
         --c-z: -112.703156;
-        --background-color: rgba(10, 43, 62, 255);
+        --texture-background-color: rgba(10, 43, 62, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -4932,7 +4932,7 @@
         --c-x: 30.312363;
         --c-y: -281.60507;
         --c-z: -112.703156;
-        --background-color: rgba(10, 43, 62, 255);
+        --texture-background-color: rgba(10, 43, 62, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -4951,7 +4951,7 @@
         --c-x: 26.284403;
         --c-y: -281.27048;
         --c-z: -115.92499;
-        --background-color: rgba(10, 43, 62, 255);
+        --texture-background-color: rgba(10, 43, 62, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -4970,7 +4970,7 @@
         --c-x: 20.425308;
         --c-y: -292.5474;
         --c-z: -119.44593;
-        --background-color: rgba(10, 43, 62, 255);
+        --texture-background-color: rgba(10, 43, 62, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -4989,7 +4989,7 @@
         --c-x: 20.861858;
         --c-y: -289.4177;
         --c-z: -119.410446;
-        --background-color: rgba(10, 43, 62, 255);
+        --texture-background-color: rgba(10, 43, 62, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -5008,7 +5008,7 @@
         --c-x: 14.543208;
         --c-y: -280.4322;
         --c-z: -125.30285;
-        --background-color: rgba(10, 43, 62, 255);
+        --texture-background-color: rgba(10, 43, 62, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -5027,7 +5027,7 @@
         --c-x: 18.462616;
         --c-y: -280.79932;
         --c-z: -122.16371;
-        --background-color: rgba(10, 43, 62, 255);
+        --texture-background-color: rgba(10, 43, 62, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -5046,7 +5046,7 @@
         --c-x: 23.523256;
         --c-y: -269.73267;
         --c-z: -119.25404;
-        --background-color: rgba(10, 43, 62, 255);
+        --texture-background-color: rgba(10, 43, 62, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -5065,7 +5065,7 @@
         --c-x: 23.227688;
         --c-y: -272.8201;
         --c-z: -119.18211;
-        --background-color: rgba(10, 43, 62, 255);
+        --texture-background-color: rgba(10, 43, 62, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -5084,7 +5084,7 @@
         --c-x: -23.227688;
         --c-y: -272.8201;
         --c-z: -119.18211;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -5103,7 +5103,7 @@
         --c-x: -26.284403;
         --c-y: -281.27048;
         --c-z: -115.92499;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.62500006;
         --texture-a-t: 0.75;
@@ -5122,7 +5122,7 @@
         --c-x: 23.227688;
         --c-y: -272.8201;
         --c-z: -119.18211;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.62499994;
         --texture-a-t: 0.75;
@@ -5141,7 +5141,7 @@
         --c-x: 18.462616;
         --c-y: -280.79932;
         --c-z: -122.16371;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.62500006;
         --texture-a-t: 0.75;
@@ -5160,7 +5160,7 @@
         --c-x: -10.360093;
         --c-y: -272.83517;
         --c-z: -133.48752;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -5179,7 +5179,7 @@
         --c-x: -10.852976;
         --c-y: -270.7367;
         --c-z: -133.28723;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -5198,7 +5198,7 @@
         --c-x: -32.34283;
         --c-y: -281.60373;
         --c-z: -115.765335;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.62499994;
         --texture-a-t: 0.75;
@@ -5217,7 +5217,7 @@
         --c-x: -9.9120455;
         --c-y: -282.47623;
         --c-z: -133.76572;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -5236,7 +5236,7 @@
         --c-x: -9.9120455;
         --c-y: -282.47623;
         --c-z: -133.76572;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.62499994;
         --texture-a-t: 0.75;
@@ -5255,7 +5255,7 @@
         --c-x: -11.773441;
         --c-y: -267.8667;
         --c-z: -132.85123;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -5274,7 +5274,7 @@
         --c-x: -11.773441;
         --c-y: -267.8667;
         --c-z: -132.85123;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -5293,7 +5293,7 @@
         --c-x: -30.075241;
         --c-y: -267.99182;
         --c-z: -118.13092;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -5312,7 +5312,7 @@
         --c-x: -30.075241;
         --c-y: -267.99182;
         --c-z: -118.13092;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -5331,7 +5331,7 @@
         --c-x: -32.34283;
         --c-y: -281.60373;
         --c-z: -115.765335;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -5350,7 +5350,7 @@
         --c-x: 10.360093;
         --c-y: -272.83517;
         --c-z: -133.48752;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -5369,7 +5369,7 @@
         --c-x: 9.9120455;
         --c-y: -282.47623;
         --c-z: -133.76572;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -5388,7 +5388,7 @@
         --c-x: 0;
         --c-y: -275.85416;
         --c-z: -135.31377;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -5407,7 +5407,7 @@
         --c-x: 0;
         --c-y: -273.8747;
         --c-z: -135.1598;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -5426,7 +5426,7 @@
         --c-x: 32.34283;
         --c-y: -281.60373;
         --c-z: -115.765335;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -5445,7 +5445,7 @@
         --c-x: 30.716541;
         --c-y: -279.97678;
         --c-z: -117.13774;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -5464,7 +5464,7 @@
         --c-x: 9.9120455;
         --c-y: -282.47623;
         --c-z: -133.76572;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -5483,7 +5483,7 @@
         --c-x: 11.46592;
         --c-y: -280.7256;
         --c-z: -132.58612;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -5502,7 +5502,7 @@
         --c-x: 11.773441;
         --c-y: -267.8667;
         --c-z: -132.85123;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -5521,7 +5521,7 @@
         --c-x: 12.887854;
         --c-y: -269.56528;
         --c-z: -131.88751;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -5540,7 +5540,7 @@
         --c-x: 30.075241;
         --c-y: -267.99182;
         --c-z: -118.13092;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -5559,7 +5559,7 @@
         --c-x: 29.00045;
         --c-y: -269.6754;
         --c-z: -118.928;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -5578,7 +5578,7 @@
         --c-x: 0;
         --c-y: -275.85416;
         --c-z: -135.31377;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -5597,7 +5597,7 @@
         --c-x: 10.360093;
         --c-y: -272.83517;
         --c-z: -133.48752;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -5616,7 +5616,7 @@
         --c-x: -29.00045;
         --c-y: -269.6754;
         --c-z: -118.928;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -5635,7 +5635,7 @@
         --c-x: -30.716541;
         --c-y: -279.97678;
         --c-z: -117.13774;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -5654,7 +5654,7 @@
         --c-x: 11.46592;
         --c-y: -280.7256;
         --c-z: -132.58612;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -5673,7 +5673,7 @@
         --c-x: 30.716541;
         --c-y: -279.97678;
         --c-z: -117.13774;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.62499994;
         --texture-a-t: 0.75;
@@ -5717,7 +5717,7 @@
         --c-x: 38.932533;
         --c-y: -61.41683;
         --c-z: 136.24852;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.25;
@@ -5736,7 +5736,7 @@
         --c-x: 19.301859;
         --c-y: -237.82095;
         --c-z: -88.999725;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.5;
@@ -5755,7 +5755,7 @@
         --c-x: 17.55785;
         --c-y: -252.29688;
         --c-z: -43.57761;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.5;
@@ -5774,7 +5774,7 @@
         --c-x: 13.517031;
         --c-y: -74.788216;
         --c-z: 111.75702;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.33333337;
@@ -5793,7 +5793,7 @@
         --c-x: 11.722165;
         --c-y: -62.45979;
         --c-z: 136.24852;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.33333337;
@@ -5812,7 +5812,7 @@
         --c-x: 0;
         --c-y: -174.81343;
         --c-z: 459.99783;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.25;
@@ -5831,7 +5831,7 @@
         --c-x: 6.278099;
         --c-y: -143.78978;
         --c-z: 113.12311;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.33333337;
@@ -5850,7 +5850,7 @@
         --c-x: -6.278099;
         --c-y: -143.78978;
         --c-z: 113.12311;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.25;
@@ -5869,7 +5869,7 @@
         --c-x: -31.219217;
         --c-y: -209.38658;
         --c-z: 108.22655;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.83205044;
         --texture-a-t: 0.33333337;
@@ -5888,7 +5888,7 @@
         --c-x: 31.219217;
         --c-y: -209.38658;
         --c-z: 108.22655;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.875;
         --texture-a-t: 0.25;
@@ -5907,7 +5907,7 @@
         --c-x: 17.55785;
         --c-y: -252.29688;
         --c-z: -43.57761;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.4166667;
@@ -5926,7 +5926,7 @@
         --c-x: -17.55785;
         --c-y: -252.29688;
         --c-z: -43.57761;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.4166667;
@@ -5945,7 +5945,7 @@
         --c-x: -28.559912;
         --c-y: -219.61575;
         --c-z: 78.74689;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.875;
         --texture-a-t: 0.4166667;
@@ -5964,7 +5964,7 @@
         --c-x: 28.559912;
         --c-y: -219.61575;
         --c-z: 78.74689;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.83205044;
         --texture-a-t: 0.33333337;
@@ -5983,7 +5983,7 @@
         --c-x: 14.965041;
         --c-y: -143.74503;
         --c-z: -29.147995;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.5;
@@ -6002,7 +6002,7 @@
         --c-x: -14.965041;
         --c-y: -143.74503;
         --c-z: -29.147995;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.4166667;
@@ -6021,7 +6021,7 @@
         --c-x: 9.4061;
         --c-y: -143.74503;
         --c-z: 72.03443;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.4166667;
@@ -6040,7 +6040,7 @@
         --c-x: -9.4061;
         --c-y: -143.74503;
         --c-z: 72.03443;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.33333337;
@@ -6059,7 +6059,7 @@
         --c-x: 9.030368;
         --c-y: -14.797802;
         --c-z: 84.42429;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.33333337;
@@ -6078,7 +6078,7 @@
         --c-x: 9.030368;
         --c-y: 2.198258;
         --c-z: 89.58967;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.33333337;
@@ -6097,7 +6097,7 @@
         --c-x: 35.590958;
         --c-y: -157.86946;
         --c-z: 43.60662;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.66794956;
         --texture-a-t: 0.33333337;
@@ -6116,7 +6116,7 @@
         --c-x: -51.189793;
         --c-y: -13.75484;
         --c-z: 84.66954;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.9166667;
@@ -6135,7 +6135,7 @@
         --c-x: -51.189793;
         --c-y: 3.24122;
         --c-z: 89.58967;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.9166667;
@@ -6154,7 +6154,7 @@
         --c-x: -31.357924;
         --c-y: -219.61575;
         --c-z: -29.30833;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.618516;
         --texture-a-t: 0.9220628;
@@ -6173,7 +6173,7 @@
         --c-x: 8.8527155;
         --c-y: -15.325841;
         --c-z: -94.27259;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.5;
@@ -6192,7 +6192,7 @@
         --c-x: 8.8527155;
         --c-y: -0.57018995;
         --c-z: -96.34024;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.5;
@@ -6211,7 +6211,7 @@
         --c-x: -8.8527155;
         --c-y: -0.57018995;
         --c-z: -58.89829;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.8333333;
@@ -6230,7 +6230,7 @@
         --c-x: -13.155913;
         --c-y: -95.86596;
         --c-z: -45.173347;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.8333334;
@@ -6249,7 +6249,7 @@
         --c-x: -46.997475;
         --c-y: 0.47277212;
         --c-z: -58.8983;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -6268,7 +6268,7 @@
         --c-x: -39.916058;
         --c-y: -93.67879;
         --c-z: -49.934868;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.8333333;
@@ -6287,7 +6287,7 @@
         --c-x: -46.997475;
         --c-y: -18.143007;
         --c-z: -79.97582;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.75;
@@ -6306,7 +6306,7 @@
         --c-x: -41.372906;
         --c-y: -94.288414;
         --c-z: -79.97582;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -6325,7 +6325,7 @@
         --c-x: -8.8527155;
         --c-y: -19.185968;
         --c-z: -79.97582;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.8333334;
@@ -6344,7 +6344,7 @@
         --c-x: -9.629895;
         --c-y: -90.306244;
         --c-z: -79.97582;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.75;
@@ -6363,7 +6363,7 @@
         --c-x: -11.722165;
         --c-y: -62.45979;
         --c-z: 136.24852;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 1;
@@ -6382,7 +6382,7 @@
         --c-x: 9.4061;
         --c-y: -143.74503;
         --c-z: 72.03443;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.33333337;
@@ -6401,7 +6401,7 @@
         --c-x: 35.590958;
         --c-y: -157.86946;
         --c-z: 43.60662;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.33333337;
@@ -6420,7 +6420,7 @@
         --c-x: 28.559912;
         --c-y: -219.61575;
         --c-z: 78.74689;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.33333337;
@@ -6439,7 +6439,7 @@
         --c-x: 47.40077;
         --c-y: -127.45535;
         --c-z: 109.48241;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.25;
@@ -6458,7 +6458,7 @@
         --c-x: 31.219217;
         --c-y: -209.38658;
         --c-z: 108.22655;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.25;
@@ -6477,7 +6477,7 @@
         --c-x: 3.0775826;
         --c-y: -128.11996;
         --c-z: 109.48241;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.33333337;
@@ -6496,7 +6496,7 @@
         --c-x: 6.278099;
         --c-y: -143.78978;
         --c-z: 113.12311;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.25;
@@ -6515,7 +6515,7 @@
         --c-x: -46.997475;
         --c-y: -14.282879;
         --c-z: -94.27259;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -6534,7 +6534,7 @@
         --c-x: -46.997475;
         --c-y: 0.47277212;
         --c-z: -96.34026;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -6553,7 +6553,7 @@
         --c-x: 8.8527155;
         --c-y: -19.185968;
         --c-z: -79.97582;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.5;
@@ -6572,7 +6572,7 @@
         --c-x: 9.629895;
         --c-y: -90.306244;
         --c-z: -79.97582;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.5;
@@ -6591,7 +6591,7 @@
         --c-x: 46.997475;
         --c-y: -18.143007;
         --c-z: -79.97582;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.4166667;
@@ -6610,7 +6610,7 @@
         --c-x: 41.372906;
         --c-y: -94.288414;
         --c-z: -79.97582;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.5;
@@ -6629,7 +6629,7 @@
         --c-x: 46.997475;
         --c-y: 0.47277212;
         --c-z: -58.8983;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.4166667;
@@ -6648,7 +6648,7 @@
         --c-x: 39.916058;
         --c-y: -93.67879;
         --c-z: -49.934868;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.4166667;
@@ -6667,7 +6667,7 @@
         --c-x: 8.8527155;
         --c-y: -0.57018995;
         --c-z: -58.89829;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.5;
@@ -6686,7 +6686,7 @@
         --c-x: 13.155913;
         --c-y: -95.86596;
         --c-z: -45.173347;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.4166667;
@@ -6705,7 +6705,7 @@
         --c-x: -13.517031;
         --c-y: -74.788216;
         --c-z: 111.75702;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.9166667;
@@ -6724,7 +6724,7 @@
         --c-x: -37.13767;
         --c-y: -75.68263;
         --c-z: 111.60994;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.9166667;
@@ -6743,7 +6743,7 @@
         --c-x: -3.0775826;
         --c-y: -128.11996;
         --c-z: 109.48241;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 1;
@@ -6762,7 +6762,7 @@
         --c-x: -6.278099;
         --c-y: -143.78978;
         --c-z: 113.12311;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 1;
@@ -6781,7 +6781,7 @@
         --c-x: -47.40077;
         --c-y: -127.45535;
         --c-z: 109.48241;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.9166667;
@@ -6800,7 +6800,7 @@
         --c-x: -28.559912;
         --c-y: -219.61575;
         --c-z: 78.74689;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.9166667;
@@ -6819,7 +6819,7 @@
         --c-x: -7.3314085;
         --c-y: -122.39474;
         --c-z: 53.47348;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 1;
@@ -6838,7 +6838,7 @@
         --c-x: -9.4061;
         --c-y: -143.74503;
         --c-z: 72.03443;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.9166667;
@@ -6857,7 +6857,7 @@
         --c-x: -11.722165;
         --c-y: -62.45979;
         --c-z: 136.24852;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 1;
@@ -6876,7 +6876,7 @@
         --c-x: -37.13767;
         --c-y: -75.68263;
         --c-z: 111.60994;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.9166667;
@@ -6895,7 +6895,7 @@
         --c-x: -38.932533;
         --c-y: -61.41683;
         --c-z: 136.24852;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.9166667;
@@ -6914,7 +6914,7 @@
         --c-x: 38.932533;
         --c-y: -61.41683;
         --c-z: 136.24852;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.25;
@@ -6933,7 +6933,7 @@
         --c-x: 37.13767;
         --c-y: -75.68263;
         --c-z: 111.60994;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.33333337;
@@ -6952,7 +6952,7 @@
         --c-x: 13.517031;
         --c-y: -74.788216;
         --c-z: 111.75702;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.33333337;
@@ -6971,7 +6971,7 @@
         --c-x: -9.030368;
         --c-y: 2.198258;
         --c-z: 59.37125;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 1;
@@ -6990,7 +6990,7 @@
         --c-x: -9.030368;
         --c-y: -12.264278;
         --c-z: 63.166874;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 1;
@@ -7009,7 +7009,7 @@
         --c-x: 51.189793;
         --c-y: -11.221316;
         --c-z: 63.412117;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.33333337;
@@ -7028,7 +7028,7 @@
         --c-x: 9.030368;
         --c-y: -12.264278;
         --c-z: 63.166874;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.33333337;
@@ -7047,7 +7047,7 @@
         --c-x: 51.189793;
         --c-y: 3.24122;
         --c-z: 89.58967;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.25;
@@ -7066,7 +7066,7 @@
         --c-x: 51.189793;
         --c-y: -13.75484;
         --c-z: 84.66954;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.25;
@@ -7085,7 +7085,7 @@
         --c-x: -9.030368;
         --c-y: -14.797802;
         --c-z: 84.42429;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.9166667;
@@ -7104,7 +7104,7 @@
         --c-x: -51.189793;
         --c-y: -13.75484;
         --c-z: 84.66954;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.9166667;
@@ -7123,7 +7123,7 @@
         --c-x: -51.189793;
         --c-y: 3.24122;
         --c-z: 89.58967;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 1;
@@ -7142,7 +7142,7 @@
         --c-x: -9.030368;
         --c-y: 2.198258;
         --c-z: 89.58967;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 1;
@@ -7161,7 +7161,7 @@
         --c-x: 9.030368;
         --c-y: 2.198258;
         --c-z: 89.58967;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.25;
@@ -7180,7 +7180,7 @@
         --c-x: 51.189793;
         --c-y: 3.24122;
         --c-z: 89.58967;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.25;
@@ -7199,7 +7199,7 @@
         --c-x: 51.189793;
         --c-y: -13.75484;
         --c-z: 84.66954;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.33333337;
@@ -7218,7 +7218,7 @@
         --c-x: 9.030368;
         --c-y: -14.797802;
         --c-z: 84.42429;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.33333337;
@@ -7237,7 +7237,7 @@
         --c-x: -9.030368;
         --c-y: 2.198258;
         --c-z: 89.58967;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 1;
@@ -7256,7 +7256,7 @@
         --c-x: -9.030368;
         --c-y: -14.797802;
         --c-z: 84.42429;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 1;
@@ -7275,7 +7275,7 @@
         --c-x: -51.189793;
         --c-y: -11.221316;
         --c-z: 63.412117;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 1;
@@ -7294,7 +7294,7 @@
         --c-x: -9.030368;
         --c-y: -12.264278;
         --c-z: 63.166874;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.9166667;
@@ -7313,7 +7313,7 @@
         --c-x: 51.189793;
         --c-y: 3.24122;
         --c-z: 59.37125;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.33333337;
@@ -7332,7 +7332,7 @@
         --c-x: 9.030368;
         --c-y: 2.198258;
         --c-z: 59.37125;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.25;
@@ -7351,7 +7351,7 @@
         --c-x: -51.189793;
         --c-y: -11.221316;
         --c-z: 63.412117;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.9166667;
@@ -7370,7 +7370,7 @@
         --c-x: -51.189793;
         --c-y: 3.24122;
         --c-z: 59.37125;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.9166667;
@@ -7389,7 +7389,7 @@
         --c-x: 9.030368;
         --c-y: -12.264278;
         --c-z: 63.166874;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.33333337;
@@ -7408,7 +7408,7 @@
         --c-x: 9.030368;
         --c-y: 2.198258;
         --c-z: 59.37125;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.33333337;
@@ -7427,7 +7427,7 @@
         --c-x: 51.189793;
         --c-y: 3.24122;
         --c-z: 59.37125;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.25;
@@ -7446,7 +7446,7 @@
         --c-x: 51.189793;
         --c-y: -11.221316;
         --c-z: 63.412117;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.25;
@@ -7465,7 +7465,7 @@
         --c-x: -9.030368;
         --c-y: -12.264278;
         --c-z: 63.166874;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.9166667;
@@ -7484,7 +7484,7 @@
         --c-x: -51.189793;
         --c-y: -11.221316;
         --c-z: 63.412117;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.9166667;
@@ -7503,7 +7503,7 @@
         --c-x: -51.189793;
         --c-y: 3.24122;
         --c-z: 59.37125;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 1;
@@ -7522,7 +7522,7 @@
         --c-x: -9.030368;
         --c-y: 2.198258;
         --c-z: 59.37125;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 1;
@@ -7541,7 +7541,7 @@
         --c-x: 9.030368;
         --c-y: 2.198258;
         --c-z: 59.37125;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.25;
@@ -7560,7 +7560,7 @@
         --c-x: 51.189793;
         --c-y: 3.24122;
         --c-z: 59.37125;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.25;
@@ -7579,7 +7579,7 @@
         --c-x: 30.83528;
         --c-y: -115.806496;
         --c-z: 127.008865;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.25;
@@ -7598,7 +7598,7 @@
         --c-x: -30.83528;
         --c-y: -115.806496;
         --c-z: 127.008865;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 1;
@@ -7617,7 +7617,7 @@
         --c-x: -38.932533;
         --c-y: -61.41683;
         --c-z: 136.24852;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 1;
@@ -7636,7 +7636,7 @@
         --c-x: -11.722165;
         --c-y: -62.45979;
         --c-z: 136.24852;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 1;
@@ -7655,7 +7655,7 @@
         --c-x: -13.517031;
         --c-y: -74.788216;
         --c-z: 111.75702;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 1;
@@ -7674,7 +7674,7 @@
         --c-x: 11.722165;
         --c-y: -62.45979;
         --c-z: 136.24852;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.25;
@@ -7693,7 +7693,7 @@
         --c-x: 38.932533;
         --c-y: -61.41683;
         --c-z: 136.24852;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.25;
@@ -7712,7 +7712,7 @@
         --c-x: 37.13767;
         --c-y: -75.68263;
         --c-z: 111.60994;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.25;
@@ -7731,7 +7731,7 @@
         --c-x: -43.146942;
         --c-y: -122.93841;
         --c-z: 53.38409;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.9166667;
@@ -7750,7 +7750,7 @@
         --c-x: -35.590958;
         --c-y: -157.86946;
         --c-z: 43.60662;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.9166667;
@@ -7769,7 +7769,7 @@
         --c-x: 35.590958;
         --c-y: -157.86946;
         --c-z: 43.60662;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.33333337;
@@ -7788,7 +7788,7 @@
         --c-x: 35.590958;
         --c-y: -157.86946;
         --c-z: 43.60662;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.4166667;
@@ -7807,7 +7807,7 @@
         --c-x: -14.965041;
         --c-y: -143.74503;
         --c-z: -29.147995;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.5;
         --texture-a-t: 0.9166667;
@@ -7826,7 +7826,7 @@
         --c-x: -46.997475;
         --c-y: -14.282879;
         --c-z: -94.27259;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.8333333;
@@ -7845,7 +7845,7 @@
         --c-x: -8.8527155;
         --c-y: -15.325841;
         --c-z: -94.27259;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -7864,7 +7864,7 @@
         --c-x: 46.997475;
         --c-y: 0.47277212;
         --c-z: -96.34026;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.5;
@@ -7883,7 +7883,7 @@
         --c-x: 8.8527155;
         --c-y: -0.57018995;
         --c-z: -96.34024;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.4166667;
@@ -7902,7 +7902,7 @@
         --c-x: 46.997475;
         --c-y: 0.47277212;
         --c-z: -96.34026;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.4166667;
@@ -7921,7 +7921,7 @@
         --c-x: 46.997475;
         --c-y: -14.282879;
         --c-z: -94.27259;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.4166667;
@@ -7940,7 +7940,7 @@
         --c-x: -8.8527155;
         --c-y: -15.325841;
         --c-z: -94.27259;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.75;
@@ -7959,7 +7959,7 @@
         --c-x: -46.997475;
         --c-y: -14.282879;
         --c-z: -94.27259;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.75;
@@ -7978,7 +7978,7 @@
         --c-x: -46.997475;
         --c-y: 0.47277212;
         --c-z: -96.34026;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.8333333;
@@ -7997,7 +7997,7 @@
         --c-x: -8.8527155;
         --c-y: -0.57018995;
         --c-z: -96.34024;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.8333333;
@@ -8016,7 +8016,7 @@
         --c-x: 8.8527155;
         --c-y: -0.57018995;
         --c-z: -96.34024;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.4166667;
@@ -8035,7 +8035,7 @@
         --c-x: 46.997475;
         --c-y: 0.47277212;
         --c-z: -96.34026;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.4166667;
@@ -8054,7 +8054,7 @@
         --c-x: 46.997475;
         --c-y: -14.282879;
         --c-z: -94.27259;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.5;
@@ -8073,7 +8073,7 @@
         --c-x: 8.8527155;
         --c-y: -15.325841;
         --c-z: -94.27259;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.5;
@@ -8092,7 +8092,7 @@
         --c-x: -8.8527155;
         --c-y: -0.57018995;
         --c-z: -96.34024;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.8333334;
@@ -8111,7 +8111,7 @@
         --c-x: -8.8527155;
         --c-y: -15.325841;
         --c-z: -94.27259;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.8333334;
@@ -8130,7 +8130,7 @@
         --c-x: 35.590958;
         --c-y: -157.86946;
         --c-z: 43.60662;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.4166667;
@@ -8149,7 +8149,7 @@
         --c-x: -31.357924;
         --c-y: -219.61575;
         --c-z: -29.30833;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.5;
         --texture-a-t: 0.9166667;
@@ -8168,7 +8168,7 @@
         --c-x: 28.559912;
         --c-y: -219.61575;
         --c-z: 78.74689;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.25;
@@ -8187,7 +8187,7 @@
         --c-x: -47.40077;
         --c-y: -127.45535;
         --c-z: 109.48241;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.618516;
         --texture-a-t: 0.9220628;
@@ -8206,7 +8206,7 @@
         --c-x: 16.023346;
         --c-y: -320.8637;
         --c-z: -60.43946;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.4166667;
@@ -8225,7 +8225,7 @@
         --c-x: -16.023346;
         --c-y: -320.8637;
         --c-z: -60.43946;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.4166667;
@@ -8244,7 +8244,7 @@
         --c-x: 0;
         --c-y: -174.81343;
         --c-z: 459.99783;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 1;
@@ -8263,7 +8263,7 @@
         --c-x: 0;
         --c-y: -174.81343;
         --c-z: 459.99783;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.25;
@@ -8282,7 +8282,7 @@
         --c-x: 0;
         --c-y: -174.81343;
         --c-z: 459.99783;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.875;
         --texture-a-t: 0.25;
@@ -8301,7 +8301,7 @@
         --c-x: -16.023346;
         --c-y: -320.8637;
         --c-z: -60.43946;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.875;
         --texture-a-t: 0.5;
@@ -8320,7 +8320,7 @@
         --c-x: 16.023346;
         --c-y: -320.8637;
         --c-z: -60.43946;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.875;
         --texture-a-t: 0.4166667;
@@ -8339,7 +8339,7 @@
         --c-x: -19.301859;
         --c-y: -237.82095;
         --c-z: -88.999725;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -8358,7 +8358,7 @@
         --c-x: 19.301859;
         --c-y: -237.82095;
         --c-z: -88.999725;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.5;
@@ -8377,7 +8377,7 @@
         --c-x: 49.26898;
         --c-y: -317.37985;
         --c-z: -74.66765;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -8396,7 +8396,7 @@
         --c-x: -17.55785;
         --c-y: -252.29688;
         --c-z: -43.57761;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.8333333;
@@ -8415,7 +8415,7 @@
         --c-x: -19.301859;
         --c-y: -237.82095;
         --c-z: -88.999725;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.8333333;
@@ -8434,7 +8434,7 @@
         --c-x: -19.301859;
         --c-y: -237.82095;
         --c-z: -88.999725;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.125;
         --texture-a-t: 0.5;
@@ -8453,7 +8453,7 @@
         --c-x: 19.301859;
         --c-y: -237.82095;
         --c-z: -88.999725;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -8472,7 +8472,7 @@
         --c-x: -22.001318;
         --c-y: -315.29117;
         --c-z: -114.64104;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -8491,7 +8491,7 @@
         --c-x: 22.001318;
         --c-y: -315.29117;
         --c-z: -114.64104;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -8510,7 +8510,7 @@
         --c-x: -75.86603;
         --c-y: -318.42447;
         --c-z: -60.552578;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -8529,7 +8529,7 @@
         --c-x: -15.042998;
         --c-y: -237.88745;
         --c-z: -137.70575;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -8548,7 +8548,7 @@
         --c-x: 15.042998;
         --c-y: -237.88745;
         --c-z: -137.70575;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -8567,7 +8567,7 @@
         --c-x: -15.042998;
         --c-y: -258.6908;
         --c-z: -147.3466;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -8586,7 +8586,7 @@
         --c-x: 15.042998;
         --c-y: -258.6908;
         --c-z: -147.3466;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -8605,7 +8605,7 @@
         --c-x: -8.292645;
         --c-y: -269.63916;
         --c-z: -130.01677;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -8624,7 +8624,7 @@
         --c-x: 8.292645;
         --c-y: -269.63916;
         --c-z: -130.01677;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -8643,7 +8643,7 @@
         --c-x: -75.86603;
         --c-y: -318.42447;
         --c-z: -60.552578;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -8662,7 +8662,7 @@
         --c-x: -19.301859;
         --c-y: -237.82095;
         --c-z: -88.999725;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -8681,7 +8681,7 @@
         --c-x: -17.55785;
         --c-y: -252.29688;
         --c-z: -43.57761;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.8333333;
@@ -8700,7 +8700,7 @@
         --c-x: -44.01472;
         --c-y: -288.24387;
         --c-z: -73.88439;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -8719,7 +8719,7 @@
         --c-x: -22.001318;
         --c-y: -315.29117;
         --c-z: -114.64104;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -8738,7 +8738,7 @@
         --c-x: -8.292645;
         --c-y: -269.63916;
         --c-z: -130.01677;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -8757,7 +8757,7 @@
         --c-x: -15.042998;
         --c-y: -258.6908;
         --c-z: -147.3466;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -8776,7 +8776,7 @@
         --c-x: -15.042998;
         --c-y: -237.88745;
         --c-z: -137.70575;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -8795,7 +8795,7 @@
         --c-x: -58.22705;
         --c-y: -279.4685;
         --c-z: -66.61792;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -8814,7 +8814,7 @@
         --c-x: -49.26898;
         --c-y: -317.37985;
         --c-z: -74.66765;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -8833,7 +8833,7 @@
         --c-x: 17.55785;
         --c-y: -252.29688;
         --c-z: -43.57761;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.4166667;
@@ -8852,7 +8852,7 @@
         --c-x: 19.301859;
         --c-y: -237.82095;
         --c-z: -88.999725;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.5;
@@ -8871,7 +8871,7 @@
         --c-x: 15.042998;
         --c-y: -237.88745;
         --c-z: -137.70575;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.5;
@@ -8890,7 +8890,7 @@
         --c-x: 15.042998;
         --c-y: -258.6908;
         --c-z: -147.3466;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.5;
@@ -8909,7 +8909,7 @@
         --c-x: 8.292645;
         --c-y: -269.63916;
         --c-z: -130.01677;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.5;
@@ -8928,7 +8928,7 @@
         --c-x: 22.001318;
         --c-y: -315.29117;
         --c-z: -114.64104;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.5;
@@ -8947,7 +8947,7 @@
         --c-x: 44.01472;
         --c-y: -288.24387;
         --c-z: -73.88439;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.4166667;
@@ -8966,7 +8966,7 @@
         --c-x: -49.26898;
         --c-y: -317.37985;
         --c-z: -74.66765;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -8985,7 +8985,7 @@
         --c-x: -58.65129;
         --c-y: -310.60934;
         --c-z: -93.01236;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -9004,7 +9004,7 @@
         --c-x: -17.55785;
         --c-y: -252.29688;
         --c-z: -43.57761;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.8333333;
@@ -9023,7 +9023,7 @@
         --c-x: 44.01472;
         --c-y: -288.24387;
         --c-z: -73.88439;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.4166667;
@@ -9042,7 +9042,7 @@
         --c-x: 22.001318;
         --c-y: -315.29117;
         --c-z: -114.64104;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.4166667;
@@ -9061,7 +9061,7 @@
         --c-x: -44.01472;
         --c-y: -288.24387;
         --c-z: -73.88439;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -9080,7 +9080,7 @@
         --c-x: 58.22705;
         --c-y: -279.4685;
         --c-z: -66.61792;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -9099,7 +9099,7 @@
         --c-x: 58.22705;
         --c-y: -279.4685;
         --c-z: -66.61792;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -9118,7 +9118,7 @@
         --c-x: 22.84966;
         --c-y: -279.26196;
         --c-z: -72.43358;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -9137,7 +9137,7 @@
         --c-x: 49.26898;
         --c-y: -317.37985;
         --c-z: -74.66765;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -9156,7 +9156,7 @@
         --c-x: 23.452366;
         --c-y: -308.58295;
         --c-z: -70.494484;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -9175,7 +9175,7 @@
         --c-x: -22.451925;
         --c-y: -293.31223;
         --c-z: -110.05487;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -9194,7 +9194,7 @@
         --c-x: -28.448278;
         --c-y: -303.83368;
         --c-z: -103.9185;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -9213,7 +9213,7 @@
         --c-x: -28.448278;
         --c-y: -303.83368;
         --c-z: -103.9185;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -9232,7 +9232,7 @@
         --c-x: -22.451925;
         --c-y: -293.31223;
         --c-z: -110.05487;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -9251,7 +9251,7 @@
         --c-x: -22.451925;
         --c-y: -293.31223;
         --c-z: -110.05487;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -9270,7 +9270,7 @@
         --c-x: -10.265691;
         --c-y: -307.26328;
         --c-z: -116.26866;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -9289,7 +9289,7 @@
         --c-x: -10.265691;
         --c-y: -307.26328;
         --c-z: -116.26866;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -9308,7 +9308,7 @@
         --c-x: -20.868504;
         --c-y: -314.9627;
         --c-z: -111.75847;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -9327,7 +9327,7 @@
         --c-x: -20.868504;
         --c-y: -314.9627;
         --c-z: -111.75847;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -9346,7 +9346,7 @@
         --c-x: -28.448278;
         --c-y: -303.83368;
         --c-z: -103.9185;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -9365,7 +9365,7 @@
         --c-x: 22.451925;
         --c-y: -293.31223;
         --c-z: -110.05487;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -9384,7 +9384,7 @@
         --c-x: 10.265691;
         --c-y: -307.26328;
         --c-z: -116.26866;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -9403,7 +9403,7 @@
         --c-x: 28.448278;
         --c-y: -303.83368;
         --c-z: -103.9185;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -9422,7 +9422,7 @@
         --c-x: 37.310276;
         --c-y: -314.89413;
         --c-z: -86.48274;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -9441,7 +9441,7 @@
         --c-x: 22.451925;
         --c-y: -293.31223;
         --c-z: -110.05487;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -9460,7 +9460,7 @@
         --c-x: 22.078308;
         --c-y: -310.2827;
         --c-z: -64.58116;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -9479,7 +9479,7 @@
         --c-x: 10.265691;
         --c-y: -307.26328;
         --c-z: -116.26866;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -9498,7 +9498,7 @@
         --c-x: 12.214656;
         --c-y: -323.6175;
         --c-z: -75.503006;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -9517,7 +9517,7 @@
         --c-x: 20.868504;
         --c-y: -314.9627;
         --c-z: -111.75847;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -9536,7 +9536,7 @@
         --c-x: 27.198502;
         --c-y: -332.56503;
         --c-z: -73.0392;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -9555,7 +9555,7 @@
         --c-x: 13.155913;
         --c-y: -95.86596;
         --c-z: -45.173347;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.5;
@@ -9574,7 +9574,7 @@
         --c-x: 14.965041;
         --c-y: -143.74503;
         --c-z: -29.147995;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.37499994;
         --texture-a-t: 0.41666675;
@@ -9593,7 +9593,7 @@
         --c-x: 39.916058;
         --c-y: -93.67879;
         --c-z: -49.934868;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.37499994;
         --texture-a-t: 0.41666675;
@@ -9612,7 +9612,7 @@
         --c-x: 31.357924;
         --c-y: -219.61575;
         --c-z: -29.30833;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.41666675;
@@ -9631,7 +9631,7 @@
         --c-x: 41.372906;
         --c-y: -94.288414;
         --c-z: -79.97582;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.41666675;
@@ -9650,7 +9650,7 @@
         --c-x: 40.934788;
         --c-y: -181.43806;
         --c-z: -79.97582;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.5;
@@ -9669,7 +9669,7 @@
         --c-x: 9.629895;
         --c-y: -90.306244;
         --c-z: -79.97582;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.5;
@@ -9688,7 +9688,7 @@
         --c-x: 10.116118;
         --c-y: -143.74503;
         --c-z: -79.97582;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.5;
@@ -9707,7 +9707,7 @@
         --c-x: -9.629895;
         --c-y: -90.306244;
         --c-z: -79.97582;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.8333334;
@@ -9726,7 +9726,7 @@
         --c-x: -10.116118;
         --c-y: -143.74503;
         --c-z: -79.97582;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.75;
@@ -9745,7 +9745,7 @@
         --c-x: -41.372906;
         --c-y: -94.288414;
         --c-z: -79.97582;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.75;
@@ -9764,7 +9764,7 @@
         --c-x: -40.934788;
         --c-y: -181.43806;
         --c-z: -79.97582;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -9783,7 +9783,7 @@
         --c-x: -39.916058;
         --c-y: -93.67879;
         --c-z: -49.934868;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -9802,7 +9802,7 @@
         --c-x: -31.357924;
         --c-y: -219.61575;
         --c-z: -29.30833;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.8333333;
@@ -9821,7 +9821,7 @@
         --c-x: -13.155913;
         --c-y: -95.86596;
         --c-z: -45.173347;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.8333333;
@@ -9840,7 +9840,7 @@
         --c-x: -14.965041;
         --c-y: -143.74503;
         --c-z: -29.147995;
-        --background-color: rgba(123, 126, 144, 255);
+        --texture-background-color: rgba(123, 126, 144, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.375;
         --texture-a-t: 0.8333334;
@@ -9859,7 +9859,7 @@
         --c-x: -0.7661566;
         --c-y: -238.31998;
         --c-z: -40.29882;
-        --background-color: rgba(51, 43, 25, 255);
+        --texture-background-color: rgba(51, 43, 25, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -9878,7 +9878,7 @@
         --c-x: -23.601004;
         --c-y: -359.79984;
         --c-z: -72.1737;
-        --background-color: rgba(51, 43, 25, 255);
+        --texture-background-color: rgba(51, 43, 25, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -9897,7 +9897,7 @@
         --c-x: -30.80233;
         --c-y: -326.23047;
         --c-z: -32.843147;
-        --background-color: rgba(51, 43, 25, 255);
+        --texture-background-color: rgba(51, 43, 25, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -9916,7 +9916,7 @@
         --c-x: -23.601004;
         --c-y: -338.1833;
         --c-z: -137.61523;
-        --background-color: rgba(51, 43, 25, 255);
+        --texture-background-color: rgba(51, 43, 25, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -9935,7 +9935,7 @@
         --c-x: -23.601004;
         --c-y: -359.79984;
         --c-z: -72.1737;
-        --background-color: rgba(51, 43, 25, 255);
+        --texture-background-color: rgba(51, 43, 25, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -9954,7 +9954,7 @@
         --c-x: -56.718266;
         --c-y: -311.98715;
         --c-z: -85.137665;
-        --background-color: rgba(51, 43, 25, 255);
+        --texture-background-color: rgba(51, 43, 25, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -9973,7 +9973,7 @@
         --c-x: -44.835567;
         --c-y: -294.69626;
         --c-z: -141.9486;
-        --background-color: rgba(51, 43, 25, 255);
+        --texture-background-color: rgba(51, 43, 25, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -9992,7 +9992,7 @@
         --c-x: -56.718266;
         --c-y: -311.98715;
         --c-z: -85.137665;
-        --background-color: rgba(51, 43, 25, 255);
+        --texture-background-color: rgba(51, 43, 25, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -10011,7 +10011,7 @@
         --c-x: 15.758197;
         --c-y: -307.12177;
         --c-z: -77.74457;
-        --background-color: rgba(51, 43, 25, 255);
+        --texture-background-color: rgba(51, 43, 25, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -10030,7 +10030,7 @@
         --c-x: 15.758197;
         --c-y: -307.12177;
         --c-z: -77.74457;
-        --background-color: rgba(51, 43, 25, 255);
+        --texture-background-color: rgba(51, 43, 25, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -10049,7 +10049,7 @@
         --c-x: 15.758197;
         --c-y: -307.12177;
         --c-z: -77.74457;
-        --background-color: rgba(51, 43, 25, 255);
+        --texture-background-color: rgba(51, 43, 25, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -10068,7 +10068,7 @@
         --c-x: -0.7661566;
         --c-y: -238.31998;
         --c-z: -40.29882;
-        --background-color: rgba(51, 43, 25, 255);
+        --texture-background-color: rgba(51, 43, 25, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -10087,7 +10087,7 @@
         --c-x: -28.568092;
         --c-y: -296.11685;
         --c-z: -114.968575;
-        --background-color: rgba(51, 43, 25, 255);
+        --texture-background-color: rgba(51, 43, 25, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -10106,7 +10106,7 @@
         --c-x: 9.989782;
         --c-y: -295.2319;
         --c-z: -126.3085;
-        --background-color: rgba(51, 43, 25, 255);
+        --texture-background-color: rgba(51, 43, 25, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -10125,7 +10125,7 @@
         --c-x: -58.22705;
         --c-y: -279.4685;
         --c-z: -66.61792;
-        --background-color: rgba(255, 147, 176, 255);
+        --texture-background-color: rgba(255, 147, 176, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -10144,7 +10144,7 @@
         --c-x: 22.84966;
         --c-y: -279.26196;
         --c-z: -72.43358;
-        --background-color: rgba(255, 147, 176, 255);
+        --texture-background-color: rgba(255, 147, 176, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -10163,7 +10163,7 @@
         --c-x: 58.22705;
         --c-y: -279.4685;
         --c-z: -66.61792;
-        --background-color: rgba(255, 147, 176, 255);
+        --texture-background-color: rgba(255, 147, 176, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -10182,7 +10182,7 @@
         --c-x: -58.22705;
         --c-y: -279.4685;
         --c-z: -66.61792;
-        --background-color: rgba(255, 147, 176, 255);
+        --texture-background-color: rgba(255, 147, 176, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -10201,7 +10201,7 @@
         --c-x: -22.84966;
         --c-y: -279.26196;
         --c-z: -72.43358;
-        --background-color: rgba(255, 147, 176, 255);
+        --texture-background-color: rgba(255, 147, 176, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -10220,7 +10220,7 @@
         --c-x: 58.22705;
         --c-y: -279.4685;
         --c-z: -66.61792;
-        --background-color: rgba(255, 147, 176, 255);
+        --texture-background-color: rgba(255, 147, 176, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -10239,7 +10239,7 @@
         --c-x: -29.499382;
         --c-y: -329.1662;
         --c-z: -44.315975;
-        --background-color: rgba(235, 222, 175, 255);
+        --texture-background-color: rgba(235, 222, 175, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -10258,7 +10258,7 @@
         --c-x: -29.499382;
         --c-y: -329.1662;
         --c-z: -44.315975;
-        --background-color: rgba(235, 222, 175, 255);
+        --texture-background-color: rgba(235, 222, 175, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -10277,7 +10277,7 @@
         --c-x: -29.499382;
         --c-y: -329.1662;
         --c-z: -44.315975;
-        --background-color: rgba(235, 222, 175, 255);
+        --texture-background-color: rgba(235, 222, 175, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -10296,7 +10296,7 @@
         --c-x: -29.499382;
         --c-y: -329.1662;
         --c-z: -44.315975;
-        --background-color: rgba(235, 222, 175, 255);
+        --texture-background-color: rgba(235, 222, 175, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -10315,7 +10315,7 @@
         --c-x: 22.078308;
         --c-y: -310.2827;
         --c-z: -64.58116;
-        --background-color: rgba(235, 222, 175, 255);
+        --texture-background-color: rgba(235, 222, 175, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -10334,7 +10334,7 @@
         --c-x: 12.214656;
         --c-y: -323.6175;
         --c-z: -75.503006;
-        --background-color: rgba(235, 222, 175, 255);
+        --texture-background-color: rgba(235, 222, 175, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -10353,7 +10353,7 @@
         --c-x: 27.198502;
         --c-y: -332.56503;
         --c-z: -73.0392;
-        --background-color: rgba(235, 222, 175, 255);
+        --texture-background-color: rgba(235, 222, 175, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -10372,7 +10372,7 @@
         --c-x: 37.310276;
         --c-y: -314.89413;
         --c-z: -86.48274;
-        --background-color: rgba(235, 222, 175, 255);
+        --texture-background-color: rgba(235, 222, 175, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0;
         --texture-a-t: 1;
@@ -10391,7 +10391,7 @@
         --c-x: -30.152317;
         --c-y: -272.46765;
         --c-z: -113.26934;
-        --background-color: rgba(255, 255, 255, 255);
+        --texture-background-color: rgba(255, 255, 255, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -10410,7 +10410,7 @@
         --c-x: -31.841887;
         --c-y: -293.58096;
         --c-z: -109.839806;
-        --background-color: rgba(255, 255, 255, 255);
+        --texture-background-color: rgba(255, 255, 255, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -10429,7 +10429,7 @@
         --c-x: 30.152317;
         --c-y: -272.46765;
         --c-z: -113.26934;
-        --background-color: rgba(255, 255, 255, 255);
+        --texture-background-color: rgba(255, 255, 255, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -10448,7 +10448,7 @@
         --c-x: 15.35035;
         --c-y: -268.3363;
         --c-z: -125.396515;
-        --background-color: rgba(255, 255, 255, 255);
+        --texture-background-color: rgba(255, 255, 255, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -10467,7 +10467,7 @@
         --c-x: -30.312363;
         --c-y: -281.60507;
         --c-z: -112.703156;
-        --background-color: rgba(10, 43, 62, 255);
+        --texture-background-color: rgba(10, 43, 62, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.62499994;
         --texture-a-t: 0.75;
@@ -10486,7 +10486,7 @@
         --c-x: -20.425308;
         --c-y: -292.5474;
         --c-z: -119.44593;
-        --background-color: rgba(10, 43, 62, 255);
+        --texture-background-color: rgba(10, 43, 62, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -10505,7 +10505,7 @@
         --c-x: -20.425308;
         --c-y: -292.5474;
         --c-z: -119.44593;
-        --background-color: rgba(10, 43, 62, 255);
+        --texture-background-color: rgba(10, 43, 62, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.62500006;
         --texture-a-t: 0.75;
@@ -10524,7 +10524,7 @@
         --c-x: -14.543208;
         --c-y: -280.4322;
         --c-z: -125.30285;
-        --background-color: rgba(10, 43, 62, 255);
+        --texture-background-color: rgba(10, 43, 62, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -10543,7 +10543,7 @@
         --c-x: -14.543208;
         --c-y: -280.4322;
         --c-z: -125.30285;
-        --background-color: rgba(10, 43, 62, 255);
+        --texture-background-color: rgba(10, 43, 62, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -10562,7 +10562,7 @@
         --c-x: -23.523256;
         --c-y: -269.73267;
         --c-z: -119.25404;
-        --background-color: rgba(10, 43, 62, 255);
+        --texture-background-color: rgba(10, 43, 62, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -10581,7 +10581,7 @@
         --c-x: -23.523256;
         --c-y: -269.73267;
         --c-z: -119.25404;
-        --background-color: rgba(10, 43, 62, 255);
+        --texture-background-color: rgba(10, 43, 62, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.62500006;
         --texture-a-t: 0.75;
@@ -10600,7 +10600,7 @@
         --c-x: -30.312363;
         --c-y: -281.60507;
         --c-z: -112.703156;
-        --background-color: rgba(10, 43, 62, 255);
+        --texture-background-color: rgba(10, 43, 62, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -10619,7 +10619,7 @@
         --c-x: 30.312363;
         --c-y: -281.60507;
         --c-z: -112.703156;
-        --background-color: rgba(10, 43, 62, 255);
+        --texture-background-color: rgba(10, 43, 62, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -10638,7 +10638,7 @@
         --c-x: 26.284403;
         --c-y: -281.27048;
         --c-z: -115.92499;
-        --background-color: rgba(10, 43, 62, 255);
+        --texture-background-color: rgba(10, 43, 62, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -10657,7 +10657,7 @@
         --c-x: 20.425308;
         --c-y: -292.5474;
         --c-z: -119.44593;
-        --background-color: rgba(10, 43, 62, 255);
+        --texture-background-color: rgba(10, 43, 62, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -10676,7 +10676,7 @@
         --c-x: 20.861858;
         --c-y: -289.4177;
         --c-z: -119.410446;
-        --background-color: rgba(10, 43, 62, 255);
+        --texture-background-color: rgba(10, 43, 62, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -10695,7 +10695,7 @@
         --c-x: 14.543208;
         --c-y: -280.4322;
         --c-z: -125.30285;
-        --background-color: rgba(10, 43, 62, 255);
+        --texture-background-color: rgba(10, 43, 62, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -10714,7 +10714,7 @@
         --c-x: 18.462616;
         --c-y: -280.79932;
         --c-z: -122.16371;
-        --background-color: rgba(10, 43, 62, 255);
+        --texture-background-color: rgba(10, 43, 62, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -10733,7 +10733,7 @@
         --c-x: 23.523256;
         --c-y: -269.73267;
         --c-z: -119.25404;
-        --background-color: rgba(10, 43, 62, 255);
+        --texture-background-color: rgba(10, 43, 62, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -10752,7 +10752,7 @@
         --c-x: 23.227688;
         --c-y: -272.8201;
         --c-z: -119.18211;
-        --background-color: rgba(10, 43, 62, 255);
+        --texture-background-color: rgba(10, 43, 62, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -10771,7 +10771,7 @@
         --c-x: -23.227688;
         --c-y: -272.8201;
         --c-z: -119.18211;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -10790,7 +10790,7 @@
         --c-x: -26.284403;
         --c-y: -281.27048;
         --c-z: -115.92499;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.62500006;
         --texture-a-t: 0.75;
@@ -10809,7 +10809,7 @@
         --c-x: 23.227688;
         --c-y: -272.8201;
         --c-z: -119.18211;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.62499994;
         --texture-a-t: 0.75;
@@ -10828,7 +10828,7 @@
         --c-x: 18.462616;
         --c-y: -280.79932;
         --c-z: -122.16371;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.62500006;
         --texture-a-t: 0.75;
@@ -10847,7 +10847,7 @@
         --c-x: -10.360093;
         --c-y: -272.83517;
         --c-z: -133.48752;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -10866,7 +10866,7 @@
         --c-x: -10.852976;
         --c-y: -270.7367;
         --c-z: -133.28723;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -10885,7 +10885,7 @@
         --c-x: -32.34283;
         --c-y: -281.60373;
         --c-z: -115.765335;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.62499994;
         --texture-a-t: 0.75;
@@ -10904,7 +10904,7 @@
         --c-x: -9.9120455;
         --c-y: -282.47623;
         --c-z: -133.76572;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -10923,7 +10923,7 @@
         --c-x: -9.9120455;
         --c-y: -282.47623;
         --c-z: -133.76572;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.62499994;
         --texture-a-t: 0.75;
@@ -10942,7 +10942,7 @@
         --c-x: -11.773441;
         --c-y: -267.8667;
         --c-z: -132.85123;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -10961,7 +10961,7 @@
         --c-x: -11.773441;
         --c-y: -267.8667;
         --c-z: -132.85123;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -10980,7 +10980,7 @@
         --c-x: -30.075241;
         --c-y: -267.99182;
         --c-z: -118.13092;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -10999,7 +10999,7 @@
         --c-x: -30.075241;
         --c-y: -267.99182;
         --c-z: -118.13092;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -11018,7 +11018,7 @@
         --c-x: -32.34283;
         --c-y: -281.60373;
         --c-z: -115.765335;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -11037,7 +11037,7 @@
         --c-x: 10.360093;
         --c-y: -272.83517;
         --c-z: -133.48752;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -11056,7 +11056,7 @@
         --c-x: 9.9120455;
         --c-y: -282.47623;
         --c-z: -133.76572;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -11075,7 +11075,7 @@
         --c-x: 0;
         --c-y: -275.85416;
         --c-z: -135.31377;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -11094,7 +11094,7 @@
         --c-x: 0;
         --c-y: -273.8747;
         --c-z: -135.1598;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -11113,7 +11113,7 @@
         --c-x: 32.34283;
         --c-y: -281.60373;
         --c-z: -115.765335;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -11132,7 +11132,7 @@
         --c-x: 30.716541;
         --c-y: -279.97678;
         --c-z: -117.13774;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -11151,7 +11151,7 @@
         --c-x: 9.9120455;
         --c-y: -282.47623;
         --c-z: -133.76572;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -11170,7 +11170,7 @@
         --c-x: 11.46592;
         --c-y: -280.7256;
         --c-z: -132.58612;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -11189,7 +11189,7 @@
         --c-x: 11.773441;
         --c-y: -267.8667;
         --c-z: -132.85123;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -11208,7 +11208,7 @@
         --c-x: 12.887854;
         --c-y: -269.56528;
         --c-z: -131.88751;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -11227,7 +11227,7 @@
         --c-x: 30.075241;
         --c-y: -267.99182;
         --c-z: -118.13092;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -11246,7 +11246,7 @@
         --c-x: 29.00045;
         --c-y: -269.6754;
         --c-z: -118.928;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -11265,7 +11265,7 @@
         --c-x: 0;
         --c-y: -275.85416;
         --c-z: -135.31377;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -11284,7 +11284,7 @@
         --c-x: 10.360093;
         --c-y: -272.83517;
         --c-z: -133.48752;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -11303,7 +11303,7 @@
         --c-x: -29.00045;
         --c-y: -269.6754;
         --c-z: -118.928;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -11322,7 +11322,7 @@
         --c-x: -30.716541;
         --c-y: -279.97678;
         --c-z: -117.13774;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -11341,7 +11341,7 @@
         --c-x: 11.46592;
         --c-y: -280.7256;
         --c-z: -132.58612;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.625;
         --texture-a-t: 0.75;
@@ -11360,7 +11360,7 @@
         --c-x: 30.716541;
         --c-y: -279.97678;
         --c-z: -117.13774;
-        --background-color: rgba(0, 0, 0, 255);
+        --texture-background-color: rgba(0, 0, 0, 255);
         --texture-image: url(texture.webp);
         --texture-a-s: 0.62499994;
         --texture-a-t: 0.75;
