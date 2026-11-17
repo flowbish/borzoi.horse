@@ -10,7 +10,7 @@ icon = "icon.png"
 
 ## Sign my guestbook
 
-### go to [THE GUESTBOOK](/guestbook) and SIGN IT!!!
+go to [THE GUESTBOOK](/guestbook) and SIGN IT!!!
 
 ## Look at my blog
 
