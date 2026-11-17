@@ -8,6 +8,10 @@ icon = "icon.png"
 
 # WELCOME TO MY HORSE !!!!!!!!
 
+## Sign my guestbook
+
+### go to [THE GUESTBOOK](/guestbook) and SIGN IT!!!
+
 ## Look at my blog
 
 wow, a blog is a real thing! this one is written by a real people: [blog](/blog)
@@ -17,10 +21,6 @@ contains: posts about horses, and biking (basically horses), and sometimes eatin
 ## Look at my sonas
 
 Over here at [my refsheets](/refs)! mostly about a dog that's mostly a horse
-
-## Sign my guestbook
-
-go to [THE GUESTBOOK](/guestbook) and SIGN IT!!!
 
 ## Pictures of my minecraft horses!!!
 
