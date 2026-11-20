@@ -11,47 +11,6 @@ This is [Iris](https://ink.horse/refs/iris), wow so cool! Look at the fops spin 
 {% </rendering> %}
 </div>
 
-<style>
-#iriscontainer {
-  width: 100%;
-  height: 50%;
-  position: absolute;
-  animation: bounce linear 17s infinite alternate;
-  #iris {
-    width: 400px;
-    animation: toRight linear 6.8s infinite alternate;
-  }
-}
-
-@keyframes bounce {
-  0% {
-    transform: translateY(-100%);
-  }
-  48% {
-  }
-  50% {
-    transform: translateY(100%);
-  }
-  52% {
-  }
-  100% {
-    transform: translateY(-100%);
-  }
-}
-
-@keyframes toRight {
-
-  0% {
-    transform: translateX(-100%);
-
-  }
-
-  100% {
-    transform: translateX(100%);
-  }
-}
-</style>
-
 <div class="theme-selector">
     <p>Also this looks better with the dark themes:</p>
     <button onclick="set_theme('nether')"><img src="/minecraft-netherrack.jpg" alt="select netherrack theme"></button>
