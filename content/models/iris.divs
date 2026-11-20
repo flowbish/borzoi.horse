@@ -20,7 +20,7 @@
       rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
       scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
   ">
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -29.652023;
         --a-y: -24.638056;
         --a-z: -0.0000012961311;
@@ -39,7 +39,7 @@
         --texture-c-s: 2.2270336;
         --texture-c-t: -6.408135;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -32.586006;
         --a-y: -16.451418;
         --a-z: -58.80622;
@@ -58,7 +58,7 @@
         --texture-c-s: 0.5;
         --texture-c-t: -6.408135;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 41.037895;
         --a-y: 6.340987;
         --a-z: 0.0000017938232;
@@ -77,7 +77,7 @@
         --texture-c-s: 0.5;
         --texture-c-t: 0.5;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 41.037895;
         --a-y: 6.340987;
         --a-z: 0.0000017938232;
@@ -96,7 +96,7 @@
         --texture-c-s: -1.2270337;
         --texture-c-t: 2.2270336;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 32.58601;
         --a-y: -16.451418;
         --a-z: -58.80622;
@@ -115,7 +115,7 @@
         --texture-c-s: 2.2270336;
         --texture-c-t: 2.2270336;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 29.652023;
         --a-y: -18.131325;
         --a-z: 0.0000012961311;
@@ -134,7 +134,7 @@
         --texture-c-s: 0.5;
         --texture-c-t: 2.2270336;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -0.000003330817;
         --a-y: -0.16574264;
         --a-z: 76.504776;
@@ -153,7 +153,7 @@
         --texture-c-s: 0.5;
         --texture-c-t: -2.9540675;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -0.000003330817;
         --a-y: -0.16574264;
         --a-z: 76.504776;
@@ -172,7 +172,7 @@
         --texture-c-s: -1.2270337;
         --texture-c-t: -1.2270336;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -41.037895;
         --a-y: -0.16574264;
         --a-z: -0.0000017938232;
@@ -191,7 +191,7 @@
         --texture-c-s: 0.5;
         --texture-c-t: -6.408135;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -41.037895;
         --a-y: -0.16574264;
         --a-z: -0.0000017938232;
@@ -210,7 +210,7 @@
         --texture-c-s: -1.2270337;
         --texture-c-t: -4.6811013;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -42.61011;
         --a-y: 56.00177;
         --a-z: 72.037865;
@@ -229,7 +229,7 @@
         --texture-c-s: -1.2270337;
         --texture-c-t: -2.0905507;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -0.000002708352;
         --a-y: 31.737486;
         --a-z: 62.264442;
@@ -248,7 +248,7 @@
         --texture-c-s: 0.5;
         --texture-c-t: -2.9540675;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -41.501167;
         --a-y: 7.324493;
         --a-z: 74.89493;
@@ -267,7 +267,7 @@
         --texture-c-s: 0.009311514;
         --texture-c-t: -2.9540677;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 50.25281;
         --a-y: 33.655655;
         --a-z: 77.94871;
@@ -286,7 +286,7 @@
         --texture-c-s: 0.5;
         --texture-c-t: 0.5;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -0.000002708352;
         --a-y: 31.737486;
         --a-z: 62.264442;
@@ -305,7 +305,7 @@
         --texture-c-s: -1.2270337;
         --texture-c-t: -0.3635168;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 30.82518;
         --a-y: 38.53948;
         --a-z: 66.63815;
@@ -324,7 +324,7 @@
         --texture-c-s: -1.2270336;
         --texture-c-t: -0.118172646;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 55.035313;
         --a-y: 56.001766;
         --a-z: 57.50101;
@@ -343,7 +343,7 @@
         --texture-c-s: -1.2270337;
         --texture-c-t: 1.3635168;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 35.179913;
         --a-y: 31.737486;
         --a-z: 0.0000015377628;
@@ -362,7 +362,7 @@
         --texture-c-s: 0.5;
         --texture-c-t: 0.5;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 41.50116;
         --a-y: 7.324493;
         --a-z: 74.89493;
@@ -381,7 +381,7 @@
         --texture-c-s: 0.0093114525;
         --texture-c-t: 0.5;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 50.25282;
         --a-y: 33.655655;
         --a-z: -77.9487;
@@ -400,7 +400,7 @@
         --texture-c-s: 0.5;
         --texture-c-t: 3.9540675;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 35.179913;
         --a-y: 31.737486;
         --a-z: 0.0000015377628;
@@ -419,7 +419,7 @@
         --texture-c-s: -1.2270337;
         --texture-c-t: 3.0905507;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 48.181778;
         --a-y: 38.539467;
         --a-z: -46.33182;
@@ -438,7 +438,7 @@
         --texture-c-s: -1.2270336;
         --texture-c-t: 3.3358948;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -55.035324;
         --a-y: 56.00176;
         --a-z: -57.501007;
@@ -457,7 +457,7 @@
         --texture-c-s: -1.2270337;
         --texture-c-t: -5.544618;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -35.179913;
         --a-y: 31.737486;
         --a-z: -0.0000015377628;
@@ -476,7 +476,7 @@
         --texture-c-s: 0.5;
         --texture-c-t: -6.408135;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -41.50116;
         --a-y: 7.324493;
         --a-z: -74.89493;
@@ -495,7 +495,7 @@
         --texture-c-s: 0.009311333;
         --texture-c-t: -6.4081345;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -50.25281;
         --a-y: 33.655655;
         --a-z: 77.94871;
@@ -514,7 +514,7 @@
         --texture-c-s: 0.5;
         --texture-c-t: -2.9540675;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -35.179913;
         --a-y: 31.737486;
         --a-z: -0.0000015377628;
@@ -533,7 +533,7 @@
         --texture-c-s: -1.2270337;
         --texture-c-t: -3.8175845;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -48.181778;
         --a-y: 38.53948;
         --a-z: 46.33182;
@@ -552,7 +552,7 @@
         --texture-c-s: -1.2270337;
         --texture-c-t: -3.5722404;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 48.181778;
         --a-y: 38.539467;
         --a-z: -46.33182;
@@ -571,7 +571,7 @@
         --texture-c-s: -4.6811013;
         --texture-c-t: -0.3635168;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 30.825186;
         --a-y: 38.53948;
         --a-z: -66.63815;
@@ -590,7 +590,7 @@
         --texture-c-s: -4.6811013;
         --texture-c-t: -0.118172646;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0.000003472692;
         --a-y: -86.54331;
         --a-z: -75.28477;
@@ -609,7 +609,7 @@
         --texture-c-s: 5.6811013;
         --texture-c-t: -1.2270336;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -32.586006;
         --a-y: -16.451418;
         --a-z: -58.80622;
@@ -628,7 +628,7 @@
         --texture-c-s: 2.2270336;
         --texture-c-t: -6.408135;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -19.538446;
         --a-y: -33.269543;
         --a-z: -68.829056;
@@ -647,7 +647,7 @@
         --texture-c-s: 0.5;
         --texture-c-t: -6.408135;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 41.501167;
         --a-y: 7.324493;
         --a-z: -74.89493;
@@ -666,7 +666,7 @@
         --texture-c-s: 0.5;
         --texture-c-t: 3.9540675;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 25.555845;
         --a-y: -14.404252;
         --a-z: -73.74746;
@@ -685,7 +685,7 @@
         --texture-c-s: 2.2270336;
         --texture-c-t: 3.9540675;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 63.074028;
         --a-y: -33.03016;
         --a-z: -111.382355;
@@ -704,7 +704,7 @@
         --texture-c-s: 5.6811013;
         --texture-c-t: -1.2270336;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 25.555845;
         --a-y: -14.404252;
         --a-z: -73.74746;
@@ -723,7 +723,7 @@
         --texture-c-s: 2.2270336;
         --texture-c-t: 3.9540675;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -19.538446;
         --a-y: -33.269543;
         --a-z: -68.829056;
@@ -742,7 +742,7 @@
         --texture-c-s: 0.5;
         --texture-c-t: -6.408135;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0.0000063468647;
         --a-y: -87.79119;
         --a-z: -141.03816;
@@ -761,7 +761,7 @@
         --texture-c-s: 0.5;
         --texture-c-t: 3.9540675;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0.0000063468647;
         --a-y: -87.79119;
         --a-z: -141.03816;
@@ -780,7 +780,7 @@
         --texture-c-s: 0.5;
         --texture-c-t: 5.6811013;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0.0000044913254;
         --a-y: -108.89288;
         --a-z: -98.58839;
@@ -799,7 +799,7 @@
         --texture-c-s: 5.6811013;
         --texture-c-t: -1.2270336;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 63.074028;
         --a-y: -33.03016;
         --a-z: -111.382355;
@@ -818,7 +818,7 @@
         --texture-c-s: 5.6811013;
         --texture-c-t: -1.2270336;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 19.538454;
         --a-y: -33.269543;
         --a-z: -68.829056;
@@ -837,7 +837,7 @@
         --texture-c-s: 5.6811013;
         --texture-c-t: 0.5;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 63.074028;
         --a-y: -33.03016;
         --a-z: -111.382355;
@@ -856,7 +856,7 @@
         --texture-c-s: 5.6811013;
         --texture-c-t: -1.2270336;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0.0000026414916;
         --a-y: -53.9294;
         --a-z: -56.26912;
@@ -875,7 +875,7 @@
         --texture-c-s: 5.6811013;
         --texture-c-t: -1.2270336;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0.000003472692;
         --a-y: -86.54331;
         --a-z: -75.28477;
@@ -894,7 +894,7 @@
         --texture-c-s: 5.6811013;
         --texture-c-t: -2.9540675;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 55.035313;
         --a-y: 56.001766;
         --a-z: 57.50101;
@@ -913,7 +913,7 @@
         --texture-c-s: -1.2270336;
         --texture-c-t: -0.118172646;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 42.61011;
         --a-y: 56.00177;
         --a-z: 72.037865;
@@ -932,7 +932,7 @@
         --texture-c-s: -1.2270337;
         --texture-c-t: -0.3635168;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -48.18177;
         --a-y: 38.53948;
         --a-z: -46.331825;
@@ -951,7 +951,7 @@
         --texture-c-s: -4.0629287;
         --texture-c-t: -2.9540675;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -55.035324;
         --a-y: 56.00176;
         --a-z: -57.501007;
@@ -970,7 +970,7 @@
         --texture-c-s: -4.6811013;
         --texture-c-t: -2.3358948;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -30.825186;
         --a-y: 38.539467;
         --a-z: 66.63815;
@@ -989,7 +989,7 @@
         --texture-c-s: -1.2270336;
         --texture-c-t: -2.335895;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -42.61011;
         --a-y: 56.00177;
         --a-z: 72.037865;
@@ -1008,7 +1008,7 @@
         --texture-c-s: -1.8452066;
         --texture-c-t: -2.9540675;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 30.825186;
         --a-y: 38.53948;
         --a-z: -66.63815;
@@ -1027,7 +1027,7 @@
         --texture-c-s: 0.5;
         --texture-c-t: 3.9540675;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 41.501167;
         --a-y: 7.324493;
         --a-z: -74.89493;
@@ -1046,7 +1046,7 @@
         --texture-c-s: 0.009311408;
         --texture-c-t: 3.9540677;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -41.50116;
         --a-y: 7.324493;
         --a-z: -74.89493;
@@ -1065,7 +1065,7 @@
         --texture-c-s: -1.2270337;
         --texture-c-t: 6.544618;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -30.82518;
         --a-y: 38.539467;
         --a-z: -66.63815;
@@ -1084,7 +1084,7 @@
         --texture-c-s: -1.2270337;
         --texture-c-t: 6.789963;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -42.256584;
         --a-y: -50.162296;
         --a-z: -119.618;
@@ -1103,7 +1103,7 @@
         --texture-c-s: 0;
         --texture-c-t: 1;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -66.29852;
         --a-y: -34.770195;
         --a-z: -109.79482;
@@ -1122,7 +1122,7 @@
         --texture-c-s: 0;
         --texture-c-t: 1;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -64.42834;
         --a-y: -57.617706;
         --a-z: -110.68468;
@@ -1141,7 +1141,7 @@
         --texture-c-s: 0;
         --texture-c-t: 1;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -76.611946;
         --a-y: -48.367493;
         --a-z: -104.88756;
@@ -1160,7 +1160,7 @@
         --texture-c-s: 0;
         --texture-c-t: 1;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 42.256584;
         --a-y: -50.162296;
         --a-z: -119.618;
@@ -1179,7 +1179,7 @@
         --texture-c-s: 0;
         --texture-c-t: 1;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 76.611946;
         --a-y: -48.367493;
         --a-z: -104.88756;
@@ -1198,7 +1198,7 @@
         --texture-c-s: 0;
         --texture-c-t: 1;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 64.42834;
         --a-y: -57.617706;
         --a-z: -110.68468;
@@ -1217,7 +1217,7 @@
         --texture-c-s: 0;
         --texture-c-t: 1;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 66.29852;
         --a-y: -34.770195;
         --a-z: -109.79482;
@@ -1236,7 +1236,7 @@
         --texture-c-s: 0;
         --texture-c-t: 1;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -41.501167;
         --a-y: 7.324493;
         --a-z: 74.89493;
@@ -1255,7 +1255,7 @@
         --texture-c-s: 2.2270336;
         --texture-c-t: -4.6811013;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 29.652023;
         --a-y: -18.131325;
         --a-z: 0.0000012961311;
@@ -1274,7 +1274,7 @@
         --texture-c-s: 0.5;
         --texture-c-t: 0.5;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0.000002273911;
         --a-y: -42.963245;
         --a-z: -52.02102;
@@ -1293,7 +1293,7 @@
         --texture-c-s: 5.6811013;
         --texture-c-t: -2.9540675;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -32.586006;
         --a-y: -16.451418;
         --a-z: -58.80622;
@@ -1312,7 +1312,7 @@
         --texture-c-s: 3.9540675;
         --texture-c-t: -2.9540675;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -0.0000026518644;
         --a-y: -23.47755;
         --a-z: 60.97216;
@@ -1331,7 +1331,7 @@
         --texture-c-s: 2.2270336;
         --texture-c-t: -2.9540675;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -32.58601;
         --a-y: -13.073486;
         --a-z: 58.80622;
@@ -1350,7 +1350,7 @@
         --texture-c-s: 0.5;
         --texture-c-t: -2.9540675;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 32.586006;
         --a-y: -13.073486;
         --a-z: 58.80622;
@@ -1369,7 +1369,7 @@
         --texture-c-s: 0.5;
         --texture-c-t: 0.5;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 32.586006;
         --a-y: -13.073486;
         --a-z: 58.80622;
@@ -1388,7 +1388,7 @@
         --texture-c-s: 2.2270336;
         --texture-c-t: -1.2270336;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -0.0000026518644;
         --a-y: -23.47755;
         --a-z: 60.97216;
@@ -1407,7 +1407,7 @@
         --texture-c-s: 0.5;
         --texture-c-t: -1.2270336;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 32.58601;
         --a-y: -16.451418;
         --a-z: -58.80622;
@@ -1426,7 +1426,7 @@
         --texture-c-s: 5.6811013;
         --texture-c-t: 0.5;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 19.538454;
         --a-y: -33.269543;
         --a-z: -68.829056;
@@ -1445,7 +1445,7 @@
         --texture-c-s: 5.6811013;
         --texture-c-t: -1.2270336;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -32.58601;
         --a-y: -13.073486;
         --a-z: 58.80622;
@@ -1464,7 +1464,7 @@
         --texture-c-s: 2.2270336;
         --texture-c-t: -4.6811013;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0;
         --a-y: -41.065155;
         --a-z: -0;
@@ -1483,7 +1483,7 @@
         --texture-c-s: 3.9540675;
         --texture-c-t: -2.9540675;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -29.652023;
         --a-y: -24.638056;
         --a-z: -0.0000012961311;
@@ -1502,7 +1502,7 @@
         --texture-c-s: 2.2270336;
         --texture-c-t: -2.9540675;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 29.652023;
         --a-y: -18.131325;
         --a-z: 0.0000012961311;
@@ -1521,7 +1521,7 @@
         --texture-c-s: 3.9540675;
         --texture-c-t: -1.2270336;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0;
         --a-y: -41.065155;
         --a-z: -0;
@@ -1540,7 +1540,7 @@
         --texture-c-s: 2.2270336;
         --texture-c-t: -1.2270336;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 32.58601;
         --a-y: -16.451418;
         --a-z: -58.80622;
@@ -1559,7 +1559,7 @@
         --texture-c-s: 5.6811013;
         --texture-c-t: -1.2270336;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0.000002273911;
         --a-y: -42.963245;
         --a-z: -52.02102;
@@ -1578,7 +1578,7 @@
         --texture-c-s: 3.9540675;
         --texture-c-t: -1.2270336;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0.000002273911;
         --a-y: -42.963245;
         --a-z: -52.02102;
@@ -1597,7 +1597,7 @@
         --texture-c-s: 5.6811013;
         --texture-c-t: -1.2270336;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0.0000026414916;
         --a-y: -53.9294;
         --a-z: -56.26912;
@@ -1616,7 +1616,7 @@
         --texture-c-s: 5.6811013;
         --texture-c-t: -2.9540675;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0;
         --a-y: -79.152794;
         --a-z: -147.36606;
@@ -1635,7 +1635,7 @@
         --texture-c-s: 0;
         --texture-c-t: 1;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 36.04855;
         --a-y: -48.262333;
         --a-z: 117.352066;
@@ -1654,7 +1654,7 @@
         --texture-c-s: -6.408135;
         --texture-c-t: 0.5;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -19.872765;
         --a-y: -1.2152627;
         --a-z: 58.72283;
@@ -1673,7 +1673,7 @@
         --texture-c-s: 3.9540675;
         --texture-c-t: 7.408135;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -18.63161;
         --a-y: -54.485165;
         --a-z: 127.254036;
@@ -1692,7 +1692,7 @@
         --texture-c-s: -1.2270336;
         --texture-c-t: 2.2270336;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 19.491291;
         --a-y: -56.110847;
         --a-z: 124.01198;
@@ -1711,7 +1711,7 @@
         --texture-c-s: -6.408135;
         --texture-c-t: 0.5;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -33.15132;
         --a-y: -45.686024;
         --a-z: 131.16278;
@@ -1730,7 +1730,7 @@
         --texture-c-s: -1.2270336;
         --texture-c-t: 2.2270336;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -22.159393;
         --a-y: -81.33053;
         --a-z: -102.844826;
@@ -1749,7 +1749,7 @@
         --texture-c-s: 0;
         --texture-c-t: 1;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -22.159393;
         --a-y: -81.33053;
         --a-z: -102.844826;
@@ -1768,7 +1768,7 @@
         --texture-c-s: 0;
         --texture-c-t: 1;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0;
         --a-y: -101.74718;
         --a-z: -133.64969;
@@ -1787,7 +1787,7 @@
         --texture-c-s: 0;
         --texture-c-t: 1;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -22.159393;
         --a-y: -81.33053;
         --a-z: -102.844826;
@@ -1806,7 +1806,7 @@
         --texture-c-s: 0;
         --texture-c-t: 1;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0;
         --a-y: -89.29183;
         --a-z: -78.61079;
@@ -1825,7 +1825,7 @@
         --texture-c-s: 0;
         --texture-c-t: 1;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0;
         --a-y: -105.03093;
         --a-z: -173.60213;
@@ -1844,7 +1844,7 @@
         --texture-c-s: 0;
         --texture-c-t: 1;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0;
         --a-y: -83.01939;
         --a-z: -156.92744;
@@ -1863,7 +1863,7 @@
         --texture-c-s: 0;
         --texture-c-t: 1;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0;
         --a-y: -85.84317;
         --a-z: -148.4784;
@@ -1882,7 +1882,7 @@
         --texture-c-s: 0;
         --texture-c-t: 1;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0;
         --a-y: -83.01939;
         --a-z: -156.92744;
@@ -1901,7 +1901,7 @@
         --texture-c-s: 0;
         --texture-c-t: 1;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0;
         --a-y: -105.03093;
         --a-z: -173.60213;
@@ -1920,7 +1920,7 @@
         --texture-c-s: 0;
         --texture-c-t: 1;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0;
         --a-y: -115.97681;
         --a-z: -144.86922;
@@ -1939,7 +1939,7 @@
         --texture-c-s: 0;
         --texture-c-t: 1;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0;
         --a-y: -101.74718;
         --a-z: -133.64969;
@@ -1958,7 +1958,7 @@
         --texture-c-s: 0;
         --texture-c-t: 1;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0;
         --a-y: -140.60501;
         --a-z: -144.86922;
@@ -1977,7 +1977,7 @@
         --texture-c-s: 0;
         --texture-c-t: 1;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0;
         --a-y: -109.68294;
         --a-z: -104.64313;
@@ -1996,7 +1996,7 @@
         --texture-c-s: 0;
         --texture-c-t: 1;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0;
         --a-y: -105.03093;
         --a-z: -173.60213;
@@ -2015,7 +2015,7 @@
         --texture-c-s: 0;
         --texture-c-t: 1;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0;
         --a-y: -83.01939;
         --a-z: -156.92744;
@@ -2034,7 +2034,7 @@
         --texture-c-s: 0;
         --texture-c-t: 1;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0;
         --a-y: -85.84317;
         --a-z: -148.4784;
@@ -2053,7 +2053,7 @@
         --texture-c-s: 0;
         --texture-c-t: 1;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0;
         --a-y: -129.67233;
         --a-z: -99.53331;
@@ -2072,7 +2072,7 @@
         --texture-c-s: 0;
         --texture-c-t: 1;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0;
         --a-y: -129.67233;
         --a-z: -99.53331;
@@ -2091,7 +2091,7 @@
         --texture-c-s: 0;
         --texture-c-t: 1;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -24.243723;
         --a-y: -39.287655;
         --a-z: -151.69545;
@@ -2110,7 +2110,7 @@
         --texture-c-s: 0;
         --texture-c-t: 1;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -18.344193;
         --a-y: -40.23407;
         --a-z: -157.6802;
@@ -2129,7 +2129,7 @@
         --texture-c-s: 0;
         --texture-c-t: 1;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 16.614058;
         --a-y: -29.07877;
         --a-z: -145.00357;
@@ -2148,7 +2148,7 @@
         --texture-c-s: 0;
         --texture-c-t: 1;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 19.741014;
         --a-y: -47.919865;
         --a-z: -149.71098;
@@ -2167,7 +2167,7 @@
         --texture-c-s: 0;
         --texture-c-t: 1;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -42.61011;
         --a-y: 56.00177;
         --a-z: 72.037865;
@@ -2186,7 +2186,7 @@
         --texture-c-s: -1.2270337;
         --texture-c-t: -2.9540675;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -55.035324;
         --a-y: 56.00176;
         --a-z: -57.501007;
@@ -2205,7 +2205,7 @@
         --texture-c-s: -4.6811013;
         --texture-c-t: -2.9540675;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 72.30358;
         --a-y: 100;
         --a-z: 85.64304;
@@ -2224,7 +2224,7 @@
         --texture-c-s: -1.2270336;
         --texture-c-t: -0.118172646;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 30.2975;
         --a-y: -115.700325;
         --a-z: -91.63635;
@@ -2243,7 +2243,7 @@
         --texture-c-s: 7.408135;
         --texture-c-t: -6.408135;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 81.658615;
         --a-y: -144.89484;
         --a-z: -89.167595;
@@ -2262,7 +2262,7 @@
         --texture-c-s: -6.408135;
         --texture-c-t: -6.408135;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -62.64697;
         --a-y: -90.15192;
         --a-z: -100.89369;
@@ -2281,7 +2281,7 @@
         --texture-c-s: 7.408135;
         --texture-c-t: -6.408135;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -81.6586;
         --a-y: -144.89484;
         --a-z: -89.16761;
@@ -2300,7 +2300,7 @@
         --texture-c-s: 7.408135;
         --texture-c-t: 7.408135;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0;
         --a-y: -44.838017;
         --a-z: -174.46626;
@@ -2319,7 +2319,7 @@
         --texture-c-s: 0.5;
         --texture-c-t: 5.583515;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -8.603883;
         --a-y: -41.762127;
         --a-z: -167.03601;
@@ -2338,7 +2338,7 @@
         --texture-c-s: 0.5;
         --texture-c-t: 5.6811013;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0;
         --a-y: -44.838017;
         --a-z: -174.46626;
@@ -2357,7 +2357,7 @@
         --texture-c-s: 0.5;
         --texture-c-t: 5.6811013;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0;
         --a-y: -36.53079;
         --a-z: -168.55309;
@@ -2376,7 +2376,7 @@
         --texture-c-s: 0.5;
         --texture-c-t: 5.6811013;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -18.63161;
         --a-y: -54.485165;
         --a-z: 127.254036;
@@ -2395,7 +2395,7 @@
         --texture-c-s: 3.9540675;
         --texture-c-t: 7.408135;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -33.15132;
         --a-y: -45.686024;
         --a-z: 131.16278;
@@ -2414,7 +2414,7 @@
         --texture-c-s: 7.408135;
         --texture-c-t: 7.408135;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 36.04855;
         --a-y: -48.262333;
         --a-z: 117.352066;
@@ -2433,7 +2433,7 @@
         --texture-c-s: -3.8175845;
         --texture-c-t: -0.36351693;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 19.491291;
         --a-y: -56.110847;
         --a-z: 124.01198;
@@ -2452,7 +2452,7 @@
         --texture-c-s: -2.9540677;
         --texture-c-t: -2.9540677;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 19.491291;
         --a-y: -56.110847;
         --a-z: 124.01198;
@@ -2471,7 +2471,7 @@
         --texture-c-s: -1.2270336;
         --texture-c-t: 2.2270336;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -0.67475545;
         --a-y: -51.856144;
         --a-z: 106.303764;
@@ -2490,7 +2490,7 @@
         --texture-c-s: 0.5000001;
         --texture-c-t: 0.5;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -0.67475545;
         --a-y: -51.856144;
         --a-z: 106.303764;
@@ -2509,7 +2509,7 @@
         --texture-c-s: 1.3635169;
         --texture-c-t: 4.817584;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -18.63161;
         --a-y: -54.485165;
         --a-z: 127.254036;
@@ -2528,7 +2528,7 @@
         --texture-c-s: 3.9540675;
         --texture-c-t: 3.9540675;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 55.035324;
         --a-y: 56.00176;
         --a-z: -57.501007;
@@ -2547,7 +2547,7 @@
         --texture-c-s: -4.6811013;
         --texture-c-t: -0.118172646;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -50.25281;
         --a-y: 33.655655;
         --a-z: 77.94871;
@@ -2566,7 +2566,7 @@
         --texture-c-s: -1.2270337;
         --texture-c-t: -3.5722404;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -55.035324;
         --a-y: 56.00176;
         --a-z: -57.501007;
@@ -2585,7 +2585,7 @@
         --texture-c-s: 0.009311333;
         --texture-c-t: -6.4081345;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -50.25282;
         --a-y: 33.655655;
         --a-z: -77.9487;
@@ -2604,7 +2604,7 @@
         --texture-c-s: -1.2270337;
         --texture-c-t: 6.789963;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 42.61012;
         --a-y: 56.00177;
         --a-z: -72.037865;
@@ -2623,7 +2623,7 @@
         --texture-c-s: 0.009311408;
         --texture-c-t: 3.9540677;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 50.25282;
         --a-y: 33.655655;
         --a-z: -77.9487;
@@ -2642,7 +2642,7 @@
         --texture-c-s: -1.2270336;
         --texture-c-t: 3.3358948;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 55.035313;
         --a-y: 56.001766;
         --a-z: 57.50101;
@@ -2661,7 +2661,7 @@
         --texture-c-s: 0.0093114525;
         --texture-c-t: 0.5;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 50.25281;
         --a-y: 33.655655;
         --a-z: 77.94871;
@@ -2680,7 +2680,7 @@
         --texture-c-s: -1.2270336;
         --texture-c-t: -0.118172646;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -42.61011;
         --a-y: 56.00177;
         --a-z: 72.037865;
@@ -2699,7 +2699,7 @@
         --texture-c-s: 0.009311514;
         --texture-c-t: -2.9540677;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0.0000044033504;
         --a-y: -17.259123;
         --a-z: -96.57575;
@@ -2718,7 +2718,7 @@
         --texture-c-s: 0.5;
         --texture-c-t: 3.9540675;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 48.181778;
         --a-y: 38.539467;
         --a-z: -46.33182;
@@ -2737,7 +2737,7 @@
         --texture-c-s: -2.9540675;
         --texture-c-t: 0.5;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0;
         --a-y: 32.55989;
         --a-z: 0.00000006350101;
@@ -2756,7 +2756,7 @@
         --texture-c-s: -4.6811013;
         --texture-c-t: -1.2270336;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0.0000027349784;
         --a-y: 31.737486;
         --a-z: -62.264442;
@@ -2775,7 +2775,7 @@
         --texture-c-s: -4.6811013;
         --texture-c-t: -0.3635168;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0.0000034565935;
         --a-y: -3.8740385;
         --a-z: -78.30561;
@@ -2794,7 +2794,7 @@
         --texture-c-s: 0.5;
         --texture-c-t: 3.9540675;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0.0000034565935;
         --a-y: -3.8740385;
         --a-z: -78.30561;
@@ -2813,7 +2813,7 @@
         --texture-c-s: -1.2270337;
         --texture-c-t: 5.6811013;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0.0000027349784;
         --a-y: 31.737486;
         --a-z: -62.264442;
@@ -2832,7 +2832,7 @@
         --texture-c-s: 0.5;
         --texture-c-t: 3.9540675;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0.0000027349784;
         --a-y: 31.737486;
         --a-z: -62.264442;
@@ -2851,7 +2851,7 @@
         --texture-c-s: -1.2270337;
         --texture-c-t: 6.544618;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 35.179913;
         --a-y: 31.737486;
         --a-z: 0.0000015377628;
@@ -2870,7 +2870,7 @@
         --texture-c-s: -2.0905507;
         --texture-c-t: 0.5;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 30.82518;
         --a-y: 38.53948;
         --a-z: 66.63815;
@@ -2889,7 +2889,7 @@
         --texture-c-s: -1.2270337;
         --texture-c-t: -1.2270336;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -0.000002708352;
         --a-y: 31.737486;
         --a-z: 62.264442;
@@ -2908,7 +2908,7 @@
         --texture-c-s: -2.9540675;
         --texture-c-t: -1.2270336;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0.0000027349784;
         --a-y: 31.737486;
         --a-z: -62.264442;
@@ -2927,7 +2927,7 @@
         --texture-c-s: -2.9540675;
         --texture-c-t: -1.2270336;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -35.179913;
         --a-y: 31.737486;
         --a-z: -0.0000015377628;
@@ -2946,7 +2946,7 @@
         --texture-c-s: -3.8175845;
         --texture-c-t: -2.9540675;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -48.18177;
         --a-y: 38.53948;
         --a-z: -46.331825;
@@ -2965,7 +2965,7 @@
         --texture-c-s: -4.6811013;
         --texture-c-t: -2.0905507;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0;
         --a-y: 32.55989;
         --a-z: 0.00000006350101;
@@ -2984,7 +2984,7 @@
         --texture-c-s: -1.2270337;
         --texture-c-t: -1.2270336;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -30.825186;
         --a-y: 38.539467;
         --a-z: 66.63815;
@@ -3003,7 +3003,7 @@
         --texture-c-s: -2.0905507;
         --texture-c-t: -2.9540675;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -48.181778;
         --a-y: 38.53948;
         --a-z: 46.33182;
@@ -3022,7 +3022,7 @@
         --texture-c-s: -2.9540675;
         --texture-c-t: -2.9540675;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -25.55584;
         --a-y: -14.404252;
         --a-z: -73.74746;
@@ -3041,7 +3041,7 @@
         --texture-c-s: 0.5;
         --texture-c-t: 7.408135;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -63.074017;
         --a-y: -33.03016;
         --a-z: -111.382355;
@@ -3060,7 +3060,7 @@
         --texture-c-s: 0.5;
         --texture-c-t: 5.6811013;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -41.50116;
         --a-y: 7.324493;
         --a-z: -74.89493;
@@ -3079,7 +3079,7 @@
         --texture-c-s: 0.5;
         --texture-c-t: 7.408135;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0.0000063046023;
         --a-y: -16.268078;
         --a-z: -140.07132;
@@ -3098,7 +3098,7 @@
         --texture-c-s: 0.5;
         --texture-c-t: 5.6811013;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0.0000044033504;
         --a-y: -17.259123;
         --a-z: -96.57575;
@@ -3117,7 +3117,7 @@
         --texture-c-s: 0.5;
         --texture-c-t: 5.6811013;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0.0000063046023;
         --a-y: -16.268078;
         --a-z: -140.07132;
@@ -3136,7 +3136,7 @@
         --texture-c-s: 0.5;
         --texture-c-t: 3.9540675;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -63.074017;
         --a-y: -33.03016;
         --a-z: -111.382355;
@@ -3155,7 +3155,7 @@
         --texture-c-s: 0.5;
         --texture-c-t: 5.6811013;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0.0000034565935;
         --a-y: -3.8740385;
         --a-z: -78.30561;
@@ -3174,7 +3174,7 @@
         --texture-c-s: 0.5;
         --texture-c-t: 7.408135;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0.0000034565935;
         --a-y: -3.8740385;
         --a-z: -78.30561;
@@ -3193,7 +3193,7 @@
         --texture-c-s: 0.5;
         --texture-c-t: 3.9540675;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 45.195583;
         --a-y: -104.356674;
         --a-z: 151.5167;
@@ -3212,7 +3212,7 @@
         --texture-c-s: -2.9540677;
         --texture-c-t: -2.9540677;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -0.14121243;
         --a-y: -105.51071;
         --a-z: 142.61197;
@@ -3231,7 +3231,7 @@
         --texture-c-s: 3.9540675;
         --texture-c-t: 3.9540675;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -41.48822;
         --a-y: -110.83544;
         --a-z: 168.4172;
@@ -3250,7 +3250,7 @@
         --texture-c-s: 0.5;
         --texture-c-t: 0.5;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 24.222403;
         --a-y: -114.502655;
         --a-z: 155.53723;
@@ -3269,7 +3269,7 @@
         --texture-c-s: 3.9540675;
         --texture-c-t: 3.9540675;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 16.743036;
         --a-y: -67.468475;
         --a-z: -102.74612;
@@ -3288,7 +3288,7 @@
         --texture-c-s: 7.408135;
         --texture-c-t: 7.408135;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 54.311573;
         --a-y: -122.38083;
         --a-z: -92.63833;
@@ -3307,7 +3307,7 @@
         --texture-c-s: 3.9540675;
         --texture-c-t: -2.9540675;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 64.50498;
         --a-y: -114.33046;
         --a-z: -95.55534;
@@ -3326,7 +3326,7 @@
         --texture-c-s: -6.408135;
         --texture-c-t: -6.408135;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 51.42886;
         --a-y: -108.83815;
         --a-z: -95.71428;
@@ -3345,7 +3345,7 @@
         --texture-c-s: -6.408135;
         --texture-c-t: -6.408135;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -16.743036;
         --a-y: -67.468475;
         --a-z: -102.74612;
@@ -3364,7 +3364,7 @@
         --texture-c-s: -6.408135;
         --texture-c-t: -6.408135;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -64.50497;
         --a-y: -114.33046;
         --a-z: -95.55534;
@@ -3383,7 +3383,7 @@
         --texture-c-s: 3.9540675;
         --texture-c-t: -2.9540675;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -54.31156;
         --a-y: -122.38083;
         --a-z: -92.638336;
@@ -3402,7 +3402,7 @@
         --texture-c-s: 7.408135;
         --texture-c-t: 7.408135;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -51.42886;
         --a-y: -108.83815;
         --a-z: -95.71428;
@@ -3421,7 +3421,7 @@
         --texture-c-s: 7.408135;
         --texture-c-t: 7.408135;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -64.63131;
         --a-y: -11.711367;
         --a-z: -110.5881;
@@ -3440,7 +3440,7 @@
         --texture-c-s: 0;
         --texture-c-t: 1;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -78.97026;
         --a-y: -25.981817;
         --a-z: -103.76544;
@@ -3459,7 +3459,7 @@
         --texture-c-s: 0;
         --texture-c-t: 1;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -61.8972;
         --a-y: -23.02417;
         --a-z: -111.88903;
@@ -3478,7 +3478,7 @@
         --texture-c-s: 0;
         --texture-c-t: 1;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 66.29852;
         --a-y: -34.770195;
         --a-z: -109.79482;
@@ -3497,7 +3497,7 @@
         --texture-c-s: 0;
         --texture-c-t: 1;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 64.63131;
         --a-y: -11.711367;
         --a-z: -110.5881;
@@ -3516,7 +3516,7 @@
         --texture-c-s: 0;
         --texture-c-t: 1;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 78.97026;
         --a-y: -25.981817;
         --a-z: -103.76544;
@@ -3535,7 +3535,7 @@
         --texture-c-s: 0;
         --texture-c-t: 1;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0;
         --a-y: -7.0725956;
         --a-z: -99.923035;
@@ -3554,7 +3554,7 @@
         --texture-c-s: 0;
         --texture-c-t: 1;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0;
         --a-y: 37.941437;
         --a-z: -78.21102;
@@ -3573,7 +3573,7 @@
         --texture-c-s: 0;
         --texture-c-t: 1;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0;
         --a-y: 24.63772;
         --a-z: -90.65092;
@@ -3592,7 +3592,7 @@
         --texture-c-s: 0;
         --texture-c-t: 1;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0;
         --a-y: 13.272208;
         --a-z: -95.24859;
@@ -3611,7 +3611,7 @@
         --texture-c-s: 0;
         --texture-c-t: 1;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0;
         --a-y: -4.3960357;
         --a-z: -72.03387;
@@ -3630,7 +3630,7 @@
         --texture-c-s: 0;
         --texture-c-t: 1;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0;
         --a-y: 23.79775;
         --a-z: -74.22707;
@@ -3649,7 +3649,7 @@
         --texture-c-s: 0;
         --texture-c-t: 1;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 0;
         --a-y: 17.28061;
         --a-z: -77.64493;
@@ -3668,7 +3668,7 @@
         --texture-c-s: 0;
         --texture-c-t: 1;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 28.782162;
         --a-y: -40.619923;
         --a-z: -147.61398;
@@ -3687,7 +3687,7 @@
         --texture-c-s: 7.408135;
         --texture-c-t: -6.408135;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 7.4426184;
         --a-y: -58.49154;
         --a-z: -156.56348;
@@ -3706,7 +3706,7 @@
         --texture-c-s: -6.408135;
         --texture-c-t: -6.408135;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -18.135887;
         --a-y: -71.95289;
         --a-z: -132.91374;
@@ -3725,7 +3725,7 @@
         --texture-c-s: 7.408135;
         --texture-c-t: -6.408135;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -7.4426045;
         --a-y: -58.49154;
         --a-z: -156.56348;
@@ -3744,7 +3744,7 @@
         --texture-c-s: 7.408135;
         --texture-c-t: 7.408135;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 29.155823;
         --a-y: -41.51831;
         --a-z: -147.23344;
@@ -3763,7 +3763,7 @@
         --texture-c-s: 7.408135;
         --texture-c-t: -6.408135;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: 18.838306;
         --a-y: -55.995525;
         --a-z: -146.57068;
@@ -3782,7 +3782,7 @@
         --texture-c-s: -6.408135;
         --texture-c-t: -6.408135;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -19.847624;
         --a-y: -68.91325;
         --a-z: -134.38081;
@@ -3801,7 +3801,7 @@
         --texture-c-s: 7.408135;
         --texture-c-t: -6.408135;
     "></div>
-    <div class="tri opaque" style="
+    <div class="tri" style="
         --a-x: -18.838306;
         --a-y: -55.995525;
         --a-z: -146.57068;
@@ -3822,3829 +3822,3 @@
     "></div>
   </div>
 </div>
-
-<div class="node base" style="
-  transform:
-    translate3d(
-      calc(0 * 100 * 1px + var(--node-translate-x)),
-      calc(0 * 100 * -1px + var(--node-translate-y)),
-      calc(0 * 100 * 1px + var(--node-translate-z))
-    )
-    rotate3d(0, -0, 0, calc(-2 * acos(1)))
-    rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-    scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
-">
-  <div class="node iris" style="
-    transform:
-      translate3d(
-        calc(0 * 100 * 1px + var(--node-translate-x)),
-        calc(0 * 100 * -1px + var(--node-translate-y)),
-        calc(0 * 100 * 1px + var(--node-translate-z))
-      )
-      rotate3d(0, -0, 0, calc(-2 * acos(1)))
-      rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-      scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
-  ">
-    <div class="tri opaque" style="
-        --a-x: -29.652023;
-        --a-y: -24.638056;
-        --a-z: -0.0000012961311;
-        --b-x: -41.037895;
-        --b-y: -0.16574264;
-        --b-z: -0.0000017938232;
-        --c-x: -32.586006;
-        --c-y: -16.451418;
-        --c-z: -58.80622;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 2.2270336;
-        --texture-a-t: -4.6811013;
-        --texture-b-s: 0.5;
-        --texture-b-t: -4.6811013;
-        --texture-c-s: 2.2270336;
-        --texture-c-t: -6.408135;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -32.586006;
-        --a-y: -16.451418;
-        --a-z: -58.80622;
-        --b-x: -41.037895;
-        --b-y: -0.16574264;
-        --b-z: -0.0000017938232;
-        --c-x: -41.50116;
-        --c-y: 7.324493;
-        --c-z: -74.89493;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 2.2270336;
-        --texture-a-t: -6.408135;
-        --texture-b-s: 0.5;
-        --texture-b-t: -4.6811013;
-        --texture-c-s: 0.5;
-        --texture-c-t: -6.408135;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 41.037895;
-        --a-y: 6.340987;
-        --a-z: 0.0000017938232;
-        --b-x: 35.179913;
-        --b-y: 31.737486;
-        --b-z: 0.0000015377628;
-        --c-x: 41.50116;
-        --c-y: 7.324493;
-        --c-z: 74.89493;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0.5;
-        --texture-a-t: 2.2270336;
-        --texture-b-s: -1.2270337;
-        --texture-b-t: 2.2270336;
-        --texture-c-s: 0.5;
-        --texture-c-t: 0.5;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 41.037895;
-        --a-y: 6.340987;
-        --a-z: 0.0000017938232;
-        --b-x: 41.501167;
-        --b-y: 7.324493;
-        --b-z: -74.89493;
-        --c-x: 35.179913;
-        --c-y: 31.737486;
-        --c-z: 0.0000015377628;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0.5;
-        --texture-a-t: 2.2270336;
-        --texture-b-s: 0.5;
-        --texture-b-t: 3.9540675;
-        --texture-c-s: -1.2270337;
-        --texture-c-t: 2.2270336;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 32.58601;
-        --a-y: -16.451418;
-        --a-z: -58.80622;
-        --b-x: 41.501167;
-        --b-y: 7.324493;
-        --b-z: -74.89493;
-        --c-x: 29.652023;
-        --c-y: -18.131325;
-        --c-z: 0.0000012961311;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 2.2270336;
-        --texture-a-t: 3.9540675;
-        --texture-b-s: 0.5;
-        --texture-b-t: 3.9540675;
-        --texture-c-s: 2.2270336;
-        --texture-c-t: 2.2270336;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 29.652023;
-        --a-y: -18.131325;
-        --a-z: 0.0000012961311;
-        --b-x: 41.501167;
-        --b-y: 7.324493;
-        --b-z: -74.89493;
-        --c-x: 41.037895;
-        --c-y: 6.340987;
-        --c-z: 0.0000017938232;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 2.2270336;
-        --texture-a-t: 2.2270336;
-        --texture-b-s: 0.5;
-        --texture-b-t: 3.9540675;
-        --texture-c-s: 0.5;
-        --texture-c-t: 2.2270336;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -0.000003330817;
-        --a-y: -0.16574264;
-        --a-z: 76.504776;
-        --b-x: -0.000002708352;
-        --b-y: 31.737486;
-        --b-z: 62.264442;
-        --c-x: -41.501167;
-        --c-y: 7.324493;
-        --c-z: 74.89493;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0.5;
-        --texture-a-t: -1.2270336;
-        --texture-b-s: -1.2270337;
-        --texture-b-t: -1.2270336;
-        --texture-c-s: 0.5;
-        --texture-c-t: -2.9540675;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -0.000003330817;
-        --a-y: -0.16574264;
-        --a-z: 76.504776;
-        --b-x: 41.50116;
-        --b-y: 7.324493;
-        --b-z: 74.89493;
-        --c-x: -0.000002708352;
-        --c-y: 31.737486;
-        --c-z: 62.264442;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0.5;
-        --texture-a-t: -1.2270336;
-        --texture-b-s: 0.5;
-        --texture-b-t: 0.5;
-        --texture-c-s: -1.2270337;
-        --texture-c-t: -1.2270336;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -41.037895;
-        --a-y: -0.16574264;
-        --a-z: -0.0000017938232;
-        --b-x: -35.179913;
-        --b-y: 31.737486;
-        --b-z: -0.0000015377628;
-        --c-x: -41.50116;
-        --c-y: 7.324493;
-        --c-z: -74.89493;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0.5;
-        --texture-a-t: -4.6811013;
-        --texture-b-s: -1.2270337;
-        --texture-b-t: -4.6811013;
-        --texture-c-s: 0.5;
-        --texture-c-t: -6.408135;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -41.037895;
-        --a-y: -0.16574264;
-        --a-z: -0.0000017938232;
-        --b-x: -41.501167;
-        --b-y: 7.324493;
-        --b-z: 74.89493;
-        --c-x: -35.179913;
-        --c-y: 31.737486;
-        --c-z: -0.0000015377628;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0.5;
-        --texture-a-t: -4.6811013;
-        --texture-b-s: 0.5;
-        --texture-b-t: -2.9540675;
-        --texture-c-s: -1.2270337;
-        --texture-c-t: -4.6811013;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -42.61011;
-        --a-y: 56.00177;
-        --a-z: 72.037865;
-        --b-x: -50.25281;
-        --b-y: 33.655655;
-        --b-z: 77.94871;
-        --c-x: -30.825186;
-        --c-y: 38.539467;
-        --c-z: 66.63815;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -1.2270336;
-        --texture-a-t: -2.335895;
-        --texture-b-s: 0.009311514;
-        --texture-b-t: -2.9540677;
-        --texture-c-s: -1.2270337;
-        --texture-c-t: -2.0905507;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -0.000002708352;
-        --a-y: 31.737486;
-        --a-z: 62.264442;
-        --b-x: -30.825186;
-        --b-y: 38.539467;
-        --b-z: 66.63815;
-        --c-x: -41.501167;
-        --c-y: 7.324493;
-        --c-z: 74.89493;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -1.2270337;
-        --texture-a-t: -1.2270336;
-        --texture-b-s: -1.2270337;
-        --texture-b-t: -2.0905507;
-        --texture-c-s: 0.5;
-        --texture-c-t: -2.9540675;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -41.501167;
-        --a-y: 7.324493;
-        --a-z: 74.89493;
-        --b-x: -30.825186;
-        --b-y: 38.539467;
-        --b-z: 66.63815;
-        --c-x: -50.25281;
-        --c-y: 33.655655;
-        --c-z: 77.94871;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0.5;
-        --texture-a-t: -2.9540675;
-        --texture-b-s: -1.2270337;
-        --texture-b-t: -2.0905507;
-        --texture-c-s: 0.009311514;
-        --texture-c-t: -2.9540677;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 50.25281;
-        --a-y: 33.655655;
-        --a-z: 77.94871;
-        --b-x: 42.61011;
-        --b-y: 56.00177;
-        --b-z: 72.037865;
-        --c-x: 41.50116;
-        --c-y: 7.324493;
-        --c-z: 74.89493;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0.0093114525;
-        --texture-a-t: 0.5;
-        --texture-b-s: -1.2270336;
-        --texture-b-t: -0.118172646;
-        --texture-c-s: 0.5;
-        --texture-c-t: 0.5;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -0.000002708352;
-        --a-y: 31.737486;
-        --a-z: 62.264442;
-        --b-x: 41.50116;
-        --b-y: 7.324493;
-        --b-z: 74.89493;
-        --c-x: 30.82518;
-        --c-y: 38.53948;
-        --c-z: 66.63815;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -1.2270337;
-        --texture-a-t: -1.2270336;
-        --texture-b-s: 0.5;
-        --texture-b-t: 0.5;
-        --texture-c-s: -1.2270337;
-        --texture-c-t: -0.3635168;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 30.82518;
-        --a-y: 38.53948;
-        --a-z: 66.63815;
-        --b-x: 41.50116;
-        --b-y: 7.324493;
-        --b-z: 74.89493;
-        --c-x: 42.61011;
-        --c-y: 56.00177;
-        --c-z: 72.037865;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -1.2270337;
-        --texture-a-t: -0.3635168;
-        --texture-b-s: 0.5;
-        --texture-b-t: 0.5;
-        --texture-c-s: -1.2270336;
-        --texture-c-t: -0.118172646;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 55.035313;
-        --a-y: 56.001766;
-        --a-z: 57.50101;
-        --b-x: 50.25281;
-        --b-y: 33.655655;
-        --b-z: 77.94871;
-        --c-x: 48.18177;
-        --c-y: 38.539467;
-        --c-z: 46.331825;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -1.2270337;
-        --texture-a-t: 1.1181726;
-        --texture-b-s: 0.0093114525;
-        --texture-b-t: 0.5;
-        --texture-c-s: -1.2270337;
-        --texture-c-t: 1.3635168;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 35.179913;
-        --a-y: 31.737486;
-        --a-z: 0.0000015377628;
-        --b-x: 48.18177;
-        --b-y: 38.539467;
-        --b-z: 46.331825;
-        --c-x: 41.50116;
-        --c-y: 7.324493;
-        --c-z: 74.89493;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -1.2270337;
-        --texture-a-t: 2.2270336;
-        --texture-b-s: -1.2270337;
-        --texture-b-t: 1.3635168;
-        --texture-c-s: 0.5;
-        --texture-c-t: 0.5;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 41.50116;
-        --a-y: 7.324493;
-        --a-z: 74.89493;
-        --b-x: 48.18177;
-        --b-y: 38.539467;
-        --b-z: 46.331825;
-        --c-x: 50.25281;
-        --c-y: 33.655655;
-        --c-z: 77.94871;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0.5;
-        --texture-a-t: 0.5;
-        --texture-b-s: -1.2270337;
-        --texture-b-t: 1.3635168;
-        --texture-c-s: 0.0093114525;
-        --texture-c-t: 0.5;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 50.25282;
-        --a-y: 33.655655;
-        --a-z: -77.9487;
-        --b-x: 55.035324;
-        --b-y: 56.00176;
-        --b-z: -57.501007;
-        --c-x: 41.501167;
-        --c-y: 7.324493;
-        --c-z: -74.89493;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0.009311408;
-        --texture-a-t: 3.9540677;
-        --texture-b-s: -1.2270336;
-        --texture-b-t: 3.3358948;
-        --texture-c-s: 0.5;
-        --texture-c-t: 3.9540675;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 35.179913;
-        --a-y: 31.737486;
-        --a-z: 0.0000015377628;
-        --b-x: 41.501167;
-        --b-y: 7.324493;
-        --b-z: -74.89493;
-        --c-x: 48.181778;
-        --c-y: 38.539467;
-        --c-z: -46.33182;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -1.2270337;
-        --texture-a-t: 2.2270336;
-        --texture-b-s: 0.5;
-        --texture-b-t: 3.9540675;
-        --texture-c-s: -1.2270337;
-        --texture-c-t: 3.0905507;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 48.181778;
-        --a-y: 38.539467;
-        --a-z: -46.33182;
-        --b-x: 41.501167;
-        --b-y: 7.324493;
-        --b-z: -74.89493;
-        --c-x: 55.035324;
-        --c-y: 56.00176;
-        --c-z: -57.501007;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -1.2270337;
-        --texture-a-t: 3.0905507;
-        --texture-b-s: 0.5;
-        --texture-b-t: 3.9540675;
-        --texture-c-s: -1.2270336;
-        --texture-c-t: 3.3358948;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -55.035324;
-        --a-y: 56.00176;
-        --a-z: -57.501007;
-        --b-x: -50.25282;
-        --b-y: 33.655655;
-        --b-z: -77.9487;
-        --c-x: -48.18177;
-        --c-y: 38.53948;
-        --c-z: -46.331825;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -1.2270336;
-        --texture-a-t: -5.789962;
-        --texture-b-s: 0.009311333;
-        --texture-b-t: -6.4081345;
-        --texture-c-s: -1.2270337;
-        --texture-c-t: -5.544618;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -35.179913;
-        --a-y: 31.737486;
-        --a-z: -0.0000015377628;
-        --b-x: -48.18177;
-        --b-y: 38.53948;
-        --b-z: -46.331825;
-        --c-x: -41.50116;
-        --c-y: 7.324493;
-        --c-z: -74.89493;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -1.2270337;
-        --texture-a-t: -4.6811013;
-        --texture-b-s: -1.2270337;
-        --texture-b-t: -5.544618;
-        --texture-c-s: 0.5;
-        --texture-c-t: -6.408135;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -41.50116;
-        --a-y: 7.324493;
-        --a-z: -74.89493;
-        --b-x: -48.18177;
-        --b-y: 38.53948;
-        --b-z: -46.331825;
-        --c-x: -50.25282;
-        --c-y: 33.655655;
-        --c-z: -77.9487;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0.5;
-        --texture-a-t: -6.408135;
-        --texture-b-s: -1.2270337;
-        --texture-b-t: -5.544618;
-        --texture-c-s: 0.009311333;
-        --texture-c-t: -6.4081345;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -50.25281;
-        --a-y: 33.655655;
-        --a-z: 77.94871;
-        --b-x: -55.035313;
-        --b-y: 56.001766;
-        --b-z: 57.50101;
-        --c-x: -41.501167;
-        --c-y: 7.324493;
-        --c-z: 74.89493;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0.009311514;
-        --texture-a-t: -2.9540677;
-        --texture-b-s: -1.2270337;
-        --texture-b-t: -3.5722404;
-        --texture-c-s: 0.5;
-        --texture-c-t: -2.9540675;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -35.179913;
-        --a-y: 31.737486;
-        --a-z: -0.0000015377628;
-        --b-x: -41.501167;
-        --b-y: 7.324493;
-        --b-z: 74.89493;
-        --c-x: -48.181778;
-        --c-y: 38.53948;
-        --c-z: 46.33182;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -1.2270337;
-        --texture-a-t: -4.6811013;
-        --texture-b-s: 0.5;
-        --texture-b-t: -2.9540675;
-        --texture-c-s: -1.2270337;
-        --texture-c-t: -3.8175845;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -48.181778;
-        --a-y: 38.53948;
-        --a-z: 46.33182;
-        --b-x: -41.501167;
-        --b-y: 7.324493;
-        --b-z: 74.89493;
-        --c-x: -55.035313;
-        --c-y: 56.001766;
-        --c-z: 57.50101;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -1.2270337;
-        --texture-a-t: -3.8175845;
-        --texture-b-s: 0.5;
-        --texture-b-t: -2.9540675;
-        --texture-c-s: -1.2270337;
-        --texture-c-t: -3.5722404;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 48.181778;
-        --a-y: 38.539467;
-        --a-z: -46.33182;
-        --b-x: 55.035324;
-        --b-y: 56.00176;
-        --b-z: -57.501007;
-        --c-x: 30.825186;
-        --c-y: 38.53948;
-        --c-z: -66.63815;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -3.8175845;
-        --texture-a-t: 0.5;
-        --texture-b-s: -4.0629287;
-        --texture-b-t: 0.5;
-        --texture-c-s: -4.6811013;
-        --texture-c-t: -0.3635168;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 30.825186;
-        --a-y: 38.53948;
-        --a-z: -66.63815;
-        --b-x: 55.035324;
-        --b-y: 56.00176;
-        --b-z: -57.501007;
-        --c-x: 42.61012;
-        --c-y: 56.00177;
-        --c-z: -72.037865;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -4.6811013;
-        --texture-a-t: -0.3635168;
-        --texture-b-s: -4.0629287;
-        --texture-b-t: 0.5;
-        --texture-c-s: -4.6811013;
-        --texture-c-t: -0.118172646;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0.000003472692;
-        --a-y: -86.54331;
-        --a-z: -75.28477;
-        --b-x: -63.074017;
-        --b-y: -33.03016;
-        --b-z: -111.382355;
-        --c-x: 0.0000044913254;
-        --c-y: -108.89288;
-        --c-z: -98.58839;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 5.6811013;
-        --texture-a-t: -1.2270336;
-        --texture-b-s: 5.6811013;
-        --texture-b-t: -2.9540675;
-        --texture-c-s: 5.6811013;
-        --texture-c-t: -1.2270336;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -32.586006;
-        --a-y: -16.451418;
-        --a-z: -58.80622;
-        --b-x: -41.50116;
-        --b-y: 7.324493;
-        --b-z: -74.89493;
-        --c-x: -19.538446;
-        --c-y: -33.269543;
-        --c-z: -68.829056;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 2.2270336;
-        --texture-a-t: -6.408135;
-        --texture-b-s: 0.5;
-        --texture-b-t: -6.408135;
-        --texture-c-s: 2.2270336;
-        --texture-c-t: -6.408135;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -19.538446;
-        --a-y: -33.269543;
-        --a-z: -68.829056;
-        --b-x: -41.50116;
-        --b-y: 7.324493;
-        --b-z: -74.89493;
-        --c-x: -25.55584;
-        --c-y: -14.404252;
-        --c-z: -73.74746;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 2.2270336;
-        --texture-a-t: -6.408135;
-        --texture-b-s: 0.5;
-        --texture-b-t: -6.408135;
-        --texture-c-s: 0.5;
-        --texture-c-t: -6.408135;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 41.501167;
-        --a-y: 7.324493;
-        --a-z: -74.89493;
-        --b-x: 32.58601;
-        --b-y: -16.451418;
-        --b-z: -58.80622;
-        --c-x: 25.555845;
-        --c-y: -14.404252;
-        --c-z: -73.74746;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0.5;
-        --texture-a-t: 3.9540675;
-        --texture-b-s: 2.2270336;
-        --texture-b-t: 3.9540675;
-        --texture-c-s: 0.5;
-        --texture-c-t: 3.9540675;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 25.555845;
-        --a-y: -14.404252;
-        --a-z: -73.74746;
-        --b-x: 32.58601;
-        --b-y: -16.451418;
-        --b-z: -58.80622;
-        --c-x: 19.538454;
-        --c-y: -33.269543;
-        --c-z: -68.829056;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0.5;
-        --texture-a-t: 3.9540675;
-        --texture-b-s: 2.2270336;
-        --texture-b-t: 3.9540675;
-        --texture-c-s: 2.2270336;
-        --texture-c-t: 3.9540675;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 63.074028;
-        --a-y: -33.03016;
-        --a-z: -111.382355;
-        --b-x: 0.000003472692;
-        --b-y: -86.54331;
-        --b-z: -75.28477;
-        --c-x: 0.0000044913254;
-        --c-y: -108.89288;
-        --c-z: -98.58839;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 5.6811013;
-        --texture-a-t: 0.5;
-        --texture-b-s: 5.6811013;
-        --texture-b-t: -1.2270336;
-        --texture-c-s: 5.6811013;
-        --texture-c-t: -1.2270336;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 25.555845;
-        --a-y: -14.404252;
-        --a-z: -73.74746;
-        --b-x: 19.538454;
-        --b-y: -33.269543;
-        --b-z: -68.829056;
-        --c-x: 63.074028;
-        --c-y: -33.03016;
-        --c-z: -111.382355;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0.5;
-        --texture-a-t: 3.9540675;
-        --texture-b-s: 2.2270336;
-        --texture-b-t: 3.9540675;
-        --texture-c-s: 2.2270336;
-        --texture-c-t: 3.9540675;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -19.538446;
-        --a-y: -33.269543;
-        --a-z: -68.829056;
-        --b-x: -25.55584;
-        --b-y: -14.404252;
-        --b-z: -73.74746;
-        --c-x: -63.074017;
-        --c-y: -33.03016;
-        --c-z: -111.382355;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 2.2270336;
-        --texture-a-t: -6.408135;
-        --texture-b-s: 0.5;
-        --texture-b-t: -6.408135;
-        --texture-c-s: 0.5;
-        --texture-c-t: -6.408135;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0.0000063468647;
-        --a-y: -87.79119;
-        --a-z: -141.03816;
-        --b-x: 0.000007847452;
-        --b-y: -43.14862;
-        --b-z: -175.3676;
-        --c-x: 63.074028;
-        --c-y: -33.03016;
-        --c-z: -111.382355;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 2.2270336;
-        --texture-a-t: 5.6811013;
-        --texture-b-s: 0.5;
-        --texture-b-t: 5.6811013;
-        --texture-c-s: 0.5;
-        --texture-c-t: 3.9540675;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0.0000063468647;
-        --a-y: -87.79119;
-        --a-z: -141.03816;
-        --b-x: -63.074017;
-        --b-y: -33.03016;
-        --b-z: -111.382355;
-        --c-x: 0.000007847452;
-        --c-y: -43.14862;
-        --c-z: -175.3676;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 2.2270336;
-        --texture-a-t: 5.6811013;
-        --texture-b-s: 2.2270336;
-        --texture-b-t: 7.408135;
-        --texture-c-s: 0.5;
-        --texture-c-t: 5.6811013;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0.0000044913254;
-        --a-y: -108.89288;
-        --a-z: -98.58839;
-        --b-x: -63.074017;
-        --b-y: -33.03016;
-        --b-z: -111.382355;
-        --c-x: 0.0000063468647;
-        --c-y: -87.79119;
-        --c-z: -141.03816;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 5.6811013;
-        --texture-a-t: -1.2270336;
-        --texture-b-s: 5.6811013;
-        --texture-b-t: -2.9540675;
-        --texture-c-s: 5.6811013;
-        --texture-c-t: -1.2270336;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 63.074028;
-        --a-y: -33.03016;
-        --a-z: -111.382355;
-        --b-x: 0.0000044913254;
-        --b-y: -108.89288;
-        --b-z: -98.58839;
-        --c-x: 0.0000063468647;
-        --c-y: -87.79119;
-        --c-z: -141.03816;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 5.6811013;
-        --texture-a-t: 0.5;
-        --texture-b-s: 5.6811013;
-        --texture-b-t: -1.2270336;
-        --texture-c-s: 5.6811013;
-        --texture-c-t: -1.2270336;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 19.538454;
-        --a-y: -33.269543;
-        --a-z: -68.829056;
-        --b-x: 0.0000026414916;
-        --b-y: -53.9294;
-        --b-z: -56.26912;
-        --c-x: 63.074028;
-        --c-y: -33.03016;
-        --c-z: -111.382355;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 5.6811013;
-        --texture-a-t: 0.5;
-        --texture-b-s: 5.6811013;
-        --texture-b-t: -1.2270336;
-        --texture-c-s: 5.6811013;
-        --texture-c-t: 0.5;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 63.074028;
-        --a-y: -33.03016;
-        --a-z: -111.382355;
-        --b-x: 0.0000026414916;
-        --b-y: -53.9294;
-        --b-z: -56.26912;
-        --c-x: 0.000003472692;
-        --c-y: -86.54331;
-        --c-z: -75.28477;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 5.6811013;
-        --texture-a-t: 0.5;
-        --texture-b-s: 5.6811013;
-        --texture-b-t: -1.2270336;
-        --texture-c-s: 5.6811013;
-        --texture-c-t: -1.2270336;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0.0000026414916;
-        --a-y: -53.9294;
-        --a-z: -56.26912;
-        --b-x: -19.538446;
-        --b-y: -33.269543;
-        --b-z: -68.829056;
-        --c-x: 0.000003472692;
-        --c-y: -86.54331;
-        --c-z: -75.28477;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 5.6811013;
-        --texture-a-t: -1.2270336;
-        --texture-b-s: 5.6811013;
-        --texture-b-t: -2.9540675;
-        --texture-c-s: 5.6811013;
-        --texture-c-t: -1.2270336;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0.000003472692;
-        --a-y: -86.54331;
-        --a-z: -75.28477;
-        --b-x: -19.538446;
-        --b-y: -33.269543;
-        --b-z: -68.829056;
-        --c-x: -63.074017;
-        --c-y: -33.03016;
-        --c-z: -111.382355;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 5.6811013;
-        --texture-a-t: -1.2270336;
-        --texture-b-s: 5.6811013;
-        --texture-b-t: -2.9540675;
-        --texture-c-s: 5.6811013;
-        --texture-c-t: -2.9540675;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 55.035313;
-        --a-y: 56.001766;
-        --a-z: 57.50101;
-        --b-x: 48.18177;
-        --b-y: 38.539467;
-        --b-z: 46.331825;
-        --c-x: 42.61011;
-        --c-y: 56.00177;
-        --c-z: 72.037865;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -1.8452065;
-        --texture-a-t: 0.5;
-        --texture-b-s: -2.0905507;
-        --texture-b-t: 0.5;
-        --texture-c-s: -1.2270336;
-        --texture-c-t: -0.118172646;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 42.61011;
-        --a-y: 56.00177;
-        --a-z: 72.037865;
-        --b-x: 48.18177;
-        --b-y: 38.539467;
-        --b-z: 46.331825;
-        --c-x: 30.82518;
-        --c-y: 38.53948;
-        --c-z: 66.63815;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -1.2270336;
-        --texture-a-t: -0.118172646;
-        --texture-b-s: -2.0905507;
-        --texture-b-t: 0.5;
-        --texture-c-s: -1.2270337;
-        --texture-c-t: -0.3635168;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -48.18177;
-        --a-y: 38.53948;
-        --a-z: -46.331825;
-        --b-x: -30.82518;
-        --b-y: 38.539467;
-        --b-z: -66.63815;
-        --c-x: -55.035324;
-        --c-y: 56.00176;
-        --c-z: -57.501007;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -3.8175845;
-        --texture-a-t: -2.9540675;
-        --texture-b-s: -4.6811013;
-        --texture-b-t: -2.0905507;
-        --texture-c-s: -4.0629287;
-        --texture-c-t: -2.9540675;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -55.035324;
-        --a-y: 56.00176;
-        --a-z: -57.501007;
-        --b-x: -30.82518;
-        --b-y: 38.539467;
-        --b-z: -66.63815;
-        --c-x: -42.61012;
-        --c-y: 56.00177;
-        --c-z: -72.037865;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -4.0629287;
-        --texture-a-t: -2.9540675;
-        --texture-b-s: -4.6811013;
-        --texture-b-t: -2.0905507;
-        --texture-c-s: -4.6811013;
-        --texture-c-t: -2.3358948;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -30.825186;
-        --a-y: 38.539467;
-        --a-z: 66.63815;
-        --b-x: -48.181778;
-        --b-y: 38.53948;
-        --b-z: 46.33182;
-        --c-x: -42.61011;
-        --c-y: 56.00177;
-        --c-z: 72.037865;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -1.2270337;
-        --texture-a-t: -2.0905507;
-        --texture-b-s: -2.0905507;
-        --texture-b-t: -2.9540675;
-        --texture-c-s: -1.2270336;
-        --texture-c-t: -2.335895;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -42.61011;
-        --a-y: 56.00177;
-        --a-z: 72.037865;
-        --b-x: -48.181778;
-        --b-y: 38.53948;
-        --b-z: 46.33182;
-        --c-x: -55.035313;
-        --c-y: 56.001766;
-        --c-z: 57.50101;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -1.2270336;
-        --texture-a-t: -2.335895;
-        --texture-b-s: -2.0905507;
-        --texture-b-t: -2.9540675;
-        --texture-c-s: -1.8452066;
-        --texture-c-t: -2.9540675;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 30.825186;
-        --a-y: 38.53948;
-        --a-z: -66.63815;
-        --b-x: 42.61012;
-        --b-y: 56.00177;
-        --b-z: -72.037865;
-        --c-x: 41.501167;
-        --c-y: 7.324493;
-        --c-z: -74.89493;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -1.2270337;
-        --texture-a-t: 4.8175845;
-        --texture-b-s: -1.2270337;
-        --texture-b-t: 4.57224;
-        --texture-c-s: 0.5;
-        --texture-c-t: 3.9540675;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 41.501167;
-        --a-y: 7.324493;
-        --a-z: -74.89493;
-        --b-x: 42.61012;
-        --b-y: 56.00177;
-        --b-z: -72.037865;
-        --c-x: 50.25282;
-        --c-y: 33.655655;
-        --c-z: -77.9487;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0.5;
-        --texture-a-t: 3.9540675;
-        --texture-b-s: -1.2270337;
-        --texture-b-t: 4.57224;
-        --texture-c-s: 0.009311408;
-        --texture-c-t: 3.9540677;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -41.50116;
-        --a-y: 7.324493;
-        --a-z: -74.89493;
-        --b-x: -50.25282;
-        --b-y: 33.655655;
-        --b-z: -77.9487;
-        --c-x: -30.82518;
-        --c-y: 38.539467;
-        --c-z: -66.63815;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0.5;
-        --texture-a-t: 7.408135;
-        --texture-b-s: 0.009311377;
-        --texture-b-t: 7.4081345;
-        --texture-c-s: -1.2270337;
-        --texture-c-t: 6.544618;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -30.82518;
-        --a-y: 38.539467;
-        --a-z: -66.63815;
-        --b-x: -50.25282;
-        --b-y: 33.655655;
-        --b-z: -77.9487;
-        --c-x: -42.61012;
-        --c-y: 56.00177;
-        --c-z: -72.037865;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -1.2270337;
-        --texture-a-t: 6.544618;
-        --texture-b-s: 0.009311377;
-        --texture-b-t: 7.4081345;
-        --texture-c-s: -1.2270337;
-        --texture-c-t: 6.789963;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -42.256584;
-        --a-y: -50.162296;
-        --a-z: -119.618;
-        --b-x: -64.42834;
-        --b-y: -57.617706;
-        --b-z: -110.68468;
-        --c-x: -41.409546;
-        --c-y: -27.024185;
-        --c-z: -120.02102;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0;
-        --texture-a-t: 1;
-        --texture-b-s: 0;
-        --texture-b-t: 1;
-        --texture-c-s: 0;
-        --texture-c-t: 1;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -66.29852;
-        --a-y: -34.770195;
-        --a-z: -109.79482;
-        --b-x: -41.409546;
-        --b-y: -27.024185;
-        --b-z: -120.02102;
-        --c-x: -76.611946;
-        --c-y: -48.367493;
-        --c-z: -104.88756;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0;
-        --texture-a-t: 1;
-        --texture-b-s: 0;
-        --texture-b-t: 1;
-        --texture-c-s: 0;
-        --texture-c-t: 1;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -64.42834;
-        --a-y: -57.617706;
-        --a-z: -110.68468;
-        --b-x: -60.019993;
-        --b-y: -46.633377;
-        --b-z: -112.78223;
-        --c-x: -41.409546;
-        --c-y: -27.024185;
-        --c-z: -120.02102;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0;
-        --texture-a-t: 1;
-        --texture-b-s: 0;
-        --texture-b-t: 1;
-        --texture-c-s: 0;
-        --texture-c-t: 1;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -76.611946;
-        --a-y: -48.367493;
-        --a-z: -104.88756;
-        --b-x: -41.409546;
-        --b-y: -27.024185;
-        --b-z: -120.02102;
-        --c-x: -60.019993;
-        --c-y: -46.633377;
-        --c-z: -112.78223;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0;
-        --texture-a-t: 1;
-        --texture-b-s: 0;
-        --texture-b-t: 1;
-        --texture-c-s: 0;
-        --texture-c-t: 1;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 42.256584;
-        --a-y: -50.162296;
-        --a-z: -119.618;
-        --b-x: 41.409546;
-        --b-y: -27.024185;
-        --b-z: -120.02102;
-        --c-x: 64.42834;
-        --c-y: -57.617706;
-        --c-z: -110.68468;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0;
-        --texture-a-t: 1;
-        --texture-b-s: 0;
-        --texture-b-t: 1;
-        --texture-c-s: 0;
-        --texture-c-t: 1;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 76.611946;
-        --a-y: -48.367493;
-        --a-z: -104.88756;
-        --b-x: 60.019993;
-        --b-y: -46.633377;
-        --b-z: -112.78223;
-        --c-x: 66.29852;
-        --c-y: -34.770195;
-        --c-z: -109.79482;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0;
-        --texture-a-t: 1;
-        --texture-b-s: 0;
-        --texture-b-t: 1;
-        --texture-c-s: 0;
-        --texture-c-t: 1;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 64.42834;
-        --a-y: -57.617706;
-        --a-z: -110.68468;
-        --b-x: 41.409546;
-        --b-y: -27.024185;
-        --b-z: -120.02102;
-        --c-x: 60.019993;
-        --c-y: -46.633377;
-        --c-z: -112.78223;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0;
-        --texture-a-t: 1;
-        --texture-b-s: 0;
-        --texture-b-t: 1;
-        --texture-c-s: 0;
-        --texture-c-t: 1;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 66.29852;
-        --a-y: -34.770195;
-        --a-z: -109.79482;
-        --b-x: 60.019993;
-        --b-y: -46.633377;
-        --b-z: -112.78223;
-        --c-x: 41.409546;
-        --c-y: -27.024185;
-        --c-z: -120.02102;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0;
-        --texture-a-t: 1;
-        --texture-b-s: 0;
-        --texture-b-t: 1;
-        --texture-c-s: 0;
-        --texture-c-t: 1;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -41.501167;
-        --a-y: 7.324493;
-        --a-z: 74.89493;
-        --b-x: -41.037895;
-        --b-y: -0.16574264;
-        --b-z: -0.0000017938232;
-        --c-x: -29.652023;
-        --c-y: -24.638056;
-        --c-z: -0.0000012961311;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0.5;
-        --texture-a-t: -2.9540675;
-        --texture-b-s: 0.5;
-        --texture-b-t: -4.6811013;
-        --texture-c-s: 2.2270336;
-        --texture-c-t: -4.6811013;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 29.652023;
-        --a-y: -18.131325;
-        --a-z: 0.0000012961311;
-        --b-x: 41.037895;
-        --b-y: 6.340987;
-        --b-z: 0.0000017938232;
-        --c-x: 41.50116;
-        --c-y: 7.324493;
-        --c-z: 74.89493;
-        --texture-background-color: rgba(255, 123, 167, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 2.2270336;
-        --texture-a-t: 2.2270336;
-        --texture-b-s: 0.5;
-        --texture-b-t: 2.2270336;
-        --texture-c-s: 0.5;
-        --texture-c-t: 0.5;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0.000002273911;
-        --a-y: -42.963245;
-        --a-z: -52.02102;
-        --b-x: 0;
-        --b-y: -41.065155;
-        --b-z: -0;
-        --c-x: -32.586006;
-        --c-y: -16.451418;
-        --c-z: -58.80622;
-        --texture-background-color: rgba(209, 19, 64, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 5.6811013;
-        --texture-a-t: -1.2270336;
-        --texture-b-s: 3.9540675;
-        --texture-b-t: -1.2270336;
-        --texture-c-s: 5.6811013;
-        --texture-c-t: -2.9540675;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -32.586006;
-        --a-y: -16.451418;
-        --a-z: -58.80622;
-        --b-x: 0;
-        --b-y: -41.065155;
-        --b-z: -0;
-        --c-x: -29.652023;
-        --c-y: -24.638056;
-        --c-z: -0.0000012961311;
-        --texture-background-color: rgba(209, 19, 64, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 5.6811013;
-        --texture-a-t: -2.9540675;
-        --texture-b-s: 3.9540675;
-        --texture-b-t: -1.2270336;
-        --texture-c-s: 3.9540675;
-        --texture-c-t: -2.9540675;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -0.0000026518644;
-        --a-y: -23.47755;
-        --a-z: 60.97216;
-        --b-x: -0.000003330817;
-        --b-y: -0.16574264;
-        --b-z: 76.504776;
-        --c-x: -32.58601;
-        --c-y: -13.073486;
-        --c-z: 58.80622;
-        --texture-background-color: rgba(209, 19, 64, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 2.2270336;
-        --texture-a-t: -1.2270336;
-        --texture-b-s: 0.5;
-        --texture-b-t: -1.2270336;
-        --texture-c-s: 2.2270336;
-        --texture-c-t: -2.9540675;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -32.58601;
-        --a-y: -13.073486;
-        --a-z: 58.80622;
-        --b-x: -0.000003330817;
-        --b-y: -0.16574264;
-        --b-z: 76.504776;
-        --c-x: -41.501167;
-        --c-y: 7.324493;
-        --c-z: 74.89493;
-        --texture-background-color: rgba(209, 19, 64, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 2.2270336;
-        --texture-a-t: -2.9540675;
-        --texture-b-s: 0.5;
-        --texture-b-t: -1.2270336;
-        --texture-c-s: 0.5;
-        --texture-c-t: -2.9540675;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 32.586006;
-        --a-y: -13.073486;
-        --a-z: 58.80622;
-        --b-x: 29.652023;
-        --b-y: -18.131325;
-        --b-z: 0.0000012961311;
-        --c-x: 41.50116;
-        --c-y: 7.324493;
-        --c-z: 74.89493;
-        --texture-background-color: rgba(209, 19, 64, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 2.2270336;
-        --texture-a-t: 0.5;
-        --texture-b-s: 2.2270336;
-        --texture-b-t: 2.2270336;
-        --texture-c-s: 0.5;
-        --texture-c-t: 0.5;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 32.586006;
-        --a-y: -13.073486;
-        --a-z: 58.80622;
-        --b-x: 41.50116;
-        --b-y: 7.324493;
-        --b-z: 74.89493;
-        --c-x: -0.0000026518644;
-        --c-y: -23.47755;
-        --c-z: 60.97216;
-        --texture-background-color: rgba(209, 19, 64, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 2.2270336;
-        --texture-a-t: 0.5;
-        --texture-b-s: 0.5;
-        --texture-b-t: 0.5;
-        --texture-c-s: 2.2270336;
-        --texture-c-t: -1.2270336;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -0.0000026518644;
-        --a-y: -23.47755;
-        --a-z: 60.97216;
-        --b-x: 41.50116;
-        --b-y: 7.324493;
-        --b-z: 74.89493;
-        --c-x: -0.000003330817;
-        --c-y: -0.16574264;
-        --c-z: 76.504776;
-        --texture-background-color: rgba(209, 19, 64, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 2.2270336;
-        --texture-a-t: -1.2270336;
-        --texture-b-s: 0.5;
-        --texture-b-t: 0.5;
-        --texture-c-s: 0.5;
-        --texture-c-t: -1.2270336;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 32.58601;
-        --a-y: -16.451418;
-        --a-z: -58.80622;
-        --b-x: 0.000002273911;
-        --b-y: -42.963245;
-        --b-z: -52.02102;
-        --c-x: 19.538454;
-        --c-y: -33.269543;
-        --c-z: -68.829056;
-        --texture-background-color: rgba(209, 19, 64, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 5.6811013;
-        --texture-a-t: 0.5;
-        --texture-b-s: 5.6811013;
-        --texture-b-t: -1.2270336;
-        --texture-c-s: 5.6811013;
-        --texture-c-t: 0.5;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 19.538454;
-        --a-y: -33.269543;
-        --a-z: -68.829056;
-        --b-x: 0.000002273911;
-        --b-y: -42.963245;
-        --b-z: -52.02102;
-        --c-x: 0.0000026414916;
-        --c-y: -53.9294;
-        --c-z: -56.26912;
-        --texture-background-color: rgba(209, 19, 64, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 5.6811013;
-        --texture-a-t: 0.5;
-        --texture-b-s: 5.6811013;
-        --texture-b-t: -1.2270336;
-        --texture-c-s: 5.6811013;
-        --texture-c-t: -1.2270336;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -32.58601;
-        --a-y: -13.073486;
-        --a-z: 58.80622;
-        --b-x: -41.501167;
-        --b-y: 7.324493;
-        --b-z: 74.89493;
-        --c-x: -29.652023;
-        --c-y: -24.638056;
-        --c-z: -0.0000012961311;
-        --texture-background-color: rgba(209, 19, 64, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 2.2270336;
-        --texture-a-t: -2.9540675;
-        --texture-b-s: 0.5;
-        --texture-b-t: -2.9540675;
-        --texture-c-s: 2.2270336;
-        --texture-c-t: -4.6811013;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0;
-        --a-y: -41.065155;
-        --a-z: -0;
-        --b-x: -0.0000026518644;
-        --b-y: -23.47755;
-        --b-z: 60.97216;
-        --c-x: -29.652023;
-        --c-y: -24.638056;
-        --c-z: -0.0000012961311;
-        --texture-background-color: rgba(209, 19, 64, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 3.9540675;
-        --texture-a-t: -1.2270336;
-        --texture-b-s: 2.2270336;
-        --texture-b-t: -1.2270336;
-        --texture-c-s: 3.9540675;
-        --texture-c-t: -2.9540675;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -29.652023;
-        --a-y: -24.638056;
-        --a-z: -0.0000012961311;
-        --b-x: -0.0000026518644;
-        --b-y: -23.47755;
-        --b-z: 60.97216;
-        --c-x: -32.58601;
-        --c-y: -13.073486;
-        --c-z: 58.80622;
-        --texture-background-color: rgba(209, 19, 64, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 3.9540675;
-        --texture-a-t: -2.9540675;
-        --texture-b-s: 2.2270336;
-        --texture-b-t: -1.2270336;
-        --texture-c-s: 2.2270336;
-        --texture-c-t: -2.9540675;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 29.652023;
-        --a-y: -18.131325;
-        --a-z: 0.0000012961311;
-        --b-x: 32.586006;
-        --b-y: -13.073486;
-        --b-z: 58.80622;
-        --c-x: 0;
-        --c-y: -41.065155;
-        --c-z: -0;
-        --texture-background-color: rgba(209, 19, 64, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 3.9540675;
-        --texture-a-t: 0.5;
-        --texture-b-s: 2.2270336;
-        --texture-b-t: 0.5;
-        --texture-c-s: 3.9540675;
-        --texture-c-t: -1.2270336;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0;
-        --a-y: -41.065155;
-        --a-z: -0;
-        --b-x: 32.586006;
-        --b-y: -13.073486;
-        --b-z: 58.80622;
-        --c-x: -0.0000026518644;
-        --c-y: -23.47755;
-        --c-z: 60.97216;
-        --texture-background-color: rgba(209, 19, 64, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 3.9540675;
-        --texture-a-t: -1.2270336;
-        --texture-b-s: 2.2270336;
-        --texture-b-t: 0.5;
-        --texture-c-s: 2.2270336;
-        --texture-c-t: -1.2270336;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 32.58601;
-        --a-y: -16.451418;
-        --a-z: -58.80622;
-        --b-x: 29.652023;
-        --b-y: -18.131325;
-        --b-z: 0.0000012961311;
-        --c-x: 0.000002273911;
-        --c-y: -42.963245;
-        --c-z: -52.02102;
-        --texture-background-color: rgba(209, 19, 64, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 5.6811013;
-        --texture-a-t: 0.5;
-        --texture-b-s: 3.9540675;
-        --texture-b-t: 0.5;
-        --texture-c-s: 5.6811013;
-        --texture-c-t: -1.2270336;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0.000002273911;
-        --a-y: -42.963245;
-        --a-z: -52.02102;
-        --b-x: 29.652023;
-        --b-y: -18.131325;
-        --b-z: 0.0000012961311;
-        --c-x: 0;
-        --c-y: -41.065155;
-        --c-z: -0;
-        --texture-background-color: rgba(209, 19, 64, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 5.6811013;
-        --texture-a-t: -1.2270336;
-        --texture-b-s: 3.9540675;
-        --texture-b-t: 0.5;
-        --texture-c-s: 3.9540675;
-        --texture-c-t: -1.2270336;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0.000002273911;
-        --a-y: -42.963245;
-        --a-z: -52.02102;
-        --b-x: -32.586006;
-        --b-y: -16.451418;
-        --b-z: -58.80622;
-        --c-x: 0.0000026414916;
-        --c-y: -53.9294;
-        --c-z: -56.26912;
-        --texture-background-color: rgba(209, 19, 64, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 5.6811013;
-        --texture-a-t: -1.2270336;
-        --texture-b-s: 5.6811013;
-        --texture-b-t: -2.9540675;
-        --texture-c-s: 5.6811013;
-        --texture-c-t: -1.2270336;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0.0000026414916;
-        --a-y: -53.9294;
-        --a-z: -56.26912;
-        --b-x: -32.586006;
-        --b-y: -16.451418;
-        --b-z: -58.80622;
-        --c-x: -19.538446;
-        --c-y: -33.269543;
-        --c-z: -68.829056;
-        --texture-background-color: rgba(209, 19, 64, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 5.6811013;
-        --texture-a-t: -1.2270336;
-        --texture-b-s: 5.6811013;
-        --texture-b-t: -2.9540675;
-        --texture-c-s: 5.6811013;
-        --texture-c-t: -2.9540675;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0;
-        --a-y: -79.152794;
-        --a-z: -147.36606;
-        --b-x: -22.159393;
-        --b-y: -81.33053;
-        --b-z: -102.844826;
-        --c-x: 0;
-        --c-y: -83.01939;
-        --c-z: -156.92744;
-        --texture-background-color: rgba(209, 19, 64, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0;
-        --texture-a-t: 1;
-        --texture-b-s: 0;
-        --texture-b-t: 1;
-        --texture-c-s: 0;
-        --texture-c-t: 1;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 36.04855;
-        --a-y: -48.262333;
-        --a-z: 117.352066;
-        --b-x: 19.491291;
-        --b-y: -56.110847;
-        --b-z: 124.01198;
-        --c-x: 21.694431;
-        --c-y: -5.5278196;
-        --c-z: 51.190746;
-        --texture-background-color: rgba(209, 19, 64, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -6.408135;
-        --texture-a-t: -2.9540675;
-        --texture-b-s: -3.8175845;
-        --texture-b-t: -0.36351693;
-        --texture-c-s: -6.408135;
-        --texture-c-t: 0.5;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -19.872765;
-        --a-y: -1.2152627;
-        --a-z: 58.72283;
-        --b-x: 21.694431;
-        --b-y: -5.5278196;
-        --b-z: 51.190746;
-        --c-x: -33.15132;
-        --c-y: -45.686024;
-        --c-z: 131.16278;
-        --texture-background-color: rgba(209, 19, 64, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0.5;
-        --texture-a-t: 7.408135;
-        --texture-b-s: -6.408135;
-        --texture-b-t: 0.5;
-        --texture-c-s: 3.9540675;
-        --texture-c-t: 7.408135;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -18.63161;
-        --a-y: -54.485165;
-        --a-z: 127.254036;
-        --b-x: -33.15132;
-        --b-y: -45.686024;
-        --b-z: 131.16278;
-        --c-x: -0.67475545;
-        --c-y: -51.856144;
-        --c-z: 106.303764;
-        --texture-background-color: rgba(209, 19, 64, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 1.3635169;
-        --texture-a-t: 4.817584;
-        --texture-b-s: 3.9540675;
-        --texture-b-t: 7.408135;
-        --texture-c-s: -1.2270336;
-        --texture-c-t: 2.2270336;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 19.491291;
-        --a-y: -56.110847;
-        --a-z: 124.01198;
-        --b-x: -0.67475545;
-        --b-y: -51.856144;
-        --b-z: 106.303764;
-        --c-x: 21.694431;
-        --c-y: -5.5278196;
-        --c-z: 51.190746;
-        --texture-background-color: rgba(209, 19, 64, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -3.8175845;
-        --texture-a-t: -0.36351693;
-        --texture-b-s: -1.2270336;
-        --texture-b-t: 2.2270336;
-        --texture-c-s: -6.408135;
-        --texture-c-t: 0.5;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -33.15132;
-        --a-y: -45.686024;
-        --a-z: 131.16278;
-        --b-x: 21.694431;
-        --b-y: -5.5278196;
-        --b-z: 51.190746;
-        --c-x: -0.67475545;
-        --c-y: -51.856144;
-        --c-z: 106.303764;
-        --texture-background-color: rgba(209, 19, 64, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 3.9540675;
-        --texture-a-t: 7.408135;
-        --texture-b-s: -6.408135;
-        --texture-b-t: 0.5;
-        --texture-c-s: -1.2270336;
-        --texture-c-t: 2.2270336;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -22.159393;
-        --a-y: -81.33053;
-        --a-z: -102.844826;
-        --b-x: 0;
-        --b-y: -101.74718;
-        --b-z: -133.64969;
-        --c-x: 0;
-        --c-y: -105.03093;
-        --c-z: -173.60213;
-        --texture-background-color: rgba(209, 19, 64, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0;
-        --texture-a-t: 1;
-        --texture-b-s: 0;
-        --texture-b-t: 1;
-        --texture-c-s: 0;
-        --texture-c-t: 1;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -22.159393;
-        --a-y: -81.33053;
-        --a-z: -102.844826;
-        --b-x: 0;
-        --b-y: -140.60501;
-        --b-z: -144.86922;
-        --c-x: 0;
-        --c-y: -101.74718;
-        --c-z: -133.64969;
-        --texture-background-color: rgba(209, 19, 64, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0;
-        --texture-a-t: 1;
-        --texture-b-s: 0;
-        --texture-b-t: 1;
-        --texture-c-s: 0;
-        --texture-c-t: 1;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0;
-        --a-y: -101.74718;
-        --a-z: -133.64969;
-        --b-x: 0;
-        --b-y: -140.60501;
-        --b-z: -144.86922;
-        --c-x: 0;
-        --c-y: -115.97681;
-        --c-z: -144.86922;
-        --texture-background-color: rgba(209, 19, 64, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0;
-        --texture-a-t: 1;
-        --texture-b-s: 0;
-        --texture-b-t: 1;
-        --texture-c-s: 0;
-        --texture-c-t: 1;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -22.159393;
-        --a-y: -81.33053;
-        --a-z: -102.844826;
-        --b-x: 0;
-        --b-y: -109.68294;
-        --b-z: -104.64313;
-        --c-x: 0;
-        --c-y: -140.60501;
-        --c-z: -144.86922;
-        --texture-background-color: rgba(209, 19, 64, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0;
-        --texture-a-t: 1;
-        --texture-b-s: 0;
-        --texture-b-t: 1;
-        --texture-c-s: 0;
-        --texture-c-t: 1;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0;
-        --a-y: -89.29183;
-        --a-z: -78.61079;
-        --b-x: 0;
-        --b-y: -129.67233;
-        --b-z: -99.53331;
-        --c-x: -22.159393;
-        --c-y: -81.33053;
-        --c-z: -102.844826;
-        --texture-background-color: rgba(209, 19, 64, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0;
-        --texture-a-t: 1;
-        --texture-b-s: 0;
-        --texture-b-t: 1;
-        --texture-c-s: 0;
-        --texture-c-t: 1;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0;
-        --a-y: -105.03093;
-        --a-z: -173.60213;
-        --b-x: 0;
-        --b-y: -91.3486;
-        --b-z: -162.24579;
-        --c-x: -22.159393;
-        --c-y: -81.33053;
-        --c-z: -102.844826;
-        --texture-background-color: rgba(209, 19, 64, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0;
-        --texture-a-t: 1;
-        --texture-b-s: 0;
-        --texture-b-t: 1;
-        --texture-c-s: 0;
-        --texture-c-t: 1;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0;
-        --a-y: -83.01939;
-        --a-z: -156.92744;
-        --b-x: -22.159393;
-        --b-y: -81.33053;
-        --b-z: -102.844826;
-        --c-x: 0;
-        --c-y: -85.84317;
-        --c-z: -148.4784;
-        --texture-background-color: rgba(209, 19, 64, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0;
-        --texture-a-t: 1;
-        --texture-b-s: 0;
-        --texture-b-t: 1;
-        --texture-c-s: 0;
-        --texture-c-t: 1;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0;
-        --a-y: -85.84317;
-        --a-z: -148.4784;
-        --b-x: -22.159393;
-        --b-y: -81.33053;
-        --b-z: -102.844826;
-        --c-x: 0;
-        --c-y: -91.3486;
-        --c-z: -162.24579;
-        --texture-background-color: rgba(209, 19, 64, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0;
-        --texture-a-t: 1;
-        --texture-b-s: 0;
-        --texture-b-t: 1;
-        --texture-c-s: 0;
-        --texture-c-t: 1;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0;
-        --a-y: -83.01939;
-        --a-z: -156.92744;
-        --b-x: 22.159393;
-        --b-y: -81.33053;
-        --b-z: -102.844826;
-        --c-x: 0;
-        --c-y: -79.152794;
-        --c-z: -147.36606;
-        --texture-background-color: rgba(209, 19, 64, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0;
-        --texture-a-t: 1;
-        --texture-b-s: 0;
-        --texture-b-t: 1;
-        --texture-c-s: 0;
-        --texture-c-t: 1;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0;
-        --a-y: -105.03093;
-        --a-z: -173.60213;
-        --b-x: 0;
-        --b-y: -101.74718;
-        --b-z: -133.64969;
-        --c-x: 22.159393;
-        --c-y: -81.33053;
-        --c-z: -102.844826;
-        --texture-background-color: rgba(209, 19, 64, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0;
-        --texture-a-t: 1;
-        --texture-b-s: 0;
-        --texture-b-t: 1;
-        --texture-c-s: 0;
-        --texture-c-t: 1;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0;
-        --a-y: -115.97681;
-        --a-z: -144.86922;
-        --b-x: 0;
-        --b-y: -140.60501;
-        --b-z: -144.86922;
-        --c-x: 0;
-        --c-y: -101.74718;
-        --c-z: -133.64969;
-        --texture-background-color: rgba(209, 19, 64, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0;
-        --texture-a-t: 1;
-        --texture-b-s: 0;
-        --texture-b-t: 1;
-        --texture-c-s: 0;
-        --texture-c-t: 1;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0;
-        --a-y: -101.74718;
-        --a-z: -133.64969;
-        --b-x: 0;
-        --b-y: -140.60501;
-        --b-z: -144.86922;
-        --c-x: 22.159393;
-        --c-y: -81.33053;
-        --c-z: -102.844826;
-        --texture-background-color: rgba(209, 19, 64, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0;
-        --texture-a-t: 1;
-        --texture-b-s: 0;
-        --texture-b-t: 1;
-        --texture-c-s: 0;
-        --texture-c-t: 1;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0;
-        --a-y: -140.60501;
-        --a-z: -144.86922;
-        --b-x: 0;
-        --b-y: -109.68294;
-        --b-z: -104.64313;
-        --c-x: 22.159393;
-        --c-y: -81.33053;
-        --c-z: -102.844826;
-        --texture-background-color: rgba(209, 19, 64, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0;
-        --texture-a-t: 1;
-        --texture-b-s: 0;
-        --texture-b-t: 1;
-        --texture-c-s: 0;
-        --texture-c-t: 1;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0;
-        --a-y: -109.68294;
-        --a-z: -104.64313;
-        --b-x: 0;
-        --b-y: -129.67233;
-        --b-z: -99.53331;
-        --c-x: 22.159393;
-        --c-y: -81.33053;
-        --c-z: -102.844826;
-        --texture-background-color: rgba(209, 19, 64, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0;
-        --texture-a-t: 1;
-        --texture-b-s: 0;
-        --texture-b-t: 1;
-        --texture-c-s: 0;
-        --texture-c-t: 1;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0;
-        --a-y: -105.03093;
-        --a-z: -173.60213;
-        --b-x: 22.159393;
-        --b-y: -81.33053;
-        --b-z: -102.844826;
-        --c-x: 0;
-        --c-y: -91.3486;
-        --c-z: -162.24579;
-        --texture-background-color: rgba(209, 19, 64, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0;
-        --texture-a-t: 1;
-        --texture-b-s: 0;
-        --texture-b-t: 1;
-        --texture-c-s: 0;
-        --texture-c-t: 1;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0;
-        --a-y: -83.01939;
-        --a-z: -156.92744;
-        --b-x: 0;
-        --b-y: -85.84317;
-        --b-z: -148.4784;
-        --c-x: 22.159393;
-        --c-y: -81.33053;
-        --c-z: -102.844826;
-        --texture-background-color: rgba(209, 19, 64, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0;
-        --texture-a-t: 1;
-        --texture-b-s: 0;
-        --texture-b-t: 1;
-        --texture-c-s: 0;
-        --texture-c-t: 1;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0;
-        --a-y: -85.84317;
-        --a-z: -148.4784;
-        --b-x: 0;
-        --b-y: -91.3486;
-        --b-z: -162.24579;
-        --c-x: 22.159393;
-        --c-y: -81.33053;
-        --c-z: -102.844826;
-        --texture-background-color: rgba(209, 19, 64, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0;
-        --texture-a-t: 1;
-        --texture-b-s: 0;
-        --texture-b-t: 1;
-        --texture-c-s: 0;
-        --texture-c-t: 1;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0;
-        --a-y: -129.67233;
-        --a-z: -99.53331;
-        --b-x: 0;
-        --b-y: -109.68294;
-        --b-z: -104.64313;
-        --c-x: -22.159393;
-        --c-y: -81.33053;
-        --c-z: -102.844826;
-        --texture-background-color: rgba(209, 19, 64, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0;
-        --texture-a-t: 1;
-        --texture-b-s: 0;
-        --texture-b-t: 1;
-        --texture-c-s: 0;
-        --texture-c-t: 1;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0;
-        --a-y: -129.67233;
-        --a-z: -99.53331;
-        --b-x: 0;
-        --b-y: -89.29183;
-        --b-z: -78.61079;
-        --c-x: 22.159393;
-        --c-y: -81.33053;
-        --c-z: -102.844826;
-        --texture-background-color: rgba(209, 19, 64, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0;
-        --texture-a-t: 1;
-        --texture-b-s: 0;
-        --texture-b-t: 1;
-        --texture-c-s: 0;
-        --texture-c-t: 1;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -24.243723;
-        --a-y: -39.287655;
-        --a-z: -151.69545;
-        --b-x: -18.344193;
-        --b-y: -40.23407;
-        --b-z: -157.6802;
-        --c-x: -16.614058;
-        --c-y: -29.07877;
-        --c-z: -145.00357;
-        --texture-background-color: rgba(209, 19, 64, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0;
-        --texture-a-t: 1;
-        --texture-b-s: 0;
-        --texture-b-t: 1;
-        --texture-c-s: 0;
-        --texture-c-t: 1;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -18.344193;
-        --a-y: -40.23407;
-        --a-z: -157.6802;
-        --b-x: -24.243723;
-        --b-y: -39.287655;
-        --b-z: -151.69545;
-        --c-x: -19.741014;
-        --c-y: -47.919865;
-        --c-z: -149.71098;
-        --texture-background-color: rgba(209, 19, 64, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0;
-        --texture-a-t: 1;
-        --texture-b-s: 0;
-        --texture-b-t: 1;
-        --texture-c-s: 0;
-        --texture-c-t: 1;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 16.614058;
-        --a-y: -29.07877;
-        --a-z: -145.00357;
-        --b-x: 18.344193;
-        --b-y: -40.23407;
-        --b-z: -157.6802;
-        --c-x: 24.243723;
-        --c-y: -39.287655;
-        --c-z: -151.69545;
-        --texture-background-color: rgba(209, 19, 64, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0;
-        --texture-a-t: 1;
-        --texture-b-s: 0;
-        --texture-b-t: 1;
-        --texture-c-s: 0;
-        --texture-c-t: 1;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 19.741014;
-        --a-y: -47.919865;
-        --a-z: -149.71098;
-        --b-x: 24.243723;
-        --b-y: -39.287655;
-        --b-z: -151.69545;
-        --c-x: 18.344193;
-        --c-y: -40.23407;
-        --c-z: -157.6802;
-        --texture-background-color: rgba(209, 19, 64, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0;
-        --texture-a-t: 1;
-        --texture-b-s: 0;
-        --texture-b-t: 1;
-        --texture-c-s: 0;
-        --texture-c-t: 1;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -42.61011;
-        --a-y: 56.00177;
-        --a-z: 72.037865;
-        --b-x: -55.035313;
-        --b-y: 56.001766;
-        --b-z: 57.50101;
-        --c-x: -72.3036;
-        --c-y: 100;
-        --c-z: 85.643036;
-        --texture-background-color: rgba(36, 4, 33, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -1.2270336;
-        --texture-a-t: -2.335895;
-        --texture-b-s: -1.8452066;
-        --texture-b-t: -2.9540675;
-        --texture-c-s: -1.2270337;
-        --texture-c-t: -2.9540675;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -55.035324;
-        --a-y: 56.00176;
-        --a-z: -57.501007;
-        --b-x: -42.61012;
-        --b-y: 56.00177;
-        --b-z: -72.037865;
-        --c-x: -72.30358;
-        --c-y: 100;
-        --c-z: -85.64304;
-        --texture-background-color: rgba(36, 4, 33, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -4.0629287;
-        --texture-a-t: -2.9540675;
-        --texture-b-s: -4.6811013;
-        --texture-b-t: -2.3358948;
-        --texture-c-s: -4.6811013;
-        --texture-c-t: -2.9540675;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 72.30358;
-        --a-y: 100;
-        --a-z: 85.64304;
-        --b-x: 55.035313;
-        --b-y: 56.001766;
-        --b-z: 57.50101;
-        --c-x: 42.61011;
-        --c-y: 56.00177;
-        --c-z: 72.037865;
-        --texture-background-color: rgba(36, 4, 33, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -1.2270337;
-        --texture-a-t: 0.5;
-        --texture-b-s: -1.8452065;
-        --texture-b-t: 0.5;
-        --texture-c-s: -1.2270336;
-        --texture-c-t: -0.118172646;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 30.2975;
-        --a-y: -115.700325;
-        --a-z: -91.63635;
-        --b-x: 7.7007494;
-        --b-y: -56.680225;
-        --b-z: -104.159294;
-        --c-x: 81.658615;
-        --c-y: -144.89484;
-        --c-z: -89.167595;
-        --texture-background-color: rgba(36, 4, 33, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 7.408135;
-        --texture-a-t: 7.408135;
-        --texture-b-s: -6.408135;
-        --texture-b-t: 7.408135;
-        --texture-c-s: 7.408135;
-        --texture-c-t: -6.408135;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 81.658615;
-        --a-y: -144.89484;
-        --a-z: -89.167595;
-        --b-x: 7.7007494;
-        --b-y: -56.680225;
-        --b-z: -104.159294;
-        --c-x: 62.64697;
-        --c-y: -90.15192;
-        --c-z: -100.89369;
-        --texture-background-color: rgba(36, 4, 33, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 7.408135;
-        --texture-a-t: -6.408135;
-        --texture-b-s: -6.408135;
-        --texture-b-t: 7.408135;
-        --texture-c-s: -6.408135;
-        --texture-c-t: -6.408135;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -62.64697;
-        --a-y: -90.15192;
-        --a-z: -100.89369;
-        --b-x: -7.7007494;
-        --b-y: -56.680225;
-        --b-z: -104.159294;
-        --c-x: -81.6586;
-        --c-y: -144.89484;
-        --c-z: -89.16761;
-        --texture-background-color: rgba(36, 4, 33, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -6.408135;
-        --texture-a-t: -6.408135;
-        --texture-b-s: -6.408135;
-        --texture-b-t: 7.408135;
-        --texture-c-s: 7.408135;
-        --texture-c-t: -6.408135;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -81.6586;
-        --a-y: -144.89484;
-        --a-z: -89.16761;
-        --b-x: -7.7007494;
-        --b-y: -56.680225;
-        --b-z: -104.159294;
-        --c-x: -30.2975;
-        --c-y: -115.700325;
-        --c-z: -91.63635;
-        --texture-background-color: rgba(36, 4, 33, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 7.408135;
-        --texture-a-t: -6.408135;
-        --texture-b-s: -6.408135;
-        --texture-b-t: 7.408135;
-        --texture-c-s: 7.408135;
-        --texture-c-t: 7.408135;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0;
-        --a-y: -44.838017;
-        --a-z: -174.46626;
-        --b-x: 0.000007864839;
-        --b-y: -43.14862;
-        --b-z: -175.76538;
-        --c-x: 8.603883;
-        --c-y: -41.762127;
-        --c-z: -167.03601;
-        --texture-background-color: rgba(36, 4, 33, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0.5653559;
-        --texture-a-t: 5.6811013;
-        --texture-b-s: 0.5;
-        --texture-b-t: 5.6811013;
-        --texture-c-s: 0.5;
-        --texture-c-t: 5.583515;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -8.603883;
-        --a-y: -41.762127;
-        --a-z: -167.03601;
-        --b-x: 0;
-        --b-y: -36.53079;
-        --b-z: -168.55309;
-        --c-x: 0.000007864839;
-        --c-y: -43.14862;
-        --c-z: -175.76538;
-        --texture-background-color: rgba(36, 4, 33, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0.5;
-        --texture-a-t: 5.7786875;
-        --texture-b-s: 0.5;
-        --texture-b-t: 5.6811013;
-        --texture-c-s: 0.5;
-        --texture-c-t: 5.6811013;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0;
-        --a-y: -44.838017;
-        --a-z: -174.46626;
-        --b-x: -8.603883;
-        --b-y: -41.762127;
-        --b-z: -167.03601;
-        --c-x: 0.000007864839;
-        --c-y: -43.14862;
-        --c-z: -175.76538;
-        --texture-background-color: rgba(36, 4, 33, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0.5653559;
-        --texture-a-t: 5.6811013;
-        --texture-b-s: 0.59758556;
-        --texture-b-t: 5.7786875;
-        --texture-c-s: 0.5;
-        --texture-c-t: 5.6811013;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0;
-        --a-y: -36.53079;
-        --a-z: -168.55309;
-        --b-x: 8.603883;
-        --b-y: -41.762127;
-        --b-z: -167.03601;
-        --c-x: 0.000007864839;
-        --c-y: -43.14862;
-        --c-z: -175.76538;
-        --texture-background-color: rgba(36, 4, 33, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0.5;
-        --texture-a-t: 5.6811013;
-        --texture-b-s: 0.5;
-        --texture-b-t: 5.583515;
-        --texture-c-s: 0.5;
-        --texture-c-t: 5.6811013;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -18.63161;
-        --a-y: -54.485165;
-        --a-z: 127.254036;
-        --b-x: -22.429304;
-        --b-y: -116.155334;
-        --b-z: 160.91695;
-        --c-x: -33.15132;
-        --c-y: -45.686024;
-        --c-z: 131.16278;
-        --texture-background-color: rgba(36, 4, 33, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 1.3635169;
-        --texture-a-t: 4.817584;
-        --texture-b-s: 3.9540675;
-        --texture-b-t: 3.9540675;
-        --texture-c-s: 3.9540675;
-        --texture-c-t: 7.408135;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -33.15132;
-        --a-y: -45.686024;
-        --a-z: 131.16278;
-        --b-x: -22.429304;
-        --b-y: -116.155334;
-        --b-z: 160.91695;
-        --c-x: -41.48822;
-        --c-y: -110.83544;
-        --c-z: 168.4172;
-        --texture-background-color: rgba(36, 4, 33, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 3.9540675;
-        --texture-a-t: 7.408135;
-        --texture-b-s: 3.9540675;
-        --texture-b-t: 3.9540675;
-        --texture-c-s: 7.408135;
-        --texture-c-t: 7.408135;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 36.04855;
-        --a-y: -48.262333;
-        --a-z: 117.352066;
-        --b-x: 45.195583;
-        --b-y: -104.356674;
-        --b-z: 151.5167;
-        --c-x: 19.491291;
-        --c-y: -56.110847;
-        --c-z: 124.01198;
-        --texture-background-color: rgba(36, 4, 33, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -6.408135;
-        --texture-a-t: -2.9540675;
-        --texture-b-s: -6.408135;
-        --texture-b-t: -6.408135;
-        --texture-c-s: -3.8175845;
-        --texture-c-t: -0.36351693;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 19.491291;
-        --a-y: -56.110847;
-        --a-z: 124.01198;
-        --b-x: 45.195583;
-        --b-y: -104.356674;
-        --b-z: 151.5167;
-        --c-x: 24.222403;
-        --c-y: -114.502655;
-        --c-z: 155.53723;
-        --texture-background-color: rgba(36, 4, 33, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -3.8175845;
-        --texture-a-t: -0.36351693;
-        --texture-b-s: -6.408135;
-        --texture-b-t: -6.408135;
-        --texture-c-s: -2.9540677;
-        --texture-c-t: -2.9540677;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 19.491291;
-        --a-y: -56.110847;
-        --a-z: 124.01198;
-        --b-x: 24.222403;
-        --b-y: -114.502655;
-        --b-z: 155.53723;
-        --c-x: -0.67475545;
-        --c-y: -51.856144;
-        --c-z: 106.303764;
-        --texture-background-color: rgba(36, 4, 33, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -3.8175845;
-        --texture-a-t: -0.36351693;
-        --texture-b-s: -2.9540677;
-        --texture-b-t: -2.9540677;
-        --texture-c-s: -1.2270336;
-        --texture-c-t: 2.2270336;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -0.67475545;
-        --a-y: -51.856144;
-        --a-z: 106.303764;
-        --b-x: 24.222403;
-        --b-y: -114.502655;
-        --b-z: 155.53723;
-        --c-x: -0.14121243;
-        --c-y: -105.51071;
-        --c-z: 142.61197;
-        --texture-background-color: rgba(36, 4, 33, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -1.2270336;
-        --texture-a-t: 2.2270336;
-        --texture-b-s: -2.9540677;
-        --texture-b-t: -2.9540677;
-        --texture-c-s: 0.5000001;
-        --texture-c-t: 0.5;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -0.67475545;
-        --a-y: -51.856144;
-        --a-z: 106.303764;
-        --b-x: -0.14121243;
-        --b-y: -105.51071;
-        --b-z: 142.61197;
-        --c-x: -18.63161;
-        --c-y: -54.485165;
-        --c-z: 127.254036;
-        --texture-background-color: rgba(36, 4, 33, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -1.2270336;
-        --texture-a-t: 2.2270336;
-        --texture-b-s: 0.5000001;
-        --texture-b-t: 0.5;
-        --texture-c-s: 1.3635169;
-        --texture-c-t: 4.817584;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -18.63161;
-        --a-y: -54.485165;
-        --a-z: 127.254036;
-        --b-x: -0.14121243;
-        --b-y: -105.51071;
-        --b-z: 142.61197;
-        --c-x: -22.429304;
-        --c-y: -116.155334;
-        --c-z: 160.91695;
-        --texture-background-color: rgba(36, 4, 33, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 1.3635169;
-        --texture-a-t: 4.817584;
-        --texture-b-s: 0.5000001;
-        --texture-b-t: 0.5;
-        --texture-c-s: 3.9540675;
-        --texture-c-t: 3.9540675;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 55.035324;
-        --a-y: 56.00176;
-        --a-z: -57.501007;
-        --b-x: 72.3036;
-        --b-y: 100;
-        --b-z: -85.643036;
-        --c-x: 42.61012;
-        --c-y: 56.00177;
-        --c-z: -72.037865;
-        --texture-background-color: rgba(36, 4, 33, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -4.0629287;
-        --texture-a-t: 0.5;
-        --texture-b-s: -4.6811013;
-        --texture-b-t: 0.5;
-        --texture-c-s: -4.6811013;
-        --texture-c-t: -0.118172646;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -50.25281;
-        --a-y: 33.655655;
-        --a-z: 77.94871;
-        --b-x: -72.3036;
-        --b-y: 100;
-        --b-z: 85.643036;
-        --c-x: -55.035313;
-        --c-y: 56.001766;
-        --c-z: 57.50101;
-        --texture-background-color: rgba(36, 4, 33, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0.009311514;
-        --texture-a-t: -2.9540677;
-        --texture-b-s: -1.2270337;
-        --texture-b-t: -2.9540675;
-        --texture-c-s: -1.2270337;
-        --texture-c-t: -3.5722404;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -55.035324;
-        --a-y: 56.00176;
-        --a-z: -57.501007;
-        --b-x: -72.30358;
-        --b-y: 100;
-        --b-z: -85.64304;
-        --c-x: -50.25282;
-        --c-y: 33.655655;
-        --c-z: -77.9487;
-        --texture-background-color: rgba(36, 4, 33, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -1.2270336;
-        --texture-a-t: -5.789962;
-        --texture-b-s: -1.2270337;
-        --texture-b-t: -6.408135;
-        --texture-c-s: 0.009311333;
-        --texture-c-t: -6.4081345;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -50.25282;
-        --a-y: 33.655655;
-        --a-z: -77.9487;
-        --b-x: -72.30358;
-        --b-y: 100;
-        --b-z: -85.64304;
-        --c-x: -42.61012;
-        --c-y: 56.00177;
-        --c-z: -72.037865;
-        --texture-background-color: rgba(36, 4, 33, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0.009311377;
-        --texture-a-t: 7.4081345;
-        --texture-b-s: -1.2270337;
-        --texture-b-t: 7.408135;
-        --texture-c-s: -1.2270337;
-        --texture-c-t: 6.789963;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 42.61012;
-        --a-y: 56.00177;
-        --a-z: -72.037865;
-        --b-x: 72.3036;
-        --b-y: 100;
-        --b-z: -85.643036;
-        --c-x: 50.25282;
-        --c-y: 33.655655;
-        --c-z: -77.9487;
-        --texture-background-color: rgba(36, 4, 33, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -1.2270337;
-        --texture-a-t: 4.57224;
-        --texture-b-s: -1.2270337;
-        --texture-b-t: 3.9540675;
-        --texture-c-s: 0.009311408;
-        --texture-c-t: 3.9540677;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 50.25282;
-        --a-y: 33.655655;
-        --a-z: -77.9487;
-        --b-x: 72.3036;
-        --b-y: 100;
-        --b-z: -85.643036;
-        --c-x: 55.035324;
-        --c-y: 56.00176;
-        --c-z: -57.501007;
-        --texture-background-color: rgba(36, 4, 33, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0.009311408;
-        --texture-a-t: 3.9540677;
-        --texture-b-s: -1.2270337;
-        --texture-b-t: 3.9540675;
-        --texture-c-s: -1.2270336;
-        --texture-c-t: 3.3358948;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 55.035313;
-        --a-y: 56.001766;
-        --a-z: 57.50101;
-        --b-x: 72.30358;
-        --b-y: 100;
-        --b-z: 85.64304;
-        --c-x: 50.25281;
-        --c-y: 33.655655;
-        --c-z: 77.94871;
-        --texture-background-color: rgba(36, 4, 33, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -1.2270337;
-        --texture-a-t: 1.1181726;
-        --texture-b-s: -1.2270337;
-        --texture-b-t: 0.5;
-        --texture-c-s: 0.0093114525;
-        --texture-c-t: 0.5;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 50.25281;
-        --a-y: 33.655655;
-        --a-z: 77.94871;
-        --b-x: 72.30358;
-        --b-y: 100;
-        --b-z: 85.64304;
-        --c-x: 42.61011;
-        --c-y: 56.00177;
-        --c-z: 72.037865;
-        --texture-background-color: rgba(36, 4, 33, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0.0093114525;
-        --texture-a-t: 0.5;
-        --texture-b-s: -1.2270337;
-        --texture-b-t: 0.5;
-        --texture-c-s: -1.2270336;
-        --texture-c-t: -0.118172646;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -42.61011;
-        --a-y: 56.00177;
-        --a-z: 72.037865;
-        --b-x: -72.3036;
-        --b-y: 100;
-        --b-z: 85.643036;
-        --c-x: -50.25281;
-        --c-y: 33.655655;
-        --c-z: 77.94871;
-        --texture-background-color: rgba(36, 4, 33, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -1.2270336;
-        --texture-a-t: -2.335895;
-        --texture-b-s: -1.2270337;
-        --texture-b-t: -2.9540675;
-        --texture-c-s: 0.009311514;
-        --texture-c-t: -2.9540677;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0.0000044033504;
-        --a-y: -17.259123;
-        --a-z: -96.57575;
-        --b-x: 0.0000034565935;
-        --b-y: -3.8740385;
-        --b-z: -78.30561;
-        --c-x: 25.555845;
-        --c-y: -14.404252;
-        --c-z: -73.74746;
-        --texture-background-color: rgba(222, 180, 119, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0.5;
-        --texture-a-t: 5.6811013;
-        --texture-b-s: 0.5;
-        --texture-b-t: 5.6811013;
-        --texture-c-s: 0.5;
-        --texture-c-t: 3.9540675;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 48.181778;
-        --a-y: 38.539467;
-        --a-z: -46.33182;
-        --b-x: 30.825186;
-        --b-y: 38.53948;
-        --b-z: -66.63815;
-        --c-x: 35.179913;
-        --c-y: 31.737486;
-        --c-z: 0.0000015377628;
-        --texture-background-color: rgba(222, 180, 119, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -3.8175845;
-        --texture-a-t: 0.5;
-        --texture-b-s: -4.6811013;
-        --texture-b-t: -0.3635168;
-        --texture-c-s: -2.9540675;
-        --texture-c-t: 0.5;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0;
-        --a-y: 32.55989;
-        --a-z: 0.00000006350101;
-        --b-x: 35.179913;
-        --b-y: 31.737486;
-        --b-z: 0.0000015377628;
-        --c-x: 0.0000027349784;
-        --c-y: 31.737486;
-        --c-z: -62.264442;
-        --texture-background-color: rgba(222, 180, 119, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -2.9540675;
-        --texture-a-t: -1.2270336;
-        --texture-b-s: -2.9540675;
-        --texture-b-t: 0.5;
-        --texture-c-s: -4.6811013;
-        --texture-c-t: -1.2270336;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0.0000027349784;
-        --a-y: 31.737486;
-        --a-z: -62.264442;
-        --b-x: 35.179913;
-        --b-y: 31.737486;
-        --b-z: 0.0000015377628;
-        --c-x: 30.825186;
-        --c-y: 38.53948;
-        --c-z: -66.63815;
-        --texture-background-color: rgba(222, 180, 119, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -4.6811013;
-        --texture-a-t: -1.2270336;
-        --texture-b-s: -2.9540675;
-        --texture-b-t: 0.5;
-        --texture-c-s: -4.6811013;
-        --texture-c-t: -0.3635168;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0.0000034565935;
-        --a-y: -3.8740385;
-        --a-z: -78.30561;
-        --b-x: 0.0000027349784;
-        --b-y: 31.737486;
-        --b-z: -62.264442;
-        --c-x: 41.501167;
-        --c-y: 7.324493;
-        --c-z: -74.89493;
-        --texture-background-color: rgba(222, 180, 119, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0.5;
-        --texture-a-t: 5.6811013;
-        --texture-b-s: -1.2270337;
-        --texture-b-t: 5.6811013;
-        --texture-c-s: 0.5;
-        --texture-c-t: 3.9540675;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0.0000034565935;
-        --a-y: -3.8740385;
-        --a-z: -78.30561;
-        --b-x: -41.50116;
-        --b-y: 7.324493;
-        --b-z: -74.89493;
-        --c-x: 0.0000027349784;
-        --c-y: 31.737486;
-        --c-z: -62.264442;
-        --texture-background-color: rgba(222, 180, 119, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0.5;
-        --texture-a-t: 5.6811013;
-        --texture-b-s: 0.5;
-        --texture-b-t: 7.408135;
-        --texture-c-s: -1.2270337;
-        --texture-c-t: 5.6811013;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0.0000027349784;
-        --a-y: 31.737486;
-        --a-z: -62.264442;
-        --b-x: 30.825186;
-        --b-y: 38.53948;
-        --b-z: -66.63815;
-        --c-x: 41.501167;
-        --c-y: 7.324493;
-        --c-z: -74.89493;
-        --texture-background-color: rgba(222, 180, 119, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -1.2270337;
-        --texture-a-t: 5.6811013;
-        --texture-b-s: -1.2270337;
-        --texture-b-t: 4.8175845;
-        --texture-c-s: 0.5;
-        --texture-c-t: 3.9540675;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0.0000027349784;
-        --a-y: 31.737486;
-        --a-z: -62.264442;
-        --b-x: -41.50116;
-        --b-y: 7.324493;
-        --b-z: -74.89493;
-        --c-x: -30.82518;
-        --c-y: 38.539467;
-        --c-z: -66.63815;
-        --texture-background-color: rgba(222, 180, 119, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -1.2270337;
-        --texture-a-t: 5.6811013;
-        --texture-b-s: 0.5;
-        --texture-b-t: 7.408135;
-        --texture-c-s: -1.2270337;
-        --texture-c-t: 6.544618;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 35.179913;
-        --a-y: 31.737486;
-        --a-z: 0.0000015377628;
-        --b-x: 0;
-        --b-y: 32.55989;
-        --b-z: 0.00000006350101;
-        --c-x: 48.18177;
-        --c-y: 38.539467;
-        --c-z: 46.331825;
-        --texture-background-color: rgba(222, 180, 119, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -2.9540675;
-        --texture-a-t: 0.5;
-        --texture-b-s: -2.9540675;
-        --texture-b-t: -1.2270336;
-        --texture-c-s: -2.0905507;
-        --texture-c-t: 0.5;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 30.82518;
-        --a-y: 38.53948;
-        --a-z: 66.63815;
-        --b-x: 48.18177;
-        --b-y: 38.539467;
-        --b-z: 46.331825;
-        --c-x: -0.000002708352;
-        --c-y: 31.737486;
-        --c-z: 62.264442;
-        --texture-background-color: rgba(222, 180, 119, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -1.2270337;
-        --texture-a-t: -0.3635168;
-        --texture-b-s: -2.0905507;
-        --texture-b-t: 0.5;
-        --texture-c-s: -1.2270337;
-        --texture-c-t: -1.2270336;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -0.000002708352;
-        --a-y: 31.737486;
-        --a-z: 62.264442;
-        --b-x: 48.18177;
-        --b-y: 38.539467;
-        --b-z: 46.331825;
-        --c-x: 0;
-        --c-y: 32.55989;
-        --c-z: 0.00000006350101;
-        --texture-background-color: rgba(222, 180, 119, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -1.2270337;
-        --texture-a-t: -1.2270336;
-        --texture-b-s: -2.0905507;
-        --texture-b-t: 0.5;
-        --texture-c-s: -2.9540675;
-        --texture-c-t: -1.2270336;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0.0000027349784;
-        --a-y: 31.737486;
-        --a-z: -62.264442;
-        --b-x: -30.82518;
-        --b-y: 38.539467;
-        --b-z: -66.63815;
-        --c-x: 0;
-        --c-y: 32.55989;
-        --c-z: 0.00000006350101;
-        --texture-background-color: rgba(222, 180, 119, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -4.6811013;
-        --texture-a-t: -1.2270336;
-        --texture-b-s: -4.6811013;
-        --texture-b-t: -2.0905507;
-        --texture-c-s: -2.9540675;
-        --texture-c-t: -1.2270336;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -35.179913;
-        --a-y: 31.737486;
-        --a-z: -0.0000015377628;
-        --b-x: 0;
-        --b-y: 32.55989;
-        --b-z: 0.00000006350101;
-        --c-x: -48.18177;
-        --c-y: 38.53948;
-        --c-z: -46.331825;
-        --texture-background-color: rgba(222, 180, 119, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -2.9540675;
-        --texture-a-t: -2.9540675;
-        --texture-b-s: -2.9540675;
-        --texture-b-t: -1.2270336;
-        --texture-c-s: -3.8175845;
-        --texture-c-t: -2.9540675;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -48.18177;
-        --a-y: 38.53948;
-        --a-z: -46.331825;
-        --b-x: 0;
-        --b-y: 32.55989;
-        --b-z: 0.00000006350101;
-        --c-x: -30.82518;
-        --c-y: 38.539467;
-        --c-z: -66.63815;
-        --texture-background-color: rgba(222, 180, 119, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -3.8175845;
-        --texture-a-t: -2.9540675;
-        --texture-b-s: -2.9540675;
-        --texture-b-t: -1.2270336;
-        --texture-c-s: -4.6811013;
-        --texture-c-t: -2.0905507;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0;
-        --a-y: 32.55989;
-        --a-z: 0.00000006350101;
-        --b-x: -35.179913;
-        --b-y: 31.737486;
-        --b-z: -0.0000015377628;
-        --c-x: -0.000002708352;
-        --c-y: 31.737486;
-        --c-z: 62.264442;
-        --texture-background-color: rgba(222, 180, 119, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -2.9540675;
-        --texture-a-t: -1.2270336;
-        --texture-b-s: -2.9540675;
-        --texture-b-t: -2.9540675;
-        --texture-c-s: -1.2270337;
-        --texture-c-t: -1.2270336;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -30.825186;
-        --a-y: 38.539467;
-        --a-z: 66.63815;
-        --b-x: -0.000002708352;
-        --b-y: 31.737486;
-        --b-z: 62.264442;
-        --c-x: -48.181778;
-        --c-y: 38.53948;
-        --c-z: 46.33182;
-        --texture-background-color: rgba(222, 180, 119, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -1.2270337;
-        --texture-a-t: -2.0905507;
-        --texture-b-s: -1.2270337;
-        --texture-b-t: -1.2270336;
-        --texture-c-s: -2.0905507;
-        --texture-c-t: -2.9540675;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -48.181778;
-        --a-y: 38.53948;
-        --a-z: 46.33182;
-        --b-x: -0.000002708352;
-        --b-y: 31.737486;
-        --b-z: 62.264442;
-        --c-x: -35.179913;
-        --c-y: 31.737486;
-        --c-z: -0.0000015377628;
-        --texture-background-color: rgba(222, 180, 119, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -2.0905507;
-        --texture-a-t: -2.9540675;
-        --texture-b-s: -1.2270337;
-        --texture-b-t: -1.2270336;
-        --texture-c-s: -2.9540675;
-        --texture-c-t: -2.9540675;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -25.55584;
-        --a-y: -14.404252;
-        --a-z: -73.74746;
-        --b-x: 0.0000044033504;
-        --b-y: -17.259123;
-        --b-z: -96.57575;
-        --c-x: -63.074017;
-        --c-y: -33.03016;
-        --c-z: -111.382355;
-        --texture-background-color: rgba(222, 180, 119, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0.5;
-        --texture-a-t: 7.408135;
-        --texture-b-s: 0.5;
-        --texture-b-t: 5.6811013;
-        --texture-c-s: 0.5;
-        --texture-c-t: 7.408135;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -63.074017;
-        --a-y: -33.03016;
-        --a-z: -111.382355;
-        --b-x: 0.0000044033504;
-        --b-y: -17.259123;
-        --b-z: -96.57575;
-        --c-x: 0.0000063046023;
-        --c-y: -16.268078;
-        --c-z: -140.07132;
-        --texture-background-color: rgba(222, 180, 119, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0.5;
-        --texture-a-t: 7.408135;
-        --texture-b-s: 0.5;
-        --texture-b-t: 5.6811013;
-        --texture-c-s: 0.5;
-        --texture-c-t: 5.6811013;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -41.50116;
-        --a-y: 7.324493;
-        --a-z: -74.89493;
-        --b-x: 0.0000034565935;
-        --b-y: -3.8740385;
-        --b-z: -78.30561;
-        --c-x: -25.55584;
-        --c-y: -14.404252;
-        --c-z: -73.74746;
-        --texture-background-color: rgba(222, 180, 119, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0.5;
-        --texture-a-t: 7.408135;
-        --texture-b-s: 0.5;
-        --texture-b-t: 5.6811013;
-        --texture-c-s: 0.5;
-        --texture-c-t: 7.408135;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0.0000063046023;
-        --a-y: -16.268078;
-        --a-z: -140.07132;
-        --b-x: 63.074028;
-        --b-y: -33.03016;
-        --b-z: -111.382355;
-        --c-x: 0.000007847452;
-        --c-y: -43.14862;
-        --c-z: -175.3676;
-        --texture-background-color: rgba(222, 180, 119, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0.5;
-        --texture-a-t: 5.6811013;
-        --texture-b-s: 0.5;
-        --texture-b-t: 3.9540675;
-        --texture-c-s: 0.5;
-        --texture-c-t: 5.6811013;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0.0000044033504;
-        --a-y: -17.259123;
-        --a-z: -96.57575;
-        --b-x: 25.555845;
-        --b-y: -14.404252;
-        --b-z: -73.74746;
-        --c-x: 0.0000063046023;
-        --c-y: -16.268078;
-        --c-z: -140.07132;
-        --texture-background-color: rgba(222, 180, 119, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0.5;
-        --texture-a-t: 5.6811013;
-        --texture-b-s: 0.5;
-        --texture-b-t: 3.9540675;
-        --texture-c-s: 0.5;
-        --texture-c-t: 5.6811013;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0.0000063046023;
-        --a-y: -16.268078;
-        --a-z: -140.07132;
-        --b-x: 25.555845;
-        --b-y: -14.404252;
-        --b-z: -73.74746;
-        --c-x: 63.074028;
-        --c-y: -33.03016;
-        --c-z: -111.382355;
-        --texture-background-color: rgba(222, 180, 119, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0.5;
-        --texture-a-t: 5.6811013;
-        --texture-b-s: 0.5;
-        --texture-b-t: 3.9540675;
-        --texture-c-s: 0.5;
-        --texture-c-t: 3.9540675;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -63.074017;
-        --a-y: -33.03016;
-        --a-z: -111.382355;
-        --b-x: 0.0000063046023;
-        --b-y: -16.268078;
-        --b-z: -140.07132;
-        --c-x: 0.000007847452;
-        --c-y: -43.14862;
-        --c-z: -175.3676;
-        --texture-background-color: rgba(222, 180, 119, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0.5;
-        --texture-a-t: 7.408135;
-        --texture-b-s: 0.5;
-        --texture-b-t: 5.6811013;
-        --texture-c-s: 0.5;
-        --texture-c-t: 5.6811013;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0.0000034565935;
-        --a-y: -3.8740385;
-        --a-z: -78.30561;
-        --b-x: 0.0000044033504;
-        --b-y: -17.259123;
-        --b-z: -96.57575;
-        --c-x: -25.55584;
-        --c-y: -14.404252;
-        --c-z: -73.74746;
-        --texture-background-color: rgba(222, 180, 119, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0.5;
-        --texture-a-t: 5.6811013;
-        --texture-b-s: 0.5;
-        --texture-b-t: 5.6811013;
-        --texture-c-s: 0.5;
-        --texture-c-t: 7.408135;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0.0000034565935;
-        --a-y: -3.8740385;
-        --a-z: -78.30561;
-        --b-x: 41.501167;
-        --b-y: 7.324493;
-        --b-z: -74.89493;
-        --c-x: 25.555845;
-        --c-y: -14.404252;
-        --c-z: -73.74746;
-        --texture-background-color: rgba(222, 180, 119, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0.5;
-        --texture-a-t: 5.6811013;
-        --texture-b-s: 0.5;
-        --texture-b-t: 3.9540675;
-        --texture-c-s: 0.5;
-        --texture-c-t: 3.9540675;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 45.195583;
-        --a-y: -104.356674;
-        --a-z: 151.5167;
-        --b-x: 1.8216157;
-        --b-y: -199.42047;
-        --b-z: 153.2819;
-        --c-x: 24.222403;
-        --c-y: -114.502655;
-        --c-z: 155.53723;
-        --texture-background-color: rgba(222, 180, 119, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -6.408135;
-        --texture-a-t: -6.408135;
-        --texture-b-s: 0.5;
-        --texture-b-t: 0.5;
-        --texture-c-s: -2.9540677;
-        --texture-c-t: -2.9540677;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -0.14121243;
-        --a-y: -105.51071;
-        --a-z: 142.61197;
-        --b-x: 24.222403;
-        --b-y: -114.502655;
-        --b-z: 155.53723;
-        --c-x: -22.429304;
-        --c-y: -116.155334;
-        --c-z: 160.91695;
-        --texture-background-color: rgba(222, 180, 119, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0.5000001;
-        --texture-a-t: 0.5;
-        --texture-b-s: -2.9540677;
-        --texture-b-t: -2.9540677;
-        --texture-c-s: 3.9540675;
-        --texture-c-t: 3.9540675;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -41.48822;
-        --a-y: -110.83544;
-        --a-z: 168.4172;
-        --b-x: -22.429304;
-        --b-y: -116.155334;
-        --b-z: 160.91695;
-        --c-x: 1.8216157;
-        --c-y: -199.42047;
-        --c-z: 153.2819;
-        --texture-background-color: rgba(222, 180, 119, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 7.408135;
-        --texture-a-t: 7.408135;
-        --texture-b-s: 3.9540675;
-        --texture-b-t: 3.9540675;
-        --texture-c-s: 0.5;
-        --texture-c-t: 0.5;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 24.222403;
-        --a-y: -114.502655;
-        --a-z: 155.53723;
-        --b-x: 1.8216157;
-        --b-y: -199.42047;
-        --b-z: 153.2819;
-        --c-x: -22.429304;
-        --c-y: -116.155334;
-        --c-z: 160.91695;
-        --texture-background-color: rgba(222, 180, 119, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -2.9540677;
-        --texture-a-t: -2.9540677;
-        --texture-b-s: 0.5;
-        --texture-b-t: 0.5;
-        --texture-c-s: 3.9540675;
-        --texture-c-t: 3.9540675;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 16.743036;
-        --a-y: -67.468475;
-        --a-z: -102.74612;
-        --b-x: 58.365295;
-        --b-y: -93.533424;
-        --b-z: -100.15733;
-        --c-x: 34.579174;
-        --c-y: -112.318825;
-        --c-z: -93.35053;
-        --texture-background-color: rgba(222, 180, 119, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -6.408135;
-        --texture-a-t: 7.408135;
-        --texture-b-s: -6.408135;
-        --texture-b-t: -6.408135;
-        --texture-c-s: 7.408135;
-        --texture-c-t: 7.408135;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 54.311573;
-        --a-y: -122.38083;
-        --a-z: -92.63833;
-        --b-x: 34.579174;
-        --b-y: -112.318825;
-        --b-z: -93.35053;
-        --c-x: 51.42886;
-        --c-y: -108.83815;
-        --c-z: -95.71428;
-        --texture-background-color: rgba(222, 180, 119, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 7.408135;
-        --texture-a-t: 0.5;
-        --texture-b-s: 7.408135;
-        --texture-b-t: 7.408135;
-        --texture-c-s: 3.9540675;
-        --texture-c-t: -2.9540675;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 64.50498;
-        --a-y: -114.33046;
-        --a-z: -95.55534;
-        --b-x: 51.42886;
-        --b-y: -108.83815;
-        --b-z: -95.71428;
-        --c-x: 58.365295;
-        --c-y: -93.533424;
-        --c-z: -100.15733;
-        --texture-background-color: rgba(222, 180, 119, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0.5;
-        --texture-a-t: -6.408135;
-        --texture-b-s: 3.9540675;
-        --texture-b-t: -2.9540675;
-        --texture-c-s: -6.408135;
-        --texture-c-t: -6.408135;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 51.42886;
-        --a-y: -108.83815;
-        --a-z: -95.71428;
-        --b-x: 34.579174;
-        --b-y: -112.318825;
-        --b-z: -93.35053;
-        --c-x: 58.365295;
-        --c-y: -93.533424;
-        --c-z: -100.15733;
-        --texture-background-color: rgba(222, 180, 119, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 3.9540675;
-        --texture-a-t: -2.9540675;
-        --texture-b-s: 7.408135;
-        --texture-b-t: 7.408135;
-        --texture-c-s: -6.408135;
-        --texture-c-t: -6.408135;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -16.743036;
-        --a-y: -67.468475;
-        --a-z: -102.74612;
-        --b-x: -34.579174;
-        --b-y: -112.318825;
-        --b-z: -93.35053;
-        --c-x: -58.365295;
-        --c-y: -93.533424;
-        --c-z: -100.15733;
-        --texture-background-color: rgba(222, 180, 119, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -6.408135;
-        --texture-a-t: 7.408135;
-        --texture-b-s: 7.408135;
-        --texture-b-t: 7.408135;
-        --texture-c-s: -6.408135;
-        --texture-c-t: -6.408135;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -64.50497;
-        --a-y: -114.33046;
-        --a-z: -95.55534;
-        --b-x: -58.365295;
-        --b-y: -93.533424;
-        --b-z: -100.15733;
-        --c-x: -51.42886;
-        --c-y: -108.83815;
-        --c-z: -95.71428;
-        --texture-background-color: rgba(222, 180, 119, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0.5;
-        --texture-a-t: -6.408135;
-        --texture-b-s: -6.408135;
-        --texture-b-t: -6.408135;
-        --texture-c-s: 3.9540675;
-        --texture-c-t: -2.9540675;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -54.31156;
-        --a-y: -122.38083;
-        --a-z: -92.638336;
-        --b-x: -51.42886;
-        --b-y: -108.83815;
-        --b-z: -95.71428;
-        --c-x: -34.579174;
-        --c-y: -112.318825;
-        --c-z: -93.35053;
-        --texture-background-color: rgba(222, 180, 119, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 7.408135;
-        --texture-a-t: 0.5;
-        --texture-b-s: 3.9540675;
-        --texture-b-t: -2.9540675;
-        --texture-c-s: 7.408135;
-        --texture-c-t: 7.408135;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -51.42886;
-        --a-y: -108.83815;
-        --a-z: -95.71428;
-        --b-x: -58.365295;
-        --b-y: -93.533424;
-        --b-z: -100.15733;
-        --c-x: -34.579174;
-        --c-y: -112.318825;
-        --c-z: -93.35053;
-        --texture-background-color: rgba(222, 180, 119, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 3.9540675;
-        --texture-a-t: -2.9540675;
-        --texture-b-s: -6.408135;
-        --texture-b-t: -6.408135;
-        --texture-c-s: 7.408135;
-        --texture-c-t: 7.408135;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -64.63131;
-        --a-y: -11.711367;
-        --a-z: -110.5881;
-        --b-x: -41.409546;
-        --b-y: -27.024185;
-        --b-z: -120.02102;
-        --c-x: -61.8972;
-        --c-y: -23.02417;
-        --c-z: -111.88903;
-        --texture-background-color: rgba(222, 180, 119, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0;
-        --texture-a-t: 1;
-        --texture-b-s: 0;
-        --texture-b-t: 1;
-        --texture-c-s: 0;
-        --texture-c-t: 1;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -78.97026;
-        --a-y: -25.981817;
-        --a-z: -103.76544;
-        --b-x: -61.8972;
-        --b-y: -23.02417;
-        --b-z: -111.88903;
-        --c-x: -66.29852;
-        --c-y: -34.770195;
-        --c-z: -109.79482;
-        --texture-background-color: rgba(222, 180, 119, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0;
-        --texture-a-t: 1;
-        --texture-b-s: 0;
-        --texture-b-t: 1;
-        --texture-c-s: 0;
-        --texture-c-t: 1;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -61.8972;
-        --a-y: -23.02417;
-        --a-z: -111.88903;
-        --b-x: -41.409546;
-        --b-y: -27.024185;
-        --b-z: -120.02102;
-        --c-x: -66.29852;
-        --c-y: -34.770195;
-        --c-z: -109.79482;
-        --texture-background-color: rgba(222, 180, 119, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0;
-        --texture-a-t: 1;
-        --texture-b-s: 0;
-        --texture-b-t: 1;
-        --texture-c-s: 0;
-        --texture-c-t: 1;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 66.29852;
-        --a-y: -34.770195;
-        --a-z: -109.79482;
-        --b-x: 41.409546;
-        --b-y: -27.024185;
-        --b-z: -120.02102;
-        --c-x: 78.97026;
-        --c-y: -25.981817;
-        --c-z: -103.76544;
-        --texture-background-color: rgba(222, 180, 119, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0;
-        --texture-a-t: 1;
-        --texture-b-s: 0;
-        --texture-b-t: 1;
-        --texture-c-s: 0;
-        --texture-c-t: 1;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 64.63131;
-        --a-y: -11.711367;
-        --a-z: -110.5881;
-        --b-x: 61.8972;
-        --b-y: -23.02417;
-        --b-z: -111.88903;
-        --c-x: 41.409546;
-        --c-y: -27.024185;
-        --c-z: -120.02102;
-        --texture-background-color: rgba(222, 180, 119, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0;
-        --texture-a-t: 1;
-        --texture-b-s: 0;
-        --texture-b-t: 1;
-        --texture-c-s: 0;
-        --texture-c-t: 1;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 78.97026;
-        --a-y: -25.981817;
-        --a-z: -103.76544;
-        --b-x: 41.409546;
-        --b-y: -27.024185;
-        --b-z: -120.02102;
-        --c-x: 61.8972;
-        --c-y: -23.02417;
-        --c-z: -111.88903;
-        --texture-background-color: rgba(222, 180, 119, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0;
-        --texture-a-t: 1;
-        --texture-b-s: 0;
-        --texture-b-t: 1;
-        --texture-c-s: 0;
-        --texture-c-t: 1;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0;
-        --a-y: -7.0725956;
-        --a-z: -99.923035;
-        --b-x: 0;
-        --b-y: 5.510932;
-        --b-z: -81.05224;
-        --c-x: 0;
-        --c-y: -4.3960357;
-        --c-z: -72.03387;
-        --texture-background-color: rgba(222, 180, 119, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0;
-        --texture-a-t: 1;
-        --texture-b-s: 0;
-        --texture-b-t: 1;
-        --texture-c-s: 0;
-        --texture-c-t: 1;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0;
-        --a-y: 37.941437;
-        --a-z: -78.21102;
-        --b-x: 0.0000034565935;
-        --b-y: 27.57402;
-        --b-z: -61.385178;
-        --c-x: 0;
-        --c-y: 23.79775;
-        --c-z: -74.22707;
-        --texture-background-color: rgba(222, 180, 119, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0;
-        --texture-a-t: 1;
-        --texture-b-s: 0;
-        --texture-b-t: 1;
-        --texture-c-s: 0;
-        --texture-c-t: 1;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0;
-        --a-y: 24.63772;
-        --a-z: -90.65092;
-        --b-x: 0;
-        --b-y: 23.79775;
-        --b-z: -74.22707;
-        --c-x: 0;
-        --c-y: 17.28061;
-        --c-z: -77.64493;
-        --texture-background-color: rgba(222, 180, 119, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0;
-        --texture-a-t: 1;
-        --texture-b-s: 0;
-        --texture-b-t: 1;
-        --texture-c-s: 0;
-        --texture-c-t: 1;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0;
-        --a-y: 13.272208;
-        --a-z: -95.24859;
-        --b-x: 0;
-        --b-y: 17.28061;
-        --b-z: -77.64493;
-        --c-x: 0;
-        --c-y: 5.510932;
-        --c-z: -81.05224;
-        --texture-background-color: rgba(222, 180, 119, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0;
-        --texture-a-t: 1;
-        --texture-b-s: 0;
-        --texture-b-t: 1;
-        --texture-c-s: 0;
-        --texture-c-t: 1;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0;
-        --a-y: -4.3960357;
-        --a-z: -72.03387;
-        --b-x: 0;
-        --b-y: 5.510932;
-        --b-z: -81.05224;
-        --c-x: 0.0000034565935;
-        --c-y: 27.57402;
-        --c-z: -61.385178;
-        --texture-background-color: rgba(222, 180, 119, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0;
-        --texture-a-t: 1;
-        --texture-b-s: 0;
-        --texture-b-t: 1;
-        --texture-c-s: 0;
-        --texture-c-t: 1;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0;
-        --a-y: 23.79775;
-        --a-z: -74.22707;
-        --b-x: 0.0000034565935;
-        --b-y: 27.57402;
-        --b-z: -61.385178;
-        --c-x: 0;
-        --c-y: 17.28061;
-        --c-z: -77.64493;
-        --texture-background-color: rgba(222, 180, 119, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0;
-        --texture-a-t: 1;
-        --texture-b-s: 0;
-        --texture-b-t: 1;
-        --texture-c-s: 0;
-        --texture-c-t: 1;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 0;
-        --a-y: 17.28061;
-        --a-z: -77.64493;
-        --b-x: 0.0000034565935;
-        --b-y: 27.57402;
-        --b-z: -61.385178;
-        --c-x: 0;
-        --c-y: 5.510932;
-        --c-z: -81.05224;
-        --texture-background-color: rgba(222, 180, 119, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 0;
-        --texture-a-t: 1;
-        --texture-b-s: 0;
-        --texture-b-t: 1;
-        --texture-c-s: 0;
-        --texture-c-t: 1;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 28.782162;
-        --a-y: -40.619923;
-        --a-z: -147.61398;
-        --b-x: 39.475456;
-        --b-y: -54.081272;
-        --b-z: -123.964264;
-        --c-x: 7.4426184;
-        --c-y: -58.49154;
-        --c-z: -156.56348;
-        --texture-background-color: rgba(252, 252, 252, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 7.408135;
-        --texture-a-t: 7.408135;
-        --texture-b-s: -6.408135;
-        --texture-b-t: 7.408135;
-        --texture-c-s: 7.408135;
-        --texture-c-t: -6.408135;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 7.4426184;
-        --a-y: -58.49154;
-        --a-z: -156.56348;
-        --b-x: 39.475456;
-        --b-y: -54.081272;
-        --b-z: -123.964264;
-        --c-x: 18.135899;
-        --c-y: -71.95289;
-        --c-z: -132.91374;
-        --texture-background-color: rgba(252, 252, 252, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 7.408135;
-        --texture-a-t: -6.408135;
-        --texture-b-s: -6.408135;
-        --texture-b-t: 7.408135;
-        --texture-c-s: -6.408135;
-        --texture-c-t: -6.408135;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -18.135887;
-        --a-y: -71.95289;
-        --a-z: -132.91374;
-        --b-x: -39.475445;
-        --b-y: -54.081272;
-        --b-z: -123.964264;
-        --c-x: -7.4426045;
-        --c-y: -58.49154;
-        --c-z: -156.56348;
-        --texture-background-color: rgba(252, 252, 252, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -6.408135;
-        --texture-a-t: -6.408135;
-        --texture-b-s: -6.408135;
-        --texture-b-t: 7.408135;
-        --texture-c-s: 7.408135;
-        --texture-c-t: -6.408135;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -7.4426045;
-        --a-y: -58.49154;
-        --a-z: -156.56348;
-        --b-x: -39.475445;
-        --b-y: -54.081272;
-        --b-z: -123.964264;
-        --c-x: -28.78215;
-        --c-y: -40.619923;
-        --c-z: -147.61398;
-        --texture-background-color: rgba(252, 252, 252, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 7.408135;
-        --texture-a-t: -6.408135;
-        --texture-b-s: -6.408135;
-        --texture-b-t: 7.408135;
-        --texture-c-s: 7.408135;
-        --texture-c-t: 7.408135;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 29.155823;
-        --a-y: -41.51831;
-        --a-z: -147.23344;
-        --b-x: 30.165144;
-        --b-y: -54.43604;
-        --b-z: -135.04358;
-        --c-x: 18.838306;
-        --c-y: -55.995525;
-        --c-z: -146.57068;
-        --texture-background-color: rgba(58, 226, 180, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 7.408135;
-        --texture-a-t: 7.408135;
-        --texture-b-s: -6.408135;
-        --texture-b-t: 7.408135;
-        --texture-c-s: 7.408135;
-        --texture-c-t: -6.408135;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: 18.838306;
-        --a-y: -55.995525;
-        --a-z: -146.57068;
-        --b-x: 30.165144;
-        --b-y: -54.43604;
-        --b-z: -135.04358;
-        --c-x: 19.847624;
-        --c-y: -68.91325;
-        --c-z: -134.38081;
-        --texture-background-color: rgba(58, 226, 180, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 7.408135;
-        --texture-a-t: -6.408135;
-        --texture-b-s: -6.408135;
-        --texture-b-t: 7.408135;
-        --texture-c-s: -6.408135;
-        --texture-c-t: -6.408135;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -19.847624;
-        --a-y: -68.91325;
-        --a-z: -134.38081;
-        --b-x: -30.165144;
-        --b-y: -54.43604;
-        --b-z: -135.04358;
-        --c-x: -18.838306;
-        --c-y: -55.995525;
-        --c-z: -146.57068;
-        --texture-background-color: rgba(58, 226, 180, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: -6.408135;
-        --texture-a-t: -6.408135;
-        --texture-b-s: -6.408135;
-        --texture-b-t: 7.408135;
-        --texture-c-s: 7.408135;
-        --texture-c-t: -6.408135;
-    "></div>
-    <div class="tri opaque" style="
-        --a-x: -18.838306;
-        --a-y: -55.995525;
-        --a-z: -146.57068;
-        --b-x: -30.165144;
-        --b-y: -54.43604;
-        --b-z: -135.04358;
-        --c-x: -29.155823;
-        --c-y: -41.51831;
-        --c-z: -147.23344;
-        --texture-background-color: rgba(58, 226, 180, 255);
-        --texture-image: url(texture.webp);
-        --texture-a-s: 7.408135;
-        --texture-a-t: -6.408135;
-        --texture-b-s: -6.408135;
-        --texture-b-t: 7.408135;
-        --texture-c-s: 7.408135;
-        --texture-c-t: 7.408135;
-    "></div>
-  </div>
-</div>
-
