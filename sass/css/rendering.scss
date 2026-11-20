@@ -498,6 +498,10 @@
     overflow: visible;
 }
 
+.opaque {
+    backface-visibility: hidden;
+}
+
 
 @property --texture-a-s {
     syntax: "<number>";
