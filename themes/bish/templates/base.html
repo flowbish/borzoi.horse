@@ -255,23 +255,26 @@
         </button>
       </div>
       <div class="mob-spawners">
-        <button onclick="spawn_mob('squid')">
+        <button onclick="spawn_mob('squid', false)">
           <img src="/minecraft-squid-face.png" alt="spawn one squid">
         </button>
-        <button onclick="spawn_mob('fox')">
+        <button onclick="spawn_mob('fox', false)">
           <img src="/minecraft-fox-face.png" alt="spawn one fox">
         </button>
-        <button onclick="spawn_mob('horse')">
+        <button onclick="spawn_mob('horse', false)">
           <img src="/minecraft-horse-face.png" alt="spawn one horse">
         </button>
-        <button onclick="spawn_mob('skeleton-horse')">
+        <button onclick="spawn_mob('skeleton-horse', false)">
           <img src="/minecraft-skeleton-horse-face.png" alt="spawn one skeleton horse">
         </button>
-        <button onclick="spawn_mob('salmon')">
+        <button onclick="spawn_mob('salmon', false)">
           <img src="/minecraft-salmon-body.png" alt="spawn one salmon">
         </button>
-        <button onclick="spawn_mob('borzoi')">
+        <button onclick="spawn_mob('borzoi', false)">
           <img src="/minecraft-borzoi-face.png" alt="spawn one borzoi">
+        </button>
+        <button onclick="spawn_mob('iris', true)">
+          <img src="/iris distorted 128.png" alt="spawn one borzoi">
         </button>
       </div>
       <div class="media-links">
@@ -301,35 +304,28 @@
     return Math.random() * (max - min) + min;
   }
 
-  async function spawn_mob(mob) {
+  async function spawn_mob(mob, dvd) {
     const response = await fetch(`/models/${mob}.divs`);
     if (!response.ok) throw new Error('Network response error');
     const text = await response.text();
 
-    const top = getRandomArbitrary(10, 90);
-    const left = getRandomArbitrary(10, 90);
+    let cls = dvd ? "dvd" : "mob";
+    let a = getRandomArbitrary(0, 100);
+    let b = getRandomArbitrary(0, 100);
 
     const dp = new DOMParser();
     const new_doc = dp.parseFromString(`
-      <div class="absolute container" style="
-        left: ${left}%;
-        top: ${top}%;
-      " inert>
-        <div class="camera camera-projection"  style="
-            --cam-yaw: 0;
-            --cam-pitch: 0;
-            --cam-roll: 0;
-            --cam-x: 0;
-            --cam-y: 300;
-            --cam-z: 1000;
-        ">
-          <div class="camera camera-roll">
-            <div class="camera camera-pitch">
-              <div class="camera camera-yaw" style="
-                animation: spinnies 3s infinite linear;
-              ">
-                <div class="scene">
-                  ${text}
+      <div class="spawned ${cls}"  style="--random-a: ${a}; --random-b: ${b};" inert>
+        <div class="container">
+          <div class="camera camera-projection">
+            <div class="camera camera-roll">
+              <div class="camera camera-pitch">
+                <div class="camera camera-yaw" style="
+                  animation: spinnies 3s infinite linear;
+                ">
+                  <div class="scene">
+                    ${text}
+                  </div>
                 </div>
               </div>
             </div>
@@ -337,7 +333,7 @@
         </div>
       </div>
     `, "text/html");
-    const element = new_doc.getElementsByClassName("container")[0];
+    const element = new_doc.getElementsByClassName("spawned")[0];
     document.getElementsByTagName("body")[0].appendChild(element);
   }
 </script>

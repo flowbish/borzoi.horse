@@ -402,18 +402,95 @@ footer .rff-webring {
 }
 
 /* for mob spawners */
-.container.absolute {
+.spawned.mob {
   width: 500px;
   height: 500px;
 
   display: block;
   position: fixed;
-  overflow: visible;
+
+  left: calc((0.8 * var(--random-a) + 0.1) * 1%);
+  top: calc((0.8 * var(--random-b) + 0.1) * 1%);
+
+
+  .container {
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+  }
+
+  .camera {
+    --cam-z: 1000;
+    --cam-y: 300;
+  }
+
 
   .camera-projection {
     position: relative;
     left: -250px;
     top: -250px;
+  }
+}
+
+/* dvd spawner */
+@keyframes verticalBonk {
+    0%, 100%{
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(calc(100vh - 100%));
+    }
+}
+
+@keyframes horizontalBonk {
+    0%, 100%{
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(calc(100vw - 100%));
+    }
+}
+
+.spawned.dvd {
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    --animation-time: calc(tan(atan2(1px, 1vh)) * 100 * 1s);
+    --animation-offset: calc(var(--animation-time) * var(--random-a) / -100s * 1s);
+
+    animation: verticalBonk var(--animation-time) linear infinite;
+    animation-delay: var(--animation-offset);
+
+  .container {
+    height: 100%;
+    width: 10vh;
+    filter:
+        drop-shadow(1px 1px black)
+        drop-shadow(1px -1px black)
+        drop-shadow(-1px 1px black)
+        drop-shadow(-1px -1px black);
+
+    position: relative;
+    left: 0;
+    top: 0;
+
+    --animation-time: calc(tan(atan2(1px, 1vh)) * 100 * 1.2s);
+    --animation-offset: calc(var(--animation-time) * var(--random-b) / -100s * 1s);
+
+    animation: horizontalBonk var(--animation-time) linear infinite;
+    animation-delay: var(--animation-offset);
+
+    .camera {
+      --cam-z: 600;
+      --cam-y: 250;
+    }
+
+    .camera-yaw {
+        animation: spinnies 10s infinite linear;
+    }
   }
 }
 
