@@ -3,7 +3,7 @@ title = "Iris"
 description = "Look at this fops spin around in three dimensions. Isn't that dandy?"
 +++
 
-This is [Iris](https://ink.horse/), wow so cool! Look at the fops spin in three dimensions. Isn't that dandy?
+This is [Iris](https://ink.horse/refs/iris), wow so cool! Look at the fops spin in three dimensions. Isn't that dandy?
 
 
 {% <rendering id="iris" z={200} y={300} animate={true}> %}
