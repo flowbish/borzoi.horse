@@ -424,6 +424,9 @@ footer .rff-webring {
     --cam-y: 300;
   }
 
+  .camera-yaw {
+    animation: spinnies 3s infinite linear;
+  }
 
   .camera-projection {
     position: relative;
