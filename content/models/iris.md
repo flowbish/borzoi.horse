@@ -11,6 +11,16 @@ This is [Iris](https://ink.horse/refs/iris), wow so cool! Look at the fops spin 
 {% </rendering> %}
 </div>
 
+<style>
+#iris {
+    filter:
+        drop-shadow(1px 1px black)
+        drop-shadow(1px -1px black)
+        drop-shadow(-1px 1px black)
+        drop-shadow(-1px -1px black);
+}
+</style>
+
 <div class="theme-selector">
     <p>Also this looks better with the dark themes:</p>
     <button onclick="set_theme('nether')"><img src="/minecraft-netherrack.jpg" alt="select netherrack theme"></button>
