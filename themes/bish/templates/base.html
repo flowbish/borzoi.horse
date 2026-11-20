@@ -316,19 +316,9 @@
     const dp = new DOMParser();
     const new_doc = dp.parseFromString(`
       <div class="spawned ${cls}"  style="--random-a: ${a}; --random-b: ${b};" inert>
-        <div class="container">
-          <div class="camera camera-projection">
-            <div class="camera camera-roll">
-              <div class="camera camera-pitch">
-                <div class="camera camera-yaw">
-                  <div class="scene">
-                    ${text}
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        {% <rendering> %}
+          ${text}
+        {% </rendering> %}
       </div>
     `, "text/html");
     const element = new_doc.getElementsByClassName("spawned")[0];
