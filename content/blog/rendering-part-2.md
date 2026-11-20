@@ -8,9 +8,17 @@ include_in_feeds = false
 hidden = true
 +++
 
+{% component demo.rendering_part_2(id) %}
+{% <rendering id={id} y={200} > %}
+{{ load_data(path="/models/axes.divs") }}
+{{ body | safe }}
+{% </rendering> %}
+{{ <rendering.controls id={id} /> }}
+{% endcomponent demo.rendering_part_2 %}
+
 # Demo 1
 
-{% <demo.rendering_part_2 > %}
+{% <demo.rendering_part_2 id="one"> %}
 <div class="rect" style="
 --a-x: -100;
 --a-y: -100;
@@ -139,7 +147,7 @@ hidden = true
 
 # Demo 2
 
-{% <demo.rendering_part_2 > %}
+{% <demo.rendering_part_2 id="two"> %}
 
 <div class="tri" style="
   --a-x: 0;
@@ -464,7 +472,7 @@ hidden = true
 
 # Demo 3
 
-{% <demo.rendering_part_2 > %}
+{% <demo.rendering_part_2 id="three"> %}
 
 <div class="rect" style="
     --a-x: 31.25;
