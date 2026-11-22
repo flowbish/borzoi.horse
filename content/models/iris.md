@@ -3,24 +3,28 @@ title = "Iris"
 description = "Look at this fops spin around in three dimensions. Isn't that dandy?"
 +++
 
-{% <rendering id="page" z={1200} y={300} animate={false}> %}
+<div>
+<a id="part-1"></a>
+<a id="part-2"></a>
+
+{% <rendering id="page" z={1000} y={300} animate={false}> %}
 
 <!-- side 1 -->
 <div class="rect opaque" style="
     --a-x: -300;
     --a-y: -200;
-    --a-z: 300;
+    --a-z: 0;
     --b-x: 300;
     --b-y: -200;
-    --b-z: 300;
+    --b-z: 0;
     --c-x: -300;
     --c-y: 1000;
-    --c-z: 300;
+    --c-z: 0;
 ">
 
 This is [Iris](https://ink.horse/refs/iris), wow so cool! Look at the fops spin in three dimensions. Isn't that dandy?
 
-<a href="#page">next</a>
+<a href="#part-2">next</a>
 
 {% <rendering id="iris" z={200} y={300} animate={true}> %}
 {{ load_data(path="/models/iris.divs") }}
@@ -40,13 +44,13 @@ Find the model [here](/iris.glb). It was made by [mega-KOT](https://mega-kot.new
 <div class="rect opaque" style="
     --a-x: 300;
     --a-y: -200;
-    --a-z: 300;
-    --b-x: 300;
+    --a-z: 0;
+    --b-x: -300;
     --b-y: -200;
-    --b-z: -300;
+    --b-z: 0;
     --c-x: 300;
     --c-y: 1000;
-    --c-z: 300;
+    --c-z: 0;
 ">
 
 welcome to side two!
@@ -57,11 +61,13 @@ welcome to side two!
 
 that's crazy, it's iris again!
 
-<a href="#unpage">go back</a>
+<a href="#part-1">go back</a>
 
 </div>
 
 {% </rendering> %}
+
+</div>
 
 <style>
 #page {
@@ -73,14 +79,55 @@ that's crazy, it's iris again!
         --cam-yaw: 0;
     }
     to {
-        --cam-yaw: 90;
+        --cam-yaw: 180;
     }
 }
 
-#page:target {
+@keyframes zoom-out-in-part-1 {
+    0%, 100% {
+        --cam-z: 1000;
+    }
+    50% {
+        --cam-z: 2000;
+    }
+}
+
+@keyframes rotate-to-part-1 {
+    from {
+        --cam-yaw: 180;
+    }
+    to {
+        --cam-yaw: 0;
+    }
+}
+
+@keyframes roll-to-part-1 {
+    from {
+        --cam-roll: 0;
+    }
+    to {
+        --cam-roll: 360;
+    }
+}
+
+
+#part-2:target ~ #page {
     & > .camera-projection > .camera-roll > .camera-pitch > .camera-yaw {
         animation: rotate-to-part-2 3s forwards ease-in-out;
-        --cam-yaw: 90;
+    }
+}
+
+#part-1:target ~ #page {
+    & > .camera-projection {
+        animation: zoom-out-in-part-1 3s forwards ease-in-out;
+    }
+
+    & > .camera-projection > .camera-roll {
+        animation: roll-to-part-1 3s forwards ease-in-out;
+    }
+
+    & > .camera-projection > .camera-roll > .camera-pitch > .camera-yaw {
+        animation: rotate-to-part-1 3s forwards ease-in-out;
     }
 }
 
