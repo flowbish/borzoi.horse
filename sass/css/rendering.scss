@@ -499,6 +499,10 @@
 }
 
 .opaque {
+    --basis-z-x: calc(-1 * var(--basis-x-z) * var(--basis-y-y) + var(--basis-x-y) * var(--basis-y-z));
+    --basis-z-y: calc(-1 * var(--basis-x-x) * var(--basis-y-z) + var(--basis-x-z) * var(--basis-y-x));
+    --basis-z-z: calc(-1 * var(--basis-x-y) * var(--basis-y-x) + var(--basis-x-x) * var(--basis-y-y));
+
     backface-visibility: hidden;
 }
 
