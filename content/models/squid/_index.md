@@ -9,5 +9,3 @@ icon = "squid-icon.png"
 +++
 
 {{ <rendering id="squid" path="/models/squid.divs" animate={false} z={800} y={200} /> }}
-
-{{ <rendering.controls id="squid" /> }}
