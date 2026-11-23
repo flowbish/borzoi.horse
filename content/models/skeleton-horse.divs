@@ -1539,6 +1539,238 @@
             --texture-c-t: 0.18725586;
             "></div>
           </div>
+          <div class="node BitR" style="
+          ">
+            <div class="node BitR" style="
+              --node-inherent-translate-y: -1.0625;
+              --node-inherent-translate-z: 0.5;
+            ">
+              <div class="rect" style="
+              --a-x: calc(var(--base-scale) * 0.1875);
+              --a-y: calc(var(--base-scale) * -1.9375);
+              --a-z: calc(var(--base-scale) * -0.75);
+              --b-x: calc(var(--base-scale) * 0.1875);
+              --b-y: calc(var(--base-scale) * -1.9375);
+              --b-z: calc(var(--base-scale) * -0.875);
+              --c-x: calc(var(--base-scale) * 0.1875);
+              --c-y: calc(var(--base-scale) * -1.8125);
+              --c-z: calc(var(--base-scale) * -0.75);
+              --texture-image: var(--texture-0);
+              --texture-a-s: 0.45336914;
+              --texture-a-t: 0.10961914;
+              --texture-b-s: 0.48413086;
+              --texture-b-t: 0.10961914;
+              --texture-c-s: 0.45336914;
+              --texture-c-t: 0.14038086;
+              "></div>
+              <div class="rect" style="
+              --a-x: calc(var(--base-scale) * 0.125);
+              --a-y: calc(var(--base-scale) * -1.9375);
+              --a-z: calc(var(--base-scale) * -0.875);
+              --b-x: calc(var(--base-scale) * 0.125);
+              --b-y: calc(var(--base-scale) * -1.9375);
+              --b-z: calc(var(--base-scale) * -0.75);
+              --c-x: calc(var(--base-scale) * 0.125);
+              --c-y: calc(var(--base-scale) * -1.8125);
+              --c-z: calc(var(--base-scale) * -0.875);
+              --texture-image: var(--texture-0);
+              --texture-a-s: 0.50024414;
+              --texture-a-t: 0.10961914;
+              --texture-b-s: 0.53100586;
+              --texture-b-t: 0.10961914;
+              --texture-c-s: 0.50024414;
+              --texture-c-t: 0.14038086;
+              "></div>
+              <div class="rect" style="
+              --a-x: calc(var(--base-scale) * 0.125);
+              --a-y: calc(var(--base-scale) * -1.9375);
+              --a-z: calc(var(--base-scale) * -0.875);
+              --b-x: calc(var(--base-scale) * 0.1875);
+              --b-y: calc(var(--base-scale) * -1.9375);
+              --b-z: calc(var(--base-scale) * -0.875);
+              --c-x: calc(var(--base-scale) * 0.125);
+              --c-y: calc(var(--base-scale) * -1.9375);
+              --c-z: calc(var(--base-scale) * -0.75);
+              --texture-image: var(--texture-0);
+              --texture-a-s: 0.49975586;
+              --texture-a-t: 0.10913086;
+              --texture-b-s: 0.48461914;
+              --texture-b-t: 0.10913086;
+              --texture-c-s: 0.49975586;
+              --texture-c-t: 0.07836914;
+              "></div>
+              <div class="rect" style="
+              --a-x: calc(var(--base-scale) * 0.125);
+              --a-y: calc(var(--base-scale) * -1.8125);
+              --a-z: calc(var(--base-scale) * -0.75);
+              --b-x: calc(var(--base-scale) * 0.1875);
+              --b-y: calc(var(--base-scale) * -1.8125);
+              --b-z: calc(var(--base-scale) * -0.75);
+              --c-x: calc(var(--base-scale) * 0.125);
+              --c-y: calc(var(--base-scale) * -1.8125);
+              --c-z: calc(var(--base-scale) * -0.875);
+              --texture-image: var(--texture-0);
+              --texture-a-s: 0.51538086;
+              --texture-a-t: 0.07836914;
+              --texture-b-s: 0.50024414;
+              --texture-b-t: 0.07836914;
+              --texture-c-s: 0.51538086;
+              --texture-c-t: 0.10913086;
+              "></div>
+              <div class="rect" style="
+              --a-x: calc(var(--base-scale) * 0.125);
+              --a-y: calc(var(--base-scale) * -1.9375);
+              --a-z: calc(var(--base-scale) * -0.75);
+              --b-x: calc(var(--base-scale) * 0.1875);
+              --b-y: calc(var(--base-scale) * -1.9375);
+              --b-z: calc(var(--base-scale) * -0.75);
+              --c-x: calc(var(--base-scale) * 0.125);
+              --c-y: calc(var(--base-scale) * -1.8125);
+              --c-z: calc(var(--base-scale) * -0.75);
+              --texture-image: var(--texture-0);
+              --texture-a-s: 0.53149414;
+              --texture-a-t: 0.10961914;
+              --texture-b-s: 0.54663086;
+              --texture-b-t: 0.10961914;
+              --texture-c-s: 0.53149414;
+              --texture-c-t: 0.14038086;
+              "></div>
+              <div class="rect" style="
+              --a-x: calc(var(--base-scale) * 0.1875);
+              --a-y: calc(var(--base-scale) * -1.9375);
+              --a-z: calc(var(--base-scale) * -0.875);
+              --b-x: calc(var(--base-scale) * 0.125);
+              --b-y: calc(var(--base-scale) * -1.9375);
+              --b-z: calc(var(--base-scale) * -0.875);
+              --c-x: calc(var(--base-scale) * 0.1875);
+              --c-y: calc(var(--base-scale) * -1.8125);
+              --c-z: calc(var(--base-scale) * -0.875);
+              --texture-image: var(--texture-0);
+              --texture-a-s: 0.48461914;
+              --texture-a-t: 0.10961914;
+              --texture-b-s: 0.49975586;
+              --texture-b-t: 0.10961914;
+              --texture-c-s: 0.48461914;
+              --texture-c-t: 0.14038086;
+              "></div>
+            </div>
+          </div>
+          <div class="node BitL" style="
+          ">
+            <div class="node BitL" style="
+              --node-inherent-translate-y: -1.0625;
+              --node-inherent-translate-z: 0.5;
+            ">
+              <div class="rect" style="
+              --a-x: calc(var(--base-scale) * -0.125);
+              --a-y: calc(var(--base-scale) * -1.9375);
+              --a-z: calc(var(--base-scale) * -0.75);
+              --b-x: calc(var(--base-scale) * -0.125);
+              --b-y: calc(var(--base-scale) * -1.9375);
+              --b-z: calc(var(--base-scale) * -0.875);
+              --c-x: calc(var(--base-scale) * -0.125);
+              --c-y: calc(var(--base-scale) * -1.8125);
+              --c-z: calc(var(--base-scale) * -0.75);
+              --texture-image: var(--texture-0);
+              --texture-a-s: 0.45336914;
+              --texture-a-t: 0.10961914;
+              --texture-b-s: 0.48413086;
+              --texture-b-t: 0.10961914;
+              --texture-c-s: 0.45336914;
+              --texture-c-t: 0.14038086;
+              "></div>
+              <div class="rect" style="
+              --a-x: calc(var(--base-scale) * -0.1875);
+              --a-y: calc(var(--base-scale) * -1.9375);
+              --a-z: calc(var(--base-scale) * -0.875);
+              --b-x: calc(var(--base-scale) * -0.1875);
+              --b-y: calc(var(--base-scale) * -1.9375);
+              --b-z: calc(var(--base-scale) * -0.75);
+              --c-x: calc(var(--base-scale) * -0.1875);
+              --c-y: calc(var(--base-scale) * -1.8125);
+              --c-z: calc(var(--base-scale) * -0.875);
+              --texture-image: var(--texture-0);
+              --texture-a-s: 0.50024414;
+              --texture-a-t: 0.10961914;
+              --texture-b-s: 0.53100586;
+              --texture-b-t: 0.10961914;
+              --texture-c-s: 0.50024414;
+              --texture-c-t: 0.14038086;
+              "></div>
+              <div class="rect" style="
+              --a-x: calc(var(--base-scale) * -0.1875);
+              --a-y: calc(var(--base-scale) * -1.9375);
+              --a-z: calc(var(--base-scale) * -0.875);
+              --b-x: calc(var(--base-scale) * -0.125);
+              --b-y: calc(var(--base-scale) * -1.9375);
+              --b-z: calc(var(--base-scale) * -0.875);
+              --c-x: calc(var(--base-scale) * -0.1875);
+              --c-y: calc(var(--base-scale) * -1.9375);
+              --c-z: calc(var(--base-scale) * -0.75);
+              --texture-image: var(--texture-0);
+              --texture-a-s: 0.49975586;
+              --texture-a-t: 0.10913086;
+              --texture-b-s: 0.48461914;
+              --texture-b-t: 0.10913086;
+              --texture-c-s: 0.49975586;
+              --texture-c-t: 0.07836914;
+              "></div>
+              <div class="rect" style="
+              --a-x: calc(var(--base-scale) * -0.1875);
+              --a-y: calc(var(--base-scale) * -1.8125);
+              --a-z: calc(var(--base-scale) * -0.75);
+              --b-x: calc(var(--base-scale) * -0.125);
+              --b-y: calc(var(--base-scale) * -1.8125);
+              --b-z: calc(var(--base-scale) * -0.75);
+              --c-x: calc(var(--base-scale) * -0.1875);
+              --c-y: calc(var(--base-scale) * -1.8125);
+              --c-z: calc(var(--base-scale) * -0.875);
+              --texture-image: var(--texture-0);
+              --texture-a-s: 0.51538086;
+              --texture-a-t: 0.07836914;
+              --texture-b-s: 0.50024414;
+              --texture-b-t: 0.07836914;
+              --texture-c-s: 0.51538086;
+              --texture-c-t: 0.10913086;
+              "></div>
+              <div class="rect" style="
+              --a-x: calc(var(--base-scale) * -0.1875);
+              --a-y: calc(var(--base-scale) * -1.9375);
+              --a-z: calc(var(--base-scale) * -0.75);
+              --b-x: calc(var(--base-scale) * -0.125);
+              --b-y: calc(var(--base-scale) * -1.9375);
+              --b-z: calc(var(--base-scale) * -0.75);
+              --c-x: calc(var(--base-scale) * -0.1875);
+              --c-y: calc(var(--base-scale) * -1.8125);
+              --c-z: calc(var(--base-scale) * -0.75);
+              --texture-image: var(--texture-0);
+              --texture-a-s: 0.53149414;
+              --texture-a-t: 0.10961914;
+              --texture-b-s: 0.54663086;
+              --texture-b-t: 0.10961914;
+              --texture-c-s: 0.53149414;
+              --texture-c-t: 0.14038086;
+              "></div>
+              <div class="rect" style="
+              --a-x: calc(var(--base-scale) * -0.125);
+              --a-y: calc(var(--base-scale) * -1.9375);
+              --a-z: calc(var(--base-scale) * -0.875);
+              --b-x: calc(var(--base-scale) * -0.1875);
+              --b-y: calc(var(--base-scale) * -1.9375);
+              --b-z: calc(var(--base-scale) * -0.875);
+              --c-x: calc(var(--base-scale) * -0.125);
+              --c-y: calc(var(--base-scale) * -1.8125);
+              --c-z: calc(var(--base-scale) * -0.875);
+              --texture-image: var(--texture-0);
+              --texture-a-s: 0.48461914;
+              --texture-a-t: 0.10961914;
+              --texture-b-s: 0.49975586;
+              --texture-b-t: 0.10961914;
+              --texture-c-s: 0.48461914;
+              --texture-c-t: 0.14038086;
+              "></div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="node Mane" style="
