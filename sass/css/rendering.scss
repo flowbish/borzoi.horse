@@ -321,6 +321,12 @@
     inherits: true;
 }
 
+@property --ac-dot-basis-x {
+    syntax: "<number>";
+    initial-value: 0;
+    inherits: true;
+}
+
 @property --basis-y-x-non-normalized {
     syntax: "<number>";
     initial-value: 0;
@@ -376,12 +382,6 @@
 }
 
 @property --basis-z-z {
-    syntax: "<number>";
-    initial-value: 0;
-    inherits: true;
-}
-
-@property --ac-dot-basis-x {
     syntax: "<number>";
     initial-value: 0;
     inherits: true;
@@ -567,19 +567,25 @@
     inherits: true;
 }
 
-@property --ab-cross-ac {
+@property --texture-hypot-ab {
     syntax: "<number>";
     initial-value: 0;
     inherits: true;
 }
 
-@property --texture-ab-length {
+@property --texture-ab-cross-ac {
     syntax: "<number>";
     initial-value: 0;
     inherits: true;
 }
 
-@property --texture-ac-length {
+@property --texture-flip {
+    syntax: "<number>";
+    initial-value: 0;
+    inherits: true;
+}
+
+@property --texture-normal {
     syntax: "<number>";
     initial-value: 0;
     inherits: true;
@@ -597,27 +603,147 @@
     inherits: true;
 }
 
-@property --texture-size-x {
+@property --texture-debug-color-overlay {
     syntax: "<number>";
     initial-value: 0;
     inherits: true;
 }
 
-@property --texture-size-y {
+@property --texture-ac-dot-ab {
     syntax: "<number>";
     initial-value: 0;
     inherits: true;
 }
 
-@property --texture-rotation {
-    syntax: "<angle>";
-    initial-value: 0deg;
+@property --texture-ac-project-ab {
+    syntax: "<number>";
+    initial-value: 0;
     inherits: true;
 }
 
-@property --texture-skew-angle {
-    syntax: "<angle>";
-    initial-value: 0deg;
+@property --texture-height-s {
+    syntax: "<number>";
+    initial-value: 0;
+    inherits: true;
+}
+
+@property --texture-height-t {
+    syntax: "<number>";
+    initial-value: 0;
+    inherits: true;
+}
+
+@property --texture-height {
+    syntax: "<number>";
+    initial-value: 0;
+    inherits: true;
+}
+
+@property --texture-skew-ac-s {
+    syntax: "<number>";
+    initial-value: 0;
+    inherits: true;
+}
+
+@property --texture-skew-ac-t {
+    syntax: "<number>";
+    initial-value: 0;
+    inherits: true;
+}
+
+@property --texture-skew-length {
+    syntax: "<number>";
+    initial-value: 0;
+    inherits: true;
+}
+
+@property --texture-skew-coefficient {
+    syntax: "<number>";
+    initial-value: 0;
+    inherits: true;
+}
+
+/* These should probably have a "texture" prefix to be consistent */
+@property --basis-s-s {
+    syntax: "<number>";
+    initial-value: 0;
+    inherits: true;
+}
+@property --basis-s-t {
+    syntax: "<number>";
+    initial-value: 0;
+    inherits: true;
+}
+
+@property --ac-dot-basis-s {
+    syntax: "<number>";
+    initial-value: 0;
+    inherits: true;
+}
+
+@property --basis-t-s-non-normalized {
+    syntax: "<number>";
+    initial-value: 0;
+    inherits: true;
+}
+
+@property --basis-t-t-non-normalized {
+    syntax: "<number>";
+    initial-value: 0;
+    inherits: true;
+}
+
+@property --basis-t-length {
+    syntax: "<number>";
+    initial-value: 0;
+    inherits: true;
+}
+
+@property --basis-t-s {
+    syntax: "<number>";
+    initial-value: 0;
+    inherits: true;
+}
+
+@property --basis-t-t {
+    syntax: "<number>";
+    initial-value: 0;
+    inherits: true;
+}
+
+@property --width-scale {
+    syntax: "<number>";
+    initial-value: 0;
+    inherits: true;
+}
+
+@property --height-scale {
+    syntax: "<number>";
+    initial-value: 0;
+    inherits: true;
+}
+
+@property --texture-matrix-a {
+    syntax: "<number>";
+    initial-value: 0;
+    inherits: true;
+}
+
+@property --texture-matrix-b {
+    syntax: "<number>";
+    initial-value: 0;
+    inherits: true;
+}
+
+@property --texture-matrix-c {
+    syntax: "<number>";
+    initial-value: 0;
+    inherits: true;
+}
+
+@property --texture-matrix-d {
+    syntax: "<number>";
+    initial-value: 0;
     inherits: true;
 }
 
@@ -633,7 +759,13 @@
     inherits: true;
 }
 
-@property --k {
+@property --texture-matrix-translate-x {
+    syntax: "<number>";
+    initial-value: 0;
+    inherits: true;
+}
+
+@property --texture-matrix-translate-y {
     syntax: "<number>";
     initial-value: 0;
     inherits: true;
@@ -705,7 +837,6 @@
     --texture-delta-ac-t: calc(var(--texture-c-t) - var(--texture-a-t));
 
     --texture-hypot-ab: calc(hypot(var(--texture-delta-ab-s), var(--texture-delta-ab-t)));
-    --texture-hypot-ac: calc(hypot(var(--texture-delta-ac-s), var(--texture-delta-ac-t)));
 
     /* 
      * Calculate the cross product: positive means the texture is fine as-is, negative means it must be flipped
@@ -727,14 +858,6 @@
     --texture-debug-color-overlay: 0;
     background-color: rgba(calc(255 * var(--texture-normal)), calc(255 * var(--texture-reversed)), 255, calc(var(--texture-debug-color-overlay) * 255));
     background-blend-mode: multiply;
-
-
-    --texture-ab-length: calc(
-        hypot(
-            var(--texture-delta-ab-s),
-            var(--texture-delta-ab-t)
-        )
-    );
 
     --texture-ac-dot-ab: calc(var(--texture-delta-ab-s) * var(--texture-delta-ac-s) + var(--texture-delta-ab-t) * var(--texture-delta-ac-t));
     --texture-ac-project-ab: calc(var(--texture-ac-dot-ab) / pow(var(--texture-hypot-ab), 2));
@@ -776,7 +899,7 @@
     /*
      * Scale the bases to match the final size of the texture.
      */
-    --width-scale: calc(var(--hypot-ab) / var(--texture-starting-size) / var(--texture-ab-length));
+    --width-scale: calc(var(--hypot-ab) / var(--texture-starting-size) / var(--texture-hypot-ab));
     --height-scale: calc(var(--tri-height) / var(--texture-starting-size) / var(--texture-height));
 
     --texture-matrix-a: calc(var(--width-scale) * (var(--basis-s-s) + var(--texture-skew-coefficient) * var(--basis-t-s)));
@@ -786,11 +909,11 @@
 
     --texture-translation-s: calc(var(--texture-a-s) * var(--texture-starting-size) * -1);
     --texture-translation-t: calc(var(--texture-a-t) * var(--texture-starting-size) * -1);
-    --matrix-translate-x: calc(
+    --texture-matrix-translate-x: calc(
         var(--texture-matrix-a) * var(--texture-translation-s) +
         var(--texture-matrix-c) * var(--texture-translation-t)
     );
-    --matrix-translate-y: calc(
+    --texture-matrix-translate-y: calc(
         var(--texture-matrix-b) * var(--texture-translation-s) +
         var(--texture-matrix-d) * var(--texture-translation-t)
     );
@@ -798,7 +921,7 @@
     transform: matrix(
         var(--texture-matrix-a), var(--texture-matrix-b),
         var(--texture-matrix-c), var(--texture-matrix-d),
-        var(--matrix-translate-x), var(--matrix-translate-y)
+        var(--texture-matrix-translate-x), var(--texture-matrix-translate-y)
     );
     image-rendering: pixelated;
     transform-origin: 0% 0%;
