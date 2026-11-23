@@ -55,6 +55,9 @@ nav_title = "stuff ?"
 <a href="/models/borzoi/">
 {{ <rendering id="borzoi" path="/models/borzoi.divs" projection={100} yaw={-135} y={250} pitch={16} z={500} /> }}
 </a>
+<a href="/models/iris/">
+{{ <rendering id="iris" path="/models/iris.divs" projection={100} yaw={-135} y={220} pitch={16} z={700} /> }}
+</a>
 </div>
 
 ## the octogon
