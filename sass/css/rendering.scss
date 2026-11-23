@@ -44,6 +44,11 @@
     transform-style: preserve-3d;
 }
 
+/*
+ * Camera Properties
+ */
+
+
 @property --cam-yaw {
     syntax: "<number>";
     initial-value: 0;
@@ -132,6 +137,20 @@
         --cam-z: 2000;
     }
 }
+
+/*
+ * Node Properties
+ */
+
+@property --base-scale {
+    syntax: "<number>";
+    initial-value: 1;
+    inherits: true;
+}
+
+/*
+ * Face properties
+ */
 
 @property --a-x {
     syntax: "<number>";

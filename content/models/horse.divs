@@ -1,10 +1,11 @@
 <div class="node base" style="
   --texture-0: url(data:image/png;base64,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);
+  --base-scale: 100;
   transform:
     translate3d(
-      calc(0 * 100 * 1px + var(--node-translate-x)),
-      calc(0 * 100 * -1px + var(--node-translate-y)),
-      calc(0 * 100 * 1px + var(--node-translate-z))
+      calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
+      calc(0 * var(--base-scale) * -1px + var(--node-translate-y)),
+      calc(0 * var(--base-scale) * 1px + var(--node-translate-z))
     )
     rotate3d(0, -0, 0, calc(-2 * acos(1)))
     rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
@@ -13,9 +14,9 @@
   <div class="node Body" style="
     transform:
       translate3d(
-        calc(0 * 100 * 1px + var(--node-translate-x)),
-        calc(0.8125 * 100 * -1px + var(--node-translate-y)),
-        calc(0.5625 * 100 * 1px + var(--node-translate-z))
+        calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
+        calc(0.8125 * var(--base-scale) * -1px + var(--node-translate-y)),
+        calc(0.5625 * var(--base-scale) * 1px + var(--node-translate-z))
       )
       rotate3d(0, -0, 0, calc(-2 * acos(1)))
       rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
@@ -24,24 +25,24 @@
     <div class="node Body" style="
       transform:
         translate3d(
-          calc(0 * 100 * 1px + var(--node-translate-x)),
-          calc(-0.8125 * 100 * -1px + var(--node-translate-y)),
-          calc(-0.5625 * 100 * 1px + var(--node-translate-z))
+          calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
+          calc(-0.8125 * var(--base-scale) * -1px + var(--node-translate-y)),
+          calc(-0.5625 * var(--base-scale) * 1px + var(--node-translate-z))
         )
         rotate3d(0, -0, 0, calc(-2 * acos(1)))
         rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
         scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
     ">
       <div class="rect opaque" style="
-      --a-x: 31.25;
-      --a-y: -131.25;
-      --a-z: 68.75;
-      --b-x: 31.25;
-      --b-y: -131.25;
-      --b-z: -68.75;
-      --c-x: 31.25;
-      --c-y: -68.75;
-      --c-z: 68.75;
+      --a-x: calc(var(--base-scale) * 0.3125);
+      --a-y: calc(var(--base-scale) * -1.3125);
+      --a-z: calc(var(--base-scale) * 0.6875);
+      --b-x: calc(var(--base-scale) * 0.3125);
+      --b-y: calc(var(--base-scale) * -1.3125);
+      --b-z: calc(var(--base-scale) * -0.6875);
+      --c-x: calc(var(--base-scale) * 0.3125);
+      --c-y: calc(var(--base-scale) * -0.6875);
+      --c-z: calc(var(--base-scale) * 0.6875);
       --texture-image: var(--texture-0);
       --texture-a-s: 0.00024414063;
       --texture-a-t: 0.84399414;
@@ -51,15 +52,15 @@
       --texture-c-t: 0.99975586;
       "></div>
       <div class="rect opaque" style="
-      --a-x: -31.25;
-      --a-y: -131.25;
-      --a-z: -68.75;
-      --b-x: -31.25;
-      --b-y: -131.25;
-      --b-z: 68.75;
-      --c-x: -31.25;
-      --c-y: -68.75;
-      --c-z: -68.75;
+      --a-x: calc(var(--base-scale) * -0.3125);
+      --a-y: calc(var(--base-scale) * -1.3125);
+      --a-z: calc(var(--base-scale) * -0.6875);
+      --b-x: calc(var(--base-scale) * -0.3125);
+      --b-y: calc(var(--base-scale) * -1.3125);
+      --b-z: calc(var(--base-scale) * 0.6875);
+      --c-x: calc(var(--base-scale) * -0.3125);
+      --c-y: calc(var(--base-scale) * -0.6875);
+      --c-z: calc(var(--base-scale) * -0.6875);
       --texture-image: var(--texture-0);
       --texture-a-s: 0.50024414;
       --texture-a-t: 0.84399414;
@@ -69,15 +70,15 @@
       --texture-c-t: 0.99975586;
       "></div>
       <div class="rect opaque" style="
-      --a-x: -31.25;
-      --a-y: -131.25;
-      --a-z: -68.75;
-      --b-x: 31.25;
-      --b-y: -131.25;
-      --b-z: -68.75;
-      --c-x: -31.25;
-      --c-y: -131.25;
-      --c-z: 68.75;
+      --a-x: calc(var(--base-scale) * -0.3125);
+      --a-y: calc(var(--base-scale) * -1.3125);
+      --a-z: calc(var(--base-scale) * -0.6875);
+      --b-x: calc(var(--base-scale) * 0.3125);
+      --b-y: calc(var(--base-scale) * -1.3125);
+      --b-z: calc(var(--base-scale) * -0.6875);
+      --c-x: calc(var(--base-scale) * -0.3125);
+      --c-y: calc(var(--base-scale) * -1.3125);
+      --c-z: calc(var(--base-scale) * 0.6875);
       --texture-image: var(--texture-0);
       --texture-a-s: 0.49975586;
       --texture-a-t: 0.84350586;
@@ -87,15 +88,15 @@
       --texture-c-t: 0.50024414;
       "></div>
       <div class="rect opaque" style="
-      --a-x: -31.25;
-      --a-y: -68.75;
-      --a-z: 68.75;
-      --b-x: 31.25;
-      --b-y: -68.75;
-      --b-z: 68.75;
-      --c-x: -31.25;
-      --c-y: -68.75;
-      --c-z: -68.75;
+      --a-x: calc(var(--base-scale) * -0.3125);
+      --a-y: calc(var(--base-scale) * -0.6875);
+      --a-z: calc(var(--base-scale) * 0.6875);
+      --b-x: calc(var(--base-scale) * 0.3125);
+      --b-y: calc(var(--base-scale) * -0.6875);
+      --b-z: calc(var(--base-scale) * 0.6875);
+      --c-x: calc(var(--base-scale) * -0.3125);
+      --c-y: calc(var(--base-scale) * -0.6875);
+      --c-z: calc(var(--base-scale) * -0.6875);
       --texture-image: var(--texture-0);
       --texture-a-s: 0.65600586;
       --texture-a-t: 0.50024414;
@@ -105,15 +106,15 @@
       --texture-c-t: 0.84350586;
       "></div>
       <div class="rect opaque" style="
-      --a-x: -31.25;
-      --a-y: -131.25;
-      --a-z: 68.75;
-      --b-x: 31.25;
-      --b-y: -131.25;
-      --b-z: 68.75;
-      --c-x: -31.25;
-      --c-y: -68.75;
-      --c-z: 68.75;
+      --a-x: calc(var(--base-scale) * -0.3125);
+      --a-y: calc(var(--base-scale) * -1.3125);
+      --a-z: calc(var(--base-scale) * 0.6875);
+      --b-x: calc(var(--base-scale) * 0.3125);
+      --b-y: calc(var(--base-scale) * -1.3125);
+      --b-z: calc(var(--base-scale) * 0.6875);
+      --c-x: calc(var(--base-scale) * -0.3125);
+      --c-y: calc(var(--base-scale) * -0.6875);
+      --c-z: calc(var(--base-scale) * 0.6875);
       --texture-image: var(--texture-0);
       --texture-a-s: 0.84399414;
       --texture-a-t: 0.84399414;
@@ -123,15 +124,15 @@
       --texture-c-t: 0.99975586;
       "></div>
       <div class="rect opaque" style="
-      --a-x: 31.25;
-      --a-y: -131.25;
-      --a-z: -68.75;
-      --b-x: -31.25;
-      --b-y: -131.25;
-      --b-z: -68.75;
-      --c-x: 31.25;
-      --c-y: -68.75;
-      --c-z: -68.75;
+      --a-x: calc(var(--base-scale) * 0.3125);
+      --a-y: calc(var(--base-scale) * -1.3125);
+      --a-z: calc(var(--base-scale) * -0.6875);
+      --b-x: calc(var(--base-scale) * -0.3125);
+      --b-y: calc(var(--base-scale) * -1.3125);
+      --b-z: calc(var(--base-scale) * -0.6875);
+      --c-x: calc(var(--base-scale) * 0.3125);
+      --c-y: calc(var(--base-scale) * -0.6875);
+      --c-z: calc(var(--base-scale) * -0.6875);
       --texture-image: var(--texture-0);
       --texture-a-s: 0.34399414;
       --texture-a-t: 0.84399414;
@@ -144,9 +145,9 @@
     <div class="node Tail" style="
       transform:
         translate3d(
-          calc(0 * 100 * 1px + var(--node-translate-x)),
-          calc(0.4375 * 100 * -1px + var(--node-translate-y)),
-          calc(0.125 * 100 * 1px + var(--node-translate-z))
+          calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
+          calc(0.4375 * var(--base-scale) * -1px + var(--node-translate-y)),
+          calc(0.125 * var(--base-scale) * 1px + var(--node-translate-z))
         )
         rotate3d(-0.21643962, -0, 0, calc(-2 * acos(0.976296)))
         rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
@@ -155,24 +156,24 @@
       <div class="node Tail" style="
         transform:
           translate3d(
-            calc(0 * 100 * 1px + var(--node-translate-x)),
-            calc(-1.25 * 100 * -1px + var(--node-translate-y)),
-            calc(-0.6875 * 100 * 1px + var(--node-translate-z))
+            calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
+            calc(-1.25 * var(--base-scale) * -1px + var(--node-translate-y)),
+            calc(-0.6875 * var(--base-scale) * 1px + var(--node-translate-z))
           )
           rotate3d(0, -0, 0, calc(-2 * acos(1)))
           rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
           scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
       ">
         <div class="rect opaque" style="
-        --a-x: 9.375;
-        --a-y: -125;
-        --a-z: 81.25;
-        --b-x: 9.375;
-        --b-y: -125;
-        --b-z: 56.25;
-        --c-x: 9.375;
-        --c-y: -37.5;
-        --c-z: 81.25;
+        --a-x: calc(var(--base-scale) * 0.09375);
+        --a-y: calc(var(--base-scale) * -1.25);
+        --a-z: calc(var(--base-scale) * 0.8125);
+        --b-x: calc(var(--base-scale) * 0.09375);
+        --b-y: calc(var(--base-scale) * -1.25);
+        --b-z: calc(var(--base-scale) * 0.5625);
+        --c-x: calc(var(--base-scale) * 0.09375);
+        --c-y: calc(var(--base-scale) * -0.375);
+        --c-z: calc(var(--base-scale) * 0.8125);
         --texture-image: var(--texture-0);
         --texture-a-s: 0.65649414;
         --texture-a-t: 0.62524414;
@@ -182,15 +183,15 @@
         --texture-c-t: 0.84350586;
         "></div>
         <div class="rect opaque" style="
-        --a-x: -9.375;
-        --a-y: -125;
-        --a-z: 56.25;
-        --b-x: -9.375;
-        --b-y: -125;
-        --b-z: 81.25;
-        --c-x: -9.375;
-        --c-y: -37.5;
-        --c-z: 56.25;
+        --a-x: calc(var(--base-scale) * -0.09375);
+        --a-y: calc(var(--base-scale) * -1.25);
+        --a-z: calc(var(--base-scale) * 0.5625);
+        --b-x: calc(var(--base-scale) * -0.09375);
+        --b-y: calc(var(--base-scale) * -1.25);
+        --b-z: calc(var(--base-scale) * 0.8125);
+        --c-x: calc(var(--base-scale) * -0.09375);
+        --c-y: calc(var(--base-scale) * -0.375);
+        --c-z: calc(var(--base-scale) * 0.5625);
         --texture-image: var(--texture-0);
         --texture-a-s: 0.76586914;
         --texture-a-t: 0.62524414;
@@ -200,15 +201,15 @@
         --texture-c-t: 0.84350586;
         "></div>
         <div class="rect opaque" style="
-        --a-x: -9.375;
-        --a-y: -125;
-        --a-z: 56.25;
-        --b-x: 9.375;
-        --b-y: -125;
-        --b-z: 56.25;
-        --c-x: -9.375;
-        --c-y: -125;
-        --c-z: 81.25;
+        --a-x: calc(var(--base-scale) * -0.09375);
+        --a-y: calc(var(--base-scale) * -1.25);
+        --a-z: calc(var(--base-scale) * 0.5625);
+        --b-x: calc(var(--base-scale) * 0.09375);
+        --b-y: calc(var(--base-scale) * -1.25);
+        --b-z: calc(var(--base-scale) * 0.5625);
+        --c-x: calc(var(--base-scale) * -0.09375);
+        --c-y: calc(var(--base-scale) * -1.25);
+        --c-z: calc(var(--base-scale) * 0.8125);
         --texture-image: var(--texture-0);
         --texture-a-s: 0.76538086;
         --texture-a-t: 0.62475586;
@@ -218,15 +219,15 @@
         --texture-c-t: 0.56274414;
         "></div>
         <div class="rect opaque" style="
-        --a-x: -9.375;
-        --a-y: -37.5;
-        --a-z: 81.25;
-        --b-x: 9.375;
-        --b-y: -37.5;
-        --b-z: 81.25;
-        --c-x: -9.375;
-        --c-y: -37.5;
-        --c-z: 56.25;
+        --a-x: calc(var(--base-scale) * -0.09375);
+        --a-y: calc(var(--base-scale) * -0.375);
+        --a-z: calc(var(--base-scale) * 0.8125);
+        --b-x: calc(var(--base-scale) * 0.09375);
+        --b-y: calc(var(--base-scale) * -0.375);
+        --b-z: calc(var(--base-scale) * 0.8125);
+        --c-x: calc(var(--base-scale) * -0.09375);
+        --c-y: calc(var(--base-scale) * -0.375);
+        --c-z: calc(var(--base-scale) * 0.5625);
         --texture-image: var(--texture-0);
         --texture-a-s: 0.81225586;
         --texture-a-t: 0.56274414;
@@ -236,15 +237,15 @@
         --texture-c-t: 0.62475586;
         "></div>
         <div class="rect opaque" style="
-        --a-x: -9.375;
-        --a-y: -125;
-        --a-z: 81.25;
-        --b-x: 9.375;
-        --b-y: -125;
-        --b-z: 81.25;
-        --c-x: -9.375;
-        --c-y: -37.5;
-        --c-z: 81.25;
+        --a-x: calc(var(--base-scale) * -0.09375);
+        --a-y: calc(var(--base-scale) * -1.25);
+        --a-z: calc(var(--base-scale) * 0.8125);
+        --b-x: calc(var(--base-scale) * 0.09375);
+        --b-y: calc(var(--base-scale) * -1.25);
+        --b-z: calc(var(--base-scale) * 0.8125);
+        --c-x: calc(var(--base-scale) * -0.09375);
+        --c-y: calc(var(--base-scale) * -0.375);
+        --c-z: calc(var(--base-scale) * 0.8125);
         --texture-image: var(--texture-0);
         --texture-a-s: 0.82836914;
         --texture-a-t: 0.62524414;
@@ -254,15 +255,15 @@
         --texture-c-t: 0.84350586;
         "></div>
         <div class="rect opaque" style="
-        --a-x: 9.375;
-        --a-y: -125;
-        --a-z: 56.25;
-        --b-x: -9.375;
-        --b-y: -125;
-        --b-z: 56.25;
-        --c-x: 9.375;
-        --c-y: -37.5;
-        --c-z: 56.25;
+        --a-x: calc(var(--base-scale) * 0.09375);
+        --a-y: calc(var(--base-scale) * -1.25);
+        --a-z: calc(var(--base-scale) * 0.5625);
+        --b-x: calc(var(--base-scale) * -0.09375);
+        --b-y: calc(var(--base-scale) * -1.25);
+        --b-z: calc(var(--base-scale) * 0.5625);
+        --c-x: calc(var(--base-scale) * 0.09375);
+        --c-y: calc(var(--base-scale) * -0.375);
+        --c-z: calc(var(--base-scale) * 0.5625);
         --texture-image: var(--texture-0);
         --texture-a-s: 0.71899414;
         --texture-a-t: 0.62524414;
@@ -276,9 +277,9 @@
     <div class="node LegBL" style="
       transform:
         translate3d(
-          calc(-0.1875 * 100 * 1px + var(--node-translate-x)),
-          calc(-0.125 * 100 * -1px + var(--node-translate-y)),
-          calc(0 * 100 * 1px + var(--node-translate-z))
+          calc(-0.1875 * var(--base-scale) * 1px + var(--node-translate-x)),
+          calc(-0.125 * var(--base-scale) * -1px + var(--node-translate-y)),
+          calc(0 * var(--base-scale) * 1px + var(--node-translate-z))
         )
         rotate3d(0, -0, 0, calc(-2 * acos(1)))
         rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
@@ -287,24 +288,24 @@
       <div class="node LegBL" style="
         transform:
           translate3d(
-            calc(0.1875 * 100 * 1px + var(--node-translate-x)),
-            calc(-0.6875 * 100 * -1px + var(--node-translate-y)),
-            calc(-0.5625 * 100 * 1px + var(--node-translate-z))
+            calc(0.1875 * var(--base-scale) * 1px + var(--node-translate-x)),
+            calc(-0.6875 * var(--base-scale) * -1px + var(--node-translate-y)),
+            calc(-0.5625 * var(--base-scale) * 1px + var(--node-translate-z))
           )
           rotate3d(0, -0, 0, calc(-2 * acos(1)))
           rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
           scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
       ">
         <div class="rect opaque" style="
-        --a-x: -6.25;
-        --a-y: -68.75;
-        --a-z: 68.75;
-        --b-x: -6.25;
-        --b-y: -68.75;
-        --b-z: 43.75;
-        --c-x: -6.25;
-        --c-y: -0;
-        --c-z: 68.75;
+        --a-x: calc(var(--base-scale) * -0.0625);
+        --a-y: calc(var(--base-scale) * -0.6875);
+        --a-z: calc(var(--base-scale) * 0.6875);
+        --b-x: calc(var(--base-scale) * -0.0625);
+        --b-y: calc(var(--base-scale) * -0.6875);
+        --b-z: calc(var(--base-scale) * 0.4375);
+        --c-x: calc(var(--base-scale) * -0.0625);
+        --c-y: calc(var(--base-scale) * -0);
+        --c-z: calc(var(--base-scale) * 0.6875);
         --texture-image: var(--texture-0);
         --texture-a-s: 0.93725586;
         --texture-a-t: 0.39086914;
@@ -314,15 +315,15 @@
         --texture-c-t: 0.56225586;
         "></div>
         <div class="rect opaque" style="
-        --a-x: -31.25;
-        --a-y: -68.75;
-        --a-z: 43.75;
-        --b-x: -31.25;
-        --b-y: -68.75;
-        --b-z: 68.75;
-        --c-x: -31.25;
-        --c-y: -0;
-        --c-z: 43.75;
+        --a-x: calc(var(--base-scale) * -0.3125);
+        --a-y: calc(var(--base-scale) * -0.6875);
+        --a-z: calc(var(--base-scale) * 0.4375);
+        --b-x: calc(var(--base-scale) * -0.3125);
+        --b-y: calc(var(--base-scale) * -0.6875);
+        --b-z: calc(var(--base-scale) * 0.6875);
+        --c-x: calc(var(--base-scale) * -0.3125);
+        --c-y: calc(var(--base-scale) * -0);
+        --c-z: calc(var(--base-scale) * 0.4375);
         --texture-image: var(--texture-0);
         --texture-a-s: 0.81225586;
         --texture-a-t: 0.39086914;
@@ -332,15 +333,15 @@
         --texture-c-t: 0.56225586;
         "></div>
         <div class="rect opaque" style="
-        --a-x: -31.25;
-        --a-y: -68.75;
-        --a-z: 43.75;
-        --b-x: -6.25;
-        --b-y: -68.75;
-        --b-z: 43.75;
-        --c-x: -31.25;
-        --c-y: -68.75;
-        --c-z: 68.75;
+        --a-x: calc(var(--base-scale) * -0.3125);
+        --a-y: calc(var(--base-scale) * -0.6875);
+        --a-z: calc(var(--base-scale) * 0.4375);
+        --b-x: calc(var(--base-scale) * -0.0625);
+        --b-y: calc(var(--base-scale) * -0.6875);
+        --b-z: calc(var(--base-scale) * 0.4375);
+        --c-x: calc(var(--base-scale) * -0.3125);
+        --c-y: calc(var(--base-scale) * -0.6875);
+        --c-z: calc(var(--base-scale) * 0.6875);
         --texture-image: var(--texture-0);
         --texture-a-s: 0.81274414;
         --texture-a-t: 0.39038086;
@@ -350,15 +351,15 @@
         --texture-c-t: 0.32836914;
         "></div>
         <div class="rect opaque" style="
-        --a-x: -31.25;
-        --a-y: -0;
-        --a-z: 68.75;
-        --b-x: -6.25;
-        --b-y: -0;
-        --b-z: 68.75;
-        --c-x: -31.25;
-        --c-y: -0;
-        --c-z: 43.75;
+        --a-x: calc(var(--base-scale) * -0.3125);
+        --a-y: calc(var(--base-scale) * -0);
+        --a-z: calc(var(--base-scale) * 0.6875);
+        --b-x: calc(var(--base-scale) * -0.0625);
+        --b-y: calc(var(--base-scale) * -0);
+        --b-z: calc(var(--base-scale) * 0.6875);
+        --c-x: calc(var(--base-scale) * -0.3125);
+        --c-y: calc(var(--base-scale) * -0);
+        --c-z: calc(var(--base-scale) * 0.4375);
         --texture-image: var(--texture-0);
         --texture-a-s: 0.87524414;
         --texture-a-t: 0.32836914;
@@ -368,15 +369,15 @@
         --texture-c-t: 0.39038086;
         "></div>
         <div class="rect opaque" style="
-        --a-x: -31.25;
-        --a-y: -68.75;
-        --a-z: 68.75;
-        --b-x: -6.25;
-        --b-y: -68.75;
-        --b-z: 68.75;
-        --c-x: -31.25;
-        --c-y: -0;
-        --c-z: 68.75;
+        --a-x: calc(var(--base-scale) * -0.3125);
+        --a-y: calc(var(--base-scale) * -0.6875);
+        --a-z: calc(var(--base-scale) * 0.6875);
+        --b-x: calc(var(--base-scale) * -0.0625);
+        --b-y: calc(var(--base-scale) * -0.6875);
+        --b-z: calc(var(--base-scale) * 0.6875);
+        --c-x: calc(var(--base-scale) * -0.3125);
+        --c-y: calc(var(--base-scale) * -0);
+        --c-z: calc(var(--base-scale) * 0.6875);
         --texture-image: var(--texture-0);
         --texture-a-s: 0.99975586;
         --texture-a-t: 0.39086914;
@@ -386,15 +387,15 @@
         --texture-c-t: 0.56225586;
         "></div>
         <div class="rect opaque" style="
-        --a-x: -6.25;
-        --a-y: -68.75;
-        --a-z: 43.75;
-        --b-x: -31.25;
-        --b-y: -68.75;
-        --b-z: 43.75;
-        --c-x: -6.25;
-        --c-y: -0;
-        --c-z: 43.75;
+        --a-x: calc(var(--base-scale) * -0.0625);
+        --a-y: calc(var(--base-scale) * -0.6875);
+        --a-z: calc(var(--base-scale) * 0.4375);
+        --b-x: calc(var(--base-scale) * -0.3125);
+        --b-y: calc(var(--base-scale) * -0.6875);
+        --b-z: calc(var(--base-scale) * 0.4375);
+        --c-x: calc(var(--base-scale) * -0.0625);
+        --c-y: calc(var(--base-scale) * -0);
+        --c-z: calc(var(--base-scale) * 0.4375);
         --texture-image: var(--texture-0);
         --texture-a-s: 0.87475586;
         --texture-a-t: 0.39086914;
@@ -408,9 +409,9 @@
     <div class="node LegBR" style="
       transform:
         translate3d(
-          calc(0.1875 * 100 * 1px + var(--node-translate-x)),
-          calc(-0.125 * 100 * -1px + var(--node-translate-y)),
-          calc(0 * 100 * 1px + var(--node-translate-z))
+          calc(0.1875 * var(--base-scale) * 1px + var(--node-translate-x)),
+          calc(-0.125 * var(--base-scale) * -1px + var(--node-translate-y)),
+          calc(0 * var(--base-scale) * 1px + var(--node-translate-z))
         )
         rotate3d(0, -0, 0, calc(-2 * acos(1)))
         rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
@@ -419,24 +420,24 @@
       <div class="node LegBR" style="
         transform:
           translate3d(
-            calc(-0.1875 * 100 * 1px + var(--node-translate-x)),
-            calc(-0.6875 * 100 * -1px + var(--node-translate-y)),
-            calc(-0.5625 * 100 * 1px + var(--node-translate-z))
+            calc(-0.1875 * var(--base-scale) * 1px + var(--node-translate-x)),
+            calc(-0.6875 * var(--base-scale) * -1px + var(--node-translate-y)),
+            calc(-0.5625 * var(--base-scale) * 1px + var(--node-translate-z))
           )
           rotate3d(0, -0, 0, calc(-2 * acos(1)))
           rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
           scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
       ">
         <div class="rect opaque" style="
-        --a-x: 31.25;
-        --a-y: -68.75;
-        --a-z: 68.75;
-        --b-x: 31.25;
-        --b-y: -68.75;
-        --b-z: 43.75;
-        --c-x: 31.25;
-        --c-y: -0;
-        --c-z: 68.75;
+        --a-x: calc(var(--base-scale) * 0.3125);
+        --a-y: calc(var(--base-scale) * -0.6875);
+        --a-z: calc(var(--base-scale) * 0.6875);
+        --b-x: calc(var(--base-scale) * 0.3125);
+        --b-y: calc(var(--base-scale) * -0.6875);
+        --b-z: calc(var(--base-scale) * 0.4375);
+        --c-x: calc(var(--base-scale) * 0.3125);
+        --c-y: calc(var(--base-scale) * -0);
+        --c-z: calc(var(--base-scale) * 0.6875);
         --texture-image: var(--texture-0);
         --texture-a-s: 0.75024414;
         --texture-a-t: 0.39086914;
@@ -446,15 +447,15 @@
         --texture-c-t: 0.56225586;
         "></div>
         <div class="rect opaque" style="
-        --a-x: 6.25;
-        --a-y: -68.75;
-        --a-z: 43.75;
-        --b-x: 6.25;
-        --b-y: -68.75;
-        --b-z: 68.75;
-        --c-x: 6.25;
-        --c-y: -0;
-        --c-z: 43.75;
+        --a-x: calc(var(--base-scale) * 0.0625);
+        --a-y: calc(var(--base-scale) * -0.6875);
+        --a-z: calc(var(--base-scale) * 0.4375);
+        --b-x: calc(var(--base-scale) * 0.0625);
+        --b-y: calc(var(--base-scale) * -0.6875);
+        --b-z: calc(var(--base-scale) * 0.6875);
+        --c-x: calc(var(--base-scale) * 0.0625);
+        --c-y: calc(var(--base-scale) * -0);
+        --c-z: calc(var(--base-scale) * 0.4375);
         --texture-image: var(--texture-0);
         --texture-a-s: 0.87524414;
         --texture-a-t: 0.39086914;
@@ -464,15 +465,15 @@
         --texture-c-t: 0.56225586;
         "></div>
         <div class="rect opaque" style="
-        --a-x: 6.25;
-        --a-y: -68.75;
-        --a-z: 43.75;
-        --b-x: 31.25;
-        --b-y: -68.75;
-        --b-z: 43.75;
-        --c-x: 6.25;
-        --c-y: -68.75;
-        --c-z: 68.75;
+        --a-x: calc(var(--base-scale) * 0.0625);
+        --a-y: calc(var(--base-scale) * -0.6875);
+        --a-z: calc(var(--base-scale) * 0.4375);
+        --b-x: calc(var(--base-scale) * 0.3125);
+        --b-y: calc(var(--base-scale) * -0.6875);
+        --b-z: calc(var(--base-scale) * 0.4375);
+        --c-x: calc(var(--base-scale) * 0.0625);
+        --c-y: calc(var(--base-scale) * -0.6875);
+        --c-z: calc(var(--base-scale) * 0.6875);
         --texture-image: var(--texture-0);
         --texture-a-s: 0.87475586;
         --texture-a-t: 0.39038086;
@@ -482,15 +483,15 @@
         --texture-c-t: 0.32836914;
         "></div>
         <div class="rect opaque" style="
-        --a-x: 6.25;
-        --a-y: -0;
-        --a-z: 68.75;
-        --b-x: 31.25;
-        --b-y: -0;
-        --b-z: 68.75;
-        --c-x: 6.25;
-        --c-y: -0;
-        --c-z: 43.75;
+        --a-x: calc(var(--base-scale) * 0.0625);
+        --a-y: calc(var(--base-scale) * -0);
+        --a-z: calc(var(--base-scale) * 0.6875);
+        --b-x: calc(var(--base-scale) * 0.3125);
+        --b-y: calc(var(--base-scale) * -0);
+        --b-z: calc(var(--base-scale) * 0.6875);
+        --c-x: calc(var(--base-scale) * 0.0625);
+        --c-y: calc(var(--base-scale) * -0);
+        --c-z: calc(var(--base-scale) * 0.4375);
         --texture-image: var(--texture-0);
         --texture-a-s: 0.93725586;
         --texture-a-t: 0.32836914;
@@ -500,15 +501,15 @@
         --texture-c-t: 0.39038086;
         "></div>
         <div class="rect opaque" style="
-        --a-x: 6.25;
-        --a-y: -68.75;
-        --a-z: 68.75;
-        --b-x: 31.25;
-        --b-y: -68.75;
-        --b-z: 68.75;
-        --c-x: 6.25;
-        --c-y: -0;
-        --c-z: 68.75;
+        --a-x: calc(var(--base-scale) * 0.0625);
+        --a-y: calc(var(--base-scale) * -0.6875);
+        --a-z: calc(var(--base-scale) * 0.6875);
+        --b-x: calc(var(--base-scale) * 0.3125);
+        --b-y: calc(var(--base-scale) * -0.6875);
+        --b-z: calc(var(--base-scale) * 0.6875);
+        --c-x: calc(var(--base-scale) * 0.0625);
+        --c-y: calc(var(--base-scale) * -0);
+        --c-z: calc(var(--base-scale) * 0.6875);
         --texture-image: var(--texture-0);
         --texture-a-s: 0.93774414;
         --texture-a-t: 0.39086914;
@@ -518,15 +519,15 @@
         --texture-c-t: 0.56225586;
         "></div>
         <div class="rect opaque" style="
-        --a-x: 31.25;
-        --a-y: -68.75;
-        --a-z: 43.75;
-        --b-x: 6.25;
-        --b-y: -68.75;
-        --b-z: 43.75;
-        --c-x: 31.25;
-        --c-y: -0;
-        --c-z: 43.75;
+        --a-x: calc(var(--base-scale) * 0.3125);
+        --a-y: calc(var(--base-scale) * -0.6875);
+        --a-z: calc(var(--base-scale) * 0.4375);
+        --b-x: calc(var(--base-scale) * 0.0625);
+        --b-y: calc(var(--base-scale) * -0.6875);
+        --b-z: calc(var(--base-scale) * 0.4375);
+        --c-x: calc(var(--base-scale) * 0.3125);
+        --c-y: calc(var(--base-scale) * -0);
+        --c-z: calc(var(--base-scale) * 0.4375);
         --texture-image: var(--texture-0);
         --texture-a-s: 0.81274414;
         --texture-a-t: 0.39086914;
@@ -540,9 +541,9 @@
     <div class="node LegFL" style="
       transform:
         translate3d(
-          calc(-0.1875 * 100 * 1px + var(--node-translate-x)),
-          calc(-0.125 * 100 * -1px + var(--node-translate-y)),
-          calc(-1.125 * 100 * 1px + var(--node-translate-z))
+          calc(-0.1875 * var(--base-scale) * 1px + var(--node-translate-x)),
+          calc(-0.125 * var(--base-scale) * -1px + var(--node-translate-y)),
+          calc(-1.125 * var(--base-scale) * 1px + var(--node-translate-z))
         )
         rotate3d(0, -0, 0, calc(-2 * acos(1)))
         rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
@@ -551,24 +552,24 @@
       <div class="node LegFL" style="
         transform:
           translate3d(
-            calc(0.1875 * 100 * 1px + var(--node-translate-x)),
-            calc(-0.6875 * 100 * -1px + var(--node-translate-y)),
-            calc(0.5625 * 100 * 1px + var(--node-translate-z))
+            calc(0.1875 * var(--base-scale) * 1px + var(--node-translate-x)),
+            calc(-0.6875 * var(--base-scale) * -1px + var(--node-translate-y)),
+            calc(0.5625 * var(--base-scale) * 1px + var(--node-translate-z))
           )
           rotate3d(0, -0, 0, calc(-2 * acos(1)))
           rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
           scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
       ">
         <div class="rect opaque" style="
-        --a-x: -6.25;
-        --a-y: -68.75;
-        --a-z: -43.75;
-        --b-x: -6.25;
-        --b-y: -68.75;
-        --b-z: -68.75;
-        --c-x: -6.25;
-        --c-y: -0;
-        --c-z: -43.75;
+        --a-x: calc(var(--base-scale) * -0.0625);
+        --a-y: calc(var(--base-scale) * -0.6875);
+        --a-z: calc(var(--base-scale) * -0.4375);
+        --b-x: calc(var(--base-scale) * -0.0625);
+        --b-y: calc(var(--base-scale) * -0.6875);
+        --b-z: calc(var(--base-scale) * -0.6875);
+        --c-x: calc(var(--base-scale) * -0.0625);
+        --c-y: calc(var(--base-scale) * -0);
+        --c-z: calc(var(--base-scale) * -0.4375);
         --texture-image: var(--texture-0);
         --texture-a-s: 0.93725586;
         --texture-a-t: 0.39086914;
@@ -578,15 +579,15 @@
         --texture-c-t: 0.56225586;
         "></div>
         <div class="rect opaque" style="
-        --a-x: -31.25;
-        --a-y: -68.75;
-        --a-z: -68.75;
-        --b-x: -31.25;
-        --b-y: -68.75;
-        --b-z: -43.75;
-        --c-x: -31.25;
-        --c-y: -0;
-        --c-z: -68.75;
+        --a-x: calc(var(--base-scale) * -0.3125);
+        --a-y: calc(var(--base-scale) * -0.6875);
+        --a-z: calc(var(--base-scale) * -0.6875);
+        --b-x: calc(var(--base-scale) * -0.3125);
+        --b-y: calc(var(--base-scale) * -0.6875);
+        --b-z: calc(var(--base-scale) * -0.4375);
+        --c-x: calc(var(--base-scale) * -0.3125);
+        --c-y: calc(var(--base-scale) * -0);
+        --c-z: calc(var(--base-scale) * -0.6875);
         --texture-image: var(--texture-0);
         --texture-a-s: 0.81225586;
         --texture-a-t: 0.39086914;
@@ -596,15 +597,15 @@
         --texture-c-t: 0.56225586;
         "></div>
         <div class="rect opaque" style="
-        --a-x: -31.25;
-        --a-y: -68.75;
-        --a-z: -68.75;
-        --b-x: -6.25;
-        --b-y: -68.75;
-        --b-z: -68.75;
-        --c-x: -31.25;
-        --c-y: -68.75;
-        --c-z: -43.75;
+        --a-x: calc(var(--base-scale) * -0.3125);
+        --a-y: calc(var(--base-scale) * -0.6875);
+        --a-z: calc(var(--base-scale) * -0.6875);
+        --b-x: calc(var(--base-scale) * -0.0625);
+        --b-y: calc(var(--base-scale) * -0.6875);
+        --b-z: calc(var(--base-scale) * -0.6875);
+        --c-x: calc(var(--base-scale) * -0.3125);
+        --c-y: calc(var(--base-scale) * -0.6875);
+        --c-z: calc(var(--base-scale) * -0.4375);
         --texture-image: var(--texture-0);
         --texture-a-s: 0.81274414;
         --texture-a-t: 0.39038086;
@@ -614,15 +615,15 @@
         --texture-c-t: 0.32836914;
         "></div>
         <div class="rect opaque" style="
-        --a-x: -31.25;
-        --a-y: -0;
-        --a-z: -43.75;
-        --b-x: -6.25;
-        --b-y: -0;
-        --b-z: -43.75;
-        --c-x: -31.25;
-        --c-y: -0;
-        --c-z: -68.75;
+        --a-x: calc(var(--base-scale) * -0.3125);
+        --a-y: calc(var(--base-scale) * -0);
+        --a-z: calc(var(--base-scale) * -0.4375);
+        --b-x: calc(var(--base-scale) * -0.0625);
+        --b-y: calc(var(--base-scale) * -0);
+        --b-z: calc(var(--base-scale) * -0.4375);
+        --c-x: calc(var(--base-scale) * -0.3125);
+        --c-y: calc(var(--base-scale) * -0);
+        --c-z: calc(var(--base-scale) * -0.6875);
         --texture-image: var(--texture-0);
         --texture-a-s: 0.87524414;
         --texture-a-t: 0.32836914;
@@ -632,15 +633,15 @@
         --texture-c-t: 0.39038086;
         "></div>
         <div class="rect opaque" style="
-        --a-x: -31.25;
-        --a-y: -68.75;
-        --a-z: -43.75;
-        --b-x: -6.25;
-        --b-y: -68.75;
-        --b-z: -43.75;
-        --c-x: -31.25;
-        --c-y: -0;
-        --c-z: -43.75;
+        --a-x: calc(var(--base-scale) * -0.3125);
+        --a-y: calc(var(--base-scale) * -0.6875);
+        --a-z: calc(var(--base-scale) * -0.4375);
+        --b-x: calc(var(--base-scale) * -0.0625);
+        --b-y: calc(var(--base-scale) * -0.6875);
+        --b-z: calc(var(--base-scale) * -0.4375);
+        --c-x: calc(var(--base-scale) * -0.3125);
+        --c-y: calc(var(--base-scale) * -0);
+        --c-z: calc(var(--base-scale) * -0.4375);
         --texture-image: var(--texture-0);
         --texture-a-s: 0.99975586;
         --texture-a-t: 0.39086914;
@@ -650,15 +651,15 @@
         --texture-c-t: 0.56225586;
         "></div>
         <div class="rect opaque" style="
-        --a-x: -6.25;
-        --a-y: -68.75;
-        --a-z: -68.75;
-        --b-x: -31.25;
-        --b-y: -68.75;
-        --b-z: -68.75;
-        --c-x: -6.25;
-        --c-y: -0;
-        --c-z: -68.75;
+        --a-x: calc(var(--base-scale) * -0.0625);
+        --a-y: calc(var(--base-scale) * -0.6875);
+        --a-z: calc(var(--base-scale) * -0.6875);
+        --b-x: calc(var(--base-scale) * -0.3125);
+        --b-y: calc(var(--base-scale) * -0.6875);
+        --b-z: calc(var(--base-scale) * -0.6875);
+        --c-x: calc(var(--base-scale) * -0.0625);
+        --c-y: calc(var(--base-scale) * -0);
+        --c-z: calc(var(--base-scale) * -0.6875);
         --texture-image: var(--texture-0);
         --texture-a-s: 0.87475586;
         --texture-a-t: 0.39086914;
@@ -672,9 +673,9 @@
     <div class="node LegFR" style="
       transform:
         translate3d(
-          calc(0.1875 * 100 * 1px + var(--node-translate-x)),
-          calc(-0.125 * 100 * -1px + var(--node-translate-y)),
-          calc(-1.125 * 100 * 1px + var(--node-translate-z))
+          calc(0.1875 * var(--base-scale) * 1px + var(--node-translate-x)),
+          calc(-0.125 * var(--base-scale) * -1px + var(--node-translate-y)),
+          calc(-1.125 * var(--base-scale) * 1px + var(--node-translate-z))
         )
         rotate3d(0, -0, 0, calc(-2 * acos(1)))
         rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
@@ -683,24 +684,24 @@
       <div class="node LegFR" style="
         transform:
           translate3d(
-            calc(-0.1875 * 100 * 1px + var(--node-translate-x)),
-            calc(-0.6875 * 100 * -1px + var(--node-translate-y)),
-            calc(0.5625 * 100 * 1px + var(--node-translate-z))
+            calc(-0.1875 * var(--base-scale) * 1px + var(--node-translate-x)),
+            calc(-0.6875 * var(--base-scale) * -1px + var(--node-translate-y)),
+            calc(0.5625 * var(--base-scale) * 1px + var(--node-translate-z))
           )
           rotate3d(0, -0, 0, calc(-2 * acos(1)))
           rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
           scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
       ">
         <div class="rect opaque" style="
-        --a-x: 31.25;
-        --a-y: -68.75;
-        --a-z: -43.75;
-        --b-x: 31.25;
-        --b-y: -68.75;
-        --b-z: -68.75;
-        --c-x: 31.25;
-        --c-y: -0;
-        --c-z: -43.75;
+        --a-x: calc(var(--base-scale) * 0.3125);
+        --a-y: calc(var(--base-scale) * -0.6875);
+        --a-z: calc(var(--base-scale) * -0.4375);
+        --b-x: calc(var(--base-scale) * 0.3125);
+        --b-y: calc(var(--base-scale) * -0.6875);
+        --b-z: calc(var(--base-scale) * -0.6875);
+        --c-x: calc(var(--base-scale) * 0.3125);
+        --c-y: calc(var(--base-scale) * -0);
+        --c-z: calc(var(--base-scale) * -0.4375);
         --texture-image: var(--texture-0);
         --texture-a-s: 0.75024414;
         --texture-a-t: 0.39086914;
@@ -710,15 +711,15 @@
         --texture-c-t: 0.56225586;
         "></div>
         <div class="rect opaque" style="
-        --a-x: 6.25;
-        --a-y: -68.75;
-        --a-z: -68.75;
-        --b-x: 6.25;
-        --b-y: -68.75;
-        --b-z: -43.75;
-        --c-x: 6.25;
-        --c-y: -0;
-        --c-z: -68.75;
+        --a-x: calc(var(--base-scale) * 0.0625);
+        --a-y: calc(var(--base-scale) * -0.6875);
+        --a-z: calc(var(--base-scale) * -0.6875);
+        --b-x: calc(var(--base-scale) * 0.0625);
+        --b-y: calc(var(--base-scale) * -0.6875);
+        --b-z: calc(var(--base-scale) * -0.4375);
+        --c-x: calc(var(--base-scale) * 0.0625);
+        --c-y: calc(var(--base-scale) * -0);
+        --c-z: calc(var(--base-scale) * -0.6875);
         --texture-image: var(--texture-0);
         --texture-a-s: 0.87524414;
         --texture-a-t: 0.39086914;
@@ -728,15 +729,15 @@
         --texture-c-t: 0.56225586;
         "></div>
         <div class="rect opaque" style="
-        --a-x: 6.25;
-        --a-y: -68.75;
-        --a-z: -68.75;
-        --b-x: 31.25;
-        --b-y: -68.75;
-        --b-z: -68.75;
-        --c-x: 6.25;
-        --c-y: -68.75;
-        --c-z: -43.75;
+        --a-x: calc(var(--base-scale) * 0.0625);
+        --a-y: calc(var(--base-scale) * -0.6875);
+        --a-z: calc(var(--base-scale) * -0.6875);
+        --b-x: calc(var(--base-scale) * 0.3125);
+        --b-y: calc(var(--base-scale) * -0.6875);
+        --b-z: calc(var(--base-scale) * -0.6875);
+        --c-x: calc(var(--base-scale) * 0.0625);
+        --c-y: calc(var(--base-scale) * -0.6875);
+        --c-z: calc(var(--base-scale) * -0.4375);
         --texture-image: var(--texture-0);
         --texture-a-s: 0.87475586;
         --texture-a-t: 0.39038086;
@@ -746,15 +747,15 @@
         --texture-c-t: 0.32836914;
         "></div>
         <div class="rect opaque" style="
-        --a-x: 6.25;
-        --a-y: -0;
-        --a-z: -43.75;
-        --b-x: 31.25;
-        --b-y: -0;
-        --b-z: -43.75;
-        --c-x: 6.25;
-        --c-y: -0;
-        --c-z: -68.75;
+        --a-x: calc(var(--base-scale) * 0.0625);
+        --a-y: calc(var(--base-scale) * -0);
+        --a-z: calc(var(--base-scale) * -0.4375);
+        --b-x: calc(var(--base-scale) * 0.3125);
+        --b-y: calc(var(--base-scale) * -0);
+        --b-z: calc(var(--base-scale) * -0.4375);
+        --c-x: calc(var(--base-scale) * 0.0625);
+        --c-y: calc(var(--base-scale) * -0);
+        --c-z: calc(var(--base-scale) * -0.6875);
         --texture-image: var(--texture-0);
         --texture-a-s: 0.93725586;
         --texture-a-t: 0.32836914;
@@ -764,15 +765,15 @@
         --texture-c-t: 0.39038086;
         "></div>
         <div class="rect opaque" style="
-        --a-x: 6.25;
-        --a-y: -68.75;
-        --a-z: -43.75;
-        --b-x: 31.25;
-        --b-y: -68.75;
-        --b-z: -43.75;
-        --c-x: 6.25;
-        --c-y: -0;
-        --c-z: -43.75;
+        --a-x: calc(var(--base-scale) * 0.0625);
+        --a-y: calc(var(--base-scale) * -0.6875);
+        --a-z: calc(var(--base-scale) * -0.4375);
+        --b-x: calc(var(--base-scale) * 0.3125);
+        --b-y: calc(var(--base-scale) * -0.6875);
+        --b-z: calc(var(--base-scale) * -0.4375);
+        --c-x: calc(var(--base-scale) * 0.0625);
+        --c-y: calc(var(--base-scale) * -0);
+        --c-z: calc(var(--base-scale) * -0.4375);
         --texture-image: var(--texture-0);
         --texture-a-s: 0.93774414;
         --texture-a-t: 0.39086914;
@@ -782,15 +783,15 @@
         --texture-c-t: 0.56225586;
         "></div>
         <div class="rect opaque" style="
-        --a-x: 31.25;
-        --a-y: -68.75;
-        --a-z: -68.75;
-        --b-x: 6.25;
-        --b-y: -68.75;
-        --b-z: -68.75;
-        --c-x: 31.25;
-        --c-y: -0;
-        --c-z: -68.75;
+        --a-x: calc(var(--base-scale) * 0.3125);
+        --a-y: calc(var(--base-scale) * -0.6875);
+        --a-z: calc(var(--base-scale) * -0.6875);
+        --b-x: calc(var(--base-scale) * 0.0625);
+        --b-y: calc(var(--base-scale) * -0.6875);
+        --b-z: calc(var(--base-scale) * -0.6875);
+        --c-x: calc(var(--base-scale) * 0.3125);
+        --c-y: calc(var(--base-scale) * -0);
+        --c-z: calc(var(--base-scale) * -0.6875);
         --texture-image: var(--texture-0);
         --texture-a-s: 0.81274414;
         --texture-a-t: 0.39086914;
@@ -804,9 +805,9 @@
     <div class="node Neck" style="
       transform:
         translate3d(
-          calc(0 * 100 * 1px + var(--node-translate-x)),
-          calc(0.25 * 100 * -1px + var(--node-translate-y)),
-          calc(-1.0625 * 100 * 1px + var(--node-translate-z))
+          calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
+          calc(0.25 * var(--base-scale) * -1px + var(--node-translate-y)),
+          calc(-1.0625 * var(--base-scale) * 1px + var(--node-translate-z))
         )
         rotate3d(-0.25881904, -0, 0, calc(-2 * acos(0.9659258)))
         rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
@@ -815,24 +816,24 @@
       <div class="node Neck" style="
         transform:
           translate3d(
-            calc(0 * 100 * 1px + var(--node-translate-x)),
-            calc(-1.0625 * 100 * -1px + var(--node-translate-y)),
-            calc(0.5 * 100 * 1px + var(--node-translate-z))
+            calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
+            calc(-1.0625 * var(--base-scale) * -1px + var(--node-translate-y)),
+            calc(0.5 * var(--base-scale) * 1px + var(--node-translate-z))
           )
           rotate3d(0, -0, 0, calc(-2 * acos(1)))
           rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
           scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
       ">
         <div class="rect opaque" style="
-        --a-x: 12.5;
-        --a-y: -175;
-        --a-z: -25;
-        --b-x: 12.5;
-        --b-y: -175;
-        --b-z: -68.75;
-        --c-x: 12.5;
-        --c-y: -100;
-        --c-z: -25;
+        --a-x: calc(var(--base-scale) * 0.125);
+        --a-y: calc(var(--base-scale) * -1.75);
+        --a-z: calc(var(--base-scale) * -0.25);
+        --b-x: calc(var(--base-scale) * 0.125);
+        --b-y: calc(var(--base-scale) * -1.75);
+        --b-z: calc(var(--base-scale) * -0.6875);
+        --c-x: calc(var(--base-scale) * 0.125);
+        --c-y: calc(var(--base-scale) * -1);
+        --c-z: calc(var(--base-scale) * -0.25);
         --texture-image: var(--texture-0);
         --texture-a-s: 0.00024414063;
         --texture-a-t: 0.65649414;
@@ -842,15 +843,15 @@
         --texture-c-t: 0.84350586;
         "></div>
         <div class="rect opaque" style="
-        --a-x: -12.5;
-        --a-y: -175;
-        --a-z: -68.75;
-        --b-x: -12.5;
-        --b-y: -175;
-        --b-z: -25;
-        --c-x: -12.5;
-        --c-y: -100;
-        --c-z: -68.75;
+        --a-x: calc(var(--base-scale) * -0.125);
+        --a-y: calc(var(--base-scale) * -1.75);
+        --a-z: calc(var(--base-scale) * -0.6875);
+        --b-x: calc(var(--base-scale) * -0.125);
+        --b-y: calc(var(--base-scale) * -1.75);
+        --b-z: calc(var(--base-scale) * -0.25);
+        --c-x: calc(var(--base-scale) * -0.125);
+        --c-y: calc(var(--base-scale) * -1);
+        --c-z: calc(var(--base-scale) * -0.6875);
         --texture-image: var(--texture-0);
         --texture-a-s: 0.17211914;
         --texture-a-t: 0.65649414;
@@ -860,15 +861,15 @@
         --texture-c-t: 0.84350586;
         "></div>
         <div class="rect opaque" style="
-        --a-x: -12.5;
-        --a-y: -175;
-        --a-z: -68.75;
-        --b-x: 12.5;
-        --b-y: -175;
-        --b-z: -68.75;
-        --c-x: -12.5;
-        --c-y: -175;
-        --c-z: -25;
+        --a-x: calc(var(--base-scale) * -0.125);
+        --a-y: calc(var(--base-scale) * -1.75);
+        --a-z: calc(var(--base-scale) * -0.6875);
+        --b-x: calc(var(--base-scale) * 0.125);
+        --b-y: calc(var(--base-scale) * -1.75);
+        --b-z: calc(var(--base-scale) * -0.6875);
+        --c-x: calc(var(--base-scale) * -0.125);
+        --c-y: calc(var(--base-scale) * -1.75);
+        --c-z: calc(var(--base-scale) * -0.25);
         --texture-image: var(--texture-0);
         --texture-a-s: 0.17163086;
         --texture-a-t: 0.65600586;
@@ -878,15 +879,15 @@
         --texture-c-t: 0.54711914;
         "></div>
         <div class="rect opaque" style="
-        --a-x: -12.5;
-        --a-y: -100;
-        --a-z: -25;
-        --b-x: 12.5;
-        --b-y: -100;
-        --b-z: -25;
-        --c-x: -12.5;
-        --c-y: -100;
-        --c-z: -68.75;
+        --a-x: calc(var(--base-scale) * -0.125);
+        --a-y: calc(var(--base-scale) * -1);
+        --a-z: calc(var(--base-scale) * -0.25);
+        --b-x: calc(var(--base-scale) * 0.125);
+        --b-y: calc(var(--base-scale) * -1);
+        --b-z: calc(var(--base-scale) * -0.25);
+        --c-x: calc(var(--base-scale) * -0.125);
+        --c-y: calc(var(--base-scale) * -1);
+        --c-z: calc(var(--base-scale) * -0.6875);
         --texture-image: var(--texture-0);
         --texture-a-s: 0.23413086;
         --texture-a-t: 0.54711914;
@@ -896,15 +897,15 @@
         --texture-c-t: 0.65600586;
         "></div>
         <div class="rect opaque" style="
-        --a-x: -12.5;
-        --a-y: -175;
-        --a-z: -25;
-        --b-x: 12.5;
-        --b-y: -175;
-        --b-z: -25;
-        --c-x: -12.5;
-        --c-y: -100;
-        --c-z: -25;
+        --a-x: calc(var(--base-scale) * -0.125);
+        --a-y: calc(var(--base-scale) * -1.75);
+        --a-z: calc(var(--base-scale) * -0.25);
+        --b-x: calc(var(--base-scale) * 0.125);
+        --b-y: calc(var(--base-scale) * -1.75);
+        --b-z: calc(var(--base-scale) * -0.25);
+        --c-x: calc(var(--base-scale) * -0.125);
+        --c-y: calc(var(--base-scale) * -1);
+        --c-z: calc(var(--base-scale) * -0.25);
         --texture-image: var(--texture-0);
         --texture-a-s: 0.28149414;
         --texture-a-t: 0.65649414;
@@ -914,15 +915,15 @@
         --texture-c-t: 0.84350586;
         "></div>
         <div class="rect opaque" style="
-        --a-x: 12.5;
-        --a-y: -175;
-        --a-z: -68.75;
-        --b-x: -12.5;
-        --b-y: -175;
-        --b-z: -68.75;
-        --c-x: 12.5;
-        --c-y: -100;
-        --c-z: -68.75;
+        --a-x: calc(var(--base-scale) * 0.125);
+        --a-y: calc(var(--base-scale) * -1.75);
+        --a-z: calc(var(--base-scale) * -0.6875);
+        --b-x: calc(var(--base-scale) * -0.125);
+        --b-y: calc(var(--base-scale) * -1.75);
+        --b-z: calc(var(--base-scale) * -0.6875);
+        --c-x: calc(var(--base-scale) * 0.125);
+        --c-y: calc(var(--base-scale) * -1);
+        --c-z: calc(var(--base-scale) * -0.6875);
         --texture-image: var(--texture-0);
         --texture-a-s: 0.10961914;
         --texture-a-t: 0.65649414;
@@ -935,9 +936,9 @@
       <div class="node lead" style="
         transform:
           translate3d(
-            calc(0 * 100 * 1px + var(--node-translate-x)),
-            calc(0 * 100 * -1px + var(--node-translate-y)),
-            calc(0 * 100 * 1px + var(--node-translate-z))
+            calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
+            calc(0 * var(--base-scale) * -1px + var(--node-translate-y)),
+            calc(0 * var(--base-scale) * 1px + var(--node-translate-z))
           )
           rotate3d(0, -0, 0, calc(-2 * acos(1)))
           rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
@@ -946,9 +947,9 @@
         <div class="node lead" style="
           transform:
             translate3d(
-              calc(0 * 100 * 1px + var(--node-translate-x)),
-              calc(0 * 100 * -1px + var(--node-translate-y)),
-              calc(0 * 100 * 1px + var(--node-translate-z))
+              calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
+              calc(0 * var(--base-scale) * -1px + var(--node-translate-y)),
+              calc(0 * var(--base-scale) * 1px + var(--node-translate-z))
             )
             rotate3d(0, -0, 0, calc(-2 * acos(1)))
             rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
@@ -959,9 +960,9 @@
       <div class="node Head" style="
         transform:
           translate3d(
-            calc(0 * 100 * 1px + var(--node-translate-x)),
-            calc(0.6875 * 100 * -1px + var(--node-translate-y)),
-            calc(-0.1875 * 100 * 1px + var(--node-translate-z))
+            calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
+            calc(0.6875 * var(--base-scale) * -1px + var(--node-translate-y)),
+            calc(-0.1875 * var(--base-scale) * 1px + var(--node-translate-z))
           )
           rotate3d(0, -0, 0, calc(-2 * acos(1)))
           rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
@@ -970,24 +971,24 @@
         <div class="node Head" style="
           transform:
             translate3d(
-              calc(0 * 100 * 1px + var(--node-translate-x)),
-              calc(-1.75 * 100 * -1px + var(--node-translate-y)),
-              calc(0.6875 * 100 * 1px + var(--node-translate-z))
+              calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
+              calc(-1.75 * var(--base-scale) * -1px + var(--node-translate-y)),
+              calc(0.6875 * var(--base-scale) * 1px + var(--node-translate-z))
             )
             rotate3d(0, -0, 0, calc(-2 * acos(1)))
             rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
             scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
         ">
           <div class="rect opaque" style="
-          --a-x: 18.75;
-          --a-y: -206.25;
-          --a-z: -25;
-          --b-x: 18.75;
-          --b-y: -206.25;
-          --b-z: -68.75;
-          --c-x: 18.75;
-          --c-y: -175;
-          --c-z: -25;
+          --a-x: calc(var(--base-scale) * 0.1875);
+          --a-y: calc(var(--base-scale) * -2.0625);
+          --a-z: calc(var(--base-scale) * -0.25);
+          --b-x: calc(var(--base-scale) * 0.1875);
+          --b-y: calc(var(--base-scale) * -2.0625);
+          --b-z: calc(var(--base-scale) * -0.6875);
+          --c-x: calc(var(--base-scale) * 0.1875);
+          --c-y: calc(var(--base-scale) * -1.75);
+          --c-z: calc(var(--base-scale) * -0.25);
           --texture-image: var(--texture-0);
           --texture-a-s: 0.00024414063;
           --texture-a-t: 0.31274414;
@@ -997,15 +998,15 @@
           --texture-c-t: 0.39038086;
           "></div>
           <div class="rect opaque" style="
-          --a-x: -18.75;
-          --a-y: -206.25;
-          --a-z: -68.75;
-          --b-x: -18.75;
-          --b-y: -206.25;
-          --b-z: -25;
-          --c-x: -18.75;
-          --c-y: -175;
-          --c-z: -68.75;
+          --a-x: calc(var(--base-scale) * -0.1875);
+          --a-y: calc(var(--base-scale) * -2.0625);
+          --a-z: calc(var(--base-scale) * -0.6875);
+          --b-x: calc(var(--base-scale) * -0.1875);
+          --b-y: calc(var(--base-scale) * -2.0625);
+          --b-z: calc(var(--base-scale) * -0.25);
+          --c-x: calc(var(--base-scale) * -0.1875);
+          --c-y: calc(var(--base-scale) * -1.75);
+          --c-z: calc(var(--base-scale) * -0.6875);
           --texture-image: var(--texture-0);
           --texture-a-s: 0.20336914;
           --texture-a-t: 0.31274414;
@@ -1015,15 +1016,15 @@
           --texture-c-t: 0.39038086;
           "></div>
           <div class="rect opaque" style="
-          --a-x: -18.75;
-          --a-y: -206.25;
-          --a-z: -68.75;
-          --b-x: 18.75;
-          --b-y: -206.25;
-          --b-z: -68.75;
-          --c-x: -18.75;
-          --c-y: -206.25;
-          --c-z: -25;
+          --a-x: calc(var(--base-scale) * -0.1875);
+          --a-y: calc(var(--base-scale) * -2.0625);
+          --a-z: calc(var(--base-scale) * -0.6875);
+          --b-x: calc(var(--base-scale) * 0.1875);
+          --b-y: calc(var(--base-scale) * -2.0625);
+          --b-z: calc(var(--base-scale) * -0.6875);
+          --c-x: calc(var(--base-scale) * -0.1875);
+          --c-y: calc(var(--base-scale) * -2.0625);
+          --c-z: calc(var(--base-scale) * -0.25);
           --texture-image: var(--texture-0);
           --texture-a-s: 0.20288086;
           --texture-a-t: 0.31225586;
@@ -1033,15 +1034,15 @@
           --texture-c-t: 0.20336914;
           "></div>
           <div class="rect opaque" style="
-          --a-x: -18.75;
-          --a-y: -175;
-          --a-z: -25;
-          --b-x: 18.75;
-          --b-y: -175;
-          --b-z: -25;
-          --c-x: -18.75;
-          --c-y: -175;
-          --c-z: -68.75;
+          --a-x: calc(var(--base-scale) * -0.1875);
+          --a-y: calc(var(--base-scale) * -1.75);
+          --a-z: calc(var(--base-scale) * -0.25);
+          --b-x: calc(var(--base-scale) * 0.1875);
+          --b-y: calc(var(--base-scale) * -1.75);
+          --b-z: calc(var(--base-scale) * -0.25);
+          --c-x: calc(var(--base-scale) * -0.1875);
+          --c-y: calc(var(--base-scale) * -1.75);
+          --c-z: calc(var(--base-scale) * -0.6875);
           --texture-image: var(--texture-0);
           --texture-a-s: 0.29663086;
           --texture-a-t: 0.20336914;
@@ -1051,15 +1052,15 @@
           --texture-c-t: 0.31225586;
           "></div>
           <div class="rect opaque" style="
-          --a-x: -18.75;
-          --a-y: -206.25;
-          --a-z: -25;
-          --b-x: 18.75;
-          --b-y: -206.25;
-          --b-z: -25;
-          --c-x: -18.75;
-          --c-y: -175;
-          --c-z: -25;
+          --a-x: calc(var(--base-scale) * -0.1875);
+          --a-y: calc(var(--base-scale) * -2.0625);
+          --a-z: calc(var(--base-scale) * -0.25);
+          --b-x: calc(var(--base-scale) * 0.1875);
+          --b-y: calc(var(--base-scale) * -2.0625);
+          --b-z: calc(var(--base-scale) * -0.25);
+          --c-x: calc(var(--base-scale) * -0.1875);
+          --c-y: calc(var(--base-scale) * -1.75);
+          --c-z: calc(var(--base-scale) * -0.25);
           --texture-image: var(--texture-0);
           --texture-a-s: 0.31274414;
           --texture-a-t: 0.31274414;
@@ -1069,15 +1070,15 @@
           --texture-c-t: 0.39038086;
           "></div>
           <div class="rect opaque" style="
-          --a-x: 18.75;
-          --a-y: -206.25;
-          --a-z: -68.75;
-          --b-x: -18.75;
-          --b-y: -206.25;
-          --b-z: -68.75;
-          --c-x: 18.75;
-          --c-y: -175;
-          --c-z: -68.75;
+          --a-x: calc(var(--base-scale) * 0.1875);
+          --a-y: calc(var(--base-scale) * -2.0625);
+          --a-z: calc(var(--base-scale) * -0.6875);
+          --b-x: calc(var(--base-scale) * -0.1875);
+          --b-y: calc(var(--base-scale) * -2.0625);
+          --b-z: calc(var(--base-scale) * -0.6875);
+          --c-x: calc(var(--base-scale) * 0.1875);
+          --c-y: calc(var(--base-scale) * -1.75);
+          --c-z: calc(var(--base-scale) * -0.6875);
           --texture-image: var(--texture-0);
           --texture-a-s: 0.10961914;
           --texture-a-t: 0.31274414;
@@ -1090,9 +1091,9 @@
         <div class="node Muzzle" style="
           transform:
             translate3d(
-              calc(0 * 100 * 1px + var(--node-translate-x)),
-              calc(0 * 100 * -1px + var(--node-translate-y)),
-              calc(0 * 100 * 1px + var(--node-translate-z))
+              calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
+              calc(0 * var(--base-scale) * -1px + var(--node-translate-y)),
+              calc(0 * var(--base-scale) * 1px + var(--node-translate-z))
             )
             rotate3d(0, -0, 0, calc(-2 * acos(1)))
             rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
@@ -1101,24 +1102,24 @@
           <div class="node Muzzle" style="
             transform:
               translate3d(
-                calc(0 * 100 * 1px + var(--node-translate-x)),
-                calc(-1.75 * 100 * -1px + var(--node-translate-y)),
-                calc(0.6875 * 100 * 1px + var(--node-translate-z))
+                calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
+                calc(-1.75 * var(--base-scale) * -1px + var(--node-translate-y)),
+                calc(0.6875 * var(--base-scale) * 1px + var(--node-translate-z))
               )
               rotate3d(0, -0, 0, calc(-2 * acos(1)))
               rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
               scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
           ">
             <div class="rect opaque" style="
-            --a-x: 12.5;
-            --a-y: -206.25;
-            --a-z: -68.75;
-            --b-x: 12.5;
-            --b-y: -206.25;
-            --b-z: -100;
-            --c-x: 12.5;
-            --c-y: -175;
-            --c-z: -68.75;
+            --a-x: calc(var(--base-scale) * 0.125);
+            --a-y: calc(var(--base-scale) * -2.0625);
+            --a-z: calc(var(--base-scale) * -0.6875);
+            --b-x: calc(var(--base-scale) * 0.125);
+            --b-y: calc(var(--base-scale) * -2.0625);
+            --b-z: calc(var(--base-scale) * -1);
+            --c-x: calc(var(--base-scale) * 0.125);
+            --c-y: calc(var(--base-scale) * -1.75);
+            --c-z: calc(var(--base-scale) * -0.6875);
             --texture-image: var(--texture-0);
             --texture-a-s: 0.00024414063;
             --texture-a-t: 0.46899414;
@@ -1128,15 +1129,15 @@
             --texture-c-t: 0.54663086;
             "></div>
             <div class="rect opaque" style="
-            --a-x: -12.5;
-            --a-y: -206.25;
-            --a-z: -100;
-            --b-x: -12.5;
-            --b-y: -206.25;
-            --b-z: -68.75;
-            --c-x: -12.5;
-            --c-y: -175;
-            --c-z: -100;
+            --a-x: calc(var(--base-scale) * -0.125);
+            --a-y: calc(var(--base-scale) * -2.0625);
+            --a-z: calc(var(--base-scale) * -1);
+            --b-x: calc(var(--base-scale) * -0.125);
+            --b-y: calc(var(--base-scale) * -2.0625);
+            --b-z: calc(var(--base-scale) * -0.6875);
+            --c-x: calc(var(--base-scale) * -0.125);
+            --c-y: calc(var(--base-scale) * -1.75);
+            --c-z: calc(var(--base-scale) * -1);
             --texture-image: var(--texture-0);
             --texture-a-s: 0.14086914;
             --texture-a-t: 0.46899414;
@@ -1146,15 +1147,15 @@
             --texture-c-t: 0.54663086;
             "></div>
             <div class="rect opaque" style="
-            --a-x: -12.5;
-            --a-y: -206.25;
-            --a-z: -100;
-            --b-x: 12.5;
-            --b-y: -206.25;
-            --b-z: -100;
-            --c-x: -12.5;
-            --c-y: -206.25;
-            --c-z: -68.75;
+            --a-x: calc(var(--base-scale) * -0.125);
+            --a-y: calc(var(--base-scale) * -2.0625);
+            --a-z: calc(var(--base-scale) * -1);
+            --b-x: calc(var(--base-scale) * 0.125);
+            --b-y: calc(var(--base-scale) * -2.0625);
+            --b-z: calc(var(--base-scale) * -1);
+            --c-x: calc(var(--base-scale) * -0.125);
+            --c-y: calc(var(--base-scale) * -2.0625);
+            --c-z: calc(var(--base-scale) * -0.6875);
             --texture-image: var(--texture-0);
             --texture-a-s: 0.14038086;
             --texture-a-t: 0.46850586;
@@ -1164,15 +1165,15 @@
             --texture-c-t: 0.39086914;
             "></div>
             <div class="rect opaque" style="
-            --a-x: -12.5;
-            --a-y: -175;
-            --a-z: -68.75;
-            --b-x: 12.5;
-            --b-y: -175;
-            --b-z: -68.75;
-            --c-x: -12.5;
-            --c-y: -175;
-            --c-z: -100;
+            --a-x: calc(var(--base-scale) * -0.125);
+            --a-y: calc(var(--base-scale) * -1.75);
+            --a-z: calc(var(--base-scale) * -0.6875);
+            --b-x: calc(var(--base-scale) * 0.125);
+            --b-y: calc(var(--base-scale) * -1.75);
+            --b-z: calc(var(--base-scale) * -0.6875);
+            --c-x: calc(var(--base-scale) * -0.125);
+            --c-y: calc(var(--base-scale) * -1.75);
+            --c-z: calc(var(--base-scale) * -1);
             --texture-image: var(--texture-0);
             --texture-a-s: 0.20288086;
             --texture-a-t: 0.39086914;
@@ -1182,15 +1183,15 @@
             --texture-c-t: 0.46850586;
             "></div>
             <div class="rect opaque" style="
-            --a-x: -12.5;
-            --a-y: -206.25;
-            --a-z: -68.75;
-            --b-x: 12.5;
-            --b-y: -206.25;
-            --b-z: -68.75;
-            --c-x: -12.5;
-            --c-y: -175;
-            --c-z: -68.75;
+            --a-x: calc(var(--base-scale) * -0.125);
+            --a-y: calc(var(--base-scale) * -2.0625);
+            --a-z: calc(var(--base-scale) * -0.6875);
+            --b-x: calc(var(--base-scale) * 0.125);
+            --b-y: calc(var(--base-scale) * -2.0625);
+            --b-z: calc(var(--base-scale) * -0.6875);
+            --c-x: calc(var(--base-scale) * -0.125);
+            --c-y: calc(var(--base-scale) * -1.75);
+            --c-z: calc(var(--base-scale) * -0.6875);
             --texture-image: var(--texture-0);
             --texture-a-s: 0.21899414;
             --texture-a-t: 0.46899414;
@@ -1200,15 +1201,15 @@
             --texture-c-t: 0.54663086;
             "></div>
             <div class="rect opaque" style="
-            --a-x: 12.5;
-            --a-y: -206.25;
-            --a-z: -100;
-            --b-x: -12.5;
-            --b-y: -206.25;
-            --b-z: -100;
-            --c-x: 12.5;
-            --c-y: -175;
-            --c-z: -100;
+            --a-x: calc(var(--base-scale) * 0.125);
+            --a-y: calc(var(--base-scale) * -2.0625);
+            --a-z: calc(var(--base-scale) * -1);
+            --b-x: calc(var(--base-scale) * -0.125);
+            --b-y: calc(var(--base-scale) * -2.0625);
+            --b-z: calc(var(--base-scale) * -1);
+            --c-x: calc(var(--base-scale) * 0.125);
+            --c-y: calc(var(--base-scale) * -1.75);
+            --c-z: calc(var(--base-scale) * -1);
             --texture-image: var(--texture-0);
             --texture-a-s: 0.07836914;
             --texture-a-t: 0.46899414;
@@ -1222,9 +1223,9 @@
         <div class="node EarL" style="
           transform:
             translate3d(
-              calc(0 * 100 * 1px + var(--node-translate-x)),
-              calc(-0.6875 * 100 * -1px + var(--node-translate-y)),
-              calc(0.1875 * 100 * 1px + var(--node-translate-z))
+              calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
+              calc(-0.6875 * var(--base-scale) * -1px + var(--node-translate-y)),
+              calc(0.1875 * var(--base-scale) * 1px + var(--node-translate-z))
             )
             rotate3d(0, -0, 0.043619387, calc(-2 * acos(0.99904823)))
             rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
@@ -1233,24 +1234,24 @@
           <div class="node EarL" style="
             transform:
               translate3d(
-                calc(0 * 100 * 1px + var(--node-translate-x)),
-                calc(-1.0625 * 100 * -1px + var(--node-translate-y)),
-                calc(0.5 * 100 * 1px + var(--node-translate-z))
+                calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
+                calc(-1.0625 * var(--base-scale) * -1px + var(--node-translate-y)),
+                calc(0.5 * var(--base-scale) * 1px + var(--node-translate-z))
               )
               rotate3d(0, -0, 0, calc(-2 * acos(1)))
               rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
               scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
           ">
             <div class="rect opaque" style="
-            --a-x: 3.125;
-            --a-y: -218.75;
-            --a-z: -25.062502;
-            --b-x: 3.125;
-            --b-y: -218.75;
-            --b-z: -31.312502;
-            --c-x: 3.125;
-            --c-y: -200;
-            --c-z: -25.062502;
+            --a-x: calc(var(--base-scale) * 0.03125);
+            --a-y: calc(var(--base-scale) * -2.1875);
+            --a-z: calc(var(--base-scale) * -0.250625);
+            --b-x: calc(var(--base-scale) * 0.03125);
+            --b-y: calc(var(--base-scale) * -2.1875);
+            --b-z: calc(var(--base-scale) * -0.313125);
+            --c-x: calc(var(--base-scale) * 0.03125);
+            --c-y: calc(var(--base-scale) * -2);
+            --c-z: calc(var(--base-scale) * -0.250625);
             --texture-image: var(--texture-0);
             --texture-a-s: 0.35913086;
             --texture-a-t: 0.26586914;
@@ -1260,15 +1261,15 @@
             --texture-c-t: 0.31225586;
             "></div>
             <div class="rect opaque" style="
-            --a-x: -9.375;
-            --a-y: -218.75;
-            --a-z: -31.312502;
-            --b-x: -9.375;
-            --b-y: -218.75;
-            --b-z: -25.062502;
-            --c-x: -9.375;
-            --c-y: -200;
-            --c-z: -31.312502;
+            --a-x: calc(var(--base-scale) * -0.09375);
+            --a-y: calc(var(--base-scale) * -2.1875);
+            --a-z: calc(var(--base-scale) * -0.313125);
+            --b-x: calc(var(--base-scale) * -0.09375);
+            --b-y: calc(var(--base-scale) * -2.1875);
+            --b-z: calc(var(--base-scale) * -0.250625);
+            --c-x: calc(var(--base-scale) * -0.09375);
+            --c-y: calc(var(--base-scale) * -2);
+            --c-z: calc(var(--base-scale) * -0.313125);
             --texture-image: var(--texture-0);
             --texture-a-s: 0.31225586;
             --texture-a-t: 0.26586914;
@@ -1278,15 +1279,15 @@
             --texture-c-t: 0.31225586;
             "></div>
             <div class="rect opaque" style="
-            --a-x: -9.375;
-            --a-y: -218.75;
-            --a-z: -31.312502;
-            --b-x: 3.125;
-            --b-y: -218.75;
-            --b-z: -31.312502;
-            --c-x: -9.375;
-            --c-y: -218.75;
-            --c-z: -25.062502;
+            --a-x: calc(var(--base-scale) * -0.09375);
+            --a-y: calc(var(--base-scale) * -2.1875);
+            --a-z: calc(var(--base-scale) * -0.313125);
+            --b-x: calc(var(--base-scale) * 0.03125);
+            --b-y: calc(var(--base-scale) * -2.1875);
+            --b-z: calc(var(--base-scale) * -0.313125);
+            --c-x: calc(var(--base-scale) * -0.09375);
+            --c-y: calc(var(--base-scale) * -2.1875);
+            --c-z: calc(var(--base-scale) * -0.250625);
             --texture-image: var(--texture-0);
             --texture-a-s: 0.31274414;
             --texture-a-t: 0.26538086;
@@ -1296,15 +1297,15 @@
             --texture-c-t: 0.25024414;
             "></div>
             <div class="rect opaque" style="
-            --a-x: -9.375;
-            --a-y: -200;
-            --a-z: -25.062502;
-            --b-x: 3.125;
-            --b-y: -200;
-            --b-z: -25.062502;
-            --c-x: -9.375;
-            --c-y: -200;
-            --c-z: -31.312502;
+            --a-x: calc(var(--base-scale) * -0.09375);
+            --a-y: calc(var(--base-scale) * -2);
+            --a-z: calc(var(--base-scale) * -0.250625);
+            --b-x: calc(var(--base-scale) * 0.03125);
+            --b-y: calc(var(--base-scale) * -2);
+            --b-z: calc(var(--base-scale) * -0.250625);
+            --c-x: calc(var(--base-scale) * -0.09375);
+            --c-y: calc(var(--base-scale) * -2);
+            --c-z: calc(var(--base-scale) * -0.313125);
             --texture-image: var(--texture-0);
             --texture-a-s: 0.34399414;
             --texture-a-t: 0.25024414;
@@ -1314,15 +1315,15 @@
             --texture-c-t: 0.26538086;
             "></div>
             <div class="rect opaque" style="
-            --a-x: -9.375;
-            --a-y: -218.75;
-            --a-z: -25.062502;
-            --b-x: 3.125;
-            --b-y: -218.75;
-            --b-z: -25.062502;
-            --c-x: -9.375;
-            --c-y: -200;
-            --c-z: -25.062502;
+            --a-x: calc(var(--base-scale) * -0.09375);
+            --a-y: calc(var(--base-scale) * -2.1875);
+            --a-z: calc(var(--base-scale) * -0.250625);
+            --b-x: calc(var(--base-scale) * 0.03125);
+            --b-y: calc(var(--base-scale) * -2.1875);
+            --b-z: calc(var(--base-scale) * -0.250625);
+            --c-x: calc(var(--base-scale) * -0.09375);
+            --c-y: calc(var(--base-scale) * -2);
+            --c-z: calc(var(--base-scale) * -0.250625);
             --texture-image: var(--texture-0);
             --texture-a-s: 0.39038086;
             --texture-a-t: 0.26586914;
@@ -1332,15 +1333,15 @@
             --texture-c-t: 0.31225586;
             "></div>
             <div class="rect opaque" style="
-            --a-x: 3.125;
-            --a-y: -218.75;
-            --a-z: -31.312502;
-            --b-x: -9.375;
-            --b-y: -218.75;
-            --b-z: -31.312502;
-            --c-x: 3.125;
-            --c-y: -200;
-            --c-z: -31.312502;
+            --a-x: calc(var(--base-scale) * 0.03125);
+            --a-y: calc(var(--base-scale) * -2.1875);
+            --a-z: calc(var(--base-scale) * -0.313125);
+            --b-x: calc(var(--base-scale) * -0.09375);
+            --b-y: calc(var(--base-scale) * -2.1875);
+            --b-z: calc(var(--base-scale) * -0.313125);
+            --c-x: calc(var(--base-scale) * 0.03125);
+            --c-y: calc(var(--base-scale) * -2);
+            --c-z: calc(var(--base-scale) * -0.313125);
             --texture-image: var(--texture-0);
             --texture-a-s: 0.34350586;
             --texture-a-t: 0.26586914;
@@ -1354,9 +1355,9 @@
         <div class="node EarR" style="
           transform:
             translate3d(
-              calc(0 * 100 * 1px + var(--node-translate-x)),
-              calc(-0.6875 * 100 * -1px + var(--node-translate-y)),
-              calc(0.1875 * 100 * 1px + var(--node-translate-z))
+              calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
+              calc(-0.6875 * var(--base-scale) * -1px + var(--node-translate-y)),
+              calc(0.1875 * var(--base-scale) * 1px + var(--node-translate-z))
             )
             rotate3d(0, -0, -0.043619387, calc(-2 * acos(0.99904823)))
             rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
@@ -1365,24 +1366,24 @@
           <div class="node EarR" style="
             transform:
               translate3d(
-                calc(0 * 100 * 1px + var(--node-translate-x)),
-                calc(-1.0625 * 100 * -1px + var(--node-translate-y)),
-                calc(0.5 * 100 * 1px + var(--node-translate-z))
+                calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
+                calc(-1.0625 * var(--base-scale) * -1px + var(--node-translate-y)),
+                calc(0.5 * var(--base-scale) * 1px + var(--node-translate-z))
               )
               rotate3d(0, -0, 0, calc(-2 * acos(1)))
               rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
               scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
           ">
             <div class="rect opaque" style="
-            --a-x: 9.375;
-            --a-y: -218.75;
-            --a-z: -25.062502;
-            --b-x: 9.375;
-            --b-y: -218.75;
-            --b-z: -31.312502;
-            --c-x: 9.375;
-            --c-y: -200;
-            --c-z: -25.062502;
+            --a-x: calc(var(--base-scale) * 0.09375);
+            --a-y: calc(var(--base-scale) * -2.1875);
+            --a-z: calc(var(--base-scale) * -0.250625);
+            --b-x: calc(var(--base-scale) * 0.09375);
+            --b-y: calc(var(--base-scale) * -2.1875);
+            --b-z: calc(var(--base-scale) * -0.313125);
+            --c-x: calc(var(--base-scale) * 0.09375);
+            --c-y: calc(var(--base-scale) * -2);
+            --c-z: calc(var(--base-scale) * -0.250625);
             --texture-image: var(--texture-0);
             --texture-a-s: 0.29711914;
             --texture-a-t: 0.26586914;
@@ -1392,15 +1393,15 @@
             --texture-c-t: 0.31225586;
             "></div>
             <div class="rect opaque" style="
-            --a-x: -3.125;
-            --a-y: -218.75;
-            --a-z: -31.312502;
-            --b-x: -3.125;
-            --b-y: -218.75;
-            --b-z: -25.062502;
-            --c-x: -3.125;
-            --c-y: -200;
-            --c-z: -31.312502;
+            --a-x: calc(var(--base-scale) * -0.03125);
+            --a-y: calc(var(--base-scale) * -2.1875);
+            --a-z: calc(var(--base-scale) * -0.313125);
+            --b-x: calc(var(--base-scale) * -0.03125);
+            --b-y: calc(var(--base-scale) * -2.1875);
+            --b-z: calc(var(--base-scale) * -0.250625);
+            --c-x: calc(var(--base-scale) * -0.03125);
+            --c-y: calc(var(--base-scale) * -2);
+            --c-z: calc(var(--base-scale) * -0.313125);
             --texture-image: var(--texture-0);
             --texture-a-s: 0.34399414;
             --texture-a-t: 0.26586914;
@@ -1410,15 +1411,15 @@
             --texture-c-t: 0.31225586;
             "></div>
             <div class="rect opaque" style="
-            --a-x: -3.125;
-            --a-y: -218.75;
-            --a-z: -31.312502;
-            --b-x: 9.375;
-            --b-y: -218.75;
-            --b-z: -31.312502;
-            --c-x: -3.125;
-            --c-y: -218.75;
-            --c-z: -25.062502;
+            --a-x: calc(var(--base-scale) * -0.03125);
+            --a-y: calc(var(--base-scale) * -2.1875);
+            --a-z: calc(var(--base-scale) * -0.313125);
+            --b-x: calc(var(--base-scale) * 0.09375);
+            --b-y: calc(var(--base-scale) * -2.1875);
+            --b-z: calc(var(--base-scale) * -0.313125);
+            --c-x: calc(var(--base-scale) * -0.03125);
+            --c-y: calc(var(--base-scale) * -2.1875);
+            --c-z: calc(var(--base-scale) * -0.250625);
             --texture-image: var(--texture-0);
             --texture-a-s: 0.34350586;
             --texture-a-t: 0.26538086;
@@ -1428,15 +1429,15 @@
             --texture-c-t: 0.25024414;
             "></div>
             <div class="rect opaque" style="
-            --a-x: -3.125;
-            --a-y: -200;
-            --a-z: -25.062502;
-            --b-x: 9.375;
-            --b-y: -200;
-            --b-z: -25.062502;
-            --c-x: -3.125;
-            --c-y: -200;
-            --c-z: -31.312502;
+            --a-x: calc(var(--base-scale) * -0.03125);
+            --a-y: calc(var(--base-scale) * -2);
+            --a-z: calc(var(--base-scale) * -0.250625);
+            --b-x: calc(var(--base-scale) * 0.09375);
+            --b-y: calc(var(--base-scale) * -2);
+            --b-z: calc(var(--base-scale) * -0.250625);
+            --c-x: calc(var(--base-scale) * -0.03125);
+            --c-y: calc(var(--base-scale) * -2);
+            --c-z: calc(var(--base-scale) * -0.313125);
             --texture-image: var(--texture-0);
             --texture-a-s: 0.37475586;
             --texture-a-t: 0.25024414;
@@ -1446,15 +1447,15 @@
             --texture-c-t: 0.26538086;
             "></div>
             <div class="rect opaque" style="
-            --a-x: -3.125;
-            --a-y: -218.75;
-            --a-z: -25.062502;
-            --b-x: 9.375;
-            --b-y: -218.75;
-            --b-z: -25.062502;
-            --c-x: -3.125;
-            --c-y: -200;
-            --c-z: -25.062502;
+            --a-x: calc(var(--base-scale) * -0.03125);
+            --a-y: calc(var(--base-scale) * -2.1875);
+            --a-z: calc(var(--base-scale) * -0.250625);
+            --b-x: calc(var(--base-scale) * 0.09375);
+            --b-y: calc(var(--base-scale) * -2.1875);
+            --b-z: calc(var(--base-scale) * -0.250625);
+            --c-x: calc(var(--base-scale) * -0.03125);
+            --c-y: calc(var(--base-scale) * -2);
+            --c-z: calc(var(--base-scale) * -0.250625);
             --texture-image: var(--texture-0);
             --texture-a-s: 0.35961914;
             --texture-a-t: 0.26586914;
@@ -1464,15 +1465,15 @@
             --texture-c-t: 0.31225586;
             "></div>
             <div class="rect opaque" style="
-            --a-x: 9.375;
-            --a-y: -218.75;
-            --a-z: -31.312502;
-            --b-x: -3.125;
-            --b-y: -218.75;
-            --b-z: -31.312502;
-            --c-x: 9.375;
-            --c-y: -200;
-            --c-z: -31.312502;
+            --a-x: calc(var(--base-scale) * 0.09375);
+            --a-y: calc(var(--base-scale) * -2.1875);
+            --a-z: calc(var(--base-scale) * -0.313125);
+            --b-x: calc(var(--base-scale) * -0.03125);
+            --b-y: calc(var(--base-scale) * -2.1875);
+            --b-z: calc(var(--base-scale) * -0.313125);
+            --c-x: calc(var(--base-scale) * 0.09375);
+            --c-y: calc(var(--base-scale) * -2);
+            --c-z: calc(var(--base-scale) * -0.313125);
             --texture-image: var(--texture-0);
             --texture-a-s: 0.31274414;
             --texture-a-t: 0.26586914;
@@ -1486,9 +1487,9 @@
         <div class="node Bridle" style="
           transform:
             translate3d(
-              calc(0 * 100 * 1px + var(--node-translate-x)),
-              calc(-0.6875 * 100 * -1px + var(--node-translate-y)),
-              calc(0.1875 * 100 * 1px + var(--node-translate-z))
+              calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
+              calc(-0.6875 * var(--base-scale) * -1px + var(--node-translate-y)),
+              calc(0.1875 * var(--base-scale) * 1px + var(--node-translate-z))
             )
             rotate3d(0, -0, 0, calc(-2 * acos(1)))
             rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
@@ -1497,24 +1498,24 @@
           <div class="node Bridle" style="
             transform:
               translate3d(
-                calc(0 * 100 * 1px + var(--node-translate-x)),
-                calc(-1.0625 * 100 * -1px + var(--node-translate-y)),
-                calc(0.5 * 100 * 1px + var(--node-translate-z))
+                calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
+                calc(-1.0625 * var(--base-scale) * -1px + var(--node-translate-y)),
+                calc(0.5 * var(--base-scale) * 1px + var(--node-translate-z))
               )
               rotate3d(0, -0, 0, calc(-2 * acos(1)))
               rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
               scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
           ">
             <div class="rect opaque" style="
-            --a-x: 14.0625;
-            --a-y: -207.8125;
-            --a-z: -67.1875;
-            --b-x: 14.0625;
-            --b-y: -207.8125;
-            --b-z: -82.8125;
-            --c-x: 14.0625;
-            --c-y: -173.4375;
-            --c-z: -67.1875;
+            --a-x: calc(var(--base-scale) * 0.140625);
+            --a-y: calc(var(--base-scale) * -2.078125);
+            --a-z: calc(var(--base-scale) * -0.671875);
+            --b-x: calc(var(--base-scale) * 0.140625);
+            --b-y: calc(var(--base-scale) * -2.078125);
+            --b-z: calc(var(--base-scale) * -0.828125);
+            --c-x: calc(var(--base-scale) * 0.140625);
+            --c-y: calc(var(--base-scale) * -1.734375);
+            --c-z: calc(var(--base-scale) * -0.671875);
             --texture-image: var(--texture-0);
             --texture-a-s: 0.29711914;
             --texture-a-t: 0.03149414;
@@ -1524,15 +1525,15 @@
             --texture-c-t: 0.10913086;
             "></div>
             <div class="rect opaque" style="
-            --a-x: -14.0625;
-            --a-y: -207.8125;
-            --a-z: -82.8125;
-            --b-x: -14.0625;
-            --b-y: -207.8125;
-            --b-z: -67.1875;
-            --c-x: -14.0625;
-            --c-y: -173.4375;
-            --c-z: -82.8125;
+            --a-x: calc(var(--base-scale) * -0.140625);
+            --a-y: calc(var(--base-scale) * -2.078125);
+            --a-z: calc(var(--base-scale) * -0.828125);
+            --b-x: calc(var(--base-scale) * -0.140625);
+            --b-y: calc(var(--base-scale) * -2.078125);
+            --b-z: calc(var(--base-scale) * -0.671875);
+            --c-x: calc(var(--base-scale) * -0.140625);
+            --c-y: calc(var(--base-scale) * -1.734375);
+            --c-z: calc(var(--base-scale) * -0.828125);
             --texture-image: var(--texture-0);
             --texture-a-s: 0.39086914;
             --texture-a-t: 0.03149414;
@@ -1542,15 +1543,15 @@
             --texture-c-t: 0.10913086;
             "></div>
             <div class="rect opaque" style="
-            --a-x: -14.0625;
-            --a-y: -207.8125;
-            --a-z: -82.8125;
-            --b-x: 14.0625;
-            --b-y: -207.8125;
-            --b-z: -82.8125;
-            --c-x: -14.0625;
-            --c-y: -207.8125;
-            --c-z: -67.1875;
+            --a-x: calc(var(--base-scale) * -0.140625);
+            --a-y: calc(var(--base-scale) * -2.078125);
+            --a-z: calc(var(--base-scale) * -0.828125);
+            --b-x: calc(var(--base-scale) * 0.140625);
+            --b-y: calc(var(--base-scale) * -2.078125);
+            --b-z: calc(var(--base-scale) * -0.828125);
+            --c-x: calc(var(--base-scale) * -0.140625);
+            --c-y: calc(var(--base-scale) * -2.078125);
+            --c-z: calc(var(--base-scale) * -0.671875);
             --texture-image: var(--texture-0);
             --texture-a-s: 0.39038086;
             --texture-a-t: 0.03100586;
@@ -1560,15 +1561,15 @@
             --texture-c-t: 0.00024414063;
             "></div>
             <div class="rect opaque" style="
-            --a-x: -14.0625;
-            --a-y: -173.4375;
-            --a-z: -67.1875;
-            --b-x: 14.0625;
-            --b-y: -173.4375;
-            --b-z: -67.1875;
-            --c-x: -14.0625;
-            --c-y: -173.4375;
-            --c-z: -82.8125;
+            --a-x: calc(var(--base-scale) * -0.140625);
+            --a-y: calc(var(--base-scale) * -1.734375);
+            --a-z: calc(var(--base-scale) * -0.671875);
+            --b-x: calc(var(--base-scale) * 0.140625);
+            --b-y: calc(var(--base-scale) * -1.734375);
+            --b-z: calc(var(--base-scale) * -0.671875);
+            --c-x: calc(var(--base-scale) * -0.140625);
+            --c-y: calc(var(--base-scale) * -1.734375);
+            --c-z: calc(var(--base-scale) * -0.828125);
             --texture-image: var(--texture-0);
             --texture-a-s: 0.45288086;
             --texture-a-t: 0.00024414063;
@@ -1578,15 +1579,15 @@
             --texture-c-t: 0.03100586;
             "></div>
             <div class="rect opaque" style="
-            --a-x: -14.0625;
-            --a-y: -207.8125;
-            --a-z: -67.1875;
-            --b-x: 14.0625;
-            --b-y: -207.8125;
-            --b-z: -67.1875;
-            --c-x: -14.0625;
-            --c-y: -173.4375;
-            --c-z: -67.1875;
+            --a-x: calc(var(--base-scale) * -0.140625);
+            --a-y: calc(var(--base-scale) * -2.078125);
+            --a-z: calc(var(--base-scale) * -0.671875);
+            --b-x: calc(var(--base-scale) * 0.140625);
+            --b-y: calc(var(--base-scale) * -2.078125);
+            --b-z: calc(var(--base-scale) * -0.671875);
+            --c-x: calc(var(--base-scale) * -0.140625);
+            --c-y: calc(var(--base-scale) * -1.734375);
+            --c-z: calc(var(--base-scale) * -0.671875);
             --texture-image: var(--texture-0);
             --texture-a-s: 0.42211914;
             --texture-a-t: 0.03149414;
@@ -1596,15 +1597,15 @@
             --texture-c-t: 0.10913086;
             "></div>
             <div class="rect opaque" style="
-            --a-x: 14.0625;
-            --a-y: -207.8125;
-            --a-z: -82.8125;
-            --b-x: -14.0625;
-            --b-y: -207.8125;
-            --b-z: -82.8125;
-            --c-x: 14.0625;
-            --c-y: -173.4375;
-            --c-z: -82.8125;
+            --a-x: calc(var(--base-scale) * 0.140625);
+            --a-y: calc(var(--base-scale) * -2.078125);
+            --a-z: calc(var(--base-scale) * -0.828125);
+            --b-x: calc(var(--base-scale) * -0.140625);
+            --b-y: calc(var(--base-scale) * -2.078125);
+            --b-z: calc(var(--base-scale) * -0.828125);
+            --c-x: calc(var(--base-scale) * 0.140625);
+            --c-y: calc(var(--base-scale) * -1.734375);
+            --c-z: calc(var(--base-scale) * -0.828125);
             --texture-image: var(--texture-0);
             --texture-a-s: 0.32836914;
             --texture-a-t: 0.03149414;
@@ -1617,24 +1618,24 @@
           <div class="node Bridle" style="
             transform:
               translate3d(
-                calc(0 * 100 * 1px + var(--node-translate-x)),
-                calc(-1.0625 * 100 * -1px + var(--node-translate-y)),
-                calc(0.5 * 100 * 1px + var(--node-translate-z))
+                calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
+                calc(-1.0625 * var(--base-scale) * -1px + var(--node-translate-y)),
+                calc(0.5 * var(--base-scale) * 1px + var(--node-translate-z))
               )
               rotate3d(0, -0, 0, calc(-2 * acos(1)))
               rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
               scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
           ">
             <div class="rect opaque" style="
-            --a-x: 20.3125;
-            --a-y: -207.8125;
-            --a-z: -23.4375;
-            --b-x: 20.3125;
-            --b-y: -207.8125;
-            --b-z: -70.3125;
-            --c-x: 20.3125;
-            --c-y: -173.4375;
-            --c-z: -23.4375;
+            --a-x: calc(var(--base-scale) * 0.203125);
+            --a-y: calc(var(--base-scale) * -2.078125);
+            --a-z: calc(var(--base-scale) * -0.234375);
+            --b-x: calc(var(--base-scale) * 0.203125);
+            --b-y: calc(var(--base-scale) * -2.078125);
+            --b-z: calc(var(--base-scale) * -0.703125);
+            --c-x: calc(var(--base-scale) * 0.203125);
+            --c-y: calc(var(--base-scale) * -1.734375);
+            --c-z: calc(var(--base-scale) * -0.234375);
             --texture-image: var(--texture-0);
             --texture-a-s: 0.00024414063;
             --texture-a-t: 0.10961914;
@@ -1644,15 +1645,15 @@
             --texture-c-t: 0.18725586;
             "></div>
             <div class="rect opaque" style="
-            --a-x: -20.3125;
-            --a-y: -207.8125;
-            --a-z: -70.3125;
-            --b-x: -20.3125;
-            --b-y: -207.8125;
-            --b-z: -23.4375;
-            --c-x: -20.3125;
-            --c-y: -173.4375;
-            --c-z: -70.3125;
+            --a-x: calc(var(--base-scale) * -0.203125);
+            --a-y: calc(var(--base-scale) * -2.078125);
+            --a-z: calc(var(--base-scale) * -0.703125);
+            --b-x: calc(var(--base-scale) * -0.203125);
+            --b-y: calc(var(--base-scale) * -2.078125);
+            --b-z: calc(var(--base-scale) * -0.234375);
+            --c-x: calc(var(--base-scale) * -0.203125);
+            --c-y: calc(var(--base-scale) * -1.734375);
+            --c-z: calc(var(--base-scale) * -0.703125);
             --texture-image: var(--texture-0);
             --texture-a-s: 0.20336914;
             --texture-a-t: 0.10961914;
@@ -1662,15 +1663,15 @@
             --texture-c-t: 0.18725586;
             "></div>
             <div class="rect opaque" style="
-            --a-x: -20.3125;
-            --a-y: -207.8125;
-            --a-z: -70.3125;
-            --b-x: 20.3125;
-            --b-y: -207.8125;
-            --b-z: -70.3125;
-            --c-x: -20.3125;
-            --c-y: -207.8125;
-            --c-z: -23.4375;
+            --a-x: calc(var(--base-scale) * -0.203125);
+            --a-y: calc(var(--base-scale) * -2.078125);
+            --a-z: calc(var(--base-scale) * -0.703125);
+            --b-x: calc(var(--base-scale) * 0.203125);
+            --b-y: calc(var(--base-scale) * -2.078125);
+            --b-z: calc(var(--base-scale) * -0.703125);
+            --c-x: calc(var(--base-scale) * -0.203125);
+            --c-y: calc(var(--base-scale) * -2.078125);
+            --c-z: calc(var(--base-scale) * -0.234375);
             --texture-image: var(--texture-0);
             --texture-a-s: 0.20288086;
             --texture-a-t: 0.10913086;
@@ -1680,15 +1681,15 @@
             --texture-c-t: 0.00024414063;
             "></div>
             <div class="rect opaque" style="
-            --a-x: -20.3125;
-            --a-y: -173.4375;
-            --a-z: -23.4375;
-            --b-x: 20.3125;
-            --b-y: -173.4375;
-            --b-z: -23.4375;
-            --c-x: -20.3125;
-            --c-y: -173.4375;
-            --c-z: -70.3125;
+            --a-x: calc(var(--base-scale) * -0.203125);
+            --a-y: calc(var(--base-scale) * -1.734375);
+            --a-z: calc(var(--base-scale) * -0.234375);
+            --b-x: calc(var(--base-scale) * 0.203125);
+            --b-y: calc(var(--base-scale) * -1.734375);
+            --b-z: calc(var(--base-scale) * -0.234375);
+            --c-x: calc(var(--base-scale) * -0.203125);
+            --c-y: calc(var(--base-scale) * -1.734375);
+            --c-z: calc(var(--base-scale) * -0.703125);
             --texture-image: var(--texture-0);
             --texture-a-s: 0.29663086;
             --texture-a-t: 0.00024414063;
@@ -1698,15 +1699,15 @@
             --texture-c-t: 0.10913086;
             "></div>
             <div class="rect opaque" style="
-            --a-x: -20.3125;
-            --a-y: -207.8125;
-            --a-z: -23.4375;
-            --b-x: 20.3125;
-            --b-y: -207.8125;
-            --b-z: -23.4375;
-            --c-x: -20.3125;
-            --c-y: -173.4375;
-            --c-z: -23.4375;
+            --a-x: calc(var(--base-scale) * -0.203125);
+            --a-y: calc(var(--base-scale) * -2.078125);
+            --a-z: calc(var(--base-scale) * -0.234375);
+            --b-x: calc(var(--base-scale) * 0.203125);
+            --b-y: calc(var(--base-scale) * -2.078125);
+            --b-z: calc(var(--base-scale) * -0.234375);
+            --c-x: calc(var(--base-scale) * -0.203125);
+            --c-y: calc(var(--base-scale) * -1.734375);
+            --c-z: calc(var(--base-scale) * -0.234375);
             --texture-image: var(--texture-0);
             --texture-a-s: 0.31274414;
             --texture-a-t: 0.10961914;
@@ -1716,15 +1717,15 @@
             --texture-c-t: 0.18725586;
             "></div>
             <div class="rect opaque" style="
-            --a-x: 20.3125;
-            --a-y: -207.8125;
-            --a-z: -70.3125;
-            --b-x: -20.3125;
-            --b-y: -207.8125;
-            --b-z: -70.3125;
-            --c-x: 20.3125;
-            --c-y: -173.4375;
-            --c-z: -70.3125;
+            --a-x: calc(var(--base-scale) * 0.203125);
+            --a-y: calc(var(--base-scale) * -2.078125);
+            --a-z: calc(var(--base-scale) * -0.703125);
+            --b-x: calc(var(--base-scale) * -0.203125);
+            --b-y: calc(var(--base-scale) * -2.078125);
+            --b-z: calc(var(--base-scale) * -0.703125);
+            --c-x: calc(var(--base-scale) * 0.203125);
+            --c-y: calc(var(--base-scale) * -1.734375);
+            --c-z: calc(var(--base-scale) * -0.703125);
             --texture-image: var(--texture-0);
             --texture-a-s: 0.10961914;
             --texture-a-t: 0.10961914;
@@ -1739,9 +1740,9 @@
       <div class="node Mane" style="
         transform:
           translate3d(
-            calc(0 * 100 * 1px + var(--node-translate-x)),
-            calc(0 * 100 * -1px + var(--node-translate-y)),
-            calc(0 * 100 * 1px + var(--node-translate-z))
+            calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
+            calc(0 * var(--base-scale) * -1px + var(--node-translate-y)),
+            calc(0 * var(--base-scale) * 1px + var(--node-translate-z))
           )
           rotate3d(0, -0, 0, calc(-2 * acos(1)))
           rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
@@ -1750,24 +1751,24 @@
         <div class="node Mane" style="
           transform:
             translate3d(
-              calc(0 * 100 * 1px + var(--node-translate-x)),
-              calc(-1.0625 * 100 * -1px + var(--node-translate-y)),
-              calc(0.5 * 100 * 1px + var(--node-translate-z))
+              calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
+              calc(-1.0625 * var(--base-scale) * -1px + var(--node-translate-y)),
+              calc(0.5 * var(--base-scale) * 1px + var(--node-translate-z))
             )
             rotate3d(0, -0, 0, calc(-2 * acos(1)))
             rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
             scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
         ">
           <div class="rect opaque" style="
-          --a-x: 6.25;
-          --a-y: -206.25;
-          --a-z: -12.1875;
-          --b-x: 6.25;
-          --b-y: -206.25;
-          --b-z: -24.6875;
-          --c-x: 6.25;
-          --c-y: -106.25;
-          --c-z: -12.1875;
+          --a-x: calc(var(--base-scale) * 0.0625);
+          --a-y: calc(var(--base-scale) * -2.0625);
+          --a-z: calc(var(--base-scale) * -0.121875);
+          --b-x: calc(var(--base-scale) * 0.0625);
+          --b-y: calc(var(--base-scale) * -2.0625);
+          --b-z: calc(var(--base-scale) * -0.246875);
+          --c-x: calc(var(--base-scale) * 0.0625);
+          --c-y: calc(var(--base-scale) * -1.0625);
+          --c-z: calc(var(--base-scale) * -0.121875);
           --texture-image: var(--texture-0);
           --texture-a-s: 0.87524414;
           --texture-a-t: 0.59399414;
@@ -1777,15 +1778,15 @@
           --texture-c-t: 0.84350586;
           "></div>
           <div class="rect opaque" style="
-          --a-x: -6.25;
-          --a-y: -206.25;
-          --a-z: -24.6875;
-          --b-x: -6.25;
-          --b-y: -206.25;
-          --b-z: -12.1875;
-          --c-x: -6.25;
-          --c-y: -106.25;
-          --c-z: -24.6875;
+          --a-x: calc(var(--base-scale) * -0.0625);
+          --a-y: calc(var(--base-scale) * -2.0625);
+          --a-z: calc(var(--base-scale) * -0.246875);
+          --b-x: calc(var(--base-scale) * -0.0625);
+          --b-y: calc(var(--base-scale) * -2.0625);
+          --b-z: calc(var(--base-scale) * -0.121875);
+          --c-x: calc(var(--base-scale) * -0.0625);
+          --c-y: calc(var(--base-scale) * -1.0625);
+          --c-z: calc(var(--base-scale) * -0.246875);
           --texture-image: var(--texture-0);
           --texture-a-s: 0.93774414;
           --texture-a-t: 0.59399414;
@@ -1795,15 +1796,15 @@
           --texture-c-t: 0.84350586;
           "></div>
           <div class="rect opaque" style="
-          --a-x: -6.25;
-          --a-y: -206.25;
-          --a-z: -24.6875;
-          --b-x: 6.25;
-          --b-y: -206.25;
-          --b-z: -24.6875;
-          --c-x: -6.25;
-          --c-y: -206.25;
-          --c-z: -12.1875;
+          --a-x: calc(var(--base-scale) * -0.0625);
+          --a-y: calc(var(--base-scale) * -2.0625);
+          --a-z: calc(var(--base-scale) * -0.246875);
+          --b-x: calc(var(--base-scale) * 0.0625);
+          --b-y: calc(var(--base-scale) * -2.0625);
+          --b-z: calc(var(--base-scale) * -0.246875);
+          --c-x: calc(var(--base-scale) * -0.0625);
+          --c-y: calc(var(--base-scale) * -2.0625);
+          --c-z: calc(var(--base-scale) * -0.121875);
           --texture-image: var(--texture-0);
           --texture-a-s: 0.93725586;
           --texture-a-t: 0.59350586;
@@ -1813,15 +1814,15 @@
           --texture-c-t: 0.56274414;
           "></div>
           <div class="rect opaque" style="
-          --a-x: -6.25;
-          --a-y: -106.25;
-          --a-z: -12.1875;
-          --b-x: 6.25;
-          --b-y: -106.25;
-          --b-z: -12.1875;
-          --c-x: -6.25;
-          --c-y: -106.25;
-          --c-z: -24.6875;
+          --a-x: calc(var(--base-scale) * -0.0625);
+          --a-y: calc(var(--base-scale) * -1.0625);
+          --a-z: calc(var(--base-scale) * -0.121875);
+          --b-x: calc(var(--base-scale) * 0.0625);
+          --b-y: calc(var(--base-scale) * -1.0625);
+          --b-z: calc(var(--base-scale) * -0.121875);
+          --c-x: calc(var(--base-scale) * -0.0625);
+          --c-y: calc(var(--base-scale) * -1.0625);
+          --c-z: calc(var(--base-scale) * -0.246875);
           --texture-image: var(--texture-0);
           --texture-a-s: 0.96850586;
           --texture-a-t: 0.56274414;
@@ -1831,15 +1832,15 @@
           --texture-c-t: 0.59350586;
           "></div>
           <div class="rect opaque" style="
-          --a-x: -6.25;
-          --a-y: -206.25;
-          --a-z: -12.1875;
-          --b-x: 6.25;
-          --b-y: -206.25;
-          --b-z: -12.1875;
-          --c-x: -6.25;
-          --c-y: -106.25;
-          --c-z: -12.1875;
+          --a-x: calc(var(--base-scale) * -0.0625);
+          --a-y: calc(var(--base-scale) * -2.0625);
+          --a-z: calc(var(--base-scale) * -0.121875);
+          --b-x: calc(var(--base-scale) * 0.0625);
+          --b-y: calc(var(--base-scale) * -2.0625);
+          --b-z: calc(var(--base-scale) * -0.121875);
+          --c-x: calc(var(--base-scale) * -0.0625);
+          --c-y: calc(var(--base-scale) * -1.0625);
+          --c-z: calc(var(--base-scale) * -0.121875);
           --texture-image: var(--texture-0);
           --texture-a-s: 0.96899414;
           --texture-a-t: 0.59399414;
@@ -1849,15 +1850,15 @@
           --texture-c-t: 0.84350586;
           "></div>
           <div class="rect opaque" style="
-          --a-x: 6.25;
-          --a-y: -206.25;
-          --a-z: -24.6875;
-          --b-x: -6.25;
-          --b-y: -206.25;
-          --b-z: -24.6875;
-          --c-x: 6.25;
-          --c-y: -106.25;
-          --c-z: -24.6875;
+          --a-x: calc(var(--base-scale) * 0.0625);
+          --a-y: calc(var(--base-scale) * -2.0625);
+          --a-z: calc(var(--base-scale) * -0.246875);
+          --b-x: calc(var(--base-scale) * -0.0625);
+          --b-y: calc(var(--base-scale) * -2.0625);
+          --b-z: calc(var(--base-scale) * -0.246875);
+          --c-x: calc(var(--base-scale) * 0.0625);
+          --c-y: calc(var(--base-scale) * -1.0625);
+          --c-z: calc(var(--base-scale) * -0.246875);
           --texture-image: var(--texture-0);
           --texture-a-s: 0.90649414;
           --texture-a-t: 0.59399414;
@@ -1872,9 +1873,9 @@
     <div class="node Saddle" style="
       transform:
         translate3d(
-          calc(0 * 100 * 1px + var(--node-translate-x)),
-          calc(0.5625 * 100 * -1px + var(--node-translate-y)),
-          calc(-0.4375 * 100 * 1px + var(--node-translate-z))
+          calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
+          calc(0.5625 * var(--base-scale) * -1px + var(--node-translate-y)),
+          calc(-0.4375 * var(--base-scale) * 1px + var(--node-translate-z))
         )
         rotate3d(0, -0, 0, calc(-2 * acos(1)))
         rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
@@ -1883,24 +1884,24 @@
       <div class="node Saddle" style="
         transform:
           translate3d(
-            calc(0 * 100 * 1px + var(--node-translate-x)),
-            calc(-1.375 * 100 * -1px + var(--node-translate-y)),
-            calc(-0.125 * 100 * 1px + var(--node-translate-z))
+            calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
+            calc(-1.375 * var(--base-scale) * -1px + var(--node-translate-y)),
+            calc(-0.125 * var(--base-scale) * 1px + var(--node-translate-z))
           )
           rotate3d(0, -0, 0, calc(-2 * acos(1)))
           rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
           scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
       ">
         <div class="rect opaque" style="
-        --a-x: 34.375;
-        --a-y: -134.375;
-        --a-z: 37.5;
-        --b-x: 34.375;
-        --b-y: -134.375;
-        --b-z: -25;
-        --c-x: 34.375;
-        --c-y: -71.875;
-        --c-z: 37.5;
+        --a-x: calc(var(--base-scale) * 0.34375);
+        --a-y: calc(var(--base-scale) * -1.34375);
+        --a-z: calc(var(--base-scale) * 0.375);
+        --b-x: calc(var(--base-scale) * 0.34375);
+        --b-y: calc(var(--base-scale) * -1.34375);
+        --b-z: calc(var(--base-scale) * -0.25);
+        --c-x: calc(var(--base-scale) * 0.34375);
+        --c-y: calc(var(--base-scale) * -0.71875);
+        --c-z: calc(var(--base-scale) * 0.375);
         --texture-image: var(--texture-0);
         --texture-a-s: 0.40649414;
         --texture-a-t: 0.14086914;
@@ -1910,15 +1911,15 @@
         --texture-c-t: 0.28100586;
         "></div>
         <div class="rect opaque" style="
-        --a-x: -34.375;
-        --a-y: -134.375;
-        --a-z: -25;
-        --b-x: -34.375;
-        --b-y: -134.375;
-        --b-z: 37.5;
-        --c-x: -34.375;
-        --c-y: -71.875;
-        --c-z: -25;
+        --a-x: calc(var(--base-scale) * -0.34375);
+        --a-y: calc(var(--base-scale) * -1.34375);
+        --a-z: calc(var(--base-scale) * -0.25);
+        --b-x: calc(var(--base-scale) * -0.34375);
+        --b-y: calc(var(--base-scale) * -1.34375);
+        --b-z: calc(var(--base-scale) * 0.375);
+        --c-x: calc(var(--base-scale) * -0.34375);
+        --c-y: calc(var(--base-scale) * -0.71875);
+        --c-z: calc(var(--base-scale) * -0.25);
         --texture-image: var(--texture-0);
         --texture-a-s: 0.70336914;
         --texture-a-t: 0.14086914;
@@ -1928,15 +1929,15 @@
         --texture-c-t: 0.28100586;
         "></div>
         <div class="rect opaque" style="
-        --a-x: -34.375;
-        --a-y: -134.375;
-        --a-z: -25;
-        --b-x: 34.375;
-        --b-y: -134.375;
-        --b-z: -25;
-        --c-x: -34.375;
-        --c-y: -134.375;
-        --c-z: 37.5;
+        --a-x: calc(var(--base-scale) * -0.34375);
+        --a-y: calc(var(--base-scale) * -1.34375);
+        --a-z: calc(var(--base-scale) * -0.25);
+        --b-x: calc(var(--base-scale) * 0.34375);
+        --b-y: calc(var(--base-scale) * -1.34375);
+        --b-z: calc(var(--base-scale) * -0.25);
+        --c-x: calc(var(--base-scale) * -0.34375);
+        --c-y: calc(var(--base-scale) * -1.34375);
+        --c-z: calc(var(--base-scale) * 0.375);
         --texture-image: var(--texture-0);
         --texture-a-s: 0.70288086;
         --texture-a-t: 0.14038086;
@@ -1946,15 +1947,15 @@
         --texture-c-t: 0.00024414063;
         "></div>
         <div class="rect opaque" style="
-        --a-x: -34.375;
-        --a-y: -71.875;
-        --a-z: 37.5;
-        --b-x: 34.375;
-        --b-y: -71.875;
-        --b-z: 37.5;
-        --c-x: -34.375;
-        --c-y: -71.875;
-        --c-z: -25;
+        --a-x: calc(var(--base-scale) * -0.34375);
+        --a-y: calc(var(--base-scale) * -0.71875);
+        --a-z: calc(var(--base-scale) * 0.375);
+        --b-x: calc(var(--base-scale) * 0.34375);
+        --b-y: calc(var(--base-scale) * -0.71875);
+        --b-z: calc(var(--base-scale) * 0.375);
+        --c-x: calc(var(--base-scale) * -0.34375);
+        --c-y: calc(var(--base-scale) * -0.71875);
+        --c-z: calc(var(--base-scale) * -0.25);
         --texture-image: var(--texture-0);
         --texture-a-s: 0.85913086;
         --texture-a-t: 0.00024414063;
@@ -1964,15 +1965,15 @@
         --texture-c-t: 0.14038086;
         "></div>
         <div class="rect opaque" style="
-        --a-x: -34.375;
-        --a-y: -134.375;
-        --a-z: 37.5;
-        --b-x: 34.375;
-        --b-y: -134.375;
-        --b-z: 37.5;
-        --c-x: -34.375;
-        --c-y: -71.875;
-        --c-z: 37.5;
+        --a-x: calc(var(--base-scale) * -0.34375);
+        --a-y: calc(var(--base-scale) * -1.34375);
+        --a-z: calc(var(--base-scale) * 0.375);
+        --b-x: calc(var(--base-scale) * 0.34375);
+        --b-y: calc(var(--base-scale) * -1.34375);
+        --b-z: calc(var(--base-scale) * 0.375);
+        --c-x: calc(var(--base-scale) * -0.34375);
+        --c-y: calc(var(--base-scale) * -0.71875);
+        --c-z: calc(var(--base-scale) * 0.375);
         --texture-image: var(--texture-0);
         --texture-a-s: 0.84399414;
         --texture-a-t: 0.14086914;
@@ -1982,15 +1983,15 @@
         --texture-c-t: 0.28100586;
         "></div>
         <div class="rect opaque" style="
-        --a-x: 34.375;
-        --a-y: -134.375;
-        --a-z: -25;
-        --b-x: -34.375;
-        --b-y: -134.375;
-        --b-z: -25;
-        --c-x: 34.375;
-        --c-y: -71.875;
-        --c-z: -25;
+        --a-x: calc(var(--base-scale) * 0.34375);
+        --a-y: calc(var(--base-scale) * -1.34375);
+        --a-z: calc(var(--base-scale) * -0.25);
+        --b-x: calc(var(--base-scale) * -0.34375);
+        --b-y: calc(var(--base-scale) * -1.34375);
+        --b-z: calc(var(--base-scale) * -0.25);
+        --c-x: calc(var(--base-scale) * 0.34375);
+        --c-y: calc(var(--base-scale) * -0.71875);
+        --c-z: calc(var(--base-scale) * -0.25);
         --texture-image: var(--texture-0);
         --texture-a-s: 0.54711914;
         --texture-a-t: 0.14086914;
