@@ -1,25 +1,7 @@
 <div class="node base" style="
   --base-scale: 100;
-  transform:
-    translate3d(
-      calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
-      calc(0 * var(--base-scale) * -1px + var(--node-translate-y)),
-      calc(0 * var(--base-scale) * 1px + var(--node-translate-z))
-    )
-    rotate3d(0, -0, 0, calc(-2 * acos(1)))
-    rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-    scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
 ">
   <div class="node iris" style="
-    transform:
-      translate3d(
-        calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
-        calc(0 * var(--base-scale) * -1px + var(--node-translate-y)),
-        calc(0 * var(--base-scale) * 1px + var(--node-translate-z))
-      )
-      rotate3d(0, -0, 0, calc(-2 * acos(1)))
-      rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-      scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
   ">
     <div class="tri" style="
     --a-x: calc(var(--base-scale) * -0.41037893);

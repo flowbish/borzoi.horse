@@ -1,37 +1,14 @@
 <div class="node base" style="
   --texture-0: url(data:image/png;base64,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);
   --base-scale: 100;
-  transform:
-    translate3d(
-      calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
-      calc(0 * var(--base-scale) * -1px + var(--node-translate-y)),
-      calc(0 * var(--base-scale) * 1px + var(--node-translate-z))
-    )
-    rotate3d(0, -0, 0, calc(-2 * acos(1)))
-    rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-    scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
 ">
   <div class="node Body" style="
-    transform:
-      translate3d(
-        calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
-        calc(0.8125 * var(--base-scale) * -1px + var(--node-translate-y)),
-        calc(0.5625 * var(--base-scale) * 1px + var(--node-translate-z))
-      )
-      rotate3d(0, -0, 0, calc(-2 * acos(1)))
-      rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-      scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
+    --node-inherent-translate-y: 0.8125;
+    --node-inherent-translate-z: 0.5625;
   ">
     <div class="node Body" style="
-      transform:
-        translate3d(
-          calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
-          calc(-0.8125 * var(--base-scale) * -1px + var(--node-translate-y)),
-          calc(-0.5625 * var(--base-scale) * 1px + var(--node-translate-z))
-        )
-        rotate3d(0, -0, 0, calc(-2 * acos(1)))
-        rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-        scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
+      --node-inherent-translate-y: -0.8125;
+      --node-inherent-translate-z: -0.5625;
     ">
       <div class="rect" style="
       --a-x: calc(var(--base-scale) * 0.3125);
@@ -143,26 +120,14 @@
       "></div>
     </div>
     <div class="node Tail" style="
-      transform:
-        translate3d(
-          calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
-          calc(0.4375 * var(--base-scale) * -1px + var(--node-translate-y)),
-          calc(0.125 * var(--base-scale) * 1px + var(--node-translate-z))
-        )
-        rotate3d(-0.21643962, -0, 0, calc(-2 * acos(0.976296)))
-        rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-        scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
+      --node-inherent-translate-y: 0.4375;
+      --node-inherent-translate-z: 0.125;
+      --node-inherent-rotation-x: -0.21643962;
+      --node-inherent-rotation-angle: -0.43633232rad;
     ">
       <div class="node Tail" style="
-        transform:
-          translate3d(
-            calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
-            calc(-1.25 * var(--base-scale) * -1px + var(--node-translate-y)),
-            calc(-0.6875 * var(--base-scale) * 1px + var(--node-translate-z))
-          )
-          rotate3d(0, -0, 0, calc(-2 * acos(1)))
-          rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-          scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
+        --node-inherent-translate-y: -1.25;
+        --node-inherent-translate-z: -0.6875;
       ">
         <div class="rect" style="
         --a-x: calc(var(--base-scale) * 0.09375);
@@ -275,26 +240,13 @@
       </div>
     </div>
     <div class="node LegBL" style="
-      transform:
-        translate3d(
-          calc(-0.1875 * var(--base-scale) * 1px + var(--node-translate-x)),
-          calc(-0.125 * var(--base-scale) * -1px + var(--node-translate-y)),
-          calc(0 * var(--base-scale) * 1px + var(--node-translate-z))
-        )
-        rotate3d(0, -0, 0, calc(-2 * acos(1)))
-        rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-        scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
+      --node-inherent-translate-x: -0.1875;
+      --node-inherent-translate-y: -0.125;
     ">
       <div class="node LegBL" style="
-        transform:
-          translate3d(
-            calc(0.1875 * var(--base-scale) * 1px + var(--node-translate-x)),
-            calc(-0.6875 * var(--base-scale) * -1px + var(--node-translate-y)),
-            calc(-0.5625 * var(--base-scale) * 1px + var(--node-translate-z))
-          )
-          rotate3d(0, -0, 0, calc(-2 * acos(1)))
-          rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-          scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
+        --node-inherent-translate-x: 0.1875;
+        --node-inherent-translate-y: -0.6875;
+        --node-inherent-translate-z: -0.5625;
       ">
         <div class="rect" style="
         --a-x: calc(var(--base-scale) * -0.0625);
@@ -407,26 +359,13 @@
       </div>
     </div>
     <div class="node LegBR" style="
-      transform:
-        translate3d(
-          calc(0.1875 * var(--base-scale) * 1px + var(--node-translate-x)),
-          calc(-0.125 * var(--base-scale) * -1px + var(--node-translate-y)),
-          calc(0 * var(--base-scale) * 1px + var(--node-translate-z))
-        )
-        rotate3d(0, -0, 0, calc(-2 * acos(1)))
-        rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-        scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
+      --node-inherent-translate-x: 0.1875;
+      --node-inherent-translate-y: -0.125;
     ">
       <div class="node LegBR" style="
-        transform:
-          translate3d(
-            calc(-0.1875 * var(--base-scale) * 1px + var(--node-translate-x)),
-            calc(-0.6875 * var(--base-scale) * -1px + var(--node-translate-y)),
-            calc(-0.5625 * var(--base-scale) * 1px + var(--node-translate-z))
-          )
-          rotate3d(0, -0, 0, calc(-2 * acos(1)))
-          rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-          scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
+        --node-inherent-translate-x: -0.1875;
+        --node-inherent-translate-y: -0.6875;
+        --node-inherent-translate-z: -0.5625;
       ">
         <div class="rect" style="
         --a-x: calc(var(--base-scale) * 0.3125);
@@ -539,26 +478,14 @@
       </div>
     </div>
     <div class="node LegFL" style="
-      transform:
-        translate3d(
-          calc(-0.1875 * var(--base-scale) * 1px + var(--node-translate-x)),
-          calc(-0.125 * var(--base-scale) * -1px + var(--node-translate-y)),
-          calc(-1.125 * var(--base-scale) * 1px + var(--node-translate-z))
-        )
-        rotate3d(0, -0, 0, calc(-2 * acos(1)))
-        rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-        scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
+      --node-inherent-translate-x: -0.1875;
+      --node-inherent-translate-y: -0.125;
+      --node-inherent-translate-z: -1.125;
     ">
       <div class="node LegFL" style="
-        transform:
-          translate3d(
-            calc(0.1875 * var(--base-scale) * 1px + var(--node-translate-x)),
-            calc(-0.6875 * var(--base-scale) * -1px + var(--node-translate-y)),
-            calc(0.5625 * var(--base-scale) * 1px + var(--node-translate-z))
-          )
-          rotate3d(0, -0, 0, calc(-2 * acos(1)))
-          rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-          scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
+        --node-inherent-translate-x: 0.1875;
+        --node-inherent-translate-y: -0.6875;
+        --node-inherent-translate-z: 0.5625;
       ">
         <div class="rect" style="
         --a-x: calc(var(--base-scale) * -0.0625);
@@ -671,26 +598,14 @@
       </div>
     </div>
     <div class="node LegFR" style="
-      transform:
-        translate3d(
-          calc(0.1875 * var(--base-scale) * 1px + var(--node-translate-x)),
-          calc(-0.125 * var(--base-scale) * -1px + var(--node-translate-y)),
-          calc(-1.125 * var(--base-scale) * 1px + var(--node-translate-z))
-        )
-        rotate3d(0, -0, 0, calc(-2 * acos(1)))
-        rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-        scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
+      --node-inherent-translate-x: 0.1875;
+      --node-inherent-translate-y: -0.125;
+      --node-inherent-translate-z: -1.125;
     ">
       <div class="node LegFR" style="
-        transform:
-          translate3d(
-            calc(-0.1875 * var(--base-scale) * 1px + var(--node-translate-x)),
-            calc(-0.6875 * var(--base-scale) * -1px + var(--node-translate-y)),
-            calc(0.5625 * var(--base-scale) * 1px + var(--node-translate-z))
-          )
-          rotate3d(0, -0, 0, calc(-2 * acos(1)))
-          rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-          scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
+        --node-inherent-translate-x: -0.1875;
+        --node-inherent-translate-y: -0.6875;
+        --node-inherent-translate-z: 0.5625;
       ">
         <div class="rect" style="
         --a-x: calc(var(--base-scale) * 0.3125);
@@ -803,26 +718,14 @@
       </div>
     </div>
     <div class="node Neck" style="
-      transform:
-        translate3d(
-          calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
-          calc(0.25 * var(--base-scale) * -1px + var(--node-translate-y)),
-          calc(-1.0625 * var(--base-scale) * 1px + var(--node-translate-z))
-        )
-        rotate3d(-0.25881904, -0, 0, calc(-2 * acos(0.9659258)))
-        rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-        scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
+      --node-inherent-translate-y: 0.25;
+      --node-inherent-translate-z: -1.0625;
+      --node-inherent-rotation-x: -0.25881904;
+      --node-inherent-rotation-angle: -0.5235989rad;
     ">
       <div class="node Neck" style="
-        transform:
-          translate3d(
-            calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
-            calc(-1.0625 * var(--base-scale) * -1px + var(--node-translate-y)),
-            calc(0.5 * var(--base-scale) * 1px + var(--node-translate-z))
-          )
-          rotate3d(0, -0, 0, calc(-2 * acos(1)))
-          rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-          scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
+        --node-inherent-translate-y: -1.0625;
+        --node-inherent-translate-z: 0.5;
       ">
         <div class="rect" style="
         --a-x: calc(var(--base-scale) * 0.125);
@@ -934,26 +837,12 @@
         "></div>
       </div>
       <div class="node Head" style="
-        transform:
-          translate3d(
-            calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
-            calc(0.6875 * var(--base-scale) * -1px + var(--node-translate-y)),
-            calc(-0.1875 * var(--base-scale) * 1px + var(--node-translate-z))
-          )
-          rotate3d(0, -0, 0, calc(-2 * acos(1)))
-          rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-          scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
+        --node-inherent-translate-y: 0.6875;
+        --node-inherent-translate-z: -0.1875;
       ">
         <div class="node Head" style="
-          transform:
-            translate3d(
-              calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
-              calc(-1.75 * var(--base-scale) * -1px + var(--node-translate-y)),
-              calc(0.6875 * var(--base-scale) * 1px + var(--node-translate-z))
-            )
-            rotate3d(0, -0, 0, calc(-2 * acos(1)))
-            rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-            scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
+          --node-inherent-translate-y: -1.75;
+          --node-inherent-translate-z: 0.6875;
         ">
           <div class="rect" style="
           --a-x: calc(var(--base-scale) * 0.1875);
@@ -1065,26 +954,10 @@
           "></div>
         </div>
         <div class="node Muzzle" style="
-          transform:
-            translate3d(
-              calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
-              calc(0 * var(--base-scale) * -1px + var(--node-translate-y)),
-              calc(0 * var(--base-scale) * 1px + var(--node-translate-z))
-            )
-            rotate3d(0, -0, 0, calc(-2 * acos(1)))
-            rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-            scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
         ">
           <div class="node Muzzle" style="
-            transform:
-              translate3d(
-                calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
-                calc(-1.75 * var(--base-scale) * -1px + var(--node-translate-y)),
-                calc(0.6875 * var(--base-scale) * 1px + var(--node-translate-z))
-              )
-              rotate3d(0, -0, 0, calc(-2 * acos(1)))
-              rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-              scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
+            --node-inherent-translate-y: -1.75;
+            --node-inherent-translate-z: 0.6875;
           ">
             <div class="rect" style="
             --a-x: calc(var(--base-scale) * 0.125);
@@ -1197,26 +1070,14 @@
           </div>
         </div>
         <div class="node EarL" style="
-          transform:
-            translate3d(
-              calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
-              calc(-0.6875 * var(--base-scale) * -1px + var(--node-translate-y)),
-              calc(0.1875 * var(--base-scale) * 1px + var(--node-translate-z))
-            )
-            rotate3d(0, -0, 0.043619387, calc(-2 * acos(0.99904823)))
-            rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-            scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
+          --node-inherent-translate-y: -0.6875;
+          --node-inherent-translate-z: 0.1875;
+          --node-inherent-rotation-z: 0.043619387;
+          --node-inherent-rotation-angle: -0.08726594rad;
         ">
           <div class="node EarL" style="
-            transform:
-              translate3d(
-                calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
-                calc(-1.0625 * var(--base-scale) * -1px + var(--node-translate-y)),
-                calc(0.5 * var(--base-scale) * 1px + var(--node-translate-z))
-              )
-              rotate3d(0, -0, 0, calc(-2 * acos(1)))
-              rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-              scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
+            --node-inherent-translate-y: -1.0625;
+            --node-inherent-translate-z: 0.5;
           ">
             <div class="rect" style="
             --a-x: calc(var(--base-scale) * 0.03125);
@@ -1329,26 +1190,14 @@
           </div>
         </div>
         <div class="node EarR" style="
-          transform:
-            translate3d(
-              calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
-              calc(-0.6875 * var(--base-scale) * -1px + var(--node-translate-y)),
-              calc(0.1875 * var(--base-scale) * 1px + var(--node-translate-z))
-            )
-            rotate3d(0, -0, -0.043619387, calc(-2 * acos(0.99904823)))
-            rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-            scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
+          --node-inherent-translate-y: -0.6875;
+          --node-inherent-translate-z: 0.1875;
+          --node-inherent-rotation-z: -0.043619387;
+          --node-inherent-rotation-angle: -0.08726594rad;
         ">
           <div class="node EarR" style="
-            transform:
-              translate3d(
-                calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
-                calc(-1.0625 * var(--base-scale) * -1px + var(--node-translate-y)),
-                calc(0.5 * var(--base-scale) * 1px + var(--node-translate-z))
-              )
-              rotate3d(0, -0, 0, calc(-2 * acos(1)))
-              rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-              scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
+            --node-inherent-translate-y: -1.0625;
+            --node-inherent-translate-z: 0.5;
           ">
             <div class="rect" style="
             --a-x: calc(var(--base-scale) * 0.09375);
@@ -1461,26 +1310,12 @@
           </div>
         </div>
         <div class="node Bridle" style="
-          transform:
-            translate3d(
-              calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
-              calc(-0.6875 * var(--base-scale) * -1px + var(--node-translate-y)),
-              calc(0.1875 * var(--base-scale) * 1px + var(--node-translate-z))
-            )
-            rotate3d(0, -0, 0, calc(-2 * acos(1)))
-            rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-            scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
+          --node-inherent-translate-y: -0.6875;
+          --node-inherent-translate-z: 0.1875;
         ">
           <div class="node Bridle" style="
-            transform:
-              translate3d(
-                calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
-                calc(-1.0625 * var(--base-scale) * -1px + var(--node-translate-y)),
-                calc(0.5 * var(--base-scale) * 1px + var(--node-translate-z))
-              )
-              rotate3d(0, -0, 0, calc(-2 * acos(1)))
-              rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-              scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
+            --node-inherent-translate-y: -1.0625;
+            --node-inherent-translate-z: 0.5;
           ">
             <div class="rect" style="
             --a-x: calc(var(--base-scale) * 0.140625);
@@ -1592,15 +1427,8 @@
             "></div>
           </div>
           <div class="node Bridle" style="
-            transform:
-              translate3d(
-                calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
-                calc(-1.0625 * var(--base-scale) * -1px + var(--node-translate-y)),
-                calc(0.5 * var(--base-scale) * 1px + var(--node-translate-z))
-              )
-              rotate3d(0, -0, 0, calc(-2 * acos(1)))
-              rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-              scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
+            --node-inherent-translate-y: -1.0625;
+            --node-inherent-translate-z: 0.5;
           ">
             <div class="rect" style="
             --a-x: calc(var(--base-scale) * 0.203125);
@@ -1714,26 +1542,10 @@
         </div>
       </div>
       <div class="node Mane" style="
-        transform:
-          translate3d(
-            calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
-            calc(0 * var(--base-scale) * -1px + var(--node-translate-y)),
-            calc(0 * var(--base-scale) * 1px + var(--node-translate-z))
-          )
-          rotate3d(0, -0, 0, calc(-2 * acos(1)))
-          rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-          scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
       ">
         <div class="node Mane" style="
-          transform:
-            translate3d(
-              calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
-              calc(-1.0625 * var(--base-scale) * -1px + var(--node-translate-y)),
-              calc(0.5 * var(--base-scale) * 1px + var(--node-translate-z))
-            )
-            rotate3d(0, -0, 0, calc(-2 * acos(1)))
-            rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-            scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
+          --node-inherent-translate-y: -1.0625;
+          --node-inherent-translate-z: 0.5;
         ">
           <div class="rect" style="
           --a-x: calc(var(--base-scale) * 0.0625);
@@ -1847,26 +1659,12 @@
       </div>
     </div>
     <div class="node Saddle" style="
-      transform:
-        translate3d(
-          calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
-          calc(0.5625 * var(--base-scale) * -1px + var(--node-translate-y)),
-          calc(-0.4375 * var(--base-scale) * 1px + var(--node-translate-z))
-        )
-        rotate3d(0, -0, 0, calc(-2 * acos(1)))
-        rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-        scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
+      --node-inherent-translate-y: 0.5625;
+      --node-inherent-translate-z: -0.4375;
     ">
       <div class="node Saddle" style="
-        transform:
-          translate3d(
-            calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
-            calc(-1.375 * var(--base-scale) * -1px + var(--node-translate-y)),
-            calc(-0.125 * var(--base-scale) * 1px + var(--node-translate-z))
-          )
-          rotate3d(0, -0, 0, calc(-2 * acos(1)))
-          rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-          scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
+        --node-inherent-translate-y: -1.375;
+        --node-inherent-translate-z: -0.125;
       ">
         <div class="rect" style="
         --a-x: calc(var(--base-scale) * 0.34375);

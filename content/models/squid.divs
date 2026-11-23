@@ -1,37 +1,10 @@
 <div class="node base" style="
   --texture-0: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAAgCAYAAACinX6EAAADn0lEQVR4AdyYPWhUQRSFJ1tZiWjI36ayiIUQJBYSU6USIUkjtkoawUawtBIrS0EEwUa0sFBstLJKFRJFgwQsTGGVZGNcRaysEvcbuc+bm3k/M5u8EANn5845596Zue/ty0saLvLn+Klz2xonJ6a3BZpPjSO3k9nteplQEkQ3gHrHevucgHlf/4ADI6dHMx4dDcCPjk86oGPmAni8dSOpAbJJDg2Gm00nYC66jEeOnnC/f313Z948cQsvH/lx7vHdbEQTb+woV97m5fHWl9wAOSgHp+hwc7DTBND0dwOcBgcf2dpyDwcGPH1zaCgbr8y/8vFBfCQ3gM3K4YlX11oO/G1EEyoDV1gOvNJouHarlYGmYOQuYawbSQ2Qqx/aLE2At5576+uOw6NpwF3f2NBUrXFSA9ihvvrMyyC3PlffetG4Syxfxzy5AbGbK7rKaIfqK7D5daPzfV/L7cHq2k6Nw/EM4PveOzjo8xgBHHeAJw/gI/kOkCbYw8ocXZ9ncXzKPwN4Fpzv73eMHJ6r/3RiRltrjZMbwC45JODQAuF/tjcJPfh+cxd8vHDVTc7echyY8fnFWTd+6Vrm8UHNH0kN4HAaK5+WnQaaPgfa8sKcE+g5sUDn1BU35I2p6rjfG6u6D/F1ux9/B/DebsG7OdC8LKY5PBpaq8sv66SMvgGSyMuLQHMS63Fs7KybmZ7qvP7++zuAdwPytU/HaHg04LRHx2jaiwbHuFfIGiCF9YLEeQvxyhvSyKE5VqM+muXh0CwPh6Z55gBN8zGx9WYNQKC4PRhcaMHFd+877wIt0oKwOdTBaOvDhRDrD9WowmUNkAXlXd4m5x3I+kJznRuqL2tLbqxf8lJG3wC9YKhIaINzzx64F/dv77LDoe0SSoiyPdj0WL/Nl7lvgExixnb7W669SMtNOiAhuQGXb9xxwO4bDlh+v+Y/Pr/tKULZuskNyCtc9SGXl1837xvA+3zdC5etx98WZZ690H0DKFS0oNVomOWowdXnKY+GBw7omLkFfs3F+nVubJw1oGzRkG43LocPbcJ6radKfXKkTsiPHousASRKcWIBXGgx4dA1yBONWACHT+YywqHJXEbh0DXQRSPuFjsaQGG9GDFc3iJoIRT5qSlYWvrgyC/yo1vk+VP4HQ2gwH4uZuszD4H/J4SAV/PMu0WD36Ff5l/3VAFeUMWLBy8grgK8RaCG1btuQLcFDnv+rq/AYT9Q7P7/+waUNeQPAAAA///kDmYvAAAABklEQVQDAJ7YwF9YSQJaAAAAAElFTkSuQmCC);
   --base-scale: 800;
-  transform:
-    translate3d(
-      calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
-      calc(0 * var(--base-scale) * -1px + var(--node-translate-y)),
-      calc(0 * var(--base-scale) * 1px + var(--node-translate-z))
-    )
-    rotate3d(0, -0, 0, calc(-2 * acos(1)))
-    rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-    scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
 ">
   <div class="node body" style="
-    transform:
-      translate3d(
-        calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
-        calc(0 * var(--base-scale) * -1px + var(--node-translate-y)),
-        calc(0 * var(--base-scale) * 1px + var(--node-translate-z))
-      )
-      rotate3d(0, -0, 0, calc(-2 * acos(1)))
-      rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-      scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
   ">
     <div class="node body" style="
-      transform:
-        translate3d(
-          calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
-          calc(0 * var(--base-scale) * -1px + var(--node-translate-y)),
-          calc(0 * var(--base-scale) * 1px + var(--node-translate-z))
-        )
-        rotate3d(0, -0, 0, calc(-2 * acos(1)))
-        rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-        scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
     ">
       <div class="rect opaque" style="
       --a-x: calc(var(--base-scale) * 0.06);
@@ -143,26 +116,14 @@
       "></div>
     </div>
     <div class="node tentacle1" style="
-      transform:
-        translate3d(
-          calc(-0.05 * var(--base-scale) * 1px + var(--node-translate-x)),
-          calc(-0.07 * var(--base-scale) * -1px + var(--node-translate-y)),
-          calc(0 * var(--base-scale) * 1px + var(--node-translate-z))
-        )
-        rotate3d(0, 0.70710677, 0, calc(-2 * acos(0.70710677)))
-        rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-        scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
+      --node-inherent-translate-x: -0.05;
+      --node-inherent-translate-y: -0.07;
+      --node-inherent-rotation-y: 0.70710677;
+      --node-inherent-rotation-angle: -1.5707964rad;
     ">
       <div class="node tentacle1" style="
-        transform:
-          translate3d(
-            calc(0.05 * var(--base-scale) * 1px + var(--node-translate-x)),
-            calc(0.07 * var(--base-scale) * -1px + var(--node-translate-y)),
-            calc(0 * var(--base-scale) * 1px + var(--node-translate-z))
-          )
-          rotate3d(0, -0, 0, calc(-2 * acos(1)))
-          rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-          scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
+        --node-inherent-translate-x: 0.05;
+        --node-inherent-translate-y: 0.07;
       ">
         <div class="rect opaque" style="
         --a-x: calc(var(--base-scale) * -0.04);
@@ -275,26 +236,16 @@
       </div>
     </div>
     <div class="node tentacle2" style="
-      transform:
-        translate3d(
-          calc(-0.035 * var(--base-scale) * 1px + var(--node-translate-x)),
-          calc(-0.07 * var(--base-scale) * -1px + var(--node-translate-y)),
-          calc(0.035 * var(--base-scale) * 1px + var(--node-translate-z))
-        )
-        rotate3d(0, 0.38268343, 0, calc(-2 * acos(0.9238795)))
-        rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-        scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
+      --node-inherent-translate-x: -0.035;
+      --node-inherent-translate-y: -0.07;
+      --node-inherent-translate-z: 0.035;
+      --node-inherent-rotation-y: 0.38268343;
+      --node-inherent-rotation-angle: -0.7853983rad;
     ">
       <div class="node tentacle2" style="
-        transform:
-          translate3d(
-            calc(0.035 * var(--base-scale) * 1px + var(--node-translate-x)),
-            calc(0.07 * var(--base-scale) * -1px + var(--node-translate-y)),
-            calc(-0.035 * var(--base-scale) * 1px + var(--node-translate-z))
-          )
-          rotate3d(0, -0, 0, calc(-2 * acos(1)))
-          rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-          scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
+        --node-inherent-translate-x: 0.035;
+        --node-inherent-translate-y: 0.07;
+        --node-inherent-translate-z: -0.035;
       ">
         <div class="rect opaque" style="
         --a-x: calc(var(--base-scale) * -0.025);
@@ -407,26 +358,12 @@
       </div>
     </div>
     <div class="node tentacle3" style="
-      transform:
-        translate3d(
-          calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
-          calc(-0.07 * var(--base-scale) * -1px + var(--node-translate-y)),
-          calc(0.05 * var(--base-scale) * 1px + var(--node-translate-z))
-        )
-        rotate3d(0, -0, 0, calc(-2 * acos(1)))
-        rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-        scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
+      --node-inherent-translate-y: -0.07;
+      --node-inherent-translate-z: 0.05;
     ">
       <div class="node tentacle3" style="
-        transform:
-          translate3d(
-            calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
-            calc(0.07 * var(--base-scale) * -1px + var(--node-translate-y)),
-            calc(-0.05 * var(--base-scale) * 1px + var(--node-translate-z))
-          )
-          rotate3d(0, -0, 0, calc(-2 * acos(1)))
-          rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-          scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
+        --node-inherent-translate-y: 0.07;
+        --node-inherent-translate-z: -0.05;
       ">
         <div class="rect opaque" style="
         --a-x: calc(var(--base-scale) * 0.01);
@@ -539,26 +476,16 @@
       </div>
     </div>
     <div class="node tentacle4" style="
-      transform:
-        translate3d(
-          calc(0.035 * var(--base-scale) * 1px + var(--node-translate-x)),
-          calc(-0.07 * var(--base-scale) * -1px + var(--node-translate-y)),
-          calc(0.035 * var(--base-scale) * 1px + var(--node-translate-z))
-        )
-        rotate3d(0, -0.38268343, 0, calc(-2 * acos(0.9238795)))
-        rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-        scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
+      --node-inherent-translate-x: 0.035;
+      --node-inherent-translate-y: -0.07;
+      --node-inherent-translate-z: 0.035;
+      --node-inherent-rotation-y: -0.38268343;
+      --node-inherent-rotation-angle: -0.7853983rad;
     ">
       <div class="node tentacle4" style="
-        transform:
-          translate3d(
-            calc(-0.035 * var(--base-scale) * 1px + var(--node-translate-x)),
-            calc(0.07 * var(--base-scale) * -1px + var(--node-translate-y)),
-            calc(-0.035 * var(--base-scale) * 1px + var(--node-translate-z))
-          )
-          rotate3d(0, -0, 0, calc(-2 * acos(1)))
-          rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-          scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
+        --node-inherent-translate-x: -0.035;
+        --node-inherent-translate-y: 0.07;
+        --node-inherent-translate-z: -0.035;
       ">
         <div class="rect opaque" style="
         --a-x: calc(var(--base-scale) * 0.045);
@@ -671,26 +598,14 @@
       </div>
     </div>
     <div class="node tentacle5" style="
-      transform:
-        translate3d(
-          calc(0.05 * var(--base-scale) * 1px + var(--node-translate-x)),
-          calc(-0.07 * var(--base-scale) * -1px + var(--node-translate-y)),
-          calc(0 * var(--base-scale) * 1px + var(--node-translate-z))
-        )
-        rotate3d(0, -0.70710677, 0, calc(-2 * acos(0.70710677)))
-        rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-        scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
+      --node-inherent-translate-x: 0.05;
+      --node-inherent-translate-y: -0.07;
+      --node-inherent-rotation-y: -0.70710677;
+      --node-inherent-rotation-angle: -1.5707964rad;
     ">
       <div class="node tentacle5" style="
-        transform:
-          translate3d(
-            calc(-0.05 * var(--base-scale) * 1px + var(--node-translate-x)),
-            calc(0.07 * var(--base-scale) * -1px + var(--node-translate-y)),
-            calc(0 * var(--base-scale) * 1px + var(--node-translate-z))
-          )
-          rotate3d(0, -0, 0, calc(-2 * acos(1)))
-          rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-          scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
+        --node-inherent-translate-x: -0.05;
+        --node-inherent-translate-y: 0.07;
       ">
         <div class="rect opaque" style="
         --a-x: calc(var(--base-scale) * 0.06);
@@ -803,26 +718,16 @@
       </div>
     </div>
     <div class="node tentacle6" style="
-      transform:
-        translate3d(
-          calc(0.035 * var(--base-scale) * 1px + var(--node-translate-x)),
-          calc(-0.07 * var(--base-scale) * -1px + var(--node-translate-y)),
-          calc(-0.035 * var(--base-scale) * 1px + var(--node-translate-z))
-        )
-        rotate3d(0, -0.9238795, 0, calc(-2 * acos(0.38268343)))
-        rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-        scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
+      --node-inherent-translate-x: 0.035;
+      --node-inherent-translate-y: -0.07;
+      --node-inherent-translate-z: -0.035;
+      --node-inherent-rotation-y: -0.9238795;
+      --node-inherent-rotation-angle: -2.3561945rad;
     ">
       <div class="node tentacle6" style="
-        transform:
-          translate3d(
-            calc(-0.035 * var(--base-scale) * 1px + var(--node-translate-x)),
-            calc(0.07 * var(--base-scale) * -1px + var(--node-translate-y)),
-            calc(0.035 * var(--base-scale) * 1px + var(--node-translate-z))
-          )
-          rotate3d(0, -0, 0, calc(-2 * acos(1)))
-          rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-          scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
+        --node-inherent-translate-x: -0.035;
+        --node-inherent-translate-y: 0.07;
+        --node-inherent-translate-z: 0.035;
       ">
         <div class="rect opaque" style="
         --a-x: calc(var(--base-scale) * 0.045);
@@ -935,26 +840,14 @@
       </div>
     </div>
     <div class="node tentacle7" style="
-      transform:
-        translate3d(
-          calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
-          calc(-0.07 * var(--base-scale) * -1px + var(--node-translate-y)),
-          calc(-0.05 * var(--base-scale) * 1px + var(--node-translate-z))
-        )
-        rotate3d(0, -1, 0, calc(-2 * acos(0.00000000000000006123234)))
-        rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-        scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
+      --node-inherent-translate-y: -0.07;
+      --node-inherent-translate-z: -0.05;
+      --node-inherent-rotation-y: -1;
+      --node-inherent-rotation-angle: -3.1415927rad;
     ">
       <div class="node tentacle7" style="
-        transform:
-          translate3d(
-            calc(0 * var(--base-scale) * 1px + var(--node-translate-x)),
-            calc(0.07 * var(--base-scale) * -1px + var(--node-translate-y)),
-            calc(0.05 * var(--base-scale) * 1px + var(--node-translate-z))
-          )
-          rotate3d(0, -0, 0, calc(-2 * acos(1)))
-          rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-          scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
+        --node-inherent-translate-y: 0.07;
+        --node-inherent-translate-z: 0.05;
       ">
         <div class="rect opaque" style="
         --a-x: calc(var(--base-scale) * 0.01);
@@ -1067,26 +960,16 @@
       </div>
     </div>
     <div class="node tentacle8" style="
-      transform:
-        translate3d(
-          calc(-0.035 * var(--base-scale) * 1px + var(--node-translate-x)),
-          calc(-0.07 * var(--base-scale) * -1px + var(--node-translate-y)),
-          calc(-0.035 * var(--base-scale) * 1px + var(--node-translate-z))
-        )
-        rotate3d(0, -0.9238795, 0, calc(-2 * acos(-0.38268343)))
-        rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-        scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
+      --node-inherent-translate-x: -0.035;
+      --node-inherent-translate-y: -0.07;
+      --node-inherent-translate-z: -0.035;
+      --node-inherent-rotation-y: -0.9238795;
+      --node-inherent-rotation-angle: -3.9269907rad;
     ">
       <div class="node tentacle8" style="
-        transform:
-          translate3d(
-            calc(0.035 * var(--base-scale) * 1px + var(--node-translate-x)),
-            calc(0.07 * var(--base-scale) * -1px + var(--node-translate-y)),
-            calc(0.035 * var(--base-scale) * 1px + var(--node-translate-z))
-          )
-          rotate3d(0, -0, 0, calc(-2 * acos(1)))
-          rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
-          scale3d(calc(1 * var(--node-scale)), calc(1 * var(--node-scale)), calc(1 * var(--node-scale)));
+        --node-inherent-translate-x: 0.035;
+        --node-inherent-translate-y: 0.07;
+        --node-inherent-translate-z: 0.035;
       ">
         <div class="rect opaque" style="
         --a-x: calc(var(--base-scale) * -0.025);
