@@ -210,3 +210,23 @@
         color: white;
     }
 }
+
+img.embed-light {
+    display: block;
+
+    max-height: 40vh;
+    margin: 0;
+
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+p:has(> img.embed-light) {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+
+    padding: 10px;
+}

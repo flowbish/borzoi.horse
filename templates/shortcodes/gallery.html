@@ -114,3 +114,10 @@
   <p>{{ description | safe }}</p>
 </div>
 {% endcomponent gallery.embed %}
+
+{% component embed.light(src, description) %}
+<p>
+  <img src="{{ src }}" class="embed-light" alt="{{ description | safe }}"/>
+  {{ description | safe }}
+</p>
+{% endcomponent embed.light %}
