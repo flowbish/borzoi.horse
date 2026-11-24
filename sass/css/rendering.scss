@@ -540,7 +540,7 @@
 
 @property --texture-b-s {
     syntax: "<number>";
-    initial-value: 0;
+    initial-value: 1;
     inherits: true;
 }
 
@@ -558,7 +558,7 @@
 
 @property --texture-c-t {
     syntax: "<number>";
-    initial-value: 0;
+    initial-value: 1;
     inherits: true;
 }
 
