@@ -72,18 +72,21 @@ that's crazy, it's iris again!
 <!-- side 3 -->
 <div class="rect opaque" style="
     --a-x: -300;
-    --a-y: -800;
+    --a-y: -1200;
     --a-z: 0;
     --b-x: 300;
-    --b-y: -800;
+    --b-y: -1200;
     --b-z: 0;
     --c-x: -300;
-    --c-y: -200;
+    --c-y: -400;
     --c-z: 0;
 ">
 
 oh god a third side???
 
+anyway, check out this funny soundcloud meme:
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay; encrypted-media" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A267505379&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/lucy-bscale" title="BscalE" target="_blank" style="color: #cccccc; text-decoration: none;">BscalE</a> · <a href="https://soundcloud.com/lucy-bscale/rappers-endorse-japanese-cartoons" title="Rappers Endorse Japanese Cartoons (shaliek reupload)" target="_blank" style="color: #cccccc; text-decoration: none;">Rappers Endorse Japanese Cartoons (shaliek reupload)</a></div>
 
 {% <rendering id="iris3" z={200} y={300} animate={true}> %}
 {{ load_data(path="/models/iris.divs") }}
@@ -129,7 +132,7 @@ didn't even know that could happen
 
 #part-3:popover-open ~ #page {
     & > .camera-projection {
-        --cam-y: 1000;
+        --cam-y: 1200;
     }
 
     & > .camera-projection > .camera-roll > .camera-pitch > .camera-yaw {
