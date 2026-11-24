@@ -4,7 +4,7 @@ date = "2026-11-24"
 description = "Here's are few pictures of this world before it goes away for good"
 
 [extra]
-icon = "cover.jpg"
+icon = "cover.png"
 +++
 
 {% set manifest = "blog/2026-11-fofstography-farewell/gallery.toml" %}
