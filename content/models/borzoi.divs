@@ -2,20 +2,20 @@
   --texture-0: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAAgCAYAAACinX6EAAAGnUlEQVR4AdTZTYiVVRjA8XNfikbN0mYWiQUaEkpBhmKREBThJiESFxaiRdEm6YNWtbEgrE2f1KIPKNNqU0pglBYhUVJipAsxUFSowRaaQ6WOFNzu7zjP2+ntehVyZlL43+fznHue8/W+d6xeufvBNp5bcm87jfwb3L29ffjH/W1yx9rVbXz+wkPtTWseyDqbPpKehXz+bBQf186+uh3I0Q+KlKwe3L4lf58cZOcofegfuq98nBw+ni7qm0jNHNrxcZbxMfTL0TTlsqnp+jvuz65p829Pl0+flvX4OPnr4SQv7G5Sjn66xWYsWNT649hQkoNuOefSN3DlVS39Vavee7X12Ia3WiQHFHLwi7WpnAhFX3TJQCql3MDgh08Mh1nLrZ99mjZ/uD6RnANzFqZekzD9mgV5IuSOFr8f2ld3nXdAbY0oCjEJAVvxwk3Jhz+Hj6Xh4yeoqdzyHGWbxStWpXueeb/OkSsHcQwunjaLOWpcOGlK3XfXCRBVdMi+CX3UvD0p3bborJvvbC19el3eVnIgD02d3Y3yGDTjzqw7BvSgmRe2POz7cmPbxIY/pPb0Ki46F5OLDQKISaDv/ODF9P1HbyZyz5b1yRHxBdrrDHS5tjzoTfgDx4Je5sQklL6mbgxBM9a0J/RPT912VH0HOOe2uoYutm44s3OXPpIvQbpcbaC9yeCjk7Y86E34AzE6GVitcouG/2ylBUTkW7Rv1j2bLFbpt2ByKkVQFOaCmnHrygS+IGyDlTNr4eIIZakPK0JmR/GhDZOEIxHwBwq3g6yWPH6DDNjGAWMNFKadPDmII1vqxhZ3lIu23gHRkY59uUZWVIOfBw/lRxubH3KskEmAPEdl6MipR6UcKDIKCZvPLgnYYoitX/r4m4hbBDRjbMWrST2g8+Xx9U+VksrJqnTk0SaicxKK0pA+ZeZcor4Es9H5MBkdkW//vokT8iOSDcWX/fEpnDwdJsHqxGOq2b5sd3jP17Wp3zI3xishdONjBzEJldUMJ6mjaMQ2gxf0TfpX8dFuzqLl0vL9oGhG/xUz0433raFm9Ok9gbHs3cE0b8WT1HTiyOA/+i2PgQRttKWDzhfF230Q4yeNlyxp+mx/yMmPwRg4CQW7DO2CmAx+aBTSgBQxZWRrieHITwfS3s1vpMgzOO8JYvzfvXNqAoYO7OSqsQPk6rd2NpSy+AjFGMM2/qZuN6sn/CHzBDDKL7W6joZGYmwSZR4bdoFiy5hJEAui2Lr4zut1xEoZk8Dne21vdxDo/EEUpGC54e+m2wVRT+SR9QQwFAA6Zsy7JXmO0vlBL9m5ZUN+ZTZAqxcxuUGsfsRC2r4mLmzSMYgCxOR0Q/EKUph8udrbDaGz6Xx0uWRJZdAGb3ZtZw2gUzMrmQ1xefJDd7kc3LtfWo3z5TILvCXOX/lUq+S2R19uQW7dsKPYAdp11CQmpxuLn3g9t9enfLna+C56CZ88yCmpnCkz7JH3w1efpK2vrc4oOBLDJy5PfmzpyCH1RY4Fnv/eXs/0XW577wmR15T1i5DtlOk8zvKqdn4NesyZCHam85tAjk7yJHTOMVuMzX++UTlLBu18IBfUKZTPGSbDJw4+7UAXD519PlEZvKK8DHlz8s4PtkJMAhvi/PK1Ey8LH8td4LvK7zaWbhi/e65bjK9ywbgc4iKJy4MdhI/kk6+diwihkzo9Bzzc7OO3Pd+2S8QtgrugxJkP4uz3T740lW3FtUf9GNSJgD9QQLBETI4YyhhdHGLgKxGDGMpYF/2lpu/otl0pELP6oNsNgRUHv5UHPdqSEeevJ4Dxf+b4poE09abrMuU4FV7aoZdF8kXbZbv//tsnf2VVwYA/UsBq8ZMQw9uP35VQxsq4tuAr0RZiiBjf2TB745LW5Dk31Dh6cOxKHNHAOwXKdtueX94Sj+/Mj8F4kTFrJZKattyYdTE55zOVG735Y8azHwoLSYdcbehiJiHg60Xkkb3yxjKW74CyIEXFAOIdmg/8kRsxr8RBs7DSpkceydbfeFNFId0GEj+EmjFtItZ8JVbY0IFdCX43kHxlH0Odn8ERK/3joVcKURC6DaAcvBxoI1fMfaAgKAr0TOdVmeQDPcOPzkToZzypbG0FoTkQMQNXqJgc8AX8eRI6BdF7cbZ5vfo417F8BygUp+s8YiSaeV5IoEAxEqGHlAM2Ioc+XuQJ6PXl3v2bcb8JAn9t9edm0PNjsvMXYnoQPjkIP9nse6ztyvt9L7w09Ir777D/wmgXfKb+/wIAAP//Ljzq8wAAAAZJREFUAwBOy5GM3AdJkQAAAABJRU5ErkJggg==);
   --base-scale: 200;
 ">
-  <div class="node root" style="
+  <div class="node root node-27" style="
     --node-inherent-translate-y: 0.6875;
     --node-inherent-translate-z: 0.0625;
   ">
-    <div class="node body" style="
+    <div class="node body node-26" style="
       --node-inherent-rotation-x: -0.70710677;
       --node-inherent-rotation-angle: -1.5707964rad;
     ">
-      <div class="node torso" style="
+      <div class="node torso node-3" style="
         --node-inherent-translate-x: 0.25;
         --node-inherent-translate-y: -0.1875;
         --node-inherent-translate-z: -0.25;
       ">
-        <div class="node body" style="
+        <div class="node body node-0" style="
           --node-inherent-translate-x: -0.21875;
           --node-inherent-translate-y: 0.1875;
           --node-inherent-translate-z: 0.25;
@@ -129,7 +129,7 @@
           --texture-c-t: 0.5932617;
           "></div>
         </div>
-        <div class="node left_fluff" style="
+        <div class="node left_fluff node-1" style="
           --node-inherent-translate-x: -0.40625;
           --node-inherent-translate-y: 0.21875;
           --node-inherent-translate-z: 0.0625;
@@ -153,7 +153,7 @@
           --texture-c-t: 0.4375;
           "></div>
         </div>
-        <div class="node right_fluff" style="
+        <div class="node right_fluff node-2" style="
           --node-inherent-translate-x: -0.09375;
           --node-inherent-translate-y: 0.21875;
           --node-inherent-translate-z: 0.0625;
@@ -178,14 +178,14 @@
           "></div>
         </div>
       </div>
-      <div class="node back_right_leg" style="
+      <div class="node back_right_leg node-5" style="
         --node-inherent-translate-x: 0.078125;
         --node-inherent-translate-y: -0.3125;
         --node-inherent-translate-z: -0.125;
         --node-inherent-rotation-x: 0.70710677;
         --node-inherent-rotation-angle: -1.5707964rad;
       ">
-        <div class="node back_right_leg" style="
+        <div class="node back_right_leg node-4" style="
         ">
           <div class="rect opaque" style="
           --a-x: calc(var(--base-scale) * 0.0625);
@@ -297,23 +297,23 @@
           "></div>
         </div>
       </div>
-      <div class="node back_left_leg" style="
+      <div class="node back_left_leg node-7" style="
         --node-inherent-translate-x: -0.078125;
-        --node-inherent-translate-y: -0.125;
-        --node-inherent-translate-z: 0.375;
+        --node-inherent-translate-y: -0.3125;
+        --node-inherent-translate-z: -0.125;
         --node-inherent-rotation-x: 0.70710677;
         --node-inherent-rotation-angle: -1.5707964rad;
       ">
-        <div class="node back_left_leg" style="
-          --node-inherent-translate-y: -0.5;
-          --node-inherent-translate-z: 0.1875;
+        <div class="node back_left_leg node-6" style="
+          --node-inherent-translate-y: 0.00000000000000005551115;
+          --node-inherent-translate-z: 0.000000000000000041633363;
         ">
           <div class="rect opaque" style="
           --a-x: calc(var(--base-scale) * 0.0625);
-          --a-y: calc(var(--base-scale) * -0);
+          --a-y: calc(var(--base-scale) * 0.00000000000000005551115);
           --a-z: calc(var(--base-scale) * 0.0625);
           --b-x: calc(var(--base-scale) * 0.0625);
-          --b-y: calc(var(--base-scale) * -0);
+          --b-y: calc(var(--base-scale) * 0.00000000000000005551115);
           --b-z: calc(var(--base-scale) * -0.0625);
           --c-x: calc(var(--base-scale) * 0.0625);
           --c-y: calc(var(--base-scale) * 0.5625);
@@ -328,10 +328,10 @@
           "></div>
           <div class="rect opaque" style="
           --a-x: calc(var(--base-scale) * -0.0625);
-          --a-y: calc(var(--base-scale) * -0);
+          --a-y: calc(var(--base-scale) * 0.00000000000000005551115);
           --a-z: calc(var(--base-scale) * -0.0625);
           --b-x: calc(var(--base-scale) * -0.0625);
-          --b-y: calc(var(--base-scale) * -0);
+          --b-y: calc(var(--base-scale) * 0.00000000000000005551115);
           --b-z: calc(var(--base-scale) * 0.0625);
           --c-x: calc(var(--base-scale) * -0.0625);
           --c-y: calc(var(--base-scale) * 0.5625);
@@ -346,13 +346,13 @@
           "></div>
           <div class="rect opaque" style="
           --a-x: calc(var(--base-scale) * -0.0625);
-          --a-y: calc(var(--base-scale) * -0);
+          --a-y: calc(var(--base-scale) * 0.00000000000000005551115);
           --a-z: calc(var(--base-scale) * -0.0625);
           --b-x: calc(var(--base-scale) * 0.0625);
-          --b-y: calc(var(--base-scale) * -0);
+          --b-y: calc(var(--base-scale) * 0.00000000000000005551115);
           --b-z: calc(var(--base-scale) * -0.0625);
           --c-x: calc(var(--base-scale) * -0.0625);
-          --c-y: calc(var(--base-scale) * -0);
+          --c-y: calc(var(--base-scale) * 0.00000000000000005551115);
           --c-z: calc(var(--base-scale) * 0.0625);
           --texture-image: var(--texture-0);
           --texture-a-s: 0.18725586;
@@ -382,10 +382,10 @@
           "></div>
           <div class="rect opaque" style="
           --a-x: calc(var(--base-scale) * -0.0625);
-          --a-y: calc(var(--base-scale) * -0);
+          --a-y: calc(var(--base-scale) * 0.00000000000000005551115);
           --a-z: calc(var(--base-scale) * 0.0625);
           --b-x: calc(var(--base-scale) * 0.0625);
-          --b-y: calc(var(--base-scale) * -0);
+          --b-y: calc(var(--base-scale) * 0.00000000000000005551115);
           --b-z: calc(var(--base-scale) * 0.0625);
           --c-x: calc(var(--base-scale) * -0.0625);
           --c-y: calc(var(--base-scale) * 0.5625);
@@ -400,10 +400,10 @@
           "></div>
           <div class="rect opaque" style="
           --a-x: calc(var(--base-scale) * 0.0625);
-          --a-y: calc(var(--base-scale) * -0);
+          --a-y: calc(var(--base-scale) * 0.00000000000000005551115);
           --a-z: calc(var(--base-scale) * -0.0625);
           --b-x: calc(var(--base-scale) * -0.0625);
-          --b-y: calc(var(--base-scale) * -0);
+          --b-y: calc(var(--base-scale) * 0.00000000000000005551115);
           --b-z: calc(var(--base-scale) * -0.0625);
           --c-x: calc(var(--base-scale) * 0.0625);
           --c-y: calc(var(--base-scale) * 0.5625);
@@ -418,14 +418,14 @@
           "></div>
         </div>
       </div>
-      <div class="node front_right_leg" style="
+      <div class="node front_right_leg node-9" style="
         --node-inherent-translate-x: 0.078125;
         --node-inherent-translate-y: 0.3125;
         --node-inherent-translate-z: -0.125;
         --node-inherent-rotation-x: 0.70710677;
         --node-inherent-rotation-angle: -1.5707964rad;
       ">
-        <div class="node front_right_leg" style="
+        <div class="node front_right_leg node-8" style="
         ">
           <div class="rect opaque" style="
           --a-x: calc(var(--base-scale) * 0.0625);
@@ -537,14 +537,14 @@
           "></div>
         </div>
       </div>
-      <div class="node front_left_leg" style="
+      <div class="node front_left_leg node-11" style="
         --node-inherent-translate-x: -0.078125;
         --node-inherent-translate-y: 0.3125;
         --node-inherent-translate-z: -0.125;
         --node-inherent-rotation-x: 0.70710677;
         --node-inherent-rotation-angle: -1.5707964rad;
       ">
-        <div class="node front_leg_leg" style="
+        <div class="node front_leg_leg node-10" style="
         ">
           <div class="rect opaque" style="
           --a-x: calc(var(--base-scale) * 0.0625);
@@ -656,260 +656,130 @@
           "></div>
         </div>
       </div>
-      <div class="node neck" style="
+      <div class="node neck node-20" style="
         --node-inherent-translate-y: 0.4375;
         --node-inherent-translate-z: -0.03125;
         --node-inherent-rotation-x: 0.6593458;
         --node-inherent-rotation-angle: -1.4398966rad;
       ">
-        <div class="node head" style="
+        <div class="node neck node-12" style="
+          --node-inherent-translate-y: 0.1875;
+        ">
+          <div class="rect opaque" style="
+          --a-x: calc(var(--base-scale) * 0.090625);
+          --a-y: calc(var(--base-scale) * -0.184375);
+          --a-z: calc(var(--base-scale) * 0.090625);
+          --b-x: calc(var(--base-scale) * 0.090625);
+          --b-y: calc(var(--base-scale) * -0.184375);
+          --b-z: calc(var(--base-scale) * -0.090625);
+          --c-x: calc(var(--base-scale) * 0.090625);
+          --c-y: calc(var(--base-scale) * 0.246875);
+          --c-z: calc(var(--base-scale) * 0.090625);
+          --texture-image: var(--texture-0);
+          --texture-a-s: 0.60961914;
+          --texture-a-t: 0.21923828;
+          --texture-b-s: 0.65600586;
+          --texture-b-t: 0.21923828;
+          --texture-c-s: 0.60961914;
+          --texture-c-t: 0.43701172;
+          "></div>
+          <div class="rect opaque" style="
+          --a-x: calc(var(--base-scale) * -0.090625);
+          --a-y: calc(var(--base-scale) * -0.184375);
+          --a-z: calc(var(--base-scale) * -0.090625);
+          --b-x: calc(var(--base-scale) * -0.090625);
+          --b-y: calc(var(--base-scale) * -0.184375);
+          --b-z: calc(var(--base-scale) * 0.090625);
+          --c-x: calc(var(--base-scale) * -0.090625);
+          --c-y: calc(var(--base-scale) * 0.246875);
+          --c-z: calc(var(--base-scale) * -0.090625);
+          --texture-image: var(--texture-0);
+          --texture-a-s: 0.70336914;
+          --texture-a-t: 0.21923828;
+          --texture-b-s: 0.74975586;
+          --texture-b-t: 0.21923828;
+          --texture-c-s: 0.70336914;
+          --texture-c-t: 0.43701172;
+          "></div>
+          <div class="rect opaque" style="
+          --a-x: calc(var(--base-scale) * -0.090625);
+          --a-y: calc(var(--base-scale) * -0.184375);
+          --a-z: calc(var(--base-scale) * -0.090625);
+          --b-x: calc(var(--base-scale) * 0.090625);
+          --b-y: calc(var(--base-scale) * -0.184375);
+          --b-z: calc(var(--base-scale) * -0.090625);
+          --c-x: calc(var(--base-scale) * -0.090625);
+          --c-y: calc(var(--base-scale) * -0.184375);
+          --c-z: calc(var(--base-scale) * 0.090625);
+          --texture-image: var(--texture-0);
+          --texture-a-s: 0.70288086;
+          --texture-a-t: 0.21826172;
+          --texture-b-s: 0.65649414;
+          --texture-b-t: 0.21826172;
+          --texture-c-s: 0.70288086;
+          --texture-c-t: 0.12548828;
+          "></div>
+          <div class="rect opaque" style="
+          --a-x: calc(var(--base-scale) * -0.090625);
+          --a-y: calc(var(--base-scale) * 0.246875);
+          --a-z: calc(var(--base-scale) * 0.090625);
+          --b-x: calc(var(--base-scale) * 0.090625);
+          --b-y: calc(var(--base-scale) * 0.246875);
+          --b-z: calc(var(--base-scale) * 0.090625);
+          --c-x: calc(var(--base-scale) * -0.090625);
+          --c-y: calc(var(--base-scale) * 0.246875);
+          --c-z: calc(var(--base-scale) * -0.090625);
+          --texture-image: var(--texture-0);
+          --texture-a-s: 0.74975586;
+          --texture-a-t: 0.12548828;
+          --texture-b-s: 0.70336914;
+          --texture-b-t: 0.12548828;
+          --texture-c-s: 0.74975586;
+          --texture-c-t: 0.21826172;
+          "></div>
+          <div class="rect opaque" style="
+          --a-x: calc(var(--base-scale) * -0.090625);
+          --a-y: calc(var(--base-scale) * -0.184375);
+          --a-z: calc(var(--base-scale) * 0.090625);
+          --b-x: calc(var(--base-scale) * 0.090625);
+          --b-y: calc(var(--base-scale) * -0.184375);
+          --b-z: calc(var(--base-scale) * 0.090625);
+          --c-x: calc(var(--base-scale) * -0.090625);
+          --c-y: calc(var(--base-scale) * 0.246875);
+          --c-z: calc(var(--base-scale) * 0.090625);
+          --texture-image: var(--texture-0);
+          --texture-a-s: 0.75024414;
+          --texture-a-t: 0.21923828;
+          --texture-b-s: 0.79663086;
+          --texture-b-t: 0.21923828;
+          --texture-c-s: 0.75024414;
+          --texture-c-t: 0.43701172;
+          "></div>
+          <div class="rect opaque" style="
+          --a-x: calc(var(--base-scale) * 0.090625);
+          --a-y: calc(var(--base-scale) * -0.184375);
+          --a-z: calc(var(--base-scale) * -0.090625);
+          --b-x: calc(var(--base-scale) * -0.090625);
+          --b-y: calc(var(--base-scale) * -0.184375);
+          --b-z: calc(var(--base-scale) * -0.090625);
+          --c-x: calc(var(--base-scale) * 0.090625);
+          --c-y: calc(var(--base-scale) * 0.246875);
+          --c-z: calc(var(--base-scale) * -0.090625);
+          --texture-image: var(--texture-0);
+          --texture-a-s: 0.65649414;
+          --texture-a-t: 0.21923828;
+          --texture-b-s: 0.70288086;
+          --texture-b-t: 0.21923828;
+          --texture-c-s: 0.65649414;
+          --texture-c-t: 0.43701172;
+          "></div>
+        </div>
+        <div class="node head node-19" style="
           --node-inherent-translate-y: 0.40625;
           --node-inherent-rotation-x: -0.70710677;
           --node-inherent-rotation-angle: -1.5707964rad;
         ">
-          <div class="node right_ear" style="
-            --node-inherent-translate-x: 0.09375;
-            --node-inherent-translate-y: -0.03125;
-            --node-inherent-translate-z: 0.09375;
-            --node-inherent-rotation-x: 0.12975039;
-            --node-inherent-rotation-y: 0.1079355;
-            --node-inherent-rotation-z: 0.014209978;
-            --node-inherent-rotation-angle: -0.34038627rad;
-          ">
-            <div class="node right_ear" style="
-            ">
-              <div class="rect opaque" style="
-              --a-x: calc(var(--base-scale) * 0.0625);
-              --a-y: calc(var(--base-scale) * -0.09375);
-              --a-z: calc(var(--base-scale) * 0);
-              --b-x: calc(var(--base-scale) * 0.0625);
-              --b-y: calc(var(--base-scale) * -0.09375);
-              --b-z: calc(var(--base-scale) * -0.25);
-              --c-x: calc(var(--base-scale) * 0.0625);
-              --c-y: calc(var(--base-scale) * 0.09375);
-              --c-z: calc(var(--base-scale) * 0);
-              --texture-image: var(--texture-0);
-              --texture-a-s: 0.81274414;
-              --texture-a-t: 0.5942383;
-              --texture-b-s: 0.87475586;
-              --texture-b-t: 0.5942383;
-              --texture-c-s: 0.81274414;
-              --texture-c-t: 0.6870117;
-              "></div>
-              <div class="rect opaque" style="
-              --a-x: calc(var(--base-scale) * 0);
-              --a-y: calc(var(--base-scale) * -0.09375);
-              --a-z: calc(var(--base-scale) * -0.25);
-              --b-x: calc(var(--base-scale) * 0);
-              --b-y: calc(var(--base-scale) * -0.09375);
-              --b-z: calc(var(--base-scale) * 0);
-              --c-x: calc(var(--base-scale) * 0);
-              --c-y: calc(var(--base-scale) * 0.09375);
-              --c-z: calc(var(--base-scale) * -0.25);
-              --texture-image: var(--texture-0);
-              --texture-a-s: 0.89086914;
-              --texture-a-t: 0.5942383;
-              --texture-b-s: 0.95288086;
-              --texture-b-t: 0.5942383;
-              --texture-c-s: 0.89086914;
-              --texture-c-t: 0.6870117;
-              "></div>
-              <div class="rect opaque" style="
-              --a-x: calc(var(--base-scale) * 0);
-              --a-y: calc(var(--base-scale) * -0.09375);
-              --a-z: calc(var(--base-scale) * -0.25);
-              --b-x: calc(var(--base-scale) * 0.0625);
-              --b-y: calc(var(--base-scale) * -0.09375);
-              --b-z: calc(var(--base-scale) * -0.25);
-              --c-x: calc(var(--base-scale) * 0);
-              --c-y: calc(var(--base-scale) * -0.09375);
-              --c-z: calc(var(--base-scale) * 0);
-              --texture-image: var(--texture-0);
-              --texture-a-s: 0.89038086;
-              --texture-a-t: 0.5932617;
-              --texture-b-s: 0.87524414;
-              --texture-b-t: 0.5932617;
-              --texture-c-s: 0.89038086;
-              --texture-c-t: 0.46923828;
-              "></div>
-              <div class="rect opaque" style="
-              --a-x: calc(var(--base-scale) * 0);
-              --a-y: calc(var(--base-scale) * 0.09375);
-              --a-z: calc(var(--base-scale) * 0);
-              --b-x: calc(var(--base-scale) * 0.0625);
-              --b-y: calc(var(--base-scale) * 0.09375);
-              --b-z: calc(var(--base-scale) * 0);
-              --c-x: calc(var(--base-scale) * 0);
-              --c-y: calc(var(--base-scale) * 0.09375);
-              --c-z: calc(var(--base-scale) * -0.25);
-              --texture-image: var(--texture-0);
-              --texture-a-s: 0.90600586;
-              --texture-a-t: 0.46923828;
-              --texture-b-s: 0.89086914;
-              --texture-b-t: 0.46923828;
-              --texture-c-s: 0.90600586;
-              --texture-c-t: 0.5932617;
-              "></div>
-              <div class="rect opaque" style="
-              --a-x: calc(var(--base-scale) * 0);
-              --a-y: calc(var(--base-scale) * -0.09375);
-              --a-z: calc(var(--base-scale) * 0);
-              --b-x: calc(var(--base-scale) * 0.0625);
-              --b-y: calc(var(--base-scale) * -0.09375);
-              --b-z: calc(var(--base-scale) * 0);
-              --c-x: calc(var(--base-scale) * 0);
-              --c-y: calc(var(--base-scale) * 0.09375);
-              --c-z: calc(var(--base-scale) * 0);
-              --texture-image: var(--texture-0);
-              --texture-a-s: 0.95336914;
-              --texture-a-t: 0.5942383;
-              --texture-b-s: 0.96850586;
-              --texture-b-t: 0.5942383;
-              --texture-c-s: 0.95336914;
-              --texture-c-t: 0.6870117;
-              "></div>
-              <div class="rect opaque" style="
-              --a-x: calc(var(--base-scale) * 0.0625);
-              --a-y: calc(var(--base-scale) * -0.09375);
-              --a-z: calc(var(--base-scale) * -0.25);
-              --b-x: calc(var(--base-scale) * 0);
-              --b-y: calc(var(--base-scale) * -0.09375);
-              --b-z: calc(var(--base-scale) * -0.25);
-              --c-x: calc(var(--base-scale) * 0.0625);
-              --c-y: calc(var(--base-scale) * 0.09375);
-              --c-z: calc(var(--base-scale) * -0.25);
-              --texture-image: var(--texture-0);
-              --texture-a-s: 0.87524414;
-              --texture-a-t: 0.5942383;
-              --texture-b-s: 0.89038086;
-              --texture-b-t: 0.5942383;
-              --texture-c-s: 0.87524414;
-              --texture-c-t: 0.6870117;
-              "></div>
-            </div>
-          </div>
-          <div class="node left_ear" style="
-            --node-inherent-translate-x: -0.09375;
-            --node-inherent-translate-y: -0.03125;
-            --node-inherent-translate-z: 0.09375;
-            --node-inherent-rotation-x: 0.12975039;
-            --node-inherent-rotation-y: -0.1079355;
-            --node-inherent-rotation-z: -0.014209978;
-            --node-inherent-rotation-angle: -0.34038627rad;
-          ">
-            <div class="node left_ear" style="
-            ">
-              <div class="rect opaque" style="
-              --a-x: calc(var(--base-scale) * 0);
-              --a-y: calc(var(--base-scale) * -0.09375);
-              --a-z: calc(var(--base-scale) * 0);
-              --b-x: calc(var(--base-scale) * 0);
-              --b-y: calc(var(--base-scale) * -0.09375);
-              --b-z: calc(var(--base-scale) * -0.25);
-              --c-x: calc(var(--base-scale) * 0);
-              --c-y: calc(var(--base-scale) * 0.09375);
-              --c-z: calc(var(--base-scale) * 0);
-              --texture-image: var(--texture-0);
-              --texture-a-s: 0.65649414;
-              --texture-a-t: 0.5942383;
-              --texture-b-s: 0.71850586;
-              --texture-b-t: 0.5942383;
-              --texture-c-s: 0.65649414;
-              --texture-c-t: 0.6870117;
-              "></div>
-              <div class="rect opaque" style="
-              --a-x: calc(var(--base-scale) * -0.0625);
-              --a-y: calc(var(--base-scale) * -0.09375);
-              --a-z: calc(var(--base-scale) * -0.25);
-              --b-x: calc(var(--base-scale) * -0.0625);
-              --b-y: calc(var(--base-scale) * -0.09375);
-              --b-z: calc(var(--base-scale) * 0);
-              --c-x: calc(var(--base-scale) * -0.0625);
-              --c-y: calc(var(--base-scale) * 0.09375);
-              --c-z: calc(var(--base-scale) * -0.25);
-              --texture-image: var(--texture-0);
-              --texture-a-s: 0.73461914;
-              --texture-a-t: 0.5942383;
-              --texture-b-s: 0.79663086;
-              --texture-b-t: 0.5942383;
-              --texture-c-s: 0.73461914;
-              --texture-c-t: 0.6870117;
-              "></div>
-              <div class="rect opaque" style="
-              --a-x: calc(var(--base-scale) * -0.0625);
-              --a-y: calc(var(--base-scale) * -0.09375);
-              --a-z: calc(var(--base-scale) * -0.25);
-              --b-x: calc(var(--base-scale) * 0);
-              --b-y: calc(var(--base-scale) * -0.09375);
-              --b-z: calc(var(--base-scale) * -0.25);
-              --c-x: calc(var(--base-scale) * -0.0625);
-              --c-y: calc(var(--base-scale) * -0.09375);
-              --c-z: calc(var(--base-scale) * 0);
-              --texture-image: var(--texture-0);
-              --texture-a-s: 0.73413086;
-              --texture-a-t: 0.5932617;
-              --texture-b-s: 0.71899414;
-              --texture-b-t: 0.5932617;
-              --texture-c-s: 0.73413086;
-              --texture-c-t: 0.46923828;
-              "></div>
-              <div class="rect opaque" style="
-              --a-x: calc(var(--base-scale) * -0.0625);
-              --a-y: calc(var(--base-scale) * 0.09375);
-              --a-z: calc(var(--base-scale) * 0);
-              --b-x: calc(var(--base-scale) * 0);
-              --b-y: calc(var(--base-scale) * 0.09375);
-              --b-z: calc(var(--base-scale) * 0);
-              --c-x: calc(var(--base-scale) * -0.0625);
-              --c-y: calc(var(--base-scale) * 0.09375);
-              --c-z: calc(var(--base-scale) * -0.25);
-              --texture-image: var(--texture-0);
-              --texture-a-s: 0.74975586;
-              --texture-a-t: 0.46923828;
-              --texture-b-s: 0.73461914;
-              --texture-b-t: 0.46923828;
-              --texture-c-s: 0.74975586;
-              --texture-c-t: 0.5932617;
-              "></div>
-              <div class="rect opaque" style="
-              --a-x: calc(var(--base-scale) * -0.0625);
-              --a-y: calc(var(--base-scale) * -0.09375);
-              --a-z: calc(var(--base-scale) * 0);
-              --b-x: calc(var(--base-scale) * 0);
-              --b-y: calc(var(--base-scale) * -0.09375);
-              --b-z: calc(var(--base-scale) * 0);
-              --c-x: calc(var(--base-scale) * -0.0625);
-              --c-y: calc(var(--base-scale) * 0.09375);
-              --c-z: calc(var(--base-scale) * 0);
-              --texture-image: var(--texture-0);
-              --texture-a-s: 0.79711914;
-              --texture-a-t: 0.5942383;
-              --texture-b-s: 0.81225586;
-              --texture-b-t: 0.5942383;
-              --texture-c-s: 0.79711914;
-              --texture-c-t: 0.6870117;
-              "></div>
-              <div class="rect opaque" style="
-              --a-x: calc(var(--base-scale) * 0);
-              --a-y: calc(var(--base-scale) * -0.09375);
-              --a-z: calc(var(--base-scale) * -0.25);
-              --b-x: calc(var(--base-scale) * -0.0625);
-              --b-y: calc(var(--base-scale) * -0.09375);
-              --b-z: calc(var(--base-scale) * -0.25);
-              --c-x: calc(var(--base-scale) * 0);
-              --c-y: calc(var(--base-scale) * 0.09375);
-              --c-z: calc(var(--base-scale) * -0.25);
-              --texture-image: var(--texture-0);
-              --texture-a-s: 0.71899414;
-              --texture-a-t: 0.5942383;
-              --texture-b-s: 0.73413086;
-              --texture-b-t: 0.5942383;
-              --texture-c-s: 0.71899414;
-              --texture-c-t: 0.6870117;
-              "></div>
-            </div>
-          </div>
-          <div class="node head" style="
+          <div class="node head node-13" style="
             --node-inherent-translate-y: -0.09375;
             --node-inherent-translate-z: -0.03125;
           ">
@@ -1022,7 +892,7 @@
             --texture-c-t: 0.43701172;
             "></div>
           </div>
-          <div class="node tongue" style="
+          <div class="node tongue node-14" style="
             --node-inherent-translate-x: 0.09375;
             --node-inherent-translate-y: 0.40625;
             --node-inherent-translate-z: -0.078125;
@@ -1048,128 +918,258 @@
             --texture-c-t: 0.0625;
             "></div>
           </div>
-        </div>
-        <div class="node neck" style="
-          --node-inherent-translate-y: 0.1875;
-        ">
-          <div class="rect opaque" style="
-          --a-x: calc(var(--base-scale) * 0.090625);
-          --a-y: calc(var(--base-scale) * -0.184375);
-          --a-z: calc(var(--base-scale) * 0.090625);
-          --b-x: calc(var(--base-scale) * 0.090625);
-          --b-y: calc(var(--base-scale) * -0.184375);
-          --b-z: calc(var(--base-scale) * -0.090625);
-          --c-x: calc(var(--base-scale) * 0.090625);
-          --c-y: calc(var(--base-scale) * 0.246875);
-          --c-z: calc(var(--base-scale) * 0.090625);
-          --texture-image: var(--texture-0);
-          --texture-a-s: 0.60961914;
-          --texture-a-t: 0.21923828;
-          --texture-b-s: 0.65600586;
-          --texture-b-t: 0.21923828;
-          --texture-c-s: 0.60961914;
-          --texture-c-t: 0.43701172;
-          "></div>
-          <div class="rect opaque" style="
-          --a-x: calc(var(--base-scale) * -0.090625);
-          --a-y: calc(var(--base-scale) * -0.184375);
-          --a-z: calc(var(--base-scale) * -0.090625);
-          --b-x: calc(var(--base-scale) * -0.090625);
-          --b-y: calc(var(--base-scale) * -0.184375);
-          --b-z: calc(var(--base-scale) * 0.090625);
-          --c-x: calc(var(--base-scale) * -0.090625);
-          --c-y: calc(var(--base-scale) * 0.246875);
-          --c-z: calc(var(--base-scale) * -0.090625);
-          --texture-image: var(--texture-0);
-          --texture-a-s: 0.70336914;
-          --texture-a-t: 0.21923828;
-          --texture-b-s: 0.74975586;
-          --texture-b-t: 0.21923828;
-          --texture-c-s: 0.70336914;
-          --texture-c-t: 0.43701172;
-          "></div>
-          <div class="rect opaque" style="
-          --a-x: calc(var(--base-scale) * -0.090625);
-          --a-y: calc(var(--base-scale) * -0.184375);
-          --a-z: calc(var(--base-scale) * -0.090625);
-          --b-x: calc(var(--base-scale) * 0.090625);
-          --b-y: calc(var(--base-scale) * -0.184375);
-          --b-z: calc(var(--base-scale) * -0.090625);
-          --c-x: calc(var(--base-scale) * -0.090625);
-          --c-y: calc(var(--base-scale) * -0.184375);
-          --c-z: calc(var(--base-scale) * 0.090625);
-          --texture-image: var(--texture-0);
-          --texture-a-s: 0.70288086;
-          --texture-a-t: 0.21826172;
-          --texture-b-s: 0.65649414;
-          --texture-b-t: 0.21826172;
-          --texture-c-s: 0.70288086;
-          --texture-c-t: 0.12548828;
-          "></div>
-          <div class="rect opaque" style="
-          --a-x: calc(var(--base-scale) * -0.090625);
-          --a-y: calc(var(--base-scale) * 0.246875);
-          --a-z: calc(var(--base-scale) * 0.090625);
-          --b-x: calc(var(--base-scale) * 0.090625);
-          --b-y: calc(var(--base-scale) * 0.246875);
-          --b-z: calc(var(--base-scale) * 0.090625);
-          --c-x: calc(var(--base-scale) * -0.090625);
-          --c-y: calc(var(--base-scale) * 0.246875);
-          --c-z: calc(var(--base-scale) * -0.090625);
-          --texture-image: var(--texture-0);
-          --texture-a-s: 0.74975586;
-          --texture-a-t: 0.12548828;
-          --texture-b-s: 0.70336914;
-          --texture-b-t: 0.12548828;
-          --texture-c-s: 0.74975586;
-          --texture-c-t: 0.21826172;
-          "></div>
-          <div class="rect opaque" style="
-          --a-x: calc(var(--base-scale) * -0.090625);
-          --a-y: calc(var(--base-scale) * -0.184375);
-          --a-z: calc(var(--base-scale) * 0.090625);
-          --b-x: calc(var(--base-scale) * 0.090625);
-          --b-y: calc(var(--base-scale) * -0.184375);
-          --b-z: calc(var(--base-scale) * 0.090625);
-          --c-x: calc(var(--base-scale) * -0.090625);
-          --c-y: calc(var(--base-scale) * 0.246875);
-          --c-z: calc(var(--base-scale) * 0.090625);
-          --texture-image: var(--texture-0);
-          --texture-a-s: 0.75024414;
-          --texture-a-t: 0.21923828;
-          --texture-b-s: 0.79663086;
-          --texture-b-t: 0.21923828;
-          --texture-c-s: 0.75024414;
-          --texture-c-t: 0.43701172;
-          "></div>
-          <div class="rect opaque" style="
-          --a-x: calc(var(--base-scale) * 0.090625);
-          --a-y: calc(var(--base-scale) * -0.184375);
-          --a-z: calc(var(--base-scale) * -0.090625);
-          --b-x: calc(var(--base-scale) * -0.090625);
-          --b-y: calc(var(--base-scale) * -0.184375);
-          --b-z: calc(var(--base-scale) * -0.090625);
-          --c-x: calc(var(--base-scale) * 0.090625);
-          --c-y: calc(var(--base-scale) * 0.246875);
-          --c-z: calc(var(--base-scale) * -0.090625);
-          --texture-image: var(--texture-0);
-          --texture-a-s: 0.65649414;
-          --texture-a-t: 0.21923828;
-          --texture-b-s: 0.70288086;
-          --texture-b-t: 0.21923828;
-          --texture-c-s: 0.65649414;
-          --texture-c-t: 0.43701172;
-          "></div>
+          <div class="node right_ear node-16" style="
+            --node-inherent-translate-x: 0.09375;
+            --node-inherent-translate-y: -0.03125;
+            --node-inherent-translate-z: 0.09375;
+            --node-inherent-rotation-x: 0.12975039;
+            --node-inherent-rotation-y: 0.1079355;
+            --node-inherent-rotation-z: 0.014209978;
+            --node-inherent-rotation-angle: -0.34038627rad;
+          ">
+            <div class="node right_ear node-15" style="
+            ">
+              <div class="rect opaque" style="
+              --a-x: calc(var(--base-scale) * 0.0625);
+              --a-y: calc(var(--base-scale) * -0.09375);
+              --a-z: calc(var(--base-scale) * 0);
+              --b-x: calc(var(--base-scale) * 0.0625);
+              --b-y: calc(var(--base-scale) * -0.09375);
+              --b-z: calc(var(--base-scale) * -0.25);
+              --c-x: calc(var(--base-scale) * 0.0625);
+              --c-y: calc(var(--base-scale) * 0.09375);
+              --c-z: calc(var(--base-scale) * 0);
+              --texture-image: var(--texture-0);
+              --texture-a-s: 0.81274414;
+              --texture-a-t: 0.5942383;
+              --texture-b-s: 0.87475586;
+              --texture-b-t: 0.5942383;
+              --texture-c-s: 0.81274414;
+              --texture-c-t: 0.6870117;
+              "></div>
+              <div class="rect opaque" style="
+              --a-x: calc(var(--base-scale) * 0);
+              --a-y: calc(var(--base-scale) * -0.09375);
+              --a-z: calc(var(--base-scale) * -0.25);
+              --b-x: calc(var(--base-scale) * 0);
+              --b-y: calc(var(--base-scale) * -0.09375);
+              --b-z: calc(var(--base-scale) * 0);
+              --c-x: calc(var(--base-scale) * 0);
+              --c-y: calc(var(--base-scale) * 0.09375);
+              --c-z: calc(var(--base-scale) * -0.25);
+              --texture-image: var(--texture-0);
+              --texture-a-s: 0.89086914;
+              --texture-a-t: 0.5942383;
+              --texture-b-s: 0.95288086;
+              --texture-b-t: 0.5942383;
+              --texture-c-s: 0.89086914;
+              --texture-c-t: 0.6870117;
+              "></div>
+              <div class="rect opaque" style="
+              --a-x: calc(var(--base-scale) * 0);
+              --a-y: calc(var(--base-scale) * -0.09375);
+              --a-z: calc(var(--base-scale) * -0.25);
+              --b-x: calc(var(--base-scale) * 0.0625);
+              --b-y: calc(var(--base-scale) * -0.09375);
+              --b-z: calc(var(--base-scale) * -0.25);
+              --c-x: calc(var(--base-scale) * 0);
+              --c-y: calc(var(--base-scale) * -0.09375);
+              --c-z: calc(var(--base-scale) * 0);
+              --texture-image: var(--texture-0);
+              --texture-a-s: 0.89038086;
+              --texture-a-t: 0.5932617;
+              --texture-b-s: 0.87524414;
+              --texture-b-t: 0.5932617;
+              --texture-c-s: 0.89038086;
+              --texture-c-t: 0.46923828;
+              "></div>
+              <div class="rect opaque" style="
+              --a-x: calc(var(--base-scale) * 0);
+              --a-y: calc(var(--base-scale) * 0.09375);
+              --a-z: calc(var(--base-scale) * 0);
+              --b-x: calc(var(--base-scale) * 0.0625);
+              --b-y: calc(var(--base-scale) * 0.09375);
+              --b-z: calc(var(--base-scale) * 0);
+              --c-x: calc(var(--base-scale) * 0);
+              --c-y: calc(var(--base-scale) * 0.09375);
+              --c-z: calc(var(--base-scale) * -0.25);
+              --texture-image: var(--texture-0);
+              --texture-a-s: 0.90600586;
+              --texture-a-t: 0.46923828;
+              --texture-b-s: 0.89086914;
+              --texture-b-t: 0.46923828;
+              --texture-c-s: 0.90600586;
+              --texture-c-t: 0.5932617;
+              "></div>
+              <div class="rect opaque" style="
+              --a-x: calc(var(--base-scale) * 0);
+              --a-y: calc(var(--base-scale) * -0.09375);
+              --a-z: calc(var(--base-scale) * 0);
+              --b-x: calc(var(--base-scale) * 0.0625);
+              --b-y: calc(var(--base-scale) * -0.09375);
+              --b-z: calc(var(--base-scale) * 0);
+              --c-x: calc(var(--base-scale) * 0);
+              --c-y: calc(var(--base-scale) * 0.09375);
+              --c-z: calc(var(--base-scale) * 0);
+              --texture-image: var(--texture-0);
+              --texture-a-s: 0.95336914;
+              --texture-a-t: 0.5942383;
+              --texture-b-s: 0.96850586;
+              --texture-b-t: 0.5942383;
+              --texture-c-s: 0.95336914;
+              --texture-c-t: 0.6870117;
+              "></div>
+              <div class="rect opaque" style="
+              --a-x: calc(var(--base-scale) * 0.0625);
+              --a-y: calc(var(--base-scale) * -0.09375);
+              --a-z: calc(var(--base-scale) * -0.25);
+              --b-x: calc(var(--base-scale) * 0);
+              --b-y: calc(var(--base-scale) * -0.09375);
+              --b-z: calc(var(--base-scale) * -0.25);
+              --c-x: calc(var(--base-scale) * 0.0625);
+              --c-y: calc(var(--base-scale) * 0.09375);
+              --c-z: calc(var(--base-scale) * -0.25);
+              --texture-image: var(--texture-0);
+              --texture-a-s: 0.87524414;
+              --texture-a-t: 0.5942383;
+              --texture-b-s: 0.89038086;
+              --texture-b-t: 0.5942383;
+              --texture-c-s: 0.87524414;
+              --texture-c-t: 0.6870117;
+              "></div>
+            </div>
+          </div>
+          <div class="node left_ear node-18" style="
+            --node-inherent-translate-x: -0.09375;
+            --node-inherent-translate-y: -0.03125;
+            --node-inherent-translate-z: 0.09375;
+            --node-inherent-rotation-x: 0.12975039;
+            --node-inherent-rotation-y: -0.1079355;
+            --node-inherent-rotation-z: -0.014209978;
+            --node-inherent-rotation-angle: -0.34038627rad;
+          ">
+            <div class="node left_ear node-17" style="
+            ">
+              <div class="rect opaque" style="
+              --a-x: calc(var(--base-scale) * 0);
+              --a-y: calc(var(--base-scale) * -0.09375);
+              --a-z: calc(var(--base-scale) * 0);
+              --b-x: calc(var(--base-scale) * 0);
+              --b-y: calc(var(--base-scale) * -0.09375);
+              --b-z: calc(var(--base-scale) * -0.25);
+              --c-x: calc(var(--base-scale) * 0);
+              --c-y: calc(var(--base-scale) * 0.09375);
+              --c-z: calc(var(--base-scale) * 0);
+              --texture-image: var(--texture-0);
+              --texture-a-s: 0.65649414;
+              --texture-a-t: 0.5942383;
+              --texture-b-s: 0.71850586;
+              --texture-b-t: 0.5942383;
+              --texture-c-s: 0.65649414;
+              --texture-c-t: 0.6870117;
+              "></div>
+              <div class="rect opaque" style="
+              --a-x: calc(var(--base-scale) * -0.0625);
+              --a-y: calc(var(--base-scale) * -0.09375);
+              --a-z: calc(var(--base-scale) * -0.25);
+              --b-x: calc(var(--base-scale) * -0.0625);
+              --b-y: calc(var(--base-scale) * -0.09375);
+              --b-z: calc(var(--base-scale) * 0);
+              --c-x: calc(var(--base-scale) * -0.0625);
+              --c-y: calc(var(--base-scale) * 0.09375);
+              --c-z: calc(var(--base-scale) * -0.25);
+              --texture-image: var(--texture-0);
+              --texture-a-s: 0.73461914;
+              --texture-a-t: 0.5942383;
+              --texture-b-s: 0.79663086;
+              --texture-b-t: 0.5942383;
+              --texture-c-s: 0.73461914;
+              --texture-c-t: 0.6870117;
+              "></div>
+              <div class="rect opaque" style="
+              --a-x: calc(var(--base-scale) * -0.0625);
+              --a-y: calc(var(--base-scale) * -0.09375);
+              --a-z: calc(var(--base-scale) * -0.25);
+              --b-x: calc(var(--base-scale) * 0);
+              --b-y: calc(var(--base-scale) * -0.09375);
+              --b-z: calc(var(--base-scale) * -0.25);
+              --c-x: calc(var(--base-scale) * -0.0625);
+              --c-y: calc(var(--base-scale) * -0.09375);
+              --c-z: calc(var(--base-scale) * 0);
+              --texture-image: var(--texture-0);
+              --texture-a-s: 0.73413086;
+              --texture-a-t: 0.5932617;
+              --texture-b-s: 0.71899414;
+              --texture-b-t: 0.5932617;
+              --texture-c-s: 0.73413086;
+              --texture-c-t: 0.46923828;
+              "></div>
+              <div class="rect opaque" style="
+              --a-x: calc(var(--base-scale) * -0.0625);
+              --a-y: calc(var(--base-scale) * 0.09375);
+              --a-z: calc(var(--base-scale) * 0);
+              --b-x: calc(var(--base-scale) * 0);
+              --b-y: calc(var(--base-scale) * 0.09375);
+              --b-z: calc(var(--base-scale) * 0);
+              --c-x: calc(var(--base-scale) * -0.0625);
+              --c-y: calc(var(--base-scale) * 0.09375);
+              --c-z: calc(var(--base-scale) * -0.25);
+              --texture-image: var(--texture-0);
+              --texture-a-s: 0.74975586;
+              --texture-a-t: 0.46923828;
+              --texture-b-s: 0.73461914;
+              --texture-b-t: 0.46923828;
+              --texture-c-s: 0.74975586;
+              --texture-c-t: 0.5932617;
+              "></div>
+              <div class="rect opaque" style="
+              --a-x: calc(var(--base-scale) * -0.0625);
+              --a-y: calc(var(--base-scale) * -0.09375);
+              --a-z: calc(var(--base-scale) * 0);
+              --b-x: calc(var(--base-scale) * 0);
+              --b-y: calc(var(--base-scale) * -0.09375);
+              --b-z: calc(var(--base-scale) * 0);
+              --c-x: calc(var(--base-scale) * -0.0625);
+              --c-y: calc(var(--base-scale) * 0.09375);
+              --c-z: calc(var(--base-scale) * 0);
+              --texture-image: var(--texture-0);
+              --texture-a-s: 0.79711914;
+              --texture-a-t: 0.5942383;
+              --texture-b-s: 0.81225586;
+              --texture-b-t: 0.5942383;
+              --texture-c-s: 0.79711914;
+              --texture-c-t: 0.6870117;
+              "></div>
+              <div class="rect opaque" style="
+              --a-x: calc(var(--base-scale) * 0);
+              --a-y: calc(var(--base-scale) * -0.09375);
+              --a-z: calc(var(--base-scale) * -0.25);
+              --b-x: calc(var(--base-scale) * -0.0625);
+              --b-y: calc(var(--base-scale) * -0.09375);
+              --b-z: calc(var(--base-scale) * -0.25);
+              --c-x: calc(var(--base-scale) * 0);
+              --c-y: calc(var(--base-scale) * 0.09375);
+              --c-z: calc(var(--base-scale) * -0.25);
+              --texture-image: var(--texture-0);
+              --texture-a-s: 0.71899414;
+              --texture-a-t: 0.5942383;
+              --texture-b-s: 0.73413086;
+              --texture-b-t: 0.5942383;
+              --texture-c-s: 0.71899414;
+              --texture-c-t: 0.6870117;
+              "></div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="node tail" style="
+      <div class="node tail node-25" style="
         --node-inherent-translate-x: 0.03125;
         --node-inherent-translate-y: -0.375;
         --node-inherent-translate-z: 0.09375;
         --node-inherent-rotation-x: 0.3007058;
         --node-inherent-rotation-angle: -0.61086535rad;
       ">
-        <div class="node tail" style="
+        <div class="node tail node-21" style="
           --node-inherent-translate-y: -0.25;
         ">
           <div class="rect opaque" style="
@@ -1281,7 +1281,7 @@
           --texture-c-t: 0.43701172;
           "></div>
         </div>
-        <div class="node right_tail_fluff" style="
+        <div class="node right_tail_fluff node-22" style="
           --node-inherent-translate-x: 0.03125;
           --node-inherent-translate-y: -0.25;
           --node-inherent-translate-z: -0.09375;
@@ -1305,7 +1305,7 @@
           --texture-c-t: 0.3125;
           "></div>
         </div>
-        <div class="node left_tail_fluff" style="
+        <div class="node left_tail_fluff node-23" style="
           --node-inherent-translate-x: -0.09375;
           --node-inherent-translate-y: -0.25;
           --node-inherent-translate-z: -0.09375;
@@ -1329,7 +1329,7 @@
           --texture-c-t: 0.3125;
           "></div>
         </div>
-        <div class="node back_tail_fluff" style="
+        <div class="node back_tail_fluff node-24" style="
           --node-inherent-translate-x: -0.03125;
           --node-inherent-translate-y: -0.5;
           --node-inherent-translate-z: -0.09375;
@@ -1357,4 +1357,1553 @@
     </div>
   </div>
 </div>
+<style>
+/*
+ * Animation: walk
+ */
+/* walk translation for node body (26) */
+@keyframes walk-0 {
+  73.91304% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.03125;
+    --node-inherent-translate-z: 0;
+  }
+  82.6087% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.03125;
+    --node-inherent-translate-z: 0;
+  }
+  34.782608% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.054126587;
+    --node-inherent-translate-z: 0;
+  }
+  30.434782% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.03125;
+    --node-inherent-translate-z: 0;
+  }
+  91.30435% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.0625;
+    --node-inherent-translate-z: 0;
+  }
+  65.21739% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.0625;
+    --node-inherent-translate-z: 0;
+  }
+  4.347826% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.03125;
+    --node-inherent-translate-z: 0;
+  }
+  21.73913% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.03125;
+    --node-inherent-translate-z: 0;
+  }
+  47.82609% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.03125;
+    --node-inherent-translate-z: 0;
+  }
+  8.695652% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.054126587;
+    --node-inherent-translate-z: 0;
+  }
+  39.130436% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.0625;
+    --node-inherent-translate-z: 0;
+  }
+  0% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0;
+    --node-inherent-translate-z: 0;
+  }
+  100% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.03125;
+    --node-inherent-translate-z: 0;
+  }
+  43.47826% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.054126587;
+    --node-inherent-translate-z: 0;
+  }
+  13.043478% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.0625;
+    --node-inherent-translate-z: 0;
+  }
+  56.521744% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.03125;
+    --node-inherent-translate-z: 0;
+  }
+}
+/* walk rotation for node back_right_leg (5) */
+@keyframes walk-1 {
+  21.73913% {
+    --node-inherent-rotation-x: 0.839374;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.992261rad;
+  }
+  34.782608% {
+    --node-inherent-rotation-x: 0.82732886;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.9486712rad;
+  }
+  100% {
+    --node-inherent-rotation-x: 0.66607386;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.4578652rad;
+  }
+  73.91304% {
+    --node-inherent-rotation-x: 0.5435543;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.1493316rad;
+  }
+  82.6087% {
+    --node-inherent-rotation-x: 0.5435543;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.1493316rad;
+  }
+  4.347826% {
+    --node-inherent-rotation-x: 0.7458858;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.6837275rad;
+  }
+  65.21739% {
+    --node-inherent-rotation-x: 0.59005857;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.2622628rad;
+  }
+  91.30435% {
+    --node-inherent-rotation-x: 0.59005857;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.2622628rad;
+  }
+  43.47826% {
+    --node-inherent-rotation-x: 0.77988446;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.7889625rad;
+  }
+  47.82609% {
+    --node-inherent-rotation-x: 0.7458858;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.6837275rad;
+  }
+  13.043478% {
+    --node-inherent-rotation-x: 0.8073604;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.8793299rad;
+  }
+  56.521744% {
+    --node-inherent-rotation-x: 0.66607386;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.4578652rad;
+  }
+  8.695652% {
+    --node-inherent-rotation-x: 0.77988446;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.7889625rad;
+  }
+  30.434782% {
+    --node-inherent-rotation-x: 0.839374;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.992261rad;
+  }
+  0% {
+    --node-inherent-rotation-x: 0.70710677;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.5707964rad;
+  }
+  39.130436% {
+    --node-inherent-rotation-x: 0.8073604;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.8793299rad;
+  }
+}
+/* walk rotation for node back_left_leg (7) */
+@keyframes walk-2 {
+  30.434782% {
+    --node-inherent-rotation-x: 0.5435543;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.1493316rad;
+  }
+  4.347826% {
+    --node-inherent-rotation-x: 0.66607386;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.4578652rad;
+  }
+  21.73913% {
+    --node-inherent-rotation-x: 0.5435543;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.1493316rad;
+  }
+  8.695652% {
+    --node-inherent-rotation-x: 0.62592345;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.3526303rad;
+  }
+  91.30435% {
+    --node-inherent-rotation-x: 0.8073604;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.8793299rad;
+  }
+  0% {
+    --node-inherent-rotation-x: 0.70710677;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.5707964rad;
+  }
+  39.130436% {
+    --node-inherent-rotation-x: 0.59005857;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.2622628rad;
+  }
+  34.782608% {
+    --node-inherent-rotation-x: 0.56171787;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.1929215rad;
+  }
+  47.82609% {
+    --node-inherent-rotation-x: 0.66607386;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.4578652rad;
+  }
+  56.521744% {
+    --node-inherent-rotation-x: 0.7458858;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.6837275rad;
+  }
+  65.21739% {
+    --node-inherent-rotation-x: 0.8073604;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.8793299rad;
+  }
+  82.6087% {
+    --node-inherent-rotation-x: 0.839374;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.992261rad;
+  }
+  43.47826% {
+    --node-inherent-rotation-x: 0.62592345;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.3526303rad;
+  }
+  13.043478% {
+    --node-inherent-rotation-x: 0.59005857;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.2622628rad;
+  }
+  100% {
+    --node-inherent-rotation-x: 0.7458858;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.6837275rad;
+  }
+  73.91304% {
+    --node-inherent-rotation-x: 0.839374;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.992261rad;
+  }
+}
+/* walk rotation for node front_right_leg (9) */
+@keyframes walk-3 {
+  4.347826% {
+    --node-inherent-rotation-x: 0.66607386;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.4578652rad;
+  }
+  47.82609% {
+    --node-inherent-rotation-x: 0.66607386;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.4578652rad;
+  }
+  13.043478% {
+    --node-inherent-rotation-x: 0.59005857;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.2622628rad;
+  }
+  39.130436% {
+    --node-inherent-rotation-x: 0.59005857;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.2622628rad;
+  }
+  34.782608% {
+    --node-inherent-rotation-x: 0.56171787;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.1929215rad;
+  }
+  56.521744% {
+    --node-inherent-rotation-x: 0.7458858;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.6837275rad;
+  }
+  82.6087% {
+    --node-inherent-rotation-x: 0.839374;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.992261rad;
+  }
+  0% {
+    --node-inherent-rotation-x: 0.70710677;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.5707964rad;
+  }
+  65.21739% {
+    --node-inherent-rotation-x: 0.8073604;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.8793299rad;
+  }
+  100% {
+    --node-inherent-rotation-x: 0.7458858;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.6837275rad;
+  }
+  21.73913% {
+    --node-inherent-rotation-x: 0.5435543;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.1493316rad;
+  }
+  73.91304% {
+    --node-inherent-rotation-x: 0.839374;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.992261rad;
+  }
+  30.434782% {
+    --node-inherent-rotation-x: 0.5435543;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.1493316rad;
+  }
+  8.695652% {
+    --node-inherent-rotation-x: 0.62592345;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.3526303rad;
+  }
+  43.47826% {
+    --node-inherent-rotation-x: 0.62592345;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.3526303rad;
+  }
+  91.30435% {
+    --node-inherent-rotation-x: 0.8073604;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.8793299rad;
+  }
+}
+/* walk rotation for node front_left_leg (11) */
+@keyframes walk-4 {
+  8.695652% {
+    --node-inherent-rotation-x: 0.77988446;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.7889625rad;
+  }
+  82.6087% {
+    --node-inherent-rotation-x: 0.5435543;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.1493316rad;
+  }
+  91.30435% {
+    --node-inherent-rotation-x: 0.59005857;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.2622628rad;
+  }
+  13.043478% {
+    --node-inherent-rotation-x: 0.8073604;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.8793299rad;
+  }
+  30.434782% {
+    --node-inherent-rotation-x: 0.839374;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.992261rad;
+  }
+  73.91304% {
+    --node-inherent-rotation-x: 0.5435543;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.1493316rad;
+  }
+  47.82609% {
+    --node-inherent-rotation-x: 0.7458858;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.6837275rad;
+  }
+  4.347826% {
+    --node-inherent-rotation-x: 0.7458858;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.6837275rad;
+  }
+  56.521744% {
+    --node-inherent-rotation-x: 0.66607386;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.4578652rad;
+  }
+  21.73913% {
+    --node-inherent-rotation-x: 0.839374;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.992261rad;
+  }
+  34.782608% {
+    --node-inherent-rotation-x: 0.82732886;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.9486712rad;
+  }
+  43.47826% {
+    --node-inherent-rotation-x: 0.77988446;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.7889625rad;
+  }
+  39.130436% {
+    --node-inherent-rotation-x: 0.8073604;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.8793299rad;
+  }
+  100% {
+    --node-inherent-rotation-x: 0.66607386;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.4578652rad;
+  }
+  65.21739% {
+    --node-inherent-rotation-x: 0.59005857;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.2622628rad;
+  }
+  0% {
+    --node-inherent-rotation-x: 0.70710677;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.5707964rad;
+  }
+}
+/* walk rotation for node neck (20) */
+@keyframes walk-5 {
+  34.782608% {
+    --node-inherent-rotation-x: 0.5287328;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.1142138rad;
+  }
+  91.30435% {
+    --node-inherent-rotation-x: 0.6399157;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.388777rad;
+  }
+  39.130436% {
+    --node-inherent-rotation-x: 0.5404528;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.1419504rad;
+  }
+  13.043478% {
+    --node-inherent-rotation-x: 0.5404528;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.1419504rad;
+  }
+  21.73913% {
+    --node-inherent-rotation-x: 0.5213131;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.0967779rad;
+  }
+  4.347826% {
+    --node-inherent-rotation-x: 0.57294583;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.2201912rad;
+  }
+  65.21739% {
+    --node-inherent-rotation-x: 0.6399157;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.388777rad;
+  }
+  0% {
+    --node-inherent-rotation-x: 0.59130967;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.2653638rad;
+  }
+  43.47826% {
+    --node-inherent-rotation-x: 0.55557024;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.1780972rad;
+  }
+  56.521744% {
+    --node-inherent-rotation-x: 0.60937184;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.3105361rad;
+  }
+  30.434782% {
+    --node-inherent-rotation-x: 0.5213131;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.0967779rad;
+  }
+  47.82609% {
+    --node-inherent-rotation-x: 0.57294583;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.2201912rad;
+  }
+  100% {
+    --node-inherent-rotation-x: 0.60937184;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.3105361rad;
+  }
+  73.91304% {
+    --node-inherent-rotation-x: 0.6571073;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.4339496rad;
+  }
+  82.6087% {
+    --node-inherent-rotation-x: 0.6571073;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.4339496rad;
+  }
+  8.695652% {
+    --node-inherent-rotation-x: 0.55557024;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.1780972rad;
+  }
+}
+/* walk rotation for node right_ear (16) */
+@keyframes walk-6 {
+  4.347826% {
+    --node-inherent-rotation-x: 0.1254197;
+    --node-inherent-rotation-y: -0.2746035;
+    --node-inherent-rotation-z: 0.036152236;
+    --node-inherent-rotation-angle: -0.61787456rad;
+  }
+  8.695652% {
+    --node-inherent-rotation-x: 0.12573011;
+    --node-inherent-rotation-y: -0.26628795;
+    --node-inherent-rotation-z: 0.035057474;
+    --node-inherent-rotation-angle: -0.6021719rad;
+  }
+  39.130436% {
+    --node-inherent-rotation-x: 0.12934485;
+    --node-inherent-rotation-y: -0.13308798;
+    --node-inherent-rotation-z: 0.017521365;
+    --node-inherent-rotation-angle: -0.3750179rad;
+  }
+  100% {
+    --node-inherent-rotation-x: 0.1254197;
+    --node-inherent-rotation-y: -0.2746035;
+    --node-inherent-rotation-z: 0.036152236;
+    --node-inherent-rotation-angle: -0.61787456rad;
+  }
+  82.6087% {
+    --node-inherent-rotation-x: 0.12741043;
+    --node-inherent-rotation-y: -0.21533282;
+    --node-inherent-rotation-z: 0.028349103;
+    --node-inherent-rotation-angle: -0.5090881rad;
+  }
+  13.043478% {
+    --node-inherent-rotation-x: 0.1262042;
+    --node-inherent-rotation-y: -0.25301835;
+    --node-inherent-rotation-z: 0.0333105;
+    --node-inherent-rotation-angle: -0.57739145rad;
+  }
+  47.82609% {
+    --node-inherent-rotation-x: 0.12970756;
+    --node-inherent-rotation-y: -0.11086559;
+    --node-inherent-rotation-z: 0.014595732;
+    --node-inherent-rotation-angle: -0.34420654rad;
+  }
+  65.21739% {
+    --node-inherent-rotation-x: 0.12934485;
+    --node-inherent-rotation-y: -0.13308798;
+    --node-inherent-rotation-z: 0.017521365;
+    --node-inherent-rotation-angle: -0.3750179rad;
+  }
+  30.434782% {
+    --node-inherent-rotation-x: 0.12856062;
+    --node-inherent-rotation-y: -0.17141111;
+    --node-inherent-rotation-z: 0.0225667;
+    --node-inherent-rotation-angle: -0.4343058rad;
+  }
+  34.782608% {
+    --node-inherent-rotation-x: 0.12900707;
+    --node-inherent-rotation-y: -0.15082195;
+    --node-inherent-rotation-z: 0.019856086;
+    --node-inherent-rotation-angle: -0.40161368rad;
+  }
+  91.30435% {
+    --node-inherent-rotation-x: 0.1262042;
+    --node-inherent-rotation-y: -0.25301835;
+    --node-inherent-rotation-z: 0.0333105;
+    --node-inherent-rotation-angle: -0.57739145rad;
+  }
+  56.521744% {
+    --node-inherent-rotation-x: 0.12970756;
+    --node-inherent-rotation-y: -0.11086559;
+    --node-inherent-rotation-z: 0.014595732;
+    --node-inherent-rotation-angle: -0.34420654rad;
+  }
+  0% {
+    --node-inherent-rotation-x: 0.12531166;
+    --node-inherent-rotation-y: -0.27743503;
+    --node-inherent-rotation-z: 0.036525015;
+    --node-inherent-rotation-angle: -0.62325084rad;
+  }
+  21.73913% {
+    --node-inherent-rotation-x: 0.12741043;
+    --node-inherent-rotation-y: -0.21533282;
+    --node-inherent-rotation-z: 0.028349103;
+    --node-inherent-rotation-angle: -0.5090881rad;
+  }
+  73.91304% {
+    --node-inherent-rotation-x: 0.12856062;
+    --node-inherent-rotation-y: -0.17141111;
+    --node-inherent-rotation-z: 0.0225667;
+    --node-inherent-rotation-angle: -0.4343058rad;
+  }
+  43.47826% {
+    --node-inherent-rotation-x: 0.12957539;
+    --node-inherent-rotation-y: -0.119450435;
+    --node-inherent-rotation-z: 0.015725948;
+    --node-inherent-rotation-angle: -0.35574028rad;
+  }
+}
+/* walk rotation for node left_ear (18) */
+@keyframes walk-7 {
+  65.21739% {
+    --node-inherent-rotation-x: 0.12934485;
+    --node-inherent-rotation-y: 0.13308798;
+    --node-inherent-rotation-z: -0.017521365;
+    --node-inherent-rotation-angle: -0.3750179rad;
+  }
+  8.695652% {
+    --node-inherent-rotation-x: 0.12573011;
+    --node-inherent-rotation-y: 0.26628795;
+    --node-inherent-rotation-z: -0.035057474;
+    --node-inherent-rotation-angle: -0.6021719rad;
+  }
+  82.6087% {
+    --node-inherent-rotation-x: 0.12741043;
+    --node-inherent-rotation-y: 0.21533282;
+    --node-inherent-rotation-z: -0.028349103;
+    --node-inherent-rotation-angle: -0.5090881rad;
+  }
+  4.347826% {
+    --node-inherent-rotation-x: 0.1254197;
+    --node-inherent-rotation-y: 0.2746035;
+    --node-inherent-rotation-z: -0.036152236;
+    --node-inherent-rotation-angle: -0.61787456rad;
+  }
+  56.521744% {
+    --node-inherent-rotation-x: 0.12970756;
+    --node-inherent-rotation-y: 0.11086559;
+    --node-inherent-rotation-z: -0.014595732;
+    --node-inherent-rotation-angle: -0.34420654rad;
+  }
+  73.91304% {
+    --node-inherent-rotation-x: 0.12856062;
+    --node-inherent-rotation-y: 0.17141111;
+    --node-inherent-rotation-z: -0.0225667;
+    --node-inherent-rotation-angle: -0.4343058rad;
+  }
+  30.434782% {
+    --node-inherent-rotation-x: 0.12856062;
+    --node-inherent-rotation-y: 0.17141111;
+    --node-inherent-rotation-z: -0.0225667;
+    --node-inherent-rotation-angle: -0.4343058rad;
+  }
+  21.73913% {
+    --node-inherent-rotation-x: 0.12741043;
+    --node-inherent-rotation-y: 0.21533282;
+    --node-inherent-rotation-z: -0.028349103;
+    --node-inherent-rotation-angle: -0.5090881rad;
+  }
+  91.30435% {
+    --node-inherent-rotation-x: 0.1262042;
+    --node-inherent-rotation-y: 0.25301835;
+    --node-inherent-rotation-z: -0.0333105;
+    --node-inherent-rotation-angle: -0.57739145rad;
+  }
+  0% {
+    --node-inherent-rotation-x: 0.12531166;
+    --node-inherent-rotation-y: 0.27743503;
+    --node-inherent-rotation-z: -0.036525015;
+    --node-inherent-rotation-angle: -0.62325084rad;
+  }
+  100% {
+    --node-inherent-rotation-x: 0.1254197;
+    --node-inherent-rotation-y: 0.2746035;
+    --node-inherent-rotation-z: -0.036152236;
+    --node-inherent-rotation-angle: -0.61787456rad;
+  }
+  13.043478% {
+    --node-inherent-rotation-x: 0.1262042;
+    --node-inherent-rotation-y: 0.25301835;
+    --node-inherent-rotation-z: -0.0333105;
+    --node-inherent-rotation-angle: -0.57739145rad;
+  }
+  39.130436% {
+    --node-inherent-rotation-x: 0.12934485;
+    --node-inherent-rotation-y: 0.13308798;
+    --node-inherent-rotation-z: -0.017521365;
+    --node-inherent-rotation-angle: -0.3750179rad;
+  }
+  34.782608% {
+    --node-inherent-rotation-x: 0.12900707;
+    --node-inherent-rotation-y: 0.15082195;
+    --node-inherent-rotation-z: -0.019856086;
+    --node-inherent-rotation-angle: -0.40161368rad;
+  }
+  43.47826% {
+    --node-inherent-rotation-x: 0.12957539;
+    --node-inherent-rotation-y: 0.119450435;
+    --node-inherent-rotation-z: -0.015725948;
+    --node-inherent-rotation-angle: -0.35574028rad;
+  }
+  47.82609% {
+    --node-inherent-rotation-x: 0.12970756;
+    --node-inherent-rotation-y: 0.11086559;
+    --node-inherent-rotation-z: -0.014595732;
+    --node-inherent-rotation-angle: -0.34420654rad;
+  }
+}
+/* walk rotation for node tail (25) */
+@keyframes walk-8 {
+  30.434782% {
+    --node-inherent-rotation-x: 0.32216814;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.65603775rad;
+  }
+  34.782608% {
+    --node-inherent-rotation-x: 0.34202015;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.69813174rad;
+  }
+  13.043478% {
+    --node-inherent-rotation-x: 0.24132009;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.48745185rad;
+  }
+  43.47826% {
+    --node-inherent-rotation-x: 0.371856;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.76201516rad;
+  }
+  82.6087% {
+    --node-inherent-rotation-x: 0.27909008;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.56569284rad;
+  }
+  47.82609% {
+    --node-inherent-rotation-x: 0.37993455;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.77945113rad;
+  }
+  21.73913% {
+    --node-inherent-rotation-x: 0.27909008;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.56569284rad;
+  }
+  91.30435% {
+    --node-inherent-rotation-x: 0.24132009;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.48745185rad;
+  }
+  73.91304% {
+    --node-inherent-rotation-x: 0.32216814;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.65603775rad;
+  }
+  8.695652% {
+    --node-inherent-rotation-x: 0.22783892;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.45971516rad;
+  }
+  56.521744% {
+    --node-inherent-rotation-x: 0.37993455;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.77945113rad;
+  }
+  4.347826% {
+    --node-inherent-rotation-x: 0.2193417;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.44227934rad;
+  }
+  0% {
+    --node-inherent-rotation-x: 0.21643962;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.43633232rad;
+  }
+  65.21739% {
+    --node-inherent-rotation-x: 0.35894686;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.73427856rad;
+  }
+  100% {
+    --node-inherent-rotation-x: 0.2193417;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.44227934rad;
+  }
+  39.130436% {
+    --node-inherent-rotation-x: 0.35894686;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.73427856rad;
+  }
+}
+.walk {
+  /* walk translation for node body (26) */
+  .node.node-26 {
+    animation: walk-0 0.9583333s infinite linear;
+  }
+  /* walk rotation for node back_right_leg (5) */
+  .node.node-5 {
+    animation: walk-1 0.9583333s infinite linear;
+  }
+  /* walk rotation for node back_left_leg (7) */
+  .node.node-7 {
+    animation: walk-2 0.9583333s infinite linear;
+  }
+  /* walk rotation for node front_right_leg (9) */
+  .node.node-9 {
+    animation: walk-3 0.9583333s infinite linear;
+  }
+  /* walk rotation for node front_left_leg (11) */
+  .node.node-11 {
+    animation: walk-4 0.9583333s infinite linear;
+  }
+  /* walk rotation for node neck (20) */
+  .node.node-20 {
+    animation: walk-5 0.9583333s infinite linear;
+  }
+  /* walk rotation for node right_ear (16) */
+  .node.node-16 {
+    animation: walk-6 0.9583333s infinite linear;
+  }
+  /* walk rotation for node left_ear (18) */
+  .node.node-18 {
+    animation: walk-7 0.9583333s infinite linear;
+  }
+  /* walk rotation for node tail (25) */
+  .node.node-25 {
+    animation: walk-8 0.9583333s infinite linear;
+  }
+}
+/*
+ * Animation: lower-head
+ */
+/* lower-head rotation for node neck (20) */
+@keyframes lower-head-0 {
+  62.5% {
+    --node-inherent-rotation-x: 0.5330378;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.1243738rad;
+  }
+  40.27778% {
+    --node-inherent-rotation-x: -0.13652457;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.27390423rad;
+  }
+  84.72223% {
+    --node-inherent-rotation-x: 0.69191355;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.5282723rad;
+  }
+  22.222223% {
+    --node-inherent-rotation-x: -0.11043302;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.22131778rad;
+  }
+  1.388889% {
+    --node-inherent-rotation-x: 0.62875116;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.3598922rad;
+  }
+  38.888885% {
+    --node-inherent-rotation-x: -0.14253296;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.2860397rad;
+  }
+  87.5% {
+    --node-inherent-rotation-x: 0.68461794;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.5081588rad;
+  }
+  93.05556% {
+    --node-inherent-rotation-x: 0.6693189;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.4665834rad;
+  }
+  100% {
+    --node-inherent-rotation-x: 0.6593458;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.4398966rad;
+  }
+  27.777777% {
+    --node-inherent-rotation-x: -0.14253296;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.2860397rad;
+  }
+  61.11111% {
+    --node-inherent-rotation-x: 0.47047007;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.9796468rad;
+  }
+  55.555553% {
+    --node-inherent-rotation-x: 0.17253402;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.34680372rad;
+  }
+  41.666664% {
+    --node-inherent-rotation-x: -0.1291742;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.2590724rad;
+  }
+  70.83333% {
+    --node-inherent-rotation-x: 0.68682617;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.5142266rad;
+  }
+  33.333336% {
+    --node-inherent-rotation-x: -0.15320143;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.307614rad;
+  }
+  73.61111% {
+    --node-inherent-rotation-x: 0.69660413;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.5413067rad;
+  }
+  12.5% {
+    --node-inherent-rotation-x: 0.10086638;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.20207627rad;
+  }
+  11.111112% {
+    --node-inherent-rotation-x: 0.17253402;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.34680372rad;
+  }
+  45.833336% {
+    --node-inherent-rotation-x: -0.099034816;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.19839446rad;
+  }
+  30.555555% {
+    --node-inherent-rotation-x: -0.15053594;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.3022206rad;
+  }
+  36.111115% {
+    --node-inherent-rotation-x: -0.15053594;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.3022206rad;
+  }
+  54.166668% {
+    --node-inherent-rotation-x: 0.10086638;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.20207627rad;
+  }
+  58.333332% {
+    --node-inherent-rotation-x: 0.32556817;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.66322523rad;
+  }
+  66.66667% {
+    --node-inherent-rotation-x: 0.6593458;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.4398966rad;
+  }
+  50% {
+    --node-inherent-rotation-x: -0.056692787;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.11344579rad;
+  }
+  16.666668% {
+    --node-inherent-rotation-x: -0.056692787;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.11344579rad;
+  }
+  19.444443% {
+    --node-inherent-rotation-x: -0.08628033;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.17277558rad;
+  }
+  9.722221% {
+    --node-inherent-rotation-x: 0.24852651;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.50231767rad;
+  }
+  47.22222% {
+    --node-inherent-rotation-x: -0.08628033;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.17277558rad;
+  }
+  2.777778% {
+    --node-inherent-rotation-x: 0.5862807;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.2529203rad;
+  }
+  25% {
+    --node-inherent-rotation-x: -0.1291742;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.2590724rad;
+  }
+  52.77778% {
+    --node-inherent-rotation-x: 0.036756754;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.07352898rad;
+  }
+  56.944447% {
+    --node-inherent-rotation-x: 0.24852651;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.50231767rad;
+  }
+  34.72222% {
+    --node-inherent-rotation-x: -0.15253516;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.3062657rad;
+  }
+  68.05556% {
+    --node-inherent-rotation-x: 0.6704452;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.4696174rad;
+  }
+  81.94444% {
+    --node-inherent-rotation-x: 0.6976917;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.5443405rad;
+  }
+  6.944444% {
+    --node-inherent-rotation-x: 0.4005036;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.82413286rad;
+  }
+  4.166667% {
+    --node-inherent-rotation-x: 0.5330378;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.1243738rad;
+  }
+  90.27777% {
+    --node-inherent-rotation-x: 0.67675686;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.486697rad;
+  }
+  37.5% {
+    --node-inherent-rotation-x: -0.14720254;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.295479rad;
+  }
+  98.61111% {
+    --node-inherent-rotation-x: 0.65983146;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.4411888rad;
+  }
+  63.88889% {
+    --node-inherent-rotation-x: 0.5862807;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.2529203rad;
+  }
+  95.83333% {
+    --node-inherent-rotation-x: 0.66332823;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.4505153rad;
+  }
+  51.38889% {
+    --node-inherent-rotation-x: -0.016720243;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.033439636rad;
+  }
+  43.055553% {
+    --node-inherent-rotation-x: -0.12047826;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.24154346rad;
+  }
+  59.72222% {
+    --node-inherent-rotation-x: 0.4005036;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.82413286rad;
+  }
+  44.444447% {
+    --node-inherent-rotation-x: -0.11043302;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.22131778rad;
+  }
+  0% {
+    --node-inherent-rotation-x: 0.6593458;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.4398966rad;
+  }
+  13.888888% {
+    --node-inherent-rotation-x: 0.036756754;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.07352898rad;
+  }
+  76.38889% {
+    --node-inherent-rotation-x: 0.70098466;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.5535545rad;
+  }
+  79.16667% {
+    --node-inherent-rotation-x: 0.7010248;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.5536668rad;
+  }
+}
+/* lower-head rotation for node head (19) */
+@keyframes lower-head-1 {
+  44.444447% {
+    --node-inherent-rotation-x: 0.17955343;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.36106524rad;
+  }
+  1.388889% {
+    --node-inherent-rotation-x: -0.6734595;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.4777575rad;
+  }
+  9.722221% {
+    --node-inherent-rotation-x: -0.2379287;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.48046568rad;
+  }
+  34.72222% {
+    --node-inherent-rotation-x: 0.22790612;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.45985326rad;
+  }
+  63.88889% {
+    --node-inherent-rotation-x: -0.626207;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.3533574rad;
+  }
+  73.61111% {
+    --node-inherent-rotation-x: -0.7475489;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.6887281rad;
+  }
+  56.944447% {
+    --node-inherent-rotation-x: -0.2379287;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.48046568rad;
+  }
+  66.66667% {
+    --node-inherent-rotation-x: -0.70710677;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.5707964rad;
+  }
+  95.83333% {
+    --node-inherent-rotation-x: -0.71145916;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.5831449rad;
+  }
+  2.777778% {
+    --node-inherent-rotation-x: -0.626207;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.3533574rad;
+  }
+  40.27778% {
+    --node-inherent-rotation-x: 0.20954524;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.42221984rad;
+  }
+  16.666668% {
+    --node-inherent-rotation-x: 0.117537394;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.23561946rad;
+  }
+  4.166667% {
+    --node-inherent-rotation-x: -0.5662377;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.2038682rad;
+  }
+  19.444443% {
+    --node-inherent-rotation-x: 0.15171908;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.30461463rad;
+  }
+  61.11111% {
+    --node-inherent-rotation-x: -0.49495324;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.035562rad;
+  }
+  81.94444% {
+    --node-inherent-rotation-x: -0.74871945;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.6922563rad;
+  }
+  30.555555% {
+    --node-inherent-rotation-x: 0.2256153;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.45514926rad;
+  }
+  12.5% {
+    --node-inherent-rotation-x: -0.06560722;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.1313086rad;
+  }
+  6.944444% {
+    --node-inherent-rotation-x: -0.41446576;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.85471123rad;
+  }
+  11.111112% {
+    --node-inherent-rotation-x: -0.14924772;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.2996152rad;
+  }
+  43.055553% {
+    --node-inherent-rotation-x: 0.19111015;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.38458627rad;
+  }
+  50% {
+    --node-inherent-rotation-x: 0.117537394;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.23561946rad;
+  }
+  62.5% {
+    --node-inherent-rotation-x: -0.5662377;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.2038682rad;
+  }
+  45.833336% {
+    --node-inherent-rotation-x: 0.1664259;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.33440804rad;
+  }
+  25% {
+    --node-inherent-rotation-x: 0.20110464;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.40497065rad;
+  }
+  68.05556% {
+    --node-inherent-rotation-x: -0.7192204;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.6053593rad;
+  }
+  13.888888% {
+    --node-inherent-rotation-x: 0.009090131;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.018178295rad;
+  }
+  79.16667% {
+    --node-inherent-rotation-x: -0.7523032;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.7031021rad;
+  }
+  0% {
+    --node-inherent-rotation-x: -0.70710677;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.5707964rad;
+  }
+  59.72222% {
+    --node-inherent-rotation-x: -0.41446576;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.85471123rad;
+  }
+  84.72223% {
+    --node-inherent-rotation-x: -0.74249345;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.6735702rad;
+  }
+  58.333332% {
+    --node-inherent-rotation-x: -0.3276302;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.6675885rad;
+  }
+  76.38889% {
+    --node-inherent-rotation-x: -0.75226015;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.7029715rad;
+  }
+  100% {
+    --node-inherent-rotation-x: -0.70710677;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.5707964rad;
+  }
+  38.888885% {
+    --node-inherent-rotation-x: 0.21643962;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.43633232rad;
+  }
+  22.222223% {
+    --node-inherent-rotation-x: 0.17955343;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.36106524rad;
+  }
+  41.666664% {
+    --node-inherent-rotation-x: 0.20110464;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.40497065rad;
+  }
+  47.22222% {
+    --node-inherent-rotation-x: 0.15171908;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.30461463rad;
+  }
+  52.77778% {
+    --node-inherent-rotation-x: 0.009090131;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.018178295rad;
+  }
+  55.555553% {
+    --node-inherent-rotation-x: -0.14924772;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.2996152rad;
+  }
+  37.5% {
+    --node-inherent-rotation-x: 0.22179447;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.4473089rad;
+  }
+  54.166668% {
+    --node-inherent-rotation-x: -0.06560722;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.1313086rad;
+  }
+  70.83333% {
+    --node-inherent-rotation-x: -0.736998;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.6572362rad;
+  }
+  87.5% {
+    --node-inherent-rotation-x: -0.73460877;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.6501797rad;
+  }
+  27.777777% {
+    --node-inherent-rotation-x: 0.21643962;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.43633232rad;
+  }
+  36.111115% {
+    --node-inherent-rotation-x: 0.2256153;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.45514926rad;
+  }
+  51.38889% {
+    --node-inherent-rotation-x: 0.071229964;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.14257988rad;
+  }
+  98.61111% {
+    --node-inherent-rotation-x: -0.7076379;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.5722991rad;
+  }
+  33.333336% {
+    --node-inherent-rotation-x: 0.22866946;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.4614214rad;
+  }
+  90.27777% {
+    --node-inherent-rotation-x: -0.72608477;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.6252214rad;
+  }
+  93.05556% {
+    --node-inherent-rotation-x: -0.7179936;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.601831rad;
+  }
+}
+.lower-head {
+  /* lower-head rotation for node neck (20) */
+  .node.node-20 {
+    animation: lower-head-0 3s infinite linear;
+  }
+  /* lower-head rotation for node head (19) */
+  .node.node-19 {
+    animation: lower-head-1 3s infinite linear;
+  }
+}
+</style>
 
