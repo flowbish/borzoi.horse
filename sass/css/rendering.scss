@@ -1156,8 +1156,8 @@
             calc(var(--node-inherent-translate-y) * var(--base-scale) * -1px + var(--node-translate-y)),
             calc(var(--node-inherent-translate-z) * var(--base-scale) * 1px + var(--node-translate-z))
         )
-        rotate3d(var(--node-inherent-rotation-x), var(--node-inherent-rotation-y), var(--node-inherent-rotation-z), var(--node-inherent-rotation-angle))
-        rotate3d(var(--node-rotation-x), var(--node-rotation-y), var(--node-rotation-z), var(--node-rotation-angle))
+        rotate3d(var(--node-inherent-rotation-x), calc(-1 * var(--node-inherent-rotation-y)), var(--node-inherent-rotation-z), var(--node-inherent-rotation-angle))
+        rotate3d(var(--node-rotation-x), calc(-1 * var(--node-rotation-y)), var(--node-rotation-z), var(--node-rotation-angle))
         scale3d(
             calc(var(--node-scale) * var(--node-inherent-scale-x) * var(--node-scale-x)), 
             calc(var(--node-scale) * var(--node-inherent-scale-y) * var(--node-scale-y)), 
