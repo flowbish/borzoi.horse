@@ -2,16 +2,16 @@
   --texture-0: url(data:image/png;base64,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);
   --base-scale: 200;
 ">
-  <div class="node root" style="
+  <div class="node root node-77" style="
   ">
-    <div class="node chassis" style="
+    <div class="node chassis node-76" style="
       --node-inherent-translate-y: 0.375;
     ">
-      <div class="node beacon" style="
+      <div class="node beacon node-2" style="
         --node-inherent-translate-y: 1.14375;
         --node-inherent-translate-z: 0.375;
       ">
-        <div class="node beacon_glow" style="
+        <div class="node beacon_glow node-0" style="
           --node-inherent-translate-y: 0.059375;
         ">
           <div class="tri opaque" style="
@@ -231,7 +231,7 @@
           --texture-c-t: 0.640625;
           "></div>
         </div>
-        <div class="node beacon_shade" style="
+        <div class="node beacon_shade node-1" style="
           --node-inherent-translate-x: -0.04375;
           --node-inherent-translate-y: 0.059375;
         ">
@@ -453,12 +453,12 @@
           "></div>
         </div>
       </div>
-      <div class="node wheelFrontR" style="
+      <div class="node wheelFrontR node-9" style="
         --node-inherent-translate-x: 0.375;
         --node-inherent-translate-y: -0.1625;
         --node-inherent-translate-z: -0.25;
       ">
-        <div class="node front_tyreR_0" style="
+        <div class="node front_tyreR_0 node-3" style="
           --node-inherent-translate-x: 0.0625;
         ">
           <div class="tri opaque" style="
@@ -678,7 +678,7 @@
           --texture-c-t: 0.3828125;
           "></div>
         </div>
-        <div class="node front_tyreR_1" style="
+        <div class="node front_tyreR_1 node-4" style="
           --node-inherent-translate-x: 0.0625;
           --node-inherent-rotation-x: 0.38268343;
           --node-inherent-rotation-angle: -0.7853983rad;
@@ -900,7 +900,7 @@
           --texture-c-t: 0.3828125;
           "></div>
         </div>
-        <div class="node front_tyreR_2" style="
+        <div class="node front_tyreR_2 node-5" style="
           --node-inherent-translate-x: 0.0625;
           --node-inherent-rotation-x: 0.70710677;
           --node-inherent-rotation-angle: -1.5707964rad;
@@ -1122,7 +1122,7 @@
           --texture-c-t: 0.4453125;
           "></div>
         </div>
-        <div class="node front_tyreR_3" style="
+        <div class="node front_tyreR_3 node-6" style="
           --node-inherent-translate-x: 0.0625;
           --node-inherent-rotation-x: 0.9238795;
           --node-inherent-rotation-angle: -2.3561945rad;
@@ -1344,7 +1344,7 @@
           --texture-c-t: 0.4453125;
           "></div>
         </div>
-        <div class="node front_hubR" style="
+        <div class="node front_hubR node-7" style="
           --node-inherent-translate-x: 0.15;
         ">
           <div class="tri opaque" style="
@@ -1564,7 +1564,7 @@
           --texture-c-t: 0.6171875;
           "></div>
         </div>
-        <div class="node front_barR" style="
+        <div class="node front_barR node-8" style="
           --node-inherent-translate-x: 0.15625;
         ">
           <div class="tri opaque" style="
@@ -1785,15 +1785,15 @@
           "></div>
         </div>
       </div>
-      <div class="node steerR" style="
+      <div class="node steerR node-17" style="
         --node-inherent-translate-x: 0.35;
         --node-inherent-translate-y: -0.2125;
         --node-inherent-translate-z: 0.5625;
       ">
-        <div class="node wheelRearR" style="
+        <div class="node wheelRearR node-15" style="
           --node-inherent-translate-x: 0.025;
         ">
-          <div class="node rear_tyreR_0" style="
+          <div class="node rear_tyreR_0 node-10" style="
             --node-inherent-translate-x: 0.05625;
           ">
             <div class="tri opaque" style="
@@ -2013,7 +2013,7 @@
             --texture-c-t: 0.4921875;
             "></div>
           </div>
-          <div class="node rear_tyreR_1" style="
+          <div class="node rear_tyreR_1 node-11" style="
             --node-inherent-translate-x: 0.05625;
             --node-inherent-rotation-x: 0.38268343;
             --node-inherent-rotation-angle: -0.7853983rad;
@@ -2235,7 +2235,7 @@
             --texture-c-t: 0.4921875;
             "></div>
           </div>
-          <div class="node rear_tyreR_2" style="
+          <div class="node rear_tyreR_2 node-12" style="
             --node-inherent-translate-x: 0.05625;
             --node-inherent-rotation-x: 0.70710677;
             --node-inherent-rotation-angle: -1.5707964rad;
@@ -2457,7 +2457,7 @@
             --texture-c-t: 0.4921875;
             "></div>
           </div>
-          <div class="node rear_tyreR_3" style="
+          <div class="node rear_tyreR_3 node-13" style="
             --node-inherent-translate-x: 0.05625;
             --node-inherent-rotation-x: 0.9238795;
             --node-inherent-rotation-angle: -2.3561945rad;
@@ -2679,7 +2679,7 @@
             --texture-c-t: 0.4921875;
             "></div>
           </div>
-          <div class="node rear_hubR" style="
+          <div class="node rear_hubR node-14" style="
             --node-inherent-translate-x: 0.125;
           ">
             <div class="tri opaque" style="
@@ -2900,7 +2900,7 @@
             "></div>
           </div>
         </div>
-        <div class="node steer_knuckleR" style="
+        <div class="node steer_knuckleR node-16" style="
           --node-inherent-translate-x: -0.01875;
           --node-inherent-translate-y: 0.025;
         ">
@@ -3122,12 +3122,12 @@
           "></div>
         </div>
       </div>
-      <div class="node wheelFrontL" style="
+      <div class="node wheelFrontL node-24" style="
         --node-inherent-translate-x: -0.375;
         --node-inherent-translate-y: -0.1625;
         --node-inherent-translate-z: -0.25;
       ">
-        <div class="node front_tyreL_0" style="
+        <div class="node front_tyreL_0 node-18" style="
           --node-inherent-translate-x: -0.0625;
         ">
           <div class="tri opaque" style="
@@ -3347,7 +3347,7 @@
           --texture-c-t: 0.3828125;
           "></div>
         </div>
-        <div class="node front_tyreL_1" style="
+        <div class="node front_tyreL_1 node-19" style="
           --node-inherent-translate-x: -0.0625;
           --node-inherent-rotation-x: 0.38268343;
           --node-inherent-rotation-angle: -0.7853983rad;
@@ -3569,7 +3569,7 @@
           --texture-c-t: 0.4453125;
           "></div>
         </div>
-        <div class="node front_tyreL_2" style="
+        <div class="node front_tyreL_2 node-20" style="
           --node-inherent-translate-x: -0.0625;
           --node-inherent-rotation-x: 0.70710677;
           --node-inherent-rotation-angle: -1.5707964rad;
@@ -3791,7 +3791,7 @@
           --texture-c-t: 0.4453125;
           "></div>
         </div>
-        <div class="node front_tyreL_3" style="
+        <div class="node front_tyreL_3 node-21" style="
           --node-inherent-translate-x: -0.0625;
           --node-inherent-rotation-x: 0.9238795;
           --node-inherent-rotation-angle: -2.3561945rad;
@@ -4013,7 +4013,7 @@
           --texture-c-t: 0.4453125;
           "></div>
         </div>
-        <div class="node front_hubL" style="
+        <div class="node front_hubL node-22" style="
           --node-inherent-translate-x: -0.15;
         ">
           <div class="tri opaque" style="
@@ -4233,7 +4233,7 @@
           --texture-c-t: 0.6171875;
           "></div>
         </div>
-        <div class="node front_barL" style="
+        <div class="node front_barL node-23" style="
           --node-inherent-translate-x: -0.15625;
         ">
           <div class="tri opaque" style="
@@ -4454,15 +4454,15 @@
           "></div>
         </div>
       </div>
-      <div class="node steerL" style="
+      <div class="node steerL node-32" style="
         --node-inherent-translate-x: -0.35;
         --node-inherent-translate-y: -0.2125;
         --node-inherent-translate-z: 0.5625;
       ">
-        <div class="node wheelRearL" style="
+        <div class="node wheelRearL node-30" style="
           --node-inherent-translate-x: -0.025;
         ">
-          <div class="node rear_tyreL_0" style="
+          <div class="node rear_tyreL_0 node-25" style="
             --node-inherent-translate-x: -0.05625;
           ">
             <div class="tri opaque" style="
@@ -4682,7 +4682,7 @@
             --texture-c-t: 0.546875;
             "></div>
           </div>
-          <div class="node rear_tyreL_1" style="
+          <div class="node rear_tyreL_1 node-26" style="
             --node-inherent-translate-x: -0.05625;
             --node-inherent-rotation-x: 0.38268343;
             --node-inherent-rotation-angle: -0.7853983rad;
@@ -4904,7 +4904,7 @@
             --texture-c-t: 0.546875;
             "></div>
           </div>
-          <div class="node rear_tyreL_2" style="
+          <div class="node rear_tyreL_2 node-27" style="
             --node-inherent-translate-x: -0.05625;
             --node-inherent-rotation-x: 0.70710677;
             --node-inherent-rotation-angle: -1.5707964rad;
@@ -5126,7 +5126,7 @@
             --texture-c-t: 0.546875;
             "></div>
           </div>
-          <div class="node rear_tyreL_3" style="
+          <div class="node rear_tyreL_3 node-28" style="
             --node-inherent-translate-x: -0.05625;
             --node-inherent-rotation-x: 0.9238795;
             --node-inherent-rotation-angle: -2.3561945rad;
@@ -5348,7 +5348,7 @@
             --texture-c-t: 0.546875;
             "></div>
           </div>
-          <div class="node rear_hubL" style="
+          <div class="node rear_hubL node-29" style="
             --node-inherent-translate-x: -0.125;
           ">
             <div class="tri opaque" style="
@@ -5569,7 +5569,7 @@
             "></div>
           </div>
         </div>
-        <div class="node steer_knuckleL" style="
+        <div class="node steer_knuckleL node-31" style="
           --node-inherent-translate-x: 0.01875;
           --node-inherent-translate-y: 0.025;
         ">
@@ -5791,19 +5791,19 @@
           "></div>
         </div>
       </div>
-      <div class="node mast" style="
+      <div class="node mast node-55" style="
         --node-inherent-translate-y: -0.15;
         --node-inherent-translate-z: -0.4;
       ">
-        <div class="node carriage" style="
+        <div class="node carriage node-48" style="
           --node-inherent-translate-y: 0.025;
           --node-inherent-translate-z: -0.1;
         ">
-          <div class="node pallet" style="
+          <div class="node pallet node-41" style="
             --node-inherent-translate-y: -0.125;
             --node-inherent-translate-z: -0.375;
           ">
-            <div class="node pallet_top" style="
+            <div class="node pallet_top node-33" style="
               --node-inherent-translate-y: 0.08125;
               --node-inherent-translate-z: -0.03125;
             ">
@@ -6024,7 +6024,7 @@
               --texture-c-t: 0.6953125;
               "></div>
             </div>
-            <div class="node pallet_runner0" style="
+            <div class="node pallet_runner0 node-34" style="
               --node-inherent-translate-x: -0.3125;
               --node-inherent-translate-y: 0.03125;
               --node-inherent-translate-z: -0.03125;
@@ -6246,7 +6246,7 @@
               --texture-c-t: 0.7421875;
               "></div>
             </div>
-            <div class="node pallet_runner1" style="
+            <div class="node pallet_runner1 node-35" style="
               --node-inherent-translate-y: 0.03125;
               --node-inherent-translate-z: -0.03125;
             ">
@@ -6467,7 +6467,7 @@
               --texture-c-t: 0.7421875;
               "></div>
             </div>
-            <div class="node pallet_runner2" style="
+            <div class="node pallet_runner2 node-36" style="
               --node-inherent-translate-x: 0.3125;
               --node-inherent-translate-y: 0.03125;
               --node-inherent-translate-z: -0.03125;
@@ -6689,7 +6689,7 @@
               --texture-c-t: 0.7421875;
               "></div>
             </div>
-            <div class="node crate_big" style="
+            <div class="node crate_big node-37" style="
               --node-inherent-translate-x: -0.125;
               --node-inherent-translate-y: 0.2875;
               --node-inherent-translate-z: -0.04375;
@@ -6911,7 +6911,7 @@
               --texture-c-t: 0.5;
               "></div>
             </div>
-            <div class="node crate_small" style="
+            <div class="node crate_small node-38" style="
               --node-inherent-translate-x: 0.2;
               --node-inherent-translate-y: 0.21875;
               --node-inherent-translate-z: -0.03125;
@@ -7133,7 +7133,7 @@
               --texture-c-t: 0.5859375;
               "></div>
             </div>
-            <div class="node crate_top" style="
+            <div class="node crate_top node-39" style="
               --node-inherent-translate-x: -0.125;
               --node-inherent-translate-y: 0.56875;
               --node-inherent-translate-z: -0.0625;
@@ -7355,7 +7355,7 @@
               --texture-c-t: 0.578125;
               "></div>
             </div>
-            <div class="node crate_tape" style="
+            <div class="node crate_tape node-40" style="
               --node-inherent-translate-x: -0.125;
               --node-inherent-translate-y: 0.290625;
               --node-inherent-translate-z: -0.04375;
@@ -7578,7 +7578,7 @@
               "></div>
             </div>
           </div>
-          <div class="node carriage_plate" style="
+          <div class="node carriage_plate node-42" style="
             --node-inherent-translate-y: 0.08125;
             --node-inherent-translate-z: -0.03125;
           ">
@@ -7799,7 +7799,7 @@
             --texture-c-t: 0.4921875;
             "></div>
           </div>
-          <div class="node load_backrest" style="
+          <div class="node load_backrest node-43" style="
             --node-inherent-translate-y: 0.4375;
             --node-inherent-translate-z: -0.03125;
           ">
@@ -8020,7 +8020,7 @@
             --texture-c-t: 0.4375;
             "></div>
           </div>
-          <div class="node fork_heelR" style="
+          <div class="node fork_heelR node-44" style="
             --node-inherent-translate-x: 0.2125;
             --node-inherent-translate-y: -0.025;
             --node-inherent-translate-z: -0.0875;
@@ -8242,7 +8242,7 @@
             --texture-c-t: 0.546875;
             "></div>
           </div>
-          <div class="node forkR" style="
+          <div class="node forkR node-45" style="
             --node-inherent-translate-x: 0.2125;
             --node-inherent-translate-y: -0.15;
             --node-inherent-translate-z: -0.3875;
@@ -8464,7 +8464,7 @@
             --texture-c-t: 0.7421875;
             "></div>
           </div>
-          <div class="node fork_heelL" style="
+          <div class="node fork_heelL node-46" style="
             --node-inherent-translate-x: -0.2125;
             --node-inherent-translate-y: -0.025;
             --node-inherent-translate-z: -0.0875;
@@ -8686,7 +8686,7 @@
             --texture-c-t: 0.546875;
             "></div>
           </div>
-          <div class="node forkL" style="
+          <div class="node forkL node-47" style="
             --node-inherent-translate-x: -0.2125;
             --node-inherent-translate-y: -0.15;
             --node-inherent-translate-z: -0.3875;
@@ -8909,7 +8909,7 @@
             "></div>
           </div>
         </div>
-        <div class="node mast_railR" style="
+        <div class="node mast_railR node-49" style="
           --node-inherent-translate-x: 0.26875;
           --node-inherent-translate-y: 0.7125;
           --node-inherent-translate-z: -0.05625;
@@ -9131,7 +9131,7 @@
           --texture-c-t: 0.2109375;
           "></div>
         </div>
-        <div class="node mast_ramR" style="
+        <div class="node mast_ramR node-50" style="
           --node-inherent-translate-x: 0.13125;
           --node-inherent-translate-y: 0.49375;
           --node-inherent-translate-z: -0.05;
@@ -9353,7 +9353,7 @@
           --texture-c-t: 0.140625;
           "></div>
         </div>
-        <div class="node mast_railL" style="
+        <div class="node mast_railL node-51" style="
           --node-inherent-translate-x: -0.26875;
           --node-inherent-translate-y: 0.7125;
           --node-inherent-translate-z: -0.05625;
@@ -9575,7 +9575,7 @@
           --texture-c-t: 0.2109375;
           "></div>
         </div>
-        <div class="node mast_ramL" style="
+        <div class="node mast_ramL node-52" style="
           --node-inherent-translate-x: -0.13125;
           --node-inherent-translate-y: 0.49375;
           --node-inherent-translate-z: -0.05;
@@ -9797,7 +9797,7 @@
           --texture-c-t: 0.140625;
           "></div>
         </div>
-        <div class="node mast_top" style="
+        <div class="node mast_top node-53" style="
           --node-inherent-translate-y: 1.50625;
           --node-inherent-translate-z: -0.05625;
         ">
@@ -10018,7 +10018,7 @@
           --texture-c-t: 0.6953125;
           "></div>
         </div>
-        <div class="node mast_mid" style="
+        <div class="node mast_mid node-54" style="
           --node-inherent-translate-y: 0.68125;
           --node-inherent-translate-z: -0.05625;
         ">
@@ -10240,7 +10240,7 @@
           "></div>
         </div>
       </div>
-      <div class="node body" style="
+      <div class="node body node-56" style="
         --node-inherent-translate-y: 0.03125;
         --node-inherent-translate-z: 0.09375;
       ">
@@ -10461,7 +10461,7 @@
         --texture-c-t: 0.3828125;
         "></div>
       </div>
-      <div class="node counterweight" style="
+      <div class="node counterweight node-57" style="
         --node-inherent-translate-y: 0.09375;
         --node-inherent-translate-z: 0.6875;
       ">
@@ -10682,7 +10682,7 @@
         --texture-c-t: 0.2890625;
         "></div>
       </div>
-      <div class="node counterweight_stripe" style="
+      <div class="node counterweight_stripe node-58" style="
         --node-inherent-translate-y: -0.0625;
         --node-inherent-translate-z: 0.821875;
       ">
@@ -10903,7 +10903,7 @@
         --texture-c-t: 0.609375;
         "></div>
       </div>
-      <div class="node floor" style="
+      <div class="node floor node-59" style="
         --node-inherent-translate-y: 0.26875;
         --node-inherent-translate-z: -0.125;
       ">
@@ -11124,7 +11124,7 @@
         --texture-c-t: 0.6953125;
         "></div>
       </div>
-      <div class="node seat" style="
+      <div class="node seat node-60" style="
         --node-inherent-translate-y: 0.3125;
         --node-inherent-translate-z: 0.28125;
       ">
@@ -11345,7 +11345,7 @@
         --texture-c-t: 0.609375;
         "></div>
       </div>
-      <div class="node seat_back" style="
+      <div class="node seat_back node-61" style="
         --node-inherent-translate-y: 0.53125;
         --node-inherent-translate-z: 0.41875;
       ">
@@ -11566,7 +11566,7 @@
         --texture-c-t: 0.4921875;
         "></div>
       </div>
-      <div class="node dash" style="
+      <div class="node dash node-62" style="
         --node-inherent-translate-y: 0.39375;
         --node-inherent-translate-z: -0.33125;
       ">
@@ -11787,7 +11787,7 @@
         --texture-c-t: 0.578125;
         "></div>
       </div>
-      <div class="node steering_column" style="
+      <div class="node steering_column node-63" style="
         --node-inherent-translate-y: 0.53125;
         --node-inherent-translate-z: -0.2375;
         --node-inherent-rotation-x: 0.33100852;
@@ -12010,7 +12010,7 @@
         --texture-c-t: 0.5859375;
         "></div>
       </div>
-      <div class="node steering_wheel_0" style="
+      <div class="node steering_wheel_0 node-64" style="
         --node-inherent-translate-y: 0.65;
         --node-inherent-translate-z: -0.15;
       ">
@@ -12231,7 +12231,7 @@
         --texture-c-t: 0.7265625;
         "></div>
       </div>
-      <div class="node steering_wheel_1" style="
+      <div class="node steering_wheel_1 node-65" style="
         --node-inherent-translate-y: 0.65;
         --node-inherent-translate-z: -0.15;
         --node-inherent-rotation-y: -0.38268343;
@@ -12454,7 +12454,7 @@
         --texture-c-t: 0.7265625;
         "></div>
       </div>
-      <div class="node steering_wheel_2" style="
+      <div class="node steering_wheel_2 node-66" style="
         --node-inherent-translate-y: 0.65;
         --node-inherent-translate-z: -0.15;
         --node-inherent-rotation-y: -0.70710677;
@@ -12677,7 +12677,7 @@
         --texture-c-t: 0.7265625;
         "></div>
       </div>
-      <div class="node steering_wheel_3" style="
+      <div class="node steering_wheel_3 node-67" style="
         --node-inherent-translate-y: 0.65;
         --node-inherent-translate-z: -0.15;
         --node-inherent-rotation-y: -0.9238795;
@@ -12900,7 +12900,7 @@
         --texture-c-t: 0.7265625;
         "></div>
       </div>
-      <div class="node guard_post0" style="
+      <div class="node guard_post0 node-68" style="
         --node-inherent-translate-x: -0.3375;
         --node-inherent-translate-y: 0.65625;
         --node-inherent-translate-z: -0.375;
@@ -13122,7 +13122,7 @@
         --texture-c-t: 0.109375;
         "></div>
       </div>
-      <div class="node guard_post1" style="
+      <div class="node guard_post1 node-69" style="
         --node-inherent-translate-x: 0.3375;
         --node-inherent-translate-y: 0.65625;
         --node-inherent-translate-z: -0.375;
@@ -13344,7 +13344,7 @@
         --texture-c-t: 0.109375;
         "></div>
       </div>
-      <div class="node guard_post2" style="
+      <div class="node guard_post2 node-70" style="
         --node-inherent-translate-x: -0.3375;
         --node-inherent-translate-y: 0.65625;
         --node-inherent-translate-z: 0.525;
@@ -13566,7 +13566,7 @@
         --texture-c-t: 0.109375;
         "></div>
       </div>
-      <div class="node guard_post3" style="
+      <div class="node guard_post3 node-71" style="
         --node-inherent-translate-x: 0.3375;
         --node-inherent-translate-y: 0.65625;
         --node-inherent-translate-z: 0.525;
@@ -13788,7 +13788,7 @@
         --texture-c-t: 0.109375;
         "></div>
       </div>
-      <div class="node guard_roof" style="
+      <div class="node guard_roof node-72" style="
         --node-inherent-translate-y: 1.0875;
         --node-inherent-translate-z: 0.075;
       ">
@@ -14009,7 +14009,7 @@
         --texture-c-t: 0.6796875;
         "></div>
       </div>
-      <div class="node guard_bar0" style="
+      <div class="node guard_bar0 node-73" style="
         --node-inherent-translate-x: -0.1875;
         --node-inherent-translate-y: 1.128125;
         --node-inherent-translate-z: 0.08125;
@@ -14231,7 +14231,7 @@
         --texture-c-t: 0.7421875;
         "></div>
       </div>
-      <div class="node guard_bar1" style="
+      <div class="node guard_bar1 node-74" style="
         --node-inherent-translate-y: 1.128125;
         --node-inherent-translate-z: 0.08125;
       ">
@@ -14452,7 +14452,7 @@
         --texture-c-t: 0.7421875;
         "></div>
       </div>
-      <div class="node guard_bar2" style="
+      <div class="node guard_bar2 node-75" style="
         --node-inherent-translate-x: 0.1875;
         --node-inherent-translate-y: 1.128125;
         --node-inherent-translate-z: 0.08125;
@@ -14677,4 +14677,3487 @@
     </div>
   </div>
 </div>
+<style>
+/*
+ * Animation: drive
+ */
+/* drive translation for node carriage (48) */
+@keyframes drive-0 {
+  8.333334% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.08888889;
+    --node-inherent-translate-z: -0.1;
+  }
+  33.333336% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.10138889;
+    --node-inherent-translate-z: -0.1;
+  }
+  75% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.096875;
+    --node-inherent-translate-z: -0.1;
+  }
+  29.166666% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.099197045;
+    --node-inherent-translate-z: -0.1;
+  }
+  4.166667% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.08786892;
+    --node-inherent-translate-z: -0.1;
+  }
+  58.333332% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.10486111;
+    --node-inherent-translate-z: -0.1;
+  }
+  91.66667% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.08888889;
+    --node-inherent-translate-z: -0.1;
+  }
+  100% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.0875;
+    --node-inherent-translate-z: -0.1;
+  }
+  41.666664% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.10486111;
+    --node-inherent-translate-z: -0.1;
+  }
+  12.5% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.090429686;
+    --node-inherent-translate-z: -0.1;
+  }
+  20.833332% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.09455295;
+    --node-inherent-translate-z: -0.1;
+  }
+  37.5% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.103320315;
+    --node-inherent-translate-z: -0.1;
+  }
+  50% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.10625;
+    --node-inherent-translate-z: -0.1;
+  }
+  0% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.0875;
+    --node-inherent-translate-z: -0.1;
+  }
+  66.66667% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.10138889;
+    --node-inherent-translate-z: -0.1;
+  }
+  83.33333% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.09236111;
+    --node-inherent-translate-z: -0.1;
+  }
+}
+/* drive rotation for node mast (55) */
+@keyframes drive-1 {
+  0% {
+    --node-inherent-rotation-x: 0.043619387;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.08726594rad;
+  }
+  100% {
+    --node-inherent-rotation-x: 0.043619387;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.08726594rad;
+  }
+  50% {
+    --node-inherent-rotation-x: 0.043619387;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.08726594rad;
+  }
+}
+/* drive rotation for node wheelFrontR (9) */
+@keyframes drive-2 {
+  20% {
+    --node-inherent-rotation-x: -0.95105654;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -2.5132742rad;
+  }
+  80% {
+    --node-inherent-rotation-x: 0.95105654;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -2.5132742rad;
+  }
+  0% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0rad;
+  }
+  100% {
+    --node-inherent-rotation-x: 0.00000000000000024492937;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0rad;
+  }
+  40% {
+    --node-inherent-rotation-x: -0.58778524;
+    --node-inherent-rotation-y: -0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -5.0265484rad;
+  }
+  60.000004% {
+    --node-inherent-rotation-x: 0.58778524;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: -0;
+    --node-inherent-rotation-angle: -5.0265484rad;
+  }
+}
+/* drive rotation for node wheelRearR (15) */
+@keyframes drive-3 {
+  42.857143% {
+    --node-inherent-rotation-x: 0.7818315;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: -0;
+    --node-inherent-rotation-angle: -4.4879894rad;
+  }
+  14.285715% {
+    --node-inherent-rotation-x: -0.9749279;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -2.6927936rad;
+  }
+  57.14286% {
+    --node-inherent-rotation-x: 0.7818315;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.7951958rad;
+  }
+  28.57143% {
+    --node-inherent-rotation-x: -0.43388373;
+    --node-inherent-rotation-y: -0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -5.385587rad;
+  }
+  85.71429% {
+    --node-inherent-rotation-x: -0.9749279;
+    --node-inherent-rotation-y: -0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -3.5903916rad;
+  }
+  100% {
+    --node-inherent-rotation-x: -0.00000000000000036739403;
+    --node-inherent-rotation-y: -0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -6.2831855rad;
+  }
+  0% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0rad;
+  }
+  71.42857% {
+    --node-inherent-rotation-x: -0.43388373;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.89759797rad;
+  }
+}
+/* drive rotation for node wheelFrontL (24) */
+@keyframes drive-4 {
+  20% {
+    --node-inherent-rotation-x: -0.95105654;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -2.5132742rad;
+  }
+  40% {
+    --node-inherent-rotation-x: -0.58778524;
+    --node-inherent-rotation-y: -0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -5.0265484rad;
+  }
+  80% {
+    --node-inherent-rotation-x: 0.95105654;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -2.5132742rad;
+  }
+  0% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0rad;
+  }
+  100% {
+    --node-inherent-rotation-x: 0.00000000000000024492937;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0rad;
+  }
+  60.000004% {
+    --node-inherent-rotation-x: 0.58778524;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: -0;
+    --node-inherent-rotation-angle: -5.0265484rad;
+  }
+}
+/* drive rotation for node wheelRearL (30) */
+@keyframes drive-5 {
+  0% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0rad;
+  }
+  42.857143% {
+    --node-inherent-rotation-x: 0.7818315;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: -0;
+    --node-inherent-rotation-angle: -4.4879894rad;
+  }
+  100% {
+    --node-inherent-rotation-x: -0.00000000000000036739403;
+    --node-inherent-rotation-y: -0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -6.2831855rad;
+  }
+  28.57143% {
+    --node-inherent-rotation-x: -0.43388373;
+    --node-inherent-rotation-y: -0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -5.385587rad;
+  }
+  57.14286% {
+    --node-inherent-rotation-x: 0.7818315;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.7951958rad;
+  }
+  85.71429% {
+    --node-inherent-rotation-x: -0.9749279;
+    --node-inherent-rotation-y: -0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -3.5903916rad;
+  }
+  71.42857% {
+    --node-inherent-rotation-x: -0.43388373;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.89759797rad;
+  }
+  14.285715% {
+    --node-inherent-rotation-x: -0.9749279;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -2.6927936rad;
+  }
+}
+/* drive rotation for node chassis (76) */
+@keyframes drive-6 {
+  18.8% {
+    --node-inherent-rotation-x: 0.0030853306;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.006176326rad;
+  }
+  93.8% {
+    --node-inherent-rotation-x: -0.0030853306;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.006176326rad;
+  }
+  43.8% {
+    --node-inherent-rotation-x: -0.0030853306;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.006176326rad;
+  }
+  75% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0rad;
+  }
+  6.3% {
+    --node-inherent-rotation-x: 0.0030853306;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.006176326rad;
+  }
+  100% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0rad;
+  }
+  68.8% {
+    --node-inherent-rotation-x: 0.0030853306;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.006176326rad;
+  }
+  0% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0rad;
+  }
+  87.5% {
+    --node-inherent-rotation-x: -0.004363309;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.008734647rad;
+  }
+  50% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0rad;
+  }
+  12.5% {
+    --node-inherent-rotation-x: 0.004363309;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.008734647rad;
+  }
+  81.3% {
+    --node-inherent-rotation-x: -0.0030853306;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.006176326rad;
+  }
+  62.5% {
+    --node-inherent-rotation-x: 0.004363309;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.008734647rad;
+  }
+  31.3% {
+    --node-inherent-rotation-x: -0.0030853306;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.006176326rad;
+  }
+  25% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0rad;
+  }
+  56.300003% {
+    --node-inherent-rotation-x: 0.0030853306;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.006176326rad;
+  }
+  37.5% {
+    --node-inherent-rotation-x: -0.004363309;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.008734647rad;
+  }
+}
+/* drive translation for node chassis (76) */
+@keyframes drive-7 {
+  75% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.375;
+    --node-inherent-translate-z: 0;
+  }
+  18.8% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.38825825;
+    --node-inherent-translate-z: 0;
+  }
+  0% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.375;
+    --node-inherent-translate-z: 0;
+  }
+  12.5% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.39375;
+    --node-inherent-translate-z: 0;
+  }
+  37.5% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.35625;
+    --node-inherent-translate-z: 0;
+  }
+  6.3% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.38825825;
+    --node-inherent-translate-z: 0;
+  }
+  68.8% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.38825825;
+    --node-inherent-translate-z: 0;
+  }
+  43.8% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.36174175;
+    --node-inherent-translate-z: 0;
+  }
+  56.300003% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.38825825;
+    --node-inherent-translate-z: 0;
+  }
+  81.3% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.36174175;
+    --node-inherent-translate-z: 0;
+  }
+  87.5% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.35625;
+    --node-inherent-translate-z: 0;
+  }
+  100% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.375;
+    --node-inherent-translate-z: 0;
+  }
+  93.8% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.36174175;
+    --node-inherent-translate-z: 0;
+  }
+  50% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.375;
+    --node-inherent-translate-z: 0;
+  }
+  31.3% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.36174175;
+    --node-inherent-translate-z: 0;
+  }
+  25% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.375;
+    --node-inherent-translate-z: 0;
+  }
+  62.5% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.39375;
+    --node-inherent-translate-z: 0;
+  }
+}
+/* drive rotation for node beacon (2) */
+@keyframes drive-8 {
+  0% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0rad;
+  }
+  33.333336% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.8660254;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -2.0943952rad;
+  }
+  66.66667% {
+    --node-inherent-rotation-x: -0;
+    --node-inherent-rotation-y: 0.8660254;
+    --node-inherent-rotation-z: -0;
+    --node-inherent-rotation-angle: -4.1887903rad;
+  }
+  100% {
+    --node-inherent-rotation-x: -0;
+    --node-inherent-rotation-y: 0.00000000000000012246469;
+    --node-inherent-rotation-z: -0;
+    --node-inherent-rotation-angle: -6.2831855rad;
+  }
+}
+/* drive translation for node pallet (41) */
+@keyframes drive-9 {
+  75% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.113111794;
+    --node-inherent-translate-z: -0.375;
+  }
+  28.099998% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.11932512;
+    --node-inherent-translate-z: -0.375;
+  }
+  43.8% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.12113729;
+    --node-inherent-translate-z: -0.375;
+  }
+  37.5% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.1368882;
+    --node-inherent-translate-z: -0.375;
+  }
+  100% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.113111794;
+    --node-inherent-translate-z: -0.375;
+  }
+  31.3% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.12886271;
+    --node-inherent-translate-z: -0.375;
+  }
+  81.3% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.12886271;
+    --node-inherent-translate-z: -0.375;
+  }
+  90.6% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.13067488;
+    --node-inherent-translate-z: -0.375;
+  }
+  40.6% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.13067488;
+    --node-inherent-translate-z: -0.375;
+  }
+  68.8% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.12113729;
+    --node-inherent-translate-z: -0.375;
+  }
+  12.5% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.1368882;
+    --node-inherent-translate-z: -0.375;
+  }
+  15.6% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.13067488;
+    --node-inherent-translate-z: -0.375;
+  }
+  34.4% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.13613757;
+    --node-inherent-translate-z: -0.375;
+  }
+  0% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.113111794;
+    --node-inherent-translate-z: -0.375;
+  }
+  18.8% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.12113729;
+    --node-inherent-translate-z: -0.375;
+  }
+  21.9% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.11386242;
+    --node-inherent-translate-z: -0.375;
+  }
+  25% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.113111794;
+    --node-inherent-translate-z: -0.375;
+  }
+  53.100002% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.11932512;
+    --node-inherent-translate-z: -0.375;
+  }
+  84.4% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.13613757;
+    --node-inherent-translate-z: -0.375;
+  }
+  59.399998% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.13613757;
+    --node-inherent-translate-z: -0.375;
+  }
+  62.5% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.1368882;
+    --node-inherent-translate-z: -0.375;
+  }
+  96.9% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.11386242;
+    --node-inherent-translate-z: -0.375;
+  }
+  9.4% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.13613757;
+    --node-inherent-translate-z: -0.375;
+  }
+  3.1% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.11932512;
+    --node-inherent-translate-z: -0.375;
+  }
+  6.3% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.12886271;
+    --node-inherent-translate-z: -0.375;
+  }
+  56.300003% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.12886271;
+    --node-inherent-translate-z: -0.375;
+  }
+  78.1% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.11932512;
+    --node-inherent-translate-z: -0.375;
+  }
+  87.5% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.1368882;
+    --node-inherent-translate-z: -0.375;
+  }
+  50% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.113111794;
+    --node-inherent-translate-z: -0.375;
+  }
+  46.9% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.11386242;
+    --node-inherent-translate-z: -0.375;
+  }
+  93.8% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.12113729;
+    --node-inherent-translate-z: -0.375;
+  }
+  71.9% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.11386242;
+    --node-inherent-translate-z: -0.375;
+  }
+  65.6% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.13067488;
+    --node-inherent-translate-z: -0.375;
+  }
+}
+.drive {
+  /* drive translation for node carriage (48) */
+  .node.node-48 {
+    animation: drive-0 1s infinite linear;
+  }
+  /* drive rotation for node mast (55) */
+  .node.node-55 {
+    animation: drive-1 1s infinite linear;
+  }
+  /* drive rotation for node wheelFrontR (9) */
+  .node.node-9 {
+    animation: drive-2 1s infinite linear;
+  }
+  /* drive rotation for node wheelRearR (15) */
+  .node.node-15 {
+    animation: drive-3 1s infinite linear;
+  }
+  /* drive rotation for node wheelFrontL (24) */
+  .node.node-24 {
+    animation: drive-4 1s infinite linear;
+  }
+  /* drive rotation for node wheelRearL (30) */
+  .node.node-30 {
+    animation: drive-5 1s infinite linear;
+  }
+  /* drive rotation for node chassis (76) */
+  .node.node-76 {
+    animation: drive-6 1s infinite linear;
+  }
+  /* drive translation for node chassis (76) */
+  .node.node-76 {
+    animation: drive-7 1s infinite linear;
+  }
+  /* drive rotation for node beacon (2) */
+  .node.node-2 {
+    animation: drive-8 1s infinite linear;
+  }
+  /* drive translation for node pallet (41) */
+  .node.node-41 {
+    animation: drive-9 1s infinite linear;
+  }
+}
+/*
+ * Animation: steer_spin
+ */
+/* steer_spin translation for node carriage (48) */
+@keyframes steer_spin-0 {
+  100% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.0875;
+    --node-inherent-translate-z: -0.1;
+  }
+  0% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.0875;
+    --node-inherent-translate-z: -0.1;
+  }
+}
+/* steer_spin rotation for node mast (55) */
+@keyframes steer_spin-1 {
+  100% {
+    --node-inherent-rotation-x: 0.043619387;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.08726594rad;
+  }
+  0% {
+    --node-inherent-rotation-x: 0.043619387;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.08726594rad;
+  }
+}
+/* steer_spin rotation for node wheelFrontR (9) */
+@keyframes steer_spin-2 {
+  14.285715% {
+    --node-inherent-rotation-x: -0.9749279;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -2.6927936rad;
+  }
+  42.857143% {
+    --node-inherent-rotation-x: 0.7818315;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: -0;
+    --node-inherent-rotation-angle: -4.4879894rad;
+  }
+  85.71429% {
+    --node-inherent-rotation-x: -0.9749279;
+    --node-inherent-rotation-y: -0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -3.5903916rad;
+  }
+  100% {
+    --node-inherent-rotation-x: -0.00000000000000036739403;
+    --node-inherent-rotation-y: -0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -6.2831855rad;
+  }
+  71.42857% {
+    --node-inherent-rotation-x: -0.43388373;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.89759797rad;
+  }
+  57.14286% {
+    --node-inherent-rotation-x: 0.7818315;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.7951958rad;
+  }
+  0% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0rad;
+  }
+  28.57143% {
+    --node-inherent-rotation-x: -0.43388373;
+    --node-inherent-rotation-y: -0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -5.385587rad;
+  }
+}
+/* steer_spin rotation for node wheelRearR (15) */
+@keyframes steer_spin-3 {
+  37.5% {
+    --node-inherent-rotation-x: 0.99306846;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: -0;
+    --node-inherent-rotation-angle: -3.377212rad;
+  }
+  62.5% {
+    --node-inherent-rotation-x: -0.98078525;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -2.7488935rad;
+  }
+  75% {
+    --node-inherent-rotation-x: -0.23344536;
+    --node-inherent-rotation-y: -0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -5.8119464rad;
+  }
+  50% {
+    --node-inherent-rotation-x: 0.15643446;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.31415898rad;
+  }
+  0% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0rad;
+  }
+  12.5% {
+    --node-inherent-rotation-x: -0.999229;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -3.063053rad;
+  }
+  87.5% {
+    --node-inherent-rotation-x: 0.9624552;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: -0;
+    --node-inherent-rotation-angle: -3.6913714rad;
+  }
+  100% {
+    --node-inherent-rotation-x: 0.309017;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.62831837rad;
+  }
+  25% {
+    --node-inherent-rotation-x: -0.0784591;
+    --node-inherent-rotation-y: -0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -6.126105rad;
+  }
+}
+/* steer_spin rotation for node wheelFrontL (24) */
+@keyframes steer_spin-4 {
+  14.285715% {
+    --node-inherent-rotation-x: -0.9749279;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -2.6927936rad;
+  }
+  28.57143% {
+    --node-inherent-rotation-x: -0.43388373;
+    --node-inherent-rotation-y: -0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -5.385587rad;
+  }
+  0% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0rad;
+  }
+  57.14286% {
+    --node-inherent-rotation-x: 0.7818315;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.7951958rad;
+  }
+  85.71429% {
+    --node-inherent-rotation-x: -0.9749279;
+    --node-inherent-rotation-y: -0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -3.5903916rad;
+  }
+  42.857143% {
+    --node-inherent-rotation-x: 0.7818315;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: -0;
+    --node-inherent-rotation-angle: -4.4879894rad;
+  }
+  100% {
+    --node-inherent-rotation-x: -0.00000000000000036739403;
+    --node-inherent-rotation-y: -0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -6.2831855rad;
+  }
+  71.42857% {
+    --node-inherent-rotation-x: -0.43388373;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.89759797rad;
+  }
+}
+/* steer_spin rotation for node wheelRearL (30) */
+@keyframes steer_spin-5 {
+  62.5% {
+    --node-inherent-rotation-x: -0.98078525;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -2.7488935rad;
+  }
+  12.5% {
+    --node-inherent-rotation-x: -0.999229;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -3.063053rad;
+  }
+  87.5% {
+    --node-inherent-rotation-x: 0.9624552;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: -0;
+    --node-inherent-rotation-angle: -3.6913714rad;
+  }
+  25% {
+    --node-inherent-rotation-x: -0.0784591;
+    --node-inherent-rotation-y: -0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -6.126105rad;
+  }
+  37.5% {
+    --node-inherent-rotation-x: 0.99306846;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: -0;
+    --node-inherent-rotation-angle: -3.377212rad;
+  }
+  0% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0rad;
+  }
+  75% {
+    --node-inherent-rotation-x: -0.23344536;
+    --node-inherent-rotation-y: -0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -5.8119464rad;
+  }
+  100% {
+    --node-inherent-rotation-x: 0.309017;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.62831837rad;
+  }
+  50% {
+    --node-inherent-rotation-x: 0.15643446;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.31415898rad;
+  }
+}
+/* steer_spin rotation for node steerR (17) */
+@keyframes steer_spin-6 {
+  95.83333% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.08131095;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.16280162rad;
+  }
+  39.583336% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.3791099;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.7776683rad;
+  }
+  47.916664% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.3825406;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.7850889rad;
+  }
+  70.83333% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.36835545;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.7544788rad;
+  }
+  68.75% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.37108463;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.7603535rad;
+  }
+  2.0833335% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.033399545;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.06681026rad;
+  }
+  4.166667% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.08131095;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.16280162rad;
+  }
+  56.25% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.3813976;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.7826153rad;
+  }
+  87.5% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.30224666;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.6140975rad;
+  }
+  91.66667% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.19740856;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.39742768rad;
+  }
+  15.000001% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.34202015;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.69813174rad;
+  }
+  35.416664% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.37567392;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.7702477rad;
+  }
+  93.75% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.13793275;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.27674747rad;
+  }
+  18.75% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.35032207;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.7158299rad;
+  }
+  0% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0rad;
+  }
+  43.75% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.3813976;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.7826153rad;
+  }
+  20.833332% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.3545177;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.7247965rad;
+  }
+  77.08333% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.3584176;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.7331445rad;
+  }
+  64.58333% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.37567392;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.7702477rad;
+  }
+  31.25% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.37108463;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.7603535rad;
+  }
+  6.25% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.13793275;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.27674747rad;
+  }
+  62.5% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.3775357;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.7742671rad;
+  }
+  52.083332% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.3825406;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.7850889rad;
+  }
+  22.916668% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.3584176;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.7331445rad;
+  }
+  89.58333% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.2539956;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.513618rad;
+  }
+  10.416666% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.2539956;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.513618rad;
+  }
+  54.166668% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.38211206;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.7841613rad;
+  }
+  60.416668% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.3791099;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.7776683rad;
+  }
+  27.083334% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.36533526;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.74798584rad;
+  }
+  85% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.34202015;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.69813174rad;
+  }
+  58.333332% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.38039702;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.7804511rad;
+  }
+  75% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.36202303;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.7408745rad;
+  }
+  100% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0rad;
+  }
+  72.91667% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.36533526;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.74798584rad;
+  }
+  81.25% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.35032207;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.7158299rad;
+  }
+  66.66667% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.37352383;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.7656098rad;
+  }
+  79.16667% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.3545177;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.7247965rad;
+  }
+}
+/* steer_spin rotation for node steerL (32) */
+@keyframes steer_spin-7 {
+  18.75% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.35032207;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.7158299rad;
+  }
+  60.416668% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.3791099;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.7776683rad;
+  }
+  2.0833335% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.033399545;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.06681026rad;
+  }
+  4.166667% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.08131095;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.16280162rad;
+  }
+  91.66667% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.19740856;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.39742768rad;
+  }
+  0% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0rad;
+  }
+  95.83333% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.08131095;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.16280162rad;
+  }
+  47.916664% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.3825406;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.7850889rad;
+  }
+  6.25% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.13793275;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.27674747rad;
+  }
+  31.25% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.37108463;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.7603535rad;
+  }
+  27.083334% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.36533526;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.74798584rad;
+  }
+  35.416664% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.37567392;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.7702477rad;
+  }
+  54.166668% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.38211206;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.7841613rad;
+  }
+  70.83333% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.36835545;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.7544788rad;
+  }
+  15.000001% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.34202015;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.69813174rad;
+  }
+  39.583336% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.3791099;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.7776683rad;
+  }
+  100% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0rad;
+  }
+  66.66667% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.37352383;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.7656098rad;
+  }
+  93.75% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.13793275;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.27674747rad;
+  }
+  77.08333% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.3584176;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.7331445rad;
+  }
+  58.333332% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.38039702;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.7804511rad;
+  }
+  22.916668% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.3584176;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.7331445rad;
+  }
+  52.083332% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.3825406;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.7850889rad;
+  }
+  64.58333% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.37567392;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.7702477rad;
+  }
+  81.25% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.35032207;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.7158299rad;
+  }
+  87.5% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.30224666;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.6140975rad;
+  }
+  75% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.36202303;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.7408745rad;
+  }
+  85% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.34202015;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.69813174rad;
+  }
+  10.416666% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.2539956;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.513618rad;
+  }
+  89.58333% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.2539956;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.513618rad;
+  }
+  72.91667% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.36533526;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.74798584rad;
+  }
+  68.75% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.37108463;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.7603535rad;
+  }
+  79.16667% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.3545177;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.7247965rad;
+  }
+  20.833332% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.3545177;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.7247965rad;
+  }
+  56.25% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.3813976;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.7826153rad;
+  }
+  62.5% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.3775357;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.7742671rad;
+  }
+  43.75% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.3813976;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.7826153rad;
+  }
+}
+/* steer_spin rotation for node root (77) */
+@keyframes steer_spin-8 {
+  47.916664% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: -0.99318755;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -2.9080088rad;
+  }
+  35.416664% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: -0.704047;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.5621605rad;
+  }
+  60.416668% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: -0.8397242;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -4.289635rad;
+  }
+  64.58333% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: -0.704047;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -4.721025rad;
+  }
+  95.83333% {
+    --node-inherent-rotation-x: -0;
+    --node-inherent-rotation-y: 0.087424055;
+    --node-inherent-rotation-z: -0;
+    --node-inherent-rotation-angle: -6.1081133rad;
+  }
+  15.000001% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0rad;
+  }
+  100% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: -0.00000000000000012246469;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -6.2831855rad;
+  }
+  22.916668% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: -0.23126632;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.46675804rad;
+  }
+  10.416666% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.22940357;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.46292976rad;
+  }
+  27.083334% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: -0.38518375;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.790814rad;
+  }
+  72.91667% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: -0.38518375;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -5.4923716rad;
+  }
+  6.25% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.15840939;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.31815884rad;
+  }
+  85% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: -0.00000000000000012246469;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -6.2831855rad;
+  }
+  66.66667% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: -0.62739396;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -4.926781rad;
+  }
+  58.333332% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: -0.8950743;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -4.0659895rad;
+  }
+  2.0833335% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.026089443;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.052185934rad;
+  }
+  56.25% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: -0.93992424;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -3.838369rad;
+  }
+  31.25% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: -0.54743755;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.1585983rad;
+  }
+  70.83333% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: -0.466092;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -5.3134484rad;
+  }
+  18.75% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: -0.097037934;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.19438176rad;
+  }
+  52.083332% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: -0.99318755;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -3.3751764rad;
+  }
+  77.08333% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: -0.23126632;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -5.816427rad;
+  }
+  62.5% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: -0.775456;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -4.5083113rad;
+  }
+  81.25% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: -0.097037934;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -6.088804rad;
+  }
+  68.75% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: -0.54743755;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -5.124587rad;
+  }
+  87.5% {
+    --node-inherent-rotation-x: -0;
+    --node-inherent-rotation-y: 0.18080525;
+    --node-inherent-rotation-z: -0;
+    --node-inherent-rotation-angle: -5.9195747rad;
+  }
+  93.75% {
+    --node-inherent-rotation-x: -0;
+    --node-inherent-rotation-y: 0.15840939;
+    --node-inherent-rotation-z: -0;
+    --node-inherent-rotation-angle: -5.9650264rad;
+  }
+  54.166668% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: -0.972958;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -3.6077664rad;
+  }
+  4.166667% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.087424055;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.17507185rad;
+  }
+  43.75% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: -0.93992424;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -2.4448166rad;
+  }
+  89.58333% {
+    --node-inherent-rotation-x: -0;
+    --node-inherent-rotation-y: 0.22940357;
+    --node-inherent-rotation-z: -0;
+    --node-inherent-rotation-angle: -5.8202558rad;
+  }
+  20.833332% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: -0.16110143;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.3236128rad;
+  }
+  39.583336% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: -0.8397242;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.9935502rad;
+  }
+  0% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0rad;
+  }
+  75% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: -0.30640256;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -5.6603622rad;
+  }
+  79.16667% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: -0.16110143;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -5.9595723rad;
+  }
+  91.66667% {
+    --node-inherent-rotation-x: -0;
+    --node-inherent-rotation-y: 0.21380927;
+    --node-inherent-rotation-z: -0;
+    --node-inherent-rotation-angle: -5.8522396rad;
+  }
+}
+/* steer_spin rotation for node beacon (2) */
+@keyframes steer_spin-9 {
+  100% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: -0.00000000000000024492937;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0rad;
+  }
+  40% {
+    --node-inherent-rotation-x: -0;
+    --node-inherent-rotation-y: 0.58778524;
+    --node-inherent-rotation-z: -0;
+    --node-inherent-rotation-angle: -5.0265484rad;
+  }
+  20% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.95105654;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -2.5132742rad;
+  }
+  80% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: -0.95105654;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -2.5132742rad;
+  }
+  0% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0rad;
+  }
+  60.000004% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: -0.58778524;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -5.0265484rad;
+  }
+}
+.steer_spin {
+  /* steer_spin translation for node carriage (48) */
+  .node.node-48 {
+    animation: steer_spin-0 2s infinite linear;
+  }
+  /* steer_spin rotation for node mast (55) */
+  .node.node-55 {
+    animation: steer_spin-1 2s infinite linear;
+  }
+  /* steer_spin rotation for node wheelFrontR (9) */
+  .node.node-9 {
+    animation: steer_spin-2 2s infinite linear;
+  }
+  /* steer_spin rotation for node wheelRearR (15) */
+  .node.node-15 {
+    animation: steer_spin-3 2s infinite linear;
+  }
+  /* steer_spin rotation for node wheelFrontL (24) */
+  .node.node-24 {
+    animation: steer_spin-4 2s infinite linear;
+  }
+  /* steer_spin rotation for node wheelRearL (30) */
+  .node.node-30 {
+    animation: steer_spin-5 2s infinite linear;
+  }
+  /* steer_spin rotation for node steerR (17) */
+  .node.node-17 {
+    animation: steer_spin-6 2s infinite linear;
+  }
+  /* steer_spin rotation for node steerL (32) */
+  .node.node-32 {
+    animation: steer_spin-7 2s infinite linear;
+  }
+  /* steer_spin rotation for node root (77) */
+  .node.node-77 {
+    animation: steer_spin-8 2s infinite linear;
+  }
+  /* steer_spin rotation for node beacon (2) */
+  .node.node-2 {
+    animation: steer_spin-9 2s infinite linear;
+  }
+}
+/*
+ * Animation: idle
+ */
+/* idle translation for node carriage (48) */
+@keyframes idle-0 {
+  0% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.0875;
+    --node-inherent-translate-z: -0.1;
+  }
+  100% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.0875;
+    --node-inherent-translate-z: -0.1;
+  }
+}
+/* idle rotation for node mast (55) */
+@keyframes idle-1 {
+  0% {
+    --node-inherent-rotation-x: 0.034899496;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.069812395rad;
+  }
+  100% {
+    --node-inherent-rotation-x: 0.034899496;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.069812395rad;
+  }
+}
+/* idle translation for node chassis (76) */
+@keyframes idle-2 {
+  50% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.375;
+    --node-inherent-translate-z: 0;
+  }
+  45% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.36948952;
+    --node-inherent-translate-z: 0;
+  }
+  74.99999% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.375;
+    --node-inherent-translate-z: 0;
+  }
+  92.49999% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.38051048;
+    --node-inherent-translate-z: 0;
+  }
+  65% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.38391617;
+    --node-inherent-translate-z: 0;
+  }
+  47.499996% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.36608383;
+    --node-inherent-translate-z: 0;
+  }
+  67.49999% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.38051048;
+    --node-inherent-translate-z: 0;
+  }
+  27.5% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.38391617;
+    --node-inherent-translate-z: 0;
+  }
+  19.999998% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.36948952;
+    --node-inherent-translate-z: 0;
+  }
+  12.5% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.375;
+    --node-inherent-translate-z: 0;
+  }
+  34.999996% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.36608383;
+    --node-inherent-translate-z: 0;
+  }
+  85% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.36608383;
+    --node-inherent-translate-z: 0;
+  }
+  9.999999% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.36608383;
+    --node-inherent-translate-z: 0;
+  }
+  82.5% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.36948952;
+    --node-inherent-translate-z: 0;
+  }
+  79.99999% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.38051048;
+    --node-inherent-translate-z: 0;
+  }
+  77.5% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.38391617;
+    --node-inherent-translate-z: 0;
+  }
+  42.5% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.38051048;
+    --node-inherent-translate-z: 0;
+  }
+  55% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.38051048;
+    --node-inherent-translate-z: 0;
+  }
+  57.5% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.36948952;
+    --node-inherent-translate-z: 0;
+  }
+  62.5% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.375;
+    --node-inherent-translate-z: 0;
+  }
+  7.5000005% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.36948952;
+    --node-inherent-translate-z: 0;
+  }
+  32.5% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.36948952;
+    --node-inherent-translate-z: 0;
+  }
+  69.99999% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.36948952;
+    --node-inherent-translate-z: 0;
+  }
+  25% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.375;
+    --node-inherent-translate-z: 0;
+  }
+  2.4999998% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.38391617;
+    --node-inherent-translate-z: 0;
+  }
+  22.5% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.36608383;
+    --node-inherent-translate-z: 0;
+  }
+  87.49999% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.375;
+    --node-inherent-translate-z: 0;
+  }
+  100% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.375;
+    --node-inherent-translate-z: 0;
+  }
+  39.999996% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.38391617;
+    --node-inherent-translate-z: 0;
+  }
+  17.499998% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.38051048;
+    --node-inherent-translate-z: 0;
+  }
+  60.000004% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.36608383;
+    --node-inherent-translate-z: 0;
+  }
+  0% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.375;
+    --node-inherent-translate-z: 0;
+  }
+  52.499996% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.38391617;
+    --node-inherent-translate-z: 0;
+  }
+  72.5% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.36608383;
+    --node-inherent-translate-z: 0;
+  }
+  90% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.38391617;
+    --node-inherent-translate-z: 0;
+  }
+  30.000002% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.38051048;
+    --node-inherent-translate-z: 0;
+  }
+  97.49999% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.36608383;
+    --node-inherent-translate-z: 0;
+  }
+  94.99999% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.36948952;
+    --node-inherent-translate-z: 0;
+  }
+  37.499996% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.375;
+    --node-inherent-translate-z: 0;
+  }
+  15.000001% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.38391617;
+    --node-inherent-translate-z: 0;
+  }
+  4.9999995% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.38051048;
+    --node-inherent-translate-z: 0;
+  }
+}
+/* idle rotation for node beacon (2) */
+@keyframes idle-3 {
+  66.666664% {
+    --node-inherent-rotation-x: -0;
+    --node-inherent-rotation-y: 0.8660254;
+    --node-inherent-rotation-z: -0;
+    --node-inherent-rotation-angle: -4.1887903rad;
+  }
+  100% {
+    --node-inherent-rotation-x: -0;
+    --node-inherent-rotation-y: 0.00000000000000012246469;
+    --node-inherent-rotation-z: -0;
+    --node-inherent-rotation-angle: -6.2831855rad;
+  }
+  0% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0rad;
+  }
+  33.333332% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.8660254;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -2.0943952rad;
+  }
+}
+.idle {
+  /* idle translation for node carriage (48) */
+  .node.node-48 {
+    animation: idle-0 1.2s infinite linear;
+  }
+  /* idle rotation for node mast (55) */
+  .node.node-55 {
+    animation: idle-1 1.2s infinite linear;
+  }
+  /* idle translation for node chassis (76) */
+  .node.node-76 {
+    animation: idle-2 1.2s infinite linear;
+  }
+  /* idle rotation for node beacon (2) */
+  .node.node-2 {
+    animation: idle-3 1.2s infinite linear;
+  }
+}
+/*
+ * Animation: drop_load
+ */
+/* drop_load translation for node carriage (48) */
+@keyframes drop_load-0 {
+  36.458332% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.49410358;
+    --node-inherent-translate-z: -0.1;
+  }
+  43.402775% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.35930896;
+    --node-inherent-translate-z: -0.1;
+  }
+  19.097223% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.8295139;
+    --node-inherent-translate-z: -0.1;
+  }
+  66.666664% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.025;
+    --node-inherent-translate-z: -0.1;
+  }
+  60.76389% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.083794646;
+    --node-inherent-translate-z: -0.1;
+  }
+  8.680555% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.9936516;
+    --node-inherent-translate-z: -0.1;
+  }
+  52.083332% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.20635262;
+    --node-inherent-translate-z: -0.1;
+  }
+  62.5% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.06416931;
+    --node-inherent-translate-z: -0.1;
+  }
+  45.13889% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.32696134;
+    --node-inherent-translate-z: -0.1;
+  }
+  57.291664% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.12826934;
+    --node-inherent-translate-z: -0.1;
+  }
+  100% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.025;
+    --node-inherent-translate-z: -0.1;
+  }
+  39.930553% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.4258506;
+    --node-inherent-translate-z: -0.1;
+  }
+  0% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 1.0875;
+    --node-inherent-translate-z: -0.1;
+  }
+  12.152777% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.94413304;
+    --node-inherent-translate-z: -0.1;
+  }
+  46.874996% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.2953793;
+    --node-inherent-translate-z: -0.1;
+  }
+  53.819443% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.1789588;
+    --node-inherent-translate-z: -0.1;
+  }
+  55.555553% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.15289351;
+    --node-inherent-translate-z: -0.1;
+  }
+  74.99999% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.025;
+    --node-inherent-translate-z: -0.1;
+  }
+  17.36111% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.85983497;
+    --node-inherent-translate-z: -0.1;
+  }
+  15.625% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.8891202;
+    --node-inherent-translate-z: -0.1;
+  }
+  22.569445% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.7662148;
+    --node-inherent-translate-z: -0.1;
+  }
+  29.513887% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.6321407;
+    --node-inherent-translate-z: -0.1;
+  }
+  5.208333% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 1.0367752;
+    --node-inherent-translate-z: -0.1;
+  }
+  3.472222% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 1.0556575;
+    --node-inherent-translate-z: -0.1;
+  }
+  1.736111% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 1.0726033;
+    --node-inherent-translate-z: -0.1;
+  }
+  32.98611% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.56316715;
+    --node-inherent-translate-z: -0.1;
+  }
+  26.041666% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.7001234;
+    --node-inherent-translate-z: -0.1;
+  }
+  59.027775% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.10519885;
+    --node-inherent-translate-z: -0.1;
+  }
+  48.611107% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.26467544;
+    --node-inherent-translate-z: -0.1;
+  }
+  64.23611% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.046435427;
+    --node-inherent-translate-z: -0.1;
+  }
+  71.18055% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.035449672;
+    --node-inherent-translate-z: -0.1;
+  }
+  72.916664% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.00009765625;
+    --node-inherent-translate-z: -0.1;
+  }
+  69.44444% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.053703703;
+    --node-inherent-translate-z: -0.1;
+  }
+  50.34722% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.23496236;
+    --node-inherent-translate-z: -0.1;
+  }
+  13.888888% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.91725713;
+    --node-inherent-translate-z: -0.1;
+  }
+}
+/* drop_load rotation for node mast (55) */
+@keyframes drop_load-1 {
+  74.99999% {
+    --node-inherent-rotation-x: -0.026176948;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.05235927rad;
+  }
+  0% {
+    --node-inherent-rotation-x: -0.026176948;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.05235927rad;
+  }
+  79.86111% {
+    --node-inherent-rotation-x: -0.022340532;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.044683333rad;
+  }
+  100% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0rad;
+  }
+  78.12499% {
+    --node-inherent-rotation-x: -0.023978934;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.0479622rad;
+  }
+  72.916664% {
+    --node-inherent-rotation-x: -0.02801705;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.056041546rad;
+  }
+  69.44444% {
+    --node-inherent-rotation-x: -0.027146231;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.05429977rad;
+  }
+  81.59722% {
+    --node-inherent-rotation-x: -0.020470655;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.040946525rad;
+  }
+  83.33333% {
+    --node-inherent-rotation-x: -0.018421877;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.03684554rad;
+  }
+  97.22221% {
+    --node-inherent-rotation-x: -0.0019033415;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.0037822109rad;
+  }
+  71.18055% {
+    --node-inherent-rotation-x: -0.027936595;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.055879626rad;
+  }
+  93.74999% {
+    --node-inherent-rotation-x: -0.005317775;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.010630648rad;
+  }
+  90.27778% {
+    --node-inherent-rotation-x: -0.009489637;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.018974055rad;
+  }
+  66.666664% {
+    --node-inherent-rotation-x: -0.026176948;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.05235927rad;
+  }
+  86.80555% {
+    --node-inherent-rotation-x: -0.013997977;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.027998805rad;
+  }
+}
+/* drop_load rotation for node beacon (2) */
+@keyframes drop_load-2 {
+  0% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0rad;
+  }
+  60.000004% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: -0.58778524;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -5.0265484rad;
+  }
+  39.999996% {
+    --node-inherent-rotation-x: -0;
+    --node-inherent-rotation-y: 0.58778524;
+    --node-inherent-rotation-z: -0;
+    --node-inherent-rotation-angle: -5.0265484rad;
+  }
+  19.999998% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.95105654;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -2.5132742rad;
+  }
+  79.99999% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: -0.95105654;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -2.5132742rad;
+  }
+  100% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: -0.00000000000000024492937;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0rad;
+  }
+}
+/* drop_load translation for node pallet (41) */
+@keyframes drop_load-3 {
+  93.74999% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.12565714;
+    --node-inherent-translate-z: -0.375;
+  }
+  0% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.125;
+    --node-inherent-translate-z: -0.375;
+  }
+  12.152777% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.12542458;
+    --node-inherent-translate-z: -0.375;
+  }
+  69.16666% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.09375;
+    --node-inherent-translate-z: -0.375;
+  }
+  43.402775% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.12731107;
+    --node-inherent-translate-z: -0.375;
+  }
+  100% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.125;
+    --node-inherent-translate-z: -0.375;
+  }
+  48.611107% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.12724997;
+    --node-inherent-translate-z: -0.375;
+  }
+  39.930553% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.12724803;
+    --node-inherent-translate-z: -0.375;
+  }
+  52.083332% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.12708616;
+    --node-inherent-translate-z: -0.375;
+  }
+  53.819443% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.12696238;
+    --node-inherent-translate-z: -0.375;
+  }
+  64.23611% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.12552889;
+    --node-inherent-translate-z: -0.375;
+  }
+  73.33333% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.125;
+    --node-inherent-translate-z: -0.375;
+  }
+  13.888888% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.12553689;
+    --node-inherent-translate-z: -0.375;
+  }
+  76.38889% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.12640359;
+    --node-inherent-translate-z: -0.375;
+  }
+  81.59722% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.12730603;
+    --node-inherent-translate-z: -0.375;
+  }
+  86.80555% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.12693258;
+    --node-inherent-translate-z: -0.375;
+  }
+  97.22221% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.12515189;
+    --node-inherent-translate-z: -0.375;
+  }
+  29.513887% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.12670663;
+    --node-inherent-translate-z: -0.375;
+  }
+  62.5% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.1258583;
+    --node-inherent-translate-z: -0.375;
+  }
+  50.34722% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.12718147;
+    --node-inherent-translate-z: -0.375;
+  }
+  32.98611% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.12693258;
+    --node-inherent-translate-z: -0.375;
+  }
+  79.86111% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.12718147;
+    --node-inherent-translate-z: -0.375;
+  }
+  5.208333% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.12508792;
+    --node-inherent-translate-z: -0.375;
+  }
+  1.736111% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.12501033;
+    --node-inherent-translate-z: -0.375;
+  }
+  60.76389% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.12614933;
+    --node-inherent-translate-z: -0.375;
+  }
+  3.472222% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.12504017;
+    --node-inherent-translate-z: -0.375;
+  }
+  36.458332% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.12711746;
+    --node-inherent-translate-z: -0.375;
+  }
+  19.097223% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.12591487;
+    --node-inherent-translate-z: -0.375;
+  }
+  17.36111% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.1257837;
+    --node-inherent-translate-z: -0.375;
+  }
+  78.12499% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.12688929;
+    --node-inherent-translate-z: -0.375;
+  }
+  57.291664% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.12662274;
+    --node-inherent-translate-z: -0.375;
+  }
+  46.874996% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.12729329;
+    --node-inherent-translate-z: -0.375;
+  }
+  83.33333% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.12728882;
+    --node-inherent-translate-z: -0.375;
+  }
+  90.27778% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.12631969;
+    --node-inherent-translate-z: -0.375;
+  }
+  22.569445% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.12618454;
+    --node-inherent-translate-z: -0.375;
+  }
+  15.625% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.12565714;
+    --node-inherent-translate-z: -0.375;
+  }
+  26.041666% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.12645286;
+    --node-inherent-translate-z: -0.375;
+  }
+  55.555553% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.12680845;
+    --node-inherent-translate-z: -0.375;
+  }
+  71.18055% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.10670812;
+    --node-inherent-translate-z: -0.375;
+  }
+  45.13889% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.1273131;
+    --node-inherent-translate-z: -0.375;
+  }
+  59.027775% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.12640359;
+    --node-inherent-translate-z: -0.375;
+  }
+  66.666664% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.125;
+    --node-inherent-translate-z: -0.375;
+  }
+  8.680555% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.12523042;
+    --node-inherent-translate-z: -0.375;
+  }
+}
+.drop_load {
+  /* drop_load translation for node carriage (48) */
+  .node.node-48 {
+    animation: drop_load-0 2.4s infinite linear;
+  }
+  /* drop_load rotation for node mast (55) */
+  .node.node-55 {
+    animation: drop_load-1 2.4s infinite linear;
+  }
+  /* drop_load rotation for node beacon (2) */
+  .node.node-2 {
+    animation: drop_load-2 2.4s infinite linear;
+  }
+  /* drop_load translation for node pallet (41) */
+  .node.node-41 {
+    animation: drop_load-3 2.4s infinite linear;
+  }
+}
+/*
+ * Animation: lift_load
+ */
+/* lift_load translation for node carriage (48) */
+@keyframes lift_load-0 {
+  1.388889% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.01983603;
+    --node-inherent-translate-z: -0.1;
+  }
+  6.944444% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.044053085;
+    --node-inherent-translate-z: -0.1;
+  }
+  50% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.70236194;
+    --node-inherent-translate-z: -0.1;
+  }
+  54.166668% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.7897963;
+    --node-inherent-translate-z: -0.1;
+  }
+  58.333332% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.87167966;
+    --node-inherent-translate-z: -0.1;
+  }
+  75% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 1.1383423;
+    --node-inherent-translate-z: -0.1;
+  }
+  63.88889% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.9685327;
+    --node-inherent-translate-z: -0.1;
+  }
+  52.77778% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.7611629;
+    --node-inherent-translate-z: -0.1;
+  }
+  59.72222% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.8973716;
+    --node-inherent-translate-z: -0.1;
+  }
+  66.66667% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 1.0102538;
+    --node-inherent-translate-z: -0.1;
+  }
+  48.611115% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.6723527;
+    --node-inherent-translate-z: -0.1;
+  }
+  0% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.025;
+    --node-inherent-translate-z: -0.1;
+  }
+  34.72222% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.36878034;
+    --node-inherent-translate-z: -0.1;
+  }
+  29.166666% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.25665045;
+    --node-inherent-translate-z: -0.1;
+  }
+  9.722221% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.051498808;
+    --node-inherent-translate-z: -0.1;
+  }
+  11.111112% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.03648727;
+    --node-inherent-translate-z: -0.1;
+  }
+  62.5% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.9458772;
+    --node-inherent-translate-z: -0.1;
+  }
+  51.38889% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.7319917;
+    --node-inherent-translate-z: -0.1;
+  }
+  36.111115% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.39823616;
+    --node-inherent-translate-z: -0.1;
+  }
+  13.333334% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.025;
+    --node-inherent-translate-z: -0.1;
+  }
+  56.944447% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.8451338;
+    --node-inherent-translate-z: -0.1;
+  }
+  2.777778% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.006745967;
+    --node-inherent-translate-z: -0.1;
+  }
+  45.833336% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.6115117;
+    --node-inherent-translate-z: -0.1;
+  }
+  47.22222% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.6420429;
+    --node-inherent-translate-z: -0.1;
+  }
+  4.166667% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: -0.010667419;
+    --node-inherent-translate-z: -0.1;
+  }
+  61.11111% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.92213047;
+    --node-inherent-translate-z: -0.1;
+  }
+  73.333336% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 1.0875;
+    --node-inherent-translate-z: -0.1;
+  }
+  15.277778% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.04385409;
+    --node-inherent-translate-z: -0.1;
+  }
+  43.055553% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.5501014;
+    --node-inherent-translate-z: -0.1;
+  }
+  44.444447% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.58083814;
+    --node-inherent-translate-z: -0.1;
+  }
+  65.27778% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.9900179;
+    --node-inherent-translate-z: -0.1;
+  }
+  83.33333% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 1.1124023;
+    --node-inherent-translate-z: -0.1;
+  }
+  40.27778% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.48875433;
+    --node-inherent-translate-z: -0.1;
+  }
+  18.055557% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.07616548;
+    --node-inherent-translate-z: -0.1;
+  }
+  80.55556% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 1.1479497;
+    --node-inherent-translate-z: -0.1;
+  }
+  26.38889% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.20510846;
+    --node-inherent-translate-z: -0.1;
+  }
+  100% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 1.0875;
+    --node-inherent-translate-z: -0.1;
+  }
+  37.5% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.42810312;
+    --node-inherent-translate-z: -0.1;
+  }
+  55.555553% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.817813;
+    --node-inherent-translate-z: -0.1;
+  }
+  77.77777% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 1.1662037;
+    --node-inherent-translate-z: -0.1;
+  }
+  86.666664% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 1.0875;
+    --node-inherent-translate-z: -0.1;
+  }
+  20.833332% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.1142334;
+    --node-inherent-translate-z: -0.1;
+  }
+  23.61111% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.15742525;
+    --node-inherent-translate-z: -0.1;
+  }
+  41.666664% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.5193804;
+    --node-inherent-translate-z: -0.1;
+  }
+  38.888885% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.45830223;
+    --node-inherent-translate-z: -0.1;
+  }
+  31.944445% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 0.3114186;
+    --node-inherent-translate-z: -0.1;
+  }
+  69.44444% {
+    --node-inherent-translate-x: 0;
+    --node-inherent-translate-y: 1.0466611;
+    --node-inherent-translate-z: -0.1;
+  }
+}
+/* lift_load rotation for node mast (55) */
+@keyframes lift_load-1 {
+  6.944444% {
+    --node-inherent-rotation-x: 0.022950487;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.04590464rad;
+  }
+  63.88889% {
+    --node-inherent-rotation-x: 0.047971204;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.09597853rad;
+  }
+  65.27778% {
+    --node-inherent-rotation-x: 0.047468435;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.09497178rad;
+  }
+  91.66667% {
+    --node-inherent-rotation-x: -0.031288102;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.06258642rad;
+  }
+  83.33333% {
+    --node-inherent-rotation-x: -0.011998851;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.024000546rad;
+  }
+  13.333334% {
+    --node-inherent-rotation-x: 0.043619387;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.08726594rad;
+  }
+  55.555553% {
+    --node-inherent-rotation-x: 0.050081775;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.10020456rad;
+  }
+  15.277778% {
+    --node-inherent-rotation-x: 0.04431612;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.088662244rad;
+  }
+  58.333332% {
+    --node-inherent-rotation-x: 0.04954433;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.099130034rad;
+  }
+  88.88889% {
+    --node-inherent-rotation-x: -0.030215453;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.060438816rad;
+  }
+  54.166668% {
+    --node-inherent-rotation-x: 0.050291628;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.10062499rad;
+  }
+  80.55556% {
+    --node-inherent-rotation-x: 0.0050955717;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.010195623rad;
+  }
+  73.333336% {
+    --node-inherent-rotation-x: 0.043619387;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.08726594rad;
+  }
+  20.833332% {
+    --node-inherent-rotation-x: 0.04618196;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.09239794rad;
+  }
+  1.388889% {
+    --node-inherent-rotation-x: 0.0029334184;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.0058593773rad;
+  }
+  4.166667% {
+    --node-inherent-rotation-x: 0.011877419;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.023750894rad;
+  }
+  43.055553% {
+    --node-inherent-rotation-x: 0.050686147;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.10141596rad;
+  }
+  9.722221% {
+    --node-inherent-rotation-x: 0.03378415;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.06758035rad;
+  }
+  69.44444% {
+    --node-inherent-rotation-x: 0.045681726;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.09139615rad;
+  }
+  0% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0rad;
+  }
+  2.777778% {
+    --node-inherent-rotation-x: 0.006991234;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.0139822755rad;
+  }
+  26.38889% {
+    --node-inherent-rotation-x: 0.047814094;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.095664896rad;
+  }
+  77.77777% {
+    --node-inherent-rotation-x: 0.022945834;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.04589425rad;
+  }
+  31.944445% {
+    --node-inherent-rotation-x: 0.049150314;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.0983401rad;
+  }
+  86.666664% {
+    --node-inherent-rotation-x: -0.026176948;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.05235927rad;
+  }
+  44.444447% {
+    --node-inherent-rotation-x: 0.05075261;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.10154993rad;
+  }
+  97.22223% {
+    --node-inherent-rotation-x: -0.027375927;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.05475892rad;
+  }
+  37.5% {
+    --node-inherent-rotation-x: 0.050128404;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.10029972rad;
+  }
+  50% {
+    --node-inherent-rotation-x: 0.0506974;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.10143712rad;
+  }
+  34.72222% {
+    --node-inherent-rotation-x: 0.049688015;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.09941595rad;
+  }
+  61.11111% {
+    --node-inherent-rotation-x: 0.04884341;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.09772455rad;
+  }
+  100% {
+    --node-inherent-rotation-x: -0.026176948;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.05235927rad;
+  }
+  18.055557% {
+    --node-inherent-rotation-x: 0.045274362;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.090580955rad;
+  }
+  36.111115% {
+    --node-inherent-rotation-x: 0.04992086;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.0998827rad;
+  }
+  38.888885% {
+    --node-inherent-rotation-x: 0.05030968;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.10066291rad;
+  }
+  11.111112% {
+    --node-inherent-rotation-x: 0.03837166;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.07676277rad;
+  }
+  45.833336% {
+    --node-inherent-rotation-x: 0.05078794;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.10162037rad;
+  }
+  59.72222% {
+    --node-inherent-rotation-x: 0.049214795;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.098468564rad;
+  }
+  23.61111% {
+    --node-inherent-rotation-x: 0.047031127;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.09409631rad;
+  }
+  75% {
+    --node-inherent-rotation-x: 0.037761036;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.07554146rad;
+  }
+  94.44444% {
+    --node-inherent-rotation-x: -0.029710665;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.05942824rad;
+  }
+  47.22222% {
+    --node-inherent-rotation-x: 0.050791163;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.10162506rad;
+  }
+  66.66667% {
+    --node-inherent-rotation-x: 0.046919916;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.09387553rad;
+  }
+  56.944447% {
+    --node-inherent-rotation-x: 0.049833;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.09970822rad;
+  }
+  40.27778% {
+    --node-inherent-rotation-x: 0.05046371;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.10097047rad;
+  }
+  51.38889% {
+    --node-inherent-rotation-x: 0.050598465;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.10123941rad;
+  }
+  29.166666% {
+    --node-inherent-rotation-x: 0.048523083;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.097085446rad;
+  }
+  48.611115% {
+    --node-inherent-rotation-x: 0.05076131;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.101566374rad;
+  }
+  62.5% {
+    --node-inherent-rotation-x: 0.048429206;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.09689609rad;
+  }
+  52.77778% {
+    --node-inherent-rotation-x: 0.050463535;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.10097047rad;
+  }
+  41.666664% {
+    --node-inherent-rotation-x: 0.05058952;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.10122292rad;
+  }
+}
+/* lift_load rotation for node beacon (2) */
+@keyframes lift_load-2 {
+  85.71429% {
+    --node-inherent-rotation-x: -0;
+    --node-inherent-rotation-y: 0.9749279;
+    --node-inherent-rotation-z: -0;
+    --node-inherent-rotation-angle: -3.5903916rad;
+  }
+  100% {
+    --node-inherent-rotation-x: -0;
+    --node-inherent-rotation-y: 0.00000000000000036739403;
+    --node-inherent-rotation-z: -0;
+    --node-inherent-rotation-angle: -6.2831855rad;
+  }
+  0% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0rad;
+  }
+  28.57143% {
+    --node-inherent-rotation-x: -0;
+    --node-inherent-rotation-y: 0.43388373;
+    --node-inherent-rotation-z: -0;
+    --node-inherent-rotation-angle: -5.385587rad;
+  }
+  71.428566% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.43388373;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.89759797rad;
+  }
+  14.285715% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0.9749279;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -2.6927936rad;
+  }
+  42.857143% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: -0.7818315;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -4.4879894rad;
+  }
+  57.14286% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: -0.7818315;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -1.7951958rad;
+  }
+}
+/* lift_load rotation for node chassis (76) */
+@keyframes lift_load-3 {
+  0% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0rad;
+  }
+  2.777778% {
+    --node-inherent-rotation-x: 0.0010286507;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.002071602rad;
+  }
+  62.5% {
+    --node-inherent-rotation-x: 0.012881917;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.025763666rad;
+  }
+  94.44444% {
+    --node-inherent-rotation-x: -0.004519862;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.009029911rad;
+  }
+  66.66667% {
+    --node-inherent-rotation-x: 0.012793944;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.02558723rad;
+  }
+  50% {
+    --node-inherent-rotation-x: 0.012162538;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.024326162rad;
+  }
+  47.22222% {
+    --node-inherent-rotation-x: 0.011849043;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.023700649rad;
+  }
+  73.333336% {
+    --node-inherent-rotation-x: 0.012217001;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.024433738rad;
+  }
+  100% {
+    --node-inherent-rotation-x: 0;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0rad;
+  }
+  56.944447% {
+    --node-inherent-rotation-x: 0.0127230715;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.025447074rad;
+  }
+  6.944444% {
+    --node-inherent-rotation-x: 0.0033321015;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.0066592717rad;
+  }
+  20.833332% {
+    --node-inherent-rotation-x: 0.007898214;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.015791995rad;
+  }
+  36.111115% {
+    --node-inherent-rotation-x: 0.010266706;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.02053114rad;
+  }
+  38.888885% {
+    --node-inherent-rotation-x: 0.010696998;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.021395514rad;
+  }
+  58.333332% {
+    --node-inherent-rotation-x: 0.012789642;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.02557791rad;
+  }
+  69.44444% {
+    --node-inherent-rotation-x: 0.012623035;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.02524955rad;
+  }
+  55.555553% {
+    --node-inherent-rotation-x: 0.01264011;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.025277862rad;
+  }
+  18.055557% {
+    --node-inherent-rotation-x: 0.0075263353;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.015049875rad;
+  }
+  9.722221% {
+    --node-inherent-rotation-x: 0.005029487;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.010054337rad;
+  }
+  80.55556% {
+    --node-inherent-rotation-x: 0.00036714535;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.00069053395rad;
+  }
+  34.72222% {
+    --node-inherent-rotation-x: 0.010046976;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.020096878rad;
+  }
+  13.333334% {
+    --node-inherent-rotation-x: 0.00698126;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.013965214rad;
+  }
+  88.88889% {
+    --node-inherent-rotation-x: -0.008888134;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.01778047rad;
+  }
+  83.33333% {
+    --node-inherent-rotation-x: -0.0049632597;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.009935064rad;
+  }
+  97.22223% {
+    --node-inherent-rotation-x: -0.00175808;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.0035210466rad;
+  }
+  59.72222% {
+    --node-inherent-rotation-x: 0.012838912;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.025680242rad;
+  }
+  61.11111% {
+    --node-inherent-rotation-x: 0.012869974;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.025745152rad;
+  }
+  86.666664% {
+    --node-inherent-rotation-x: -0.008726535;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.017455684rad;
+  }
+  91.66667% {
+    --node-inherent-rotation-x: -0.007243735;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.014484794rad;
+  }
+  26.38889% {
+    --node-inherent-rotation-x: 0.008721667;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.01744202rad;
+  }
+  48.611115% {
+    --node-inherent-rotation-x: 0.012011259;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.024020405rad;
+  }
+  1.388889% {
+    --node-inherent-rotation-x: 0.00044389963;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.0009765625rad;
+  }
+  4.166667% {
+    --node-inherent-rotation-x: 0.0017246623;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.0034526703rad;
+  }
+  43.055553% {
+    --node-inherent-rotation-x: 0.01130587;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.022609176rad;
+  }
+  52.77778% {
+    --node-inherent-rotation-x: 0.012428652;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.024859384rad;
+  }
+  29.166666% {
+    --node-inherent-rotation-x: 0.009158693;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.018322rad;
+  }
+  45.833336% {
+    --node-inherent-rotation-x: 0.0116768;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.02335611rad;
+  }
+  54.166668% {
+    --node-inherent-rotation-x: 0.012541668;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.02508851rad;
+  }
+  23.61111% {
+    --node-inherent-rotation-x: 0.008299083;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.01660161rad;
+  }
+  63.88889% {
+    --node-inherent-rotation-x: 0.012873832;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.025745152rad;
+  }
+  37.5% {
+    --node-inherent-rotation-x: 0.010483684;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.020967782rad;
+  }
+  31.944445% {
+    --node-inherent-rotation-x: 0.009602888;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.01921132rad;
+  }
+  41.666664% {
+    --node-inherent-rotation-x: 0.011109;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.02221557rad;
+  }
+  65.27778% {
+    --node-inherent-rotation-x: 0.012844811;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.025689526rad;
+  }
+  75% {
+    --node-inherent-rotation-x: 0.010649034;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.021294985rad;
+  }
+  77.77777% {
+    --node-inherent-rotation-x: 0.006076294;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.012158124rad;
+  }
+  11.111112% {
+    --node-inherent-rotation-x: 0.0058379318;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.011678006rad;
+  }
+  44.444447% {
+    --node-inherent-rotation-x: 0.011495439;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.022996048rad;
+  }
+  40.27778% {
+    --node-inherent-rotation-x: 0.01090574;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.021814862rad;
+  }
+  51.38889% {
+    --node-inherent-rotation-x: 0.012301972;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.024608755rad;
+  }
+  15.277778% {
+    --node-inherent-rotation-x: 0.0071907192;
+    --node-inherent-rotation-y: 0;
+    --node-inherent-rotation-z: 0;
+    --node-inherent-rotation-angle: -0.014385695rad;
+  }
+}
+.lift_load {
+  /* lift_load translation for node carriage (48) */
+  .node.node-48 {
+    animation: lift_load-0 3s infinite linear;
+  }
+  /* lift_load rotation for node mast (55) */
+  .node.node-55 {
+    animation: lift_load-1 3s infinite linear;
+  }
+  /* lift_load rotation for node beacon (2) */
+  .node.node-2 {
+    animation: lift_load-2 3s infinite linear;
+  }
+  /* lift_load rotation for node chassis (76) */
+  .node.node-76 {
+    animation: lift_load-3 3s infinite linear;
+  }
+}
+</style>
 
